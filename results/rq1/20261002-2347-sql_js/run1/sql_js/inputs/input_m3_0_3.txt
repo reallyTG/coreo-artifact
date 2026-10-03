@@ -1,0 +1,25 @@
+with "."".""a" As (
+with """.B ""..a.a"  as(With	 recursive
+c_eeae(  _a_ad ,d_ba_1adece,cb, "B""""." , cb,_cce11
+ ,aada_e_e1) AS  (select
+GROUP By ROLLUP (	+ """ "::interval[ 978606118  ]::numeric (9)::TIMESTAMP With TIME Zone[ ]::Numeric (4, 2 )::DATE[] / aeaabccaeac[ X'0aF' * Date E'y\ty\x41\101' AT TIME zone 48_186 AT TIME Zone aeb_.ededc._[+ lower(-	E'\t\101y\101  \101\x41y\'' % ca[ -  -
+interval  '''' LIKE 8488_157_2021468865::VARCHAR (4 )[]	+ dd / + a /  +
++ ad_1e_1[not + FALSE  % - - "..".a_dc_aa1bc	At Time	 ZONE  FALSE ^ - + + "B  "._b::d1eed1c_1.baaaeb1bd like
+		ALL( with RECURSIVE e_e1_d_a1a( aea	 ,ca_,ac_ece_a1, da1ab  , dd, bd, "a", _1b  , bebbdde1_b,cc1bbe ) As(select /* c */  ALL group BY deca."."""". BB" !~ badbbd.c_e_ - + adad * 'z''yyxxy y' AT Time Zone GREATEST ( string_agg() filter(WHERE ce111eedabb." B."" .".bdc1e At Time zone  TIMESTAMP U&'\0041xyx\0041x\0041''\0041\0041' -- c
+ at Time ZONE 5E298857931 * """.".rank(* ) -	array[] ^ + null::Real[9 ]::Int[ ] / - "a" ->> null % - - c_eadd like  TRUE	and not Not	 cc1_::BOOLEAN or + - _1
+Isnull) + + ed_	Not LIKE SOME ( - X'770'  is  false) And
+NOT X'77F0' OR Row()) ^ baa_c.e not between false  ^ null::Integer AND False
+Notnull and 317_71::NUMERIC::Int NOTNULL  or true notnull
+Union SELECT All "."" .".*) Select Distinct *) /* c */  OR + TRUE < Null]
+* 2 <=  ANY(select distinct * FROM
+ _ddc_a__c.a) and not	 X'07'::INTEGER  ISNULL]
+Not like ANY(date ''''''''' ' ^ E'y') != NULL IS null) Over( ) %  dc.c  !~* U&'x' - x'7a' / 'y x' not
+ BETWEEN - 96 And false <> -- c
+
+SOME(443) or array[] And not row ( )]  + B''
+* Array[]  !=
+false isnull and Not
+ + interval E'' Notnull or null %	7576]::Text[ ]	 + "Ba" & -- c
+	 -  ac_b ^ E'\x41x'  Not BETWEEN - Null and true or TRUE ^ 720 ISNULL) UNION All  select	*) SELECT ALL
+offset 722 ROW) SELECT * Offset 8 ROW	 For SHARE)
+select Distinct *;

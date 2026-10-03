@@ -1,0 +1,47 @@
+$ ./.venv/bin/python -u run.py simplejson_tailored --seed=20260922 --output-dir=./results/rq1/20261002-2249-tailored-simplejson_tailored/run1/simplejson_tailored --max-wall-seconds=3420
+
+[props] max_repetition=20 (bounds * and + during generation)
+[props]   count_false                        0..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_literal                      0..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_member                       2..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_more_member                  1..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_null                         0..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_number                       0..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_string                       0..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_true                         0..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props] identical to count_member, not derived: count_key, count_value
+[props] fixed count, not derived: <object>, <root_value>
+[simplejson_tailored] properties: ['count_number', 'count_literal', 'count_false', 'count_true', 'count_null', 'count_string', 'num_pairs', 'doc_bytes', 'key_density']
+[simplejson_tailored] range-stratified exploration: <more_member> bands=[(24, 99), (99, 499), (499, 1999), (1999, 2999)]
+  [explore] band more_member24-99: 20 inputs (max_nodes=4000)
+  [explore] band more_member99-499: 20 inputs (max_nodes=14970)
+  [explore] band more_member499-1999: 20 inputs (max_nodes=30000)
+  [explore] band more_member1999-2999: 20 inputs (max_nodes=30000)
+[metrics] simplejson_4_0_0: 60s per-input cap reached after 7 sample(s); keeping them
+[metrics] simplejson_4_0_0: 60s per-input cap reached after 6 sample(s); keeping them
+[WARNING] wall-clock budget reached after 77 of 80 inputs; keeping what is measured.
+[simplejson_tailored] iter 0 (explore): corpus=154 (+154 new this run)
+[simplejson_tailored] wall-clock budget (3420s) reached before iteration 1; stopping with the corpus intact.
+./.venv/lib/python3.12/site-packages/scipy/stats/_wilcoxon.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  z = (r_plus - mn) / se
+[compare] runtime_ns: 77 inputs, 2 systems (paired; ratios, 1.10x equivalence band)
+[compare] overall verdicts are weighted by what the corpus contains, which the loop itself shapes; the per-region lines are the portable claim.
+  simplejson_3_20_2 and simplejson_4_0_0 equivalent: ratio 0.95x within the equivalence band (95% CI 0.94-0.95, n=77)
+[compare] memory_peak: 77 inputs, 2 systems (paired; ratios, 1.10x equivalence band)
+[compare] overall verdicts are weighted by what the corpus contains, which the loop itself shapes; the per-region lines are the portable claim.
+  simplejson_3_20_2 and simplejson_4_0_0 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=77)
+[compare] dominance across runtime_ns, memory_peak:
+  simplejson_3_20_2 and simplejson_4_0_0 EQUIVALENT on every metric
+      num_pairs [32,67.69) (n=11): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      num_pairs [67.69,143.2) (n=10): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      num_pairs [143.2,302.8) (n=12): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      num_pairs [302.8,640.6) (n=9): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      num_pairs [640.6,1355) (n=11): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      num_pairs [1355,2866] (n=24): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      key_density [0.06854,0.0783] (n=77): simplejson_3_20_2, simplejson_4_0_0 not dominated
+[interference] 2 property pair(s) tested over 154 rows; 0 show a dependence
+[simplejson_tailored] past the wall-clock budget; skipping the model fits and plots and writing the report. They are a function of corpus.csv, which is checkpointed, so the next run recomputes them from the same inputs rather than re-measuring.
+[simplejson_tailored] metric cache: 154 entries, 674 SUT executions this run
+[simplejson_tailored] wall clock: 3456s of 3420s budget
+[simplejson_tailored] report -> ./results/rq1/20261002-2249-tailored-simplejson_tailored/run1/simplejson_tailored/report.md
+[simplejson_tailored] done. corpus=154 rows (77 inputs x 2 systems). Artifacts in ./results/rq1/20261002-2249-tailored-simplejson_tailored/run1/simplejson_tailored

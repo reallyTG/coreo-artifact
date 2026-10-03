@@ -1,0 +1,39 @@
+WITH	  c_e as (  With Recursive _cd1_b ("Ba a.",  _dacebe  ,
+ a_1b,
+aa1c_c1,"  ""a", eb	
+, e_a) AS ( SELECT Distinct INTERVAL U&'\0041\0041\0041' %
+ Time U&'''' /* c */  % timestamp U&'\0041'	%
+U&'y\0041y'  not BETWEEN time U&'y''' ^ U&'\0041''' + INTERVAL U&'x\0041' / INTERVAL U&'y' / TIMESTAMP U&''''	- TIMESTAMP
+U&'yy\0041' ^ Date /* c */  U&'\0041\0041y'
+^	U&'\0041y' ^ U&'\0041''\0041' ^ Interval U&'x\0041x' ^ INTERVAL
+U&'\0041'
+ ^ DATE U&'xy\0041' ^
+interval U&'xxy' * U&'\0041\0041' ^ U&''''	^ U&'x'''	% U&'\0041y''' % time U&'y''''' % Date U&'x'  ^	U&'x''y'
+ ^  INTERVAL U&'\0041' / Interval
+ U&'yx' /* c */  ^ U&'\0041\0041' ^ U&'x''' ^ U&'y\0041x' ^ U&'y' ^ Timestamp U&'y' / U&'\0041x' % U&'''x' ^ U&'\0041\0041' ^ Interval U&'\0041' * U&'x''' - U&'\0041y''' * timestamp U&'x\0041y' % TIMESTAMP U&'\0041xy' -- c
+ * U&'xx' and TIMESTAMP U&'''\0041''' at time zone TIMESTAMP U&'\0041y' >= U&'x' ^ TIME U&'''\0041''' -- c
+ at	 TIME -- c
+  zone TIMESTAMP U&'xx''' %  U&'y''' Between TIME U&'\0041xx'	/	Timestamp
+U&'x' ^ U&'y' ^ Date U&'\0041\0041'
+* U&'yx''' %  time U&'y'	* -- c
+ U&'yx' ^ interval U&'\0041x\0041' / U&'\0041'	* U&'''\0041' - Timestamp U&'\0041''' * Timestamp U&'yx\0041' / U&'\0041''y' *	 Date U&'x\0041''' * timestamp	U&'yx\0041'	% DATE U&'x''''' ^ U&'''x'  ^ U&'yx'	  /
+interval U&'x\0041x' -  TIME U&'\0041yx' ^ DATE U&'x' ^ U&'xx\0041' ^ U&'y\0041x'  / Time
+U&'''' ^ U&'\0041\0041'''  % U&'''''\0041' / U&'y\0041\0041' ^  U&'x' ^ U&'\0041' / Interval U&'''y' -
+U&'x'	^  U&'''y'
+~~	 U&'y' ^  TIME U&'x' ^ date U&'\0041xy' * date	 /* c */  U&'y' * U&'\0041' ^ date U&'\0041y''' ^	TIMESTAMP U&'''\0041'  ^	U&''''''
+/ timestamp U&''''  * /* c */  U&'''' ^ U&'x'''  * U&'''x'  / time
+U&'x' ^  U&'\0041' - time U&'xy'
+% TIMESTAMP
+U&'\0041'
+% -- c
+ U&'y''' ^ Date U&'''' AND
+U&'y' + U&'\0041'	at time ZONE  U&'\0041y\0041' ~~ U&'''' /* c */  AT time zone Date U&'''' ^	U&'x\0041y'  ^ U&'y' ^  U&'''' ^ U&'y' ^ date U&'y' / time U&'x'  Is NULL Or timestamp U&'y' ^ interval	U&'x' /
+Interval  U&'xx'	% interval U&'''' + U&'xxx' Not	 between U&'y' ^ Timestamp U&'xyx' / U&'xxx' ^
+U&'x' + U&'xy' + date	U&'''' ^  U&'''y'	+ Interval U&'yx'  / U&'yy' / timestamp U&'x\0041x' ^ Timestamp  U&'x' ^ DATE U&'x''' ^ INTERVAL U&'\0041' # DATE U&'y''x' ^
+TIMESTAMP	U&'''\0041' * interval U&'x' ^ U&'x' %	U&'''''' / U&'\0041''' - U&'yy'  AND TIMESTAMP U&'\0041' / time  U&'x''y'	 + interval U&'y\0041x' && INTERVAL U&'y'
+isnull and Time U&'y' At Time zone
+U&'\0041y'	At time
+zone  U&'xxx' BETWEEN U&'yy' ^ U&'\0041''''' -  U&'''x' and U&'x' _cbadc UNION all select DISTINCT "a".* , *) Select all "Baa""".* LIMIT date U&'\0041' Not	 between TIMESTAMP U&'\0041\0041\0041' and U&'x'	IS not 
+ True	for update) Select  limit time U&'xxx' Between U&'y' + TIME
+
+U&'''''\0041' AND U&'''' IS true ;

@@ -1,0 +1,29 @@
+( With  b_b_da_abb1 As((with RECURSIVE dbaac (beeb1d ,bbcdeca1cba , abbab__e ,"  "".." , "a""...","BB. B.a" , dcced1ae_cb,c1,edcaaeb,  cbe
+,dc1aadb_b ) AS (select Distinct
+ Null::BIGINT[] + + ecdba_."""aa"".BBa."	* (	WITH recursive bb (".a""""BaaaBB" , b_aebac___ ) AS( /* c */   ( with	 d1 AS /* c */  ( with "B.." as(WITH	 recursive dee1cc	(___d_1ed ,
+aebcbae,c ,  ec_cb, acaead1d_1 ,c ,bde1_11 ,c1ace11cb,bec1ad1c,__b1ca_, beccec1) As ((With
+ Recursive	a_11e_da (".""", a,beaa, a1_bdab,da,_dcb1ba , ea_de1dbb1a ,
+"a""" , e1d_aeaae," .a " ,"B .") AS( -- c
+ select	distinct
+ ( NOT	 B'110011' %  Row ( B'1111101110' ^ -
+false ^ FALSE::Bigint &&
+TRUE % + false At TIME Zone c  Not Between ARRAY[ ]::SMALLINT and True) - abs ( *) over () NOT ILIKE SOME (x'0' + false) >= -- c
+ ANY	( SELECT
+distinct  *, e1d.*)  AND
+- -  X'' Or -
++ False) AT Time
+Zone " .aB"  << + (Select) notnull ddcb, *,
+cb_1.* UNION SELECT all) SELECT
+FOR Update) Union ( Select FOR share)) select ccdec1a.* for SHARE) , """a ""B"
+As(select
+  ALL for UPDATE), dcceeb_ as (select
+ALL * For update),cecaceea as( Select
+ALL For KEY share) ,c11eccd  as (Select All), ea1cace As ( Select ALL a1.* for share) SELECT *
+, * for share) ,cb as	( SELECT dab.*), _bdca As(SELECT All * FOR no Key update) , da1 AS (SELECT DISTINCT *,*,"a.B".*),eeec AS (
+select ALL * FOR update),b1a_ AS( Select * , *) select	ALL " .".*) UNION SELECT all) select DISTINCT	* union All (select Distinct  " ".*)) >> True Ilike TRUE ^ - False >= B'0000101001' Is NOT	 NULL AND NOT	 + ARRAY[ ]::SMALLINT b_edd, * Union Select
+ *) select FOR key Share) Union all	 SELECT
+"a.B".*  for  share),cca
+as (select Distinct ca1.*  For key share),_1a As (Select _dc.*),	"a.B..""B"""
+as(select All *),ededc1_11_1 as( SELECT	 ALL FOR UPDATE)  , cd_dc  as (select ALL *) Select FETCH	 first ROW only) UNION select
+Distinct	bd11c1a.* for UPDATE
+;

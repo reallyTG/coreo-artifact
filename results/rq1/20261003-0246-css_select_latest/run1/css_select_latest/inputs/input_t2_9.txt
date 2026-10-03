@@ -1,0 +1,3 @@
+*[href^=ab-a i ]#d
+@@@
+<!DOCTYPE html><html><body><div id="a" title="" data-d="">abb<input disabled required class="aa" data-ad=""> cbca<input class="bd dc" data-bd="">bcbbba acaa <input checked disabled required readonly id="cabadaaad" title="" lang="acddda" data-c="">a a   <a href="#dbbcccbdaa" id="ac">a  </a>ac<a href="#cbcbbb" lang="cccd">c </a><a title=""></a>aa ba  ab a<a href="#cdcddacb"></a><p class="d"></p>ba cbca <div class="dc acaadaacaaaab d" id="cb" title="ad" data-d=""></div>b bab</div><div data-ba="db"><em class="b cad a dddccaa abbbdcc" id="dacabbcbcdcbd" title="cc-aaccd ab"></em></div></body></html>

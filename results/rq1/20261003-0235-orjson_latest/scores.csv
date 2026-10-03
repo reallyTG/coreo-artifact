@@ -1,0 +1,6 @@
+subject,category,language,blind,a,b,metric,expected,n_regions,n_decided,n_for_a,n_for_b,outcome,explanation,explains_expected,explanation_evidence,best_ratio,best_prop,best_prop_relevance,best_region,shape_checked,n_shared_inputs,n_disagree_dropped,run
+orjson_latest,series,Python,True,orjson_3_11_5,orjson_3_11_6,runtime_ns,,28,0,0,0,no_difference,,,,,,,,no,,0,1
+orjson_latest,series,Python,True,orjson_3_11_6,orjson_3_11_7,runtime_ns,,28,0,0,0,no_difference,,,,,,,,no,,0,1
+orjson_latest,series,Python,True,orjson_3_11_7,orjson_3_11_8,runtime_ns,,28,0,0,0,no_difference,,,,,,,,no,,0,1
+orjson_latest,series,Python,True,orjson_3_11_8,orjson_3_11_9,runtime_ns,,28,0,0,0,no_difference,,,,,,,,no,,0,1
+orjson_latest,series,Python,True,orjson_3_11_9,orjson_3_12_0,runtime_ns,,28,0,0,0,no_difference,,,,,,,,no,,0,1

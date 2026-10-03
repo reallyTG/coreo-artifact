@@ -1,0 +1,129 @@
+$..acaabdd.ab.ba[?(
+@.d.*.*..[0,-18,'bc',0,'d']..[-20]['aa','d','ddbaabd',5,-54,"ca","dadddbb",0]["cc",0,-5,"a",9,'ccadaaaaa']..*.d.ad..*.b..["ac",-60]..*..[?(
+	
+
+
+	
+!((	 count($)  
+< 
+	  true) 
+
+ 
+
+&&(	
+
+
+  @   	 !=count( @..*
+ 
+
+ 
+	
+)
+&&value($.b..*[-1]..*[-3]..cc..*..['abccbaadd"a"a""',"cccbd",'','bdddc\b\fcba""']..*..[-1,23,900000800]..*..['dd',34,'aacb',4,80,"",0,-3,'db'].abddbdacb..*.ccc..[*])<=$[-1][-70][0][0][-70]
+&&	!$.*..ac..*..[2,"a",'acdaacca',10,3,"b"]..baaccdabb..aaddabb..[?(
+ 
+	 
+ 
+value($ 		
+
+ 
+)==@[0][-19]['a'].bc[0]['bbbaddddbc']||	
+@<=false 
+ &&		 !
+search(	
+
+	 
+
+ null,	true 
+	)		
+&&
+ 	 
+ ! (@	 
+<
+ 			
+ 0|| 
+
+	 count( $..ac..*
+	)<=null
+	
+		
+||true
+ 
+		<=value(@)||match( 	  
+@[-3][-900020316000]
+		,0.0000272)||
+		!
+	($..["cacdd\b\tb\""][0]		 &&
+	! 	
+	
+	
+(	
+
+ @['"bccd\\"c\'a']["c"] 	==
+	
+@[8000539]['b']||
+ 
+	$..ca..*..adcbccdb..ab.*.dd..da.cb.adc..ac.ca..*..a..["bd",'ccbaacbdba"b',2,"aaadcbac",504200155091,'bbcbcadcdbcd','cacdccaa',"ac",20]..ccccbddd|| 
+
+	 
+ ! 
+
+		
+ @.*.*
+
+&&value($) 
+		>= null&&
+	 	
+
+
+	$.* 	 
+
+ &&value(@)	< 
+$[-6][-3]&&match(count(
+
+
+	
+	@)	
+ 
+	,		-0e-02	 	  
+) 	 &&
+ 		!	 
+(	 
+!search(-0.60080E-0,
+
+ null
+
+
+
+))&&value( 			$..* 
+  )> 
+ 
+	  length($[-8507038060001] 		 
+)
+
+	&&
+
+ $[0]||@&&!	
+
+ @.bdbcdcabcda..ab&& !(	
+
+   	@[10][1].da[0][-7][4600190024]
+			 !=false&& search(	  	  -0.34002060
+	
+	,true
+
+)
+	 &&
+	   search(	
+	$[90]['bdacbabda'].bd[-9]["'\"bb"]['bc'][920100]["dcbcbaab'd"]["da"]["b"],false ) 
+ 	)||   	 
+value(	
+
+	
+
+
+$.ac.*..dccbc..[0].cb..*.da..d..*.*.d.ba..[0,''].*)>=null)||$)&&@)	)]..*.*.*.*..*.*))&&@||@)]&&$||@	)]..*..*.*..*.d..*..[*]
+@@@
+[null	
+,	
+-0]

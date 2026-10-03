@@ -1,0 +1,3 @@
+$..[?!search(@.a,"z*y[yy]*y*")]
+@@@
+[{"a":"yz"},{"a":"x","b":"yzxxyzxzzzxzxyxz"},{"a":"y","b":"yyyxzzzxyxzyyzxzxzxyy"},"xzzxyzxyzzzxzyyx","x",{"a":"zx","b":"x"},{"a":"yx","b":"zx"},{"a":"xx"},"y","yxxzxyxxzzzxyyy","xz",{"a":"yy","b":"zy"},"zyyxzzz",{"a":"yy"},"yxxxyxyx",{"a":"yy","b":"xy"},{"a":"xz","b":"xyxzxyxzxyxzyyzyzyxxxz"},"zz",{"a":"xyx"},"zy",{"a":"z"}]

@@ -1,0 +1,24 @@
+WITH Recursive -- c
+ cb  (d,c_ebcad1cd,addeaacd , ac1d_ca ) as ( select all	 FROM	 Lateral  ( WITH RECURSIVE	bdaaad (
+"a" /* c */  , bdaeeac__e_ , _11d,
+c	,  ab1a1ce , b1_ , """" ,dbe_d1bdba ,a_b ) as( ( With Recursive -- c
+ __(e_1b,abcd1cc_ad , da1e_a1a ,ea_edb_ , ac__eeed_cd,"a..B","""  .","""""""aBBaa ", """ aB.BBaB"	  ) As	 (
+  ( WITH	 recursive aacb  ( "a""a""",ceac
+,d, bcec -- c
+ ,__1dd,	b_dedacc, b
+,
+db_ddc_c_a,cd__be_	, cdd1_c ,
+aeddaa ) AS(select B'111110101' ^ /* c */  - -  b1_e.avg (* ) At Time zone True AT time zone "  "".BB".de1ea_d." .."" " AT time Zone	acdbec.ceeb1.ba at TIME zone B'01000101'::TIMESTAMP at time zone e11a1bbcc_e.cbbb.bccedcadccd[
+null + Exists ( With Recursive aae_ceeba ( e1,  e1_1ceda,aae1dc) As (SELECT distinct  *, DATE E''::date at Time zone X'7'	 / /* c */  true - + NULL = 1 and	true <> False	Is False As  eaec1ae1aa	Union SELECT *),e1ee1_1d_1("a") As(Select union select *, /* c */  c_d__d.*) Select DISTINCT *  For KEY Share) ^ dd *  array[ ] Ilike	some
+( -- c
+ with RECURSIVE """.a. "( "a"". ") As(SELECT All *
+UNION SELECT),"""B.""BB." (_cb_)  As(select all UNION ALL SELECT all	".".*,
+*) select ALL For Update) <> TRUE ] + ec1eede.aeac.". B" ilike	Any( with RECURSIVE _11a11 ( """"  , ddb__abe_ce) AS(Select UNION All	Select
+*) ,d(dbda ,b)	as(Select Distinct *,ac_.* UNION Select *) SELECT) <> SOME
+(With RECURSIVE
+be1bee ( "a""  a""a""",eac) AS(Select DISTINCT cee.*
+union all Select Distinct *) ,eb("a.aaB", "BBa") as(Select * union Select distinct *) SELECT DISTINCT * ,*,* For Key share)	And +  ARRAY[] NOTNULL UNION SELECT	distinct bc1b.*) , c_cdcce( bec)	  as(SELECT All Union select ALL _a.*) select DISTINCT ".""Ba".* For Share) union
+Select Distinct de.*) , " B a ."(b)
+as(Select DISTINCT db.*
+Union	SELECT) SELECT /* c */  Union Select ALL _cd_d_d1cca.*) union select)," """	(deb) as(SELECT
+DISTINCT * union all select DISTINCT _a.*) select FETCH Next ROW Only) As " B. """ union ALL SELECT distinct *,*),_c1eae_db_1 ( be11) as(Select all UNION SELECT All) select Distinct "BBaB".*,ecbeea_.*	;

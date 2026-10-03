@@ -1,0 +1,1 @@
+SELECT _adccc1ec FROM bab_bacc__b ;

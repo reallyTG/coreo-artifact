@@ -1,0 +1,239 @@
+$
+.*
+@@@
+		[	
+"zxzyxyyyyzy",[false		  ,"y", 
+  
+	 		true,false	,false,"yy",
+ 
+ 
+3]
+,	
+[ 
+  	 null,[
+	
+			 
+false  
+	
+
+
+
+ ,		
+ 	true	
+
+	
+	,	  
+890.010890e-00	
+ ],true,  
+ [	{ 
+"dacdaa"
+ 		
+:[
+ 
+	],
+
+  	 
+"d"
+:
+-0.10000263E-2	 ,"ba\bc\r\t\"\tc\n"		:"yyz",
+
+  	 "cad": 	true, "cabbd\bdcd"
+ 
+: 
+
+
+  false,"db":false,"cd":
+[[
+	
+[		  	  
+
+[[],0.920	
+
+	,909070000.92
+
+,
+ 	 	 {}	
+
+	,null	 
+ , 
+
+	false,true],true,[ 
+
+	
+ 
+] 		
+
+		,null  ,
+ 	 true	
+			, 		
+ false    
+   	]
+
+
+	
+
+ 
+,false	
+ ,false,true,true, false 		, 	  	[
+	"yy","z"	
+ 
+,false		 ,[], "xz",	  	
+
+
+false
+,{ 	 	 
+ },false,
+null] 	
+ 
+ 	,
+false,  
+	"zxxxxxy\/x\\x"
+
+
+ 	
+,
+		
+
+ 	
+ null
+	],
+
+false
+,
+  
+ 	 "",			 null,		 	
+ 	true,
+
+    	
+
+-0.78002000e-89,null,	 []    	 ,   false,-0.04010 	]	
+,
+  "bdcccdbd"
+		
+		
+:"yy"},false],	
+ [
+ "xy" 
+,		
+"y",-4908000925039		  
+	
+
+,
+null 	
+, "yx",
+
+true
+ 		 ,[			-40e+0		
+ 
+,	 [],	 
+  
+[], 		  	null 
+,   
+{"cc":
+ 	 {}
+
+ 	
+,"a": 
+			
+
+
+true 
+	,"acb":null,	 	"da":
+	-0.27003501e+7,  "ada":[]	
+
+
+	
+	,"bab":
+
+ 	 false
+,
+"cbb\n\/abb\ud3acb\ud8aD\uDFfbc\t":   {
+
+
+"caacccdcdd" :		
+
+ 
+ 
+"xyzyzxyz" ,"cdca\n\ndd" 
+	 	:	 	 	[20.9000005001E+66 	  ,
+ true	
+	
+, 		
+	null]}	  
+ 
+	,	
+
+
+
+
+"bcabdaaaad" 
+
+  :{"cdbdcbc\rba"
+ 
+	
+	 :	
+ 	{"cb":[{}		,{"cbddd\na\fb\fab"
+ 	
+:
+	
+	 0.009, "c"	
+	 
+:-0.00501090	 
+ 
+	
+	,"ccacdbacbbdcb":
+		 	false	,"bdd"
+ :			 
+true,"ca":{},"bc":	 	-10503.60000200,"bbcb\"ab\na\"\bdb\"c":{"cddabbb\r\rdc\bda\/\udBdF\udFfda":null,"b"
+	
+ 
+:  	 		true,"ad":
+	[3.5790476096E36
+ ,{ 	}			
+
+ 		,	
+null,true,null 	 , 	
+
+
+ true,		0.232000E+3],			
+	"bbc"
+
+
+ 
+		:-0.80077046e0 ,"dbdcaada\\\"c\uD5a0\r\\b\"\/":
+
+
+
+	
+	[	
+ 	{ 	"d\"bc\"c\ra\/\"a":null 
+ 
+, 		 	"ddb"
+   :
+
+
+ 
+false,
+	
+	
+ "bb": {
+	  	}
+
+ 		 
+,	 
+
+"ab":	
+ 0,	
+ "babbccbc":
+  true,"cacdadb\b\ndccab": null,"aab":{"acb"
+ 	: 
+	 "zy\rz\\",    
+ 
+"dcc"
+	 	 :
+
+true,  	 	 "a":
+ null,
+"cc\uacfb\"\r\fc\fad\\d":null 
+    
+,"dbbb":	  ""}}]}}]}}}]]]]

@@ -1,0 +1,3 @@
+*[ disabled ~=ba i ], b#dbdccdbc:optional#da#acbbbddcdabbc>input.d.cdacbdabcbacca +*[lang].ba+:has(b, ~a[required]:not( #bc[ href ~="" ] #db, * ~ *)#cdbadcabdba.dbcc[type][title].d:first-of-type+#dbdaadacbdd ) +div , em ~ .ccdcdab:root:where(html#cbbdddbcbbdb:disabled:first-of-type>#b[ disabled|="cc" ]:not( #d section )#a) ~ *#cc ~* ~ body:active:empty~ #a >div.bbddd:first-of-type >*[ class] * ,:nth-last-of-type(018 ) ~ *+ html#bddcdadbdca[ data-cababacddddaa ][ type ][data-ccddb$="a" i]:nth-last-of-type(even )~:hover.accddacdabdb >*+[type ] > span, *#bb.cb~:last-child~ * >em#bd >div > *, div + #bc , *#d.ab:last-of-type:lang(adddacbac-dbbcadbbbabb)
+@@@
+<!DOCTYPE html><html><body><p class="aacaabdabdbbab" id="cdac"></p></body></html>

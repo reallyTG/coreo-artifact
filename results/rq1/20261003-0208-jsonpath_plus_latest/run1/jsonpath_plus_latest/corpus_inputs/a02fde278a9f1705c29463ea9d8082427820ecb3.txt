@@ -1,0 +1,27 @@
+$['aacb',"ccbdcdcac'\t\"'\"",'dccaaada\bb\'',0]..*..bbdddbbba..ac..[-60]
+@@@
+  
+	[
+	-0.0200E+79,
+	
+null
+
+
+
+
+
+
+
+,		
+
+	-60,	
+ false,	
+ 	  true
+,-2.00,false
+	 
+
+ 
+
+
+,	{	
+	}]   			 	

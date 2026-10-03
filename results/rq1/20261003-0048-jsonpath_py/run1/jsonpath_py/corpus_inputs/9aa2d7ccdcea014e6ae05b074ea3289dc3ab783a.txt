@@ -1,0 +1,27 @@
+$[  
+		
+"\"'\taadb\f\f\"c\"''\"\"b\"aaa\/ab\"da'dac\\'\fd\r\"\"\b\"ddc'"			
+	][ "cdacd\"'d\"\bd\\ccdbac\nd\"dbbcd'd\uBcf0\n\nb'\tbbadd\/\"\"''\nb\"\"\tddd", 	"bcc\"adbc\"aaa'\uD0ac\uD7a4\"\uaEacdac\\'bb\"dd'baaa'\"c\n\"c''aa\"ac\"\b''dd" 
+		 ,"db\"add\"\ncc\/dcdd'\/\facda\"\"\"da\uD9Fd\udEB9'\\\b\ud7Ad'cad'a\r\\''\"\\d\"dd\""	  
+	,"b'a\\d\r\\cd\nd'dab\"d\/d"
+		,		
+"cdabcca\n'b\"\/\r\f\b\"c\"dc'\"b\\cbaa\"\uD2ea\"dd\"'\\\"\fd\"\uD4eE'\r","baaa\"'b'\"ccd''dadd\f'\r'\t\t\/d'\fc'b\n\fb\t'd\b''\"\"\r\uc1EA",	
+	 		 
+
+"ad\\cc\\c\b\"'\uD3dcab\"\/'cda\tb\uBabFb\t'\\\"\"\"a'aa" ,"bc'b\/c'\fca\bb''c\uD7EEba\r\"d\uD5ae\"\"d\ndbcac\"b\n","cdb\/'''\bcdd\uDbFF\udfdea'\"\t\"\f\"a'a"
+		
+  	
+,
+  "baca\/cac'\"b\"da\"bcda\"\"\"d''\"ba\uDBC0\uDEDDd\"\ud9cf\uDfA6c\"\"\"'\/bcd\"\"aab'\"a\"c\"'\\da\ud9B0\udCfB",
+		 	
+"aab\"\r\"aadc\"c\"\b'\"d\"\\\\\"\fbdacd\"\"dbbbb\"\"\"b\"a\f\"b\fb" ]["dabcac\/\"c'baad\/ac'ddbbcdb''\"d\"b\\\"ad'\"d\t\"a'\"c\"d\t\"b"]      
+["cada\"'\"ba\"\"\"ac\"'\"\ud1bb\\ac\"\nd\"'cb","dacb\"\fb'a\b\/\"'\"ca'\"\/a\f'\/\nb'"
+  ,"acad\ncacd'\"\/dd\"bb\"ca'b'\"b\\\/\tac\f\"d'\rdac\"ac",
+
+		 
+ "dcdabc\"b'\tbc\"b\\a\"a\b\\d'cc\"\"a\"\"'a'"	]
+@@@
+{"aaddb":
+ 
+  		false
+,"aaaca\t":-0.64,			"ccb": "yz"}

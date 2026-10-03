@@ -1,0 +1,3 @@
+$.*..[?match(@.b,"x?z+.")&&match(@.b,"x{1,3}")&&search(@,'yzy?|zzy+x')&&!match(@.a,'x[^z]+.|.+y')&&!match(@.a,'z|xz{0,1}z[^x-zyx-z]')&&match(@.b,'z{2,4}.')&&!match(@.b,".{1,3}y{0,2}y+x|xx{0,1}zy{0,1}")&&search(@.b,"y*y.")&&match(@.b,'.')&&!match(@.a,'y')&&!match(@.b,"y.|yy+z")&&!match(@,'z.y+')&&!search(@,'xx+x|y{0,2}xxz')&&match(@.b,"z")&&!search(@,"yz?|z")&&search(@.a,"x.x.{1,2}|[yzx-z]?")&&!match(@.b,"yy|y")&&match(@,'x+[^x]{2,4}|.*x+x*y')&&search(@.a,'y')&&!search(@,'x*')&&search(@.b,"x*.x|z*zy?")&&!search(@.b,"y*y.")]
+@@@
+[{"a":"y","b":"yy"},{"a":"z","b":"yz"},{"a":"x","b":"yy"},{"a":"y","b":"xx"},{"a":"y","b":"xx"},{"a":"x","b":"yz"},{"a":"y","b":"zxxxzz"},{"a":"y","b":"zxxxzz"},{"a":"x","b":"yz"},{"a":"yzxxxxy","b":"x"},{"a":"yzxxxxy","b":"x"}]

@@ -1,0 +1,1 @@
+SELECT _dad FROM a WHERE aedccc_de1d IN( bb.bdae_a);

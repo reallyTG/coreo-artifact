@@ -1,0 +1,1678 @@
+$ ./.venv/bin/python -u run.py jsonpath_py --seed=20260922 --output-dir=./results/rq1/20261003-0048-jsonpath_py/run1/jsonpath_py --max-wall-seconds=3420
+
+[props] max_repetition=20 (bounds * and + during generation)
+[props]   count_B                            0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_D                            0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_DIGIT1                       0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_DIGIT                        0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_HEXDIG                       0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_S                            0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_abs_query                    0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_abs_singular_query           0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_and_tail                     0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_array                        0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_basic_expr                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_bracketed_selection          0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_child_segment                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_comparable                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_comparison_expr              0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_count_expr                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_descendant_segment           0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_doc_char                     0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_escape                   0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_exp                      0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_mixed                    0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_name_char                0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_name_mixed               0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_name_special             0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_number                   0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_special                  0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_string                   0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_dq_char                      0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_dq_chars                     0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_dq_mixed                     0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_dq_special                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_escapable                    0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_exp                          0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_filter_query                 0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_filter_selector              0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_frac                         0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_hexchar                      0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_high_surrogate               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_index_segment                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_index_selector               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_int                          0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_alt                      0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_branch                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_cce1                     0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_char_class               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_char_class_expr          0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_normal_char              0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_piece                    0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_quantifier               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_range_quantifier         0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_regexp                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_iregexp_literal              0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_length_expr                  0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_letter                       0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_literal                      0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_logical_and_expr             0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_logical_expr                 0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_logical_function_expr        0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_logical_not_op               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_low_surrogate                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_match_expr                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_member                       0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_member_name_shorthand        0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_more_member                  0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_more_selector                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_more_value                   0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_name_char                    0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_dq_char                 0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_dq_chars                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_dq_mixed                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_dq_special              0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_first                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_segment                 0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_selector                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_sq_char                 0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_sq_chars                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_sq_mixed                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_sq_special              0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_non_d_hex                    0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_non_surrogate                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_nonempty_array               0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_nonempty_object              0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_number                       0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_object                       0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_oct_digit                    0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_or_tail                      0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_paren_expr                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_pos_int                      0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_regex_argument               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_rel_query                    0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_rel_singular_query           0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_s_segment                    0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_s_singular_segment           0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_search_expr                  0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_selector                     0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sign_opt                     0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_singular_query               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_slice_selector               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sq_char                      0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sq_chars                     0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sq_mixed                     0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sq_special                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_string_literal               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_test_expr                    0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_value                        0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_value_argument               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_value_expr                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_value_function_expr          0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_wildcard_selector            0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ws                           2..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props] identical to count_and_tail, not derived: count_and_op
+[props] identical to count_bracketed_selection, not derived: count_selection_list
+[props] identical to count_comparison_expr, not derived: count_comparison_op, count_comparison_op_s
+[props] identical to count_doc_exp, not derived: count_doc_e
+[props] identical to count_doc_number, not derived: count_doc_int, count_doc_num_int
+[props] identical to count_doc_string, not derived: count_doc_chars
+[props] identical to count_exp, not derived: count_exp_e
+[props] identical to count_high_surrogate, not derived: count_high_second
+[props] identical to count_ire_char_class_expr, not derived: count_ire_caret_opt
+[props] identical to count_ire_piece, not derived: count_ire_atom
+[props] identical to count_logical_expr, not derived: count_logical_or_expr
+[props] identical to count_low_surrogate, not derived: count_low_second
+[props] identical to count_member, not derived: count_doc_name_chars, count_member_name
+[props] identical to count_more_selector, not derived: count_comma_s
+[props] identical to count_name_selector, not derived: count_name_string_literal
+[props] identical to count_number, not derived: count_num_int
+[props] identical to count_or_tail, not derived: count_or_op
+[props] identical to count_paren_expr, not derived: count_paren_body
+[props] identical to count_s_segment, not derived: count_segment
+[props] identical to count_s_singular_segment, not derived: count_singular_segment
+[props] identical to count_slice_selector, not derived: count_end_opt, count_start_opt, count_step_opt
+[props] fixed count, not derived: <doc>, <doc_root>, <jsonpath_query>
+[jsonpath_py] properties: ['count_s_segment', 'count_B', 'count_descendant_segment', 'count_wildcard_selector', 'count_bracketed_selection', 'count_selector', 'count_name_selector', 'count_name_sq_chars', 'count_name_sq_mixed', 'count_name_char', 'count_name_first', 'count_name_sq_special', 'count_escapable', 'count_hexchar', 'count_high_surrogate', 'count_D', 'count_HEXDIG', 'count_DIGIT', 'count_DIGIT1', 'count_non_surrogate', 'count_non_d_hex', 'count_oct_digit', 'count_low_surrogate', 'count_name_sq_char', 'count_name_dq_chars', 'count_name_dq_mixed', 'count_name_dq_special', 'count_name_dq_char', 'count_slice_selector', 'count_int', 'count_pos_int', 'count_index_selector', 'count_filter_selector', 'count_logical_expr', 'count_logical_and_expr', 'count_and_tail', 'count_basic_expr', 'count_test_expr', 'count_filter_query', 'count_rel_query', 'count_paren_expr', 'count_comparison_expr', 'count_or_tail', 'count_more_selector', 'count_member_name_shorthand', 'count_child_segment', 'count_abs_query', 'count_S', 'count_logical_function_expr', 'count_match_expr', 'count_value_argument', 'count_value_function_expr', 'count_length_expr', 'count_count_expr', 'count_value_expr', 'count_singular_query', 'count_abs_singular_query', 'count_s_singular_segment', 'count_rel_singular_query', 'count_literal', 'count_string_literal', 'count_dq_chars', 'count_dq_mixed', 'count_letter', 'count_sq_chars', 'count_sq_mixed', 'count_number', 'count_exp', 'count_frac', 'count_name_segment', 'count_index_segment', 'count_dq_special', 'count_dq_char', 'count_sq_special', 'count_sq_char', 'count_sign_opt', 'count_regex_argument', 'count_iregexp_literal', 'count_ire_regexp', 'count_ire_branch', 'count_ire_piece', 'count_ire_quantifier', 'count_ire_range_quantifier', 'count_ire_alt', 'count_ire_char_class', 'count_ire_char_class_expr', 'count_ire_cce1', 'count_search_expr', 'count_logical_not_op', 'count_comparable', 'count_ire_normal_char', 'count_ws', 'count_nonempty_array', 'count_value', 'count_doc_string', 'count_doc_mixed', 'count_doc_special', 'count_doc_escape', 'count_doc_char', 'count_doc_number', 'count_doc_exp', 'count_object', 'count_nonempty_object', 'count_member', 'count_doc_name_mixed', 'count_doc_name_special', 'count_doc_name_char', 'count_array', 'count_more_member', 'count_more_value', 'doc_depth', 'doc_bytes', 'query_len']
+[jsonpath_py] auto-stratified exploration: <s_segment>[(0, 0), (1, 1), (2, 4), (5, 10), (11, 24)] x <or_tail>[(1, 1), (2, 3), (4, 6), (7, 12), (13, 24)] x <and_tail>[(1, 1), (2, 3), (4, 6), (7, 12), (13, 24)] ...
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+[WARNING] recursion limit hit generating from ./results/rq1/20261003-0048-jsonpath_py/run1/jsonpath_py/grammars/jsonpath_py_m1_0_or_tail1-1.fan; lower max_repetition or max_nodes for this grammar.
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+[WARNING] recursion limit hit generating from ./results/rq1/20261003-0048-jsonpath_py/run1/jsonpath_py/grammars/jsonpath_py_m2_0_and_tail1-1.fan; lower max_repetition or max_nodes for this grammar.
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_member> defined, but not used
+[WARNING] Fandango did not generate any valid inputs.
+fandango:WARNING: Symbol <more_value> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <name_dq_char> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <name_sq_chars> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <name_sq_chars> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <name_sq_chars> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <name_sq_chars> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <name_sq_char> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <name_dq_chars> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <name_dq_chars> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <name_dq_chars> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <name_dq_chars> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <doc_name_char> defined, but not used
+fandango:WARNING: Symbol <dq_char> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <sq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <sq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <sq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <sq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <sq_char> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <dq_chars> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <dq_chars> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <dq_chars> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <dq_chars> defined, but not used
+fandango:WARNING: Symbol <doc_char> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+[WARNING] recursion limit hit generating from ./results/rq1/20261003-0048-jsonpath_py/run1/jsonpath_py/grammars/jsonpath_py_m14_3_doc_char14-52.fan; lower max_repetition or max_nodes for this grammar.
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+[WARNING] recursion limit hit generating from ./results/rq1/20261003-0048-jsonpath_py/run1/jsonpath_py/grammars/jsonpath_py_m14_4_doc_char53-200.fan; lower max_repetition or max_nodes for this grammar.
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+  [explore] 20 axes, 100 strata, 3/stratum -> 285 inputs
+  [explore] 5 stratum/strata produced nothing: or_tail1-1, and_tail1-1, more_member11-24, doc_char14-52, doc_char53-200
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[jsonpath_py] iter 0 (explore): corpus=1140 (+1140 new this run)
+[select] relevance (max |rho| vs any metric on any system): count_s_segment=0.66, count_descendant_segment=0.65, count_child_segment=0.45, count_wildcard_selector=0.58, query_len=0.53, count_basic_expr=0.58, count_filter_selector=0.57, count_literal=0.57, count_and_tail=0.56, count_logical_and_expr=0.55, count_logical_expr=0.54, count_comparison_expr=0.47, count_or_tail=0.53, count_comparable=0.47, count_B=0.39, count_string_literal=0.47, doc_bytes=0.36, count_iregexp_literal=0.44, count_ws=0.37, count_ire_quantifier=0.44, count_value=0.36, count_ire_piece=0.44, count_ire_char_class=0.44, count_bracketed_selection=0.44, count_ire_alt=0.43, count_ire_branch=0.43, count_ire_normal_char=0.42, count_ire_cce1=0.42, count_ire_regexp=0.42, count_test_expr=0.42, count_selector=0.42, count_ire_range_quantifier=0.42, count_int=0.42, count_ire_char_class_expr=0.41, count_match_expr=0.41, count_logical_not_op=0.40, count_name_first=0.40, count_S=0.40, count_singular_query=0.39, count_dq_mixed=0.26, count_dq_special=0.26, count_filter_query=0.38, count_letter=0.38, count_name_char=0.38, count_rel_singular_query=0.37, count_value_argument=0.38, count_hexchar=0.28, count_member_name_shorthand=0.38, count_HEXDIG=0.29, count_logical_function_expr=0.37, count_regex_argument=0.37, count_abs_query=0.37, count_dq_char=0.24, count_index_selector=0.37, count_sq_chars=0.36, count_D=0.30, count_name_selector=0.20, count_rel_query=0.35, count_value_function_expr=0.35, count_doc_number=0.27, count_abs_singular_query=0.34, count_index_segment=0.34, count_s_singular_segment=0.34, count_length_expr=0.33, count_sq_special=0.24, count_dq_chars=0.33, count_sq_char=0.23, count_count_expr=0.32, count_sq_mixed=0.24, count_slice_selector=0.32, count_value_expr=0.31, count_non_surrogate=0.22, count_name_segment=0.31, count_number=0.30, count_more_value=0.29, count_DIGIT1=0.29, count_DIGIT=0.29, count_high_surrogate=0.28, count_low_surrogate=0.28, count_non_d_hex=0.28, count_escapable=0.19, count_doc_char=0.27, count_more_selector=0.21, count_paren_expr=0.27, count_oct_digit=0.19, count_pos_int=0.25, count_search_expr=0.24, count_member=0.24, count_doc_string=0.22, count_nonempty_object=0.24, count_doc_exp=0.24, count_doc_mixed=0.24, doc_depth=0.22, count_frac=0.23, count_doc_special=0.23, count_doc_name_char=0.23, count_doc_name_mixed=0.23, count_more_member=0.21, count_sign_opt=0.20, count_doc_escape=0.21, count_array=0.22, count_nonempty_array=0.18, count_doc_name_special=0.21, count_object=0.17, count_name_sq_chars=0.20, count_name_dq_chars=0.17, count_exp=0.19, count_name_sq_mixed=0.10, count_name_dq_mixed=0.16, count_name_sq_special=0.10, count_name_sq_char=0.08, count_name_dq_special=0.16, count_name_dq_char=0.16
+[select] comparative relevance (max |rho| vs a between-system ratio): count_s_segment=0.66, count_descendant_segment=0.42, count_child_segment=0.63, count_wildcard_selector=0.30, query_len=0.63, count_basic_expr=0.60, count_filter_selector=0.60, count_literal=0.59, count_and_tail=0.57, count_logical_and_expr=0.58, count_logical_expr=0.56, count_comparison_expr=0.55, count_or_tail=0.54, count_comparable=0.55, count_B=0.51, count_string_literal=0.47, doc_bytes=0.47, count_iregexp_literal=0.45, count_ws=0.46, count_ire_quantifier=0.45, count_value=0.45, count_ire_piece=0.45, count_ire_char_class=0.44, count_bracketed_selection=0.43, count_ire_alt=0.43, count_ire_branch=0.43, count_ire_normal_char=0.43, count_ire_cce1=0.43, count_ire_regexp=0.43, count_test_expr=0.43, count_selector=0.43, count_ire_range_quantifier=0.42, count_int=0.38, count_ire_char_class_expr=0.42, count_match_expr=0.42, count_logical_not_op=0.41, count_name_first=0.39, count_S=0.40, count_singular_query=0.41, count_dq_mixed=0.41, count_dq_special=0.41, count_filter_query=0.38, count_letter=0.32, count_name_char=0.37, count_rel_singular_query=0.40, count_value_argument=0.39, count_hexchar=0.39, count_member_name_shorthand=0.31, count_HEXDIG=0.39, count_logical_function_expr=0.39, count_regex_argument=0.39, count_abs_query=0.37, count_dq_char=0.39, count_index_selector=0.34, count_sq_chars=0.35, count_D=0.38, count_name_selector=0.38, count_rel_query=0.35, count_value_function_expr=0.34, count_doc_number=0.37, count_abs_singular_query=0.34, count_index_segment=0.37, count_s_singular_segment=0.36, count_length_expr=0.33, count_sq_special=0.36, count_dq_chars=0.36, count_sq_char=0.36, count_count_expr=0.31, count_sq_mixed=0.36, count_slice_selector=0.35, count_value_expr=0.30, count_non_surrogate=0.35, count_name_segment=0.33, count_number=0.30, count_more_value=0.35, count_DIGIT1=0.28, count_DIGIT=0.26, count_high_surrogate=0.34, count_low_surrogate=0.34, count_non_d_hex=0.32, count_escapable=0.33, count_doc_char=0.31, count_more_selector=0.33, count_paren_expr=0.25, count_oct_digit=0.32, count_pos_int=0.25, count_search_expr=0.23, count_member=0.28, count_doc_string=0.31, count_nonempty_object=0.28, count_doc_exp=0.30, count_doc_mixed=0.24, doc_depth=0.29, count_frac=0.26, count_doc_special=0.25, count_doc_name_char=0.19, count_doc_name_mixed=0.20, count_more_member=0.28, count_sign_opt=0.27, count_doc_escape=0.27, count_array=0.23, count_nonempty_array=0.25, count_doc_name_special=0.20, count_object=0.25, count_name_sq_chars=0.24, count_name_dq_chars=0.23, count_exp=0.17, count_name_sq_mixed=0.22, count_name_dq_mixed=0.22, count_name_sq_special=0.22, count_name_sq_char=0.22, count_name_dq_special=0.22, count_name_dq_char=0.21
+[select] scored on the comparison rather than on the metric: count_child_segment (0.45 -> 0.63), query_len (0.53 -> 0.63), count_comparison_expr (0.47 -> 0.55), count_comparable (0.47 -> 0.55), count_B (0.39 -> 0.51), doc_bytes (0.36 -> 0.47), count_ws (0.37 -> 0.46), count_value (0.36 -> 0.45), count_dq_mixed (0.26 -> 0.41), count_dq_special (0.26 -> 0.41), count_hexchar (0.28 -> 0.39), count_HEXDIG (0.29 -> 0.39), count_dq_char (0.24 -> 0.39), count_D (0.30 -> 0.38), count_name_selector (0.20 -> 0.38), count_doc_number (0.27 -> 0.37), count_sq_special (0.24 -> 0.36), count_sq_char (0.23 -> 0.36), count_sq_mixed (0.24 -> 0.36), count_non_surrogate (0.22 -> 0.35), count_more_value (0.29 -> 0.35), count_high_surrogate (0.28 -> 0.34), count_low_surrogate (0.28 -> 0.34), count_escapable (0.19 -> 0.33), count_more_selector (0.21 -> 0.33), count_oct_digit (0.19 -> 0.32), count_doc_string (0.22 -> 0.31), count_doc_exp (0.24 -> 0.30), doc_depth (0.22 -> 0.29), count_more_member (0.21 -> 0.28), count_sign_opt (0.20 -> 0.27), count_doc_escape (0.21 -> 0.27), count_nonempty_array (0.18 -> 0.25), count_object (0.17 -> 0.25), count_name_dq_chars (0.17 -> 0.23), count_name_sq_mixed (0.10 -> 0.22), count_name_dq_mixed (0.16 -> 0.22), count_name_sq_special (0.10 -> 0.22), count_name_sq_char (0.08 -> 0.22), count_name_dq_special (0.16 -> 0.22), count_name_dq_char (0.16 -> 0.21)
+[select] dropped count_child_segment: |rho|=0.96 with count_s_segment, which is already kept
+[select] dropped count_wildcard_selector: |rho|=0.85 with count_descendant_segment, which is already kept
+[select] dropped count_filter_selector: over the 4-property cap
+[select] dropped count_literal: over the 4-property cap
+[select] dropped count_and_tail: over the 4-property cap
+[select] dropped count_logical_and_expr: over the 4-property cap
+[select] dropped count_logical_expr: over the 4-property cap
+[select] dropped count_comparison_expr: over the 4-property cap
+[select] dropped count_or_tail: over the 4-property cap
+[select] dropped count_comparable: over the 4-property cap
+[select] dropped count_B: over the 4-property cap
+[select] dropped count_string_literal: over the 4-property cap
+[select] dropped doc_bytes: over the 4-property cap
+[select] dropped count_iregexp_literal: over the 4-property cap
+[select] dropped count_ws: over the 4-property cap
+[select] dropped count_ire_quantifier: over the 4-property cap
+[select] dropped count_value: over the 4-property cap
+[select] dropped count_ire_piece: over the 4-property cap
+[select] dropped count_ire_char_class: over the 4-property cap
+[select] dropped count_bracketed_selection: over the 4-property cap
+[select] dropped count_ire_alt: over the 4-property cap
+[select] dropped count_ire_branch: over the 4-property cap
+[select] dropped count_ire_normal_char: over the 4-property cap
+[select] dropped count_ire_cce1: over the 4-property cap
+[select] dropped count_ire_regexp: over the 4-property cap
+[select] dropped count_test_expr: over the 4-property cap
+[select] dropped count_selector: over the 4-property cap
+[select] dropped count_ire_range_quantifier: over the 4-property cap
+[select] dropped count_int: over the 4-property cap
+[select] dropped count_ire_char_class_expr: over the 4-property cap
+[select] dropped count_match_expr: over the 4-property cap
+[select] dropped count_logical_not_op: over the 4-property cap
+[select] dropped count_name_first: over the 4-property cap
+[select] dropped count_S: over the 4-property cap
+[select] dropped count_singular_query: over the 4-property cap
+[select] dropped count_dq_mixed: over the 4-property cap
+[select] dropped count_dq_special: over the 4-property cap
+[select] dropped count_filter_query: over the 4-property cap
+[select] dropped count_letter: over the 4-property cap
+[select] dropped count_name_char: over the 4-property cap
+[select] dropped count_rel_singular_query: over the 4-property cap
+[select] dropped count_value_argument: over the 4-property cap
+[select] dropped count_hexchar: over the 4-property cap
+[select] dropped count_member_name_shorthand: over the 4-property cap
+[select] dropped count_HEXDIG: over the 4-property cap
+[select] dropped count_logical_function_expr: over the 4-property cap
+[select] dropped count_regex_argument: over the 4-property cap
+[select] dropped count_abs_query: over the 4-property cap
+[select] dropped count_dq_char: over the 4-property cap
+[select] dropped count_index_selector: over the 4-property cap
+[select] dropped count_sq_chars: over the 4-property cap
+[select] dropped count_D: over the 4-property cap
+[select] dropped count_name_selector: over the 4-property cap
+[select] dropped count_rel_query: over the 4-property cap
+[select] dropped count_value_function_expr: over the 4-property cap
+[select] dropped count_doc_number: over the 4-property cap
+[select] dropped count_abs_singular_query: over the 4-property cap
+[select] dropped count_index_segment: over the 4-property cap
+[select] dropped count_s_singular_segment: over the 4-property cap
+[select] dropped count_length_expr: over the 4-property cap
+[select] dropped count_sq_special: over the 4-property cap
+[select] dropped count_dq_chars: over the 4-property cap
+[select] dropped count_sq_char: over the 4-property cap
+[select] dropped count_count_expr: over the 4-property cap
+[select] dropped count_sq_mixed: over the 4-property cap
+[select] dropped count_slice_selector: over the 4-property cap
+[select] dropped count_value_expr: over the 4-property cap
+[select] dropped count_non_surrogate: over the 4-property cap
+[select] dropped count_name_segment: over the 4-property cap
+[select] dropped count_number: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] dropped count_DIGIT1: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_high_surrogate: over the 4-property cap
+[select] dropped count_low_surrogate: over the 4-property cap
+[select] dropped count_non_d_hex: over the 4-property cap
+[select] dropped count_escapable: over the 4-property cap
+[select] dropped count_doc_char: over the 4-property cap
+[select] dropped count_more_selector: over the 4-property cap
+[select] dropped count_paren_expr: over the 4-property cap
+[select] dropped count_oct_digit: over the 4-property cap
+[select] dropped count_pos_int: over the 4-property cap
+[select] dropped count_search_expr: over the 4-property cap
+[select] dropped count_member: over the 4-property cap
+[select] dropped count_doc_string: over the 4-property cap
+[select] dropped count_nonempty_object: over the 4-property cap
+[select] dropped count_doc_exp: over the 4-property cap
+[select] dropped count_doc_mixed: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_frac: over the 4-property cap
+[select] dropped count_doc_special: over the 4-property cap
+[select] dropped count_doc_name_char: over the 4-property cap
+[select] dropped count_doc_name_mixed: over the 4-property cap
+[select] dropped count_more_member: over the 4-property cap
+[select] dropped count_sign_opt: over the 4-property cap
+[select] dropped count_doc_escape: over the 4-property cap
+[select] dropped count_array: over the 4-property cap
+[select] dropped count_nonempty_array: over the 4-property cap
+[select] dropped count_doc_name_special: over the 4-property cap
+[select] dropped count_object: over the 4-property cap
+[select] dropped count_name_sq_chars: over the 4-property cap
+[select] dropped count_name_dq_chars: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_name_sq_mixed: over the 4-property cap
+[select] dropped count_name_dq_mixed: over the 4-property cap
+[select] dropped count_name_sq_special: over the 4-property cap
+[select] dropped count_name_sq_char: over the 4-property cap
+[select] dropped count_name_dq_special: over the 4-property cap
+[select] dropped count_name_dq_char: over the 4-property cap
+[select] count_s_segment stands for count_child_segment (indistinguishable here)
+[select] count_descendant_segment stands for count_wildcard_selector (indistinguishable here)
+[select] joint fit uses 4 of 113 properties: count_s_segment, count_descendant_segment, count_basic_expr, query_len (1,296 model fits)
+[jsonpath_py] loop targets 4 of 113 properties: count_s_segment, count_descendant_segment, count_basic_expr, query_len
+[jsonpath_py] targeting 8 regions: runtime_ns_divergence, count_descendant_segment_undecided0, count_basic_expr_x_query_len_joint, query_len_beyond, runtime_ns_high, count_descendant_segment_edge0, runtime_ns_sparse0, query_len_sparse5
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+  [runtime_ns_divergence] 55s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_descendant_segment_undecided0] 4 comparison(s) undecided in count_descendant_segment [3.826,7.483): jpython vs ng on runtime_ns and 3 more -> <s_segment>{7,9}
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_descendant_segment_undecided0] 15s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_basic_expr_x_query_len_joint] query_len spans 1..10647 overall, 1732..1854 at count_basic_expr in [58,69.6]; maximizing it at <s_segment>{19,22}
+  [count_basic_expr_x_query_len_joint] 10 of 10 seeds do not parse; seeding with 0.
+[budget] generation cut at 300s after 20 generations (22 solutions); this request is not reproducible
+  [soft] maximizing query_len: 22 candidates, best=1815, keeping 10 spanning 1815..1813
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_basic_expr_x_query_len_joint] 341s: +10 new input(s), 2 distinct shape(s), 10 measured [CUT: generation budget, not reproducible]
+  [query_len_beyond] rung 1
+  [seeds] skipped 5 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] recursion limit hit generating from ./results/rq1/20261003-0048-jsonpath_py/run1/jsonpath_py/grammars/jsonpath_py_target_3_query_len_beyond.fan; lower max_repetition or max_nodes for this grammar.
+  [query_len_beyond] 9s: no new inputs
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+  [runtime_ns_high] 51s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_descendant_segment_edge0] <s_segment>{20,22} for the top 15% of count_descendant_segment ([10,56])
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_descendant_segment_edge0] 18s: +10 new input(s), 10 distinct shape(s), 10 measured
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 14s: no new inputs
+  [seeds] skipped 2 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [query_len_sparse5] 7s: no new inputs
+[jsonpath_py] iter 1: corpus=1340 (+200 new)
+[jsonpath_py] targeting 8 regions: runtime_ns_divergence, count_descendant_segment_undecided0, count_basic_expr_x_query_len_joint, count_s_segment_beyond, runtime_ns_high, count_descendant_segment_edge0, runtime_ns_sparse0, query_len_sparse5
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+  [runtime_ns_divergence] 47s: no new inputs
+  [count_descendant_segment_undecided0] 3 comparison(s) undecided in count_descendant_segment [7.616,14.98): jpython vs ng on runtime_ns and 2 more -> <s_segment>{15,17}
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_descendant_segment_undecided0] 17s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_basic_expr_x_query_len_joint] query_len spans 1..10647 overall, 1692..1854 at count_basic_expr in [58,69.6]; maximizing it at <s_segment>{19,22} (held, best 1854)
+  [count_basic_expr_x_query_len_joint] 10 of 10 seeds do not parse; seeding with 0.
+[budget] generation cut at 300s after 25 generations (8 solutions); this request is not reproducible
+  [soft] maximizing query_len: 8 candidates, best=2022, keeping 8 spanning 2022..1722
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_basic_expr_x_query_len_joint] 374s: +8 new input(s), 4 distinct shape(s), 8 measured [CUT: generation budget, not reproducible]
+  [count_s_segment_beyond] <s_segment>{24,28} (rung 1, 4000 nodes)
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_s_segment_beyond] 17s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+  [runtime_ns_high] 42s: +2 new input(s), 2 distinct shape(s), 2 measured
+  [count_descendant_segment_edge0] <s_segment>{24,26} for the top 15% of count_descendant_segment ([14,58])
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_descendant_segment_edge0] 17s: +10 new input(s), 10 distinct shape(s), 10 measured
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 15s: no new inputs
+  [seeds] skipped 2 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [query_len_sparse5] 6s: no new inputs
+[jsonpath_py] iter 2: corpus=1500 (+160 new)
+[jsonpath_py] targeting 8 regions: runtime_ns_divergence, count_descendant_segment_undecided0, count_descendant_segment_x_query_len_joint, count_descendant_segment_beyond, runtime_ns_high, count_descendant_segment_edge0, runtime_ns_sparse0, query_len_sparse5
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+  [runtime_ns_divergence] 47s: no new inputs
+  [count_descendant_segment_undecided0] 3 comparison(s) undecided in count_descendant_segment [4.498,9.539): jpython vs ng on runtime_ns and 2 more -> <s_segment>{8,11}
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_descendant_segment_undecided0] 17s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_descendant_segment_x_query_len_joint] query_len spans 1..10647 overall, 141..2022 at count_descendant_segment in [10,12]; maximizing it at <s_segment>{20,24} (held, best 2022)
+  [count_descendant_segment_x_query_len_joint] 9 of 10 seeds do not parse; seeding with 1.
+[budget] generation cut at 300s after 20 generations (16 solutions); this request is not reproducible
+  [soft] maximizing query_len: 16 candidates, best=1924, keeping 10 spanning 1924..1811
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_descendant_segment_x_query_len_joint] 342s: +10 new input(s), 3 distinct shape(s), 10 measured [CUT: generation budget, not reproducible]
+  [count_descendant_segment_beyond] <s_segment>{24,28} (rung 1, 4000 nodes)
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_descendant_segment_beyond] 21s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+  [runtime_ns_high] 38s: +2 new input(s), 2 distinct shape(s), 2 measured
+  [count_descendant_segment_edge0] <s_segment>{24,26} for the top 15% of count_descendant_segment ([20,91])
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_descendant_segment_edge0] 16s: +10 new input(s), 10 distinct shape(s), 10 measured
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 16s: no new inputs
+  [seeds] skipped 2 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [query_len_sparse5] 7s: no new inputs
+[jsonpath_py] iter 3: corpus=1668 (+168 new)
+[select] relevance (max |rho| vs any metric on any system): count_descendant_segment=0.69, count_s_segment=0.65, count_child_segment=0.43, count_wildcard_selector=0.63, query_len=0.48, count_ire_cce1=0.30, count_int=0.46, count_ire_normal_char=0.31, count_literal=0.45, count_ire_char_class_expr=0.29, count_bracketed_selection=0.44, count_basic_expr=0.44, count_ire_char_class=0.31, count_filter_selector=0.44, count_ire_range_quantifier=0.28, count_and_tail=0.43, count_member_name_shorthand=0.42, count_selector=0.42, count_ire_piece=0.32, count_logical_and_expr=0.40, count_iregexp_literal=0.35, count_or_tail=0.39, count_logical_expr=0.39, count_ire_quantifier=0.31, count_name_first=0.39, count_ire_alt=0.30, count_comparison_expr=0.38, count_ire_regexp=0.30, count_comparable=0.38, count_ire_branch=0.31, count_name_char=0.37, count_B=0.37, count_string_literal=0.36, count_index_selector=0.34, count_HEXDIG=0.25, count_slice_selector=0.33, count_hexchar=0.25, count_letter=0.33, count_test_expr=0.33, count_D=0.23, count_singular_query=0.31, count_rel_singular_query=0.31, doc_bytes=0.28, count_ws=0.27, count_non_surrogate=0.21, count_doc_char=0.30, count_value=0.28, count_high_surrogate=0.20, count_S=0.30, count_low_surrogate=0.20, count_match_expr=0.30, count_logical_not_op=0.30, count_logical_function_expr=0.27, count_regex_argument=0.27, count_doc_name_mixed=0.28, count_sq_chars=0.28, count_value_argument=0.25, count_oct_digit=0.15, count_doc_name_char=0.27, count_index_segment=0.27, count_non_d_hex=0.26, count_member=0.27, count_nonempty_object=0.27, count_filter_query=0.27, count_more_value=0.23, count_s_singular_segment=0.27, count_doc_special=0.26, count_doc_number=0.20, count_doc_mixed=0.26, count_doc_escape=0.26, count_name_selector=0.13, count_abs_query=0.26, count_sq_special=0.18, count_sq_char=0.18, count_doc_name_special=0.25, count_sq_mixed=0.18, count_rel_query=0.25, count_doc_string=0.25, count_more_member=0.24, count_abs_singular_query=0.24, count_name_segment=0.24, count_escapable=0.12, count_dq_chars=0.24, count_more_selector=0.20, count_DIGIT1=0.23, count_array=0.23, doc_depth=0.21, count_value_function_expr=0.21, count_value_expr=0.21, count_frac=0.20, count_DIGIT=0.21, count_doc_exp=0.18, count_number=0.20, count_name_dq_mixed=0.11, count_pos_int=0.19, count_dq_special=0.16, count_count_expr=0.19, count_dq_mixed=0.16, count_length_expr=0.19, count_sign_opt=0.14, count_object=0.19, count_name_dq_special=0.11, count_name_dq_char=0.11, count_dq_char=0.16, count_paren_expr=0.16, count_name_sq_chars=0.12, count_exp=0.15, count_nonempty_array=0.13, count_search_expr=0.14, count_name_dq_chars=0.13, count_name_sq_mixed=0.06, count_name_sq_special=0.06, count_name_sq_char=0.05
+[select] comparative relevance (max |rho| vs a between-system ratio): count_descendant_segment=0.50, count_s_segment=0.68, count_child_segment=0.63, count_wildcard_selector=0.38, query_len=0.61, count_ire_cce1=0.51, count_int=0.42, count_ire_normal_char=0.51, count_literal=0.46, count_ire_char_class_expr=0.50, count_bracketed_selection=0.45, count_basic_expr=0.46, count_ire_char_class=0.49, count_filter_selector=0.45, count_ire_range_quantifier=0.46, count_and_tail=0.44, count_member_name_shorthand=0.34, count_selector=0.44, count_ire_piece=0.45, count_logical_and_expr=0.42, count_iregexp_literal=0.45, count_or_tail=0.40, count_logical_expr=0.40, count_ire_quantifier=0.45, count_name_first=0.38, count_ire_alt=0.45, count_comparison_expr=0.39, count_ire_regexp=0.45, count_comparable=0.39, count_ire_branch=0.44, count_name_char=0.36, count_B=0.35, count_string_literal=0.36, count_index_selector=0.27, count_HEXDIG=0.42, count_slice_selector=0.38, count_hexchar=0.42, count_letter=0.30, count_test_expr=0.33, count_D=0.40, count_singular_query=0.32, count_rel_singular_query=0.32, doc_bytes=0.38, count_ws=0.38, count_non_surrogate=0.37, count_doc_char=0.32, count_value=0.36, count_high_surrogate=0.36, count_S=0.31, count_low_surrogate=0.36, count_match_expr=0.31, count_logical_not_op=0.30, count_logical_function_expr=0.35, count_regex_argument=0.35, count_doc_name_mixed=0.18, count_sq_chars=0.27, count_value_argument=0.34, count_oct_digit=0.34, count_doc_name_char=0.18, count_index_segment=0.29, count_non_d_hex=0.32, count_member=0.23, count_nonempty_object=0.23, count_filter_query=0.27, count_more_value=0.30, count_s_singular_segment=0.28, count_doc_special=0.26, count_doc_number=0.30, count_doc_mixed=0.25, count_doc_escape=0.21, count_name_selector=0.30, count_abs_query=0.26, count_sq_special=0.29, count_sq_char=0.29, count_doc_name_special=0.17, count_sq_mixed=0.29, count_rel_query=0.25, count_doc_string=0.25, count_more_member=0.21, count_abs_singular_query=0.23, count_name_segment=0.25, count_escapable=0.26, count_dq_chars=0.24, count_more_selector=0.26, count_DIGIT1=0.23, count_array=0.17, doc_depth=0.21, count_value_function_expr=0.19, count_value_expr=0.17, count_frac=0.23, count_DIGIT=0.21, count_doc_exp=0.23, count_number=0.20, count_name_dq_mixed=0.21, count_pos_int=0.20, count_dq_special=0.21, count_count_expr=0.19, count_dq_mixed=0.21, count_length_expr=0.19, count_sign_opt=0.21, count_object=0.17, count_name_dq_special=0.20, count_name_dq_char=0.20, count_dq_char=0.20, count_paren_expr=0.14, count_name_sq_chars=0.19, count_exp=0.13, count_nonempty_array=0.19, count_search_expr=0.12, count_name_dq_chars=0.18, count_name_sq_mixed=0.18, count_name_sq_special=0.17, count_name_sq_char=0.17
+[select] scored on the comparison rather than on the metric: count_child_segment (0.43 -> 0.63), query_len (0.48 -> 0.61), count_ire_cce1 (0.30 -> 0.51), count_ire_normal_char (0.31 -> 0.51), count_ire_char_class_expr (0.29 -> 0.50), count_ire_char_class (0.31 -> 0.49), count_ire_range_quantifier (0.28 -> 0.46), count_ire_piece (0.32 -> 0.45), count_iregexp_literal (0.35 -> 0.45), count_ire_quantifier (0.31 -> 0.45), count_ire_alt (0.30 -> 0.45), count_ire_regexp (0.30 -> 0.45), count_ire_branch (0.31 -> 0.44), count_HEXDIG (0.25 -> 0.42), count_hexchar (0.25 -> 0.42), count_D (0.23 -> 0.40), doc_bytes (0.28 -> 0.38), count_ws (0.27 -> 0.38), count_non_surrogate (0.21 -> 0.37), count_value (0.28 -> 0.36), count_high_surrogate (0.20 -> 0.36), count_low_surrogate (0.20 -> 0.36), count_logical_function_expr (0.27 -> 0.35), count_regex_argument (0.27 -> 0.35), count_value_argument (0.25 -> 0.34), count_oct_digit (0.15 -> 0.34), count_non_d_hex (0.26 -> 0.32), count_more_value (0.23 -> 0.30), count_doc_number (0.20 -> 0.30), count_name_selector (0.13 -> 0.30), count_sq_special (0.18 -> 0.29), count_sq_char (0.18 -> 0.29), count_sq_mixed (0.18 -> 0.29), count_escapable (0.12 -> 0.26), count_more_selector (0.20 -> 0.26), count_name_dq_mixed (0.11 -> 0.21), count_sign_opt (0.14 -> 0.21), count_name_dq_special (0.11 -> 0.20), count_name_dq_char (0.11 -> 0.20), count_name_sq_chars (0.12 -> 0.19), count_nonempty_array (0.13 -> 0.19), count_name_sq_mixed (0.06 -> 0.18), count_name_sq_special (0.06 -> 0.17), count_name_sq_char (0.05 -> 0.17)
+[select] dropped count_s_segment: |rho|=0.83 with count_descendant_segment, which is already kept
+[select] dropped count_wildcard_selector: |rho|=0.91 with count_descendant_segment, which is already kept
+[select] dropped count_int: over the 4-property cap
+[select] dropped count_ire_normal_char: over the 4-property cap
+[select] dropped count_literal: over the 4-property cap
+[select] dropped count_ire_char_class_expr: over the 4-property cap
+[select] dropped count_bracketed_selection: over the 4-property cap
+[select] dropped count_basic_expr: over the 4-property cap
+[select] dropped count_ire_char_class: over the 4-property cap
+[select] dropped count_filter_selector: over the 4-property cap
+[select] dropped count_ire_range_quantifier: over the 4-property cap
+[select] dropped count_and_tail: over the 4-property cap
+[select] dropped count_member_name_shorthand: over the 4-property cap
+[select] dropped count_selector: over the 4-property cap
+[select] dropped count_ire_piece: over the 4-property cap
+[select] dropped count_logical_and_expr: over the 4-property cap
+[select] dropped count_iregexp_literal: over the 4-property cap
+[select] dropped count_or_tail: over the 4-property cap
+[select] dropped count_logical_expr: over the 4-property cap
+[select] dropped count_ire_quantifier: over the 4-property cap
+[select] dropped count_name_first: over the 4-property cap
+[select] dropped count_ire_alt: over the 4-property cap
+[select] dropped count_comparison_expr: over the 4-property cap
+[select] dropped count_ire_regexp: over the 4-property cap
+[select] dropped count_comparable: over the 4-property cap
+[select] dropped count_ire_branch: over the 4-property cap
+[select] dropped count_name_char: over the 4-property cap
+[select] dropped count_B: over the 4-property cap
+[select] dropped count_string_literal: over the 4-property cap
+[select] dropped count_index_selector: over the 4-property cap
+[select] dropped count_HEXDIG: over the 4-property cap
+[select] dropped count_slice_selector: over the 4-property cap
+[select] dropped count_hexchar: over the 4-property cap
+[select] dropped count_letter: over the 4-property cap
+[select] dropped count_test_expr: over the 4-property cap
+[select] dropped count_D: over the 4-property cap
+[select] dropped count_singular_query: over the 4-property cap
+[select] dropped count_rel_singular_query: over the 4-property cap
+[select] dropped doc_bytes: over the 4-property cap
+[select] dropped count_ws: over the 4-property cap
+[select] dropped count_non_surrogate: over the 4-property cap
+[select] dropped count_doc_char: over the 4-property cap
+[select] dropped count_value: over the 4-property cap
+[select] dropped count_high_surrogate: over the 4-property cap
+[select] dropped count_S: over the 4-property cap
+[select] dropped count_low_surrogate: over the 4-property cap
+[select] dropped count_match_expr: over the 4-property cap
+[select] dropped count_logical_not_op: over the 4-property cap
+[select] dropped count_logical_function_expr: over the 4-property cap
+[select] dropped count_regex_argument: over the 4-property cap
+[select] dropped count_doc_name_mixed: over the 4-property cap
+[select] dropped count_sq_chars: over the 4-property cap
+[select] dropped count_value_argument: over the 4-property cap
+[select] dropped count_oct_digit: over the 4-property cap
+[select] dropped count_doc_name_char: over the 4-property cap
+[select] dropped count_index_segment: over the 4-property cap
+[select] dropped count_non_d_hex: over the 4-property cap
+[select] dropped count_member: over the 4-property cap
+[select] dropped count_nonempty_object: over the 4-property cap
+[select] dropped count_filter_query: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] dropped count_s_singular_segment: over the 4-property cap
+[select] dropped count_doc_special: over the 4-property cap
+[select] dropped count_doc_number: over the 4-property cap
+[select] dropped count_doc_mixed: over the 4-property cap
+[select] dropped count_doc_escape: over the 4-property cap
+[select] dropped count_name_selector: over the 4-property cap
+[select] dropped count_abs_query: over the 4-property cap
+[select] dropped count_sq_special: over the 4-property cap
+[select] dropped count_sq_char: over the 4-property cap
+[select] dropped count_doc_name_special: over the 4-property cap
+[select] dropped count_sq_mixed: over the 4-property cap
+[select] dropped count_rel_query: over the 4-property cap
+[select] dropped count_doc_string: over the 4-property cap
+[select] dropped count_more_member: over the 4-property cap
+[select] dropped count_abs_singular_query: over the 4-property cap
+[select] dropped count_name_segment: over the 4-property cap
+[select] dropped count_escapable: over the 4-property cap
+[select] dropped count_dq_chars: over the 4-property cap
+[select] dropped count_more_selector: over the 4-property cap
+[select] dropped count_DIGIT1: over the 4-property cap
+[select] dropped count_array: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_value_function_expr: over the 4-property cap
+[select] dropped count_value_expr: over the 4-property cap
+[select] dropped count_frac: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_doc_exp: over the 4-property cap
+[select] dropped count_number: over the 4-property cap
+[select] dropped count_name_dq_mixed: over the 4-property cap
+[select] dropped count_pos_int: over the 4-property cap
+[select] dropped count_dq_special: over the 4-property cap
+[select] dropped count_count_expr: over the 4-property cap
+[select] dropped count_dq_mixed: over the 4-property cap
+[select] dropped count_length_expr: over the 4-property cap
+[select] dropped count_sign_opt: over the 4-property cap
+[select] dropped count_object: over the 4-property cap
+[select] dropped count_name_dq_special: over the 4-property cap
+[select] dropped count_name_dq_char: over the 4-property cap
+[select] dropped count_dq_char: over the 4-property cap
+[select] dropped count_paren_expr: over the 4-property cap
+[select] dropped count_name_sq_chars: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_nonempty_array: over the 4-property cap
+[select] dropped count_search_expr: over the 4-property cap
+[select] dropped count_name_dq_chars: over the 4-property cap
+[select] dropped count_name_sq_mixed: over the 4-property cap
+[select] dropped count_name_sq_special: over the 4-property cap
+[select] dropped count_name_sq_char: over the 4-property cap
+[select] count_descendant_segment stands for count_s_segment, count_wildcard_selector (indistinguishable here)
+[select] joint fit uses 4 of 113 properties: count_descendant_segment, count_child_segment, count_ire_cce1, query_len (1,296 model fits)
+[jsonpath_py] loop targets 4 of 113 properties: count_descendant_segment, count_child_segment, count_ire_cce1, query_len
+[jsonpath_py] targeting 8 regions: runtime_ns_divergence, count_child_segment_undecided0, count_ire_cce1_x_query_len_joint, count_ire_cce1_beyond, runtime_ns_high, count_child_segment_edge0, runtime_ns_sparse0, query_len_sparse5
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+  [runtime_ns_divergence] 48s: no new inputs
+  [count_child_segment_undecided0] 3 comparison(s) undecided in count_child_segment [9.11,19.03): jpython vs ng on runtime_ns and 2 more -> <s_segment>{13,16}
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_child_segment_undecided0] 17s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_ire_cce1_x_query_len_joint] query_len spans 1..10647 overall, 1676..2111 at count_ire_cce1 in [103,123.6]; maximizing it at <s_segment>{23,25}
+  [count_ire_cce1_x_query_len_joint] 6 of 6 seeds do not parse; seeding with 0.
+[budget] generation cut at 300s after 20 generations (17 solutions); this request is not reproducible
+  [soft] maximizing query_len: 17 candidates, best=1888, keeping 10 spanning 1888..1886
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_ire_cce1_x_query_len_joint] 343s: +10 new input(s), 2 distinct shape(s), 10 measured [CUT: generation budget, not reproducible]
+  [count_ire_cce1_beyond] <s_segment>{24,28} (rung 1, 4000 nodes)
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_ire_cce1_beyond] 17s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+  [runtime_ns_high] 32s: +3 new input(s), 3 distinct shape(s), 3 measured
+  [count_child_segment_edge0] <s_segment>{24,26} for the top 15% of count_child_segment ([32,83])
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_child_segment_edge0] 20s: +10 new input(s), 10 distinct shape(s), 10 measured
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 16s: no new inputs
+  [seeds] skipped 2 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [query_len_sparse5] 8s: no new inputs
+[jsonpath_py] iter 4: corpus=1840 (+172 new)
+[jsonpath_py] targeting 8 regions: runtime_ns_divergence, count_child_segment_undecided0, count_child_segment_x_query_len_joint, runtime_ns_high, count_descendant_segment_edge0, runtime_ns_sparse0, count_ire_cce1_sparse3_0, count_ire_cce1_undecided0
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+  [runtime_ns_divergence] 48s: no new inputs
+  [count_child_segment_undecided0] 3 comparison(s) undecided in count_child_segment [9.11,19.03): jpython vs ng on runtime_ns and 2 more -> <s_segment>{15,17}
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_child_segment_undecided0] 18s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_child_segment_x_query_len_joint] query_len spans 1..10647 overall, 1733..1835 at count_child_segment in [32,38.4]; maximizing it at <s_segment>{24,26} (held, best 1835)
+  [count_child_segment_x_query_len_joint] 8 of 10 seeds do not parse; seeding with 2.
+[budget] generation cut at 300s after 30 generations (47 solutions); this request is not reproducible
+  [soft] maximizing query_len: 47 candidates, best=1898, keeping 10 spanning 1898..1894
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_child_segment_x_query_len_joint] 381s: +10 new input(s), 4 distinct shape(s), 10 measured [CUT: generation budget, not reproducible]
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+  [runtime_ns_high] 31s: +2 new input(s), 2 distinct shape(s), 2 measured
+  [count_descendant_segment_edge0] <s_segment>{24,26} for the top 15% of count_descendant_segment ([37,91])
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_descendant_segment_edge0] 16s: +10 new input(s), 10 distinct shape(s), 10 measured
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 13s: no new inputs
+  [count_ire_cce1_sparse3_0] <s_segment>{24,26} for count_ire_cce1 in [421.8,562.4]
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_ire_cce1_sparse3_0] 17s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_ire_cce1_undecided0] 6 comparison(s) undecided in count_ire_cce1 [1,3.347): jpython vs ng on runtime_ns and 5 more -> <s_segment>{1,3}
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_ire_cce1_undecided0] 15s: +10 new input(s), 10 distinct shape(s), 10 measured
+[jsonpath_py] iter 5: corpus=2048 (+208 new)
+[select] relevance (max |rho| vs any metric on any system): count_descendant_segment=0.71, count_s_segment=0.61, count_wildcard_selector=0.63, query_len=0.44, count_child_segment=0.36, count_ire_cce1=0.26, count_literal=0.41, count_ire_normal_char=0.26, count_basic_expr=0.40, count_ire_char_class_expr=0.25, count_int=0.40, count_member_name_shorthand=0.40, count_ire_char_class=0.26, count_bracketed_selection=0.39, count_ire_range_quantifier=0.24, count_filter_selector=0.39, count_ire_piece=0.27, count_and_tail=0.39, count_ire_quantifier=0.26, count_selector=0.37, count_ire_alt=0.24, count_logical_and_expr=0.37, count_iregexp_literal=0.28, count_comparison_expr=0.36, count_ire_regexp=0.25, count_comparable=0.36, count_ire_branch=0.25, count_or_tail=0.36, count_name_first=0.35, count_B=0.35, count_logical_expr=0.34, count_name_char=0.34, count_doc_char=0.32, doc_bytes=0.28, count_string_literal=0.31, count_letter=0.31, count_test_expr=0.31, count_doc_name_mixed=0.31, count_doc_name_char=0.30, count_slice_selector=0.30, count_hexchar=0.24, count_index_selector=0.29, count_HEXDIG=0.25, count_doc_escape=0.28, count_ws=0.27, count_singular_query=0.28, count_doc_special=0.28, count_value=0.27, count_D=0.23, count_doc_name_special=0.28, count_rel_singular_query=0.28, count_non_surrogate=0.19, count_doc_mixed=0.28, count_logical_not_op=0.27, count_S=0.27, count_match_expr=0.24, count_logical_function_expr=0.24, count_regex_argument=0.24, count_oct_digit=0.15, count_doc_string=0.26, count_value_argument=0.23, count_more_member=0.26, count_sq_special=0.19, count_sq_mixed=0.19, count_filter_query=0.26, count_high_surrogate=0.20, count_nonempty_object=0.25, count_low_surrogate=0.20, count_member=0.25, count_non_d_hex=0.25, count_sq_chars=0.25, count_sq_char=0.18, count_more_value=0.20, count_doc_number=0.19, count_abs_query=0.25, count_index_segment=0.25, count_rel_query=0.24, count_name_selector=0.15, count_s_singular_segment=0.24, count_DIGIT1=0.23, count_more_selector=0.22, count_name_segment=0.22, count_escapable=0.11, count_array=0.22, count_value_expr=0.22, count_DIGIT=0.21, count_sign_opt=0.13, count_abs_singular_query=0.21, count_frac=0.21, count_number=0.21, count_object=0.21, count_pos_int=0.20, count_doc_exp=0.16, doc_depth=0.19, count_name_dq_mixed=0.09, count_value_function_expr=0.19, count_count_expr=0.18, count_name_dq_special=0.09, count_dq_chars=0.18, count_name_dq_char=0.08, count_length_expr=0.18, count_name_dq_chars=0.16, count_paren_expr=0.16, count_name_sq_chars=0.13, count_exp=0.13, count_search_expr=0.13, count_nonempty_array=0.12, count_name_sq_mixed=0.09, count_dq_char=0.11, count_name_sq_special=0.09, count_dq_special=0.10, count_name_sq_char=0.09, count_dq_mixed=0.10
+[select] comparative relevance (max |rho| vs a between-system ratio): count_descendant_segment=0.51, count_s_segment=0.64, count_wildcard_selector=0.37, query_len=0.58, count_child_segment=0.57, count_ire_cce1=0.53, count_literal=0.41, count_ire_normal_char=0.52, count_basic_expr=0.42, count_ire_char_class_expr=0.52, count_int=0.34, count_member_name_shorthand=0.33, count_ire_char_class=0.51, count_bracketed_selection=0.43, count_ire_range_quantifier=0.48, count_filter_selector=0.42, count_ire_piece=0.47, count_and_tail=0.40, count_ire_quantifier=0.47, count_selector=0.42, count_ire_alt=0.47, count_logical_and_expr=0.38, count_iregexp_literal=0.46, count_comparison_expr=0.37, count_ire_regexp=0.46, count_comparable=0.37, count_ire_branch=0.45, count_or_tail=0.37, count_name_first=0.35, count_B=0.28, count_logical_expr=0.35, count_name_char=0.33, count_doc_char=0.34, doc_bytes=0.39, count_string_literal=0.30, count_letter=0.26, count_test_expr=0.31, count_doc_name_mixed=0.20, count_doc_name_char=0.20, count_slice_selector=0.33, count_hexchar=0.36, count_index_selector=0.21, count_HEXDIG=0.36, count_doc_escape=0.23, count_ws=0.36, count_singular_query=0.29, count_doc_special=0.28, count_value=0.34, count_D=0.34, count_doc_name_special=0.20, count_rel_singular_query=0.28, count_non_surrogate=0.34, count_doc_mixed=0.27, count_logical_not_op=0.28, count_S=0.28, count_match_expr=0.33, count_logical_function_expr=0.33, count_regex_argument=0.33, count_oct_digit=0.32, count_doc_string=0.24, count_value_argument=0.31, count_more_member=0.20, count_sq_special=0.31, count_sq_mixed=0.31, count_filter_query=0.25, count_high_surrogate=0.30, count_nonempty_object=0.22, count_low_surrogate=0.30, count_member=0.22, count_non_d_hex=0.30, count_sq_chars=0.25, count_sq_char=0.30, count_more_value=0.30, count_doc_number=0.29, count_abs_query=0.24, count_index_segment=0.25, count_rel_query=0.24, count_name_selector=0.26, count_s_singular_segment=0.24, count_DIGIT1=0.22, count_more_selector=0.23, count_name_segment=0.22, count_escapable=0.23, count_array=0.18, count_value_expr=0.11, count_DIGIT=0.20, count_sign_opt=0.23, count_abs_singular_query=0.20, count_frac=0.18, count_number=0.20, count_object=0.19, count_pos_int=0.19, count_doc_exp=0.22, doc_depth=0.21, count_name_dq_mixed=0.20, count_value_function_expr=0.17, count_count_expr=0.17, count_name_dq_special=0.20, count_dq_chars=0.16, count_name_dq_char=0.20, count_length_expr=0.17, count_name_dq_chars=0.16, count_paren_expr=0.14, count_name_sq_chars=0.17, count_exp=0.14, count_search_expr=0.13, count_nonempty_array=0.16, count_name_sq_mixed=0.16, count_dq_char=0.06, count_name_sq_special=0.15, count_dq_special=0.07, count_name_sq_char=0.15, count_dq_mixed=0.08
+[select] scored on the comparison rather than on the metric: query_len (0.44 -> 0.58), count_child_segment (0.36 -> 0.57), count_ire_cce1 (0.26 -> 0.53), count_ire_normal_char (0.26 -> 0.52), count_ire_char_class_expr (0.25 -> 0.52), count_ire_char_class (0.26 -> 0.51), count_ire_range_quantifier (0.24 -> 0.48), count_ire_piece (0.27 -> 0.47), count_ire_quantifier (0.26 -> 0.47), count_ire_alt (0.24 -> 0.47), count_iregexp_literal (0.28 -> 0.46), count_ire_regexp (0.25 -> 0.46), count_ire_branch (0.25 -> 0.45), doc_bytes (0.28 -> 0.39), count_hexchar (0.24 -> 0.36), count_HEXDIG (0.25 -> 0.36), count_ws (0.27 -> 0.36), count_value (0.27 -> 0.34), count_D (0.23 -> 0.34), count_non_surrogate (0.19 -> 0.34), count_match_expr (0.24 -> 0.33), count_logical_function_expr (0.24 -> 0.33), count_regex_argument (0.24 -> 0.33), count_oct_digit (0.15 -> 0.32), count_value_argument (0.23 -> 0.31), count_sq_special (0.19 -> 0.31), count_sq_mixed (0.19 -> 0.31), count_high_surrogate (0.20 -> 0.30), count_low_surrogate (0.20 -> 0.30), count_non_d_hex (0.25 -> 0.30), count_sq_char (0.18 -> 0.30), count_more_value (0.20 -> 0.30), count_doc_number (0.19 -> 0.29), count_name_selector (0.15 -> 0.26), count_escapable (0.11 -> 0.23), count_sign_opt (0.13 -> 0.23), count_doc_exp (0.16 -> 0.22), count_name_dq_mixed (0.09 -> 0.20), count_name_dq_special (0.09 -> 0.20), count_name_dq_char (0.08 -> 0.20), count_name_sq_mixed (0.09 -> 0.16), count_name_sq_special (0.09 -> 0.15), count_name_sq_char (0.09 -> 0.15)
+[select] dropped count_s_segment: |rho|=0.89 with count_descendant_segment, which is already kept
+[select] dropped count_wildcard_selector: |rho|=0.93 with count_descendant_segment, which is already kept
+[select] dropped count_child_segment: |rho|=0.80 with count_descendant_segment, which is already kept
+[select] dropped count_ire_normal_char: over the 4-property cap
+[select] dropped count_basic_expr: over the 4-property cap
+[select] dropped count_ire_char_class_expr: over the 4-property cap
+[select] dropped count_int: over the 4-property cap
+[select] dropped count_member_name_shorthand: over the 4-property cap
+[select] dropped count_ire_char_class: over the 4-property cap
+[select] dropped count_bracketed_selection: over the 4-property cap
+[select] dropped count_ire_range_quantifier: over the 4-property cap
+[select] dropped count_filter_selector: over the 4-property cap
+[select] dropped count_ire_piece: over the 4-property cap
+[select] dropped count_and_tail: over the 4-property cap
+[select] dropped count_ire_quantifier: over the 4-property cap
+[select] dropped count_selector: over the 4-property cap
+[select] dropped count_ire_alt: over the 4-property cap
+[select] dropped count_logical_and_expr: over the 4-property cap
+[select] dropped count_iregexp_literal: over the 4-property cap
+[select] dropped count_comparison_expr: over the 4-property cap
+[select] dropped count_ire_regexp: over the 4-property cap
+[select] dropped count_comparable: over the 4-property cap
+[select] dropped count_ire_branch: over the 4-property cap
+[select] dropped count_or_tail: over the 4-property cap
+[select] dropped count_name_first: over the 4-property cap
+[select] dropped count_B: over the 4-property cap
+[select] dropped count_logical_expr: over the 4-property cap
+[select] dropped count_name_char: over the 4-property cap
+[select] dropped count_doc_char: over the 4-property cap
+[select] dropped doc_bytes: over the 4-property cap
+[select] dropped count_string_literal: over the 4-property cap
+[select] dropped count_letter: over the 4-property cap
+[select] dropped count_test_expr: over the 4-property cap
+[select] dropped count_doc_name_mixed: over the 4-property cap
+[select] dropped count_doc_name_char: over the 4-property cap
+[select] dropped count_slice_selector: over the 4-property cap
+[select] dropped count_hexchar: over the 4-property cap
+[select] dropped count_index_selector: over the 4-property cap
+[select] dropped count_HEXDIG: over the 4-property cap
+[select] dropped count_doc_escape: over the 4-property cap
+[select] dropped count_ws: over the 4-property cap
+[select] dropped count_singular_query: over the 4-property cap
+[select] dropped count_doc_special: over the 4-property cap
+[select] dropped count_value: over the 4-property cap
+[select] dropped count_D: over the 4-property cap
+[select] dropped count_doc_name_special: over the 4-property cap
+[select] dropped count_rel_singular_query: over the 4-property cap
+[select] dropped count_non_surrogate: over the 4-property cap
+[select] dropped count_doc_mixed: over the 4-property cap
+[select] dropped count_logical_not_op: over the 4-property cap
+[select] dropped count_S: over the 4-property cap
+[select] dropped count_match_expr: over the 4-property cap
+[select] dropped count_logical_function_expr: over the 4-property cap
+[select] dropped count_regex_argument: over the 4-property cap
+[select] dropped count_oct_digit: over the 4-property cap
+[select] dropped count_doc_string: over the 4-property cap
+[select] dropped count_value_argument: over the 4-property cap
+[select] dropped count_more_member: over the 4-property cap
+[select] dropped count_sq_special: over the 4-property cap
+[select] dropped count_sq_mixed: over the 4-property cap
+[select] dropped count_filter_query: over the 4-property cap
+[select] dropped count_high_surrogate: over the 4-property cap
+[select] dropped count_nonempty_object: over the 4-property cap
+[select] dropped count_low_surrogate: over the 4-property cap
+[select] dropped count_member: over the 4-property cap
+[select] dropped count_non_d_hex: over the 4-property cap
+[select] dropped count_sq_chars: over the 4-property cap
+[select] dropped count_sq_char: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] dropped count_doc_number: over the 4-property cap
+[select] dropped count_abs_query: over the 4-property cap
+[select] dropped count_index_segment: over the 4-property cap
+[select] dropped count_rel_query: over the 4-property cap
+[select] dropped count_name_selector: over the 4-property cap
+[select] dropped count_s_singular_segment: over the 4-property cap
+[select] dropped count_DIGIT1: over the 4-property cap
+[select] dropped count_more_selector: over the 4-property cap
+[select] dropped count_name_segment: over the 4-property cap
+[select] dropped count_escapable: over the 4-property cap
+[select] dropped count_array: over the 4-property cap
+[select] dropped count_value_expr: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_sign_opt: over the 4-property cap
+[select] dropped count_abs_singular_query: over the 4-property cap
+[select] dropped count_frac: over the 4-property cap
+[select] dropped count_number: over the 4-property cap
+[select] dropped count_object: over the 4-property cap
+[select] dropped count_pos_int: over the 4-property cap
+[select] dropped count_doc_exp: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_name_dq_mixed: over the 4-property cap
+[select] dropped count_value_function_expr: over the 4-property cap
+[select] dropped count_count_expr: over the 4-property cap
+[select] dropped count_name_dq_special: over the 4-property cap
+[select] dropped count_dq_chars: over the 4-property cap
+[select] dropped count_name_dq_char: over the 4-property cap
+[select] dropped count_length_expr: over the 4-property cap
+[select] dropped count_name_dq_chars: over the 4-property cap
+[select] dropped count_paren_expr: over the 4-property cap
+[select] dropped count_name_sq_chars: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_search_expr: over the 4-property cap
+[select] dropped count_nonempty_array: over the 4-property cap
+[select] dropped count_name_sq_mixed: over the 4-property cap
+[select] dropped count_dq_char: over the 4-property cap
+[select] dropped count_name_sq_special: over the 4-property cap
+[select] dropped count_dq_special: over the 4-property cap
+[select] dropped count_name_sq_char: over the 4-property cap
+[select] dropped count_dq_mixed: over the 4-property cap
+[select] count_descendant_segment stands for count_s_segment, count_wildcard_selector, count_child_segment (indistinguishable here)
+[select] joint fit uses 4 of 113 properties: count_descendant_segment, count_literal, count_ire_cce1, query_len (1,296 model fits)
+[jsonpath_py] loop targets 4 of 113 properties: count_descendant_segment, count_literal, count_ire_cce1, query_len
+[jsonpath_py] targeting 8 regions: runtime_ns_divergence, count_literal_undecided0, count_literal_x_query_len_joint, count_literal_beyond, runtime_ns_high, count_literal_edge0, runtime_ns_sparse0, query_len_sparse5
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+  [runtime_ns_divergence] 48s: +2 new input(s), 2 distinct shape(s), 2 measured
+  [count_literal_undecided0] 4 comparison(s) undecided in count_literal [1,2.14): jpython vs ng on runtime_ns and 3 more -> <s_segment>{3,5}
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pyjsonpath: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] rfc9535: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] ng: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_literal_undecided0] 14s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_literal_x_query_len_joint] query_len spans 1..10647 overall, 1674..2111 at count_literal in [18,21.6]; maximizing it at <s_segment>{24,26}
+  [count_literal_x_query_len_joint] 7 of 10 seeds do not parse; seeding with 3.

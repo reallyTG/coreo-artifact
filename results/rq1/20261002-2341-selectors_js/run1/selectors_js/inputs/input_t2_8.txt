@@ -1,0 +1,3 @@
+:link ,a#db,.bbadcbc.a , :not( .cc)[ data-cc $= "bbb bb-c" i ][disabled= c]+*, #aacdcdcbdacbcd~ *+*,:where(* )[checked ^="ad cdadaabdbaacdc" ]:is(b,*> *[data-cdcdd ] + *[lang]>:not(*:has(+ p.bccddbdacaddb#abca.db+input.cb,*:first-of-type.d, > .aabcbccddabcd,a [ type ^="" i]> [href~="dc a" i ]#da[class ="" i] ), *, *[class |= a i].a) > #b#b:has(*[data-cadcdbbaadbcba$="c bacaabcaacb" i] ,section+ *.dc:lang( bbbadaaba-dbdacba-bcbaad ) ~[ id = "" i] +#a#d#ac , ~ *#a+ *.cd > span[id|= ad]):has(*[required |= ba ][ readonly].dbdaadaccab) >*.da )#bdaadabcca , #cc , b#cd >* ~ *#ac+*
+@@@
+<!DOCTYPE html><html><body><em class="ba" id="db" title="bb-d"></em></body></html>

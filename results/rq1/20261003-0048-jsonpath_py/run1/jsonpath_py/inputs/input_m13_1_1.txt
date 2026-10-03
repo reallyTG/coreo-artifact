@@ -1,0 +1,166 @@
+$	
+	
+
+	[?'zy"\''=='xxzxz\'"y'][ 	 	
+?'xzyx"\\' <='zxxxxxz\'xx\''
+	    
+,  
+
+?'zxxxx\\x' 	 	<
+ 	
+
+ 'zzxyyzzxzz\\\n'&&'zxyyxxxyy"z\'y'
+ 	
+	>
+
+	 '\'\rzz'&&
+'yzxzxxz\'\/"\/'>='xxyx\'z\'z'	 			||'x\txz'!=
+
+
+	'zyy\'x\''	
+&&'yzzzxxz\'"'
+
+		 >=
+
+	 
+
+'z""z'
+ 	 
+ &&'x""'!='zyxzzxy\tz' 
+ 
+
+ &&	 					
+'\t\n\b'		
+ 
+!='zxx\'\udbaf\udeFE'&&'yxzyxzxzxy\tx'== 	 'zxxyxyyyy\'z' 	 	&&
+	
+	
+'yxzy\b\'' 
+
+	
+
+
+	=='yxxz\\\b"'		
+
+
+  
+	&&'yx\'\/'< 
+   
+ 'z\'xz'
+ ||'yz\uF0DCy'			<='zzxx\uDbab\udEadz\'\''
+&&
+ 	 	
+'zxyxxzxz"\''<'zz""' 	&&'zx\'"' 	
+!='yzyyyxyyy\'z\b'||			  
+		'zyzxyzy\ry\n"'=='xyxxx\'\'' 
+
+&& 	  	'yxzzxz""zx' 	
+
+ ==		
+
+
+	  	 'xzxyyxxz"x"' 
+ 	
+ &&
+ 	
+'zyxxzzxzzy\'\'z' 
+
+
+
+ 	==
+ 	
+
+  'zzxxy\'\n"'
+	 
+||'zxxyyzzxzy\/yy\n'>=
+  'zzzxyzyxx\n"y"'	||	
+ 
+ 
+'\'\/\/z'		
+	
+
+  >= 		 			
+ '"yx\b'&&
+'yzzzxxy"\'\b\\'   
+
+ 	<=
+  	
+'xzyzxyxy""' 
+||	'zyxyzyz\by"'
+>='yyzxzzy\/zy"'  
+
+
+	  &&		'xzyxy"\b\r'	
+
+>'zzzzy"x"\''&&'xzz"zz'== 
+'zxxy"""'	 
+&&'"\\\r\r'>=		
+
+	'xxyzzxxx\r\''&& 
+ 
+ '\rxy'>'yxyzzyxyz"xy\''&&'zxzz\'yx'==
+	  'z\'z"z'	
+
+	&&		
+ 
+		
+	'zyzxyyxzyy"\'x"'
+
+	
+<= 	
+
+'zxzyyzxxz"\f'
+&&
+
+  
+	'zxxyyyx\udBda\uDebez"'  			
+ >=
+
+	
+'yzxyzxxzx\'x\''&&  'yzyxyxy"y\b\t'  
+		
+<='"z\''&&'xxyz\'\'x"'>'zxxzxxxxz\'x\/'&&'yyyz"\nx'<='\'y' 		
+	 ||'zzxxxzzxxx"y'!='zzxzyxx\udaaE\uddfD\''&&'xzxyxzxz\n"'  
+
+ 	=='y\'x\'x'&&'zz"xx'==    'xzzxxy\\\''	 	    &&'zyzyz\f\'\r'=='xxyzyz\t"'&&'xyyxxy\'\'x'==	
+'xyxyyzz\'xx'||		
+	 	'yxxxzxzxy"\'x'
+ <=			
+ 
+		'z\nyy'
+,?'yyxyzyyyy"\'z'<='yxzyxxzxxx\nx'
+			 		,?	'xyyxyzyz\txy\''
+ 	
+<= 'yxyzyy\tx'&&'\'zz'!=
+ 'xy\'z'
+
+
+	 		&&'zxzyxxzy\udaEA\uDFeAz\uDAcc\uDfbaz'	   
+ <=	
+ 'yyz"\udBaa\uDFAA"'
+&& 		
+
+
+
+'yyx\'x'
+
+ 	
+  >'xzxyxz"\''&&'yzyxzxy\'z' 
+
+>='yxxyzz"\'z'
+ &&'xxzxx"zy'
+
+ 
+ 			<='"y'
+&&'zxx"x'		
+
+
+<= 'yxzyxz\'"\'y'	
+
+
+&&	
+
+	
+'x\'\''>='"x'||'"\''>='"\''	]
+@@@
+[true]

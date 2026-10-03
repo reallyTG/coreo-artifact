@@ -1,0 +1,3 @@
+$..a..*..b
+@@@
+{"babdaccabad":66,"bbcdbbaabdba":{"a":"z","b":["yx",56,26,5]},"cdaacdaacdba":99}

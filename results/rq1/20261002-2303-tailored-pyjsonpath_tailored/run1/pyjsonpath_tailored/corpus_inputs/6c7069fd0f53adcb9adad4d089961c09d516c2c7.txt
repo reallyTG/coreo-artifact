@@ -1,0 +1,3 @@
+$.*[?match(@.a,"x+z|.x?[^z]")]
+@@@
+["zzzzyz",{"a":"x"},{"a":"z","b":"xz"},"zz",{"a":"z","b":"z"},{"a":"yxyyyyyyy","b":"x"},{"a":"yxzyyxzyxzzy","b":"xyy"},{"a":"zz","b":"y"},{"a":"xyxyxyzy"},{"a":"yz"},{"a":"xyyzzzxyyxzx","b":"zzxxyy"},{"a":"z","b":"zzzxzyzz"},{"a":"y"},{"a":"y","b":"zyyzxxyxzzxy"},"xz",{"a":"xzyzyyzyy"},{"a":"zyzxxzy","b":"xy"},{"a":"xy","b":"xzyxx"},"z",{"a":"x","b":"xy"},{"a":"yy"},"zxzyyzyxy",{"a":"zy","b":"xz"},{"a":"x"},{"a":"yx"},"xxzyzyy"]

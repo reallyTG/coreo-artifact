@@ -1,0 +1,74 @@
+$
+@@@
+ [
+	
+	{},true,"yyzzxxxzyxx"
+ 	  ,"xxzxxyx\r" 	  	  ,[ "xyyxyzzyx",
+ 	
+	   "yxxyxx","xx"	
+
+	,""  ] 			,   	[{}
+
+
+,0.000300040 
+ 
+
+  
+, 	
+true,{"cddcccdcabb":{"d":true	
+	 }	
+,"bb"
+: 	 	
+	-9.00E+2	
+	
+	,	 "cbcd\b\"\n":
+
+	 
+	 false		  	 ,"daa"
+ 
+:	 	
+	 [true,true	
+	 ,		 	
+ 
+ 	 [],
+false  ,null	
+		 
+
+
+,true] 
+
+
+	,"cdc":	
+
+ 
+
+
+true	 
+
+ 	,	  	 "abdabccbd":	
+
+0.7e-07 
+	
+  
+,	 		
+ 	"bcd":{
+	
+ 		
+
+
+},	
+	
+	"ab\\aa\r\\a\/\nd\f\/" :true, 
+	 
+	
+
+
+"adcbdacdbcdc"	  
+	
+:
+"y\fy\\y\n",   	 
+	 "db"
+
+ 	
+ :""} 	 ,false	  ]  		
+]

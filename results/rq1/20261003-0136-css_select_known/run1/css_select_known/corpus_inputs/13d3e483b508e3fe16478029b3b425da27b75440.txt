@@ -1,0 +1,3 @@
+div#db + body:empty + span~*#b.db.d >[readonly*= "c" i ] >*.c#cd>:checked , a >.d+ *.c
+@@@
+<!DOCTYPE html><html><body><em class="dacacb" lang="dddccadbcac-adbcbcbaccb"></em><section class="ac c cc ab" title="a"></section><p class="b" title="" data-dabbccdbbbaaab="cb-ad-ca-ba b">caacbabc</p><div class="b" title="ad-d" data-ad="ac-bd"></div><div class="c" lang="ddab-dcbbdcccc-dbbadacaa-cbb" data-a="db ba">aabc a ba</div><div id="accbcc" data-bc="aac-c"></div></body></html>

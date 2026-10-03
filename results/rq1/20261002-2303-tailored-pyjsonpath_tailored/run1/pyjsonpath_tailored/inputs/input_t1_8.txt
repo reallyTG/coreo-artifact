@@ -1,0 +1,3 @@
+$[?match(@.a,'z+')&&match(@.a,"yxx?x?|xz*z*[zzx-z]?")&&!search(@,"z*[zx-zz]*")&&!match(@,"...{0,1}y{1,2}")&&match(@.a,"y*y")&&!search(@,"yy*x|y*y")&&!match(@.a,"x[^x-z]{0,1}")&&match(@.b,'x+yy{0,1}')&&!match(@.a,'x.*')&&match(@.a,'z{0,2}yxy')]
+@@@
+["xx",{"a":"xxyx"},"zz"]

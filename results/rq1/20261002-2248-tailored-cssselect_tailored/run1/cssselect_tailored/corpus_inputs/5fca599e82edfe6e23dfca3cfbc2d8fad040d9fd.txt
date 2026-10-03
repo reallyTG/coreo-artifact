@@ -1,0 +1,3 @@
+body:has(> p#aba)[class*="c" i]#caab
+@@@
+<!DOCTYPE html><html><body><p class="db" id="d">cbbb</p><div class="a baab" id="ac" title="">aaaacbbabcab</div><p id="b" lang="cabdcd-bbcda">bcab </p><span>bc aca  a<input disabled>caacbabbcccb<input checked readonly class="ad bc" id="b" title="" lang="badacabcaa-bbddcadcc"> abab<a href="#bb" class="b ba abdbbbcdda" id="accbdcabacadbc" title="abacaacbdccb">cabbac</a></span><section title="b">aba abcbab</section></body></html>

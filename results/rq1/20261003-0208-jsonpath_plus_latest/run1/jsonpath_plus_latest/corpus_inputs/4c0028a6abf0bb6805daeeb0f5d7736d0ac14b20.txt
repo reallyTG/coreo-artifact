@@ -1,0 +1,19 @@
+$..[-6].cdcbacb.db..*.ad..*..*.c
+@@@
+{"dda":0,
+
+	
+ 	
+ "aaa":-0,    		"cb":[	
+		
+	null
+ ,-0.27,true,-6	 
+	 
+  
+,
+ null,true,null
+  ,
+
+""]	
+
+		 }

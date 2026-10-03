@@ -1,0 +1,1 @@
+SELECT _dacca1d1_b FROM beecb_acd WHERE bb_bc.adbae IN ( _ed_e AND 148886 ,18181543) ;

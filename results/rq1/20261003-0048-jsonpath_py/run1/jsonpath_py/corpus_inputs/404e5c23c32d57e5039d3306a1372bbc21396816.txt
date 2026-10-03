@@ -1,0 +1,158 @@
+$[? 
+ 	  !
+ match(value(	   
+
+@[? 
+  	! 
+	 
+
+
+match(
+
+	$
+	 
+		['a']	
+ 
+ ,	
+ 	 '.'	
+  ),? 	 
+  
+	match(	 
+ 	 count(
+
+@[?match(value(			 $	[?!		
+ match(count(	
+		 $[? 	
+ 		
+
+!
+	 
+match("zxzxx",
+"z{1,3}"	
+) 	
+
+ &&		 
+
+!
+
+
+ match(@
+
+
+[0][40],'(c|b|y+|a*|[^a-da-d]?|y{2,4}|d|d?|c)|z?|b{1,2}|z{1,3}|x|c{0,}|x'
+	
+	)		  	 
+
+||!match( 	
+
+  @		,'y|y|y*|b*|y|y')||match(	  count($[?	match(length(		 	-0) 	 
+
+	 ,'.|c|d*|(z?)*|((.?)|z?|x|.|x+|x{1,2}|c*|x|z|c)|d+|(d|c{0,2}|c|b|z{0,2}|d|d?|a+|a){1,2}')&&
+ 	
+match(  	$[0]
+
+ 
+
+		.b['da'] 
+		 
+  	
+['dd']
+
+	.dc    [-3][-750801].bd[60]["bcdadccbbdb"]		 
+,"[^x-za-dx-za-dyda-dad]|y|((d|a|z+|x{2,4}|b|d)|y|x{1,3}|a+|z+|(a*)?|z?|b{2,4})|[a-da-da-dx-zdczb]|d+|a{9}|a+"	
+
+
+	)&& 
+
+
+ match(true,'(b|b|z|x|x|b{1}|d|c?|[^zx-zba-da-ddx-z]|c)?')
+
+
+ &&
+
+	match(  length("xy"
+	
+) 	 	 
+	
+,		   	'.+|(d)|(y*|z|(y+){2,4}|a|a*|b){1,3}')	 
+	
+
+ 
+&&match(	
+
+ @[233691800050] 	   .b["cd"].bb		
+[0]
+
+		 	.ccddbacadbbc 	[63].b[''][0]
+	 
+ 		[-3]
+[-4680007] 
+
+ 
+		,  
+"a"  )
+
+ && 	
+
+	 
+ match(@
+.aabbaddcaa.c,'a|y*|a')&& 
+ !
+
+	 	match(
+ 		@		  	[''][-7][-38030360],
+		 			".{6}|d{1,3}|z+|b|c?|z|a|c")&& 
+match($[-27]['b'],'.?|z'  		)
+
+ 	
+	&&match('x',   
+
+"b|a|(a)|.{2,4}|c|d?|x{1,2}|d*"	 	
+) 		
+
+&&! match(value(	
+  @),'y{1,3}'	)	
+	
+  
+ ][?!match(	
+
+ 	  	null
+  
+		,"z?|b|([x-zx-za-da-dx-zx-zx-zzcx-z]*|y*|x|z|d?)"	
+      	)&&match(	
+ null,	
+ 
+'y|z' 
+
+)|| 
+	 
+ 
+!
+	  
+ match(620010830001850.13,"d")	 	 &&  match($,'z+')]	 )
+ 
+, 
+'d*|b|(b)|.?|d+|b*|x+|y*|d|.')][?match(false,'b')]),"z")][?match(false,'b')]
+
+  	
+)		,		'c')&&
+	match($[-2],'x|z?')||!match(
+	
+ 
+0,'.{1,2}')][?match(false,'y')])
+		  	,'x|(c|c)')&&! 	
+match(9,".")||
+ 
+! match($,'z*')
+
+	
+
+
+
+ ][?match(null,'y')]	),
+	 "c?|x{0}|y?")|| 
+match( $,"z?")	 
+ 	
+]
+@@@
+[null]

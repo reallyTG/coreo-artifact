@@ -1,0 +1,1 @@
+SELECT a1eeec_ FROM adbedc WHERE d_.a1 IN ( bb1, 169829853);

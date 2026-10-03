@@ -1,0 +1,92 @@
+{
+  "count_char_2|depth": {
+    "band": [
+      13,
+      15
+    ],
+    "best": 7.0,
+    "direction": "maximizing",
+    "extensive": "count_char_2",
+    "intensive": "depth",
+    "stalls": 1,
+    "window": [
+      406.0,
+      487.2
+    ]
+  },
+  "count_hex_high_surrogate_not3f|depth": {
+    "band": [
+      11,
+      14
+    ],
+    "best": 6.0,
+    "direction": "maximizing",
+    "extensive": "count_hex_high_surrogate_not3f",
+    "intensive": "depth",
+    "stalls": 0,
+    "window": [
+      3.0,
+      4.0
+    ]
+  },
+  "count_minus_opt|depth": {
+    "band": [
+      10,
+      13
+    ],
+    "best": 7.0,
+    "direction": "maximizing",
+    "extensive": "count_minus_opt",
+    "intensive": "depth",
+    "stalls": 0,
+    "window": [
+      3.0,
+      4.0
+    ]
+  },
+  "count_null|depth": {
+    "band": [
+      24,
+      26
+    ],
+    "best": 6.0,
+    "direction": "maximizing",
+    "extensive": "count_null",
+    "intensive": "depth",
+    "stalls": 0,
+    "window": [
+      9.0,
+      10.799999999999999
+    ]
+  },
+  "count_string|depth": {
+    "band": [
+      24,
+      26
+    ],
+    "best": 5.0,
+    "direction": "maximizing",
+    "extensive": "count_string",
+    "intensive": "depth",
+    "stalls": 1,
+    "window": [
+      49.0,
+      58.8
+    ]
+  },
+  "count_unescaped_ascii_other|depth": {
+    "band": [
+      22,
+      24
+    ],
+    "best": 7.0,
+    "direction": "maximizing",
+    "extensive": "count_unescaped_ascii_other",
+    "intensive": "depth",
+    "stalls": 0,
+    "window": [
+      207.0,
+      248.39999999999998
+    ]
+  }
+}

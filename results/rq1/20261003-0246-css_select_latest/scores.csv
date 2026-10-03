@@ -1,0 +1,5 @@
+subject,category,language,blind,a,b,metric,expected,n_regions,n_decided,n_for_a,n_for_b,outcome,explanation,explains_expected,explanation_evidence,best_ratio,best_prop,best_prop_relevance,best_region,shape_checked,n_shared_inputs,n_disagree_dropped,run
+css_select_latest,series,JavaScript,True,css_select_5_1_0,css_select_5_2_0,runtime_ns,,26,6,6,0,reported,,,,1.156,doc_bytes,0.31,1046-2601,hits,260,0,1
+css_select_latest,series,JavaScript,True,css_select_5_2_0,css_select_5_2_2,runtime_ns,,26,6,0,6,reported,,,,0.851,count_type_selector,0.89,9.539-20.23,hits,260,0,1
+css_select_latest,series,JavaScript,True,css_select_5_2_2,css_select_6_0_0,runtime_ns,,26,19,19,0,reported,,,,1.308,count_type_selector,0.89,9.539-20.23,hits,260,0,1
+css_select_latest,series,JavaScript,True,css_select_6_0_0,css_select_7_0_0,runtime_ns,,26,21,0,21,reported,,,,0.724,doc_bytes,0.31,169.1-420.6,hits,260,0,1

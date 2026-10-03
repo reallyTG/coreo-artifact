@@ -1,0 +1,6 @@
+$[-8]..[0,"b","acbdbddabacb",30,"adcdddddd'cba",'',"","c"]..*..[:].da..*..[?(@)].ab..cdbdddbc..*["a\f'c\"\f"]
+@@@
+
+  	{"caabd":null,"b"	:false
+  	} 
+ 

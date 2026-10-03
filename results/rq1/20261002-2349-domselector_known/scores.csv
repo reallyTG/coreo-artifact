@@ -1,0 +1,6 @@
+subject,category,language,blind,a,b,metric,expected,n_regions,n_decided,n_for_a,n_for_b,outcome,explanation,explains_expected,explanation_evidence,best_ratio,best_prop,best_prop_relevance,best_region,shape_checked,n_shared_inputs,n_disagree_dropped,run
+domselector_known,known,JavaScript,True,domselector_9_2_1,domselector_9_2_2,runtime_ns,b_faster,27,0,0,0,missed,,,,,,,,hits,124,0,1
+domselector_known,known,JavaScript,True,domselector_9_1_1,domselector_9_1_2,runtime_ns,b_faster,27,0,0,0,missed,,,,,,,,hits,124,0,1
+domselector_known,known,JavaScript,True,domselector_9_0_4,domselector_9_1_0,runtime_ns,b_faster,27,0,0,0,missed,,,,,,,,hits,124,0,1
+domselector_known,known,JavaScript,True,domselector_9_0_3,domselector_9_0_4,runtime_ns,b_faster,27,0,0,0,missed,,,,,,,,hits,124,0,1
+domselector_known,known,JavaScript,True,domselector_8_2_4,domselector_8_2_5,runtime_ns,b_faster,27,0,0,0,missed,,,,,,,,hits,124,0,1

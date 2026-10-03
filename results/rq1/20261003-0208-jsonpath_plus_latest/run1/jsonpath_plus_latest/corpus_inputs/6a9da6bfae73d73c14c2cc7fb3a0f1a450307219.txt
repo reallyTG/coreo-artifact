@@ -1,0 +1,17 @@
+$[40270300205,'b',0]..*[60,7,4,"",'bbddda"',"",'a',0,'acddcdaa','cdbdcaabcbd']..*..[-7,'','adbcab',0]
+@@@
+
+[ 	
+ 	 "yz", 
+  
+ true,[
+
+ false],
+
+
+	 "y\ryz\"zy\tx"
+	]
+  	
+
+
+ 

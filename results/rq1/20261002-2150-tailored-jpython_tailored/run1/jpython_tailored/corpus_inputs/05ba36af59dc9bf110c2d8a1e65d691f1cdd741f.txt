@@ -1,0 +1,3 @@
+$..*.cc..*
+@@@
+{"aaacdabbd":"zy","cdadadcaaddd":["zy",54,"zy","y",0,17,7,"x"]}

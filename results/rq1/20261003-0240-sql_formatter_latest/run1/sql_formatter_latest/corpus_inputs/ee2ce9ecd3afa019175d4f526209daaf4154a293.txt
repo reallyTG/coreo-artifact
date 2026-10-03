@@ -1,0 +1,16 @@
+With "B B."" " as( WITH
+ Recursive _ec_1_c  (" ..aaBB",
+c	,
+c, d_, _dc1ab_a_b,beab,d1deec1 ,b1aab11_bb_ ,d_aa1cce1d1, __ad___a)  As (select DISTINCT *,NOT c_edb1eaeda.ca.b1cdd_1e_a at Time ZONE FALSE::TIMESTAMP with time Zone[416932286] At Time ZONE  bcb1_b1aa1.max (* )::db1__edb1.e1a_e1dc::DATE::Numeric[]::varchar(5) % +  - ebeda_d1_e.cdc.dbc[ca.d_c.".""" ^ adbca."B B aB.B".ddceb
+/ b_d__1c.acecdbe_a_ - bd11ac1eb.dccdda11e_.a[_eab1ac1.". "."B"  - a___e[ FALSE At  time Zone _c_dc.".""aB  ".d_ac1a_b1::NUMERIC( 1 ) At Time ZONE  "a.""B"". .B".a_adb At TIME Zone  " "._ce11aedee.d1e1b1e[ _1_b1bde[true::NUMERIC (1,613 ) -  "B.""".a_a__e.dcedcd1ab %
++ + aeaae1e.ea_bad_bce.b1d_1b At
+TIME
+ZONE Grouping (249 << ebab Not ilike True >=  true AND 05 > null	IS Not False) @> b'' * B'011'	<= FALSE IS True OR Null * array[]]  At TIME ZONE  b'0'::INT % edde1 -> + Array[] Like TRUE
+ <  true is not Null or .589 >= False]::bigint At time ZONE NULL  %  - "." +
+""".." NOT ilike FALSE	>=  null And 0665118608. Isnull] At TIME ZONE  _e.b._ * null  LIKE true = ROW () And d1c.c and + true	isnull]
+@> _deade._ like	Null	notnull and db__ = false Or E'' ^ 93]::Varchar::CHARACTER  Varying ^  - FALSE - bcb._	~* - .2  = False NOTNULL As	c1ad ,".BB  .B ".* GROUP BY false,true,TRUE,False,False,TRUE UNION ALL select DISTINCT *  ,	ece1ee1a1ed.*	from " .aBaa""B" ,".  "".".ebaa_eb group By + b ,+ false Is NULL,+ + False Isnull ,''::Text is FALSE , 430491., ede.a) select
+Group
+BY	CUBE(TRUE::varchar	is NOT null), array[]::double precision	, + + E'\101\101' ,TRUE Is True, ece_._ /* c */  ,time  '' Notnull for
+KEY Share) SELECT
+*	GROUP  By aeaece notnull , 78::INT ,  b'010011' ,- X'77',E'\t\\'::varchar Notnull, Not
+ - ARRAY[ ]	 ;

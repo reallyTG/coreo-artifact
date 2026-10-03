@@ -1,0 +1,3 @@
+$..*
+@@@
+{"badbcdaccacc":["yxz",0,"z","zz","xz",13,"yy","xy","x","xxy",0],"caccdbacab":["yz",0,0,0,"yz","xz","yy",0,0,93,8,"yzx"],"dabbbddbab":[0,"xz",9,76,0,"xyz",0,0,6,"yxy",0,0,"zx"],"baaabbcbbb":["zxz","z","xx",87,9,"y","yyz","xxy",0,"xxx","x",2,20,"zz",0,"xxx","yxz","yyx","yzz","x","xyy","x","xxz",60,"xzx","z","x"],"acbcadcacbab":["yxx","zz","xzz","xx",0,"x",0,0,"x","z",0,"zxx",10,80,"xxy","xy","yxz",99,"zyz",0,"yxy",0,93,40,"xx",0,"xyy"],"accdaacac":["xz",7,"xz",7,0,0,"yxz",0,"zxy","z",2,"zxy","zxy","yyx","zx",34,"xyy","xy",0,"yzy",3,20,7,"xy",0],"daabdbabccc":[8,0,0,6,6,"xx","y",0,"yx","yx",5,0,"xy",37,46,0,47,4,"yy","zx","xy","yx"],"bbcbacccabc":["x","y","zy",0,0,90,"xz","y",3,"xz",0,"zyz"],"daaabadddc":[9,56,"yzz","xx",0,60,"x","z",0,"xy",0,"yyx"]}

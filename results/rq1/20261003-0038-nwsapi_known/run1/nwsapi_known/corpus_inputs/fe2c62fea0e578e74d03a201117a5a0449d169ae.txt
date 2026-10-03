@@ -1,0 +1,3 @@
+.b[title=dbccaccbaddd-db]#dddddabddcbc#b.b:read-only.b , html,#d>.c#a:scope [title$= "ba cc aadbadbcbbc-a" ] ,*:required:empty,*
+@@@
+<!DOCTYPE html><html><body><b class="a ca" id="ab"></b></body></html>

@@ -1,0 +1,16 @@
+With acc1bcda	As ( (with recursive bb11_d_e1(ddc_1_1_e , e1ce1dab ,__1_bc1_cca,a11_decc , c_ecb1bdeb,ad,bdb_1ee__bb
+, daac ,_ceb1_cee ) As( -- c
+ (WITH recursive acaebdcb ( _ce1dc1_1 , " """" a"". ") /* c */  as(Select	All
+
+From (	 SELECT distinct beaba_abe.*,  *,
+ * , b1bcd1e.* -- c
+ , ". B""B".*,* Union
+Select	Union All select  distinct _a_cbbbb_a.* ,c_ed1bbb.*, e_.*,* ,
+"BaBB ".* ,cecbcabdd_c.* , *,"a.a "". Ba".* limit U&'\0041\0041\0041''''yyyy\0041\0041yxy''\0041''\0041x''xxx\0041\0041xx''xx''x''y''yxxxy\0041yy''''yyy''x''''''' between U&'xyx\0041''yxyxxy''xx''''y''''yxyy\0041yy''\0041\0041\0041\0041xy''yxx''''yx\0041''\0041\0041x''\0041xx''''y' AND U&'\0041''y''yx''xx\0041x\0041xxy\0041xx''''\0041y''x''''xyx''y\0041xx''x''yy''\0041''x''''''\0041x\0041x''\0041x') as "B..BB .  "(aac1_ecdbe,	ea1 ,eeebe__,	c1db1c,aadeb) union
+ALL Select all ae.*) SELECT
+ALL LIMIT U&'\0041\0041\0041''\0041\0041yyxx''xx''y''y''\0041''''\0041yy''''''y\0041y\0041\0041yyx''y''\0041''\0041x''xx\0041xyx''x''x''xx\0041yy\0041''''y''yxyyyyyx''''\0041y\0041' Not BETWEEN U&'''\0041\0041''y''yy\0041''\0041xyxx\0041xyx\0041xyy''''y\0041''yyy\0041yy\0041xy''''xx\0041''x''\0041\0041yxxxyy\0041x\0041y\0041''''x\0041''x\0041x\0041xxy''\0041yy\0041''xy\0041\0041\0041xy\0041' And U&'xxxxx''''yyx''\0041''x''y\0041x''''\0041\0041''x''x''\0041x''''''y\0041yyy''x\0041\0041''y''\0041\0041\0041xxyx''y' -- c
+ isnull) UNION -- c
+ All
+SELECT all "..B"". B".* ,*,*,".aB"".B a".*, *, *,*) Select Distinct c11__cd.* Limit  U&'x\0041\0041''\0041''xx''\0041''\0041''xx\0041''xx\0041\0041y\0041x\0041y''\0041\0041x''yxy''''yxyyyy''''\0041xyyy\0041\0041xyx''y\0041y''x\0041x\0041xy\0041y''\0041\0041xx\0041\0041yy\0041xxx' between U&'\0041yxx\0041yx\0041''''\0041yx''xy\0041\0041''xx''\0041\0041y\0041yyy\0041x\0041''yxxy\0041y\0041x''\0041y''''\0041\0041\0041x''''yxyx\0041yxxyy''\0041''\0041y\0041\0041\0041''y''xyx''''' And U&'y''''''''''y''xyyyy''\0041\0041x''y\0041y''\0041xy''''xxyy\0041''x\0041y\0041''''yxxx\0041x''y''''\0041xxy'
+is	true) union SELECT "BB""Ba""""""".* , /* c */   * , caaec1c.*,  ed.*,e.*  LIMIT time /* c */  U&'x''yx''x''\0041''yxxy\0041\0041''\0041y\0041\0041\0041''\0041xx\0041y''''\0041xxx\0041''y\0041x''''y''''\0041''\0041y''xyx\0041y\0041\0041y\0041''\0041''y\0041''''\0041y\0041''\0041''xyy\0041''''x''\0041xyy''yx' Not Between U&'y\0041\0041''''yxyyyx''\0041xy''x\0041yx''x''''yyx''\0041''y\0041''xy''\0041x\0041y''''''\0041\0041''\0041\0041xyyy\0041xxx\0041y''\0041yyyyx''''\0041xyx\0041''''\0041\0041x''''x''''xx' AND U&'''''y''\0041xx''''\0041y\0041x\0041\0041\0041yy''x\0041\0041''''''''yx''''''x\0041''''''''x''''''x''''\0041\0041\0041''''''\0041yx') select ALL ".B a ".* -- c
+ ,  *,* ,"B.B".*	limit Timestamp U&'yy''\0041yyx\0041\0041\0041\0041x''\0041\0041y''yy''\0041''''yx\0041x\0041''''''yxxy\0041''yxy\0041\0041yxx\0041\0041xxy''''y\0041yyx''''yxxyyyxxyyyyyx''\0041yx''xy\0041''\0041''\0041xx' NOT BETWEEN U&'xy\0041''xy''yxxyx\0041''xy''xyyy''xyy''x\0041yy''xx''''\0041x\0041''xx\0041x''''''''\0041\0041''x\0041''y''xxxy\0041\0041yyy\0041x''x''yyxxx''y\0041xxxyyy''' AND U&'\0041xy''yxxx''yy\0041x''\0041''x\0041\0041\0041y\0041\0041\0041''\0041xyxyx\0041\0041\0041\0041y''x''yyy\0041''x''y''xy''\0041''' is True ;

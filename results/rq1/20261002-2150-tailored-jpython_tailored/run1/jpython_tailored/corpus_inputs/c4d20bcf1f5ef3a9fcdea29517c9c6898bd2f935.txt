@@ -1,0 +1,3 @@
+$[*].ac
+@@@
+{"bbaddcaacbaa":[0,"z",70,1,9,10,"x","yzy"],"cbccbdcdc":{"a":0,"b":["yyz","x",99,0],"c":0},"abdcbbddbd":{"a":85,"b":["yxz","xyy",0,"xyy","yzx"],"c":1},"ddacdacadbb":{"a":7},"babacbada":["yzx","x",30,4],"adcdaaaaca":"zz"}

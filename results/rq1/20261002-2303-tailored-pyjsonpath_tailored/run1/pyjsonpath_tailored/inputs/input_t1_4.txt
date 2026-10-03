@@ -1,0 +1,3 @@
+$.*[?!search(@,".|y")&&!search(@,'z+|x?z')&&!match(@.a,'x.x?')]
+@@@
+[{"a":"y","b":"z"},{"a":"zy","b":"zzzxxxzz"},{"a":"xz"},{"a":"zyyzyyz","b":"yx"}]

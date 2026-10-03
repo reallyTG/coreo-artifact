@@ -1,0 +1,31 @@
+((  WITH	 RECURSIVE """aaB.BB.B" (	c," .  .", "a """" """"B ", _, "B.B"".  a.a", c ,  d) -- c
+ AS (SELECT Distinct
+ON(Not "a"" "." ."	Not  ILIKE - - 05374774.880703 AT time zone case a ^ e.". """"B".e
+ at TIME Zone b / NULL	at Time	ZONE
+ /* c */  cast (Grouping	(94220420_148256_322::Bigint[281]::CHARACTER
+Varying[][ ][ ]::Numeric ( 924772077 -- c
+ ,4 )
+At TIME Zone -- c
+ B'110101101' && ANY( + row(	not "B".SUM ( - - /* c */ 
+".""  ".a.a at TIME Zone	 TRUE::b[ ] * d._.a[ not TRUE	/ 212029422e825899020 ^ true ^ e."a""".e - null -	 + Null At time
+zone False % grouping (+ x'a'::NUMERIC  (389939
+, 4)[
+7 ]::Timestamp::text[3 ]::interval % + array[not Not + True % B'0101' /* c */  ^ Date U&'\0041xx''y' + - B'00'
+~* Some( - x'0a0000' isnull) like some ( SELECT FOR No KEY Update) != False And NULL IS TRUE and -	 B'10' Isnull
+OR
++ E'y \x41\x41']
+^ + '' BETWEEN + -	TRUE and false notnull Or false % + b'10' ISNULL) NOT LIKE NULL <= all(- - False Like false Is False) AND	+  - c  or  time E'\t\n\x41''y '] AT time Zone NULL::Varchar[][] - c.e || Any ( Select	 /* c */   distinct b.* For Key SHARE) Not Like Null <> True) over
+(  ) ^ - + + /* c */  B'0' *
+Array[ ] + - true::BOOLEAN Not ILIKE FALSE <> ALL (340_64868 and False))::varchar::character varying[  ]	/ false::TEXT + b'00'::BIGINT << all (Select a.*) NOT BETWEEN " B" / - U&'''' and true !=	FALSE notnull AND NOT Not Row()::INT) in(FALSE::character Varying OR not + - False)
+<= NULL
+ Isnull) At Time
+ ZONE _	* + "B.."._ - b.d	Ilike  ALL( Select distinct * ,a.*) = All (Not NOT - d._)
+AND
+null::text notnull Or false	Is	Null	As
+DATE[ 576]) + - Row  () NOT Like False <> NULL or x'Faa' and 96::Timestamp when
+NOT x'aF0' ISNULL THEN TRUE end	 ^ X'07F0F'::Timestamp[ ] !~* all( - _.b IS TRUE) >=
+All ( NOT b'1100101'
+Or 6::varchar NOTNULL) AND 4_4::NUMERIC	is true) *, b.* Union SELECT ALL *) Select DISTINCT  c.* for KEY
+share)  UNION Select
+*)
+Union all  SELECT Distinct * , * ;

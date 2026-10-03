@@ -1,0 +1,20 @@
+With Recursive c1 ("""a"" ""a", ecd ,beada_acaa	, d ,  "BBB aaBaB." , "." ) AS((  with a_eba__a  As(with __bca1c as( WITH Recursive "a."(	_) AS( Select All from _1cbed "BBB""a ""a """ (dd_, cccec1a_a11 , b ,_adecb ,cb1bab_cae_)  Cross
+join da.".." ea_dada_c(
+_,eebbb_, cbdadc1aa,""""" BBa.a." , bbd_a,"B a..B.""a ",
+babdba ,_1cc ,b_ ) cross Join ((LATERAL " ..""BB"" .".round() Cross JOIN db_b._ b_a_c CROSS join string_agg(DISTINCT debebab.ca_ * ababab1cb_."BB..B "[63_43774_2584269_4805084_7970793 ^
+- - c[ Not - (X'F7' - ('x\z'::numeric(1,1 )[]	=	 -
++ de1d1ddc * + - """a"._eb.a::TIMESTAMP[91189821	] ~~ Some ( E'\'\x41\101\t\n' at Time ZONE
+d_e_._ac1ed."aa" at Time zone	" ".""".B ."" ""B""" at TIME Zone X'0Fa0aa077a' At TIME	ZONE " "".B".d *  + e1 +
+FALSE::REAL && Timestamp E'\nxyyy' not Between Date U&'' AND FALSE and Not U&'xxy''''y\0041'''	Isnull) not Between  + True and true Or -- c
+	+ Interval
+E'x' NOTNULL	And + -	9,null::Timestamp IS  NULL)::Text::TIMESTAMP ^ + FALSE % - B'' <<  + - ''' z' like false  != any (+
+ARRAY[ ] ^ .25 >= NULL NOTNULL and array[ ]::Double PRECISION[ ] /* c */  Notnull))::real::NUMERIC
+%  - dca & Null::SMALLINT not IN ( Select *,
+".a".* From b ,LATERAL SUM( ) with Ordinality Fetch next 2
+ROW Only)	 IS FALSE And 716::BIGINT or TRUE::Integer ISNULL] *	Null ^ 761	+ + FALSE
+OPERATOR(_1.-) .084 Ilike false >=	SOME ( '\' << -	True >= false is NOT FALSE and	- TRUE::timestamp::Date Is	FALSE)  AND  TRUE	Notnull Or	cd_.c notnull]::interval[]::INTERVAL::Interval - -  - E'' Between - X'077' and NULL != ALL(+ bcaa.b__._ At
+time Zone  x'FaFF777a' AND False	IS false)
+and
+cab1.c) With Ordinality) Cross JOIN b),c Union SELECT from c,d) SELECT Distinct bbceb.* From ed_d_eeb._ ,bd_e1d11_e For share) SELECT distinct * , * From Count () bd1be  ,lateral min () with ORDINALITY For KEY  Share) Select distinct * , * FROM Count( *) ,	c."aaB." Offset 6919 Rows) union Select from LATERAL ".""B ".rank( *), "B  ".min ( )) select From _b_be dea__b, -- c
+	min (  )
+cd_	FOR  SHARE ;

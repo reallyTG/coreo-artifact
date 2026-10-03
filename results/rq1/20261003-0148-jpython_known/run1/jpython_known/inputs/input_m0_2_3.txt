@@ -1,0 +1,114 @@
+$
+		 	 ..b[		* , 
+20,?
+
+		 
+
+ -0.90
+		 !=length(	
+ "")	&&!@.cdbbbba.* 
+
+
+
+
+&&	
+ 
+value(@)
+ 	
+ ==	
+ 	
+-0e700001907
+ 	
+&&
+ search(value($
+  ),false)	 
+ 
+
+	 &&!(
+search(false
+	 	
+	
+,
+0)&&-0e08066300	 
+
+ 
+!=			@ 
+	
+ 
+
+[''].dddccb	
+ 
+
+ 
+['c']	    &&
+ count( 
+	
+@		..[0,: 	
+
+	
+	-10710000000678
+ 
+
+  ,	
+			 	
+0,''	 
+
+
+   ,'c'     	 	,	 
+ ""
+,0:0: 
+,? 	
+search(true
+	,'')||@[ 	
+ ?	(!	(! 
+search(	
+
+		
+	
+length(true),@.d.bdccaacdbc)	&&-0<$
+		
+
+  [0] 	
+
+
+["ca"][0]		
+		[3]		  	[8050].bddaacbddb
+ 	[-801400]	 
+
+	[0]    &&true<=value(
+ 		$.*
+ ..*)		 	
+
+)
+
+  )
+			
+	 	&&	 		
+ 			(!  
+(match(		   value(@),false)	
+ 
+
+	 )		&&@ 	[44]['']['aa'] 	[''][0]	 [-2][0] .cb
+  	
+==
+	
+  	 $ 	 
+
+ .d 	
+
+&&length(		 $ 
+ 
+)==@
+ [-6]&& 
+
+	 
+
+match( false		
+   ,	
+  "zx+y+z*a[c]y")&&
+ 
+
+ 	search(0,"dd[a-d][^a-da-da-dza-da-dx-z]a+|.cz(yb?[^a-d]ccaa[ax-zx-zdx-zccx-z]x*)?(|yay(dz*x)y*[x-zzx-zda-dx-za-da-d]*a{0,2}|c*||x+y*(b|a?x*.{0,2}b*c[a-da-dx-zx-za-dx-za-da-d]{1,2}bzd+b+|[^bx-zx-zx-zbx-za-dx-za]*yy*|zd?(()+){0,2}x||||||(.d{6,}(x+[x-za-da-d]+[^x-zxa-da-d]y{1,3}az{1,3}a{9,}.*z{0,1}c*|a*(||(||(ab*a?)?|a+c+x?||(z+y(){2,4}[x-zx-zx-zx-z]{0,}aa{1,2}c+c*x(|y*zabbdy{2,4}z+)*).{0}a(bdxc?yx{0,}ycz*y*|x*(xc?b{5}[^x-z]?)c*.+z*bd+a||||c{1,3}ab*(|c(b[^c]z{0,1}xca(y*z)y+|.+(|||d*byyb?(c*z{0,1}ccz{0,2}c?b+y{1,3}cb{0})?(|)+(zd*a?a||(yxddzy{1,2}zyy{0,1})|||ac?yb.?c*y(b.(byzy?)+x?dy+|)a*)(a|)+y+|y*[^a-da-dx-za-dx-zcyx-z]|a?c(|zd{8,}||||||y[a-da-dzx-zx-zx-z]z?z?aa{2,4}b){1,3}[zx-za-dca-dx-zaa-da-dy]d+y(c?az*ya?b||a+yxad*.{1,2}d|xd|||xb?x+y{1,3}|[x-za-dya-dx]?add?(dx*z)a?z?b?|c?xya?cax{1,3}y{1,2}yx|(ddz*)*|cy?(){5,}d)*|ybcy{5,}y{0}y.*x|c?y{2,4}|||b+x{5,}b{2,4}.*(a{0}c+z()a?daz?|bd{0}x?d{0,}||zb(d{2,4}zx.){0,1}[x-za-dyax-z]{1,3}d+b*xy?zb||x*x+yb|xy+yd?)?yx{0,2}a*x)+b+d*d{1,2}||.by?c+y*azc*z{5}c||||)y+zx?a.x||.{1,2}|(z{1,3}z+x{1,2}(x*())+(xcz?y{2,4}d){1,2}))+))+)*))+)+)?")) ].*&&$
+].*.*.*)>null||@ )]
+@@@
+[true]

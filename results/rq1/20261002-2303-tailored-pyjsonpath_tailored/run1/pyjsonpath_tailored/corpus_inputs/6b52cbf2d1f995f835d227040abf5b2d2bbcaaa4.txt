@@ -1,0 +1,3 @@
+$.*..[?!search(@,'.y{2,4}x+|zy{2,4}')]
+@@@
+[{"a":"xx"},{"a":"yx"},{"a":"z","b":"zy"},{"a":"yzyyyyxxzx"},{"a":"zy","b":"xz"},"yx",{"a":"y","b":"zyzxzzx"},{"a":"yz","b":"z"},{"a":"xy","b":"yzyzxzxxxz"},{"a":"zy","b":"zz"}]

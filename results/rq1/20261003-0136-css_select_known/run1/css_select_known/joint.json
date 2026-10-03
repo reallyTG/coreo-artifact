@@ -1,0 +1,32 @@
+{
+  "count_em|count_more_complex_selector_in_has": {
+    "band": [
+      3,
+      5
+    ],
+    "best": 1.0,
+    "direction": "maximizing",
+    "extensive": "count_em",
+    "intensive": "count_more_complex_selector_in_has",
+    "stalls": 0,
+    "window": [
+      2.0,
+      3.0
+    ]
+  },
+  "count_em|count_pseudo_class_selector_in_has": {
+    "band": [
+      3,
+      5
+    ],
+    "best": 3.0,
+    "direction": "maximizing",
+    "extensive": "count_em",
+    "intensive": "count_pseudo_class_selector_in_has",
+    "stalls": 0,
+    "window": [
+      2.0,
+      3.0
+    ]
+  }
+}

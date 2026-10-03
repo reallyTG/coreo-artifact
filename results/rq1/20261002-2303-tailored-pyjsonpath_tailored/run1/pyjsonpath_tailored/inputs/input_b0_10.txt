@@ -1,0 +1,3 @@
+$[?match(@,"y+y+x|xx+")]
+@@@
+[{"a":"xx"},{"a":"xx","b":"y"},"zxxzzy",{"a":"xz"},"xxzxxxyyyx",{"a":"yz"},"zy",{"a":"yzzy"},"yxyyyyyxz",{"a":"yz"},{"a":"x","b":"z"},{"a":"xy","b":"yxyzyzxz"},{"a":"zzzzxzxyxxzxyyzxzyyz","b":"y"},{"a":"xz","b":"zzyzz"},{"a":"xy","b":"y"},{"a":"zy"},"y",{"a":"zx"},{"a":"xxzxxyxxzzyxz","b":"yyyzzyx"},{"a":"xyzyyxzxyyxzyz","b":"zx"},{"a":"z"},{"a":"z"},"y",{"a":"zy","b":"zzyx"},{"a":"zx","b":"xx"},{"a":"yz","b":"yy"},"xz","zzxyyzxzyyxxyyyz","y"]

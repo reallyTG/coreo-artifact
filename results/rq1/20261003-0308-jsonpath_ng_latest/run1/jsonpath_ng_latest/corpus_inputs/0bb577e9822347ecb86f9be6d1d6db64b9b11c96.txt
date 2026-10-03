@@ -1,0 +1,45 @@
+$
+@@@
+	
+
+ [true	,
+		2.80930530
+ 
+
+,		
+  
+{"c" 	
+:	-38
+ 
+	 	
+
+,
+
+  	
+  	"cbd":[	null 	 ,
+
+ "y",{},		
+
+ 
+	null,	
+  	 [	
+
+-7090400200660E0	,true		
+  ,	
+		 	[]   
+,true  , 
+
+  
+		false,true
+  ,[	
+], null,	
+		"yzyxxz\/\r\"\n\uffbC\n\udAfd\udcdA\r\/"	
+,	
+
+ 
+		 false]]
+
+  }  ,     false
+ ]
+		 	
+

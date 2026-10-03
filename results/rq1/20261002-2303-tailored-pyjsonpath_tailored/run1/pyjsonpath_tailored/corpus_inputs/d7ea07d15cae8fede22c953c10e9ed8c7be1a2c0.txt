@@ -1,0 +1,3 @@
+$[*]..[?search(@,"z")]
+@@@
+["yyzxyyy",{"a":"zxzxxxxzx","b":"xy"},{"a":"y"}]

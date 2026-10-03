@@ -1,0 +1,56 @@
+$..*	 	 
+.c
+		 
+		 ..*
+@@@
+{ 
+
+	"c":
+ 
+
+ 
+
+true,	
+	"aa"
+
+   
+		:			null			, 	 
+ 
+	"abb":   		
+	[]		   	 ,"cddadadcab\/b":[
+	
+		]
+,
+
+
+
+"acaaadb\t\/db\tdadb\ud8dB\udfEA" 
+   	 
+:	
+	-0.0608
+
+,"dadbac"  		
+	
+:false,
+		"b\f\\\ra\rca\"b\t" 
+  
+:false,"accccccccdcba":false,	
+
+
+	
+  "babc"
+	: 
+
+"y"	  , 
+
+"a":  [		[
+
+ 	0.8007800050E-7
+] 
+,	 		 false, [],
+
+ 		  	null	,"y"	 
+]
+	
+  
+	}

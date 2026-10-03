@@ -1,0 +1,12 @@
+with
+ RECURSIVE de_ ( _debcba11a,	"Ba.  "" ",db1 , "." ,b, _dc1b_abd1,
+
+_bcbd1a1cd , " BB  a " ) As((With RECURSIVE __ (__eec,bdead,ceb_b_d,c1_1d11a1,ed1___ ) As( ( WITH  RECURSIVE _a(
+dbb
+) As( SELECT From (WITH		 "a.a   .a" As (	WITH recursive aaaa__cabd1(dabace1b_,eda1e1ad ,edb_edbc1e) AS(Select	e1cb1.* UNION SELECT) Select distinct ".BBBB".* , bd.*	limit 'x\ x\ \ xz ''z\ x yxz\\yy ''yx\x z\z''yzyz''xzyyzy \ z\x''''zzz\ yy xx\z \z\\y\''x '' y \\''\ z''' between Date '  z\''yyxzy''x\xy yy\zy \ x\z zxy \x y''''xzzzx zyy''y''\''y''y\yyx''\zxz ''\''zxzx''yz''\\zyy\' AND '\\   \xyyxzxxx\xx''y z y\ \\yzxx \   yz\x  z\x''y y  x '	For SHARE) SELECT Distinct * , eed__c_1.* ,  *,"  ""B".* LIMIT Date 'xyz\yzx\ \\x''zyzxyy\\''\''xy\\ z''z\yx''zy\y\zz''\''zyz  yx\y''yx ' Not Between	Date /* c */  '\ y\yx''x''xxy''\\''x''xy ''xxx\ zzy''x''xy\xz\''''x\yxz xz\'''' '' yzyx''x''yx y ''''\ z zy ''''z \xzxz'' x''z''zyz ''y\zxyy x\\\' and '  xz\yyzxzyzzz \''\x\zyxz\''yxxx''x\z\ zzzz''yxzyxyyzx  y') cbdd cross Join count ( *
+),ecb1 As """.aB" Union ALL select All *) Select LIMIT -- c
+ '''zzzx''xyy''xy'' zyzzzzz z ''''''x xy  yzz \xzy\xz\\x  \\ yx''yy''x\\zyy ''\\z\ \ x' BETWEEN
+Interval 'y z \''y  ''xxzz''x zx x x'' ''zzxxy\z\y''x yxxxx zxz\\ z\''zzx\zzxzxy\''x'' z \\xxyzx'' '' z''zx''x\z zzz ''''z''yy' AND '''   ''xyz''''y'' \ \ \''zy''xy''z'' x''zz''x y\z\''xyxxx\zy\x\''y' Is null
+FOR SHARE) UNION	SELECT
+ Distinct *,* ,*  ,daecdadd1c.*) select	DISTINCT	eebb_c.* LIMIT 'z'' \zy yyyzy\''zz\''xyx\\ '' z ''xy\x''''y''''y''  \\x'' xz \\yz\yyxxxyz y  zz''xxyx yyxx''''z xz''''' not between '\zz\''xy z\\xyz''yzy\ zzzz x z yx ''  y\\ zz yzzzz\ y\y'' \zzz''zz''''''z\ ''\yzy'' zz''yz''yzy\' and 'xxzxy xy xy y\\''\zy zz\zxz\x\''y ''xzx''xzy \ y x ''''y x '	Isnull for  No KEY update) UNION All SELECT Distinct * ,*  , * ,*,d1abbeca___.*) Select All Limit
+ TIMESTAMP 'yzyy''yyy''''\ zy\   \\ yy''xxx '' ''yx x''yzzzyy zx''xy''''xz'' ''zyz'' x  \''''\yz ''''xzzyy''x   ''x'  between TIMESTAMP '\ y'' \xzzz xz  zzyzzzy''yxxyxz\x\yy\ xxx''yz''y\\y\\x\ \z  zy''x\zx''z\\xx''zzyyy\x\\xyy' and '\zxx''\x'' z\\y\\z z''x''\xzz xy x   \z y\y x'' y''x\xx  \x' Is NOT True For KEY Share;

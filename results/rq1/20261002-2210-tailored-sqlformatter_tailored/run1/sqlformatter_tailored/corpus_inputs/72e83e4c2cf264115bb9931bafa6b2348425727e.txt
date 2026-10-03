@@ -1,0 +1,1 @@
+SELECT 55 AND 62 OR 65850 OR b11_ FROM adbe_ ;

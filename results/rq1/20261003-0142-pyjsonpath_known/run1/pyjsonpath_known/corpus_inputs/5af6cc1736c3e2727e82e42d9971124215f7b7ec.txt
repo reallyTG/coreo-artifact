@@ -1,0 +1,27 @@
+$ 		 ..[
+		 9:	
+ 	
+  
+
+ ].* 	
+ 
+..da
+@@@
+{"dda"
+		 :
+[false 	,false,"z"	,[
+		
+null,  null]	 	
+	,false 	
+
+
+,null,	 	true
+
+	 
+ ],
+  "acaab":[],  
+
+
+ "ddb":true,"dacabcdacaa":false
+ 	 			 ,"cdc":false  	  , 		 "a" 	 :	 null  	 ,"dcd"			 :
+true,"ddda\ud8DE\udfBD\b\\bcab":0.00006}

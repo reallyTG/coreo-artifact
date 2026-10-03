@@ -1,0 +1,9 @@
+$..[-8,'d','cb',-25,1,-4].*.b.bccabdcbbac..dc..*..[*]..*..d..*
+@@@
+ 
+ 	 [
+ 
+ "zyyxzxzzyyyxyzzzxxzzyzyyxxzyzyzxxzyzxzxyzzzyzyxyzyxzyz"	,	 		"yxxyxxyyxzyxzxxxyxxzxxzyxyxyzxyyxxzxzxyxxxyyxxzxxxzzxxxx",
+
+"xxzxxzxzxyyzxzzxyyxxyxxxzx","yxyxyxzyzyyzzxxxzzyzxxyxxyzxzxy" 		
+,			"xyxxxyxxyxyxxxxzzxxyxzxzxyzxzyzzyzxyyzyzyxxzxyzyyzxzxx"]

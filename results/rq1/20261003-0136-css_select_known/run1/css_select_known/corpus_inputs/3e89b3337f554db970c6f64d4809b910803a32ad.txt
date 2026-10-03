@@ -1,0 +1,3 @@
+[ type ]~ :optional:nth-child(+252n+ 285 ) *
+@@@
+<!DOCTYPE html><html><body><div title="cba b" lang="dbbdbadc-acacdbdbd-ccaadc" data-abccaa=""></div><p class="cd d bcdbad" lang="cbb-bcdcbabb-bacccddc"></p><b id="c"></b></body></html>

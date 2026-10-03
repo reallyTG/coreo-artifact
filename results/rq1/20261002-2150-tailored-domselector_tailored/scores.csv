@@ -1,0 +1,11 @@
+subject,category,language,blind,a,b,metric,expected,n_regions,n_decided,n_for_a,n_for_b,outcome,explanation,explains_expected,explanation_evidence,best_ratio,best_prop,best_prop_relevance,best_region,shape_checked,n_shared_inputs,n_disagree_dropped,run
+domselector_tailored,known,JavaScript,False,domselector_9_2_1,domselector_9_2_2,runtime_ns,b_faster,22,0,0,0,missed,,,,,,,,hits,96,0,1
+domselector_tailored,known,JavaScript,False,domselector_9_2_1,domselector_9_2_2,fresh_ns,b_faster,22,0,0,0,missed,,,,,,,,hits,96,0,1
+domselector_tailored,known,JavaScript,False,domselector_9_1_1,domselector_9_1_2,runtime_ns,b_faster,22,0,0,0,missed,,,,,,,,hits,96,0,1
+domselector_tailored,known,JavaScript,False,domselector_9_1_1,domselector_9_1_2,fresh_ns,b_faster,22,0,0,0,missed,,,,,,,,hits,96,0,1
+domselector_tailored,known,JavaScript,False,domselector_9_0_4,domselector_9_1_0,runtime_ns,b_faster,22,0,0,0,missed,,,,,,,,hits,96,0,1
+domselector_tailored,known,JavaScript,False,domselector_9_0_4,domselector_9_1_0,fresh_ns,b_faster,22,0,0,0,missed,,,,,,,,hits,96,0,1
+domselector_tailored,known,JavaScript,False,domselector_9_0_3,domselector_9_0_4,runtime_ns,b_faster,22,2,0,2,detected,,,,0.248,count_bare_attribute,0.78,1-1,hits,96,0,1
+domselector_tailored,known,JavaScript,False,domselector_9_0_3,domselector_9_0_4,fresh_ns,b_faster,22,2,0,2,detected,,,,0.216,count_bare_attribute,0.78,1-1,hits,96,0,1
+domselector_tailored,known,JavaScript,False,domselector_8_2_4,domselector_8_2_5,runtime_ns,b_faster,22,0,0,0,missed,,,,,,,,hits,96,0,1
+domselector_tailored,known,JavaScript,False,domselector_8_2_4,domselector_8_2_5,fresh_ns,b_faster,22,1,0,1,detected,,,,0.836,count_bare_attribute,0.78,0-0,hits,96,0,1

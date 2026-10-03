@@ -1,0 +1,1 @@
+SELECT _b_cbdb FROM c WHERE ddde1ecd.d1a1_b__e1_ IN(_ec1eadecbc) ;

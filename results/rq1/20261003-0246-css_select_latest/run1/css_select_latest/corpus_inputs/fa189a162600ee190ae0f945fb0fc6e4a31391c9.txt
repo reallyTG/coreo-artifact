@@ -1,0 +1,3 @@
+div.cdaba >:is( #ba )#c + *[ lang^= "" ] +:not( [title~="b"] , .d >:not( #b:not( html~[lang |=a i ]+* #c:is( :last-child[title]#b> :checked[ title = "cb"] +:where( *,em.bdbb,section#abacbbb[class^=ddbadb-c-dd-ca]:last-child:hover , span > *#cd +*.db>*:optional.bd[type ~= db].b.bb , #da:required[lang $="" ])#ac .bdbc + span[class $=badabbdadacdad ] , *[ type^="" i ].ccaaaddbcdadc ).b:lang( cbcd-aca-accaadabadb )#ab[href$= "bc daccaccd-ba"].b~*+ *#dd#bc.cbbd[type ]> div , :only-of-type > *~body.abddbccaad[checked])>* )[href^="ba-dc ddddcbdbddcdcd"][ href ="" i ] ).ccccddabbdaa
+@@@
+<!DOCTYPE html><html><body><span class="d ccadabccbadd d dcbcdacbd a a ab"></span><b class="dd bba" title=""></b><span class="d d" title="cbdccdccbca" lang="cbccdd"></span></body></html>

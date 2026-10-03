@@ -1,0 +1,26 @@
+$..['','cb',"ccdabbdaadca",-4090,303,70,-60,"ac","dcb'b","b",-5]..bc..ccacacabccb
+@@@
+["y"
+,[]  	
+	,"",
+  false,null	
+
+
+		,[	
+  false
+
+, "x",false, 9	,	
+		
+ false	  ,60044.39000506,true,  {		}	 
+	
+ 	 	,-0e-00,
+{	}  
+	
+,"z"]	
+,"xxyzyxzzyzyz",true
+
+
+ 
+
+
+]

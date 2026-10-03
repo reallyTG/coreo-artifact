@@ -1,0 +1,1 @@
+SELECT cabde_c FROM __b1ecaa_ ;

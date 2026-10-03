@@ -1,0 +1,160 @@
+$
+		 	 	
+[?match(  
+	 
+@
+	    
+.bdcccac['a']	 	 
+		 ,
+
+	
+		"|b+")]
+		
+	 
+[
+	?match(	
+	  count($				 	 
+[?!match(  
+ 
+ 	
+length($[-32][0][80031590][0]	[8][-556352880][0]	
+
+
+[70]	
+ 	 [64].addc[87]),"|c?cx+"	 	)	  ||match(
+
+ 
+value($ 
+ 	 [?	
+match($
+
+[724510300080] 		 [78],	 	
+
+ 'd?acz+(y+y|x*y+a{2,}yc(d*cxay.?(a+|)*x*y?|ba([^a-d]+b?.?[cx-za-dza-dxa-dx-zx-z].{1,3}a?by+b|)zc{0,}[^ca-dx-za-dbx-za-dc][^x-zx-zx-zxa-dx-zd])*)?(|xxd{1,2}[x-z]*)b+|cdxy?ay')||match(@,'|zx.{8,}d'
+
+  )		
+
+	&& 	 match(  		 -0.000,	
+ 
+
+ 	
+"|")&&
+
+	 
+			 match($,
+ 
+  		
+	"|y?xx")||match(	 @, 
+
+  		
+"|"	  	)&&	 !match($["abdda\"\fda"]		
+ 	[""] 
+	[200]	[-790587945010]	
+
+
+	.bcccda.abccddc	 
+
+ 		[97],		
+	  "|zz{0,2}c{1,3}dc{1,3}") 
+	
+&&!		 			 		match(	
+ 		 	count(@
+		
+	
+ 
+[?match(  
+
+ length($	.a.addcaacabbac["cddb"]['cbcccca\'\/d\t\nd'][0][-704004100070]		
+ )
+	,
+'|'	 
+)
+
+	 		&&!	
+			match( 
+
+	
+true	 		
+	
+
+,  	
+	
+'yzx{2,4}z(|)d{2,4}ac|d{1,3}z*c+[^a-da-dx-zx-zx-za-dx-zxx-zx-z]+d+'
+	
+
+	
+	)&&	
+	 !match(count($ 
+				)		 , 
+'y{7,}y{0,}z{1,2}|'	    	
+)&&match(
+	
+ $['dd\uD1bc\'']	
+  		,'|'
+
+ 	)&&		
+
+   ! 
+ 
+
+match(			@ 	[0],'|')  
+		 
+&&
+	match(@[''],"b*c+a{0,1}a*a*c?(xx*a?zx[a-ddxa-dzx-zx-zx-zyb]axx*x|)+a+|"		 )			&&		   
+
+
+!match(
+	  
+	$["c"]  
+	 		,'|d*d{1,2}x{0,2}c{0,2}x'  		  	)
+	 &&match(
+    
+	
+	length( 
+
+count($[?!
+ match("zx'z\\\""			    ,"|")	 		
+  &&	 	
+ match( 
+
+
+
+$	
+	   [0]  .db,	"|")
+
+
+	 
+ 	&&match(true,'z+bcdy|')&&match(
+
+	
+@, 'xb*(|az[zca-ddx-zx][a-d]+y){0,1}y|' 
+
+ 
+	)
+
+ 
+		&&    
+ !
+ match( 	
+count(@),'|.{2,4}z{0,2}(.db*.|)?y{1,2}c*dz*d*')&&match(false,	 "ac|"	)
+		 		&&! 	
+	 			
+match(value($[?match(
+length(value($)	
+
+ ),"[a-dx-za-dx-zx-z]ab|")||
+
+match(
+ -0,'|yz{2,4}')][?match(null,'|')][ 
+
+
+
+
+ 
+?match(@ [0],"|")
+
+	 ])    
+,"c*d+|")||match(true,"|"),?match(null,"|")][?match(false,"|")])),'|')	][?match(true,'|')][?match(false,'|')]),"|")]),'|')&&match(null,'|'),?match(false,"|")
+][?match(true,"|")][?match(true,'|')]),'|')||match(false,"|")]
+@@@
+[true]

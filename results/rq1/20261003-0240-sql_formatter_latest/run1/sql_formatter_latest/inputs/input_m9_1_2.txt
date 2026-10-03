@@ -1,0 +1,28 @@
+WITH 	 RECURSIVE d (a_db11,ced_d_ce,e_eeccc , c
+
+," ."".", cc) AS ( ( with "..B."
+as(( SELECT ALL from  "aB""""BB"" B".c1dceddb1 " ""..aB." Cross JOIN	Lateral (With de11_eb1 As(With bbe1 AS ( (WITH recursive _cb(__dd, "a " ,eb1b1dc, eebccebd1d,d1abbdcec1_ ,b_e,cdccc ) As
+( (Select
+DISTINCT
+on( cc1cddbbc % adede.ddc1be_ BETWEEN - ''::integer::DOUBLE Precision[][]::Numeric (  2) ^ - grouping( 283320_8805_17680_544701::BIGINT[ 60067] <= SOME(+ + x'0aa0a07F70'::Date::Double Precision[][51733 ] # -- c
+ some(NULL / + Array[] AT Time	ZONE X'00F' ^		6e8127253461::INTEGER[ ] At TIME ZONE 45e027671::Character VARYING[]
+ ~ - Row (not FALSE
+At TIME zone Timestamp  'yyz''yz ' at TIME ZONE row( b.eabdea11[Least ( ROW ( )::de1aa_c1ded[ 6]::Int::Bigint[5300] -  case NOT
+ ac."""".b1d
+^
+-	null
+^ b_cbec.acb
+ ^ eaeeca_.cac.dca::VARCHAR[][] At	Time ZONE	ROW( )	/  ccada +	 FALSE::Timestamp  ilike Any(  a_ + U&'''\0041x\0041') notnull and + ebc.c OR E'y\n'::Integer WHEN
+- X'' IS False then TRUE When 2963_21_088754 Isnull THEN NULL END % ".""aB""..".e.a  like TRUE Notnull Or c_a AND Array[] ISNULL) +	" B""B" NOT
+ Like false And a_c_cba1e isnull or +  FALSE::boolean] at time ZONE _d1._ ^ -- c
+ _ed @>	ANY  ( SELECT OFFSET 7 ROWS)  NOT LIKE true <> cec Isnull) At time zone Null::Timestamp[]
+^ bd11ab  <@ any  (SELECT All *) ILIKE
+TRUE IS NOT TRUE Or _e Or Not + true)::INT[28] % bc.d - TRUE::Boolean NOT  in( - e._	NOTNULL) =  All(TRUE / - true
+IS
+True)  IS TRUE and ROW (
+) Or - - B'10' Isnull) Not Between +  bc and NULL) ISNULL OR -
+TRUE Isnull)  ^ x'F77'
+^ +	 array[ ] / ad1
++ array[] AND true <> -- c
+ False AND False -	X'00070' ISNULL Or True::TIMESTAMP is True) *,""" B".*)	union Select ALL *) SELECT distinct _ecb.* For SHARE) Union -- c
+ all select * For share)	select distinct  *, "BB.".*) select distinct *  for Share) AS _eb_1a_) union SELECT) select All)	 UNION	select		All *) Select DISTINCT * , * ;

@@ -1,0 +1,150 @@
+{
+  "__grammar__": {
+    "digest": "1e38726bcf36a8868b5a87e5d6f0a651674c14fa"
+  },
+  "count_attr_ident": {
+    "constant": false,
+    "last_max": 10.0,
+    "misses": 2,
+    "pinned": true,
+    "reason": "search",
+    "requested": [
+      11.0,
+      20
+    ],
+    "rung": 2
+  },
+  "count_attr_matcher_ws": {
+    "constant": false,
+    "last_max": 13.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      14.0,
+      26
+    ],
+    "rung": 0
+  },
+  "count_combinator": {
+    "constant": false,
+    "last_max": 52.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      53.0,
+      104
+    ],
+    "rung": 0
+  },
+  "count_complex_selector_list_in_has": {
+    "constant": false,
+    "last_max": 8.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      9.0,
+      16
+    ],
+    "rung": 0
+  },
+  "count_em": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 18.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_node>"
+  },
+  "count_lang_range": {
+    "constant": false,
+    "last_max": 3.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      4.0,
+      6.0
+    ],
+    "rung": 0
+  },
+  "count_more_complex_selector": {
+    "constant": false,
+    "last_max": 10.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      11.0,
+      20
+    ],
+    "rung": 0
+  },
+  "count_more_complex_selector_in_has": {
+    "constant": false,
+    "last_max": 5.0,
+    "misses": 2,
+    "pinned": true,
+    "reason": "search",
+    "requested": [
+      6.0,
+      10
+    ],
+    "rung": 2
+  },
+  "count_pseudo_class_function_in_has": {
+    "constant": false,
+    "last_max": 9.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      10.0,
+      18
+    ],
+    "rung": 0
+  },
+  "count_pseudo_class_selector_in_has": {
+    "constant": false,
+    "last_max": 13.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      14.0,
+      26
+    ],
+    "rung": 0
+  },
+  "count_relative_selector_list": {
+    "constant": false,
+    "last_max": 25.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      26.0,
+      50
+    ],
+    "rung": 0
+  },
+  "count_sign": {
+    "constant": false,
+    "last_max": 1.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      2.0,
+      4.0
+    ],
+    "rung": 1
+  }
+}

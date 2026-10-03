@@ -1,0 +1,26 @@
+Select distinct Interval
+E'\n\'''x''\\\101\\x\n ' ^ E'\n\'\\\\\\''\tx\'' At  Time zone Date E'y''\\\x41\101 \101\x41\'\\\101\\\x41' At TIME Zone interval E'\101 \tx' At
+TIME Zone E' \x41\t''\\' Between TIMESTAMP E'\101xy\tyy\'\'\n' ^ TIMESTAMP E'\ty''\''' y\\''yy'  *  TIME E'\x41\101x''\101 ' # E'''\'\t\'x' % TIME	E'\x41y\n\x41 \t\'x '	^ E'\101\101\t''\x41\x41'	^ E'''\t \t''\t\nx'	^	E'\t''\'\\ yyx\101x' ^  date E' \'y\'\n' - E'\101\\ \101\n\'' * E'''\\''\\' % E'\x41''\\\101\\\\\101\101' ^  INTERVAL E'x\n\''' yx''''x\\\101' and E'\n\101\x41y\x41yy\\\\' * E'\\\tyx\tx\\ ''\x41\n' AT TIME ZONE E'\'\101\101\101\x41y\101x\'xx\nx' at TIME ZONE E'\x41 \t\\\101\t\101\n' at time	ZONE Timestamp E'\\\x41''\n\x41\\\''  -	timestamp E'y\101\\\'y \x41\\' AT  Time ZONE Interval E'\x41\n''\101\\\101\n ' AT time zone /* c */ 	Interval E' \n\101\101\101''\n\x41y\x41 '
+at Time Zone E'\101\n\t\t''\\x\t''\101\x41''' AT  Time	zone E'yy\nx' + time E'\t\\\x41\x41''\t\101 \\\x41\n' % E'\x41\t\x41y\n\101\n' At	Time ZONE Timestamp -- c
+ E'x\101''\\'
+At time -- c
+ Zone E'y\101\t\x41\'x' AT TIME	ZONE
+ E'''\' \x41''y\'''\t x'  % Time E'\t\'\\xx' % E'\x41''x\\' / E' \'\\\x41\'x\x41' ^	Date	E'\'\x41y\n\x41\ny\t' ^ E'\t''''\\\nxyy\x41\t'''''  ^ time E'\txy\n\\\t'
+- E'''\'\x41\\\t''x\n''x' At TIME Zone Date E'\101\x41\'\\ \'\\\x41\txx\\\x41'  and INTERVAL E'yx''\\\\ ''\'\n'' \x41y' OPERATOR("""".+) All( /* c */  E'\x41''x \n\'\t\\\ty\\x'	 + interval E'\n'' xx \x41\x41\\' - time E'y''y\101'
+at TIME Zone Date E'yy\\\'x\'x\n\t\\\x41x' AT  time ZONE date E'\t\'x\n\tx\x41\x41''''' not BETWEEN E'''\t\tx\n\t\101''x \101yy' ^ Timestamp E'\n x \t\' \101' * INTERVAL E'yy\x41\t\\\101 x\101' ^
+ date E'\'x\t\n\'''\'\\\'' ^ DATE -- c
+ E'\x41\101 \\\n\x41y' ^ INTERVAL
+E'''x\x41\t\'\n ' ^
+TIMESTAMP E'\'\x41  ' ^ Date E'  \t\x41\n\\' % E'yx\t\'\\' % date E'x\x41\ny\t'' x\nx\x41' ^
+ Date E'\\\\\x41\101\'\t\\\t\t\101\x41\n''' % TIMESTAMP	E'''y  \\\t' -- c
+ + Date
+E'\101y\t\' y\'\t\101\n\'''' ^ DATE E'\t \n \\''' - E'\'x\\ \x41\\\n\tx' ^ E'\' y\\x\\\'y''\n' ^ Time E'\nyy\t\t''\t\101\\' ^  time E'\101''\\y\t\101\101\101\x41\'\101 \'' and E'\\\t\101x\101\t \\\101\x41 \n' at Time -- c
+ zone E'\\\x41xy' / date E'x\x41\'''\101x\'\x41\\\t\t' +
+Time E'x\n''\\' && Time E'\\ x\n''x\n\n\n\tx' = E'y\n\101\n' between E'\101xy\n\101' AND E'\t''\'\'' notnull And E' \'x \t' Between Interval E'\\y\t''\\\101\\\n\\' @> Timestamp E' \t\n\t' AND E'y \101'''	<= E'\t \\x' BETWEEN E'\\x\\\n' AND E' \'y\n'	Or  timestamp E'y\\\x41x \n\t\'\x41\t' * date E'\\\\y\'x\\yx' not between
+E'\'\ty\x41\x41' AND E' \t\'\x41' is TRUE)
+not BETWEEN	E'\ty\x41\\' + INTERVAL E'xy\x41\nx''\101xy\n\n' and E'y \101\x41' <= some(E'\n''\n\101 y\101\'\t\x41x\101' not		
+ BETWEEN
+	E'\\ \'y' AND E'\'y'' ' is False) AND E'x''y\101x\n\n' ^ E' ''\'\101\x41\101 ''' Not Between Time E'\ty\n\\y' And E'\nx''\''
+Is null AS " aB a.aaa" ,* /* c */  limit	INTERVAL E' \\ \t\'' -- c
+ Not Between E'yx\\x \101\x41\'\'y\n\\' AND E'x\x41\\y'
+notnull for Key share ;

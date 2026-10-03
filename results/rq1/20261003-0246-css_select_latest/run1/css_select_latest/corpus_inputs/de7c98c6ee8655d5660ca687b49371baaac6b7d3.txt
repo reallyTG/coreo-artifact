@@ -1,0 +1,3 @@
+[lang$= "" ]:where(section:has( + #b ,~[data-d ^="bc-aa-d"][ href |= "" i ]+body, *[ required|=aadaabbdcacaab i ].d , p + em ~ :enabled + *:lang(adabbacbcdc ).cb:not(* ):active ~*#ad:root[ checked ^="bd"] > :enabled:where( em[id].dc + * ), #adccbdbabaaaac ~ .aa[data-d="dcbcbdcab db bbabcdccaadcb"]>*)#dc#dc ,b#cc , *#adabbab, [ href = abbb] , .d + span +*[title])[required= "d-ddaa cdcaababd" i]:has( ~*:lang(bd) )
+@@@
+<!DOCTYPE html><html><body><section id="bb" title=""></section></body></html>

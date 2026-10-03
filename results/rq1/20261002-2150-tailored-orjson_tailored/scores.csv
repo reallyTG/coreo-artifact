@@ -1,0 +1,4 @@
+subject,category,language,blind,a,b,metric,expected,n_regions,n_decided,n_for_a,n_for_b,outcome,explanation,explains_expected,explanation_evidence,best_ratio,best_prop,best_prop_relevance,best_region,shape_checked,n_shared_inputs,n_disagree_dropped,run
+orjson_tailored,known,Python,False,orjson_3_10_1,orjson_3_10_2,runtime_ns,b_faster,14,0,0,0,missed,,,,,,,,no,,0,1
+orjson_tailored,known,Python,False,orjson_3_10_3,orjson_3_10_4,runtime_ns,equivalent,14,0,0,0,correct_negative,,,,,,,,no,,0,1
+orjson_tailored,known,Python,False,orjson_3_10_5,orjson_3_10_6,runtime_ns,b_faster,14,0,0,0,missed,,,,,,,,no,,0,1

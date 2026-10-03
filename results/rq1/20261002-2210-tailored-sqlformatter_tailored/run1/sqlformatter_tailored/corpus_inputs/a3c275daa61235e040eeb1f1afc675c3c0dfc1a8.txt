@@ -1,0 +1,1 @@
+SELECT cab1 FROM ded ;

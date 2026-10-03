@@ -1,0 +1,3 @@
+div> [ id ][disabled^= a i ]
+@@@
+<!DOCTYPE html><html><body><section></section><div title="" lang="dcdaaccdcaadb" data-cb=""></div></body></html>

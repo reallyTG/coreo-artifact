@@ -1,0 +1,62 @@
+{
+  "count_tchar|count_attribute_selector": {
+    "band": [
+      10,
+      12
+    ],
+    "best": 1.0,
+    "direction": "maximizing",
+    "extensive": "count_tchar",
+    "intensive": "count_attribute_selector",
+    "stalls": 0,
+    "window": [
+      345.0,
+      414.0
+    ]
+  },
+  "count_tchar|count_pseudo_class_selector": {
+    "band": [
+      10,
+      12
+    ],
+    "best": 1.0,
+    "direction": "maximizing",
+    "extensive": "count_tchar",
+    "intensive": "count_pseudo_class_selector",
+    "stalls": 0,
+    "window": [
+      345.0,
+      414.0
+    ]
+  },
+  "count_text_run|count_attribute_selector": {
+    "band": [
+      12,
+      14
+    ],
+    "best": 5.0,
+    "direction": "maximizing",
+    "extensive": "count_text_run",
+    "intensive": "count_attribute_selector",
+    "stalls": 0,
+    "window": [
+      56.0,
+      67.2
+    ]
+  },
+  "count_text_run|count_pseudo_class_selector": {
+    "band": [
+      12,
+      14
+    ],
+    "best": 6.0,
+    "direction": "maximizing",
+    "extensive": "count_text_run",
+    "intensive": "count_pseudo_class_selector",
+    "stalls": 0,
+    "window": [
+      56.0,
+      67.2
+    ]
+  }
+}

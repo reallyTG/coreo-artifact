@@ -1,0 +1,3 @@
+[ type *= bb-c-dc-bd i]#addbcd> *+b ~ *:checked>section:has(~ div ~:lang( cbb )#d[type ].cacaddccacbabd#ddbdbcbbbaa[ data-d = "" i].c:is(p>*> section>*#acdbcddbabba:any-link .cc:not(html ,*#bd[ checked =aaccccad i] ~em > *[ href *=b ][ href $="d" ] , div#ca>span[id].cc ,*[ class~= "badcacdccbccdc d b" i]) ,input[checked ] , .cb[lang $="" i ])[ id~= "" i] >*#bb#ba ),span,:nth-last-child( -4)+.bdcbcd[ lang]+*,*[required *=aa]
+@@@
+<!DOCTYPE html><html><body><p data-bcbaab=""></p><span id="bcbdcbaa" title="ac" data-cb="">cbb </span></body></html>

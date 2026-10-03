@@ -1,0 +1,34 @@
+With c1 As( With "B" As(WITH 	 recursive bebbecd	(a1ec11b,ed1_e1d, c1eb ,_1a1ddb, """""   """ , c1aa, caac , eba1cb  ,"."".a a"" ",e_eb_ , db1a )
+As
+( Select not not 	 (Cast("B"._
+/ + E' \'''\n\x41x\x41x' At time Zone (+ False /* c */ 	> True	and
+- NULL)::_ccbebbb_1c	+ - -	
+X'70'  not IN	( NULL::TEXT) = SOME( ARRAY[ ]	IS not FALSE) -- c
+ And  -	 NULL IS
+FALSE OR DATE E'xyx\t\\\t'
+As dac)
+/ row() + False > TRUE is not
+  True or bb::boolean[ ] Is False) * _1bde + - null
+~ false "a""""   " group -- c
+ by - - 92E284 NOTNULL	,c_d.d ,Not 4_444815,d Isnull , TRUE::real IS  Null,	ad_ NOTNULL
+, - FALSE
+Isnull,not Not NULL ,
+round() , rollup (B'011' Isnull),	FALSE::date[],_.be  union Select ALL  Group
+by ROLLUP( not TRUE) , cube
+( array[ ]), cube(cb	ISNULL) , -
+"""a", + b'1' notnull,+ - NULL,ARRAY[]  IS NOT	 TRUE
+, + U&'''yx' Notnull , b'00111' notnull  ,not b'0100' ,+ NULL	Notnull,"B..B" Isnull) select
+DISTINCT *, * group by
++
++ 9., NOT true::TEXT,NOT NOT 624595	,false  NOTNULL,Not " "" B ..",NOT d_cc , + .918 ,false::Date::Date , 72240e2 , ab.c
+,a_b Isnull,array[  ]::Text)	SELECT
+all *,
+* GROUP BY Rollup(- 575) ,- Array[ ] ISNULL , true	IS TRUE,1251::REAL,	NOT array[]	Notnull,dedbbd.a , 253954 notnull,
+- ''''  ISNULL ,35584 notnull , Not - b'', not array[ ], CUBE(X'aF7'
+Isnull)) Select Distinct dce_de.* Group BY + ".a .""." ,NOT + E'',array[] ,
+Not +	 FALSE,Rollup(- 21)
+, ARRAY[	] notnull , X'00FFa'
+isnull , Row() notnull, not + True IS FALSE ,not -
+E'' ,array[ ]
+ISNULL  , 18936
+NOTNULL for share ;

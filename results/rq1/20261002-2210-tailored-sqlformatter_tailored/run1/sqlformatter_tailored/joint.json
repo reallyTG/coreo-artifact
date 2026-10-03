@@ -1,0 +1,49 @@
+{
+  "count_col_id|sql_bytes": {
+    "band": [
+      24,
+      26
+    ],
+    "best": 12253.0,
+    "direction": "minimizing",
+    "extensive": "count_col_id",
+    "intensive": "sql_bytes",
+    "retired": true,
+    "stalls": 2,
+    "window": [
+      708.0,
+      849.6
+    ]
+  },
+  "count_elem|sql_bytes": {
+    "band": [
+      24,
+      26
+    ],
+    "best": 10029.0,
+    "direction": "minimizing",
+    "extensive": "count_elem",
+    "intensive": "sql_bytes",
+    "stalls": 0,
+    "window": [
+      2401.0,
+      2881.2
+    ]
+  },
+  "count_iconst|sql_bytes": {
+    "band": [
+      24,
+      26
+    ],
+    "best": 10378.0,
+    "direction": "minimizing",
+    "extensive": "count_iconst",
+    "intensive": "sql_bytes",
+    "retired": true,
+    "stalls": 2,
+    "window": [
+      336.0,
+      403.2
+    ]
+  }
+}

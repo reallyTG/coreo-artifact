@@ -1,0 +1,3 @@
+$.*..*
+@@@
+{"bddababcdb":[0,0],"bbaacacbcaaa":2}

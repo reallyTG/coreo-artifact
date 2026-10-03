@@ -1,0 +1,4 @@
+subject,category,language,blind,a,b,metric,expected,n_regions,n_decided,n_for_a,n_for_b,outcome,explanation,explains_expected,explanation_evidence,best_ratio,best_prop,best_prop_relevance,best_region,shape_checked,n_shared_inputs,n_disagree_dropped,run
+jpython_tailored,known,Python,False,jpython_1_1_0,jpython_1_1_1,runtime_ns,b_faster,26,5,0,5,detected,,,,0.844,max_value_bytes,0.55,3.387-11.48,hits,544,0,1
+jpython_tailored,known,Python,False,jpython_1_1_1,jpython_1_1_2,runtime_ns,b_faster,26,4,0,4,detected,,,,0.61,count_s_segment,0.55,0-0,hits,544,0,1
+jpython_tailored,known,Python,False,jpython_1_1_2,jpython_1_1_3,runtime_ns,b_faster,26,6,0,6,detected,,,,0.738,count_s_segment,0.55,0-0,hits,544,0,1

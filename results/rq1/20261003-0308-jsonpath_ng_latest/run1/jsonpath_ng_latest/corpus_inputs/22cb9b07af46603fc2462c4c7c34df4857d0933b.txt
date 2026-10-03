@@ -1,0 +1,29 @@
+$
+ 
+  .*  	.*
+@@@
+{ 
+ "bdac\ra\fd\\c\uDAbC\uDFCD"
+
+ 
+  
+:true	 ,"db" 
+:    	null
+ 
+		 ,
+	"bcdbdd\\abdda\t\n\t"		:   	false 		,
+ 
+ "aa"	:		 null   ,	
+			
+ "cccdcd"	
+:   	 	null,		
+
+	"ad":"yz","b\"bad":true
+   
+, 
+	  "cbbbbabad"
+
+ :
+
+ 
+null }

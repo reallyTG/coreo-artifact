@@ -1,0 +1,31 @@
+$[*][*]..["",9,0,-5,10,83070051970100,"c",70,0,0]..bb
+@@@
+	  			[ 
+
+					[ 
+]
+
+ 	 , 
+	 {			 },false,{},  
+	
+
+null,
+false,
+	
+ 
+""
+
+,	[ 	
+null]	
+  	 	,{"cac":true		 ,"d"	
+
+	:				
+"xzyxxy\uD9b0\uDeDd\"" 
+,	
+ 		  	"aabbbbd\ud8DF\udd50\uEfa2ca\"\uffbDc":{} 	   ,	
+"ba":-0E+1,
+  	  
+"abbabacdd\r\\aab"	:null,		"ccaaa":false,   
+"bcdbbcdd\uecaB\radb\b\b\fc\"\f" 		:[],
+
+ "cc":true}]

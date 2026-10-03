@@ -1,0 +1,10 @@
+$[? 	match(null
+ ,	
+
+
+  
+
+
+'b?y|a(ax{9}z{0}){1,3}|y{0,}b?z{0,}|cz+|[^x-z]y?(z*c+)|.(b{0,2}dx*)+(az|(z+d*.|ca*|cz|(x+.*x)?a*a|d(y?b)*|(z+z+.|a*ac{0,}|z.x|(a?z|.z{2,4}y*|[^yx-za-dx-za-da-dx-zbx-z](x(x[^x-zz]{0,}x{1,3})|yx|[x-zx-zx-zx-zxbax-zb]bz*|b*(z{0,2}zx*)*b{0,2}|y{1,2}(ba*b{1,2})y{0}|d+y+c|(abc|c?.([^a-daa-da-dza-d]+b*a)?|ady|x?x|ya|(ad)+((ad?(.z*)*)(b*a*|z[a-da-d]?|xa|xd*[b]|c{1,3}cc|xb*(z{1,2}d*.|ya|(x+a?a{0,1}|xd*z|x?x|xd|c*(dz?)+|(b{0,}(xy)d)+.+(bc)|y(cx+z|x?[^a-dza]+x+|c?((bz?|c{1,3}a*z{0,2}|((.{1,3}x)y+)a*|db*([x-zzxa-dda-da-d]z|xc*|b?a+|(da{6}z{0,1}|b?zc{2,4}|zda{9}|c+z?|xz{0,1}|.{2,4}b.|c[^x-zx-za-da-dbxb]d|dy+|b+x{2,4}|(.d){6,}x)*z|d*b+|dy?)+|(a*(b+c|d*z|z*x))b+)*b+z|y+x(zb{0,}b{1,2})|(a*.|x+d|z*zz+|b*x+c|y[^x-zb]|(a+x+|a+b+|a{1,2}y|yb*)d?(x*.c|xy|ca*(x[^zya-dyx-z]b+)|.a|z?b*|.{0,1}bc{1,3})|ab?y+|[xa-dx-z]*d*)d{5}|z+.|x*.*x|z*c|xd|.{0,2}x?|xz|b?c*|a+x?y?)){2,4}x+)cd|dz{2,4}|b?b{4,})){2,4})*)?[^a-da-da-da-dca-da-dx-z]|y?bc{0,2}|cd+[^dx-zx-za-dx-zda-d]|x*a+)|z*d|.aa*){0,1}cy|[^a-dza-da-d]+[x-z]{2,4}z*|by{0,1}y|zz{1,3}|([^x-za-dx-z]c?y|b+((y?b+){1,2}x{6}|c{0,2}c+|x+c|za|b{1,3}.*|xb|(a*(c{3}y*z?)?|ba?|ab*|b+([^x-zx-z]{0}(yd))|bd+|[^a-dza-dx-zd]*b{2}|xb{1,3}|zdc+)d){1,2}|yc*(z{1,2}z[yx-zczx-za-da-d]*|y{2,}a?y|b?z|(y.?)?.?d|z{7,}(c{1,2}d|(y{1,2}x*)[^yx-zbx-zc]*z|[^a-dbx-zx-zx-zba-dda-d]{0,2}z.|d{0,}.|a+d|za|(yxa{0,2})a+(d?yx+)|a(zzd*)|(.*z|c?zy|zyc?|z{3,}(x?cc{1,3})?|a?c|c*(d.*|cb{7}d*|zc+a|a{0,1}d?|x[da-dya-dya-da-dx-zx-zy]*|.(ba)?x|b?.|b?a|cx+)b+|b{0,1}c|c(c*b|xa{0,2}|x?a*y|xdz*|a(z+y+a|(y.)+a*|c+.?|[^y]*(y(cc*[^a-dba]*|z{2,4}x|yx*|zz)(z?b?y)|.*x+x|y(b+y{1,2}c+)?|d[^xx-zba-dx-z]?|zzb|x{1}d|bb{0})*|z?xz|d{1,3}z{1,3}y|(x{0,2}d|(x?xz)*(xcy)c|d+y*b?|z((.{9}.*)[xbdx-za-da-d]a?){1,2}|x+x+|[^a-da-dx-zxx-zx-zx-zya-dd]a{1,2}x|b?c(dz|[^x-za-dx-zada-d]?a|c?yd*|x?z|b[ya-dx-za-dbx-zx-zyx-z]|c+zy*)|cxy)[x-zba-da]x|y([x-zb]d))+x{0,1}|.?d?|x[^a-da-dx-zx-za-d]|c+a?|[a-dx-zx-zza-dx]?x?y*|(((z?x)*d*x|z{0,1}a{2,4}|d+a*)?[^ya-da-da-dzx-zxa][a-da-dzx]|az*x|.(y+.)?)ab{1,2}|a{1,3}ay)d)z)+))a)d)c)+')&&match(false,"ay"),?match(true,"bc")]
+@@@
+[true]

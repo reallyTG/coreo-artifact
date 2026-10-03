@@ -1,0 +1,27 @@
+With RECURSIVE "aaa"( _edc_ceddd_  ,""""".B"" "	 ,"."".""", b_11111a ,c1__d_ce,	 ccd1a11be  ,
+__cdc_d__) -- c
+ As(	( WITH "a. " AS (With cee1 AS (With ce1 as (WITH
+ Recursive d1c (aa11cd,_c1e,e_ebe_,a1_1d11a ,dd_1ac1,deadae_abe,a1e,
+bdabae1)
+as(( (( select
+DISTINCT On(NOT bc AT  time ZONE "B . BaBB"[ not U&'\0041y\0041''y\0041'
+AT TIME
+Zone (WITH dae1 AS ( with recursive	 """B ..a BB" ( -- c
+ """. . """"B .",eee_,b , """ a", "Ba"".aa..", cc__eadadc ,e1abddbdd,bb ,
+ dcab, """Ba"" aa""") AS( SELECT	True AT Time  Zone ae_1cbd1b.eaddabdd.ea_ AT TIME Zone b'0001100' ^
+ Exists(With Recursive  bc( cce_edb) as (Select ae11_dadbc.*,"a.aB..aB".*,cd__cac.*,CAST ( ARRAY[ __	* greatest(CAST( Not - True::text::Date /* c */  At
+time zone "aB" / -	- TRUE	+  B''::e << SOME(SELECT distinct *) Not between Interval '''x' !~~ row() AND null > True	As	Boolean) /	ac1ddca__.d.a - row () -> ALL(select d.* , d1b_ade.*) = TRUE	ISNULL or FALSE  != Null)  at -- c
+
+time Zone c
+>> ALL(select
+ distinct *, *  ,edaadeccae1.*) < ALL	(  + Row	())  Isnull And TRUE::Real::bigint[]] Not Like null AND  TRUE	% - X'077' as INTERVAL)  AT time
+Zone b'0111011'	!~* now	(*) - + true between x''	^ 07 and False = Null Notnull and a_e And false	Is True OR + 11 Isnull Union select) Select For update) * E'yx\nxy\n' #
+X'0' ^ true + e1daa NOT Ilike any (true * + - FALSE) >
+all(select  distinct *,* For Update) is not	 FALSE	And NOT interval U&'\0041' b, be.*
+union Select ALL) SELECT  ALL b__.* for Share)	select -- c
+	* For KEY  SHARE)::Date[] -- c
+ + null NOT LIKE Any(	 select all offset 149664 Row)] / .08669 Not ilike any ( SELECT
+DISTINCT *) NOTNULL And	+ 2 And _cdd Or c1daae___e) *) union	SELECT  DISTINCT * ,*  , ead.*) union Select ALL for	UPDATE) union All select distinct caaac.*) select
+
+DISTINCT *) /* c */  select	 Distinct ba1.*) SELECT *	 -- c
+  ,*)	select	Distinct *) Union  SELECT	 *  ,*) Select  Distinct  db1.* ;

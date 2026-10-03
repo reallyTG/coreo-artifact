@@ -1,0 +1,36 @@
+With
+ Recursive abdcaa(a -- c
+ , _d_d,d  , "aa  "" ."""
+, dceeab_,debbdc,b1ac1e_,a1 ) As( SELECT	 DISTINCT "B"" "" ".*, not - GREATEST (CASE  when b'10'	AT
+TIME ZONE X'FF70FFa' /* c */ 	AT time
+Zone 73285338_72811_9198293461	At time Zone """""."._deb_a__c1."BBB""  a.a." AT  TIME ZONE null &
+some  (With
+ aabada__b_
+as ( Select b'0'::_dbddcad[]::varchar[ ] in(not	 - NULL At TIME Zone NULL  ~ c_.d_aee1dc::varchar  IN(with ". ""aB." As
+(( WITH	 _1caa As (With
+  RECURSIVE  ceead1c_1_(ed /* c */  ,_ed_eecdd1_,ccaac, -- c
+ beaccabedae , -- c
+
+cddaabada, ".. ""B" ) AS( select	Distinct not not 	 null  >= SOME( TRUE
+
+Is	False)	AND X'' -- c
+ /* c */ 
+Or 8	% False	isnull, d1_1c.* union SELECT) SELECT),b1ba1_d11  AS(Select Distinct *), ce_c1aee as (select all  FROM dd.d) ,_ as(SELECT UNION all select distinct	"Ba" cae1),a As(SELECT), ebd_a__ as(Select for Key
+  Share), """B" AS ( SELECT
+distinct *	FOR
+key Share), " "	AS (select Distinct ad.* For SHARE)	  select distinct *) Union  SELECT	distinct b_.* for  No  Key UPDATE) , ".."  as(SELECT offset 6 ROWS), c1e1a_1_ as( Select DISTINCT _da.* for UPDATE), "Ba" As	( select ALL *) ,"." As ( /* c */  Select  all OFFSET 4
+Row), b1cecded1  AS  ( SELECT all Offset 66 ROWS),edb /* c */  AS (select /* c */  all) ,_c_11bccd AS( select Distinct *,c.*) SELECT Distinct  ".B.".* FOR Update) <= FALSE is FALSE or Not Not  null Is Not	 Null)
+>
+Null is FALSE or true * 5836 notnull d, _a_c.*) ,ad_b_d As ( Select	*),"""B  a""." as( select  Distinct * FOR	Key SHARE) ,_ec_dbe  As(select * For update),"a a.B"
+AS ( -- c
+ Select),a_a1d_da1 -- c
+ AS
+(SELECT distinct *),cdc1 As(select -- c
+
+ALL * OFFSET 600 Row),aa as( select OFFSET 64
+ROW)	 select all Fetch
+Next ROWS only) NOT In (SELECT DISTINCT ae_1.* For SHARE) >= NULL IS NULL Then Null Else x'F7F'::smallint end NOTNULL AND -- c
+ ROW( -- c
+ )) ^ TRUE::smallint[ ] BETWEEN true % X'FFa' AND TRUE = NULL is NOT NULL Or
+not  ARRAY[] cadac__dede  Union SELECT
+All) select  Distinct "..""B".* FOR Share;

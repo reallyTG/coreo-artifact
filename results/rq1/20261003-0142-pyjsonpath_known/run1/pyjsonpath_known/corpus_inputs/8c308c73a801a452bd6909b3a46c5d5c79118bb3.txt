@@ -1,0 +1,21 @@
+$.*
+@@@
+
+ 
+{
+  
+"cbc"	 
+ :""
+ 
+,"bd":false,	 "dd"
+	 	:false,"acdcbdc\t\"\/\f\n\\\\\\b\n"		     	:
+ 
+true,"ccccc\/\"\tdbcd\udBDc\udcbc\fa\""   :false 	 
+	
+, "a"	
+   	:null,"aca"
+
+
+ 
+:false    
+		}

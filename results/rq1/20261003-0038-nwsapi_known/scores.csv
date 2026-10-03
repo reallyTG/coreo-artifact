@@ -1,0 +1,6 @@
+subject,category,language,blind,a,b,metric,expected,n_regions,n_decided,n_for_a,n_for_b,outcome,explanation,explains_expected,explanation_evidence,best_ratio,best_prop,best_prop_relevance,best_region,shape_checked,n_shared_inputs,n_disagree_dropped,run
+nwsapi_known,known,JavaScript,True,nwsapi_2_2_26,nwsapi_2_2_27,runtime_ns,b_faster,28,0,0,0,missed,,,,,,,,hits,161,0,1
+nwsapi_known,known,JavaScript,True,nwsapi_2_2_25,nwsapi_2_2_26,runtime_ns,b_faster,28,0,0,0,missed,,,,,,,,hits,161,0,1
+nwsapi_known,known,JavaScript,True,nwsapi_2_2_24,nwsapi_2_2_25,runtime_ns,b_faster,28,0,0,0,missed,,,,,,,,hits,161,0,1
+nwsapi_known,known,JavaScript,True,nwsapi_2_2_23,nwsapi_2_2_24,runtime_ns,b_faster,28,0,0,0,missed,,,,,,,,hits,161,1,1
+nwsapi_known,known,JavaScript,True,nwsapi_2_2_21,nwsapi_2_2_22,runtime_ns,b_faster,28,0,0,0,missed,,,,,,,,hits,161,0,1

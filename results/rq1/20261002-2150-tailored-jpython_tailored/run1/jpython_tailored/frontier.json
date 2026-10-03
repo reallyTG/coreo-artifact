@@ -1,0 +1,103 @@
+{
+  "__grammar__": {
+    "digest": "a12e7f10f858e105ccd33252c99e12fd9ae68347"
+  },
+  "count_doc_int": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 9211.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<wide_more_member>"
+  },
+  "count_inner_array": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 151.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<wide_more_member>"
+  },
+  "count_inner_object": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 65.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<wide_more_member>"
+  },
+  "count_s_segment": {
+    "language_bound": 2.0,
+    "last_max": 4.0,
+    "pinned": true,
+    "reason": "language",
+    "site": "<s_segment>"
+  },
+  "count_trav_segment": {
+    "language_bound": 2.0,
+    "last_max": 5.0,
+    "misses": 0,
+    "pinned": true,
+    "reason": "language",
+    "rung": 0,
+    "site": "<s_segment>"
+  },
+  "count_wildcard_selector": {
+    "language_bound": 2.0,
+    "last_max": 4.0,
+    "pinned": true,
+    "reason": "language",
+    "site": "<s_segment>"
+  },
+  "doc_bytes": {
+    "constant": false,
+    "last_max": 20386.0,
+    "misses": 2,
+    "pinned": true,
+    "reason": "search",
+    "requested": [
+      20387.0,
+      40772
+    ],
+    "rung": 2
+  },
+  "max_value_bytes": {
+    "constant": false,
+    "last_max": 1511.0,
+    "misses": 2,
+    "pinned": true,
+    "reason": "search",
+    "requested": [
+      1512.0,
+      3022
+    ],
+    "rung": 2
+  },
+  "query_len": {
+    "constant": false,
+    "last_max": 16.0,
+    "misses": 2,
+    "pinned": true,
+    "reason": "search",
+    "requested": [
+      17.0,
+      32
+    ],
+    "rung": 2
+  }
+}

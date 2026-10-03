@@ -1,0 +1,3 @@
+$..*.a[*]
+@@@
+{"abcdbccabcd":["zxx","xxy",0,"xzy","y",9,"xyy","zz",2,0,"zx"],"aaacdbdaaabb":90}

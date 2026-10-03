@@ -1,0 +1,15 @@
+$[0]..*.*
+@@@
+
+
+{	"acb":"yy",
+"baabbcac"	:	null 	,
+"a"
+:	
+false	 ,"cabcbadbcaccd": null , "d"
+:
+true		,	"accbdcadccaba" : null	,"bd"	: [	] ,"cac"
+:
+	false ,"dad":
+-3	}
+ 

@@ -1,0 +1,3 @@
+$..c.a.*
+@@@
+{"cacccadddc":[0,"y","zyy","y",0],"bdcbbdcbdccd":"xx","cbccbbbaaada":{"a":"yyx","b":[0,80,"zxz","yyz","yzy",0,0,0,"y",7]},"ddddaacc":[0,"y",0,"yx",10,40,40,"zz"],"dadadccbbb":{"a":87},"aabddcbcccb":[0,"xxy",7],"cccbdbbdcbc":{"a":"zz","b":["zyy",20,"yz","yyy"],"c":"xz"},"acacbcddcdb":["zzy","y"],"addbaddcb":["yxy"]}

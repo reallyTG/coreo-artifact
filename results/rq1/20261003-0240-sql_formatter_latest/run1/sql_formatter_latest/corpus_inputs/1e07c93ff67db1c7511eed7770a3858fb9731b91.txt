@@ -1,0 +1,29 @@
+with """B"" """ as(WITH Recursive dda_cb1_b1c("aB"
+)
+AS( ( ( WITH
+
+ RECURSIVE
+ae(c1decc1,cab1bbdca , ". """"a.a" ,	bd,"a" ,  e  ,dd,d ,".""aBB") as( Select
+DISTINCT  On  (+ null % CASE ( With RECURSIVE """""  "(" ..""a" ) as( select FROM /* c */  (with recursive " .""B""BB " (ec,ddbcbd_a_11 , cadde_e ,".aaa") as (Select decbdde_.* ,"""  .aa.B ".*,c.*	WHERE not 4e018 - NULL ^  X'aF0'::Text[ ]::_b1deda_ / Date U&'''\0041''yx' is
+FALSE and  False Notnull Union Select distinct	b_eda_.*) select
+Distinct * , * For Share) AS  ddbad_ union Select *,*) SELECT	Distinct dabb.*) / Array[] +	
+- -- c
+ B'010' || null ^ E'' at time Zone ARRAY[ ] not like FALSE < All(  true != false) is not	
+ true Or - ' ' % ARRAY[ ] WHEN not - True THEN False end::d.d_1dee::text -	_::Varchar[] ->> all ( Select DISTINCT dd.* ,* FOR KEY share)
+NOT ILIKE Any (not x'' notnull)	is null AND B'00' != False or +
+U&'''''y' ISNULL) ca_b1e.* /* c */  union ALL SELECT distinct *) select DISTINCT "B.""B".* FOR Update)	 union	All SELECT All For SHARE) Union	all
+SELECT) select Distinct ea1a.* ,* FOR UPDATE) ,_bc1edc1 as ( select * FOR Share),	d as (Select ALL fetch First ROW Only for Update),"B..BB""a""" as ( select ALL for KEY SHARE), c_1_ as ( Select	distinct * for share),
+aeebb_bb  As(SELECT all) ,d_cecedc -- c
+ as
+(Select distinct *),cdb As (Select distinct bdceb1ebb.*	for SHARE),ab  AS (  select bda.*) ,aaaba
+AS (
+SELECT  Distinct a1.*)	,
+ db_da_d AS  (SELECT ALL),"."  AS ( select distinct	 *,*) ,  ba1ca1e_cb As( Select distinct *)," .B""aB a" as( SELECT *  , _b.*), "a ." as ( SELECT DISTINCT * For share), db1bcbcece	As(Select  All),  ba__1 AS(
+Select FOR Key SHARE) ,eeaab as ( Select	DISTINCT	*,cecbbc_ea.*) ,deeb_1	as ( Select ALL)
+, "Ba"""" " AS	(	Select for	key SHARE) ,cbc
+as (
+select ALL Offset  9 ROWS) ,  b As
+ ( select DISTINCT *, ed__e.*) ,c1bb1b AS ( Select) , c1caba
+AS ( Select OFFSET 4
+ROWS) , ecee as
+(SELECT Distinct " "" a".*) select	FETCH  First ROW only;

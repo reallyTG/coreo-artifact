@@ -1,0 +1,1513 @@
+$ ./.venv/bin/python -u run.py sqlformatter_tailored --seed=20260922 --output-dir=./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored --max-wall-seconds=3420
+
+[props] max_repetition=20 (bounds * and + during generation)
+[props]   count_col_id                       1..inf  governed by <more_el>* in <flat_list>, capped at 20 by max_repetition
+[props]   count_columnref                    0..inf  governed by <more_el>* in <flat_list>, capped at 20 by max_repetition
+[props]   count_digit                        0..inf  governed by <more_el>* in <flat_list>, capped at 20 by max_repetition
+[props]   count_elem                         1..inf  governed by <more_el>* in <flat_list>, capped at 20 by max_repetition
+[props]   count_iconst                       0..inf  governed by <more_el>* in <flat_list>, capped at 20 by max_repetition
+[props]   count_ident_char                   0..inf  governed by <more_el>* in <flat_list>, capped at 20 by max_repetition
+[props]   count_more_el                      0..inf  governed by <more_el>* in <flat_list>, capped at 20 by max_repetition
+[props]   count_more_el_bool                 0..inf  governed by <more_el>* in <flat_list>, capped at 20 by max_repetition
+[props]   count_ows                          1..inf  governed by <more_el>* in <flat_list>, capped at 20 by max_repetition
+[props]   count_ws                           3..inf  governed by <more_el>* in <flat_list>, capped at 20 by max_repetition
+[props] identical to count_col_id, not derived: count_ident_start, count_identifier
+[props] identical to count_iconst, not derived: count_digits
+[props] fixed count, not derived: <flat_list>, <from_clause>, <select_stmt>, <simple_select>, <table_name>
+[sqlformatter_tailored] properties: ['count_ws', 'count_columnref', 'count_col_id', 'count_ident_char', 'count_elem', 'count_iconst', 'count_digit', 'count_more_el', 'count_ows', 'count_more_el_bool', 'sql_bytes', 'list_items']
+[sqlformatter_tailored] range-stratified exploration: <more_el> bands=[(50, 100), (150, 250), (300, 500), (600, 900), (1200, 1800), (2400, 3000)]
+  [explore] band more_el50-100: 20 inputs (max_nodes=30000)
+  [explore] band more_el150-250: 20 inputs (max_nodes=30000)
+  [explore] band more_el300-500: 20 inputs (max_nodes=30000)
+  [explore] band more_el600-900: 20 inputs (max_nodes=30000)
+  [explore] band more_el1200-1800: 20 inputs (max_nodes=30000)
+  [explore] band more_el2400-3000: 20 inputs (max_nodes=30000)
+[sqlformatter_tailored] iter 0 (explore): corpus=240 (+240 new this run)
+[select] relevance (max |rho| vs any metric on any system): count_elem=0.99, count_more_el_bool=0.99, count_more_el=0.99, list_items=0.99, count_iconst=0.99, count_ws=0.99, count_ows=0.99, sql_bytes=0.79, count_digit=0.76, count_col_id=0.16, count_columnref=0.16, count_ident_char=0.10
+[select] comparative relevance (max |rho| vs a between-system ratio): count_elem=0.94, count_more_el_bool=0.94, count_more_el=0.94, list_items=0.94, count_iconst=0.94, count_ws=0.94, count_ows=0.93, sql_bytes=0.74, count_digit=0.72, count_col_id=0.10, count_columnref=0.10, count_ident_char=0.07
+[select] dropped count_more_el_bool: |rho|=0.99 with count_elem, which is already kept
+[select] dropped count_more_el: |rho|=1.00 with count_elem, which is already kept
+[select] dropped list_items: |rho|=1.00 with count_elem, which is already kept
+[select] dropped count_iconst: |rho|=1.00 with count_elem, which is already kept
+[select] dropped count_ws: |rho|=0.99 with count_elem, which is already kept
+[select] dropped count_ows: |rho|=0.99 with count_elem, which is already kept
+[select] dropped count_digit: |rho|=0.97 with sql_bytes, which is already kept
+[select] dropped count_columnref: |rho|=1.00 with count_col_id, which is already kept
+[select] dropped count_ident_char: |rho|=0.94 with count_col_id, which is already kept
+[select] count_col_id stands for count_columnref, count_ident_char (indistinguishable here)
+[select] count_elem stands for count_more_el_bool, count_more_el, list_items, count_iconst, count_ws, count_ows (indistinguishable here)
+[select] sql_bytes stands for count_digit (indistinguishable here)
+[select] joint fit uses 3 of 12 properties: count_col_id, count_elem, sql_bytes (216 model fits)
+[sqlformatter_tailored] loop targets 3 of 12 properties: count_col_id, count_elem, sql_bytes
+[sqlformatter_tailored] targeting 8 regions: runtime_ns_divergence, count_elem_dominance0, count_col_id_undecided0, count_elem_x_sql_bytes_joint, sql_formatter_15_8_2_runtime_ns_count_col_id_discriminate, sql_bytes_beyond, runtime_ns_high, sql_bytes_edge
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_divergence] 2s: no new inputs
+  [count_elem_dominance0] settling count_elem [104.8,196) would decide 1 dominance verdict(s): sql_formatter_15_8_2 vs sql_formatter_15_9_0 (runtime_ns, rss undecided) -> <more_el>{24,26}
+  [count_elem_dominance0] 19s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [count_col_id_undecided0] 2 comparison(s) undecided in count_col_id [3.042,9.256): sql_formatter_15_8_2 vs sql_formatter_15_9_0 on runtime_ns and 1 more -> <more_el>{4,6}
+  [count_col_id_undecided0] 18s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [count_elem_x_sql_bytes_joint] sql_bytes spans 921..13262 overall, 10029..10355 at count_elem in [2401,2881.2]; minimizing it at <more_el>{24,26}
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+  [soft] minimizing sql_bytes: 1214 candidates, best=66, keeping 15 spanning 66..67
+  [count_elem_x_sql_bytes_joint] 144s: +15 new input(s), 2 distinct shape(s), 15 measured
+  [sql_formatter_15_8_2_runtime_ns_count_col_id_discriminate] Linearithmic vs Quadratic vs Linear tied; 20 inputs here decide it (power 1.00)
+  [seeds] skipped 6 seed(s) over 1B; parsing one costs more than the request it would seed
+  [sql_formatter_15_8_2_runtime_ns_count_col_id_discriminate] 22s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [sql_bytes_beyond] rung 1
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [sql_bytes_beyond] 3s: no new inputs
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_high] 8s: no new inputs
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [sql_bytes_edge] 3s: no new inputs
+[sqlformatter_tailored] iter 1: corpus=360 (+120 new)
+[select] relevance (max |rho| vs any metric on any system): count_more_el_bool=0.99, count_ws=0.98, count_elem=0.99, count_more_el=0.99, list_items=0.99, count_ows=0.99, count_iconst=0.99, count_digit=0.92, sql_bytes=0.92, count_columnref=0.43, count_col_id=0.43, count_ident_char=0.41
+[select] comparative relevance (max |rho| vs a between-system ratio): count_more_el_bool=0.90, count_ws=0.91, count_elem=0.90, count_more_el=0.90, list_items=0.90, count_ows=0.90, count_iconst=0.90, count_digit=0.84, sql_bytes=0.85, count_columnref=0.35, count_col_id=0.35, count_ident_char=0.34
+[select] dropped count_ws: |rho|=0.98 with count_more_el_bool, which is already kept
+[select] dropped count_elem: |rho|=0.99 with count_more_el_bool, which is already kept
+[select] dropped count_more_el: |rho|=0.99 with count_more_el_bool, which is already kept
+[select] dropped list_items: |rho|=0.99 with count_more_el_bool, which is already kept
+[select] dropped count_ows: |rho|=0.98 with count_more_el_bool, which is already kept
+[select] dropped count_iconst: |rho|=0.99 with count_more_el_bool, which is already kept
+[select] dropped count_digit: |rho|=0.93 with count_more_el_bool, which is already kept
+[select] dropped sql_bytes: |rho|=0.92 with count_more_el_bool, which is already kept
+[select] dropped count_col_id: |rho|=1.00 with count_columnref, which is already kept
+[select] dropped count_ident_char: |rho|=0.98 with count_columnref, which is already kept
+[select] count_columnref stands for count_col_id, count_ident_char (indistinguishable here)
+[select] count_more_el_bool stands for count_ws, count_elem, count_more_el, list_items, count_ows, count_iconst, count_digit, sql_bytes (indistinguishable here)
+[select] joint fit uses 2 of 12 properties: count_columnref, count_more_el_bool (36 model fits)
+[sqlformatter_tailored] loop targets 2 of 12 properties: count_columnref, count_more_el_bool
+[sqlformatter_tailored] targeting 8 regions: runtime_ns_divergence, count_columnref_dominance0, count_more_el_bool_undecided0, count_more_el_bool_beyond, runtime_ns_high, count_more_el_bool_edge0, runtime_ns_sparse0, count_more_el_bool_sparse5_0
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_divergence] 3s: no new inputs
+  [count_columnref_dominance0] settling count_columnref =0 would decide 1 dominance verdict(s): sql_formatter_15_8_2 vs sql_formatter_15_9_0 (runtime_ns, rss undecided) -> <more_el>{0,0}
+fandango:WARNING: Symbol <more_el> defined, but not used
+  [count_columnref_dominance0] 20s: +15 new input(s), 4 distinct shape(s), 15 measured
+  [count_more_el_bool_undecided0] 2 comparison(s) undecided in count_more_el_bool =0: sql_formatter_15_8_2 vs sql_formatter_15_9_0 on runtime_ns and 1 more -> <more_el>{0,0}
+fandango:WARNING: Symbol <more_el> defined, but not used
+  [count_more_el_bool_undecided0] 20s: +15 new input(s), 4 distinct shape(s), 15 measured
+  [count_more_el_bool_beyond] <more_el>{24,28} (rung 1, 4000 nodes)
+  [count_more_el_bool_beyond] 20s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_high] 4s: no new inputs
+  [count_more_el_bool_edge0] <more_el>{24,26} for the top 15% of count_more_el_bool ([600,1250])
+  [count_more_el_bool_edge0] 23s: +15 new input(s), 14 distinct shape(s), 15 measured
+  [seeds] skipped 11 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 3s: no new inputs
+  [count_more_el_bool_sparse5_0] <more_el>{24,26} for count_more_el_bool in [625,750]
+  [count_more_el_bool_sparse5_0] 22s: +15 new input(s), 15 distinct shape(s), 15 measured
+[sqlformatter_tailored] iter 2: corpus=510 (+150 new)
+[select] relevance (max |rho| vs any metric on any system): count_more_el_bool=0.99, count_ws=0.97, count_elem=0.98, count_more_el=0.98, list_items=0.98, sql_bytes=0.97, count_iconst=0.96, count_ows=0.97, count_digit=0.95, count_col_id=0.58, count_columnref=0.58, count_ident_char=0.55
+[select] comparative relevance (max |rho| vs a between-system ratio): count_more_el_bool=0.77, count_ws=0.78, count_elem=0.77, count_more_el=0.77, list_items=0.77, sql_bytes=0.76, count_iconst=0.77, count_ows=0.77, count_digit=0.76, count_col_id=0.37, count_columnref=0.38, count_ident_char=0.36
+[select] dropped count_ws: |rho|=0.98 with count_more_el_bool, which is already kept
+[select] dropped count_elem: |rho|=0.98 with count_more_el_bool, which is already kept
+[select] dropped count_more_el: |rho|=0.98 with count_more_el_bool, which is already kept
+[select] dropped list_items: |rho|=0.98 with count_more_el_bool, which is already kept
+[select] dropped sql_bytes: |rho|=0.96 with count_more_el_bool, which is already kept
+[select] dropped count_iconst: |rho|=0.96 with count_more_el_bool, which is already kept
+[select] dropped count_ows: |rho|=0.95 with count_more_el_bool, which is already kept
+[select] dropped count_digit: |rho|=0.96 with count_more_el_bool, which is already kept
+[select] dropped count_columnref: |rho|=1.00 with count_col_id, which is already kept
+[select] dropped count_ident_char: |rho|=0.99 with count_col_id, which is already kept
+[select] count_col_id stands for count_columnref, count_ident_char (indistinguishable here)
+[select] count_more_el_bool stands for count_ws, count_elem, count_more_el, list_items, sql_bytes, count_iconst, count_ows, count_digit (indistinguishable here)
+[select] joint fit uses 2 of 12 properties: count_col_id, count_more_el_bool (36 model fits)
+[sqlformatter_tailored] loop targets 2 of 12 properties: count_col_id, count_more_el_bool
+[sqlformatter_tailored] targeting 8 regions: runtime_ns_divergence, count_col_id_dominance0, runtime_ns_high, count_more_el_bool_edge0, runtime_ns_sparse0, count_more_el_bool_sparse5_0, rss_divergence, count_col_id_dominance1
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_divergence] 4s: no new inputs
+  [count_col_id_dominance0] settling count_col_id [1,3.042) would decide 1 dominance verdict(s): sql_formatter_15_8_2 vs sql_formatter_15_9_0 (runtime_ns undecided) -> <more_el>{1,3}
+  [count_col_id_dominance0] 23s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_high] 4s: no new inputs
+  [count_more_el_bool_edge0] <more_el>{24,26} for the top 15% of count_more_el_bool ([579,1250])
+  [count_more_el_bool_edge0] 19s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [seeds] skipped 11 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 3s: no new inputs
+  [count_more_el_bool_sparse5_0] <more_el>{24,26} for count_more_el_bool in [625,750]
+  [count_more_el_bool_sparse5_0] 20s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [rss_divergence] 3s: no new inputs
+  [count_col_id_dominance1] settling count_col_id [1,3.042) would decide 1 dominance verdict(s): sql_formatter_15_8_2 vs sql_formatter_15_9_0 (runtime_ns undecided) -> <more_el>{2,4}
+  [count_col_id_dominance1] 18s: +15 new input(s), 13 distinct shape(s), 15 measured
+[sqlformatter_tailored] iter 3: corpus=630 (+120 new)
+[select] relevance (max |rho| vs any metric on any system): sql_bytes=0.97, count_ws=0.96, count_more_el_bool=0.97, count_digit=0.95, count_elem=0.97, count_more_el=0.97, count_iconst=0.95, list_items=0.97, count_ows=0.95, count_col_id=0.64, count_columnref=0.64, count_ident_char=0.61
+[select] comparative relevance (max |rho| vs a between-system ratio): sql_bytes=0.73, count_ws=0.73, count_more_el_bool=0.72, count_digit=0.73, count_elem=0.72, count_more_el=0.72, count_iconst=0.72, list_items=0.72, count_ows=0.72, count_col_id=0.38, count_columnref=0.39, count_ident_char=0.37
+[select] dropped count_ws: |rho|=0.96 with sql_bytes, which is already kept
+[select] dropped count_more_el_bool: |rho|=0.95 with sql_bytes, which is already kept
+[select] dropped count_digit: |rho|=0.96 with sql_bytes, which is already kept
+[select] dropped count_elem: |rho|=0.94 with sql_bytes, which is already kept
+[select] dropped count_more_el: |rho|=0.94 with sql_bytes, which is already kept
+[select] dropped count_iconst: |rho|=0.89 with sql_bytes, which is already kept
+[select] dropped list_items: |rho|=0.94 with sql_bytes, which is already kept
+[select] dropped count_ows: |rho|=0.90 with sql_bytes, which is already kept
+[select] dropped count_columnref: |rho|=1.00 with count_col_id, which is already kept
+[select] dropped count_ident_char: |rho|=0.99 with count_col_id, which is already kept
+[select] count_col_id stands for count_columnref, count_ident_char (indistinguishable here)
+[select] sql_bytes stands for count_ws, count_more_el_bool, count_digit, count_elem, count_more_el, count_iconst, list_items, count_ows (indistinguishable here)
+[select] joint fit uses 2 of 12 properties: count_col_id, sql_bytes (36 model fits)
+[sqlformatter_tailored] loop targets 2 of 12 properties: count_col_id, sql_bytes
+[sqlformatter_tailored] targeting 8 regions: runtime_ns_divergence, count_col_id_dominance0, count_col_id_x_sql_bytes_joint, sql_bytes_beyond, runtime_ns_high, sql_bytes_edge, runtime_ns_sparse0, sql_bytes_sparse6
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_divergence] 3s: no new inputs
+  [count_col_id_dominance0] settling count_col_id [85.67,260.7) would decide 1 dominance verdict(s): sql_formatter_15_8_2 vs sql_formatter_15_9_0 (rss undecided) -> <more_el>{24,26}
+  [count_col_id_dominance0] 20s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [count_col_id_x_sql_bytes_joint] sql_bytes spans 22..13262 overall, 12253..12412 at count_col_id in [708,849.6]; minimizing it at <more_el>{24,26} (held, best 1.225e+04)
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+  [soft] minimizing sql_bytes: 1384 candidates, best=64, keeping 15 spanning 64..64
+  [count_col_id_x_sql_bytes_joint] 123s: +15 new input(s), 1 distinct shape(s), 15 measured
+  [sql_bytes_beyond] rung 2
+[budget] generation cut at 300s after 5 generations (5 solutions); this request is not reproducible
+  [sql_bytes_beyond] 475s: +5 new input(s), 2 distinct shape(s), 5 measured [CUT: generation budget, not reproducible]
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_high] 3s: no new inputs
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [sql_bytes_edge] 3s: no new inputs
+  [seeds] skipped 11 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 14s: no new inputs
+  [seeds] skipped 3 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [sql_bytes_sparse6] 3s: no new inputs
+[sqlformatter_tailored] iter 4: corpus=700 (+70 new)
+[select] relevance (max |rho| vs any metric on any system): count_elem=0.96, count_ws=0.94, count_more_el=0.96, list_items=0.96, sql_bytes=0.96, count_more_el_bool=0.95, count_digit=0.94, count_ows=0.93, count_iconst=0.92, count_col_id=0.66, count_columnref=0.66, count_ident_char=0.63
+[select] comparative relevance (max |rho| vs a between-system ratio): count_elem=0.69, count_ws=0.71, count_more_el=0.69, list_items=0.69, sql_bytes=0.68, count_more_el_bool=0.69, count_digit=0.69, count_ows=0.68, count_iconst=0.68, count_col_id=0.39, count_columnref=0.40, count_ident_char=0.37
+[select] dropped count_ws: |rho|=0.89 with count_elem, which is already kept
+[select] dropped count_more_el: |rho|=1.00 with count_elem, which is already kept
+[select] dropped list_items: |rho|=1.00 with count_elem, which is already kept
+[select] dropped sql_bytes: |rho|=0.91 with count_elem, which is already kept
+[select] dropped count_more_el_bool: |rho|=0.94 with count_elem, which is already kept
+[select] dropped count_digit: |rho|=0.93 with count_elem, which is already kept
+[select] dropped count_ows: |rho|=0.95 with count_elem, which is already kept
+[select] dropped count_iconst: |rho|=0.94 with count_elem, which is already kept
+[select] dropped count_columnref: |rho|=1.00 with count_col_id, which is already kept
+[select] dropped count_ident_char: |rho|=0.98 with count_col_id, which is already kept
+[select] count_col_id stands for count_columnref, count_ident_char (indistinguishable here)
+[select] count_elem stands for count_ws, count_more_el, list_items, sql_bytes, count_more_el_bool, count_digit, count_ows, count_iconst (indistinguishable here)
+[select] joint fit uses 2 of 12 properties: count_col_id, count_elem (36 model fits)
+[sqlformatter_tailored] loop targets 2 of 12 properties: count_col_id, count_elem
+[sqlformatter_tailored] targeting 8 regions: runtime_ns_divergence, count_elem_dominance0, sql_formatter_15_8_2_rss_count_elem_discriminate, runtime_ns_high, count_col_id_edge0, runtime_ns_sparse0, count_col_id_sparse5_0, rss_divergence
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_divergence] 4s: no new inputs
+  [count_elem_dominance0] settling count_elem [179.3,656.1) would decide 1 dominance verdict(s): sql_formatter_15_8_2 vs sql_formatter_15_9_0 (runtime_ns, rss undecided) -> <more_el>{24,26}
+  [count_elem_dominance0] 19s: +15 new input(s), 13 distinct shape(s), 15 measured
+  [sql_formatter_15_8_2_rss_count_elem_discriminate] Linear vs Linearithmic tied; 32 inputs here decide it (power 1.00)
+  [seeds] skipped 6 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [sql_formatter_15_8_2_rss_count_elem_discriminate] 4s: no new inputs
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_high] 3s: no new inputs
+  [count_col_id_edge0] <more_el>{24,26} for the top 15% of count_col_id ([283,793])
+  [count_col_id_edge0] 19s: +15 new input(s), 12 distinct shape(s), 15 measured
+  [seeds] skipped 11 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 3s: no new inputs
+  [count_col_id_sparse5_0] <more_el>{24,26} for count_col_id in [397,476.2]
+  [count_col_id_sparse5_0] 18s: +15 new input(s), 14 distinct shape(s), 15 measured
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [rss_divergence] 3s: no new inputs
+[sqlformatter_tailored] iter 5: corpus=790 (+90 new)
+[select] relevance (max |rho| vs any metric on any system): sql_bytes=0.96, count_ws=0.93, count_elem=0.94, count_more_el=0.94, count_more_el_bool=0.93, list_items=0.94, count_digit=0.91, count_iconst=0.89, count_ows=0.88, count_col_id=0.70, count_columnref=0.69, count_ident_char=0.67
+[select] comparative relevance (max |rho| vs a between-system ratio): sql_bytes=0.66, count_ws=0.67, count_elem=0.65, count_more_el=0.65, count_more_el_bool=0.65, list_items=0.65, count_digit=0.65, count_iconst=0.63, count_ows=0.64, count_col_id=0.39, count_columnref=0.40, count_ident_char=0.37
+[select] dropped count_ws: |rho|=0.94 with sql_bytes, which is already kept
+[select] dropped count_elem: |rho|=0.90 with sql_bytes, which is already kept
+[select] dropped count_more_el: |rho|=0.90 with sql_bytes, which is already kept
+[select] dropped count_more_el_bool: |rho|=0.93 with sql_bytes, which is already kept
+[select] dropped list_items: |rho|=0.90 with sql_bytes, which is already kept
+[select] dropped count_digit: |rho|=0.93 with sql_bytes, which is already kept
+[select] dropped count_ows: |rho|=0.81 with sql_bytes, which is already kept
+[select] dropped count_columnref: |rho|=0.99 with count_col_id, which is already kept
+[select] dropped count_ident_char: |rho|=0.98 with count_col_id, which is already kept
+[select] count_col_id stands for count_columnref, count_ident_char (indistinguishable here)
+[select] sql_bytes stands for count_ws, count_elem, count_more_el, count_more_el_bool, list_items, count_digit, count_ows (indistinguishable here)
+[select] joint fit uses 3 of 12 properties: count_col_id, count_iconst, sql_bytes (216 model fits)
+[sqlformatter_tailored] loop targets 3 of 12 properties: count_col_id, count_iconst, sql_bytes
+[sqlformatter_tailored] targeting 8 regions: runtime_ns_divergence, count_col_id_dominance0, count_iconst_x_sql_bytes_joint, sql_bytes_beyond, runtime_ns_high, sql_bytes_edge, runtime_ns_sparse0, count_iconst_sparse3_0
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_divergence] 3s: no new inputs
+  [count_col_id_dominance0] settling count_col_id [85.67,260.7) would decide 1 dominance verdict(s): sql_formatter_15_8_2 vs sql_formatter_15_9_0 (rss undecided) -> <more_el>{24,26}
+  [count_col_id_dominance0] 18s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [count_iconst_x_sql_bytes_joint] sql_bytes spans 22..15404 overall, 10378..13262 at count_iconst in [336,403.2]; minimizing it at <more_el>{24,26}
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+  [soft] minimizing sql_bytes: 1394 candidates, best=64, keeping 15 spanning 64..65
+  [count_iconst_x_sql_bytes_joint] 119s: +15 new input(s), 2 distinct shape(s), 15 measured
+  [sql_bytes_beyond] rung 1
+  [seeds] skipped 5 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [sql_bytes_beyond] 2s: no new inputs
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_high] 8s: no new inputs
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [sql_bytes_edge] 3s: no new inputs
+  [seeds] skipped 11 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 3s: no new inputs
+  [count_iconst_sparse3_0] <more_el>{24,26} for count_iconst in [720.3,960.4]
+  [count_iconst_sparse3_0] 20s: +15 new input(s), 15 distinct shape(s), 15 measured
+[sqlformatter_tailored] iter 6: corpus=880 (+90 new)
+[sqlformatter_tailored] targeting 8 regions: runtime_ns_divergence, count_col_id_dominance0, count_iconst_x_sql_bytes_joint, sql_formatter_15_8_2_runtime_ns_count_iconst_discriminate, sql_bytes_beyond, runtime_ns_high, count_col_id_edge0, runtime_ns_sparse0
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_divergence] 3s: no new inputs
+  [count_col_id_dominance0] settling count_col_id [85.67,260.7) would decide 1 dominance verdict(s): sql_formatter_15_8_2 vs sql_formatter_15_9_0 (rss undecided) -> <more_el>{24,26}
+  [count_col_id_dominance0] 21s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [count_iconst_x_sql_bytes_joint] sql_bytes spans 22..15404 overall, 10378..13262 at count_iconst in [336,403.2]; minimizing it at <more_el>{24,26} (held, best 1.038e+04)
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+  [soft] minimizing sql_bytes: 1732 candidates, best=64, keeping 15 spanning 64..64
+  [count_iconst_x_sql_bytes_joint] 128s: +15 new input(s), 1 distinct shape(s), 15 measured
+  [sql_formatter_15_8_2_runtime_ns_count_iconst_discriminate] Linear vs Linearithmic tied; 32 inputs here decide it (power 1.00)
+  [seeds] skipped 6 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [sql_formatter_15_8_2_runtime_ns_count_iconst_discriminate] 7s: no new inputs
+  [sql_bytes_beyond] rung 2
+[budget] generation cut at 300s after 5 generations (7 solutions); this request is not reproducible
+  [sql_bytes_beyond] 503s: +7 new input(s), 3 distinct shape(s), 7 measured [CUT: generation budget, not reproducible]
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_high] 2s: no new inputs
+  [count_col_id_edge0] <more_el>{24,26} for the top 15% of count_col_id ([163,793])
+  [count_col_id_edge0] 18s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [seeds] skipped 11 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 3s: no new inputs
+[sqlformatter_tailored] iter 7: corpus=984 (+104 new)
+[sqlformatter_tailored] targeting 8 regions: runtime_ns_divergence, count_col_id_dominance0, sql_formatter_15_8_2_runtime_ns_count_iconst_discriminate, runtime_ns_high, count_iconst_edge0, runtime_ns_sparse0, count_col_id_sparse5_0, rss_divergence
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_divergence] 3s: no new inputs
+  [count_col_id_dominance0] settling count_col_id [85.67,260.7) would decide 1 dominance verdict(s): sql_formatter_15_8_2 vs sql_formatter_15_9_0 (rss undecided) -> <more_el>{24,26}
+  [count_col_id_dominance0] 20s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [sql_formatter_15_8_2_runtime_ns_count_iconst_discriminate] Linearithmic vs Linear tied; 32 inputs here decide it (power 1.00)
+  [seeds] skipped 6 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [sql_formatter_15_8_2_runtime_ns_count_iconst_discriminate] 2s: no new inputs
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_high] 3s: no new inputs
+  [count_iconst_edge0] <more_el>{24,26} for the top 15% of count_iconst ([194,2401])
+  [count_iconst_edge0] 30s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [seeds] skipped 11 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 3s: no new inputs
+  [count_col_id_sparse5_0] <more_el>{24,26} for count_col_id in [397,476.2]
+  [count_col_id_sparse5_0] 16s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [rss_divergence] 3s: no new inputs
+[sqlformatter_tailored] iter 8: corpus=1074 (+90 new)
+[sqlformatter_tailored] grammar frontier (targeting stopped asking here):
+  count_col_id: pinned at 793 by the SEARCH; 1 escalating request(s) returned nothing further.
+  count_elem: pinned at 2401 by the SEARCH; 1 escalating request(s) returned nothing further.
+  count_iconst: pinned at 2401 by the SEARCH; 1 escalating request(s) returned nothing further.
+  count_more_el_bool: pinned at 1250 by the SEARCH; 1 escalating request(s) returned nothing further.
+  sql_bytes: pinned at 15404 by the SEARCH; 2 escalating request(s) returned nothing further.
+[compare] runtime_ns: 537 inputs, 2 systems (paired; ratios, 1.10x equivalence band)
+[compare] overall verdicts are weighted by what the corpus contains, which the loop itself shapes; the per-region lines are the portable claim.
+[compare] count_col_id bins move with count_ows (6..998 across bins); sql_bytes (64..1.231e+04 across bins) -- those regions are joint, not count_col_id findings
+[compare] count_ows bins move with count_col_id (2..561.5 across bins); sql_bytes (29..1.229e+04 across bins) -- those regions are joint, not count_ows findings
+[compare] sql_bytes bins move with count_col_id (1..341 across bins); count_ows (8..1012 across bins) -- those regions are joint, not sql_bytes findings
+  sql_formatter_15_8_2 and sql_formatter_15_9_0 equivalent: ratio 0.97x within the equivalence band (95% CI 0.97-0.98, n=537)
+      DEPENDS ON SAMPLING: counting each count_col_id bin once gives 0.93x (95% CI 0.91-0.94, 6 bins, equal weight per bin), verdict 'undecided' not 'equivalent'
+      DEPENDS ON SAMPLING: counting each count_ows bin once gives 0.87x (95% CI 0.86-0.90, 6 bins, equal weight per bin), verdict 'b_faster' not 'equivalent'
+      DEPENDS ON SAMPLING: counting each sql_bytes bin once gives 0.92x (95% CI 0.90-0.94, 6 bins, equal weight per bin), verdict 'undecided' not 'equivalent'
+      undecided on count_ows (confounded) in [184.4,679.7) -- needs more inputs
+[compare] rss: 537 inputs, 2 systems (paired; ratios, 1.10x equivalence band)
+[compare] overall verdicts are weighted by what the corpus contains, which the loop itself shapes; the per-region lines are the portable claim.
+[compare] count_col_id bins move with count_ows (6..998 across bins); sql_bytes (64..1.231e+04 across bins) -- those regions are joint, not count_col_id findings
+[compare] count_ows bins move with count_col_id (2..561.5 across bins); sql_bytes (29..1.229e+04 across bins) -- those regions are joint, not count_ows findings
+[compare] sql_bytes bins move with count_col_id (1..341 across bins); count_ows (8..1012 across bins) -- those regions are joint, not sql_bytes findings
+  sql_formatter_15_8_2 and sql_formatter_15_9_0 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=537)
+      DEPENDS ON SAMPLING: counting each count_ows bin once gives 0.90x (95% CI 0.89-0.93, 6 bins, equal weight per bin), verdict 'undecided' not 'equivalent'
+      undecided on count_col_id (confounded) in [85.67,260.7) -- needs more inputs
+      undecided on count_ows (confounded) in [184.4,679.7) -- needs more inputs
+[compare] dominance across runtime_ns, rss:
+  sql_formatter_15_8_2 and sql_formatter_15_9_0 EQUIVALENT on every metric
+      count_col_id [1,3.042) (n=111): sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_col_id [3.042,9.256) (n=56): sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_col_id [9.256,28.16) (n=236): sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_col_id [28.16,85.67) (n=54): sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_col_id [85.67,260.7) (n=25): sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_col_id [260.7,793] (n=55): sql_formatter_15_9_0 not dominated
+      count_ows [1,3.685) (n=31): sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_ows [3.685,13.58) (n=56): sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_ows [13.58,50.05) (n=303): sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_ows [50.05,184.4) (n=47): sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_ows [184.4,679.7) (n=40): sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_ows [679.7,2505] (n=60): sql_formatter_15_9_0 not dominated
+      sql_bytes [22,65.56) (n=87): sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      sql_bytes [65.56,195.4) (n=63): sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      sql_bytes [195.4,582.1) (n=255): sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      sql_bytes [582.1,1735) (n=20): sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      sql_bytes [1735,5169) (n=22): sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      sql_bytes [5169,1.54e+04] (n=90): sql_formatter_15_9_0 not dominated
+[interference] 6 property pair(s) tested over 1074 rows; 6 show a dependence
+  count_col_id vs runtime_ns changes with sql_bytes: rho by sql_bytes stratum = [-0.45, +0.72, +0.59, +0.26], spread 1.17, p=0.003
+  count_ows vs runtime_ns changes with count_col_id: rho by count_col_id stratum = [+0.95, +0.71, +0.25, +0.99], spread 0.73, p=0.003
+  count_ows vs runtime_ns changes with sql_bytes: rho by sql_bytes stratum = [+0.93, +0.52, +0.31, +0.98], spread 0.66, p=0.003
+  count_col_id vs runtime_ns changes with count_ows: rho by count_ows stratum = [+0.93, +0.71, +0.90, +0.28], spread 0.65, p=0.003
+  sql_bytes vs runtime_ns changes with count_ows: rho by count_ows stratum = [+0.97, +0.74, +0.91, +0.41], spread 0.56, p=0.003
+  sql_bytes vs runtime_ns changes with count_col_id: rho by count_col_id stratum = [+0.72, +0.81, +0.55, +0.66], spread 0.26, p=0.003
+  -> a one-dimensional region on these properties states less than it appears to; they are candidates for a joint request.
+self.storage <analyzer_library.InfoStorage object at 0x11e399c70>
+function name in read csvs func:  {'./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2': {'sql_formatter_15_8_2'}, './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0': {'sql_formatter_15_9_0'}}
+[select] relevance (max |rho| vs any metric on any system): sql_bytes=0.95, count_ws=0.89, count_elem=0.91, count_more_el=0.91, count_more_el_bool=0.89, list_items=0.91, count_digit=0.85, count_col_id=0.75, count_ows=0.74, count_iconst=0.75, count_columnref=0.74, count_ident_char=0.72
+[select] comparative relevance (max |rho| vs a between-system ratio): sql_bytes=0.61, count_ws=0.61, count_elem=0.57, count_more_el=0.57, count_more_el_bool=0.58, list_items=0.57, count_digit=0.58, count_col_id=0.39, count_ows=0.51, count_iconst=0.50, count_columnref=0.40, count_ident_char=0.38
+[select] dropped count_ws: |rho|=0.92 with sql_bytes, which is already kept
+[select] dropped count_elem: |rho|=0.85 with sql_bytes, which is already kept
+[select] dropped count_more_el: |rho|=0.85 with sql_bytes, which is already kept
+[select] dropped count_more_el_bool: |rho|=0.89 with sql_bytes, which is already kept
+[select] dropped list_items: |rho|=0.85 with sql_bytes, which is already kept
+[select] dropped count_digit: |rho|=0.87 with sql_bytes, which is already kept
+[select] dropped count_iconst: |rho|=0.89 with count_ows, which is already kept
+[select] dropped count_columnref: |rho|=0.99 with count_col_id, which is already kept
+[select] dropped count_ident_char: |rho|=0.81 with sql_bytes, which is already kept
+[select] count_col_id stands for count_columnref (indistinguishable here)
+[select] count_ows stands for count_iconst (indistinguishable here)
+[select] sql_bytes stands for count_ws, count_elem, count_more_el, count_more_el_bool, list_items, count_digit, count_ident_char (indistinguishable here)
+[select] joint fit uses 3 of 12 properties: count_col_id, count_ows, sql_bytes (216 model fits)
+Plotting 'runtime_ns' vs 'count_ws' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_ws_sql_formatter_15_8_2.png
+Plotting 'runtime_ns' vs 'count_ws' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_ws_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_ws' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 6.6E+04 + 2.5E+04*n (sec)                     
+Constant: time = 2.4E+05 (sec)                                  (res: 2.7E+02)
+Linear: time = 6.6E+04 + 2.5E+04*n (sec)                        (res: 54)
+Quadratic: time = 2.4E+05 + 28*n^2 (sec)                        (res: 2E+02)
+Cubic: time = 2.4E+05 + 0.0088*n^3 (sec)                        (res: 2.4E+02)
+Logarithmic: time = -1.3E+05 + 2.3E+05*log(n) (sec)             (res: 1.4E+02)
+Linearithmic: time = 1.5E+05 + 5.4E+03*n*log(n) (sec)           (res: 59)
+Exponential: time = 5.9E+05 * 1^n (sec)                         (res: 9.7E+02)
+
+   [near-tie] within 10%: Linear, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_ws ** 0.85
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_ws_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_ws' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 9.8E+04 + 1.9E+04*n (sec)                     
+Constant: time = 2.4E+05 (sec)                                  (res: 2.7E+02)
+Linear: time = 9.8E+04 + 1.9E+04*n (sec)                        (res: 58)
+Quadratic: time = 2.3E+05 + 7*n^2 (sec)                         (res: 2.3E+02)
+Cubic: time = 2.4E+05 + 0.0023*n^3 (sec)                        (res: 2.5E+02)
+Logarithmic: time = -1.4E+05 + 2.3E+05*log(n) (sec)             (res: 1.3E+02)
+Linearithmic: time = 1.8E+05 + 3.1E+03*n*log(n) (sec)           (res: 1.1E+02)
+Exponential: time = 5.9E+05 * 1^n (sec)                         (res: 9.5E+02)
+
+   [exponent] free-exponent fit: runtime_ns ~ count_ws ** 0.73
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_ws_sql_formatter_15_9_0.png
+Plotting 'runtime_ns' vs 'count_columnref' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_columnref_sql_formatter_15_8_2.png
+Plotting 'runtime_ns' vs 'count_columnref' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_columnref_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_columnref' and metric 'runtime_ns': dropped 95 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_columnref' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 1E+05 + 3.5E+04*n (sec)                       
+Constant: time = 2.8E+05 (sec)                                  (res: 2.1E+02)
+Linear: time = 1E+05 + 3.5E+04*n (sec)                          (res: 11)
+Quadratic: time = 2.7E+05 + 1E+02*n^2 (sec)                     (res: 1.3E+02)
+Cubic: time = 2.8E+05 + 0.15*n^3 (sec)                          (res: 1.7E+02)
+Logarithmic: time = 6.6E+04 + 2E+05*log(n) (sec)                (res: 74)
+Linearithmic: time = 1.9E+05 + 8E+03*n*log(n) (sec)             (res: 29)
+Exponential: time = 5.1E+05 * 1^n (sec)                         (res: 3.6E+02)
+
+   [exponent] free-exponent fit: runtime_ns ~ count_columnref ** 0.85
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_columnref_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_columnref' and metric 'runtime_ns': dropped 95 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_columnref' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 1.2E+05 + 3.1E+04*n (sec)                     
+Constant: time = 2.8E+05 (sec)                                  (res: 2E+02)
+Linear: time = 1.2E+05 + 3.1E+04*n (sec)                        (res: 11)
+Quadratic: time = 2.7E+05 + 62*n^2 (sec)                        (res: 1.4E+02)
+Cubic: time = 2.8E+05 + 0.09*n^3 (sec)                          (res: 1.7E+02)
+Logarithmic: time = 6.6E+04 + 2E+05*log(n) (sec)                (res: 69)
+Linearithmic: time = 2.1E+05 + 6.1E+03*n*log(n) (sec)           (res: 44)
+Exponential: time = 5.1E+05 * 1^n (sec)                         (res: 3.6E+02)
+
+   [exponent] free-exponent fit: runtime_ns ~ count_columnref ** 0.78
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_columnref_sql_formatter_15_9_0.png
+Plotting 'runtime_ns' vs 'count_col_id' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_col_id_sql_formatter_15_8_2.png
+Plotting 'runtime_ns' vs 'count_col_id' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_col_id_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_col_id' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 1.1E+05 + 2.2E+04*n (sec)                     
+Constant: time = 2.4E+05 (sec)                                  (res: 2.7E+02)
+Linear: time = 1.1E+05 + 2.2E+04*n (sec)                        (res: 67)
+Quadratic: time = 2.3E+05 + 60*n^2 (sec)                        (res: 1.9E+02)
+Cubic: time = 2.4E+05 + 0.078*n^3 (sec)                         (res: 2.2E+02)
+Logarithmic: time = 8.4E+04 + 1.4E+05*log(n) (sec)              (res: 1.6E+02)
+Linearithmic: time = 1.7E+05 + 5.1E+03*n*log(n) (sec)           (res: 74)
+Exponential: time = 5.8E+05 * 1^n (sec)                         (res: 8E+02)
+
+   [exponent] free-exponent fit: runtime_ns ~ count_col_id ** 0.40
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_col_id_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_col_id' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 1.2E+05 + 2E+04*n (sec)                       
+Constant: time = 2.4E+05 (sec)                                  (res: 2.7E+02)
+Linear: time = 1.2E+05 + 2E+04*n (sec)                          (res: 63)
+Quadratic: time = 2.3E+05 + 39*n^2 (sec)                        (res: 2E+02)
+Cubic: time = 2.3E+05 + 0.049*n^3 (sec)                         (res: 2.2E+02)
+Logarithmic: time = 8.1E+04 + 1.4E+05*log(n) (sec)              (res: 1.5E+02)
+Linearithmic: time = 1.8E+05 + 4.2E+03*n*log(n) (sec)           (res: 85)
+Exponential: time = 5.5E+05 * 1^n (sec)                         (res: 7.3E+02)
+
+   [exponent] free-exponent fit: runtime_ns ~ count_col_id ** 0.39
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_col_id_sql_formatter_15_9_0.png
+Plotting 'runtime_ns' vs 'count_ident_char' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_ident_char_sql_formatter_15_8_2.png
+Plotting 'runtime_ns' vs 'count_ident_char' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_ident_char_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_ident_char' and metric 'runtime_ns': dropped 81 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_ident_char' and metric 'runtime_ns' the best fit is:
+Best : Logarithmic: time = -1.5E+05 + 1.4E+05*log(n) (sec)          
+Constant: time = 2.3E+05 (sec)                                  (res: 2.3E+02)
+Linear: time = 2.2E+05 + 2.1E+02*n (sec)                        (res: 2.1E+02)
+Quadratic: time = 2.2E+05 + 0.014*n^2 (sec)                     (res: 2.2E+02)
+Cubic: time = 2.2E+05 + 1.4E-06*n^3 (sec)                       (res: 2.3E+02)
+Logarithmic: time = -1.5E+05 + 1.4E+05*log(n) (sec)             (res: 1.1E+02)
+Linearithmic: time = 2.2E+05 + 20*n*log(n) (sec)                (res: 2.1E+02)
+Exponential: time = 5.3E+05 * 1^n (sec)                         (res: 1.1E+04)
+
+   [exponent] free-exponent fit: runtime_ns ~ count_ident_char ** 0.66
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_ident_char_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_ident_char' and metric 'runtime_ns': dropped 81 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_ident_char' and metric 'runtime_ns' the best fit is:
+Best : Logarithmic: time = -1.6E+05 + 1.4E+05*log(n) (sec)          
+Constant: time = 2.2E+05 (sec)                                  (res: 2.3E+02)
+Linear: time = 2.1E+05 + 2E+02*n (sec)                          (res: 2.1E+02)
+Quadratic: time = 2.2E+05 + 0.014*n^2 (sec)                     (res: 2.2E+02)
+Cubic: time = 2.2E+05 + 1.4E-06*n^3 (sec)                       (res: 2.3E+02)
+Logarithmic: time = -1.6E+05 + 1.4E+05*log(n) (sec)             (res: 1E+02)
+Linearithmic: time = 2.2E+05 + 20*n*log(n) (sec)                (res: 2.1E+02)
+Exponential: time = 5.2E+05 * 1^n (sec)                         (res: 5.3E+03)
+
+   [exponent] free-exponent fit: runtime_ns ~ count_ident_char ** 0.61
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_ident_char_sql_formatter_15_9_0.png
+Plotting 'runtime_ns' vs 'count_elem' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_elem_sql_formatter_15_8_2.png
+Plotting 'runtime_ns' vs 'count_elem' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_elem_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_elem' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 1E+05 + 1.8E+04*n (sec)                       
+Constant: time = 2.4E+05 (sec)                                  (res: 2.7E+02)
+Linear: time = 1E+05 + 1.8E+04*n (sec)                          (res: 18)
+Quadratic: time = 2.3E+05 + 23*n^2 (sec)                        (res: 1.8E+02)
+Cubic: time = 2.4E+05 + 0.01*n^3 (sec)                          (res: 2.2E+02)
+Logarithmic: time = 8.5E+04 + 1.5E+05*log(n) (sec)              (res: 1.1E+02)
+Linearithmic: time = 1.6E+05 + 3.8E+03*n*log(n) (sec)           (res: 34)
+Exponential: time = 5.4E+05 * 1^n (sec)                         (res: 7.3E+02)
+
+   [exponent] free-exponent fit: runtime_ns ~ count_elem ** 0.83
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_elem_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_elem' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 1.2E+05 + 1.6E+04*n (sec)                     
+Constant: time = 2.4E+05 (sec)                                  (res: 2.7E+02)
+Linear: time = 1.2E+05 + 1.6E+04*n (sec)                        (res: 14)
+Quadratic: time = 2.3E+05 + 7.7*n^2 (sec)                       (res: 2.1E+02)
+Cubic: time = 2.4E+05 + 0.0027*n^3 (sec)                        (res: 2.4E+02)
+Logarithmic: time = 8.4E+04 + 1.5E+05*log(n) (sec)              (res: 98)
+Linearithmic: time = 1.8E+05 + 2.6E+03*n*log(n) (sec)           (res: 64)
+Exponential: time = 5.4E+05 * 1^n (sec)                         (res: 7.8E+02)
+
+   [exponent] free-exponent fit: runtime_ns ~ count_elem ** 0.73
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_elem_sql_formatter_15_9_0.png
+Plotting 'runtime_ns' vs 'count_iconst' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_iconst_sql_formatter_15_8_2.png
+Plotting 'runtime_ns' vs 'count_iconst' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_iconst_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_iconst' and metric 'runtime_ns': dropped 17 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_iconst' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 1.2E+05 + 2.6E+04*n (sec)                     
+Constant: time = 2.8E+05 (sec)                                  (res: 2.5E+02)
+Linear: time = 1.2E+05 + 2.6E+04*n (sec)                        (res: 59)
+Quadratic: time = 2.7E+05 + 26*n^2 (sec)                        (res: 2E+02)
+Cubic: time = 2.8E+05 + 0.008*n^3 (sec)                         (res: 2.2E+02)
+Logarithmic: time = 1.1E+05 + 1.7E+05*log(n) (sec)              (res: 1.1E+02)
+Linearithmic: time = 1.8E+05 + 6.4E+03*n*log(n) (sec)           (res: 61)
+Exponential: time = 6.7E+05 * 1^n (sec)                         (res: 8.6E+02)
+
+   [near-tie] within 10%: Linear, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_iconst ** 0.85
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_iconst_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_iconst' and metric 'runtime_ns': dropped 17 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_iconst' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 1.5E+05 + 2.1E+04*n (sec)                     
+Constant: time = 2.7E+05 (sec)                                  (res: 2.5E+02)
+Linear: time = 1.5E+05 + 2.1E+04*n (sec)                        (res: 61)
+Quadratic: time = 2.7E+05 + 6.2*n^2 (sec)                       (res: 2.2E+02)
+Cubic: time = 2.7E+05 + 0.0022*n^3 (sec)                        (res: 2.3E+02)
+Logarithmic: time = 1.1E+05 + 1.7E+05*log(n) (sec)              (res: 1E+02)
+Linearithmic: time = 2.3E+05 + 3.1E+03*n*log(n) (sec)           (res: 1.1E+02)
+Exponential: time = 6.6E+05 * 1^n (sec)                         (res: 8.2E+02)
+
+   [exponent] free-exponent fit: runtime_ns ~ count_iconst ** 0.73
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_iconst_sql_formatter_15_9_0.png
+Plotting 'runtime_ns' vs 'count_digit' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_digit_sql_formatter_15_8_2.png
+Plotting 'runtime_ns' vs 'count_digit' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_digit_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_digit' and metric 'runtime_ns': dropped 17 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_digit' and metric 'runtime_ns' the best fit is:
+Best : Logarithmic: time = -1.7E+05 + 1.7E+05*log(n) (sec)          
+Constant: time = 2.8E+05 (sec)                                  (res: 2.5E+02)
+Linear: time = 2.7E+05 + 2.9E+02*n (sec)                        (res: 2.2E+02)
+Quadratic: time = 2.7E+05 + 0.029*n^2 (sec)                     (res: 2.4E+02)
+Cubic: time = 2.7E+05 + 3.9E-06*n^3 (sec)                       (res: 2.4E+02)
+Logarithmic: time = -1.7E+05 + 1.7E+05*log(n) (sec)             (res: 1.1E+02)
+Linearithmic: time = 2.7E+05 + 29*n*log(n) (sec)                (res: 2.3E+02)
+Exponential: time = 5.6E+05 * 1^n (sec)                         (res: 7.8E+04)
+
+   [exponent] free-exponent fit: runtime_ns ~ count_digit ** 0.71
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_digit_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_digit' and metric 'runtime_ns': dropped 17 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_digit' and metric 'runtime_ns' the best fit is:
+Best : Logarithmic: time = -1.7E+05 + 1.7E+05*log(n) (sec)          
+Constant: time = 2.7E+05 (sec)                                  (res: 2.5E+02)
+Linear: time = 2.6E+05 + 3E+02*n (sec)                          (res: 2.2E+02)
+Quadratic: time = 2.7E+05 + 0.03*n^2 (sec)                      (res: 2.4E+02)
+Cubic: time = 2.7E+05 + 4E-06*n^3 (sec)                         (res: 2.4E+02)
+Logarithmic: time = -1.7E+05 + 1.7E+05*log(n) (sec)             (res: 1.1E+02)
+Linearithmic: time = 2.7E+05 + 30*n*log(n) (sec)                (res: 2.3E+02)
+Exponential: time = 5.5E+05 * 1^n (sec)                         (res: 1.8E+04)
+
+   [exponent] free-exponent fit: runtime_ns ~ count_digit ** 0.63
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_digit_sql_formatter_15_9_0.png
+Plotting 'runtime_ns' vs 'count_more_el' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_more_el_sql_formatter_15_8_2.png
+Plotting 'runtime_ns' vs 'count_more_el' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_more_el_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_more_el' and metric 'runtime_ns': dropped 32 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_more_el' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 1.4E+05 + 1.8E+04*n (sec)                     
+Constant: time = 3.7E+05 (sec)                                  (res: 1.9E+02)
+Linear: time = 1.4E+05 + 1.8E+04*n (sec)                        (res: 15)
+Quadratic: time = 3.6E+05 + 22*n^2 (sec)                        (res: 1.1E+02)
+Cubic: time = 3.7E+05 + 0.01*n^3 (sec)                          (res: 1.4E+02)
+Logarithmic: time = 5.7E+04 + 1.6E+05*log(n) (sec)              (res: 97)
+Linearithmic: time = 2.3E+05 + 3.5E+03*n*log(n) (sec)           (res: 21)
+Exponential: time = 6E+05 * 1^n (sec)                           (res: 3.5E+02)
+
+   [exponent] free-exponent fit: runtime_ns ~ count_more_el ** 0.88
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_more_el_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_more_el' and metric 'runtime_ns': dropped 32 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_more_el' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 1.8E+05 + 1.5E+04*n (sec)                     
+Constant: time = 3.7E+05 (sec)                                  (res: 1.8E+02)
+Linear: time = 1.8E+05 + 1.5E+04*n (sec)                        (res: 7)
+Quadratic: time = 3.7E+05 + 7.5*n^2 (sec)                       (res: 1.3E+02)
+Cubic: time = 3.7E+05 + 0.0026*n^3 (sec)                        (res: 1.5E+02)
+Logarithmic: time = 5.8E+04 + 1.6E+05*log(n) (sec)              (res: 90)
+Linearithmic: time = 2.8E+05 + 2.3E+03*n*log(n) (sec)           (res: 33)
+Exponential: time = 6E+05 * 1^n (sec)                           (res: 3.5E+02)
+
+   [exponent] free-exponent fit: runtime_ns ~ count_more_el ** 0.75
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_more_el_sql_formatter_15_9_0.png
+Plotting 'runtime_ns' vs 'count_ows' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_ows_sql_formatter_15_8_2.png
+Plotting 'runtime_ns' vs 'count_ows' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_ows_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_ows' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 1.1E+05 + 1.2E+04*n (sec)                     
+Constant: time = 2.4E+05 (sec)                                  (res: 2.7E+02)
+Linear: time = 1.1E+05 + 1.2E+04*n (sec)                        (res: 36)
+Quadratic: time = 2.3E+05 + 15*n^2 (sec)                        (res: 1.7E+02)
+Cubic: time = 2.4E+05 + 0.0076*n^3 (sec)                        (res: 2.1E+02)
+Logarithmic: time = 6.9E+04 + 1.3E+05*log(n) (sec)              (res: 1.1E+02)
+Linearithmic: time = 1.5E+05 + 2.5E+03*n*log(n) (sec)           (res: 41)
+Exponential: time = 5E+05 * 1^n (sec)                           (res: 5.5E+02)
+
+   [exponent] free-exponent fit: runtime_ns ~ count_ows ** 0.84
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_ows_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_ows' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 1.2E+05 + 1.1E+04*n (sec)                     
+Constant: time = 2.4E+05 (sec)                                  (res: 2.7E+02)
+Linear: time = 1.2E+05 + 1.1E+04*n (sec)                        (res: 21)
+Quadratic: time = 2.3E+05 + 7*n^2 (sec)                         (res: 1.9E+02)
+Cubic: time = 2.4E+05 + 0.0028*n^3 (sec)                        (res: 2.2E+02)
+Logarithmic: time = 6.9E+04 + 1.3E+05*log(n) (sec)              (res: 1.1E+02)
+Linearithmic: time = 1.7E+05 + 1.9E+03*n*log(n) (sec)           (res: 48)
+Exponential: time = 5E+05 * 1^n (sec)                           (res: 6.1E+02)
+
+   [exponent] free-exponent fit: runtime_ns ~ count_ows ** 0.74
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_ows_sql_formatter_15_9_0.png
+Plotting 'runtime_ns' vs 'count_more_el_bool' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_more_el_bool_sql_formatter_15_8_2.png
+Plotting 'runtime_ns' vs 'count_more_el_bool' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_count_more_el_bool_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_more_el_bool' and metric 'runtime_ns': dropped 69 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_more_el_bool' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 1.5E+05 + 3.5E+04*n (sec)                     
+Constant: time = 3.8E+05 (sec)                                  (res: 1.8E+02)
+Linear: time = 1.5E+05 + 3.5E+04*n (sec)                        (res: 23)
+Quadratic: time = 3.7E+05 + 90*n^2 (sec)                        (res: 96)
+Cubic: time = 3.8E+05 + 0.081*n^3 (sec)                         (res: 1.3E+02)
+Logarithmic: time = 9.9E+04 + 2E+05*log(n) (sec)                (res: 96)
+Linearithmic: time = 2.7E+05 + 7.6E+03*n*log(n) (sec)           (res: 30)
+Exponential: time = 6.3E+05 * 1^n (sec)                         (res: 3.3E+02)
+
+   [exponent] free-exponent fit: runtime_ns ~ count_more_el_bool ** 0.88
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_more_el_bool_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_more_el_bool' and metric 'runtime_ns': dropped 69 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_more_el_bool' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 1.9E+05 + 2.8E+04*n (sec)                     
+Constant: time = 3.9E+05 (sec)                                  (res: 1.7E+02)
+Linear: time = 1.9E+05 + 2.8E+04*n (sec)                        (res: 14)
+Quadratic: time = 3.8E+05 + 30*n^2 (sec)                        (res: 1.2E+02)
+Cubic: time = 3.9E+05 + 0.021*n^3 (sec)                         (res: 1.4E+02)
+Logarithmic: time = 9.9E+04 + 2E+05*log(n) (sec)                (res: 89)
+Linearithmic: time = 3.1E+05 + 4.9E+03*n*log(n) (sec)           (res: 39)
+Exponential: time = 6.3E+05 * 1^n (sec)                         (res: 3.3E+02)
+
+   [exponent] free-exponent fit: runtime_ns ~ count_more_el_bool ** 0.76
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_count_more_el_bool_sql_formatter_15_9_0.png
+Plotting 'runtime_ns' vs 'sql_bytes' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_sql_bytes_sql_formatter_15_8_2.png
+Plotting 'runtime_ns' vs 'sql_bytes' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_sql_bytes_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'sql_bytes' and metric 'runtime_ns' the best fit is:
+Best : Logarithmic: time = -6.1E+05 + 2.1E+05*log(n) (sec)          
+Constant: time = 2.4E+05 (sec)                                  (res: 2.7E+02)
+Linear: time = 2.2E+05 + 1.4E+02*n (sec)                        (res: 2.3E+02)
+Quadratic: time = 2.4E+05 + 0.0057*n^2 (sec)                    (res: 2.6E+02)
+Cubic: time = 2.4E+05 + 3.4E-07*n^3 (sec)                       (res: 2.6E+02)
+Logarithmic: time = -6.1E+05 + 2.1E+05*log(n) (sec)             (res: 1E+02)
+Linearithmic: time = 2.3E+05 + 13*n*log(n) (sec)                (res: 2.4E+02)
+Exponential: time = 4.8E+05 * 1^n (sec)                         (res: 1.6E+04)
+
+   [exponent] free-exponent fit: runtime_ns ~ sql_bytes ** 0.78
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_sql_bytes_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'sql_bytes' and metric 'runtime_ns' the best fit is:
+Best : Logarithmic: time = -6.1E+05 + 2.1E+05*log(n) (sec)          
+Constant: time = 2.4E+05 (sec)                                  (res: 2.7E+02)
+Linear: time = 2.2E+05 + 1.4E+02*n (sec)                        (res: 2.3E+02)
+Quadratic: time = 2.3E+05 + 0.0059*n^2 (sec)                    (res: 2.6E+02)
+Cubic: time = 2.3E+05 + 3.5E-07*n^3 (sec)                       (res: 2.6E+02)
+Logarithmic: time = -6.1E+05 + 2.1E+05*log(n) (sec)             (res: 96)
+Linearithmic: time = 2.3E+05 + 13*n*log(n) (sec)                (res: 2.4E+02)
+Exponential: time = 4.7E+05 * 1^n (sec)                         (res: 4.9E+03)
+
+   [exponent] free-exponent fit: runtime_ns ~ sql_bytes ** 0.68
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_sql_bytes_sql_formatter_15_9_0.png
+Plotting 'runtime_ns' vs 'list_items' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_list_items_sql_formatter_15_8_2.png
+Plotting 'runtime_ns' vs 'list_items' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/runtime_ns_vs_list_items_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'list_items' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 1E+05 + 1.8E+04*n (sec)                       
+Constant: time = 2.4E+05 (sec)                                  (res: 2.7E+02)
+Linear: time = 1E+05 + 1.8E+04*n (sec)                          (res: 18)
+Quadratic: time = 2.3E+05 + 23*n^2 (sec)                        (res: 1.8E+02)
+Cubic: time = 2.4E+05 + 0.01*n^3 (sec)                          (res: 2.2E+02)
+Logarithmic: time = 8.5E+04 + 1.5E+05*log(n) (sec)              (res: 1.1E+02)
+Linearithmic: time = 1.6E+05 + 3.8E+03*n*log(n) (sec)           (res: 34)
+Exponential: time = 5.4E+05 * 1^n (sec)                         (res: 7.3E+02)
+
+   [exponent] free-exponent fit: runtime_ns ~ list_items ** 0.83
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_list_items_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'list_items' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 1.2E+05 + 1.6E+04*n (sec)                     
+Constant: time = 2.4E+05 (sec)                                  (res: 2.7E+02)
+Linear: time = 1.2E+05 + 1.6E+04*n (sec)                        (res: 14)
+Quadratic: time = 2.3E+05 + 7.7*n^2 (sec)                       (res: 2.1E+02)
+Cubic: time = 2.4E+05 + 0.0027*n^3 (sec)                        (res: 2.4E+02)
+Logarithmic: time = 8.4E+04 + 1.5E+05*log(n) (sec)              (res: 98)
+Linearithmic: time = 1.8E+05 + 2.6E+03*n*log(n) (sec)           (res: 64)
+Exponential: time = 5.4E+05 * 1^n (sec)                         (res: 7.8E+02)
+
+   [exponent] free-exponent fit: runtime_ns ~ list_items ** 0.73
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_runtime_ns_vs_list_items_sql_formatter_15_9_0.png
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Linear', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Quadratic', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Cubic', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Logarithmic', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'LogLinear', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Linear', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Quadratic', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Cubic', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Logarithmic', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'LogLinear', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Linear', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Quadratic', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Cubic', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Logarithmic', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'LogLinear', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Linear', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Quadratic', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Cubic', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Logarithmic', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'LogLinear', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Linear', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Quadratic', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Cubic', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Logarithmic', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'LogLinear', 'LogLinear')'.
+Model fit results for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Best fit for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+R^2: 0.9486362701377359
+Intercept: -120384.00368105658
+Feature 'count_col_id' has complexity class 'Logarithmic'.
+The coefficient for this feature is 31679.84847405681.
+Feature 'count_ows' has complexity class 'LogLinear'.
+The coefficient for this feature is 1960.445721558696.
+Feature 'sql_bytes' has complexity class 'Logarithmic'.
+The coefficient for this feature is 63320.4203215177.
+Saved 3d fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/3dmodel_runtime_ns_vs_count_col_id_and_count_ows_and_sql_bytes_sql_formatter_15_8_2.png
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Linear', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Quadratic', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Cubic', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Logarithmic', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'LogLinear', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Linear', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Quadratic', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Cubic', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Logarithmic', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'LogLinear', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Linear', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Quadratic', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Cubic', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Logarithmic', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'LogLinear', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Linear', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Quadratic', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Cubic', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Logarithmic', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'LogLinear', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Linear', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Quadratic', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Cubic', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Logarithmic', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'LogLinear', 'LogLinear')'.
+Model fit results for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Best fit for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+R^2: 0.9869592252043253
+Intercept: -286814.49474438734
+Feature 'count_col_id' has complexity class 'Cubic'.
+The coefficient for this feature is -0.007771791626468942.
+Feature 'count_ows' has complexity class 'LogLinear'.
+The coefficient for this feature is 1552.3029132950917.
+Feature 'sql_bytes' has complexity class 'Logarithmic'.
+The coefficient for this feature is 116197.40456648756.
+Saved 3d fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/3dmodel_runtime_ns_vs_count_col_id_and_count_ows_and_sql_bytes_sql_formatter_15_9_0.png
+Best complexity classes for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2': ('Logarithmic', 'LogLinear', 'Logarithmic')
+Best complexity classes for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0': ('Cubic', 'LogLinear', 'Logarithmic')
+======================================================================
+Plotting 'rss' vs 'count_ws' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_ws_sql_formatter_15_8_2.png
+Plotting 'rss' vs 'count_ws' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_ws_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_ws' and metric 'rss' the best fit is:
+Best : Linear: time = 7.8E+07 + 2.4E+05*n (sec)                     
+Constant: time = 8.5E+07 (sec)                                  (res: 39)
+Linear: time = 7.8E+07 + 2.4E+05*n (sec)                        (res: 1.5)
+Quadratic: time = 8.4E+07 + 1.1E+02*n^2 (sec)                   (res: 16)
+Cubic: time = 8.4E+07 + 0.039*n^3 (sec)                         (res: 22)
+Logarithmic: time = 5.3E+07 + 1.2E+07*log(n) (sec)              (res: 27)
+Linearithmic: time = 8E+07 + 3.3E+04*n*log(n) (sec)             (res: 2.9)
+Exponential: time = 8.5E+07 * 1^n (sec)                         (res: 12)
+
+   [exponent] free-exponent fit: rss ~ count_ws ** 0.24
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_ws_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_ws' and metric 'rss' the best fit is:
+Best : Linear: time = 8.2E+07 + 6.7E+04*n (sec)                     
+Constant: time = 8.6E+07 (sec)                                  (res: 21)
+Linear: time = 8.2E+07 + 6.7E+04*n (sec)                        (res: 5.9)
+Quadratic: time = 8.4E+07 + 23*n^2 (sec)                        (res: 12)
+Cubic: time = 8.5E+07 + 0.0088*n^3 (sec)                        (res: 14)
+Logarithmic: time = 5.7E+07 + 1.1E+07*log(n) (sec)              (res: 9.4)
+Linearithmic: time = 8.3E+07 + 8.4E+03*n*log(n) (sec)           (res: 7.3)
+Exponential: time = 8.5E+07 * 1^n (sec)                         (res: 9.2)
+
+   [exponent] free-exponent fit: rss ~ count_ws ** 0.14
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_ws_sql_formatter_15_9_0.png
+Plotting 'rss' vs 'count_columnref' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_columnref_sql_formatter_15_8_2.png
+Plotting 'rss' vs 'count_columnref' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_columnref_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_columnref' and metric 'rss': dropped 95 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_columnref' and metric 'rss' the best fit is:
+Best : Linear: time = 7.7E+07 + 3.5E+05*n (sec)                     
+Constant: time = 8.6E+07 (sec)                                  (res: 24)
+Linear: time = 7.7E+07 + 3.5E+05*n (sec)                        (res: 1.2)
+Quadratic: time = 8.3E+07 + 6.4E+02*n^2 (sec)                   (res: 5.8)
+Cubic: time = 8.4E+07 + 1*n^3 (sec)                             (res: 9.7)
+Logarithmic: time = 5.6E+07 + 1.2E+07*log(n) (sec)              (res: 15)
+Linearithmic: time = 8E+07 + 5.7E+04*n*log(n) (sec)             (res: 1.6)
+Exponential: time = 8.1E+07 * 1^n (sec)                         (res: 3.4)
+
+   [exponent] free-exponent fit: rss ~ count_columnref ** 0.20
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_columnref_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_columnref' and metric 'rss': dropped 95 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_columnref' and metric 'rss' the best fit is:
+Best : Linear: time = 8E+07 + 1.9E+05*n (sec)                       
+Constant: time = 8.6E+07 (sec)                                  (res: 14)
+Linear: time = 8E+07 + 1.9E+05*n (sec)                          (res: 1.2)
+Quadratic: time = 8.4E+07 + 3.1E+02*n^2 (sec)                   (res: 4.4)
+Cubic: time = 8.4E+07 + 0.48*n^3 (sec)                          (res: 6.4)
+Logarithmic: time = 6E+07 + 1E+07*log(n) (sec)                  (res: 6.3)
+Linearithmic: time = 8.2E+07 + 3E+04*n*log(n) (sec)             (res: 1.8)
+Exponential: time = 8.2E+07 * 1^n (sec)                         (res: 2.3)
+
+   [exponent] free-exponent fit: rss ~ count_columnref ** 0.14
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_columnref_sql_formatter_15_9_0.png
+Plotting 'rss' vs 'count_col_id' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_col_id_sql_formatter_15_8_2.png
+Plotting 'rss' vs 'count_col_id' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_col_id_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_col_id' and metric 'rss' the best fit is:
+Best : Linear: time = 7.8E+07 + 2.5E+05*n (sec)                     
+Constant: time = 8.5E+07 (sec)                                  (res: 39)
+Linear: time = 7.8E+07 + 2.5E+05*n (sec)                        (res: 16)
+Quadratic: time = 8.3E+07 + 4E+02*n^2 (sec)                     (res: 19)
+Cubic: time = 8.3E+07 + 0.55*n^3 (sec)                          (res: 22)
+Logarithmic: time = 7.1E+07 + 5.9E+06*log(n) (sec)              (res: 34)
+Linearithmic: time = 8E+07 + 4E+04*n*log(n) (sec)               (res: 16)
+Exponential: time = 8.7E+07 * 1^n (sec)                         (res: 20)
+
+   [near-tie] within 10%: Linearithmic, Linear -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: rss ~ count_col_id ** 0.07
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_col_id_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_col_id' and metric 'rss' the best fit is:
+Best : Linear: time = 8E+07 + 1.4E+05*n (sec)                       
+Constant: time = 8.6E+07 (sec)                                  (res: 21)
+Linear: time = 8E+07 + 1.4E+05*n (sec)                          (res: 8)
+Quadratic: time = 8.3E+07 + 2E+02*n^2 (sec)                     (res: 10)
+Cubic: time = 8.4E+07 + 0.27*n^3 (sec)                          (res: 12)
+Logarithmic: time = 7.4E+07 + 4.9E+06*log(n) (sec)              (res: 18)
+Linearithmic: time = 8.2E+07 + 2.2E+04*n*log(n) (sec)           (res: 8.2)
+Exponential: time = 8.4E+07 * 1^n (sec)                         (res: 9)
+
+   [near-tie] within 10%: Linear, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: rss ~ count_col_id ** 0.06
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_col_id_sql_formatter_15_9_0.png
+Plotting 'rss' vs 'count_ident_char' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_ident_char_sql_formatter_15_8_2.png
+Plotting 'rss' vs 'count_ident_char' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_ident_char_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_ident_char' and metric 'rss': dropped 81 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_ident_char' and metric 'rss' the best fit is:
+Best : Logarithmic: time = 5E+07 + 7.8E+06*log(n) (sec)             
+Constant: time = 8.5E+07 (sec)                                  (res: 24)
+Linear: time = 8.2E+07 + 6.6E+03*n (sec)                        (res: 19)
+Quadratic: time = 8.4E+07 + 0.44*n^2 (sec)                      (res: 22)
+Cubic: time = 8.5E+07 + 3.1E-05*n^3 (sec)                       (res: 23)
+Logarithmic: time = 5E+07 + 7.8E+06*log(n) (sec)                (res: 17)
+Linearithmic: time = 8.3E+07 + 6.8E+02*n*log(n) (sec)           (res: 19)
+Exponential: time = 8.4E+07 * 1^n (sec)                         (res: 45)
+
+   [exponent] free-exponent fit: rss ~ count_ident_char ** 0.15
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_ident_char_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_ident_char' and metric 'rss': dropped 81 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_ident_char' and metric 'rss' the best fit is:
+Best : Logarithmic: time = 5.3E+07 + 6.9E+06*log(n) (sec)           
+Constant: time = 8.5E+07 (sec)                                  (res: 15)
+Linear: time = 8.2E+07 + 5.8E+03*n (sec)                        (res: 9.5)
+Quadratic: time = 8.4E+07 + 0.43*n^2 (sec)                      (res: 13)
+Cubic: time = 8.5E+07 + 3E-05*n^3 (sec)                         (res: 14)
+Logarithmic: time = 5.3E+07 + 6.9E+06*log(n) (sec)              (res: 7.8)
+Linearithmic: time = 8.3E+07 + 6.2E+02*n*log(n) (sec)           (res: 10)
+Exponential: time = 8.3E+07 * 1^n (sec)                         (res: 15)
+
+   [exponent] free-exponent fit: rss ~ count_ident_char ** 0.10
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_ident_char_sql_formatter_15_9_0.png
+Plotting 'rss' vs 'count_elem' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_elem_sql_formatter_15_8_2.png
+Plotting 'rss' vs 'count_elem' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_elem_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_elem' and metric 'rss' the best fit is:
+Best : Linear: time = 7.7E+07 + 1.9E+05*n (sec)                     
+Constant: time = 8.5E+07 (sec)                                  (res: 39)
+Linear: time = 7.7E+07 + 1.9E+05*n (sec)                        (res: 1.5)
+Quadratic: time = 8.3E+07 + 1.1E+02*n^2 (sec)                   (res: 8.7)
+Cubic: time = 8.4E+07 + 0.043*n^3 (sec)                         (res: 17)
+Logarithmic: time = 5.7E+07 + 9.4E+06*log(n) (sec)              (res: 30)
+Linearithmic: time = 8E+07 + 2.6E+04*n*log(n) (sec)             (res: 1.6)
+Exponential: time = 8.2E+07 * 1^n (sec)                         (res: 5.8)
+
+   [near-tie] within 10%: Linear, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: rss ~ count_elem ** 0.22
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_elem_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_elem' and metric 'rss' the best fit is:
+Best : Linear: time = 8.1E+07 + 6.5E+04*n (sec)                     
+Constant: time = 8.6E+07 (sec)                                  (res: 21)
+Linear: time = 8.1E+07 + 6.5E+04*n (sec)                        (res: 3.3)
+Quadratic: time = 8.4E+07 + 25*n^2 (sec)                        (res: 9.7)
+Cubic: time = 8.5E+07 + 0.0095*n^3 (sec)                        (res: 12)
+Logarithmic: time = 5.9E+07 + 8.8E+06*log(n) (sec)              (res: 11)
+Linearithmic: time = 8.2E+07 + 8.4E+03*n*log(n) (sec)           (res: 4.4)
+Exponential: time = 8.4E+07 * 1^n (sec)                         (res: 6.2)
+
+   [exponent] free-exponent fit: rss ~ count_elem ** 0.13
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_elem_sql_formatter_15_9_0.png
+Plotting 'rss' vs 'count_iconst' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_iconst_sql_formatter_15_8_2.png
+Plotting 'rss' vs 'count_iconst' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_iconst_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_iconst' and metric 'rss': dropped 17 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_iconst' and metric 'rss' the best fit is:
+Best : Linear: time = 7.9E+07 + 2.6E+05*n (sec)                     
+Constant: time = 8.5E+07 (sec)                                  (res: 39)
+Linear: time = 7.9E+07 + 2.6E+05*n (sec)                        (res: 3.7)
+Quadratic: time = 8.4E+07 + 1E+02*n^2 (sec)                     (res: 19)
+Cubic: time = 8.5E+07 + 0.038*n^3 (sec)                         (res: 23)
+Logarithmic: time = 5.7E+07 + 1.2E+07*log(n) (sec)              (res: 28)
+Linearithmic: time = 8.2E+07 + 3.5E+04*n*log(n) (sec)           (res: 6.3)
+Exponential: time = 8.7E+07 * 1^n (sec)                         (res: 16)
+
+   [exponent] free-exponent fit: rss ~ count_iconst ** 0.24
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_iconst_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_iconst' and metric 'rss': dropped 17 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_iconst' and metric 'rss' the best fit is:
+Best : Linear: time = 8.3E+07 + 6.5E+04*n (sec)                     
+Constant: time = 8.6E+07 (sec)                                  (res: 21)
+Linear: time = 8.3E+07 + 6.5E+04*n (sec)                        (res: 7.7)
+Quadratic: time = 8.5E+07 + 22*n^2 (sec)                        (res: 13)
+Cubic: time = 8.5E+07 + 0.0085*n^3 (sec)                        (res: 14)
+Logarithmic: time = 5.9E+07 + 1E+07*log(n) (sec)                (res: 9.8)
+Linearithmic: time = 8.4E+07 + 8E+03*n*log(n) (sec)             (res: 9.2)
+Exponential: time = 8.6E+07 * 1^n (sec)                         (res: 11)
+
+   [exponent] free-exponent fit: rss ~ count_iconst ** 0.14
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_iconst_sql_formatter_15_9_0.png
+Plotting 'rss' vs 'count_digit' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_digit_sql_formatter_15_8_2.png
+Plotting 'rss' vs 'count_digit' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_digit_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_digit' and metric 'rss': dropped 17 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_digit' and metric 'rss' the best fit is:
+Best : Logarithmic: time = 5E+07 + 8.7E+06*log(n) (sec)             
+Constant: time = 8.5E+07 (sec)                                  (res: 39)
+Linear: time = 8.2E+07 + 1.1E+04*n (sec)                        (res: 31)
+Quadratic: time = 8.4E+07 + 1.1*n^2 (sec)                       (res: 36)
+Cubic: time = 8.5E+07 + 0.00011*n^3 (sec)                       (res: 38)
+Logarithmic: time = 5E+07 + 8.7E+06*log(n) (sec)                (res: 29)
+Linearithmic: time = 8.3E+07 + 1.2E+03*n*log(n) (sec)           (res: 32)
+Exponential: time = 8.4E+07 * 1^n (sec)                         (res: 1.2E+02)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: rss ~ count_digit ** 0.19
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_digit_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_digit' and metric 'rss': dropped 17 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_digit' and metric 'rss' the best fit is:
+Best : Logarithmic: time = 5.2E+07 + 8.1E+06*log(n) (sec)           
+Constant: time = 8.6E+07 (sec)                                  (res: 21)
+Linear: time = 8.2E+07 + 1E+04*n (sec)                          (res: 13)
+Quadratic: time = 8.5E+07 + 1.2*n^2 (sec)                       (res: 18)
+Cubic: time = 8.5E+07 + 0.00012*n^3 (sec)                       (res: 20)
+Logarithmic: time = 5.2E+07 + 8.1E+06*log(n) (sec)              (res: 11)
+Linearithmic: time = 8.3E+07 + 1.2E+03*n*log(n) (sec)           (res: 14)
+Exponential: time = 8.3E+07 * 1^n (sec)                         (res: 22)
+
+   [exponent] free-exponent fit: rss ~ count_digit ** 0.12
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_digit_sql_formatter_15_9_0.png
+Plotting 'rss' vs 'count_more_el' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_more_el_sql_formatter_15_8_2.png
+Plotting 'rss' vs 'count_more_el' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_more_el_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_more_el' and metric 'rss': dropped 32 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_more_el' and metric 'rss' the best fit is:
+Best : Linear: time = 7.7E+07 + 1.9E+05*n (sec)                     
+Constant: time = 8.6E+07 (sec)                                  (res: 39)
+Linear: time = 7.7E+07 + 1.9E+05*n (sec)                        (res: 1.4)
+Quadratic: time = 8.4E+07 + 1.1E+02*n^2 (sec)                   (res: 8.5)
+Cubic: time = 8.5E+07 + 0.043*n^3 (sec)                         (res: 16)
+Logarithmic: time = 4.5E+07 + 1.3E+07*log(n) (sec)              (res: 27)
+Linearithmic: time = 8E+07 + 2.6E+04*n*log(n) (sec)             (res: 1.5)
+Exponential: time = 8.3E+07 * 1^n (sec)                         (res: 5.6)
+
+   [near-tie] within 10%: Linear, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: rss ~ count_more_el ** 0.26
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_more_el_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_more_el' and metric 'rss': dropped 32 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_more_el' and metric 'rss' the best fit is:
+Best : Linear: time = 8.2E+07 + 6.5E+04*n (sec)                     
+Constant: time = 8.6E+07 (sec)                                  (res: 21)
+Linear: time = 8.2E+07 + 6.5E+04*n (sec)                        (res: 3.1)
+Quadratic: time = 8.5E+07 + 25*n^2 (sec)                        (res: 9.4)
+Cubic: time = 8.5E+07 + 0.0095*n^3 (sec)                        (res: 12)
+Logarithmic: time = 5E+07 + 1.1E+07*log(n) (sec)                (res: 9)
+Linearithmic: time = 8.3E+07 + 8.4E+03*n*log(n) (sec)           (res: 4.2)
+Exponential: time = 8.4E+07 * 1^n (sec)                         (res: 6)
+
+   [exponent] free-exponent fit: rss ~ count_more_el ** 0.15
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_more_el_sql_formatter_15_9_0.png
+Plotting 'rss' vs 'count_ows' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_ows_sql_formatter_15_8_2.png
+Plotting 'rss' vs 'count_ows' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_ows_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_ows' and metric 'rss' the best fit is:
+Best : Linear: time = 7.6E+07 + 1.5E+05*n (sec)                     
+Constant: time = 8.5E+07 (sec)                                  (res: 39)
+Linear: time = 7.6E+07 + 1.5E+05*n (sec)                        (res: 3.1)
+Quadratic: time = 8.3E+07 + 88*n^2 (sec)                        (res: 6.2)
+Cubic: time = 8.4E+07 + 0.041*n^3 (sec)                         (res: 11)
+Logarithmic: time = 5.5E+07 + 9E+06*log(n) (sec)                (res: 30)
+Linearithmic: time = 7.9E+07 + 2E+04*n*log(n) (sec)             (res: 2.9)
+Exponential: time = 8E+07 * 1^n (sec)                           (res: 3.6)
+
+   [near-tie] within 10%: Linearithmic, Linear -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: rss ~ count_ows ** 0.22
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_ows_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_ows' and metric 'rss' the best fit is:
+Best : Linear: time = 8E+07 + 6E+04*n (sec)                         
+Constant: time = 8.6E+07 (sec)                                  (res: 21)
+Linear: time = 8E+07 + 6E+04*n (sec)                            (res: 2)
+Quadratic: time = 8.4E+07 + 26*n^2 (sec)                        (res: 6.9)
+Cubic: time = 8.4E+07 + 0.01*n^3 (sec)                          (res: 10)
+Logarithmic: time = 5.7E+07 + 8.6E+06*log(n) (sec)              (res: 12)
+Linearithmic: time = 8.2E+07 + 7.8E+03*n*log(n) (sec)           (res: 2.7)
+Exponential: time = 8.2E+07 * 1^n (sec)                         (res: 3.9)
+
+   [exponent] free-exponent fit: rss ~ count_ows ** 0.13
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_ows_sql_formatter_15_9_0.png
+Plotting 'rss' vs 'count_more_el_bool' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_more_el_bool_sql_formatter_15_8_2.png
+Plotting 'rss' vs 'count_more_el_bool' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_count_more_el_bool_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_more_el_bool' and metric 'rss': dropped 69 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'count_more_el_bool' and metric 'rss' the best fit is:
+Best : Linear: time = 7.7E+07 + 3.8E+05*n (sec)                     
+Constant: time = 8.6E+07 (sec)                                  (res: 38)
+Linear: time = 7.7E+07 + 3.8E+05*n (sec)                        (res: 1.4)
+Quadratic: time = 8.4E+07 + 4.4E+02*n^2 (sec)                   (res: 8.2)
+Cubic: time = 8.5E+07 + 0.35*n^3 (sec)                          (res: 16)
+Logarithmic: time = 5E+07 + 1.5E+07*log(n) (sec)                (res: 25)
+Linearithmic: time = 8E+07 + 5.9E+04*n*log(n) (sec)             (res: 1.4)
+Exponential: time = 8.3E+07 * 1^n (sec)                         (res: 5.5)
+
+   [near-tie] within 10%: Linear, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: rss ~ count_more_el_bool ** 0.26
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_more_el_bool_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_more_el_bool' and metric 'rss': dropped 69 of 537 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'count_more_el_bool' and metric 'rss' the best fit is:
+Best : Linear: time = 8.2E+07 + 1.3E+05*n (sec)                     
+Constant: time = 8.7E+07 (sec)                                  (res: 21)
+Linear: time = 8.2E+07 + 1.3E+05*n (sec)                        (res: 3.1)
+Quadratic: time = 8.5E+07 + 1E+02*n^2 (sec)                     (res: 9.3)
+Cubic: time = 8.6E+07 + 0.076*n^3 (sec)                         (res: 12)
+Logarithmic: time = 5.5E+07 + 1.3E+07*log(n) (sec)              (res: 7.7)
+Linearithmic: time = 8.3E+07 + 1.8E+04*n*log(n) (sec)           (res: 4.2)
+Exponential: time = 8.4E+07 * 1^n (sec)                         (res: 5.9)
+
+   [exponent] free-exponent fit: rss ~ count_more_el_bool ** 0.15
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_count_more_el_bool_sql_formatter_15_9_0.png
+Plotting 'rss' vs 'sql_bytes' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_sql_bytes_sql_formatter_15_8_2.png
+Plotting 'rss' vs 'sql_bytes' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_sql_bytes_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'sql_bytes' and metric 'rss' the best fit is:
+Best : Logarithmic: time = 3.4E+07 + 9.3E+06*log(n) (sec)           
+Constant: time = 8.5E+07 (sec)                                  (res: 39)
+Linear: time = 8.1E+07 + 5.1E+03*n (sec)                        (res: 27)
+Quadratic: time = 8.3E+07 + 0.28*n^2 (sec)                      (res: 32)
+Cubic: time = 8.4E+07 + 1.5E-05*n^3 (sec)                       (res: 35)
+Logarithmic: time = 3.4E+07 + 9.3E+06*log(n) (sec)              (res: 29)
+Linearithmic: time = 8.1E+07 + 5.2E+02*n*log(n) (sec)           (res: 28)
+Exponential: time = 8.1E+07 * 1^n (sec)                         (res: 82)
+
+   [near-tie] within 10%: Linear, Linearithmic, Logarithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: rss ~ sql_bytes ** 0.20
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_sql_bytes_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'sql_bytes' and metric 'rss' the best fit is:
+Best : Linear: time = 8.1E+07 + 4.4E+03*n (sec)                     
+Constant: time = 8.6E+07 (sec)                                  (res: 21)
+Linear: time = 8.1E+07 + 4.4E+03*n (sec)                        (res: 9.8)
+Quadratic: time = 8.3E+07 + 0.26*n^2 (sec)                      (res: 14)
+Cubic: time = 8.4E+07 + 1.5E-05*n^3 (sec)                       (res: 16)
+Logarithmic: time = 3.8E+07 + 8.6E+06*log(n) (sec)              (res: 11)
+Linearithmic: time = 8.2E+07 + 4.5E+02*n*log(n) (sec)           (res: 10)
+Exponential: time = 8.2E+07 * 1^n (sec)                         (res: 15)
+
+   [near-tie] within 10%: Linear, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: rss ~ sql_bytes ** 0.12
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_sql_bytes_sql_formatter_15_9_0.png
+Plotting 'rss' vs 'list_items' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_list_items_sql_formatter_15_8_2.png
+Plotting 'rss' vs 'list_items' for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Saved plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/rss_vs_list_items_sql_formatter_15_9_0.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2', feature 'list_items' and metric 'rss' the best fit is:
+Best : Linear: time = 7.7E+07 + 1.9E+05*n (sec)                     
+Constant: time = 8.5E+07 (sec)                                  (res: 39)
+Linear: time = 7.7E+07 + 1.9E+05*n (sec)                        (res: 1.5)
+Quadratic: time = 8.3E+07 + 1.1E+02*n^2 (sec)                   (res: 8.7)
+Cubic: time = 8.4E+07 + 0.043*n^3 (sec)                         (res: 17)
+Logarithmic: time = 5.7E+07 + 9.4E+06*log(n) (sec)              (res: 30)
+Linearithmic: time = 8E+07 + 2.6E+04*n*log(n) (sec)             (res: 1.6)
+Exponential: time = 8.2E+07 * 1^n (sec)                         (res: 5.8)
+
+   [near-tie] within 10%: Linear, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: rss ~ list_items ** 0.22
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_list_items_sql_formatter_15_8_2.png
+For './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0', feature 'list_items' and metric 'rss' the best fit is:
+Best : Linear: time = 8.1E+07 + 6.5E+04*n (sec)                     
+Constant: time = 8.6E+07 (sec)                                  (res: 21)
+Linear: time = 8.1E+07 + 6.5E+04*n (sec)                        (res: 3.3)
+Quadratic: time = 8.4E+07 + 25*n^2 (sec)                        (res: 9.7)
+Cubic: time = 8.5E+07 + 0.0095*n^3 (sec)                        (res: 12)
+Logarithmic: time = 5.9E+07 + 8.8E+06*log(n) (sec)              (res: 11)
+Linearithmic: time = 8.2E+07 + 8.4E+03*n*log(n) (sec)           (res: 4.4)
+Exponential: time = 8.4E+07 * 1^n (sec)                         (res: 6.2)
+
+   [exponent] free-exponent fit: rss ~ list_items ** 0.13
+Saved fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/fitmodel_rss_vs_list_items_sql_formatter_15_9_0.png
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Linear', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Quadratic', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Cubic', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Logarithmic', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'LogLinear', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Linear', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Quadratic', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Cubic', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Logarithmic', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'LogLinear', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Linear', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Quadratic', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Cubic', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Logarithmic', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'LogLinear', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Linear', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Quadratic', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Cubic', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Logarithmic', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'LogLinear', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Linear', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Quadratic', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Cubic', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Logarithmic', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Linear', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Quadratic', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Cubic', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Logarithmic', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('LogLinear', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2' and combo '('Exponential', 'LogLinear', 'LogLinear')'.
+Model fit results for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+Best fit for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2':
+R^2: 0.9676854751253966
+Intercept: 77832083.49925901
+Feature 'count_col_id' has complexity class 'Cubic'.
+The coefficient for this feature is -0.29602142967651657.
+Feature 'count_ows' has complexity class 'LogLinear'.
+The coefficient for this feature is 26356.10738787893.
+Feature 'sql_bytes' has complexity class 'Cubic'.
+The coefficient for this feature is 2.123439198825751e-06.
+Saved 3d fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/3dmodel_rss_vs_count_col_id_and_count_ows_and_sql_bytes_sql_formatter_15_8_2.png
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Linear', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Quadratic', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Cubic', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Logarithmic', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Exponential', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'LogLinear', 'Linear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Linear', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Quadratic', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Cubic', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Logarithmic', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Exponential', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'LogLinear', 'Quadratic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Linear', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Quadratic', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Cubic', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Logarithmic', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Exponential', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'LogLinear', 'Cubic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Linear', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Quadratic', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Cubic', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Logarithmic', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Exponential', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'LogLinear', 'Logarithmic')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Linear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Quadratic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Cubic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Logarithmic', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Exponential', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'LogLinear', 'Exponential')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Linear', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Quadratic', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Cubic', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Logarithmic', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Linear', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Quadratic', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Cubic', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Logarithmic', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('LogLinear', 'Exponential', 'LogLinear')'.
+Overflow error for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0' and combo '('Exponential', 'LogLinear', 'LogLinear')'.
+Model fit results for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+Best fit for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0':
+R^2: 0.96091936615463
+Intercept: 69830170.24073315
+Feature 'count_col_id' has complexity class 'Linear'.
+The coefficient for this feature is 35728.99368086617.
+Feature 'count_ows' has complexity class 'Linear'.
+The coefficient for this feature is 46071.90491914775.
+Feature 'sql_bytes' has complexity class 'Logarithmic'.
+The coefficient for this feature is 1880000.8963522161.
+Saved 3d fit model plot to ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/plots/3dmodel_rss_vs_count_col_id_and_count_ows_and_sql_bytes_sql_formatter_15_9_0.png
+Best complexity classes for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_8_2': ('Cubic', 'LogLinear', 'Cubic')
+Best complexity classes for './results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/summary.csv-function_name/sql_formatter_15_9_0': ('Linear', 'Linear', 'Logarithmic')
+======================================================================
+[sqlformatter_tailored] metric cache: 1074 entries, 6028 SUT executions this run
+[sqlformatter_tailored] wall clock: 3138s of 3420s budget
+[sqlformatter_tailored] report -> ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored/report.md
+[sqlformatter_tailored] done. corpus=1074 rows (537 inputs x 2 systems). Artifacts in ./results/rq1/20261002-2210-tailored-sqlformatter_tailored/run1/sqlformatter_tailored

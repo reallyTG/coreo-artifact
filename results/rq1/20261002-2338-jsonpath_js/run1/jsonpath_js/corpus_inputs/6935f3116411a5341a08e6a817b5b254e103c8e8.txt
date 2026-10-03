@@ -1,0 +1,55 @@
+$[?(!
+	 
+ 	match(
+ 
+ 
+
+"zzzzxxzzzy\"\"yxxy'zy'",		'[^c]+[^a-d]+[^a-d]+[^a-d][^x-z]+[c]+[a-d]?[x-za-d]{1,2}'
+
+)&& ! 
+	 	
+match(count(@)
+ 	 	
+	  ,'[^a-dy]?[x-z]{0,}[dx-z]*[^a-dx-z][d]+[^x-z]*[^b][aa-d]?[b][^x-zx-z]|[^a-dy][a-d]?[^a-da-d][xb][a-dx-z]+[a-dc]')&&	 	
+match(value(		@[?(!match(length(@.accaabdaadaa  	)
+ 	
+	 ,"[^a-d]?[y][^xz][a-dx-z]*[^zy][cx-z]?[^a-da-d]{6,}[^a-da-d][a-da-d]*[d]*|[^a-d]?[^b][x-z][x-zx-z][^x-za-d]*[xd]{0,1}[^a-d]?[^z]?[^x-z][a-dx-z]|[^x-z]{1,2}[a]+[a-d]?[^a-dx-z]*[^c]?[^a-dx-z]?|[a-da][^a-da-d][^b]+[ax-z]?[^a-d][^a-d][^x-za-d]+[^a-da-d]?|[^a-dx-z][ya-d][^c]|[^y][^a-dy]?[a-d][^x-za-d]?[xx-z]|[a-d][a-d][^xy][x-z][a-d]+[x-z]+[^x-zy]{2,4}[^a-d]{0,1}[d]|[^x-z]?[^z]?|[^a-d]+[a-d]?[za-d]+[x-za-d][^d][^a-da]+[^a-d][^x-za-d][a-db]*[^a-da-d]*|[x-zx-z]{0,2}[^y][a-da-d]+[zx][x-zc][a-dx-z]?[x-za]{0,2}[a-d][^a-d]{0,2}|[b][a-d]?"))][?(  	match( 
+
+$[""]['b'],		'[y][x-z]*[cx-z][^a-d][^x-zx-z][^a-dd]?[x-za-d]')&&match(count(   
+ 		 @		) 		
+,"[^a-d][c]*[x-za-d]+[^a-da-d]{1,3}[b][^a-dd]{1,3}[^a-dy]?|[x-zx-z][^a-d][x-z]*[^x-z]+[x-zx-z][^da-d][d]*[a-da-d][^x-z]?[ya-d]|[^y][xa-d]?[cx-z][^a-d][^a-d]+[^by]?[d][x]*[^a-dx-z][^d]|[yy]?[x-z]?[zx-z]*[b][^x-z][a-d]+|[a-d]{1,2}[a-dx-z][^a-dx-z]?[y][^d][^a-da-d]{7,}[x-z]|[x-z][^da-d][^da-d][x-za-d][^xx-z]+|[^a-d][^x-zx-z][z][x-z]?"		  	
+	)&& 
+
+   !match(
+   value(				  		$)
+  		
+,'[^a-d]{2,4}[^da-d][^x-z][x-z]*[a-d]*|[a-dc][^a-da-d][^x-z]|[^x]?[x]?[x-za-d][^a-d]|[a-d][x-z][^b]{0,}[^x-z]{1,2}[^a-d][^x-z]*[x-za-d][^x][^x-za-d]*[^da-d]|[^a-da]?|[x-zx-z]?[x-z]{0,2}[^a-dx-z]{2,4}[^z][x-z]?[^a-d][^a-d]{0}|[^a-d]')&& 		
+ match(		count(
+
+  		@[?(match($	
+ 		,"[x-zx-z]?")
+
+	 	
+
+ 	&&	 	
+		match(
+ 
+	
+ 		$.cdabdbcbaba["bb"],'[x-z]{1,3}[a-d][^b]+[^a-d][x]+[xa-d]+[^z]{0,1}[^x-za-d]*|[^x-z][^a-d][^xa-d][a-dx][x]*[za]+[^a-d][^a-d][^da-d]'	 )&&!match(length(	 
+	 	count(@) 		),'[^a-d][d]*'))][?(
+!match(@[0][0],"[a-d][^a-dd]*"))] 	 
+	
+
+
+)	
+
+	 
+,
+
+
+
+		 "[^y][^d][^cx-z]?")||match(true,'[^a-d]'))][?(match(
+2,'[^az]'))])
+,"[^a-da-d][^x-z]") )]
+@@@
+[false]

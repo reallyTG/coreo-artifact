@@ -1,0 +1,3 @@
+.ca ,body:has(+.acbbcacbddbbda, a ,*#bb.addbbaaddaaabc)[type|=dc]~*[ type |= "ba" i] em.ca[ type^="c" i].d, *[ checked ] div>:not( [readonly= cc-bbdbd-dccdbcacdd-ac ]:where( :not( #c:hover , *:read-only~ a> #ac:empty)[disabled] ).c.ca:is(input~span.aad:lang(cbab-cdaaca )#ab> div[data-dcbcab *= "c dcd" i ]> input , :not(span , .cbccc:enabled)#b:lang(acadca))[data-a *="" ]+*.b:has(~ body:is(*~*#d, *:link[data-a ^="" i] ~[type ] ,[id|="" i].bd.a.b:not(span) )#bdadab:lang( badc-cbcaaababcdcd) ~ #cbbacaca[ checked$= d ]:where(*#a:checked ) +html ~ html).aa b ~ :lang(acadbcd-aaddbddd-abbcab-bbca ).cdcb, .dacad)[ checked ] , html,div
+@@@
+<!DOCTYPE html><html><body><p title="">b caabc</p></body></html>

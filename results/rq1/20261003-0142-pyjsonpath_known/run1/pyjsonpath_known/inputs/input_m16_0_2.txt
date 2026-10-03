@@ -1,0 +1,52 @@
+$.dbc.aad.ddc.cddb.dcc
+@@@
+[
+
+  	
+ [false
+,true ,{	
+ },0.01 		,-0E+0, 
+
+ 
+[	
+
+ 		  ],true,{"abad"	
+
+ :	 
+
+
+		 "x"
+ 	,"dca": {},	
+
+"bb"  :-0.40E+08
+
+
+ 			
+
+,"a\n\fcbd\/": null
+	},null]  
+ 
+ ,[
+
+	]	
+
+
+	,		  
+ -7375000000.208000708e0
+
+
+,		false,false
+	 		
+,[{ 
+ 	
+},0.0730e+0,0.709200096e60,false
+		
+		,		 0.050007	,
+  	 	true,"xxxyxyz",	 		 
+"yzxyzxy\r\/xx\\zy\b\\y",	 
+{} 	
+	,   
+
+  false] 
+	
+]

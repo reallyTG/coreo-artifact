@@ -1,0 +1,28 @@
+$.*..[8,-5,5,"b",1]..[-40]..[-94,24,"cdda",'','a\'b','dd"c"b\td"cc',71,"ddb'\\a\/db",'d',"a"]..ddacd.*.*[0,42,'\fca\udbA0\uDFEBb',3,"",80090059034]..['a\/dba"','',"ccdbbabccba",'d','ab',-40]..[0,'bc',"dbabc","dba\t'cadc",-77,'a'].cb..ad..["",0,99]..c
+@@@
+["xxxyyxxyx",true		,
+	  
+	[	480005100893,	
+	 
+-18060500.037064 
+,
+	 
+
+	
+null,false 
+,	
+ { 
+}
+ 	
+	 ,""	 ,false	  
+,true
+	 ,true, 	
+true	,
+ 
+  30e+60
+ ] 
+	
+,-4008E0
+		,{ 		} 
+ 
+ 	] 

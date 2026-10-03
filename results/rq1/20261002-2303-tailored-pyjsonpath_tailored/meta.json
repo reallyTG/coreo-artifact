@@ -1,0 +1,13 @@
+{
+  "experiment": "rq1",
+  "command": "experiment.py rq1 --runs 1 --first-run 1 --uniform-budget --timeout 60 --tag tailored-pyjsonpath_tailored --subjects pyjsonpath_tailored",
+  "base_seed": 20260921,
+  "runs": 1,
+  "first_run": 1,
+  "uniform_budget": true,
+  "quick": false,
+  "subjects": [
+    "pyjsonpath_tailored"
+  ],
+  "started": "2026-10-02T23:03:20"
+}

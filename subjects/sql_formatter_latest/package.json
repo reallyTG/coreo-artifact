@@ -1,0 +1,13 @@
+{
+  "name": "coreografa-sql-formatter-latest-subject",
+  "private": true,
+  "description": "The last six sql-formatter releases side by side (preregistered in eval/latest_series_2026-09-30.json).",
+  "dependencies": {
+    "sql_formatter_15_7_3": "npm:sql-formatter@15.7.3",
+    "sql_formatter_15_7_4": "npm:sql-formatter@15.7.4",
+    "sql_formatter_15_8_0": "npm:sql-formatter@15.8.0",
+    "sql_formatter_15_8_1": "npm:sql-formatter@15.8.1",
+    "sql_formatter_15_8_2": "npm:sql-formatter@15.8.2",
+    "sql_formatter_15_9_0": "npm:sql-formatter@15.9.0"
+  }
+}

@@ -1,0 +1,3 @@
+$[*][?!match(@.b,"y+y|.[x-zx]z+")]
+@@@
+["xxyxyxyyyyx","y","y",{"a":"yx"},"yy","x","x",{"a":"yx"},"z"]

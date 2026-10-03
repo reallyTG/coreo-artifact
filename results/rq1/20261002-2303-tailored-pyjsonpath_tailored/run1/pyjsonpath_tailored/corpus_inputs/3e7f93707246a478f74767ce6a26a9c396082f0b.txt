@@ -1,0 +1,3 @@
+$[*]..[?match(@,'z*y[yzy]{0,1}z*')]
+@@@
+[{"a":"xx","b":"yy"},"z","zzyxy",{"a":"xx","b":"xy"},{"a":"z","b":"zy"},{"a":"yzzzxxyxy","b":"z"},"xxyxxx",{"a":"xxz"},"yz","zy","xyxxyx",{"a":"x","b":"y"},{"a":"xyzyxyxyxz","b":"yx"},{"a":"yz","b":"y"},{"a":"xy","b":"yzyx"},{"a":"yz"},"xyyxy",{"a":"xyyyxyyyxzxy","b":"y"},"x",{"a":"yyxzyyzx","b":"xy"},{"a":"yxxxyyzzyxz"},{"a":"xyzzxyzz"},{"a":"zy","b":"zxxxzyxyzx"},{"a":"yx"},{"a":"zz","b":"y"},{"a":"x"}]

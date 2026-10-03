@@ -1,0 +1,3 @@
+$.*[?!match(@.b,'y{2,4}|[^yzx]+')]
+@@@
+[{"a":"x","b":"zxxzzzyxzxy"},"xxxxxyxyxzx",{"a":"y"},{"a":"zx","b":"zz"},{"a":"y"},{"a":"z"},{"a":"zy"}]

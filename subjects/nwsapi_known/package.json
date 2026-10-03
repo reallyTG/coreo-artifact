@@ -1,0 +1,15 @@
+{
+  "name": "coreografa-nwsapi-known-subject",
+  "private": true,
+  "description": "Seven nwsapi releases side by side (known-pair subject, 2.2.21 to 2.2.27). jsdom is pinned to subjects/selectors_js/package.json.",
+  "dependencies": {
+    "jsdom": "30.1.0",
+    "nwsapi_2_2_21": "npm:nwsapi@2.2.21",
+    "nwsapi_2_2_22": "npm:nwsapi@2.2.22",
+    "nwsapi_2_2_23": "npm:nwsapi@2.2.23",
+    "nwsapi_2_2_24": "npm:nwsapi@2.2.24",
+    "nwsapi_2_2_25": "npm:nwsapi@2.2.25",
+    "nwsapi_2_2_26": "npm:nwsapi@2.2.26",
+    "nwsapi_2_2_27": "npm:nwsapi@2.2.27"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "poc-sql-parser-cst-lowercase-string-prefix",
+  "private": true,
+  "dependencies": {
+    "sql-parser-cst": "0.42.1",
+    "libpg-query": "18.1.5"
+  }
+}

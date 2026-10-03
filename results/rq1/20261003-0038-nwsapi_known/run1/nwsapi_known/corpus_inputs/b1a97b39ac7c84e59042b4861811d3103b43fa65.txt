@@ -1,0 +1,3 @@
+:is( *#cc[class~= "" i ].ca[title ] ,:nth-last-child(odd ) , input , .cddcbdcbccbdb#c[lang~="" i] em + :link:has(html#b )#d#ac, em[ class |= "" i] ).b~em
+@@@
+<!DOCTYPE html><html><body><section class="aacacd" title="" lang="acdabbcdbda-ccaaad" data-aaacbb=""></section><div data-d="bac-dd b-d ac b-bcaadbaaccdc">bab a aa</div></body></html>

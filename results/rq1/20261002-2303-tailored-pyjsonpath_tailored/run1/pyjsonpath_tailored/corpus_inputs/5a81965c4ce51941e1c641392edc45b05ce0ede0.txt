@@ -1,0 +1,3 @@
+$[?!match(@.b,'yz+|.')]
+@@@
+[{"a":"xx","b":"yy"},"yzyzzzz",{"a":"z","b":"zz"},{"a":"yzyxzyxyzxxyyy","b":"xzzzyz"},{"a":"yyxyxyxz"},{"a":"xxzzzxyzyyxxxzzxxy"},{"a":"y","b":"zz"},{"a":"z","b":"xz"},{"a":"y","b":"x"},"xy",{"a":"zy","b":"x"},{"a":"zzzzyxyzyyyz","b":"zxxyzyzz"},{"a":"yx","b":"zyyx"},{"a":"yzzzxyyxzyyxyxzyx","b":"z"}]

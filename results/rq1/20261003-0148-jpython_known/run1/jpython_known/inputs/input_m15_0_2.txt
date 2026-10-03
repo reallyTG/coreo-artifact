@@ -1,0 +1,84 @@
+$[ 
+	 ? 
+ 
+		match(
+	
+	
+
+
+
+"",'[x-z]+[a-d][x-z][^xb][^x-za-d]+[^a-dx-z]+[cd]?[a-da-d][^b][^a-da]*|[^y][a-d]?[^a-d]{0,}[^x-zy]{1,3}[^a-d][a-d]?[^a-da-d]|[cb]+[^cx-z][a-d]*[^xa-d]')||match(		 	 	false,'[x-z][x-z]?[x-z][^a-d]')  	||
+
+ 	
+	 match(		 	
+length(
+
+
+
+
+  length(value($[?match($			
+
+.dc[-7205007]
+ 		  	 ,'[^za-d]*[xd]{0,1}[^a-d]?[^z]?[^x-z]')&&
+
+	 	!	
+	match(	true
+
+, 
+	 
+"[^xb]?[x-z]{2}[d][z][^x-zz]+[^x-za-d]+[^a-da-d]?[x-z][^a-d]|[^x-za-d]+|[^a-d]*[^x-za-d][^x-z]?[a-d]|[^x-z]|[xx-z][x-z]+[ca-d][a-d][x-z]?[a-d]+[x-z]+[^x-zy]{2,4}|[a-da-d]+|[^y][^ca-d]*[^x-z]{0,}[y]?[^x-z][^ya-d][^a-d]+[^x-za-d]{0,1}[^x-z]" 
+	
+ 	)&&
+match(@	 
+	
+	
+['cc'].cb,'[x-zx-z]+[^x-zd][y]+[^x-z][d]{0}[^x-z]*')&&!	
+				 match(
+  
+$  	 
+	["d"]				
+  [0]	.a[''][6] 
+  
+	.dcaaa['aa'].dabbc, 		 "[^a-d]{2,4}[xa][x-z]*[a-d][^a-dx-z]{0}[y][^da-d][^yx][^x-z][^a-d]"	 )
+ 
+
+&&match(count(@)	,'[y]*[^yy][^xa]'
+
+	 
+ ) 
+ &&
+
+
+		!			
+
+	 
+	match(	value($ 
+
+[? 		!match(
+
+ 
+ 40   ,'[x-zb]*[^dx-z]+[^ya-d][^d]?[a-d]+'
+	)
+
+		&&
+	match(true   	
+,
+
+ 			'[^a-d][^x-zx-z]')
+	 &&match($,'[a-da-d]+[^x-z]*[a-dx-z]?[c][^d]*[d][^x-z]+|[x]?[^d]?[^a-d]{2,4}[^da-d][^x-z]|[^a-d][y]|[a-d]?[^a-dd]|[a-d][y][^a-d][^a]{1}[^y]|[x][x][x-z]{0,1}[a-d]+[^a-da]|[^a-d]?[x-z]?[x-z]*[^a-d]{0,1}|[^z]*[^a-da-d][x-z][x-zx-z]?[x-z]{0,2}[^a-dx-z]{2,4}|[x-z]?[x-z]?[^a-d][^a-d]{0}[zx-z][^x-zx-z]?[^x-zc]+[^xx-z][^x-z]?[c]*|[d]?[^x-za-d]'  	 
+   )&&!	 match($.c 	
+	.cb 
+
+,'[^x-z][^x-za-d]|[^a-dz][^a-da-d][d][x-zc]{0,2}[a-da-d]{1,2}[^x]|[^ba-d][c]+[^xx-z]+|[^z]{0,1}|[^x-za]+[^d]+|[^a-d]+[a-da-d]?[^b][^a-d]+[^x-za]+[^a-d]|[a-da-d][^x]?[^a-da][^x-zy][^a-dx-z][x-z][y][a-d]{2,}[ca-d][d]*')	&&
+!match(  
+ 	 @[-4000390010680][0]
+
+
+,	
+
+	 
+"[x-z]+[xx-z][a-dx-z]+[^a-d][cx-z]*|[a-d][^a][^a-dx-z]|[^c]+[^x-z][^b][a-d]{1,2}[a-d][x-z][^x-zz]|[zz][^a]{0,1}[^x-z][b][^ya-d][a-dx-z]?|[^x-z]*[a-d]?[^x-z][^x-z]*[^a-da-d][^z]*|[^a-dy]|[a-dx-z][x-z]{0,}[a-da-d][^a-da][^y]?")||match(false,'[^x-z]'),?match(null,"[^x-z]")	
+ 	]	
+),"[^y]?"),?match(false,'[^x-z]') ]))),'[a-d]'),?match(true,'[a-d]')]
+@@@
+[null]

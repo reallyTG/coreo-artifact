@@ -1,0 +1,1019 @@
+$ ./.venv/bin/python -u run.py sql_formatter_latest --seed=20260922 --output-dir=./results/rq1/20261003-0240-sql_formatter_latest/run1/sql_formatter_latest --max-wall-seconds=3420
+
+[props] max_repetition=20 (bounds * and + during generation)
+[props]   count_a_expr                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_add_expr                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_add_tail                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_add_tail_more                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_aexpr_const                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_agg_order_by_opt             0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_alias_clause                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_alias_clause_opt             0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_all_opt                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_and_expr                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_any_operator                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_array_bounds                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_array_expr                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_at_expr                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_at_expr_rare                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_at_tail                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_at_tail_more                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_b_add_expr                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_b_exp_expr                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_b_mul_expr                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_b_op_expr                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_bconst                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_bit                          0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_c_expr                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_c_expr_compound              0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_case_expr                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_cast_expr                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_cast_expr_rare               0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_cast_function                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_col_id                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_col_id_rare                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_columnref                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_comp_op                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_conditional_function         0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_const_typename               0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_digit                        0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_digit_group                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_digits                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_digits_opt                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_distinct_clause              0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_e_prefix                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_echar                        0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_exp_expr                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_exp_expr_rare                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_exp_tail                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_exp_tail_more                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_exponent                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_exponent_opt                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_expr_list                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_fconst                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_fetch_clause                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_from_item                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_func_application             0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_func_expr                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_grouping_element             0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_hexdigit                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_iconst                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_ident_char                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_identifier                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_in_expr                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_int32_const                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_is_expr                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_is_test                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_join_qual                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_join_type                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_joined_table                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_lateral_opt                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_like_op                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_limit_clause                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_lock_strength                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_more_expr                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_more_from_item               0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_more_grouping_element        0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_more_name                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_more_recursive_with_query       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_more_sortby                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_more_target_el               0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_more_with_query              0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_mul_expr                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_mul_tail                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_mul_tail_more                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_name_list                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_nonzero_digit                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_not_expr                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_not_expr_rare                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_not_opt                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_offset_clause                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_offset_rows_clause           0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_op_expr                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_op_tail                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_op_tail_more                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_or_expr                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_order_by_clause              0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_outer_opt                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_output_name                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_ows                          1..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_partition_clause             0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_pred_expr                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_qchar                        0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_qual_op                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_quoted_identifier            0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_recursive_with_query         0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_row_expr                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_row_or_rows                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_schar                        0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_sconst                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_select_list                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_select_list_opt              0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_select_stmt                  1..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_select_with_parens           0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_set_operand                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_set_operation                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_simple_select                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_sortby                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_sub_operand                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_sub_type                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_subscript                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_subscripts_opt               0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_subscripts_rare              0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_table_name                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_table_primary                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_target_el                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_typecast                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_typecast_more                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_typename                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_uchar                        0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_unary_expr                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_unary_expr_rare              0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_when_clause                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_window_definition            0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_with_ordinality_opt          0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_with_query                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_with_query_name              0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_ws                           0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_ws_1                         0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_ws_2                         0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_ws_nc                        0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_ws_nc_1                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_ws_nc_unit                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_ws_unit                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_xconst                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props] identical to count_alias_clause, not derived: count_as_opt, count_column_alias_list_opt
+[props] identical to count_case_expr, not derived: count_case_arg_opt, count_case_default_opt
+[props] identical to count_fetch_clause, not derived: count_fetch_count_opt, count_first_or_next
+[props] identical to count_func_application, not derived: count_builtin_func, count_func_name
+[props] identical to count_func_expr, not derived: count_filter_clause_opt, count_over_clause_opt
+[props] identical to count_identifier, not derived: count_ident_start
+[props] identical to count_is_expr, not derived: count_comparison_expr
+[props] identical to count_select_stmt, not derived: count_limit_offset_opt, count_locking_clause_opt, count_order_by_clause_opt, count_select_clause, count_with_clause_opt
+[props] identical to count_set_operation, not derived: count_set_quantifier_opt
+[props] identical to count_simple_select, not derived: count_from_clause_opt, count_group_by_clause_opt, count_having_clause_opt, count_where_clause_opt
+[props] identical to count_sortby, not derived: count_asc_desc_opt, count_nulls_order_opt
+[props] identical to count_typename, not derived: count_simple_typename
+[props] WARNING <or_expr> is a separated list written as recursion; write it as `<or_expr> ::= <and_expr> <more_and_expr>*` with `<more_and_expr> ::= <separator> <and_expr>` so the length can be banded
+[props] WARNING <and_expr> is a separated list written as recursion; write it as `<and_expr> ::= <not_expr> <more_not_expr>*` with `<more_not_expr> ::= <separator> <not_expr>` so the length can be banded
+[props] WARNING <op_tail_more> is a list written as recursion; write it as `<op_tail_more> ::= <op_tail>+` so the length can be banded
+[props] WARNING <b_op_expr> is a separated list written as recursion; write it as `<b_op_expr> ::= <b_add_expr> <more_b_add_expr>*` with `<more_b_add_expr> ::= <separator> <b_add_expr>` so the length can be banded
+[props] WARNING <b_add_expr> is a separated list written as recursion; write it as `<b_add_expr> ::= <b_mul_expr> <more_b_mul_expr>*` with `<more_b_mul_expr> ::= <separator> <b_mul_expr>` so the length can be banded
+[props] WARNING <b_mul_expr> is a separated list written as recursion; write it as `<b_mul_expr> ::= <b_exp_expr> <more_b_exp_expr>*` with `<more_b_exp_expr> ::= <separator> <b_exp_expr>` so the length can be banded
+[props] WARNING <b_exp_expr> is a separated list written as recursion; write it as `<b_exp_expr> ::= <unary_expr> <more_unary_expr>*` with `<more_unary_expr> ::= <separator> <unary_expr>` so the length can be banded
+[props] WARNING <add_tail_more> is a list written as recursion; write it as `<add_tail_more> ::= <add_tail>+` so the length can be banded
+[props] WARNING <mul_tail_more> is a list written as recursion; write it as `<mul_tail_more> ::= <mul_tail>+` so the length can be banded
+[props] WARNING <exp_tail_more> is a list written as recursion; write it as `<exp_tail_more> ::= <exp_tail>+` so the length can be banded
+[props] WARNING <at_tail_more> is a list written as recursion; write it as `<at_tail_more> ::= <at_tail>+` so the length can be banded
+[props] WARNING <typecast_more> is a list written as recursion; write it as `<typecast_more> ::= <typecast>+` so the length can be banded
+[props] WARNING <array_bounds> is a separated list written as recursion; write it as `<array_bounds> ::= <ows> <more_ows>*` with `<more_ows> ::= <separator> <ows>` so the length can be banded
+[sql_formatter_latest] properties: ['count_select_stmt', 'count_more_recursive_with_query', 'count_ows', 'count_ws', 'count_ws_1', 'count_ws_2', 'count_ws_unit', 'count_recursive_with_query', 'count_with_query_name', 'count_col_id', 'count_identifier', 'count_ident_char', 'count_col_id_rare', 'count_quoted_identifier', 'count_qchar', 'count_name_list', 'count_more_name', 'count_set_operand', 'count_simple_select', 'count_from_item', 'count_table_primary', 'count_joined_table', 'count_join_qual', 'count_a_expr', 'count_or_expr', 'count_and_expr', 'count_not_expr', 'count_not_expr_rare', 'count_is_expr', 'count_ws_nc', 'count_is_test', 'count_ws_nc_1', 'count_sub_type', 'count_comp_op', 'count_pred_expr', 'count_sub_operand', 'count_not_opt', 'count_ws_nc_unit', 'count_in_expr', 'count_op_expr', 'count_like_op', 'count_select_with_parens', 'count_b_op_expr', 'count_expr_list', 'count_op_tail', 'count_op_tail_more', 'count_add_expr', 'count_with_query', 'count_more_with_query', 'count_set_operation', 'count_order_by_clause', 'count_offset_clause', 'count_limit_clause', 'count_offset_rows_clause', 'count_fetch_clause', 'count_lock_strength', 'count_b_add_expr', 'count_qual_op', 'count_more_expr', 'count_add_tail_more', 'count_add_tail', 'count_mul_expr', 'count_all_opt', 'count_select_list_opt', 'count_distinct_clause', 'count_select_list', 'count_sortby', 'count_more_sortby', 'count_int32_const', 'count_row_or_rows', 'count_b_mul_expr', 'count_any_operator', 'count_exp_expr', 'count_mul_tail', 'count_mul_tail_more', 'count_more_from_item', 'count_target_el', 'count_more_target_el', 'count_more_grouping_element', 'count_grouping_element', 'count_digit', 'count_nonzero_digit', 'count_b_exp_expr', 'count_exp_expr_rare', 'count_at_expr', 'count_output_name', 'count_unary_expr', 'count_exp_tail', 'count_exp_tail_more', 'count_at_expr_rare', 'count_join_type', 'count_lateral_opt', 'count_with_ordinality_opt', 'count_alias_clause_opt', 'count_func_application', 'count_table_name', 'count_alias_clause', 'count_unary_expr_rare', 'count_cast_expr', 'count_at_tail', 'count_at_tail_more', 'count_outer_opt', 'count_agg_order_by_opt', 'count_cast_expr_rare', 'count_c_expr', 'count_typecast_more', 'count_typecast', 'count_aexpr_const', 'count_c_expr_compound', 'count_columnref', 'count_typename', 'count_sconst', 'count_xconst', 'count_iconst', 'count_const_typename', 'count_fconst', 'count_bconst', 'count_conditional_function', 'count_row_expr', 'count_case_expr', 'count_func_expr', 'count_array_expr', 'count_subscripts_opt', 'count_cast_function', 'count_array_bounds', 'count_schar', 'count_uchar', 'count_e_prefix', 'count_echar', 'count_hexdigit', 'count_digits', 'count_digit_group', 'count_digits_opt', 'count_exponent', 'count_exponent_opt', 'count_bit', 'count_when_clause', 'count_subscripts_rare', 'count_window_definition', 'count_subscript', 'count_partition_clause', 'sql_bytes', 'paren_depth']
+[sql_formatter_latest] auto-stratified exploration: <more_with_query>[(0, 0), (1, 1), (2, 4), (5, 10), (11, 24)] x <more_recursive_with_query>[(0, 0), (1, 1), (2, 4), (5, 10), (11, 24)] x <set_operation>[(1, 1), (2, 3), (4, 6), (7, 12), (13, 24)] ...
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+fandango:WARNING: Symbol <more_recursive_with_query> defined, but not used
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+fandango:WARNING: Symbol <more_target_el> defined, but not used
+fandango:WARNING: Symbol <select_list_opt> defined, but not used
+fandango:WARNING: Symbol <all_opt> defined, but not used
+fandango:WARNING: Symbol <select_list_opt> defined, but not used
+fandango:WARNING: Symbol <all_opt> defined, but not used
+fandango:WARNING: Symbol <select_list_opt> defined, but not used
+fandango:WARNING: Symbol <all_opt> defined, but not used
+fandango:WARNING: Symbol <select_list_opt> defined, but not used
+fandango:WARNING: Symbol <all_opt> defined, but not used
+fandango:WARNING: Symbol <more_from_item> defined, but not used
+fandango:WARNING: Symbol <joined_table> defined, but not used
+fandango:WARNING: Symbol <more_grouping_element> defined, but not used
+fandango:WARNING: Symbol <more_sortby> defined, but not used
+fandango:WARNING: Symbol <more_expr> defined, but not used
+fandango:WARNING: Symbol <select_list_opt> defined, but not used
+fandango:WARNING: Symbol <all_opt> defined, but not used
+fandango:WARNING: Symbol <select_list_opt> defined, but not used
+fandango:WARNING: Symbol <all_opt> defined, but not used
+fandango:WARNING: Symbol <select_list_opt> defined, but not used
+fandango:WARNING: Symbol <all_opt> defined, but not used
+fandango:WARNING: Symbol <select_list_opt> defined, but not used
+fandango:WARNING: Symbol <all_opt> defined, but not used
+[WARNING] recursion limit hit generating from ./results/rq1/20261003-0240-sql_formatter_latest/run1/sql_formatter_latest/grammars/sql_js_m9_2_when_clause4-6.fan; lower max_repetition or max_nodes for this grammar.
+fandango:WARNING: Symbol <more_name> defined, but not used
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+fandango:WARNING: Symbol <digit_group> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <limit_clause> defined, but not used
+fandango:WARNING: Symbol <offset_clause> defined, but not used
+fandango:WARNING: Symbol <limit_clause> defined, but not used
+fandango:WARNING: Symbol <offset_clause> defined, but not used
+fandango:WARNING: Symbol <limit_clause> defined, but not used
+fandango:WARNING: Symbol <offset_clause> defined, but not used
+fandango:WARNING: Symbol <limit_clause> defined, but not used
+fandango:WARNING: Symbol <offset_clause> defined, but not used
+fandango:WARNING: Symbol <schar> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <uchar> defined, but not used
+fandango:WARNING: Symbol <e_prefix> defined, but not used
+fandango:WARNING: Symbol <echar> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <uchar> defined, but not used
+fandango:WARNING: Symbol <e_prefix> defined, but not used
+fandango:WARNING: Symbol <echar> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <uchar> defined, but not used
+fandango:WARNING: Symbol <e_prefix> defined, but not used
+fandango:WARNING: Symbol <echar> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <uchar> defined, but not used
+fandango:WARNING: Symbol <e_prefix> defined, but not used
+fandango:WARNING: Symbol <echar> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <echar> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <uchar> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <schar> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <uchar> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <schar> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <uchar> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <schar> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <uchar> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <schar> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <uchar> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <e_prefix> defined, but not used
+fandango:WARNING: Symbol <echar> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <schar> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <e_prefix> defined, but not used
+fandango:WARNING: Symbol <echar> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <schar> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <e_prefix> defined, but not used
+fandango:WARNING: Symbol <echar> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <schar> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <e_prefix> defined, but not used
+fandango:WARNING: Symbol <echar> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <schar> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <bit> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <hexdigit> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <ident_char> defined, but not used
+fandango:WARNING: Symbol <col_id_rare> defined, but not used
+fandango:WARNING: Symbol <col_id_rare> defined, but not used
+fandango:WARNING: Symbol <col_id_rare> defined, but not used
+fandango:WARNING: Symbol <col_id_rare> defined, but not used
+  [explore] 20 axes, 100 strata, 3/stratum -> 297 inputs
+  [explore] 1 stratum/strata produced nothing: when_clause4-6
+[metrics] sql_formatter_15_7_3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] sql_formatter_15_7_4: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] sql_formatter_15_8_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] sql_formatter_15_8_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] sql_formatter_15_8_2: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] sql_formatter_15_9_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] sql_formatter_15_7_3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] sql_formatter_15_7_4: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] sql_formatter_15_8_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] sql_formatter_15_8_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] sql_formatter_15_8_2: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] sql_formatter_15_9_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] sql_formatter_15_7_3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] sql_formatter_15_7_4: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] sql_formatter_15_8_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] sql_formatter_15_8_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] sql_formatter_15_8_2: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] sql_formatter_15_9_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[sql_formatter_latest] iter 0 (explore): corpus=1782 (+1782 new this run)
+[select] relevance (max |rho| vs any metric on any system): count_col_id=0.72, count_identifier=0.65, count_ows=0.69, count_ws=0.67, count_limit_clause=0.61, count_row_or_rows=0.47, paren_depth=0.65, count_ident_char=0.46, count_like_op=0.64, count_all_opt=0.43, count_ws_1=0.63, count_select_list_opt=0.43, count_select_list=0.62, count_simple_select=0.60, count_col_id_rare=0.58, count_array_bounds=0.60, count_offset_rows_clause=0.41, count_ws_2=0.60, count_quoted_identifier=0.51, count_comp_op=0.59, count_distinct_clause=0.59, count_sub_type=0.59, count_with_query_name=0.48, count_sub_operand=0.59, count_select_stmt=0.58, count_select_with_parens=0.58, count_b_op_expr=0.33, count_int32_const=0.58, count_qchar=0.44, count_set_operand=0.39, count_typename=0.57, count_b_exp_expr=0.30, count_typecast_more=0.56, count_b_add_expr=0.34, count_typecast=0.56, count_b_mul_expr=0.32, count_ws_nc=0.56, count_nonzero_digit=0.53, count_target_el=0.53, count_expr_list=0.52, count_subscripts_rare=0.50, count_in_expr=0.48, count_subscripts_opt=0.50, count_columnref=0.49, count_func_application=0.36, count_unary_expr_rare=0.48, count_add_tail_more=0.48, count_lock_strength=0.47, count_add_tail=0.48, count_set_operation=0.35, count_name_list=0.44, count_not_expr_rare=0.47, count_cast_expr_rare=0.47, count_ws_nc_1=0.47, count_c_expr_compound=0.45, count_ws_unit=0.46, count_recursive_with_query=0.45, count_subscript=0.46, count_row_expr=0.44, count_is_test=0.46, count_pred_expr=0.44, count_not_expr=0.45, count_func_expr=0.40, count_with_query=0.25, count_mul_tail=0.44, count_mul_tail_more=0.44, count_and_expr=0.43, count_is_expr=0.43, count_ws_nc_unit=0.44, count_agg_order_by_opt=0.25, count_array_expr=0.43, count_fetch_clause=0.32, count_more_sortby=0.10, count_or_expr=0.41, count_op_tail=0.42, count_with_ordinality_opt=0.17, count_op_tail_more=0.42, count_not_opt=0.42, count_exp_expr=0.42, count_at_expr=0.41, count_mul_expr=0.41, count_at_expr_rare=0.41, count_cast_expr=0.27, count_c_expr=0.27, count_exp_expr_rare=0.40, count_add_expr=0.40, count_op_expr=0.40, count_alias_clause_opt=0.12, count_a_expr=0.39, count_qual_op=0.39, count_order_by_clause=0.08, count_sortby=0.08, count_xconst=0.37, count_hexdigit=0.36, count_more_expr=0.04, count_fconst=0.36, count_from_item=0.14, count_cast_function=0.35, count_lateral_opt=0.21, count_unary_expr=0.35, count_more_with_query=0.19, count_at_tail=0.35, count_e_prefix=0.24, count_at_tail_more=0.35, count_aexpr_const=0.16, count_table_primary=0.15, count_exp_tail=0.33, count_exp_tail_more=0.33, count_case_expr=0.33, count_bconst=0.30, count_when_clause=0.32, count_conditional_function=0.32, count_more_name=0.29, count_exponent=0.30, count_bit=0.30, count_more_target_el=0.30, count_exponent_opt=0.29, count_more_recursive_with_query=0.21, count_schar=0.29, count_uchar=0.28, count_table_name=0.12, count_output_name=0.24, count_echar=0.25, count_digit=0.25, count_alias_clause=0.16, count_window_definition=0.20, sql_bytes=0.12, count_digits_opt=0.19, count_digits=0.19, count_const_typename=0.13, count_join_qual=0.08, count_join_type=0.08, count_sconst=0.16, count_iconst=0.15, count_joined_table=0.14, count_more_from_item=0.07, count_grouping_element=0.05, count_outer_opt=0.07, count_partition_clause=0.11, count_digit_group=0.07, count_any_operator=0.08, count_more_grouping_element=0.04, count_offset_clause=0.04
+[select] comparative relevance (max |rho| vs a between-system ratio): count_col_id=0.42, count_identifier=0.42, count_ows=0.33, count_ws=0.32, count_limit_clause=0.38, count_row_or_rows=0.38, paren_depth=0.29, count_ident_char=0.38, count_like_op=0.23, count_all_opt=0.38, count_ws_1=0.32, count_select_list_opt=0.38, count_select_list=0.35, count_simple_select=0.37, count_col_id_rare=0.37, count_array_bounds=0.20, count_offset_rows_clause=0.34, count_ws_2=0.34, count_quoted_identifier=0.34, count_comp_op=0.25, count_distinct_clause=0.29, count_sub_type=0.16, count_with_query_name=0.33, count_sub_operand=0.16, count_select_stmt=0.30, count_select_with_parens=0.30, count_b_op_expr=0.31, count_int32_const=0.29, count_qchar=0.31, count_set_operand=0.30, count_typename=0.21, count_b_exp_expr=0.30, count_typecast_more=0.21, count_b_add_expr=0.30, count_typecast=0.21, count_b_mul_expr=0.30, count_ws_nc=0.27, count_nonzero_digit=0.27, count_target_el=0.23, count_expr_list=0.20, count_subscripts_rare=0.29, count_in_expr=0.29, count_subscripts_opt=0.29, count_columnref=0.28, count_func_application=0.29, count_unary_expr_rare=0.27, count_add_tail_more=0.16, count_lock_strength=0.28, count_add_tail=0.16, count_set_operation=0.28, count_name_list=0.28, count_not_expr_rare=0.28, count_cast_expr_rare=0.23, count_ws_nc_1=0.25, count_c_expr_compound=0.27, count_ws_unit=0.20, count_recursive_with_query=0.25, count_subscript=0.22, count_row_expr=0.25, count_is_test=0.22, count_pred_expr=0.24, count_not_expr=0.24, count_func_expr=0.24, count_with_query=0.24, count_mul_tail=0.21, count_mul_tail_more=0.21, count_and_expr=0.23, count_is_expr=0.23, count_ws_nc_unit=0.17, count_agg_order_by_opt=0.23, count_array_expr=0.19, count_fetch_clause=0.22, count_more_sortby=0.22, count_or_expr=0.22, count_op_tail=0.17, count_with_ordinality_opt=0.21, count_op_tail_more=0.17, count_not_opt=0.21, count_exp_expr=0.19, count_at_expr=0.20, count_mul_expr=0.18, count_at_expr_rare=0.17, count_cast_expr=0.20, count_c_expr=0.20, count_exp_expr_rare=0.17, count_add_expr=0.18, count_op_expr=0.18, count_alias_clause_opt=0.20, count_a_expr=0.19, count_qual_op=0.18, count_order_by_clause=0.19, count_sortby=0.19, count_xconst=0.19, count_hexdigit=0.19, count_more_expr=0.19, count_fconst=0.17, count_from_item=0.19, count_cast_function=0.13, count_lateral_opt=0.19, count_unary_expr=0.19, count_more_with_query=0.19, count_at_tail=0.15, count_e_prefix=0.19, count_at_tail_more=0.15, count_aexpr_const=0.19, count_table_primary=0.19, count_exp_tail=0.12, count_exp_tail_more=0.12, count_case_expr=0.16, count_bconst=0.19, count_when_clause=0.17, count_conditional_function=0.14, count_more_name=0.18, count_exponent=0.13, count_bit=0.17, count_more_target_el=0.10, count_exponent_opt=0.13, count_more_recursive_with_query=0.17, count_schar=0.14, count_uchar=0.11, count_table_name=0.17, count_output_name=0.16, count_echar=0.15, count_digit=0.12, count_alias_clause=0.16, count_window_definition=0.11, sql_bytes=0.15, count_digits_opt=0.14, count_digits=0.11, count_const_typename=0.15, count_join_qual=0.15, count_join_type=0.15, count_sconst=0.15, count_iconst=0.11, count_joined_table=0.14, count_more_from_item=0.14, count_grouping_element=0.13, count_outer_opt=0.13, count_partition_clause=0.11, count_digit_group=0.12, count_any_operator=0.11, count_more_grouping_element=0.08, count_offset_clause=0.09
+[select] scored on the comparison rather than on the metric: count_more_sortby (0.10 -> 0.22), count_alias_clause_opt (0.12 -> 0.20), count_order_by_clause (0.08 -> 0.19), count_sortby (0.08 -> 0.19), count_more_expr (0.04 -> 0.19), count_join_qual (0.08 -> 0.15), count_join_type (0.08 -> 0.15), count_more_from_item (0.07 -> 0.14), count_grouping_element (0.05 -> 0.13), count_outer_opt (0.07 -> 0.13), count_digit_group (0.07 -> 0.12), count_offset_clause (0.04 -> 0.09)
+[select] dropped count_identifier: |rho|=0.91 with count_col_id, which is already kept
+[select] dropped count_row_or_rows: over the 4-property cap
+[select] dropped paren_depth: over the 4-property cap
+[select] dropped count_ident_char: over the 4-property cap
+[select] dropped count_like_op: over the 4-property cap
+[select] dropped count_all_opt: over the 4-property cap
+[select] dropped count_ws_1: over the 4-property cap
+[select] dropped count_select_list_opt: over the 4-property cap
+[select] dropped count_select_list: over the 4-property cap
+[select] dropped count_simple_select: over the 4-property cap
+[select] dropped count_col_id_rare: over the 4-property cap
+[select] dropped count_array_bounds: over the 4-property cap
+[select] dropped count_offset_rows_clause: over the 4-property cap
+[select] dropped count_ws_2: over the 4-property cap
+[select] dropped count_quoted_identifier: over the 4-property cap
+[select] dropped count_comp_op: over the 4-property cap
+[select] dropped count_distinct_clause: over the 4-property cap
+[select] dropped count_sub_type: over the 4-property cap
+[select] dropped count_with_query_name: over the 4-property cap
+[select] dropped count_sub_operand: over the 4-property cap
+[select] dropped count_select_stmt: over the 4-property cap
+[select] dropped count_select_with_parens: over the 4-property cap
+[select] dropped count_b_op_expr: over the 4-property cap
+[select] dropped count_int32_const: over the 4-property cap
+[select] dropped count_qchar: over the 4-property cap
+[select] dropped count_set_operand: over the 4-property cap
+[select] dropped count_typename: over the 4-property cap
+[select] dropped count_b_exp_expr: over the 4-property cap
+[select] dropped count_typecast_more: over the 4-property cap
+[select] dropped count_b_add_expr: over the 4-property cap
+[select] dropped count_typecast: over the 4-property cap
+[select] dropped count_b_mul_expr: over the 4-property cap
+[select] dropped count_ws_nc: over the 4-property cap
+[select] dropped count_nonzero_digit: over the 4-property cap
+[select] dropped count_target_el: over the 4-property cap
+[select] dropped count_expr_list: over the 4-property cap
+[select] dropped count_subscripts_rare: over the 4-property cap
+[select] dropped count_in_expr: over the 4-property cap
+[select] dropped count_subscripts_opt: over the 4-property cap
+[select] dropped count_columnref: over the 4-property cap
+[select] dropped count_func_application: over the 4-property cap
+[select] dropped count_unary_expr_rare: over the 4-property cap
+[select] dropped count_add_tail_more: over the 4-property cap
+[select] dropped count_lock_strength: over the 4-property cap
+[select] dropped count_add_tail: over the 4-property cap
+[select] dropped count_set_operation: over the 4-property cap
+[select] dropped count_name_list: over the 4-property cap
+[select] dropped count_not_expr_rare: over the 4-property cap
+[select] dropped count_cast_expr_rare: over the 4-property cap
+[select] dropped count_ws_nc_1: over the 4-property cap
+[select] dropped count_c_expr_compound: over the 4-property cap
+[select] dropped count_ws_unit: over the 4-property cap
+[select] dropped count_recursive_with_query: over the 4-property cap
+[select] dropped count_subscript: over the 4-property cap
+[select] dropped count_row_expr: over the 4-property cap
+[select] dropped count_is_test: over the 4-property cap
+[select] dropped count_pred_expr: over the 4-property cap
+[select] dropped count_not_expr: over the 4-property cap
+[select] dropped count_func_expr: over the 4-property cap
+[select] dropped count_with_query: over the 4-property cap
+[select] dropped count_mul_tail: over the 4-property cap
+[select] dropped count_mul_tail_more: over the 4-property cap
+[select] dropped count_and_expr: over the 4-property cap
+[select] dropped count_is_expr: over the 4-property cap
+[select] dropped count_ws_nc_unit: over the 4-property cap
+[select] dropped count_agg_order_by_opt: over the 4-property cap
+[select] dropped count_array_expr: over the 4-property cap
+[select] dropped count_fetch_clause: over the 4-property cap
+[select] dropped count_more_sortby: over the 4-property cap
+[select] dropped count_or_expr: over the 4-property cap
+[select] dropped count_op_tail: over the 4-property cap
+[select] dropped count_with_ordinality_opt: over the 4-property cap
+[select] dropped count_op_tail_more: over the 4-property cap
+[select] dropped count_not_opt: over the 4-property cap
+[select] dropped count_exp_expr: over the 4-property cap
+[select] dropped count_at_expr: over the 4-property cap
+[select] dropped count_mul_expr: over the 4-property cap
+[select] dropped count_at_expr_rare: over the 4-property cap
+[select] dropped count_cast_expr: over the 4-property cap
+[select] dropped count_c_expr: over the 4-property cap
+[select] dropped count_exp_expr_rare: over the 4-property cap
+[select] dropped count_add_expr: over the 4-property cap
+[select] dropped count_op_expr: over the 4-property cap
+[select] dropped count_alias_clause_opt: over the 4-property cap
+[select] dropped count_a_expr: over the 4-property cap
+[select] dropped count_qual_op: over the 4-property cap
+[select] dropped count_order_by_clause: over the 4-property cap
+[select] dropped count_sortby: over the 4-property cap
+[select] dropped count_xconst: over the 4-property cap
+[select] dropped count_hexdigit: over the 4-property cap
+[select] dropped count_more_expr: over the 4-property cap
+[select] dropped count_fconst: over the 4-property cap
+[select] dropped count_from_item: over the 4-property cap
+[select] dropped count_cast_function: over the 4-property cap
+[select] dropped count_lateral_opt: over the 4-property cap
+[select] dropped count_unary_expr: over the 4-property cap
+[select] dropped count_more_with_query: over the 4-property cap
+[select] dropped count_at_tail: over the 4-property cap
+[select] dropped count_e_prefix: over the 4-property cap
+[select] dropped count_at_tail_more: over the 4-property cap
+[select] dropped count_aexpr_const: over the 4-property cap
+[select] dropped count_table_primary: over the 4-property cap
+[select] dropped count_exp_tail: over the 4-property cap
+[select] dropped count_exp_tail_more: over the 4-property cap
+[select] dropped count_case_expr: over the 4-property cap
+[select] dropped count_bconst: over the 4-property cap
+[select] dropped count_when_clause: over the 4-property cap
+[select] dropped count_conditional_function: over the 4-property cap
+[select] dropped count_more_name: over the 4-property cap
+[select] dropped count_exponent: over the 4-property cap
+[select] dropped count_bit: over the 4-property cap
+[select] dropped count_more_target_el: over the 4-property cap
+[select] dropped count_exponent_opt: over the 4-property cap
+[select] dropped count_more_recursive_with_query: over the 4-property cap
+[select] dropped count_schar: over the 4-property cap
+[select] dropped count_uchar: over the 4-property cap
+[select] dropped count_table_name: over the 4-property cap
+[select] dropped count_output_name: over the 4-property cap
+[select] dropped count_echar: over the 4-property cap
+[select] dropped count_digit: over the 4-property cap
+[select] dropped count_alias_clause: over the 4-property cap
+[select] dropped count_window_definition: over the 4-property cap
+[select] dropped sql_bytes: over the 4-property cap
+[select] dropped count_digits_opt: over the 4-property cap
+[select] dropped count_digits: over the 4-property cap
+[select] dropped count_const_typename: over the 4-property cap
+[select] dropped count_join_qual: over the 4-property cap
+[select] dropped count_join_type: over the 4-property cap
+[select] dropped count_sconst: over the 4-property cap
+[select] dropped count_iconst: over the 4-property cap
+[select] dropped count_joined_table: over the 4-property cap
+[select] dropped count_more_from_item: over the 4-property cap
+[select] dropped count_grouping_element: over the 4-property cap
+[select] dropped count_outer_opt: over the 4-property cap
+[select] dropped count_partition_clause: over the 4-property cap
+[select] dropped count_digit_group: over the 4-property cap
+[select] dropped count_any_operator: over the 4-property cap
+[select] dropped count_more_grouping_element: over the 4-property cap
+[select] dropped count_offset_clause: over the 4-property cap
+[select] count_col_id stands for count_identifier (indistinguishable here)
+[select] joint fit uses 4 of 143 properties: count_ows, count_ws, count_col_id, count_limit_clause (1,296 model fits)
+[sql_formatter_latest] loop targets 4 of 143 properties: count_ows, count_ws, count_col_id, count_limit_clause
+[sql_formatter_latest] targeting 8 regions: runtime_ns_divergence, count_ws_dominance0, count_col_id_undecided0, count_limit_clause_beyond, runtime_ns_high, count_ws_edge0, runtime_ns_sparse0, count_limit_clause_sparse6_0
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_divergence] 30s: no new inputs
+  [count_ws_dominance0] settling count_ws [272.5,455) would decide 5 dominance verdict(s): sql_formatter_15_7_3 vs sql_formatter_15_9_0 (rss undecided) and 4 more -> <more_with_query>{8,10}
+  [count_ws_dominance0] 95s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [count_col_id_undecided0] 30 comparison(s) undecided in count_col_id [1,2.218): sql_formatter_15_7_3 vs sql_formatter_15_7_4 on runtime_ns and 29 more -> <more_with_query>{1,3}
+[WARNING] recursion limit hit generating from ./results/rq1/20261003-0240-sql_formatter_latest/run1/sql_formatter_latest/grammars/sql_formatter_latest_target_2_count_col_id_undecided0.fan; lower max_repetition or max_nodes for this grammar.
+  [count_col_id_undecided0] 4s: no new inputs
+  [count_limit_clause_beyond] <more_with_query>{24,28} (rung 1, 4000 nodes)
+  [count_limit_clause_beyond] 94s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_high] 27s: no new inputs
+  [count_ws_edge0] <more_with_query>{10,12} for the top 15% of count_ws ([332,455])
+  [count_ws_edge0] 94s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [seeds] skipped 7 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 28s: no new inputs
+  [count_limit_clause_sparse6_0] <more_with_query>{7,9} for count_limit_clause in [7.2,8.4]
+  [count_limit_clause_sparse6_0] 99s: +15 new input(s), 15 distinct shape(s), 15 measured
+[sql_formatter_latest] iter 1: corpus=2142 (+360 new)
+[select] relevance (max |rho| vs any metric on any system): count_ows=0.70, count_all_opt=0.49, count_col_id=0.68, count_select_list_opt=0.49, count_select_list=0.64, count_simple_select=0.62, count_identifier=0.63, count_with_query_name=0.53, count_select_stmt=0.62, count_select_with_parens=0.62, paren_depth=0.62, count_ws=0.61, count_row_or_rows=0.48, count_distinct_clause=0.61, count_limit_clause=0.60, count_target_el=0.57, count_lock_strength=0.51, count_ws_1=0.55, count_more_with_query=0.38, count_col_id_rare=0.54, count_with_query=0.36, count_int32_const=0.53, count_array_bounds=0.53, count_like_op=0.53, count_ident_char=0.44, count_ws_2=0.52, count_offset_rows_clause=0.41, count_b_op_expr=0.35, count_sub_type=0.50, count_quoted_identifier=0.47, count_sub_operand=0.50, count_b_exp_expr=0.30, count_typename=0.50, count_b_add_expr=0.35, count_typecast_more=0.50, count_b_mul_expr=0.33, count_typecast=0.50, count_set_operand=0.38, count_nonzero_digit=0.48, count_qchar=0.40, count_aexpr_const=0.26, count_comp_op=0.47, count_set_operation=0.35, count_ws_nc=0.44, count_expr_list=0.42, count_fetch_clause=0.32, count_recursive_with_query=0.42, count_name_list=0.40, count_in_expr=0.41, count_cast_expr=0.20, count_c_expr=0.20, count_subscripts_rare=0.40, count_unary_expr_rare=0.40, count_not_opt=0.33, count_columnref=0.40, count_at_expr=0.33, count_subscripts_opt=0.40, count_mul_tail=0.38, count_cast_expr_rare=0.39, count_mul_tail_more=0.38, count_add_tail_more=0.39, count_exp_expr=0.33, count_add_tail=0.39, count_unary_expr=0.28, count_more_sortby=0.12, count_at_tail=0.30, count_at_tail_more=0.30, count_not_expr_rare=0.37, count_qual_op=0.33, count_is_test=0.37, count_lateral_opt=0.21, count_c_expr_compound=0.37, count_func_application=0.27, count_row_expr=0.37, count_mul_expr=0.32, count_ws_nc_1=0.36, count_op_tail=0.36, count_subscript=0.36, count_op_tail_more=0.36, count_ws_unit=0.36, count_with_ordinality_opt=0.17, count_not_expr=0.36, count_at_expr_rare=0.33, count_add_expr=0.32, count_const_typename=0.12, count_exp_expr_rare=0.33, count_pred_expr=0.35, count_table_primary=0.16, count_op_expr=0.31, count_from_item=0.14, count_array_expr=0.35, count_ws_nc_unit=0.35, count_and_expr=0.35, count_more_name=0.26, count_is_expr=0.35, count_more_target_el=0.34, count_or_expr=0.34, count_sconst=0.14, count_alias_clause_opt=0.12, count_order_by_clause=0.07, count_sortby=0.07, count_agg_order_by_opt=0.24, count_more_expr=0.06, count_output_name=0.24, count_a_expr=0.32, count_func_expr=0.31, count_alias_clause=0.17, count_cast_function=0.30, count_table_name=0.11, count_hexdigit=0.28, count_xconst=0.29, count_fconst=0.29, count_when_clause=0.27, count_conditional_function=0.29, count_case_expr=0.28, count_exp_tail=0.28, count_exp_tail_more=0.28, count_schar=0.26, count_bit=0.26, count_exponent=0.25, count_more_recursive_with_query=0.18, count_bconst=0.25, count_exponent_opt=0.24, count_joined_table=0.15, count_uchar=0.24, sql_bytes=0.11, count_echar=0.22, count_e_prefix=0.20, count_digits_opt=0.19, count_digit=0.17, count_join_qual=0.06, count_join_type=0.06, count_window_definition=0.15, count_digits=0.12, count_outer_opt=0.05, count_iconst=0.11, count_digit_group=0.11, count_grouping_element=0.04, count_any_operator=0.09, count_more_from_item=0.05, count_partition_clause=0.08, count_more_grouping_element=0.07, count_offset_clause=0.03
+[select] comparative relevance (max |rho| vs a between-system ratio): count_ows=0.42, count_all_opt=0.48, count_col_id=0.43, count_select_list_opt=0.48, count_select_list=0.45, count_simple_select=0.47, count_identifier=0.42, count_with_query_name=0.46, count_select_stmt=0.41, count_select_with_parens=0.41, paren_depth=0.28, count_ws=0.28, count_row_or_rows=0.41, count_distinct_clause=0.38, count_limit_clause=0.38, count_target_el=0.34, count_lock_strength=0.39, count_ws_1=0.29, count_more_with_query=0.39, count_col_id_rare=0.38, count_with_query=0.39, count_int32_const=0.26, count_array_bounds=0.13, count_like_op=0.15, count_ident_char=0.37, count_ws_2=0.30, count_offset_rows_clause=0.37, count_b_op_expr=0.35, count_sub_type=0.14, count_quoted_identifier=0.35, count_sub_operand=0.14, count_b_exp_expr=0.35, count_typename=0.14, count_b_add_expr=0.35, count_typecast_more=0.13, count_b_mul_expr=0.35, count_typecast=0.13, count_set_operand=0.30, count_nonzero_digit=0.24, count_qchar=0.30, count_aexpr_const=0.29, count_comp_op=0.14, count_set_operation=0.29, count_ws_nc=0.18, count_expr_list=0.13, count_fetch_clause=0.27, count_recursive_with_query=0.24, count_name_list=0.27, count_in_expr=0.21, count_cast_expr=0.25, count_c_expr=0.25, count_subscripts_rare=0.18, count_unary_expr_rare=0.15, count_not_opt=0.23, count_columnref=0.14, count_at_expr=0.23, count_subscripts_opt=0.15, count_mul_tail=0.22, count_cast_expr_rare=0.12, count_mul_tail_more=0.22, count_add_tail_more=0.18, count_exp_expr=0.22, count_add_tail=0.18, count_unary_expr=0.22, count_more_sortby=0.20, count_at_tail=0.20, count_at_tail_more=0.20, count_not_expr_rare=0.17, count_qual_op=0.20, count_is_test=0.16, count_lateral_opt=0.19, count_c_expr_compound=0.16, count_func_application=0.19, count_row_expr=0.16, count_mul_expr=0.19, count_ws_nc_1=0.18, count_op_tail=0.19, count_subscript=0.14, count_op_tail_more=0.19, count_ws_unit=0.16, count_with_ordinality_opt=0.19, count_not_expr=0.13, count_at_expr_rare=0.19, count_add_expr=0.18, count_const_typename=0.18, count_exp_expr_rare=0.18, count_pred_expr=0.14, count_table_primary=0.18, count_op_expr=0.18, count_from_item=0.18, count_array_expr=0.13, count_ws_nc_unit=0.14, count_and_expr=0.14, count_more_name=0.18, count_is_expr=0.14, count_more_target_el=0.14, count_or_expr=0.14, count_sconst=0.17, count_alias_clause_opt=0.17, count_order_by_clause=0.17, count_sortby=0.17, count_agg_order_by_opt=0.17, count_more_expr=0.17, count_output_name=0.16, count_a_expr=0.16, count_func_expr=0.13, count_alias_clause=0.15, count_cast_function=0.10, count_table_name=0.15, count_hexdigit=0.15, count_xconst=0.14, count_fconst=0.11, count_when_clause=0.15, count_conditional_function=0.11, count_case_expr=0.14, count_exp_tail=0.12, count_exp_tail_more=0.12, count_schar=0.13, count_bit=0.10, count_exponent=0.13, count_more_recursive_with_query=0.14, count_bconst=0.09, count_exponent_opt=0.13, count_joined_table=0.14, count_uchar=0.11, sql_bytes=0.14, count_echar=0.11, count_e_prefix=0.10, count_digits_opt=0.10, count_digit=0.09, count_join_qual=0.13, count_join_type=0.13, count_window_definition=0.09, count_digits=0.10, count_outer_opt=0.11, count_iconst=0.11, count_digit_group=0.10, count_grouping_element=0.11, count_any_operator=0.09, count_more_from_item=0.10, count_partition_clause=0.08, count_more_grouping_element=0.07, count_offset_clause=0.07
+[select] scored on the comparison rather than on the metric: count_more_sortby (0.12 -> 0.20), count_const_typename (0.12 -> 0.18), count_alias_clause_opt (0.12 -> 0.17), count_order_by_clause (0.07 -> 0.17), count_sortby (0.07 -> 0.17), count_more_expr (0.06 -> 0.17), count_join_qual (0.06 -> 0.13), count_join_type (0.06 -> 0.13), count_outer_opt (0.05 -> 0.11), count_grouping_element (0.04 -> 0.11), count_more_from_item (0.05 -> 0.10)
+[select] dropped count_select_list_opt: |rho|=1.00 with count_all_opt, which is already kept
+[select] dropped count_simple_select: over the 4-property cap
+[select] dropped count_identifier: over the 4-property cap
+[select] dropped count_with_query_name: over the 4-property cap
+[select] dropped count_select_stmt: over the 4-property cap
+[select] dropped count_select_with_parens: over the 4-property cap
+[select] dropped paren_depth: over the 4-property cap
+[select] dropped count_ws: over the 4-property cap
+[select] dropped count_row_or_rows: over the 4-property cap
+[select] dropped count_distinct_clause: over the 4-property cap
+[select] dropped count_limit_clause: over the 4-property cap
+[select] dropped count_target_el: over the 4-property cap
+[select] dropped count_lock_strength: over the 4-property cap
+[select] dropped count_ws_1: over the 4-property cap
+[select] dropped count_more_with_query: over the 4-property cap
+[select] dropped count_col_id_rare: over the 4-property cap
+[select] dropped count_with_query: over the 4-property cap
+[select] dropped count_int32_const: over the 4-property cap
+[select] dropped count_array_bounds: over the 4-property cap
+[select] dropped count_like_op: over the 4-property cap
+[select] dropped count_ident_char: over the 4-property cap
+[select] dropped count_ws_2: over the 4-property cap
+[select] dropped count_offset_rows_clause: over the 4-property cap
+[select] dropped count_b_op_expr: over the 4-property cap
+[select] dropped count_sub_type: over the 4-property cap
+[select] dropped count_quoted_identifier: over the 4-property cap
+[select] dropped count_sub_operand: over the 4-property cap
+[select] dropped count_b_exp_expr: over the 4-property cap
+[select] dropped count_typename: over the 4-property cap
+[select] dropped count_b_add_expr: over the 4-property cap
+[select] dropped count_typecast_more: over the 4-property cap
+[select] dropped count_b_mul_expr: over the 4-property cap
+[select] dropped count_typecast: over the 4-property cap
+[select] dropped count_set_operand: over the 4-property cap
+[select] dropped count_nonzero_digit: over the 4-property cap
+[select] dropped count_qchar: over the 4-property cap
+[select] dropped count_aexpr_const: over the 4-property cap
+[select] dropped count_comp_op: over the 4-property cap
+[select] dropped count_set_operation: over the 4-property cap
+[select] dropped count_ws_nc: over the 4-property cap
+[select] dropped count_expr_list: over the 4-property cap
+[select] dropped count_fetch_clause: over the 4-property cap
+[select] dropped count_recursive_with_query: over the 4-property cap
+[select] dropped count_name_list: over the 4-property cap
+[select] dropped count_in_expr: over the 4-property cap
+[select] dropped count_cast_expr: over the 4-property cap
+[select] dropped count_c_expr: over the 4-property cap
+[select] dropped count_subscripts_rare: over the 4-property cap
+[select] dropped count_unary_expr_rare: over the 4-property cap
+[select] dropped count_not_opt: over the 4-property cap
+[select] dropped count_columnref: over the 4-property cap
+[select] dropped count_at_expr: over the 4-property cap
+[select] dropped count_subscripts_opt: over the 4-property cap
+[select] dropped count_mul_tail: over the 4-property cap
+[select] dropped count_cast_expr_rare: over the 4-property cap
+[select] dropped count_mul_tail_more: over the 4-property cap
+[select] dropped count_add_tail_more: over the 4-property cap
+[select] dropped count_exp_expr: over the 4-property cap
+[select] dropped count_add_tail: over the 4-property cap
+[select] dropped count_unary_expr: over the 4-property cap
+[select] dropped count_more_sortby: over the 4-property cap
+[select] dropped count_at_tail: over the 4-property cap
+[select] dropped count_at_tail_more: over the 4-property cap
+[select] dropped count_not_expr_rare: over the 4-property cap
+[select] dropped count_qual_op: over the 4-property cap
+[select] dropped count_is_test: over the 4-property cap
+[select] dropped count_lateral_opt: over the 4-property cap
+[select] dropped count_c_expr_compound: over the 4-property cap
+[select] dropped count_func_application: over the 4-property cap
+[select] dropped count_row_expr: over the 4-property cap
+[select] dropped count_mul_expr: over the 4-property cap
+[select] dropped count_ws_nc_1: over the 4-property cap
+[select] dropped count_op_tail: over the 4-property cap
+[select] dropped count_subscript: over the 4-property cap
+[select] dropped count_op_tail_more: over the 4-property cap
+[select] dropped count_ws_unit: over the 4-property cap
+[select] dropped count_with_ordinality_opt: over the 4-property cap
+[select] dropped count_not_expr: over the 4-property cap
+[select] dropped count_at_expr_rare: over the 4-property cap
+[select] dropped count_add_expr: over the 4-property cap
+[select] dropped count_const_typename: over the 4-property cap
+[select] dropped count_exp_expr_rare: over the 4-property cap
+[select] dropped count_pred_expr: over the 4-property cap
+[select] dropped count_table_primary: over the 4-property cap
+[select] dropped count_op_expr: over the 4-property cap
+[select] dropped count_from_item: over the 4-property cap
+[select] dropped count_array_expr: over the 4-property cap
+[select] dropped count_ws_nc_unit: over the 4-property cap
+[select] dropped count_and_expr: over the 4-property cap
+[select] dropped count_more_name: over the 4-property cap
+[select] dropped count_is_expr: over the 4-property cap
+[select] dropped count_more_target_el: over the 4-property cap
+[select] dropped count_or_expr: over the 4-property cap
+[select] dropped count_sconst: over the 4-property cap
+[select] dropped count_alias_clause_opt: over the 4-property cap
+[select] dropped count_order_by_clause: over the 4-property cap
+[select] dropped count_sortby: over the 4-property cap
+[select] dropped count_agg_order_by_opt: over the 4-property cap
+[select] dropped count_more_expr: over the 4-property cap
+[select] dropped count_output_name: over the 4-property cap
+[select] dropped count_a_expr: over the 4-property cap
+[select] dropped count_func_expr: over the 4-property cap
+[select] dropped count_alias_clause: over the 4-property cap
+[select] dropped count_cast_function: over the 4-property cap
+[select] dropped count_table_name: over the 4-property cap
+[select] dropped count_hexdigit: over the 4-property cap
+[select] dropped count_xconst: over the 4-property cap
+[select] dropped count_fconst: over the 4-property cap
+[select] dropped count_when_clause: over the 4-property cap
+[select] dropped count_conditional_function: over the 4-property cap
+[select] dropped count_case_expr: over the 4-property cap
+[select] dropped count_exp_tail: over the 4-property cap
+[select] dropped count_exp_tail_more: over the 4-property cap
+[select] dropped count_schar: over the 4-property cap
+[select] dropped count_bit: over the 4-property cap
+[select] dropped count_exponent: over the 4-property cap
+[select] dropped count_more_recursive_with_query: over the 4-property cap
+[select] dropped count_bconst: over the 4-property cap
+[select] dropped count_exponent_opt: over the 4-property cap
+[select] dropped count_joined_table: over the 4-property cap
+[select] dropped count_uchar: over the 4-property cap
+[select] dropped sql_bytes: over the 4-property cap
+[select] dropped count_echar: over the 4-property cap
+[select] dropped count_e_prefix: over the 4-property cap
+[select] dropped count_digits_opt: over the 4-property cap
+[select] dropped count_digit: over the 4-property cap
+[select] dropped count_join_qual: over the 4-property cap
+[select] dropped count_join_type: over the 4-property cap
+[select] dropped count_window_definition: over the 4-property cap
+[select] dropped count_digits: over the 4-property cap
+[select] dropped count_outer_opt: over the 4-property cap
+[select] dropped count_iconst: over the 4-property cap
+[select] dropped count_digit_group: over the 4-property cap
+[select] dropped count_grouping_element: over the 4-property cap
+[select] dropped count_any_operator: over the 4-property cap
+[select] dropped count_more_from_item: over the 4-property cap
+[select] dropped count_partition_clause: over the 4-property cap
+[select] dropped count_more_grouping_element: over the 4-property cap
+[select] dropped count_offset_clause: over the 4-property cap
+[select] count_all_opt stands for count_select_list_opt (indistinguishable here)
+[select] joint fit uses 4 of 143 properties: count_ows, count_col_id, count_all_opt, count_select_list (1,296 model fits)
+[sql_formatter_latest] loop targets 4 of 143 properties: count_ows, count_col_id, count_all_opt, count_select_list
+[sql_formatter_latest] targeting 8 regions: runtime_ns_divergence, count_col_id_dominance0, count_select_list_undecided0, count_select_list_beyond, runtime_ns_high, count_col_id_edge0, runtime_ns_sparse0, count_select_list_sparse7_0
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+  [runtime_ns_divergence] 59s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [count_col_id_dominance0] settling count_col_id [24.19,53.66) would decide 2 dominance verdict(s): sql_formatter_15_7_3 vs sql_formatter_15_9_0 (rss undecided) and 1 more -> <more_with_query>{5,7}
+  [count_col_id_dominance0] 93s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [count_select_list_undecided0] 30 comparison(s) undecided in count_select_list =0: sql_formatter_15_7_3 vs sql_formatter_15_7_4 on runtime_ns and 29 more -> <more_with_query>{0,0}
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+  [count_select_list_undecided0] 96s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [count_select_list_beyond] <more_with_query>{24,28} (rung 1, 4000 nodes)
+  [count_select_list_beyond] 87s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_high] 28s: no new inputs
+  [count_col_id_edge0] <more_with_query>{16,18} for the top 15% of count_col_id ([70,119])
+[WARNING] wall-clock budget reached after 7 of 15 inputs; keeping what is measured.
+  [count_col_id_edge0] 49s: +7 new input(s), 7 distinct shape(s), 7 measured
+  [budget] wall-clock reached; skipping the remaining 2 request(s) this iteration.
+[sql_formatter_latest] iter 2: corpus=2544 (+402 new)
+[sql_formatter_latest] wall-clock budget (3420s) reached before iteration 3; stopping with the corpus intact.
+[sql_formatter_latest] grammar frontier (targeting stopped asking here):
+  count_ows: pinned at 320 by the SEARCH; 1 escalating request(s) returned nothing further.
+  count_col_id: pinned at 119 by the SEARCH; 1 escalating request(s) returned nothing further.
+[compare] runtime_ns: 421 inputs, 6 systems (paired; ratios, 1.10x equivalence band)
+[compare] overall verdicts are weighted by what the corpus contains, which the loop itself shapes; the per-region lines are the portable claim.
+[compare] count_ows bins move with count_with_query_name (0.5..12 across bins); count_col_id (5..65 across bins); count_all_opt (0.5..14 across bins) -- those regions are joint, not count_ows findings
+[compare] count_with_query_name bins move with count_all_opt (1..25 across bins) -- those regions are joint, not count_with_query_name findings
+[compare] count_col_id bins move with count_ows (22.5..170.5 across bins); count_with_query_name (1..8 across bins); count_all_opt (2..11 across bins) -- those regions are joint, not count_col_id findings
+[compare] count_all_opt bins move with count_ows (43.5..216 across bins); count_with_query_name (1..24 across bins); count_col_id (13..65 across bins) -- those regions are joint, not count_all_opt findings
+  sql_formatter_15_7_3 and sql_formatter_15_7_4 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=421)
+  sql_formatter_15_7_3 and sql_formatter_15_8_0 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=421)
+  sql_formatter_15_7_3 and sql_formatter_15_8_1 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.01, n=421)
+  sql_formatter_15_7_3 and sql_formatter_15_8_2 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=421)
+  sql_formatter_15_7_3 and sql_formatter_15_9_0 equivalent: ratio 1.01x within the equivalence band (95% CI 1.01-1.02, n=421)
+  sql_formatter_15_7_4 and sql_formatter_15_8_0 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=421)
+  sql_formatter_15_7_4 and sql_formatter_15_8_1 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.01, n=421)
+  sql_formatter_15_7_4 and sql_formatter_15_8_2 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=421)
+  sql_formatter_15_7_4 and sql_formatter_15_9_0 equivalent: ratio 1.01x within the equivalence band (95% CI 1.01-1.02, n=421)
+  sql_formatter_15_8_0 and sql_formatter_15_8_1 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=421)
+  sql_formatter_15_8_0 and sql_formatter_15_8_2 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=421)
+  sql_formatter_15_8_0 and sql_formatter_15_9_0 equivalent: ratio 1.01x within the equivalence band (95% CI 1.01-1.01, n=421)
+  sql_formatter_15_8_1 and sql_formatter_15_8_2 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=421)
+  sql_formatter_15_8_1 and sql_formatter_15_9_0 equivalent: ratio 1.01x within the equivalence band (95% CI 1.00-1.01, n=421)
+  sql_formatter_15_8_2 and sql_formatter_15_9_0 equivalent: ratio 1.01x within the equivalence band (95% CI 1.00-1.01, n=421)
+[compare] rss: 421 inputs, 6 systems (paired; ratios, 1.10x equivalence band)
+[compare] overall verdicts are weighted by what the corpus contains, which the loop itself shapes; the per-region lines are the portable claim.
+[compare] count_ows bins move with count_with_query_name (0.5..12 across bins); count_col_id (5..65 across bins); count_all_opt (0.5..14 across bins) -- those regions are joint, not count_ows findings
+[compare] count_with_query_name bins move with count_all_opt (1..25 across bins) -- those regions are joint, not count_with_query_name findings
+[compare] count_col_id bins move with count_ows (22.5..170.5 across bins); count_with_query_name (1..8 across bins); count_all_opt (2..11 across bins) -- those regions are joint, not count_col_id findings
+[compare] count_all_opt bins move with count_ows (43.5..216 across bins); count_with_query_name (1..24 across bins); count_col_id (13..65 across bins) -- those regions are joint, not count_all_opt findings
+  sql_formatter_15_7_3 and sql_formatter_15_7_4 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=421)
+  sql_formatter_15_7_3 and sql_formatter_15_8_0 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=421)
+  sql_formatter_15_7_3 and sql_formatter_15_8_1 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=421)
+  sql_formatter_15_7_3 and sql_formatter_15_8_2 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=421)
+  sql_formatter_15_7_3 and sql_formatter_15_9_0 equivalent: ratio 1.08x within the equivalence band (95% CI 1.06-1.10, n=421)
+      undecided on count_ows (confounded) in [74.27,154.2) -- needs more inputs
+      undecided on count_with_query_name (confounded) in [3.684,7.071), [7.071,13.57) -- needs more inputs
+      undecided on count_all_opt (confounded) in [6.856,13.02) -- needs more inputs
+  sql_formatter_15_7_4 and sql_formatter_15_8_0 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=421)
+  sql_formatter_15_7_4 and sql_formatter_15_8_1 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=421)
+  sql_formatter_15_7_4 and sql_formatter_15_8_2 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=421)
+  sql_formatter_15_7_4 and sql_formatter_15_9_0 equivalent: ratio 1.07x within the equivalence band (95% CI 1.05-1.09, n=421)
+      undecided on count_ows (confounded) in [74.27,154.2) -- needs more inputs
+      undecided on count_with_query_name (confounded) in [3.684,7.071), [7.071,13.57) -- needs more inputs
+      undecided on count_all_opt (confounded) in [6.856,13.02) -- needs more inputs
+  sql_formatter_15_8_0 and sql_formatter_15_8_1 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=421)
+  sql_formatter_15_8_0 and sql_formatter_15_8_2 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=421)
+  sql_formatter_15_8_0 and sql_formatter_15_9_0 equivalent: ratio 1.08x within the equivalence band (95% CI 1.05-1.10, n=421)
+      undecided on count_ows (confounded) in [74.27,154.2) -- needs more inputs
+      undecided on count_with_query_name (confounded) in [3.684,7.071), [7.071,13.57) -- needs more inputs
+      undecided on count_all_opt (confounded) in [6.856,13.02) -- needs more inputs
+  sql_formatter_15_8_1 and sql_formatter_15_8_2 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=421)
+  sql_formatter_15_8_1 and sql_formatter_15_9_0 equivalent: ratio 1.07x within the equivalence band (95% CI 1.05-1.09, n=421)
+      undecided on count_ows (confounded) in [74.27,154.2) -- needs more inputs
+      undecided on count_with_query_name (confounded) in [3.684,7.071), [7.071,13.57) -- needs more inputs
+      undecided on count_all_opt (confounded) in [6.856,13.02) -- needs more inputs
+  sql_formatter_15_8_2 and sql_formatter_15_9_0 equivalent: ratio 1.06x within the equivalence band (95% CI 1.05-1.09, n=421)
+      undecided on count_with_query_name (confounded) in [7.071,13.57) -- needs more inputs
+      undecided on count_all_opt (confounded) in [6.856,13.02) -- needs more inputs
+[compare] dominance across runtime_ns, rss:
+  sql_formatter_15_7_3 and sql_formatter_15_7_4 EQUIVALENT on every metric
+  sql_formatter_15_7_3 and sql_formatter_15_8_0 EQUIVALENT on every metric
+  sql_formatter_15_7_3 and sql_formatter_15_8_1 EQUIVALENT on every metric
+  sql_formatter_15_7_3 and sql_formatter_15_8_2 EQUIVALENT on every metric
+  sql_formatter_15_7_3 and sql_formatter_15_9_0 EQUIVALENT on every metric
+  sql_formatter_15_7_4 and sql_formatter_15_8_0 EQUIVALENT on every metric
+  sql_formatter_15_7_4 and sql_formatter_15_8_1 EQUIVALENT on every metric
+  sql_formatter_15_7_4 and sql_formatter_15_8_2 EQUIVALENT on every metric
+  sql_formatter_15_7_4 and sql_formatter_15_9_0 EQUIVALENT on every metric
+  sql_formatter_15_8_0 and sql_formatter_15_8_1 EQUIVALENT on every metric
+  sql_formatter_15_8_0 and sql_formatter_15_8_2 EQUIVALENT on every metric
+  sql_formatter_15_8_0 and sql_formatter_15_9_0 EQUIVALENT on every metric
+  sql_formatter_15_8_1 and sql_formatter_15_8_2 EQUIVALENT on every metric
+  sql_formatter_15_8_1 and sql_formatter_15_9_0 EQUIVALENT on every metric
+  sql_formatter_15_8_2 and sql_formatter_15_9_0 EQUIVALENT on every metric
+      count_ows [8.303,17.24) (n=8): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_ows [17.24,35.78) (n=22): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_ows [35.78,74.27) (n=48): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_ows [74.27,154.2) (n=191): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_ows [154.2,320] (n=150): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2 not dominated
+      count_with_query_name =0 (n=29): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_with_query_name [1,1.919) (n=44): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_with_query_name [1.919,3.684) (n=103): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_with_query_name [3.684,7.071) (n=121): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_with_query_name [7.071,13.57) (n=55): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_with_query_name [13.57,26.05) (n=45): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2 not dominated
+      count_with_query_name [26.05,50] (n=27): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2 not dominated
+      count_col_id [4.919,10.91) (n=18): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_col_id [10.91,24.19) (n=50): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_col_id [24.19,53.66) (n=145): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_col_id [53.66,119] (n=202): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2 not dominated
+      count_all_opt =0 (n=33): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_all_opt [1,1.9) (n=16): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_all_opt [1.9,3.609) (n=62): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_all_opt [3.609,6.856) (n=85): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_all_opt [6.856,13.02) (n=126): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2, sql_formatter_15_9_0 not dominated
+      count_all_opt [13.02,24.74) (n=73): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2 not dominated
+      count_all_opt [24.74,47] (n=29): sql_formatter_15_7_3, sql_formatter_15_7_4, sql_formatter_15_8_0, sql_formatter_15_8_1, sql_formatter_15_8_2 not dominated
+[interference] 12 property pair(s) tested over 2544 rows; 8 show a dependence
+  count_ows vs runtime_ns changes with count_with_query_name: rho by count_with_query_name stratum = [+0.73, +0.68, +0.43, +0.10], spread 0.64, p=0.003
+  count_col_id vs runtime_ns changes with count_with_query_name: rho by count_with_query_name stratum = [+0.70, +0.78, +0.34, +0.19], spread 0.59, p=0.003
+  count_all_opt vs runtime_ns changes with count_with_query_name: rho by count_with_query_name stratum = [+0.18, +0.39, +0.29, -0.12], spread 0.52, p=0.003
+  count_ows vs runtime_ns changes with count_all_opt: rho by count_all_opt stratum = [+0.73, +0.59, +0.47, +0.25], spread 0.48, p=0.003
+  count_col_id vs runtime_ns changes with count_all_opt: rho by count_all_opt stratum = [+0.73, +0.65, +0.38, +0.29], spread 0.44, p=0.003
+  count_col_id vs runtime_ns changes with count_ows: rho by count_ows stratum = [+0.40, -0.02, +0.23, +0.17], spread 0.42, p=0.003
+  -> a one-dimensional region on these properties states less than it appears to; they are candidates for a joint request.
+[sql_formatter_latest] past the wall-clock budget; skipping the model fits and plots and writing the report. They are a function of corpus.csv, which is checkpointed, so the next run recomputes them from the same inputs rather than re-measuring.
+[sql_formatter_latest] metric cache: 2544 entries, 11954 SUT executions this run
+[sql_formatter_latest] wall clock: 3482s of 3420s budget
+[sql_formatter_latest] report -> ./results/rq1/20261003-0240-sql_formatter_latest/run1/sql_formatter_latest/report.md
+[sql_formatter_latest] done. corpus=2544 rows (424 inputs x 6 systems). Artifacts in ./results/rq1/20261003-0240-sql_formatter_latest/run1/sql_formatter_latest

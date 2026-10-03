@@ -1,0 +1,139 @@
+{
+  "__grammar__": {
+    "digest": "1e38726bcf36a8868b5a87e5d6f0a651674c14fa"
+  },
+  "count_attr_ident": {
+    "constant": false,
+    "last_max": 14.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      15.0,
+      28
+    ],
+    "rung": 1
+  },
+  "count_attr_modifier": {
+    "constant": false,
+    "last_max": 13.0,
+    "misses": 2,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      14.0,
+      26
+    ],
+    "rung": 2
+  },
+  "count_class_selector": {
+    "constant": false,
+    "last_max": 62.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      63.0,
+      124
+    ],
+    "rung": 1
+  },
+  "count_combinator": {
+    "constant": false,
+    "last_max": 25.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      26.0,
+      50
+    ],
+    "rung": 0
+  },
+  "count_complex_selector_in_has": {
+    "constant": false,
+    "last_max": 54.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      55.0,
+      108
+    ],
+    "rung": 1
+  },
+  "count_lparen": {
+    "constant": false,
+    "last_max": 17.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      18.0,
+      34
+    ],
+    "rung": 0
+  },
+  "count_more_complex_selector": {
+    "constant": false,
+    "last_max": 30.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      31.0,
+      60
+    ],
+    "rung": 1
+  },
+  "count_subclass_selectors": {
+    "constant": false,
+    "last_max": 214.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      215.0,
+      428
+    ],
+    "rung": 1
+  },
+  "count_tchar": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 2007.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<more_node>"
+  },
+  "count_text_run": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 86.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_node>"
+  },
+  "count_wq_name": {
+    "constant": false,
+    "last_max": 66.0,
+    "misses": 2,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      67.0,
+      132
+    ],
+    "rung": 2
+  }
+}

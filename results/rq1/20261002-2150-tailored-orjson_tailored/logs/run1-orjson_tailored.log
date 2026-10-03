@@ -1,0 +1,275 @@
+$ ./.venv/bin/python -u run.py orjson_tailored --seed=20260922 --output-dir=./results/rq1/20261002-2150-tailored-orjson_tailored/run1/orjson_tailored --max-wall-seconds=3420
+
+[props] max_repetition=20 (bounds * and + during generation)
+[props]   count_ascii_run                    0..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_false                        0..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_key_ascii                    0..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_key_latin1                   0..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_literal                      0..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_member                       2..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_more_member                  1..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_null                         0..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_number                       0..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_str_ascii                    0..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_str_latin1                   0..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_str_one_wide                 0..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_string                       0..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props]   count_true                         0..inf  governed by <more_member>+ in <object>, capped at 20 by max_repetition
+[props] identical to count_member, not derived: count_key, count_value
+[props] identical to count_str_one_wide, not derived: count_wide_char
+[props] fixed count, not derived: <object>, <root_value>
+[orjson_tailored] properties: ['count_key_ascii', 'count_key_latin1', 'count_literal', 'count_null', 'count_true', 'count_false', 'count_number', 'count_string', 'count_str_one_wide', 'count_ascii_run', 'count_str_ascii', 'count_str_latin1', 'num_pairs', 'doc_bytes', 'key_density', 'latin1_char_share']
+[orjson_tailored] range-stratified exploration: <more_member> bands=[(24, 59), (59, 199), (199, 799), (799, 1999)]
+  [explore] band more_member24-59: 20 inputs (max_nodes=4000)
+  [explore] band more_member59-199: 20 inputs (max_nodes=10746)
+  [explore] band more_member199-799: 20 inputs (max_nodes=30000)
+  [explore] band more_member799-1999: 20 inputs (max_nodes=30000)
+[orjson_tailored] iter 0 (explore): corpus=480 (+480 new this run)
+[select] relevance (max |rho| vs any metric on any system): doc_bytes=1.00, count_key_ascii=1.00, num_pairs=1.00, count_literal=0.99, count_string=1.00, count_key_latin1=1.00, count_true=0.98, count_number=0.99, count_false=0.98, count_str_one_wide=0.99, count_ascii_run=0.99, count_null=0.98, count_str_latin1=0.99, count_str_ascii=0.98, key_density=0.32, latin1_char_share=0.14
+[select] comparative relevance (max |rho| vs a between-system ratio): doc_bytes=0.81, count_key_ascii=0.82, num_pairs=0.81, count_literal=0.81, count_string=0.81, count_key_latin1=0.81, count_true=0.81, count_number=0.80, count_false=0.81, count_str_one_wide=0.80, count_ascii_run=0.80, count_null=0.80, count_str_latin1=0.80, count_str_ascii=0.80, key_density=0.42, latin1_char_share=0.18
+[select] scored on the comparison rather than on the metric: key_density (0.32 -> 0.42)
+[select] dropped count_key_ascii: |rho|=0.99 with doc_bytes, which is already kept
+[select] dropped num_pairs: |rho|=1.00 with doc_bytes, which is already kept
+[select] dropped count_literal: |rho|=0.99 with doc_bytes, which is already kept
+[select] dropped count_string: |rho|=1.00 with doc_bytes, which is already kept
+[select] dropped count_key_latin1: |rho|=1.00 with doc_bytes, which is already kept
+[select] dropped count_true: |rho|=0.98 with doc_bytes, which is already kept
+[select] dropped count_number: |rho|=0.99 with doc_bytes, which is already kept
+[select] dropped count_false: |rho|=0.98 with doc_bytes, which is already kept
+[select] dropped count_str_one_wide: |rho|=0.99 with doc_bytes, which is already kept
+[select] dropped count_ascii_run: |rho|=0.99 with doc_bytes, which is already kept
+[select] dropped count_null: |rho|=0.98 with doc_bytes, which is already kept
+[select] dropped count_str_latin1: |rho|=0.99 with doc_bytes, which is already kept
+[select] dropped count_str_ascii: |rho|=0.98 with doc_bytes, which is already kept
+[select] doc_bytes stands for count_key_ascii, num_pairs, count_literal, count_string, count_key_latin1, count_true, count_number, count_false, count_str_one_wide, count_ascii_run, count_null, count_str_latin1, count_str_ascii (indistinguishable here)
+[select] joint fit uses 3 of 16 properties: doc_bytes, key_density, latin1_char_share (216 model fits)
+[orjson_tailored] loop targets 3 of 16 properties: doc_bytes, key_density, latin1_char_share
+[orjson_tailored] targeting 10 regions: runtime_ns_divergence, key_density_dominance, doc_bytes_undecided, doc_bytes_beyond, runtime_ns_high, latin1_char_share_edge, runtime_ns_sparse0, key_density_sparse2, memory_peak_divergence, latin1_char_share_dominance
+  [seeds] skipped 12 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_divergence] 10s: no new inputs
+  [key_density_dominance] settling key_density [0.05532,0.07092) would decide 5 dominance verdict(s): orjson_3_10_1 vs orjson_3_10_2 (memory_peak undecided) and 4 more
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [key_density_dominance] 39s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [doc_bytes_undecided] 30 comparison(s) undecided in doc_bytes [3550,7338): orjson_3_10_1 vs orjson_3_10_2 on runtime_ns and 29 more
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [doc_bytes_undecided] 8s: no new inputs
+  [doc_bytes_beyond] rung 1
+  [seeds] skipped 3 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [doc_bytes_beyond] 21s: no new inputs
+  [seeds] skipped 13 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_high] 9s: no new inputs
+  [latin1_char_share_edge] 14s: +3 new input(s), 3 distinct shape(s), 3 measured
+  [seeds] skipped 2 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 8s: no new inputs
+  [key_density_sparse2] 42s: +15 new input(s), 14 distinct shape(s), 15 measured
+  [seeds] skipped 12 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [memory_peak_divergence] 9s: no new inputs
+  [latin1_char_share_dominance] settling latin1_char_share [0.9138,0.9846) would decide 5 dominance verdict(s): orjson_3_10_1 vs orjson_3_10_2 (memory_peak undecided) and 4 more
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [latin1_char_share_dominance] 35s: +15 new input(s), 15 distinct shape(s), 15 measured
+[orjson_tailored] iter 1: corpus=768 (+288 new)
+[orjson_tailored] targeting 10 regions: runtime_ns_divergence, doc_bytes_dominance, doc_bytes_undecided, doc_bytes_beyond, runtime_ns_high, latin1_char_share_edge, runtime_ns_sparse0, key_density_sparse8, memory_peak_divergence, doc_bytes_dominance
+  [seeds] skipped 15 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_divergence] 8s: no new inputs
+  [doc_bytes_dominance] settling doc_bytes [337,717.3) would decide 1 dominance verdict(s): orjson_3_10_1 vs orjson_3_10_6 (runtime_ns undecided)
+  [doc_bytes_dominance] 27s: +14 new input(s), 12 distinct shape(s), 14 measured
+  [doc_bytes_undecided] 30 comparison(s) undecided in doc_bytes [3250,6919): orjson_3_10_1 vs orjson_3_10_2 on runtime_ns and 29 more
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [doc_bytes_undecided] 8s: no new inputs
+  [doc_bytes_beyond] rung 2
+  [doc_bytes_beyond] 324s: +22 new input(s), 19 distinct shape(s), 22 measured
+  [seeds] skipped 15 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_high] 12s: no new inputs
+  [latin1_char_share_edge] 4s: no new inputs
+  [seeds] skipped 2 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 9s: no new inputs
+  [key_density_sparse8] 37s: +14 new input(s), 10 distinct shape(s), 14 measured
+  [seeds] skipped 15 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [memory_peak_divergence] 9s: no new inputs
+  [doc_bytes_dominance] settling doc_bytes [717.3,1527) would decide 1 dominance verdict(s): orjson_3_10_1 vs orjson_3_10_6 (runtime_ns undecided)
+  [doc_bytes_dominance] 38s: +14 new input(s), 14 distinct shape(s), 14 measured
+[orjson_tailored] iter 2: corpus=1152 (+384 new)
+[orjson_tailored] targeting 10 regions: runtime_ns_divergence, doc_bytes_dominance, doc_bytes_undecided, latin1_char_share_beyond, runtime_ns_high, latin1_char_share_edge, runtime_ns_sparse0, key_density_sparse0, memory_peak_divergence, doc_bytes_dominance
+  [seeds] skipped 15 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_divergence] 10s: no new inputs
+  [doc_bytes_dominance] settling doc_bytes [297.6,953.5) would decide 1 dominance verdict(s): orjson_3_10_1 vs orjson_3_10_6 (runtime_ns undecided)
+  [doc_bytes_dominance] 32s: +14 new input(s), 12 distinct shape(s), 14 measured
+  [doc_bytes_undecided] 30 comparison(s) undecided in doc_bytes [29,92.9): orjson_3_10_1 vs orjson_3_10_2 on runtime_ns and 29 more
+  [doc_bytes_undecided] 24s: +14 new input(s), 8 distinct shape(s), 14 measured
+  [latin1_char_share_beyond] rung 1
+  [seeds] skipped 3 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [latin1_char_share_beyond] 20s: no new inputs
+  [seeds] skipped 15 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_high] 9s: no new inputs
+  [latin1_char_share_edge] 3s: no new inputs
+  [seeds] skipped 2 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 9s: no new inputs
+  [key_density_sparse0] 34s: +14 new input(s), 13 distinct shape(s), 14 measured
+  [seeds] skipped 15 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [memory_peak_divergence] 9s: no new inputs
+  [doc_bytes_dominance] settling doc_bytes [953.5,3054) would decide 1 dominance verdict(s): orjson_3_10_1 vs orjson_3_10_6 (runtime_ns undecided)
+  [doc_bytes_dominance] 38s: +14 new input(s), 14 distinct shape(s), 14 measured
+[orjson_tailored] iter 3: corpus=1488 (+336 new)
+./.venv/lib/python3.12/site-packages/scipy/stats/_wilcoxon.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  z = (r_plus - mn) / se
+[orjson_tailored] targeting 10 regions: runtime_ns_divergence, latin1_char_share_dominance, doc_bytes_undecided, latin1_char_share_beyond, runtime_ns_high, latin1_char_share_edge, runtime_ns_sparse0, key_density_sparse7, memory_peak_divergence, doc_bytes_dominance
+  [seeds] skipped 15 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_divergence] 9s: no new inputs
+  [latin1_char_share_dominance] settling latin1_char_share [0.8333,0.9167) would decide 1 dominance verdict(s): orjson_3_10_1 vs orjson_3_10_6 (runtime_ns undecided)
+  [latin1_char_share_dominance] 39s: +14 new input(s), 10 distinct shape(s), 14 measured
+  [doc_bytes_undecided] 30 comparison(s) undecided in doc_bytes [92.9,297.6): orjson_3_10_1 vs orjson_3_10_2 on runtime_ns and 29 more
+  [doc_bytes_undecided] 30s: +15 new input(s), 13 distinct shape(s), 15 measured
+  [latin1_char_share_beyond] rung 2
+  [latin1_char_share_beyond] 42s: +15 new input(s), 10 distinct shape(s), 15 measured
+  [seeds] skipped 15 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_high] 9s: no new inputs
+  [latin1_char_share_edge] 2s: no new inputs
+  [seeds] skipped 2 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 9s: no new inputs
+  [key_density_sparse7] 34s: +14 new input(s), 7 distinct shape(s), 14 measured
+  [seeds] skipped 15 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [memory_peak_divergence] 9s: no new inputs
+  [doc_bytes_dominance] settling doc_bytes [297.6,953.5) would decide 1 dominance verdict(s): orjson_3_10_1 vs orjson_3_10_6 (runtime_ns undecided)
+  [doc_bytes_dominance] 27s: +14 new input(s), 14 distinct shape(s), 14 measured
+[orjson_tailored] iter 4: corpus=1920 (+432 new)
+[orjson_tailored] targeting 10 regions: runtime_ns_divergence, latin1_char_share_dominance, latin1_char_share_undecided, key_density_beyond, runtime_ns_high, latin1_char_share_edge, runtime_ns_sparse0, key_density_sparse8, memory_peak_divergence, doc_bytes_dominance
+  [seeds] skipped 15 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_divergence] 8s: no new inputs
+  [latin1_char_share_dominance] settling latin1_char_share [0.8333,0.9167) would decide 2 dominance verdict(s): orjson_3_10_1 vs orjson_3_10_4 (runtime_ns undecided) and 1 more
+  [latin1_char_share_dominance] 37s: +14 new input(s), 13 distinct shape(s), 14 measured
+  [latin1_char_share_undecided] 30 comparison(s) undecided in latin1_char_share [0.5,0.5833): orjson_3_10_1 vs orjson_3_10_2 on runtime_ns and 29 more
+  [latin1_char_share_undecided] 34s: +14 new input(s), 6 distinct shape(s), 14 measured
+  [key_density_beyond] rung 2
+  [key_density_beyond] 151s: +18 new input(s), 14 distinct shape(s), 18 measured
+  [seeds] skipped 15 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_high] 12s: no new inputs
+  [latin1_char_share_edge] 0s: no new inputs
+  [seeds] skipped 2 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 9s: no new inputs
+  [key_density_sparse8] 44s: +14 new input(s), 1 distinct shape(s), 14 measured
+  [seeds] skipped 15 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [memory_peak_divergence] 9s: no new inputs
+  [doc_bytes_dominance] settling doc_bytes [92.9,297.6) would decide 5 dominance verdict(s): orjson_3_10_1 vs orjson_3_10_6 (memory_peak undecided) and 4 more
+  [doc_bytes_dominance] 26s: +14 new input(s), 10 distinct shape(s), 14 measured
+[orjson_tailored] iter 5: corpus=2364 (+444 new)
+[orjson_tailored] targeting 10 regions: runtime_ns_divergence, key_density_dominance, latin1_char_share_undecided, key_density_beyond, runtime_ns_high, key_density_edge, runtime_ns_sparse0, key_density_sparse7, memory_peak_divergence, latin1_char_share_dominance
+  [seeds] skipped 15 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_divergence] 8s: no new inputs
+  [key_density_dominance] settling key_density [0.05532,0.1053) would decide 1 dominance verdict(s): orjson_3_10_1 vs orjson_3_10_6 (runtime_ns undecided)
+[WARNING] wall-clock budget reached after 11 of 15 inputs; keeping what is measured.
+  [key_density_dominance] 24s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [budget] wall-clock reached; skipping the remaining 8 request(s) this iteration.
+[orjson_tailored] iter 6: corpus=2424 (+60 new)
+[orjson_tailored] wall-clock budget (3420s) reached before iteration 7; stopping with the corpus intact.
+[orjson_tailored] grammar frontier (targeting stopped asking here):
+  doc_bytes: pinned at 31348 by the SEARCH; 2 escalating request(s) returned nothing further.
+  latin1_char_share: pinned at 1 by the SEARCH; 2 escalating request(s) returned nothing further.
+[compare] runtime_ns: 404 inputs, 6 systems (paired; ratios, 1.10x equivalence band)
+[compare] overall verdicts are weighted by what the corpus contains, which the loop itself shapes; the per-region lines are the portable claim.
+[compare] latin1_char_share bins move with doc_bytes (48..1009 across bins) -- those regions are joint, not latin1_char_share findings
+  orjson_3_10_1 and orjson_3_10_2 equivalent: ratio 0.94x within the equivalence band (95% CI 0.94-0.95, n=404)
+      undecided on doc_bytes in [2653,9119), [9119,3.135e+04] -- needs more inputs
+  orjson_3_10_1 and orjson_3_10_3 equivalent: ratio 0.94x within the equivalence band (95% CI 0.93-0.95, n=404)
+      undecided on doc_bytes in [2653,9119), [9119,3.135e+04] -- needs more inputs
+  orjson_3_10_1 and orjson_3_10_4 equivalent: ratio 0.94x within the equivalence band (95% CI 0.93-0.94, n=404)
+      undecided on doc_bytes in [2653,9119), [9119,3.135e+04] -- needs more inputs
+  orjson_3_10_1 and orjson_3_10_5 equivalent: ratio 0.94x within the equivalence band (95% CI 0.93-0.94, n=404)
+      undecided on doc_bytes in [2653,9119) -- needs more inputs
+  orjson_3_10_1 vs orjson_3_10_6 undecided: orjson_3_10_6 ahead by 1.10x but the 95% CI (0.90-0.91, n=404) spans the equivalence band
+      DEPENDS ON SAMPLING: counting each latin1_char_share bin once gives 0.92x (95% CI 0.91-0.93, 3 bins, equal weight per bin), verdict 'equivalent' not 'undecided'
+      ... and 4 latin1_char_share bin(s) have too little data to enter that: =0, [0.5833,0.6667), [0.6667,0.75), [0.75,0.8333)
+      undecided on doc_bytes in [224.5,771.8) -- needs more inputs
+      undecided on key_density in [0.05532,0.1053] -- needs more inputs
+      undecided on latin1_char_share (confounded) in [0.8333,0.9167), [0.9167,1] -- needs more inputs
+  orjson_3_10_2 and orjson_3_10_3 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=404)
+  orjson_3_10_2 and orjson_3_10_4 equivalent: ratio 0.99x within the equivalence band (95% CI 0.99-1.00, n=404)
+  orjson_3_10_2 and orjson_3_10_5 equivalent: ratio 0.99x within the equivalence band (95% CI 0.99-1.00, n=404)
+  orjson_3_10_2 and orjson_3_10_6 equivalent: ratio 0.96x within the equivalence band (95% CI 0.96-0.97, n=404)
+  orjson_3_10_3 and orjson_3_10_4 equivalent: ratio 0.99x within the equivalence band (95% CI 0.99-1.00, n=404)
+  orjson_3_10_3 and orjson_3_10_5 equivalent: ratio 0.99x within the equivalence band (95% CI 0.99-1.00, n=404)
+  orjson_3_10_3 and orjson_3_10_6 equivalent: ratio 0.97x within the equivalence band (95% CI 0.96-0.97, n=404)
+  orjson_3_10_4 and orjson_3_10_5 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=404)
+  orjson_3_10_4 and orjson_3_10_6 equivalent: ratio 0.97x within the equivalence band (95% CI 0.97-0.97, n=404)
+  orjson_3_10_5 and orjson_3_10_6 equivalent: ratio 0.97x within the equivalence band (95% CI 0.96-0.97, n=404)
+[compare] memory_peak: 404 inputs, 6 systems (paired; ratios, 1.10x equivalence band)
+[compare] overall verdicts are weighted by what the corpus contains, which the loop itself shapes; the per-region lines are the portable claim.
+[compare] latin1_char_share bins move with doc_bytes (48..1009 across bins) -- those regions are joint, not latin1_char_share findings
+  orjson_3_10_1 and orjson_3_10_2 equivalent: ratio 0.98x within the equivalence band (95% CI 0.97-1.00, n=404)
+      undecided on doc_bytes in [2653,9119) -- needs more inputs
+  orjson_3_10_1 and orjson_3_10_3 equivalent: ratio 0.99x within the equivalence band (95% CI 0.98-1.00, n=404)
+  orjson_3_10_1 and orjson_3_10_4 equivalent: ratio 0.98x within the equivalence band (95% CI 0.97-1.00, n=404)
+      undecided on doc_bytes in [2653,9119) -- needs more inputs
+  orjson_3_10_1 and orjson_3_10_5 equivalent: ratio 0.98x within the equivalence band (95% CI 0.97-1.00, n=404)
+  orjson_3_10_1 and orjson_3_10_6 equivalent: ratio 1.00x within the equivalence band (95% CI 0.98-1.00, n=404)
+  orjson_3_10_2 and orjson_3_10_3 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=404)
+  orjson_3_10_2 and orjson_3_10_4 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=404)
+  orjson_3_10_2 and orjson_3_10_5 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=404)
+  orjson_3_10_2 and orjson_3_10_6 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=404)
+  orjson_3_10_3 and orjson_3_10_4 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=404)
+  orjson_3_10_3 and orjson_3_10_5 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=404)
+  orjson_3_10_3 and orjson_3_10_6 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=404)
+  orjson_3_10_4 and orjson_3_10_5 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=404)
+  orjson_3_10_4 and orjson_3_10_6 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=404)
+  orjson_3_10_5 and orjson_3_10_6 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=404)
+[compare] dominance across runtime_ns, memory_peak:
+  orjson_3_10_1 and orjson_3_10_2 EQUIVALENT on every metric
+  orjson_3_10_1 and orjson_3_10_3 EQUIVALENT on every metric
+  orjson_3_10_1 and orjson_3_10_4 EQUIVALENT on every metric
+  orjson_3_10_1 and orjson_3_10_5 EQUIVALENT on every metric
+  orjson_3_10_1 vs orjson_3_10_6 undecided on every metric
+  orjson_3_10_2 and orjson_3_10_3 EQUIVALENT on every metric
+  orjson_3_10_2 and orjson_3_10_4 EQUIVALENT on every metric
+  orjson_3_10_2 and orjson_3_10_5 EQUIVALENT on every metric
+  orjson_3_10_2 and orjson_3_10_6 EQUIVALENT on every metric
+  orjson_3_10_3 and orjson_3_10_4 EQUIVALENT on every metric
+  orjson_3_10_3 and orjson_3_10_5 EQUIVALENT on every metric
+  orjson_3_10_3 and orjson_3_10_6 EQUIVALENT on every metric
+  orjson_3_10_4 and orjson_3_10_5 EQUIVALENT on every metric
+  orjson_3_10_4 and orjson_3_10_6 EQUIVALENT on every metric
+  orjson_3_10_5 and orjson_3_10_6 EQUIVALENT on every metric
+      doc_bytes [19,65.31) (n=57): orjson_3_10_1, orjson_3_10_2, orjson_3_10_3, orjson_3_10_4, orjson_3_10_5, orjson_3_10_6 not dominated
+      doc_bytes [65.31,224.5) (n=24): orjson_3_10_1, orjson_3_10_2, orjson_3_10_3, orjson_3_10_4, orjson_3_10_5, orjson_3_10_6 not dominated
+      doc_bytes [224.5,771.8) (n=126): orjson_3_10_1, orjson_3_10_2, orjson_3_10_3, orjson_3_10_4, orjson_3_10_5, orjson_3_10_6 not dominated
+      doc_bytes [771.8,2653) (n=121): orjson_3_10_2, orjson_3_10_3, orjson_3_10_4, orjson_3_10_5, orjson_3_10_6 not dominated
+      doc_bytes [2653,9119) (n=46): orjson_3_10_2, orjson_3_10_3, orjson_3_10_4, orjson_3_10_5, orjson_3_10_6 not dominated
+      doc_bytes [9119,3.135e+04] (n=30): orjson_3_10_2, orjson_3_10_3, orjson_3_10_4, orjson_3_10_5, orjson_3_10_6 not dominated
+      key_density [0.05532,0.1053] (n=404): orjson_3_10_1, orjson_3_10_2, orjson_3_10_3, orjson_3_10_4, orjson_3_10_5, orjson_3_10_6 not dominated
+      latin1_char_share [0.5,0.5833) (n=15): orjson_3_10_1, orjson_3_10_2, orjson_3_10_3, orjson_3_10_4, orjson_3_10_5, orjson_3_10_6 not dominated
+      latin1_char_share [0.8333,0.9167) (n=48): orjson_3_10_1, orjson_3_10_2, orjson_3_10_3, orjson_3_10_4, orjson_3_10_5, orjson_3_10_6 not dominated
+      latin1_char_share [0.9167,1] (n=336): orjson_3_10_1, orjson_3_10_2, orjson_3_10_3, orjson_3_10_4, orjson_3_10_5, orjson_3_10_6 not dominated
+[interference] 6 property pair(s) tested over 2424 rows; 4 show a dependence
+  key_density vs runtime_ns changes with latin1_char_share: rho by latin1_char_share stratum = [-0.26, -0.04, -0.19, -0.76], spread 0.72, p=0.003
+  key_density vs runtime_ns changes with doc_bytes: rho by doc_bytes stratum = [-0.67, -0.48, -0.13, +0.02], spread 0.69, p=0.003
+  latin1_char_share vs runtime_ns changes with key_density: rho by key_density stratum = [+0.13, -0.07, -0.12, -0.55], spread 0.68, p=0.003
+  latin1_char_share vs runtime_ns changes with doc_bytes: rho by doc_bytes stratum = [-0.04, -0.01, +0.24, -0.24], spread 0.48, p=0.003
+  -> a one-dimensional region on these properties states less than it appears to; they are candidates for a joint request.
+[orjson_tailored] past the wall-clock budget; skipping the model fits and plots and writing the report. They are a function of corpus.csv, which is checkpointed, so the next run recomputes them from the same inputs rather than re-measuring.
+[orjson_tailored] metric cache: 2424 entries, 11081 SUT executions this run
+[orjson_tailored] wall clock: 3461s of 3420s budget
+[orjson_tailored] report -> ./results/rq1/20261002-2150-tailored-orjson_tailored/run1/orjson_tailored/report.md
+[orjson_tailored] done. corpus=2424 rows (404 inputs x 6 systems). Artifacts in ./results/rq1/20261002-2150-tailored-orjson_tailored/run1/orjson_tailored

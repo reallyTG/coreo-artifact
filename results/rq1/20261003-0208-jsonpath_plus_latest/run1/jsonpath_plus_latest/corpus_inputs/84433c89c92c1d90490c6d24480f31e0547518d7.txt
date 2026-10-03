@@ -1,0 +1,115 @@
+$[?(match(value($[?(
+	
+!
+	match(length(		 
+  $['']	
+	),'a+|x')||
+	match(  	
+ 
+
+	value(	
+ $[?(!	
+	
+
+	match('yyx\'yx\'"\'\b\f',"x|c*|(x|z?|d?|[^a-dza-dx-zx-z]|c|y?|y|(b{1,3}|b|x|x?|z|y|b{0,2})|x+|a{0,1})*|b+|b")
+   &&	 
+!match(false  
+
+
+
+,	'[x-zdcx-z]+|c*|y*|a|a{2,4}|z|b|b|d|z'
+)&&	     
+		match($[0]["d"][-30].dd["ccccddaca'abc\"ddac"][0][0]["accbdcc\fd\"d\ra'ba"],"b|a|[a-dx-zaa-ddx]|a|b|y*|z|[zxa-dy]{1,3}" 
+
+			)&&match(value( 
+ 	 @[?(
+	   match($.d[0],
+	
+	 
+
+
+'c?|.*|[yx-zx-za-dx-za]|x{1,3}|.*|z+|a')&&
+ match( length(			 
+
+
+false),'y|x|[^x-z]|z|(a+|[za-dx-zx-zxx-zx-za-dd]?|a|x+|(b*|x*|a*|d|d+|c|y|y*|a|c|.{0,1})?|z|x*|d|y{0,}|(z{0,}|c{0,1})|b{2,4})?')&&
+	
+match(-0e0006
+	,	
+'a')&&match(	 
+ 
+ 
+@[85] 
+	
+	
+,"a{2,4}"	  
+ 	)
+
+ && 
+
+match(	
+
+
+		null,
+		"y"					) &&!	
+			  	
+match(true,"d+|(z{0,2}|d*|a+|b?)|a|c|(z|a+|d|[^a-da-da-da-dy]{1,3}|x*|x)|[^x-zcya-dya-dd]|.+"	
+
+
+ )&&!match("z"
+
+ 	 ,'(y+|d|[x-za-db]*|x|y|z|x*|y|c|c|a)+|a*|a|(y|(z?)|b+|b)+|z+|b*|y{0,2}|b{2,4}|c'	 )  		
+&&	 	 
+!		
+ 	  
+match(  	
+    	false,
+	'.?'		
+
+)
+
+ 
+	&&match(-0e2,		"a{0,2}")&&match(
+ 	 
+$,			  		'a{0}|d{0,2}|a|z*|(x*)*|.+|(a{0,2})*|x{1,2}|d?|y|c?'	
+ 
+   
+)&&match(	
+
+
+ 	 	 count($[?(	
+	!match(	false,'(b)'))]	
+	
+
+
+	)
+		  	,'.|(x{1,2})|d{1,2}|((x+)?|x+|a*|a|z){1,3}|.?|.+|x|y|a'
+
+ ))]
+		 ),"y*|y+|z+|a|c?|z+|a|b")&&	 
+match(	 
+ 
+	
+
+ true,'c+|[baza-d]|a+|d?|z|a|b|y{1,2}'   )&&	 
+		
+match(
+$.da 
+
+,'y+')&&match(length(null),
+'a') 	&&!match(null,"x|y|[^a-dzx-za-dx-z]+|b|c|(a|c|x|c|(y{7,}){2,4}|b|c)*|z|z|[x-z]*|(a+|x+|a+|a*|c{2,4}|a|(b|c|(.+|a*|z|z|c{1,}|a){0}|y?|b|d|y*|(a{0})+|c|[a-dx-za-dx-zx]|c+)?|d+|c|z|[^x-z]*){2,4}|." 	 )&&! 
+	 
+
+ match(count(		@[?(!match(@.b[72][-406040][""][0][-38077][""][8]['bbabbb"'],"c{1,2}" )  	
+	
+||match(
+count(@), 		 
+'c|b?|(c)')		
+
+
+ )][?(match(true,'a'))][?(  	 	!match(true	  	,'d|a|c'))]
+
+) ,"c")||match(true,"a")
+)]),'a'))][?(match(null,'c'))]),'b')&&match(false,"y")||match(false,"d"))]
+@@@
+[true]

@@ -1,0 +1,95 @@
+{
+  "__grammar__": {
+    "digest": "edbcd33f9a666909aeeb10191b6edd1892f79867"
+  },
+  "count_bracketed_selection": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 27.0,
+    "pending": true,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<segment>"
+  },
+  "count_int": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 140.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<segment>"
+  },
+  "count_logical_function_expr": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 46.0,
+    "pending": true,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<segment>"
+  },
+  "count_name_selector": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 95.0,
+    "pending": true,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<segment>"
+  },
+  "count_segment": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 164.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<segment>"
+  },
+  "count_value_argument": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 49.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<segment>"
+  },
+  "query_len": {
+    "constant": false,
+    "last_max": 10326.0,
+    "misses": 2,
+    "pinned": true,
+    "reason": "search",
+    "requested": [
+      10327.0,
+      20652
+    ],
+    "rung": 2
+  }
+}

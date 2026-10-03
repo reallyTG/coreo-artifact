@@ -1,0 +1,3 @@
+$[*]..[?search(@.a,'.')&&!search(@.a,"yyz[xyy]|z*")&&!search(@,'yyx+x*')]
+@@@
+[{"a":"xzzzzyyyx","b":"xy"},{"a":"y"},"yzyyx"]

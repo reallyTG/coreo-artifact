@@ -1,0 +1,3 @@
+$..[?match(@,'.+[x-z]{1,3}zz{0,1}|z+x?z+y{0,2}')&&!match(@.b,'yy.+z|.*x[^x-zzx-z]x')&&match(@.b,".?z*[xxy].+|y")&&!search(@,"x[^z]z?.")&&match(@.b,"yzx")&&!search(@.a,'x[^zz]{0,1}|z')&&!search(@.b,'[^zyx]{0,2}|z*[^z]*z+')]
+@@@
+[{"a":"z","b":"zyy"},{"a":"zzzyzxzyxzyy","b":"zxyxyzyyzx"},{"a":"y","b":"zyzyxzxz"},{"a":"yy"}]

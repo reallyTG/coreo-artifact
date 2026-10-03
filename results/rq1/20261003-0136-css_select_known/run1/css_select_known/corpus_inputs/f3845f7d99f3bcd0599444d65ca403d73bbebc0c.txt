@@ -1,0 +1,3 @@
+:is( *:has( *:lang(dc-dcdbcbacdc ):where( *.cbc#c , p + body) +:lang( bad-cacccaca )~ b) )
+@@@
+<!DOCTYPE html><html><body><div class="bbadaadbad bd" id="a" title="b aa" lang="acbcabdccda" data-bacbcd="ab"></div><p title="d" lang="acccacbcc" data-bbbadbbccbca="d d-d baaaaddcbcad"><input checked readonly class="dccdbdcbaab" id="acbbccdc" title="bb" lang="ccdb" data-aa="d">abac aa<input type="checkbox" disabled required readonly class="a" lang="dcaddbdc" data-d=""><input checked readonly class="dccdbdcbaab" id="acbbccdc" title="bb" lang="ccdb" data-aa="d">  ac</p><section id="cbcbdcabb" data-acdcdcccdb="bbbdbcbbb aa d-c-c dc"></section><p class="ab" data-da=""></p><div class="d a" id="c" title="cb" data-a="baabb"></div></body></html>

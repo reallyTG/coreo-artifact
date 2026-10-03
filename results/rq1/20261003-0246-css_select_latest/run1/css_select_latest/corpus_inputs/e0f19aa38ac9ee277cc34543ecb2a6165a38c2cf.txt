@@ -1,0 +1,3 @@
+input+:any-link+:has( * > .c[ required ]:read-only.db.ddcccabdad )[ id ], div, *
+@@@
+<!DOCTYPE html><html><body><span class="ca aa" id="dc" data-badcadcbaddb="">c </span><section id="ca">ccc bb</section><p id="ddad" lang="dbadaba"></p><span class="cdbaddabd cdcbd" id="dccdbacdaadcac" data-baccdddcbba="d"></span></body></html>

@@ -1,0 +1,3 @@
+em>.d:where( div+ b:enabled#ddaddabd , html:is( * > input.d#d,*.d> *, *:scope >.babcacbbdab.b#dc.baaabaa[disabled]#b )+ :not( *:is(.abbbacdbdcadd:link ) + *>[class$=bc-ba-abacdcbbbd-b-b i]#bd + :last-of-type :any-link:read-write:first-of-type:link.ccbbdccaac#a[checked]:not(* > :has(div > * > div )>:last-of-type~ *)#cdccccabcb[ lang *=ab-a].cbbddbbcdc,a +#a[ href = "bbcadcda a ad a"] + *#c , p#bca) +#acb+*:optional ~div ) > *:not(b.ba#bb:active >* ~.cd[disabled] + #ca )~ a+*,.ddccdbd:where([readonly |= "" i], input):only-child#ddaccbdabcbbab
+@@@
+<!DOCTYPE html><html><body><span class="bc" title="cc cbbbcdaccad-acdcccabac" lang="caadcdda" data-c=""> </span><div class="bc ba" title="dadbc bbadbbaabcbd" lang="bdb">a</div></body></html>

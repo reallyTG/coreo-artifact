@@ -1,0 +1,12 @@
+$	
+ 	
+	
+
+		[?match( 
+ 
+
+  
+true,'c+xb{0}c?.y|a*y{0,1}(d?cb?x)(d*bd(a+d(b{2,4}zybx)+x+)|y{1,3}a[^a-d]*dx?y*|aczy|ad+bb*|ycz(d*(z{1,2}d+[^x-za-da-d]{0,2}z{0}y|x?d{2,4}x*y+|y*z+.{9,}a|x*a{0}((yb{1,3}cxac)(yxczc{1,2}z?)d?b|b+bc+.{7,}(dyb.+|x(b((a+zb+x+ya{0,1}|(z?.*x*b{7,})bcd+(((bc?y+yb{0}){0,}[a-da-dcya-dxa-dx-zx-z]c?z{0,}y|b*cy?c|b{0,2}az(a{1,3}(([x-za-d]+za{0,2}z{0,2}ac)+(z+b+ddy){2,4}xx{0,1}b?x|y+([a-dx-zx-za-da-dx-zx-zx-zx-zx-z]{1,3}.z+dy*b|ycxc+b|x?c*a{6}((c+z.(b?[^x-zx-zx-zx-zx-za-d]*dxa+(x+by(d+zxa*|..?ay+|acy(yz[^a-da-dx-zx-zx-zx-zx-zcz]*d{2,4}y.*|ydad{0,2}.{0,1}|cz*x?(a*y*z+zy((d{0,2}(x{0,1}[^a-dca-dba-dx-zxa-d]bx*z*z*|b*a+(d*y(z((zb{1,3}x*yd+){1,2}z*(yy{0}ax?a{2,4}z|d+d+c{0}zx?|(y*cz?c*y?)(c{0,2}(c?(z*.?yy(bc+db|x?a[^za-dx-z]{1,2}(ad+d?c*(zy+bx*[a-dx-zx-zx-zx-za-d]z+)[^x-za-dcbyc])+d.|xa[^a-dx-zaxda-da-dx-zx-z]?c{0,1}x?c|x{0,2}yx*z{0,1}x?|(yd?c{0}(c{0,1}.?z*dc|(z+c*b*b(c*[^b]+y.+))?x((.?xbb{0,1}|y{0,2}(ccz+((xzy+z*zb)ay+(aa*dcd)|za?(xz{0}y[za-dx-za-dyca-da-dx-z]*b*(.*xa[a-da-d]?a|a[a-da-d]x+(y{0,1}.x*d?|.+[xbx-za-da-dc]{2,4}b[^ax-za-dx-za-dx-z]x{6}.|y(x{0,2}y*adb{2,4}|xb{1,2}(y?xc[x-zxa-da-dx-zx-za-da-dx-z])+b{0,}[a-d]|([^dx-z]+y{3,}dz)z*d+x|.dda+|.bx{0}b*.|y+(cx+y(x*y+d?d?(dd{0,2}xb{1,2}y?b|x.(bz+c[^x-zxcx-za-da-dax-za-d]{0,1}.b){1,2}c?a{1,3}|d+zc?c|ad?b?b|x{2,4}cxcz{0,1}|a[x-zcx-zyx-z]+.c{4,}[za-dx-za-da-dx]x*|x{1,3}cyz?)*x+|ax{0,}az|a*cyz+|bcyxbb|xcdz+z*c+|ca+[x-z]([a-da-dxb]?b+z+a|(x{4}c*d+x+x*)zy+y*|y?a*ac|[^x-zdca-dx-zx-zba-da-dc]{1,2}(b+y?xz{1,3}d?d|([^a-dx-za-dxa]{4,}[a-dx-zxx-z]?x?y)x*y*z|.c?zb?|[^d](dc?cy{0}c|cd?cb(a*y*[^x-z]{0}a?d{2,4}))c?ca*|((y{1,3}b[xa-dxa-dx-za-dyx-z]?b|y*b[^x-zx]{0,1}[^x-z]*){0,1}y{0,}z?[ca-dac]?y{0,1})(b?xzxy?c?)+(cc*d?yd)y|(yc{1,2}z+(by((xy(d{0,}dzz{0,1}y|za?[^a-dx-zx-za-dx-z]c*y+)+xc+)*c?a?x?|a{0}cy+zx+|y*y?x?y*x(z?z{0,2}xad*z*)|d{0}.ya*z{0,2}x{0}|d+[xx-zx-zyba-daxy]zy|azcd[^x-za-daa-dya-d]*d*)*[^a-da-dx-zx]?)+c?|cy*b*ayb+)+yxy{0,2})xy)?)*)?zb)dz))|accb)*a)*)bd)?aza)z))+zzx))*ay|zxxz)?ay)?by)x)xc)x)*a)bc)?xda|ydyc)|cbax)+))*|zbac)+|yxbd)?|ybcx)*byz))bb)*yb|xzba))cbc|xyxa))?aab)?zc|dada)?aa)+)?x)bz))')
+]
+@@@
+[true]

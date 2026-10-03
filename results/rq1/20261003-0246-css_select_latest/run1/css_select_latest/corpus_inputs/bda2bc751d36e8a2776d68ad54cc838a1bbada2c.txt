@@ -1,0 +1,3 @@
+div+ b:enabled#ddaddabd , html:is( * > input.d#d,*.d> *, *:scope >.babcacbbdab.b#dc.baaabaa[disabled]#b )+ :not( *:is(.abbbacdbdcadd:link ) + *>[class$=bc-ba-abacdcbbbd-b-b i]#bd + :last-of-type :any-link:read-write:first-of-type:link.ccbbdccaac#a[checked]:not(* > :has(* > * > div )>:last-of-type~ *)#cdccccabcb[ lang *=ab-a].cbbddbbcdc,a +#a[ href = "bbcadcda a ad a"] + *#c , p#bca) +#acb+*:optional ~div
+@@@
+<!DOCTYPE html><html><body><em class="b dacbaadaa" id="bcdccbbaaabb" title=""></em><em class="d a" id="b"></em></body></html>

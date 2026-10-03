@@ -1,0 +1,3 @@
+$..[?match(@.b,'[^xx][^x-z]z*x|[xz][^zx]+y')]
+@@@
+["xz",{"a":"zyyzyzx","b":"yxz"},{"a":"zy","b":"xxxxzyy"},{"a":"yy","b":"z"},"z",{"a":"zx","b":"y"}]

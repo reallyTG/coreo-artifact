@@ -1,0 +1,3 @@
+#ba:lang( ba ):optional[href^=cdcbbcbbbbcca-b][disabled],html[readonly ^="" i]+b#bb.b[ title= "a" i][id] ~ * ,.ccbbdaabdcccc.d, div#dd#cd
+@@@
+<!DOCTYPE html><html><body><p id="adadbcbc" lang="abd-dcdbcdadcc" data-d="a">cc cc<input type="radio" disabled required class="dcadbbaaaadba" id="ab" title="ddc b-cadcddcaad" lang="cbbabaabd-ca" data-a="dbbcbdaabbbac"><span title="ad" lang="cbadbb" data-dc=""></span><a href="#b" id="cc" lang="bdbcdbcb-cdbadbadabdda" data-bcddddbaaadab="">c</a><input id="ddaadaacc"><b class="bddcacb" data-cabc=""></b><b class="bddcacb" data-cabc=""></b><a href="#dcbd" class="d">cbc  </a>c aaac<input lang="abdabdbacbcd" data-ddcd="adadddcb ccbbcab bd db bc-a-ac">acca</p><section class="b" title="" data-cabc="">a</section></body></html>

@@ -1,0 +1,3 @@
+$..*
+@@@
+{"ddcbccdbabd":[7,60,0,7,"zz",0],"bbadadcba":0,"cbddbaabb":{"a":"xz","b":[0,"xy","y",0,"xxy","x",0,1,0,4,"yyy"]},"ccababada":["zyx"],"aadbddbadbad":{"a":0},"bbaabdbcdbac":{"a":0},"babdabbbdb":[9,"xx",80,0,"yz",0,0,"yzy",20,"yyz"],"bbbdcdddc":"yyx","dcdbbdbbada":45,"abdbababd":"xyz","acaaaacbbdc":[0,"xzx","zzx"],"baaadbdcb":{"a":"xzy"},"cbcadbdbdb":[0,5,"yzz","zy","zx",5,"zzz","zzy","zx",71],"badacdadda":["z","x",7,0,59,0,0,"yx",80],"abbbdbdcabdb":"zzy","acccadbbbbda":"zz","dcbbaabdd":[4],"bccadbcbdccd":["yyz",0,"y"],"dddadddca":3,"acdcaddcbadc":80,"dddddcdaacbd":{"a":9,"b":["x",0],"c":40},"dbaacaaa":"xy","aadcbaccaac":{"a":3},"cbaabadbcbcd":{"a":"xzx","b":["xy","xxy",0,"zy",70,20,2,0,"yz",0,"xyy"]},"acababbbcaba":[9,"z","xy",0,6,0,"xz","z",0,6,0]}

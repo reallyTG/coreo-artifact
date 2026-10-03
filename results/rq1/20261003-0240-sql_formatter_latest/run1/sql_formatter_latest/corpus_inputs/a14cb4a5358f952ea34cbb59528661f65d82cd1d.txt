@@ -1,0 +1,24 @@
+WITH	
+ RECURSIVE """.a."( _d_d1e ,a_abd_bb_aa,".""B""..B """, cacded," a""." ,	bedbabe_d, d_e, bbdebd , "Ba""""B""B") As
+ ((With RECURSIVE eba (a_dd_b_ ,aeac1  ,"a . aBaB""a" , _a_bdd__ce, ce1_bb111a,"B " ) AS(
+( With recursive d1_c1_aa ( ac__d111e1
+,dd , ba___daba)  As(  (With recursive "."(_cae1eda1__ , c1 ,dcc_b ) as( (( With	 Recursive "a B a" (e1cea  ) as( (with aeb_dde1_ As(With e As (((((With ba /* c */  As  (WITH __ebe
+AS(With    RECURSIVE  ee_dd_11ec (cdcd1d1e11,edccc ,cdbc_b_, dda  , dcc_cccbec , ee_aa11b_ ,_ , """a""a..B""  ",  e_eedacaea_ -- c
+ ,"""Ba. "  ,ac_ab_ )	AS (select -- c
+	_ea_bab.*,* FROM (a."B aBB"" """ as eadacaea	Cross Join " .BaB".SUM ( -	  + c_.ebac__b -  bbd ^ ARRAY[]::dacadc1._b	AT time Zone grouping (_da1b_dbc__.eeb11dd_d._::Varchar  (
+5518128) ^ -- c
+ "a"".. a   .".ccaebceea._a__cadb1ca ^ date
+U&'xyxy''' AT
+Time zone "B""a".de._1add_cd + + -- c
+ b1.c # some -- c
+ (
+b_::text[][ ] At time  Zone cae1ddbdcbb::_ee11dbdb::Int[
+6]::Smallint[ ][6 ]	<@
+57e5
+/ CASE -	false is NOT null And  +  _bda1 NOTNULL AND - 633 NOTNULL or	d_1 Isnull
+When b''::Integer notnull then FALSE END::abc1.daa[7] At Time	ZONE round () BETWEEN 8 - B'001' and null > Null and FALSE - x'Fa707a' isnull or
+NOT a_c_)	like TRUE != ALL	(8543 AND NULL Is  NULL) Isnull And b_.b.b) = Null And beb <> TRUE ISNULL or /* c */  "BBa""""a""" isnull) WITH  Ordinality) Union SELECT DISTINCT "a"" ""B".*) select OFFSET 7 Row) select fetch NEXT
+9 row only) Select) union all ( SELECT)	for key share) UNION (select All *) OFFSET  3 Row) union	select Distinct *, eeeb.*) UNION ALL select DISTINCT *) select  all  b1_ba.*) select DISTINCT	* FOR NO KEY
+UPDATE)
+UNION SELECT All) Select Distinct ceccce11eac.*)
+Union select all *,__aba.*) UNION Select All) Select DISTINCT c.*,_b_b1cd1.*)	Union All SELECT) Select Fetch Next rows ONLY) UNION	All SELECT Distinct *,*,	*) Select DISTINCT * ,"a"".".*) union ALL select	all) Select  fetch First ROWS only For SHARE ;

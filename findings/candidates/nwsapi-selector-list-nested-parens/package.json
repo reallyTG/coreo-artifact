@@ -1,0 +1,13 @@
+{
+  "name": "poc-nwsapi-selector-list-nested-parens",
+  "private": true,
+  "dependencies": {
+    "jsdom": "30.1.0",
+    "@asamuzakjp/dom-selector": "9.1.4",
+    "nw2_2_9": "npm:nwsapi@2.2.9",
+    "nw2_2_23": "npm:nwsapi@2.2.23",
+    "nw2_2_24": "npm:nwsapi@2.2.24",
+    "nw2_2_27": "npm:nwsapi@2.2.27",
+    "nw2_2_28": "npm:nwsapi@2.2.28"
+  }
+}

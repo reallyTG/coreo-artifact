@@ -1,0 +1,30 @@
+select Distinct
+- Null::Numeric( 7 ,7 )::character Varying::DOUBLE
+PRECISION[]
+->> SOME( /* c */  ARRAY[Grouping(-	Least( b_1_ab1e.""".BB"". "
+- -- c
+ FALSE at Time zone
+true ^ "a "	At  TIME Zone (  WITH "aaB" as(with	 Recursive
+ _1_bcd_d (d ,ccedc_b ,".""""."" ", cadc_bbde )  as	( Select DISTINCT on
+	(false At Time  ZONE cad1[not + -  " .".b_ed_ca::Boolean[3]::BOOLEAN At  TIME	Zone """aBaa.a"
+  AT time Zone ccccdee.ab1ae["""."".."[+ Date
+E'''\x41\101 x\x41\nxx' ^ _____::smallint::TIMESTAMP
+ WITH  TIME Zone[ 3  ]::INTERVAL[2 ] At TIME  Zone be_eaedd.b1daddaac::c1b1acac_::DATE[][][	7] -- c
+ AT	TIME zone "a"[ + ARRAY ( WITH	 Recursive " "( d_aeb__e1) AS ( (select all From LATERAL ( SELECT DISTINCT ( with " Ba"""
+As(with d  as ( select Distinct + U&'y\0041y' for Update) SELECT ALL  *) select) ^ Null::timestamp[ ]	^ + _ % _da_ + _ac ILIKE Some (SELECT
+ distinct  * FOR	KEY share) != any ( SELECT Distinct  aa1a.*) notnull , *,ae1.*) As _db	for SHARE)
+union All Select distinct
+*) Select All Offset 5 ROW FOR No Key UPDATE) % + Array[] + +
+'y\\ '	not IN ( SELECT All *
+for update) Notnull and d_1.d is Null] % _b.c ILIKE false
+<> any ( X'F00F0' Or bb_d)]::date[]::Integer AT time ZONE null ^ b'101' * Row( ) + /* c */  "B  a .B"""	<= true Or FALSE Is
+NOT TRUE] ^
+- _______ ->>  E'x\x41\x41\ty'::_	- +   In( + - True Isnull) >= /* c */  Any (ARRAY[  ] *	False) and - ______]  - + +  Not between - _d AND Null) *,* ,* Union select All) select *, * ,d_) SELECT FOR update) % Null +  NOT	 Ilike true >=	Some ( NOT ROW ()  notnull) -- c
+ NOTNULL and
+NOT Not not not _bab) At /* c */  Time ZONE X'0F7007' *	true Not BETWEEN TRUE::Varchar::integer And FALSE and	 * _	or
+Not b'00100')::Timestamp ^ ARRAY[]
+Ilike true  > _] / -
+babc_de_1c + +
+ interval 'yy' NOTNULL and ::Smallint Notnull	Or - b_dc isnull) not in(NOT B'100100000' Isnull) < ANY(
+SELECT	All *)	 ISNULL and row()::NUMERIC::DATE IS  TRUE Or Not "a.B"  AS "." for Update
+;

@@ -1,0 +1,3 @@
+$.*.*.a
+@@@
+{"caccddaaaaa":{"a":"y","b":["z",38,34,"y",30,"yxz","y"],"c":"yxx"},"adacaaccdbad":3,"cdccdadccabb":{"a":0,"b":["yxx","zz","y",0,"x","yx","y","zy",6],"c":0},"ddbdacdbdbc":[0,"x","x"]}

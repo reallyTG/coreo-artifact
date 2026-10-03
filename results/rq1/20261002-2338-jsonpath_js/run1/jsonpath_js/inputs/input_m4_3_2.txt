@@ -1,0 +1,59 @@
+$.a
+@@@
+[-0.0090 ,null
+    	
+	,			null,
+  0.0504E1		
+
+
+ ,false
+	,[
+	
+ "yzxxyzxzz"
+
+	 
+ ,{} ,
+
+	{"cab":-0.065030,"daaacdaaac\rb\bc\b\fd\b":  -0
+
+			,"d"
+			
+ 			:{"da":
+true},"ddb":	 	
+	 	 
+false,	
+ "cdcbc"
+
+	:-20003019060730.9040750974 
+
+ 	 ,"bcabcdcbabad":
+false
+ 
+
+
+, 
+
+
+
+
+"bbbda"
+:
+	 0}   
+		,
+	
+	
+	 	
+
+25.1312183168e0 ,
+
+ 	 	
+ true 				 ,{} 	
+,{ 		 
+		},true 
+] 		,{		 
+	"db"
+ 	  
+ :		 "yyzzyxzzxzz","aba"	:false},true  			,    
+[	 	 
+	
+ ],  		[]	 			,null]

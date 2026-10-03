@@ -1,0 +1,24 @@
+( with RECURSIVE "aa " (ca
+,_bb_ba,".  a",aa ) as(( WITH	
+  RECURSIVE """.aaa" (bcabb_adb_
+,"B""", a,ebedbce) -- c
+ as( SELECT	all baaba.*,	466767_5422_32102672_7_173412674_1893789_35413_6865774563_33_1096659236
+/ -- c
+ + x'F7aa7a70FF'::int[  ][ ][16 ]::INT[ ][ 1 ]::Text at time Zone '\\\''''yy''y' % ARRAY[] ^ CAST(CASE (da___b1a_[ 011E6366 AT  time Zone TIME ''::int[ ][3] /* c */  AT TIME ZONE Exists ( Select from  ( ( Lateral (WITH Recursive "B.. Ba"". "  (  ea_1bda ) as
+(
+Select distinct ON  (+ +
+ cad_bbbbe11.eacd_c_ebc."B." /* c */  + + a1bed__bca_ && DATE  E'\'\t\x41'	Ilike any ( With recursive cacbac_("""""a  ""B"" """) AS(SELECT DISTINCT ON (
+Not B'00'::Smallint =
+any (select
+distinct On( +
+- "a. ""B  B"[+ TRUE::Int[]	-	- b'00' ISNULL or	NOT c_cea] % ROW( ) - " "".".a <<
+Some (  select Distinct *  , ce.*) like  All(  Select Distinct *,"aB.".*) !=	Null
+OR dc1eaca NOTNULL) ddee.* FOR KEY Share)	 and 'xzyzyzy') * UNION SELECT *,cc_c_1.*) Select  * FOR SHARE) != ANY( Select *) is FALSE or + false NOT ILIKE true) * ,dcabbe_ea.* union select All) Select DISTINCT " BB".*) as cc1e CROSS  JOIN d11b1ccc1e.b_)	cross join Lateral max( *) deacc) FOR SHARE)  ^ + dcc_bc - NULL ~	Row() ^ X'a' % "a" = false ISNULL And bdbe1 <= FALSE OR	dcebc1.".."]::numeric(64) At Time  ZONE ebbb / + b''
+ - FALSE NOT between False ^ Null And TRUE AND U&'\0041' /* c */  / x'F00' Or + x''	Notnull) ^
+'zyx '
+/ ARRAY[] -
++ false Not
+ LIKE All(Select	Distinct * , d_d.*) isnull And NOT ' y''' Notnull  when  not b_bb Then True end at time zone d1aeaa.d.e not LIKE  any (array[] < TRUE) < ANY (SELECT distinct *	,ddebe.*	for Update)	or X'F0FF0Fa07F' as Smallint)::Integer[ ]  AT time  ZONE Null::Int OPERATOR(dad.*) FALSE + X'0' / Array[
+] Like True  > SOME( select "B"".B.a. ".*  FOR KEY SHARE) NOTNULL
+AS b11_d Union all Select	*) SELECT /* c */  Distinct *, * FOR UPDATE) union Select DISTINCT	da.*) SELECT	 Offset 9 rows for Update) Union all select DISTINCT * /* c */ 
+FOR share;

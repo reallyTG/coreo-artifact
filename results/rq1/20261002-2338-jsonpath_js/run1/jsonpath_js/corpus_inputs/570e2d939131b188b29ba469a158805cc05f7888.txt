@@ -1,0 +1,28 @@
+$..[9,0,"cb",'acc\b\b"\'d\\c\'',0,4,5040007930090,"ca",800803062]
+@@@
+   
+ [		
+	
+
+ 
+false,true,null	 	,  
+
+
+ true,	
+
+ 
+		{ 
+"add"	
+			:	
+false 			 ,"dddadacda\fd": 			  
+false 	
+,"ccd":	
+ false,		  
+ "dadbaac\rb\ta\/\\b"  	:		 
+ 	"","d":
+	false	   			,"ab": 	  			-1	
+ 
+   
+ 
+}
+]

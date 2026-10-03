@@ -1,0 +1,192 @@
+$..*
+	  		.dd	..bc
+@@@
+[  null	 ,"xy"  	,
+	 
+			"yx",
+	 	null
+
+ 
+		
+	,
+
+ 
+	 
+	[
+
+	false
+, 	{"b":true		  
+
+ 	,
+	 
+"cccbccbabbaa":[],			"bd"  		: 		
+ "yxxzxxx",  
+  	
+
+
+"a"
+
+	 
+
+:"y","da"
+ 		:"zyzzzyxyxy",
+"ad"
+
+	
+
+		:true,	
+	
+	 	"daaabbac\r\r\\\uDacf\uDfCF":false,
+"cddc\uD8cA\uDECbaa\r\\b\\a\ba\r":[]	 			
+}
+
+  ,	true,-6900021E3, 	 {
+"dd"
+	:true 		
+
+ 
+
+,			"dc": 	 
+			[	] 
+	 	 ,"dcb" :-0.0520E-60 
+
+} 	,
+	true,{
+		"bac":
+ 
+	
+	[true	
+ 	
+,  
+			"zzzxy",false]
+
+   ,"cab"
+ 	 
+
+
+:null,"dbcb" 
+
+ 
+
+ :		 	
+	true,"adbcdcbcaad"
+ :true 	 ,	
+
+"cda":3E09
+		  
+,"ca":  	 false
+	
+	  
+,"ab"  
+	
+	:27,	
+
+	 
+	"dc" 
+ 	
+	  :"", 
+"bcdbd\/":{	  	"db"	
+
+		
+ :true
+	 ,
+
+"cd":	
+"yxyzyx\"\uD2D8x\udBcc\uDEFEz\\\r\"x"},"bd":"xx" 	 
+
+},	
+ 
+"zzyzx"  						
+,{  	"bdc":{ 		 	},	"bda":{"adbdddcadb\r\b\uD7aFa\f": 	 	
+
+	 0e-9 
+,"ccdbcdbcaa"
+:
+ 
+
+
+ 
+0.60708078 			
+		,"dc":	
+	 -5E+0
+
+,"dc\ncd\t\t\r":true
+,"bd"	
+
+
+  
+:	 		 null							,
+	
+	
+
+	"abaab":
+	"z" 
+
+,
+ 	  "bdcbdadbddbca"
+
+	: {},  	"dbbacd":		 false},
+ "a"  	  	:false,"cad":	   
+  null,	 "b":null
+},0		 
+
+
+	
+
+,[
+
+
+ 
+	]
+	
+	
+  	]  
+
+,
+ 		
+{"bad\fc\uEdCF\r\\":true	
+
+,"bc":[] 
+	,"db"
+	
+  
+:  
+-0e+72	 
+		,"cdccb\tbdb\uAbEB\fcd":[""	 	 	,
+ 
+
+			[	
+
+null
+		
+
+
+		,	
+
+
+	 false,		
+ 
+"y",
+		
+
+true,	
+ -7052808460610e+04	 
+ 	
+,"xxyzzxyyy"] 	
+
+
+	,			  	null]		  
+}
+ 
+
+	 	
+,
+
+true	
+,	 
+ 		-690002.03760030E40 
+ ,
+	 
+	
+true,{}	
+ ]

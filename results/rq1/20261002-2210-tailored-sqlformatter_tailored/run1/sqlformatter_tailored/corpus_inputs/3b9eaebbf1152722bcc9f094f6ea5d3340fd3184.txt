@@ -1,0 +1,1 @@
+SELECT accdcd_1c1c,43557238, ae FROM bebb;

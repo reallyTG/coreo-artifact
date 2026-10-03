@@ -1,0 +1,37 @@
+With """B" AS	( SELECT Where 'y' between time '''x' / timestamp '\ ' % '''' ^
+'\yy' !~ ' \' /	'\x'  + '''y' - Timestamp 'y''y' * /* c */ 
+time '''z' and interval 'yx' * Time
+'z' AT Time	Zone TIME 'z' At Time zone date '\\\' ^ TIMESTAMP ' x' ^ time '  ' * Timestamp  '''x'	-	'\zx' <=  some (' \' Operator(" ".<) All ( 'y' / interval ' ' / DATE 'y' / '\' AT TIME -- c
+ ZONE ' \z'
+^ '''' ^ date  '\'	 -- c
+ at	TIME zone '''y\' % ' ' - '\x\' AT
+ time ZONE  INTERVAL '''x\' -- c
+ at Time	Zone '\' at
+time ZONE date 'yyz'	At Time zone DATE ' ' + Timestamp '''\' /* c */  at TIME ZONE Interval ' ' at TIME Zone time /* c */  '\y'
+At TIME  zone 'y\y'	^ 'yz ' ^ date '  ''' - '''z''' between interval 'z\'	
+^ '''' ^ '''''' +  Time 'x '	^
+interval
+' ''x'	^	 ' y' ^ Date 'y  ' * TIMESTAMP ''' ' * 'x'''	+ 'z' % Time '''''' / 'xz' /* c */  % '''y' ^ DATE 'x' % Timestamp 'x z' % date ' ''' %  '\' * 'z' ^ '''y' and	'zy' % Time 'z' - -- c
+  'y\ ' / 'y\' At time zone DATE 'z''' != ALL(Select DISTINCT e11.* ,	Date 'xz'	*  DATE 'z''' /* c */   % INTERVAL  ' ' ^ 'y  ' AT Time ZONE '\z' AT	Time Zone 'z' at  TIME	zone DATE 'x ' at	TIME zone ''''
+^ '\'
+^  ''' ' % DATE 'x' At  Time ZONE INTERVAL ' '' '
+At time zone Timestamp ''' y' at Time zone interval
+'x'
+at Time Zone 'y'	 operator(e_.*)
+TIMESTAMP '\ ' At TIME Zone 'zy'
+Not
+ between
+'x' ^	'\' % Timestamp '\\' ^ INTERVAL /* c */ 	'y''\' ^ 'zz' % '\\' * 'x' ^ '\' ^ 'y' ^ TIMESTAMP '''y ' * INTERVAL	'y'' ' ^  'x'
+^ ' xy' ^ ''''
+ ^ ' '  ^
+Timestamp -- c
+ 'zxz' ^ Interval	'''''''' /  'y'
+* '\x' AND INTERVAL ' ' - '\z\' ^ 'z''''' ^ INTERVAL 'xy\'	  ^ date '\'  At Time zone	' zx'
++ time '\'
+%	Time
+'z\'  * 'yx ' < ALL  (Interval ' ' Not BETWEEN	''''	+	'x' + ' yy' >> 'zx' And ' '
+  Is Null) And '''\x' /* c */  + 'x' Between  'y'  ^ '\\\' And '\'  OR 'z\' ^ 'zy' NOT	 Between '\' and 'x' , cc_b1da1e.* Limit 'y' between 'y' And '\' For	Key share) Or ' y'  % '\' NOT between 'yz ' and '\' IS Not
+ NULL) Not BETWEEN ' \'	  - date ' x' And '''' Notnull	And Time '''\'	Between	'z\' ^ 'z' and '\'	Isnull)	limit date	'zz' @> 'z\'
+BETWEEN ' ' and 'y' for update) select all From count	(*) with Ordinality limit 'x''y'
+ between  'x z' And ' ' Is TRUE For No
+Key Update;

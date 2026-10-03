@@ -1,0 +1,5 @@
+$.*..*["aaa",'',0,'',"ccbc\ncb'ddc'\f\"\"",'d']..*..d
+@@@
+{
+"caabbaba":	true}
+	

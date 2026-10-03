@@ -1,0 +1,2 @@
+subject,category,language,blind,a,b,metric,expected,n_regions,n_decided,n_for_a,n_for_b,outcome,explanation,explains_expected,explanation_evidence,best_ratio,best_prop,best_prop_relevance,best_region,shape_checked,n_shared_inputs,n_disagree_dropped,run
+sqlformatter_tailored,series,JavaScript,False,sql_formatter_15_8_2,sql_formatter_15_9_0,runtime_ns,b_faster,18,3,0,3,detected,,,,0.495,count_ows,0.74,679.7-2505,no,,0,1

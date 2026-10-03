@@ -1,0 +1,3 @@
+$.*.*.a
+@@@
+{"cbdcbacbb":40,"aaddbbca":[8,0,"y"]}

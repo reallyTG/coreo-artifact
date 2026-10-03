@@ -1,0 +1,1 @@
+SELECT deebe._d, eadb_a1 OR 25 ,_1e, 599698 OR 46964 FROM eebd_ ;

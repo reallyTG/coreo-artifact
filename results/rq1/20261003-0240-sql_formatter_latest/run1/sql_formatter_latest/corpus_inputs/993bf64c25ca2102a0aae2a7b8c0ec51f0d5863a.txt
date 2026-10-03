@@ -1,0 +1,29 @@
+With "aB aB""" AS
+ ( With  recursive	dcea1de_(ae_ ,aaea, _d_b_e_ ,  ca , b	, "a""  ""Ba BB" ,eacc_1de /* c */  ) as (select all *,- - cbb >=	- d	% x'F'::DATE::Real::Bigint::BOOLEAN[44316411] / GROUPING (
+x'F77a7a'::Smallint::Numeric	( 9, 2)[][][ ][]::NUMERIC ( 4 )::boolean[ 2] && Any( Not Exists( with _dade__1 as(( select DISTINCT  _dbcaeaaeb.*, * , *, .846192	* "BB ".bbc_bdd11ea[_cc	+ b_ebceca_d.da."aBB aB." At Time
+zone	db1c_a.ee_b[- B'' % Null
+ At Time
+zone ad_ad1c.bddbcd_1_." .a B""a.."	/ - - __dc_aeee
+at TIME  zone CAST -- c
+ ( -  false
+^ Greatest ("a""aB".bbbab.cb1_ At time
+Zone (not
+ ed1eeaa_b._adccc1.bcad_cb[NOT Not B'1111101' + E'''\n '::Interval[]::INTEGER::interval[ ] /
+B'00' not BETWEEN	+ true % + " ".e_1cce1de %
+X'aa'::Integer / ARRAY[ ] <@  " Ba""" And null = Null Is  null
+Or  Not
+ B'' ^ ARRAY[ ] ISNULL]::TEXT::TEXT[ ] * X''::Boolean -  True::Text	!~~ Some (SELECT -- c
+ *  ,* for Update) not In( select Distinct * ,* for KEY share) < true AND -- c
+ false ^ Array[ ] or	string_agg ()) ^ ca
+	 + FALSE::Boolean	not  Ilike null  IS Not true  And -	 False IS not true)::Text::TEXT not in ( Not true) <= ccbe Or /* c */  + x''  / U&'''x'	NOTNULL AS Bigint[ ])::text
+ Not between B'1' ^ 0 And False /* c */  <=	True And b'1110' <> True or - ARRAY[ ] IS  True]::INTEGER ^ - dea.c	
+* Row () << false * - 'z'''	+ + false !=  SOME ( + - - ROW())
+AND aaed1c Notnull or Not True /* c */ 	Notnull]::VARCHAR || SOME ( + true AND null::REAL) IN(	select Distinct a.*  ,"a".*) And eeb.e Or Not + aab) Union SELECT) Select Distinct *)::Smallint -- c
+ +
+TRUE
+^ false  NOT In	(select	distinct * ,* for Share)	 < some ( not  not _ace) Notnull AND	array[])	<> SOME (ROW() OR - B'011110')) - -- c
+ - - FALSE & ALL( select cebb_.*) Like
+ANY ( TIME '\x' NOT like false) d, *,Array[  ] -- c
+ is not null
+ d11aa union Select) select) SELECT -- c
+ All For SHARE;

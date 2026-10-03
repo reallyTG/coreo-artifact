@@ -1,0 +1,3 @@
+$..b.c.a
+@@@
+{"bacbadbddaa":"xy","bcdbaacacaa":{"a":0,"b":["zyy"]}}

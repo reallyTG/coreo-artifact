@@ -1,0 +1,6 @@
+package,commit,date,subject_line,pr,s1_perf_change,s1_reason,s2_input_dependent,s2_reason,s3_class,s3_reason,release_before,release_after,confounds,notes
+jsonpath-plus,6a23f22,2026-08-17,fix!: isolate caches and add cache reset API,,no,security/API fix: replaces public JSONPath.cache object with private Maps to stop cache-key collisions and __proto__ poisoning; matched on 'cache',,,n/a,,,,,Released in 11.0.0 (2026-09-24). Breaks the frozen runner's `JSONPath.cache = {}` reset (silent no-op from 11.0.0); subjects/jsonpath_plus_latest already switches to JSONPath.clearCache().
+jsonpath-plus,eabe5de,2026-08-17,fix: separate JSONPath path and script caches,,no,security fix: splits parsed-path memo from compiled-script memo to avoid key collisions; no change in what is cached,,,n/a,,,,,Released in 11.0.0. Any cache effect would be not_measurable anyway: the runner resets the cache before every timed call.
+jsonpath-plus,e98dfd9,2026-08-17,fix(types): fix regressions with missing JSDoc and rebuild,,no,types/JSDoc and rebuild; 'regression' refers to type regressions,,,n/a,,,,,
+jsonpath-plus,71597f7,2026-08-17,test(safe-eval): guard bind() escape route for constructor access,,no,test only (regression test),,,n/a,,,,,
+jsonpath-plus,5313594,2026-09-24,test(security): cover nested Function callback bypass,,no,test only (safe-eval regressions),,,n/a,,,,,

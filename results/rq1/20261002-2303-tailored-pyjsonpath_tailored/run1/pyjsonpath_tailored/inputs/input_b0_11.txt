@@ -1,0 +1,3 @@
+$..[?search(@.a,'z*|x{2,4}[z].*x*')]
+@@@
+[{"a":"z","b":"xz"},{"a":"z"},{"a":"xyz"},"yzxyz",{"a":"xyzxxxz"},"x",{"a":"x"},{"a":"y"},"xyzzzzyxxxxzxxy","xxyyyxxyyxxzyyyxyxxyxy","xx",{"a":"yyyxzzyzxxxxzxyzz","b":"x"}]

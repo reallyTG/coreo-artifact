@@ -1,0 +1,1 @@
+SELECT 53692219 AND 7597042425 , ca._becde1__1d OR 67 AND 7749 OR bdaadaa FROM ddbcdc__aeb;

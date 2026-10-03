@@ -1,0 +1,13 @@
+with recursive """aB""..""a""B""."".""B.BaBaa"" B..a.  ..B "" .    ..""a. a""""  a""BB""a."".. ""B" ("""BBa""a"" a.. aBa "". BaBBBa.""B"".BBaa.""""aB"" .BBa"". " ," .aa """""" B""aa.a""B""BB""BB  .BB.a"""".. .B.a """""" . a.BB Ba B..",
+" .a  aa.aB.. B ""B  .B"".aa"".a""B "" BBB"".. a ""B""""B""""",
+""" ..B"".  B.a""B"". B a.. B.  "".BB Ba"""". a" , " ""a""B.a.aaBB. .""Ba .aaaB "".""B""a.a Ba"""" B"" a. aB  a...B. ""a a"  , "B""a"".Ba...  aaBB aa . .  a""a""" ,"""  B.a"" .""""a.""aa.BBB.""B..B""B""BB a a""Ba"""""" B""B.B."" aBB" , ".B ""Ba..aa""""  "" aBB B a """" a a..""a.a"".Ba""B aa. ""B.BB""B.aa"" " ,"aBBaB aB aa.  ""..aB.BBB.....  a"" a"".B ..   aa. ""...."""	, "a .B "" Baaa"" aBaa.. """".""a. BBaaaB.a""""BaB""a""."" a.""B  B ..a "
+, " .BBB..aaaaB"" a""a .""."" """"a ..aa""..B" ) as(( select
+all	FROM " B."" "". Ba .aa.""aBaB B.a "" ""aB "" """."aB.a""""a..B""""B""""."".""aB.BBB""""..."".. aa"" .""."".a   B"" BBB"" " AS " a"""".""a"" aBa.aa.a""a.""""a B  . a.a B.BB. B""" RIGHT
+ Join LATERAL
+((WITH
+ "Baa ""aa a aaaaa.B"" B."""".B a "  As  ( With " "".BB"""". """"""""""""  B""."".B. .B .. .""B.B."".."" . a ." /* c */  AS (SELECT	from (((With ".Ba ."""". aa.B """"a.BB  B.a"""  As( with
+ "a BaBaB. B""BBBa.B."".B.""a"".""Ba ""."""" . a.a. aBB.aaaaaB""aB  B.a.B .B" AS (with Recursive """"""".a""a. .a""""aBaa""""""a.B Ba BBa""""a"" aBB""B. Ba """" B""aB.""""a.""a"""("B""aa BBBa  B"""""".""Baa B.BaB.aBB.B. B """"BB ."""," ""Ba...""aBa aa""  B  B aaaa""""   ..a""B. B .a""aBa.""aB""" ,""" B.BBB"" B "".B."" B.a ..B   a.. BB."," Ba a""  . aa   B"" a.aaa.""a""""BBB"""""" a.B.a..a  B.aa.a""BB . ""B"	,
+" . """"..."" BB"".""B""B aaa.Ba """"aa.aaaB"". B a."".aa."""" a""B ""B B", "a.BBB ""  a. BBB""""""""BBB BBa a.Ba .a .aB."""" ""aa""""", "a  BB.a""""""aBa a""""B ""Baa...a  ") AS(Select FROM
+ LATERAL row_number() UNION	 ( Select	Offset 2 Row)) Select Distinct *,* -- c
+ ,*) Select distinct	*,* for Share) Select Distinct *) as "B""aa"""""".. ...B  BBaaa. aB  B""aaa""BB  """".""""Ba""B" CROSS join count() WITH Ordinality)
+cross  Join rank () with Ordinality)	For KEY share)	select Union all (SELECT		distinct *,* for Update)) Select) UNION select ALL for	UPDATE) """.a ""   a"".""B""""B""aB B B""."""".a."" a""a B""""BBa" Using("""   ""B.B"".B""B.""B"" ""BB"""" B a.a.. B .""a ""aa")) union SELECT) select ;

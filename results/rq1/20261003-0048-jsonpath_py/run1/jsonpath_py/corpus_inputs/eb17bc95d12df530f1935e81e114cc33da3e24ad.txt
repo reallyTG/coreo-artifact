@@ -1,0 +1,69 @@
+$[   
+
+? 
+ 
+			 'yx"z\'"z\\yyy\'zx"z\fy\\\'\rz\'xzzzyz"z"\'zxxz"""z\'z"\nyxzy\n"' 		<'zzzyz\'x\tx"y\'y\'\/\'z\bxz"\'z"zx'
+
+|| 	
+
+	 
+
+'zxyx\/yzzxx\f"xzx\'"xz\tx"x\'\'"\'zyxzyzyx"y"x\'x\f"x\\"'		 	
+	 >=   
+		'yyyzxyxz""xz\'z\\zyxxz""\'x\\\'\'' 
+	
+&& 	
+   	'zy\'yxz"\'""\'zxzz\'z\'xy\rz\tz'==		
+ 'xxyzxxyz\n\tz"\'\/zxx"yzyxy"\'\uec30yxy\'z\'\'zyyx\\\bx'&& 
+'zxyyyzzzyy"\'xxx"zxxyx"x"x'<	 'xzxyzyyxzx\'"y\'""y\/\r"x\f\'zx"x\'\'zzxy\'zz"\fzy\'"xx\fzz' &&'z\'"z""z"""z"x\uaCA0\'yzz"\uA6cd\rx\'""y\t\/y"yzy\\yy\n"\'\\\nyx\''	==  
+ 'yzyxzxy\nzy"\'yx""z\nzx\udbAe\udCeEy\ueACF"\\yzzy\tx\'"\'\/yz"xzyy\b\'y"zxx"y\'\/x\t\''&&'yyxxxxyzzx\'"zy\'xxz\'\uffFB""xyzxzyyzyx\r\/z"xz\nz\'\'"x"zyzy\'\'"y""\by' == 
+'xy\'z\'\'\'\'y\'\'\fxzzyy"\/x\'x\'x"z\/y\bxzy\t\b\\xxyzz\n'||'zxxyx\'\'x"\/"\'\f\'\'xxy\'\'\'yxzyxz\nx\'\f'	 ==	'yyxxxzyz\'\'\nxyxyz"x\'x"x\/yz"\r\'\'xz"z"'||'xxxx\\\ty\/z\rz\b\'xz\\yz\fy'	
+
+			==		
+ 
+	'zz\'\'yzy\t"\'y""""""\uD8BD\udDCayx\tyxzxz\'yzy"xz\tyzy\uD800\udcFd\'x"xy' 			
+||
+'xyyxyy\f\'"z""z\rz\ud4eA\'yzxz\byy\f\fyz\fxx\'yxx"\'\rzz\'zz"yz\'xz""\uffeB\'xxyzx'
+	 	> 
+'xyxxzzyx"""x\'\'"xz\'y"\'""\b"x\n\\xzx\''	    	&&'\'y"\'\byx\b"z"\tz\'xz\'\f"x\'xxx'< 	'xzyzxxzxzy\'yxxyy\'\'z\rx\rz"yzzy\b\b\'x""x'
+  &&
+
+ 
+ 'xxyzzyxxy"y\bz""""\'\r"zyyy"\'\'yz\\z\'zzz\\xy\'y\n\'"\t' 
+ =='zyzxyzyxy\/zxx\'y\n"yxzxyxz\'xz"yx\'"\/x'	 	 &&	 	'yyzz\'\'xzyzz\'yyxzxz\n"'   
+	!=
+				'"y"y\fy\r"\\\t\'zxzyxx\/z\'\\"y\'xy'&& 			
+
+	 'xzx""xzy\f\'\'\'yzxy\bzx\tx\f\'\t\'z""x\uD30E\'"""\'\f"\'x\r\'\'x"xxx\'"y\r\'"yy'!='zxxxyxxzz""zxxy""\'"\'\t\'\bx\'\'z\'\uDADE\udEECzxy\/\rxx\'\'"xx"'&&
+  		
+
+'zyxyyzzzz"\'\\xy\b"\'x"x\'xx\'\uaFAa\'"zx\n\nzyyx""xyz"x"\b\fy\'\uDbbA\uDF0by\t"y\'\'z\n\uCCAdx\'"'
+	
+
+<	
+ 	 '""z\\z\nyx"\'"\'\uDAEC\udEEc"xyxxz\'"\'"\'\'z"y\\y"zy'&&'yyxxzxyzxy\'y\'\bzx\'z\'yyzyxy\u3CBCy\'\/\'yz"zzy\'x"zx\/""\r'<='z"xyzz\bzz\\yx\/z"\'y\n\'x\uCC6dx\uf0Ae\'y"x""\bzz"zyyzzy\'"'&&
+
+ 
+'zzyyxyxyxz\t"x\'""\f""\'"x"\by\'yy\/yx\'\\\/x'
+
+	
+ 
+>='zyxxxzyxzx\'"x"x"zyx\'xyxzyyz\by"\'\/"x\t\tzx\'\'zyzyxzz'		&&
+
+    
+
+'y""\'x\nyx\ry\'x\\\ty"\'"xyx"x\nxx"\'yzz"x"\\\'zxz\'zyyxz\'x""\'z\'"'<'zxzyzzzy\/xx\'\nzxxz\nx\'"\'y\nxzz\rxy'&&	'yyxyyxzx\'zzy\'y""x\ny\'zzy\'\uAdeB\/y\'\'\'\'y"x"\'"y\t\'"xyy\'x"yyzxy"'=='yzxy\'\'\/y\'\'\'\'\bzxz\'y"zz\'\bxxxyz\b\'x\'yyz\'\'\f\n\'\'"\'\rzy\'' 	
+
+	&& 
+	'yxzyyxzx"y\byyyz\'y"y""yy\u0Ffa"zz\/"yz\'\\\'y\'\'zxyxxx'  	=='yyxyyxzzx"\'"xz\'"z"zzx"\/z"\/\'xz'
+
+	
+ 	 
+ ,
+
+	
+	 
+?	'zy\'"\'y\'y\b""yz""\\xz\'\nzzzyxz\'z"\t"'>'"z\'x\'x\'"yy\'\'zyz'
+	  	 ]
+@@@
+[true]

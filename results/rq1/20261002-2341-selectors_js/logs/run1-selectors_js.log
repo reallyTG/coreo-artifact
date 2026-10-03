@@ -1,0 +1,799 @@
+$ ./.venv/bin/python -u run.py selectors_js --seed=20260922 --output-dir=./results/rq1/20261002-2341-selectors_js/run1/selectors_js --max-wall-seconds=3420
+
+[props] max_repetition=20 (bounds * and + during generation)
+[props]   count_a                            0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_an_a                         0..inf  no governing repetition (recursion or alternative)
+[props]   count_an_b_sign                    0..inf  no governing repetition (recursion or alternative)
+[props]   count_attr_ident                   0..inf  no governing repetition (recursion or alternative)
+[props]   count_attr_matcher_ws              0..inf  no governing repetition (recursion or alternative)
+[props]   count_attr_modifier                0..inf  no governing repetition (recursion or alternative)
+[props]   count_attr_value                   0..inf  no governing repetition (recursion or alternative)
+[props]   count_attr_value_words             0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_attribute_selector           0..inf  no governing repetition (recursion or alternative)
+[props]   count_attrs                        0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_b                            0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_class_attr                   0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_class_list                   0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_class_selector               0..inf  no governing repetition (recursion or alternative)
+[props]   count_combinator                   0..inf  no governing repetition (recursion or alternative)
+[props]   count_comma                        0..inf  no governing repetition (recursion or alternative)
+[props]   count_complex_selector             1..inf  no governing repetition (recursion or alternative)
+[props]   count_complex_selector_in_has       0..inf  no governing repetition (recursion or alternative)
+[props]   count_complex_selector_list        1..inf  no governing repetition (recursion or alternative)
+[props]   count_complex_selector_list_in_has       0..inf  no governing repetition (recursion or alternative)
+[props]   count_data_attr                    0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_digits                       0..inf  no governing repetition (recursion or alternative)
+[props]   count_div                          0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_em                           0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_flow_content                 0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_flow_item                    0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_href_attr                    0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_id_attr                      0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_id_selector                  0..inf  no governing repetition (recursion or alternative)
+[props]   count_input                        0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_lang_attr                    0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_lang_range                   0..inf  no governing repetition (recursion or alternative)
+[props]   count_lang_tag                     0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_lparen                       0..inf  no governing repetition (recursion or alternative)
+[props]   count_more_complex_selector        0..inf  no governing repetition (recursion or alternative)
+[props]   count_more_complex_selector_in_has       0..inf  no governing repetition (recursion or alternative)
+[props]   count_more_node                    0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_more_relative_selector       0..inf  no governing repetition (recursion or alternative)
+[props]   count_more_value_word              0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_name                         0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_namechar                     0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_node                         1..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_nth_function                 0..inf  no governing repetition (recursion or alternative)
+[props]   count_p                            0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_phrasing_content             0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_phrasing_element             0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_phrasing_item                0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_pseudo_class_function        0..inf  no governing repetition (recursion or alternative)
+[props]   count_pseudo_class_function_in_has       0..inf  no governing repetition (recursion or alternative)
+[props]   count_pseudo_class_ident           0..inf  no governing repetition (recursion or alternative)
+[props]   count_pseudo_class_selector        0..inf  no governing repetition (recursion or alternative)
+[props]   count_pseudo_class_selector_in_has       0..inf  no governing repetition (recursion or alternative)
+[props]   count_relative_combinator          0..inf  no governing repetition (recursion or alternative)
+[props]   count_relative_selector_list       0..inf  no governing repetition (recursion or alternative)
+[props]   count_rparen                       0..inf  no governing repetition (recursion or alternative)
+[props]   count_section                      0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_sign                         0..inf  no governing repetition (recursion or alternative)
+[props]   count_signed_integer               0..inf  no governing repetition (recursion or alternative)
+[props]   count_span                         0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_subclass_selectors           0..inf  no governing repetition (recursion or alternative)
+[props]   count_subclass_selectors_in_has       0..inf  no governing repetition (recursion or alternative)
+[props]   count_tchar                        0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_text_run                     0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_title_attr                   0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_type_attr                    0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_type_selector                0..inf  no governing repetition (recursion or alternative)
+[props]   count_wq_name                      0..inf  no governing repetition (recursion or alternative)
+[props] identical to count_attr_matcher_ws, not derived: count_attr_matcher
+[props] identical to count_attribute_selector, not derived: count_attr_name, count_lbracket, count_rbracket
+[props] identical to count_attrs, not derived: count_attrs_data, count_attrs_id, count_attrs_lang, count_attrs_title
+[props] identical to count_complex_selector, not derived: count_compound
+[props] identical to count_complex_selector_in_has, not derived: count_compound_in_has
+[props] identical to count_digits, not derived: count_digit
+[props] identical to count_flow_item, not derived: count_flow_element
+[props] identical to count_input, not derived: count_input_attrs, count_input_checked, count_input_disabled, count_input_readonly, count_input_required
+[props] identical to count_lang_tag, not derived: count_lang_subtag
+[props] identical to count_nth_function, not derived: count_an_plus_b
+[props] identical to count_phrasing_item, not derived: count_phrasing_leaf
+[props] identical to count_relative_selector_list, not derived: count_relative_selector
+[props] identical to count_subclass_selectors, not derived: count_subclass_selector
+[props] identical to count_subclass_selectors_in_has, not derived: count_subclass_selector_in_has
+[props] identical to count_wq_name, not derived: count_tag
+[props] WARNING <complex_selector> is a separated list written as recursion; write it as `<complex_selector> ::= <compound> <more_compound>*` with `<more_compound> ::= <separator> <compound>` so the length can be banded
+[props] WARNING <subclass_selectors> is a list written as recursion; write it as `<subclass_selectors> ::= <subclass_selector>+` so the length can be banded
+[props] WARNING <attr_ident> is a separated list written as recursion; write it as `<attr_ident> ::= <name> <more_name>*` with `<more_name> ::= <separator> <name>` so the length can be banded
+[props] WARNING <complex_selector_in_has> is a separated list written as recursion; write it as `<complex_selector_in_has> ::= <compound_in_has> <more_compound_in_has>*` with `<more_compound_in_has> ::= <separator> <compound_in_has>` so the length can be banded
+[props] WARNING <subclass_selectors_in_has> is a list written as recursion; write it as `<subclass_selectors_in_has> ::= <subclass_selector_in_has>+` so the length can be banded
+[props] WARNING <digits> is a list written as recursion; write it as `<digits> ::= <digit>+` so the length can be banded
+[props] WARNING <class_list> is a separated list written as recursion; write it as `<class_list> ::= <name> <more_name>*` with `<more_name> ::= <separator> <name>` so the length can be banded
+[props] WARNING <lang_tag> is a separated list written as recursion; write it as `<lang_tag> ::= <lang_subtag> <more_lang_subtag>*` with `<more_lang_subtag> ::= <separator> <lang_subtag>` so the length can be banded
+[props] fixed count, not derived: <doc>, <selector_list>
+[selectors_js] properties: ['count_complex_selector_list', 'count_more_complex_selector', 'count_comma', 'count_complex_selector', 'count_combinator', 'count_type_selector', 'count_subclass_selectors', 'count_wq_name', 'count_id_selector', 'count_pseudo_class_selector', 'count_class_selector', 'count_attribute_selector', 'count_name', 'count_pseudo_class_ident', 'count_pseudo_class_function', 'count_attr_modifier', 'count_attr_value', 'count_attr_matcher_ws', 'count_namechar', 'count_lparen', 'count_relative_selector_list', 'count_lang_range', 'count_rparen', 'count_nth_function', 'count_attr_value_words', 'count_attr_ident', 'count_more_relative_selector', 'count_lang_tag', 'count_more_value_word', 'count_relative_combinator', 'count_complex_selector_in_has', 'count_digits', 'count_an_b_sign', 'count_signed_integer', 'count_an_a', 'count_sign', 'count_subclass_selectors_in_has', 'count_pseudo_class_selector_in_has', 'count_pseudo_class_function_in_has', 'count_complex_selector_list_in_has', 'count_more_complex_selector_in_has', 'count_node', 'count_section', 'count_flow_content', 'count_text_run', 'count_tchar', 'count_flow_item', 'count_input', 'count_type_attr', 'count_a', 'count_attrs', 'count_class_attr', 'count_class_list', 'count_lang_attr', 'count_title_attr', 'count_id_attr', 'count_href_attr', 'count_phrasing_element', 'count_span', 'count_em', 'count_b', 'count_div', 'count_p', 'count_phrasing_content', 'count_phrasing_item', 'count_data_attr', 'count_more_node', 'doc_depth', 'doc_bytes', 'selector_len', 'selector_nesting']
+[selectors_js] auto-stratified exploration: <more_node>[(0, 0), (1, 1), (2, 4), (5, 10), (11, 24)] x <flow_item>[(1, 1), (2, 3), (4, 6), (7, 12), (13, 24)] x <phrasing_item>[(1, 1), (2, 3), (4, 6), (7, 12), (13, 24)] ...
+fandango:WARNING: Symbol <more_node> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <div> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <div> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <div> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <div> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <div> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+  [explore] 5 axes, 25 strata, 3/stratum -> 75 inputs
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[selectors_js] iter 0 (explore): corpus=375 (+375 new this run)
+[select] relevance (max |rho| vs any metric on any system): count_combinator=0.74, count_complex_selector=0.72, count_lparen=0.66, count_tchar=0.72, count_rparen=0.66, count_type_selector=0.70, count_subclass_selectors=0.70, count_text_run=0.69, count_pseudo_class_function=0.66, count_title_attr=0.69, selector_nesting=0.66, count_class_selector=0.68, count_id_selector=0.64, selector_len=0.67, doc_bytes=0.67, count_pseudo_class_selector=0.67, count_complex_selector_in_has=0.55, count_wq_name=0.55, count_attrs=0.66, count_relative_selector_list=0.54, count_attribute_selector=0.59, count_complex_selector_list=0.66, count_attr_value=0.64, count_a=0.65, count_attr_matcher_ws=0.64, doc_depth=0.65, count_lang_range=0.49, count_comma=0.63, count_attr_modifier=0.52, count_subclass_selectors_in_has=0.47, count_input=0.61, count_more_complex_selector=0.61, count_relative_combinator=0.45, count_pseudo_class_ident=0.55, count_data_attr=0.56, count_more_node=0.22, count_pseudo_class_function_in_has=0.40, count_pseudo_class_selector_in_has=0.40, count_class_list=0.55, count_class_attr=0.53, count_attr_ident=0.38, count_type_attr=0.54, count_more_relative_selector=0.35, count_id_attr=0.54, count_lang_attr=0.48, count_name=0.53, count_nth_function=0.31, count_href_attr=0.51, count_lang_tag=0.48, count_more_complex_selector_in_has=0.30, count_complex_selector_list_in_has=0.30, count_attr_value_words=0.45, count_more_value_word=0.44, count_flow_item=0.35, count_span=0.30, count_section=0.34, count_node=0.31, count_digits=0.15, count_an_a=0.08, count_sign=0.08, count_em=0.28, count_flow_content=0.27, count_div=0.26, count_an_b_sign=0.19, count_phrasing_element=0.25, count_b=0.25, count_phrasing_item=0.22, count_namechar=0.20, count_signed_integer=0.19, count_phrasing_content=0.16, count_p=0.14
+[select] comparative relevance (max |rho| vs a between-system ratio): count_combinator=0.60, count_complex_selector=0.57, count_lparen=0.58, count_tchar=0.28, count_rparen=0.58, count_type_selector=0.57, count_subclass_selectors=0.56, count_text_run=0.27, count_pseudo_class_function=0.57, count_title_attr=0.28, selector_nesting=0.57, count_class_selector=0.51, count_id_selector=0.57, selector_len=0.52, doc_bytes=0.23, count_pseudo_class_selector=0.55, count_complex_selector_in_has=0.53, count_wq_name=0.53, count_attrs=0.25, count_relative_selector_list=0.52, count_attribute_selector=0.51, count_complex_selector_list=0.48, count_attr_value=0.51, count_a=0.25, count_attr_matcher_ws=0.51, doc_depth=0.20, count_lang_range=0.49, count_comma=0.48, count_attr_modifier=0.46, count_subclass_selectors_in_has=0.46, count_input=0.21, count_more_complex_selector=0.45, count_relative_combinator=0.44, count_pseudo_class_ident=0.44, count_data_attr=0.32, count_more_node=0.39, count_pseudo_class_function_in_has=0.39, count_pseudo_class_selector_in_has=0.39, count_class_list=0.33, count_class_attr=0.35, count_attr_ident=0.34, count_type_attr=0.22, count_more_relative_selector=0.33, count_id_attr=0.33, count_lang_attr=0.32, count_name=0.27, count_nth_function=0.30, count_href_attr=0.21, count_lang_tag=0.29, count_more_complex_selector_in_has=0.29, count_complex_selector_list_in_has=0.29, count_attr_value_words=0.26, count_more_value_word=0.25, count_flow_item=0.22, count_span=0.24, count_section=0.24, count_node=0.21, count_digits=0.21, count_an_a=0.21, count_sign=0.21, count_em=0.20, count_flow_content=0.20, count_div=0.21, count_an_b_sign=0.21, count_phrasing_element=0.18, count_b=0.19, count_phrasing_item=0.20, count_namechar=0.20, count_signed_integer=0.19, count_phrasing_content=0.19, count_p=0.19
+[select] scored on the comparison rather than on the metric: count_more_node (0.22 -> 0.39), count_digits (0.15 -> 0.21), count_an_a (0.08 -> 0.21), count_sign (0.08 -> 0.21), count_p (0.14 -> 0.19)
+[select] dropped count_complex_selector: |rho|=0.96 with count_combinator, which is already kept
+[select] dropped count_rparen: |rho|=1.00 with count_lparen, which is already kept
+[select] dropped count_type_selector: |rho|=0.91 with count_combinator, which is already kept
+[select] dropped count_subclass_selectors: |rho|=0.84 with count_combinator, which is already kept
+[select] dropped count_pseudo_class_function: over the 4-property cap
+[select] dropped count_title_attr: over the 4-property cap
+[select] dropped selector_nesting: over the 4-property cap
+[select] dropped count_class_selector: over the 4-property cap
+[select] dropped count_id_selector: over the 4-property cap
+[select] dropped selector_len: over the 4-property cap
+[select] dropped doc_bytes: over the 4-property cap
+[select] dropped count_pseudo_class_selector: over the 4-property cap
+[select] dropped count_complex_selector_in_has: over the 4-property cap
+[select] dropped count_wq_name: over the 4-property cap
+[select] dropped count_attrs: over the 4-property cap
+[select] dropped count_relative_selector_list: over the 4-property cap
+[select] dropped count_attribute_selector: over the 4-property cap
+[select] dropped count_complex_selector_list: over the 4-property cap
+[select] dropped count_attr_value: over the 4-property cap
+[select] dropped count_a: over the 4-property cap
+[select] dropped count_attr_matcher_ws: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_lang_range: over the 4-property cap
+[select] dropped count_comma: over the 4-property cap
+[select] dropped count_attr_modifier: over the 4-property cap
+[select] dropped count_subclass_selectors_in_has: over the 4-property cap
+[select] dropped count_input: over the 4-property cap
+[select] dropped count_more_complex_selector: over the 4-property cap
+[select] dropped count_relative_combinator: over the 4-property cap
+[select] dropped count_pseudo_class_ident: over the 4-property cap
+[select] dropped count_data_attr: over the 4-property cap
+[select] dropped count_more_node: over the 4-property cap
+[select] dropped count_pseudo_class_function_in_has: over the 4-property cap
+[select] dropped count_pseudo_class_selector_in_has: over the 4-property cap
+[select] dropped count_class_list: over the 4-property cap
+[select] dropped count_class_attr: over the 4-property cap
+[select] dropped count_attr_ident: over the 4-property cap
+[select] dropped count_type_attr: over the 4-property cap
+[select] dropped count_more_relative_selector: over the 4-property cap
+[select] dropped count_id_attr: over the 4-property cap
+[select] dropped count_lang_attr: over the 4-property cap
+[select] dropped count_name: over the 4-property cap
+[select] dropped count_nth_function: over the 4-property cap
+[select] dropped count_href_attr: over the 4-property cap
+[select] dropped count_lang_tag: over the 4-property cap
+[select] dropped count_more_complex_selector_in_has: over the 4-property cap
+[select] dropped count_complex_selector_list_in_has: over the 4-property cap
+[select] dropped count_attr_value_words: over the 4-property cap
+[select] dropped count_more_value_word: over the 4-property cap
+[select] dropped count_flow_item: over the 4-property cap
+[select] dropped count_span: over the 4-property cap
+[select] dropped count_section: over the 4-property cap
+[select] dropped count_node: over the 4-property cap
+[select] dropped count_digits: over the 4-property cap
+[select] dropped count_an_a: over the 4-property cap
+[select] dropped count_sign: over the 4-property cap
+[select] dropped count_em: over the 4-property cap
+[select] dropped count_flow_content: over the 4-property cap
+[select] dropped count_div: over the 4-property cap
+[select] dropped count_an_b_sign: over the 4-property cap
+[select] dropped count_phrasing_element: over the 4-property cap
+[select] dropped count_b: over the 4-property cap
+[select] dropped count_phrasing_item: over the 4-property cap
+[select] dropped count_namechar: over the 4-property cap
+[select] dropped count_signed_integer: over the 4-property cap
+[select] dropped count_phrasing_content: over the 4-property cap
+[select] dropped count_p: over the 4-property cap
+[select] count_combinator stands for count_complex_selector, count_type_selector, count_subclass_selectors (indistinguishable here)
+[select] count_lparen stands for count_rparen (indistinguishable here)
+[select] joint fit uses 4 of 71 properties: count_combinator, count_lparen, count_text_run, count_tchar (1,296 model fits)
+[selectors_js] loop targets 4 of 71 properties: count_combinator, count_lparen, count_text_run, count_tchar
+[selectors_js] targeting 8 regions: runtime_ns_divergence, count_lparen_dominance, count_text_run_undecided0, count_tchar_x_count_combinator_joint, count_combinator_beyond, runtime_ns_high, count_text_run_edge0, runtime_ns_sparse0
+  [runtime_ns_divergence] 21s: no new inputs
+  [count_lparen_dominance] settling count_lparen =0 would decide 3 dominance verdict(s): cssselect vs nwsapi (runtime_ns undecided) and 2 more
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+fandango:WARNING: Symbol <more_node> defined, but not used
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[budget] generation cut at 300s after 45 generations (468 solutions); this request is not reproducible
+  [soft] maximizing count_combinator: 468 candidates, best=53, keeping 10 spanning 53..36
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[selectors_js] iter 1: corpus=615 (+240 new)
+[select] relevance (max |rho| vs any metric on any system): count_subclass_selectors=0.82, count_id_selector=0.77, count_combinator=0.81, count_complex_selector=0.81, count_lparen=0.80, count_class_selector=0.81, count_rparen=0.80, count_pseudo_class_selector=0.80, count_pseudo_class_function=0.80, selector_nesting=0.80, count_attr_value=0.79, selector_len=0.79, count_attr_matcher_ws=0.79, count_type_selector=0.79, count_attribute_selector=0.77, count_complex_selector_list=0.78, count_complex_selector_in_has=0.73, count_comma=0.77, count_relative_selector_list=0.73, count_pseudo_class_ident=0.73, count_more_complex_selector=0.75, count_pseudo_class_selector_in_has=0.69, count_tchar=0.73, count_pseudo_class_function_in_has=0.69, count_subclass_selectors_in_has=0.70, count_more_relative_selector=0.67, count_text_run=0.72, count_wq_name=0.69, count_attr_modifier=0.70, count_title_attr=0.69, count_attr_ident=0.67, count_attrs=0.69, count_lang_range=0.55, count_complex_selector_list_in_has=0.50, count_a=0.68, count_relative_combinator=0.53, count_type_attr=0.60, doc_bytes=0.67, count_id_attr=0.64, count_input=0.65, count_data_attr=0.64, count_class_list=0.64, count_href_attr=0.62, count_name=0.63, count_class_attr=0.63, doc_depth=0.62, count_lang_tag=0.62, count_nth_function=0.40, count_lang_attr=0.61, count_sign=0.34, count_flow_item=0.41, count_attr_value_words=0.59, count_more_value_word=0.58, count_an_b_sign=0.39, count_node=0.54, count_digits=0.35, count_namechar=0.45, count_an_a=0.35, count_more_node=0.41, count_phrasing_item=0.40, count_p=0.39, count_em=0.37, count_phrasing_content=0.36, count_div=0.36, count_span=0.31, count_flow_content=0.36, count_b=0.35, count_phrasing_element=0.34, count_section=0.26, count_more_complex_selector_in_has=0.18, count_signed_integer=0.14
+[select] comparative relevance (max |rho| vs a between-system ratio): count_subclass_selectors=0.73, count_id_selector=0.74, count_combinator=0.73, count_complex_selector=0.69, count_lparen=0.73, count_class_selector=0.70, count_rparen=0.73, count_pseudo_class_selector=0.73, count_pseudo_class_function=0.73, selector_nesting=0.73, count_attr_value=0.71, selector_len=0.68, count_attr_matcher_ws=0.71, count_type_selector=0.70, count_attribute_selector=0.70, count_complex_selector_list=0.65, count_complex_selector_in_has=0.70, count_comma=0.65, count_relative_selector_list=0.69, count_pseudo_class_ident=0.68, count_more_complex_selector=0.63, count_pseudo_class_selector_in_has=0.68, count_tchar=0.42, count_pseudo_class_function_in_has=0.68, count_subclass_selectors_in_has=0.67, count_more_relative_selector=0.67, count_text_run=0.40, count_wq_name=0.66, count_attr_modifier=0.64, count_title_attr=0.42, count_attr_ident=0.64, count_attrs=0.38, count_lang_range=0.55, count_complex_selector_list_in_has=0.50, count_a=0.43, count_relative_combinator=0.49, count_type_attr=0.47, doc_bytes=0.41, count_id_attr=0.45, count_input=0.38, count_data_attr=0.42, count_class_list=0.41, count_href_attr=0.41, count_name=0.29, count_class_attr=0.38, doc_depth=0.41, count_lang_tag=0.33, count_nth_function=0.40, count_lang_attr=0.37, count_sign=0.39, count_flow_item=0.39, count_attr_value_words=0.34, count_more_value_word=0.35, count_an_b_sign=0.38, count_node=0.26, count_digits=0.37, count_namechar=0.22, count_an_a=0.37, count_more_node=0.22, count_phrasing_item=0.16, count_p=0.23, count_em=0.20, count_phrasing_content=0.15, count_div=0.20, count_span=0.21, count_flow_content=0.20, count_b=0.13, count_phrasing_element=0.17, count_section=0.17, count_more_complex_selector_in_has=0.17, count_signed_integer=0.14
+[select] scored on the comparison rather than on the metric: count_sign (0.34 -> 0.39)
+[select] dropped count_id_selector: |rho|=0.92 with count_subclass_selectors, which is already kept
+[select] dropped count_combinator: |rho|=0.89 with count_subclass_selectors, which is already kept
+[select] dropped count_complex_selector: |rho|=0.92 with count_subclass_selectors, which is already kept
+[select] dropped count_lparen: |rho|=0.82 with count_subclass_selectors, which is already kept
+[select] dropped count_class_selector: |rho|=0.90 with count_subclass_selectors, which is already kept
+[select] dropped count_rparen: |rho|=0.82 with count_subclass_selectors, which is already kept
+[select] dropped count_pseudo_class_selector: |rho|=0.88 with count_subclass_selectors, which is already kept
+[select] dropped count_pseudo_class_function: |rho|=0.83 with count_subclass_selectors, which is already kept
+[select] dropped selector_nesting: |rho|=0.82 with count_subclass_selectors, which is already kept
+[select] dropped count_attr_value: |rho|=0.88 with count_subclass_selectors, which is already kept
+[select] dropped selector_len: |rho|=0.94 with count_subclass_selectors, which is already kept
+[select] dropped count_attr_matcher_ws: |rho|=0.88 with count_subclass_selectors, which is already kept
+[select] dropped count_type_selector: |rho|=0.85 with count_subclass_selectors, which is already kept
+[select] dropped count_attribute_selector: |rho|=0.89 with count_subclass_selectors, which is already kept
+[select] dropped count_complex_selector_list: |rho|=0.86 with count_subclass_selectors, which is already kept
+[select] dropped count_comma: |rho|=0.83 with count_subclass_selectors, which is already kept
+[select] dropped count_relative_selector_list: |rho|=0.99 with count_complex_selector_in_has, which is already kept
+[select] dropped count_pseudo_class_ident: |rho|=0.82 with count_subclass_selectors, which is already kept
+[select] dropped count_more_complex_selector: |rho|=0.82 with count_subclass_selectors, which is already kept
+[select] dropped count_pseudo_class_selector_in_has: |rho|=0.89 with count_complex_selector_in_has, which is already kept
+[select] dropped count_pseudo_class_function_in_has: |rho|=0.89 with count_complex_selector_in_has, which is already kept
+[select] dropped count_subclass_selectors_in_has: |rho|=0.95 with count_complex_selector_in_has, which is already kept
+[select] dropped count_more_relative_selector: |rho|=0.88 with count_complex_selector_in_has, which is already kept
+[select] dropped count_text_run: |rho|=0.90 with count_tchar, which is already kept
+[select] dropped count_attr_modifier: over the 4-property cap
+[select] dropped count_title_attr: over the 4-property cap
+[select] dropped count_attr_ident: over the 4-property cap
+[select] dropped count_attrs: over the 4-property cap
+[select] dropped count_lang_range: over the 4-property cap
+[select] dropped count_complex_selector_list_in_has: over the 4-property cap
+[select] dropped count_a: over the 4-property cap
+[select] dropped count_relative_combinator: over the 4-property cap
+[select] dropped count_type_attr: over the 4-property cap
+[select] dropped doc_bytes: over the 4-property cap
+[select] dropped count_id_attr: over the 4-property cap
+[select] dropped count_input: over the 4-property cap
+[select] dropped count_data_attr: over the 4-property cap
+[select] dropped count_class_list: over the 4-property cap
+[select] dropped count_href_attr: over the 4-property cap
+[select] dropped count_name: over the 4-property cap
+[select] dropped count_class_attr: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_lang_tag: over the 4-property cap
+[select] dropped count_nth_function: over the 4-property cap
+[select] dropped count_lang_attr: over the 4-property cap
+[select] dropped count_sign: over the 4-property cap
+[select] dropped count_flow_item: over the 4-property cap
+[select] dropped count_attr_value_words: over the 4-property cap
+[select] dropped count_more_value_word: over the 4-property cap
+[select] dropped count_an_b_sign: over the 4-property cap
+[select] dropped count_node: over the 4-property cap
+[select] dropped count_digits: over the 4-property cap
+[select] dropped count_namechar: over the 4-property cap
+[select] dropped count_an_a: over the 4-property cap
+[select] dropped count_more_node: over the 4-property cap
+[select] dropped count_phrasing_item: over the 4-property cap
+[select] dropped count_p: over the 4-property cap
+[select] dropped count_em: over the 4-property cap
+[select] dropped count_phrasing_content: over the 4-property cap
+[select] dropped count_div: over the 4-property cap
+[select] dropped count_span: over the 4-property cap
+[select] dropped count_flow_content: over the 4-property cap
+[select] dropped count_b: over the 4-property cap
+[select] dropped count_phrasing_element: over the 4-property cap
+[select] dropped count_section: over the 4-property cap
+[select] dropped count_more_complex_selector_in_has: over the 4-property cap
+[select] dropped count_signed_integer: over the 4-property cap
+[select] count_subclass_selectors stands for count_id_selector, count_combinator, count_complex_selector, count_lparen, count_class_selector, count_rparen, count_pseudo_class_selector, count_pseudo_class_function, selector_nesting, count_attr_value, selector_len, count_attr_matcher_ws, count_type_selector, count_attribute_selector, count_complex_selector_list, count_comma, count_pseudo_class_ident, count_more_complex_selector (indistinguishable here)
+[select] count_complex_selector_in_has stands for count_relative_selector_list, count_pseudo_class_selector_in_has, count_pseudo_class_function_in_has, count_subclass_selectors_in_has, count_more_relative_selector (indistinguishable here)
+[select] count_tchar stands for count_text_run (indistinguishable here)
+[select] joint fit uses 4 of 71 properties: count_subclass_selectors, count_wq_name, count_complex_selector_in_has, count_tchar (1,296 model fits)
+[selectors_js] loop targets 4 of 71 properties: count_subclass_selectors, count_wq_name, count_complex_selector_in_has, count_tchar
+[selectors_js] targeting 8 regions: runtime_ns_divergence, count_wq_name_dominance, count_tchar_undecided0, count_tchar_x_count_subclass_selectors_joint, cssselect_runtime_ns_count_subclass_selectors_discriminate, count_complex_selector_in_has_beyond, runtime_ns_high, count_tchar_edge0
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[budget] generation cut at 300s after 65 generations (305 solutions); this request is not reproducible
+  [soft] maximizing count_subclass_selectors: 305 candidates, best=214, keeping 10 spanning 214..51
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[WARNING] Fandango did not generate any valid inputs.
+  [cssselect_runtime_ns_count_subclass_selectors_discriminate] 31s: no new inputs
+  [count_complex_selector_in_has_beyond] rung 1
+[WARNING] Fandango did not generate any valid inputs.
+  [count_complex_selector_in_has_beyond] 65s: no new inputs
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[selectors_js] iter 2: corpus=805 (+190 new)
+[select] relevance (max |rho| vs any metric on any system): count_subclass_selectors=0.83, count_pseudo_class_selector=0.82, count_class_selector=0.83, count_lparen=0.81, count_combinator=0.83, count_rparen=0.81, count_complex_selector=0.83, count_pseudo_class_function=0.81, selector_len=0.82, count_id_selector=0.78, count_type_selector=0.82, selector_nesting=0.80, count_pseudo_class_ident=0.77, count_attr_value=0.81, count_attr_matcher_ws=0.81, count_attribute_selector=0.79, count_complex_selector_list=0.79, count_comma=0.78, count_wq_name=0.73, count_attr_ident=0.71, count_more_complex_selector=0.75, count_attr_modifier=0.72, count_complex_selector_in_has=0.65, count_tchar=0.69, count_text_run=0.68, count_relative_selector_list=0.64, count_title_attr=0.66, count_pseudo_class_selector_in_has=0.61, count_a=0.65, count_pseudo_class_function_in_has=0.61, count_subclass_selectors_in_has=0.63, count_more_relative_selector=0.60, count_attrs=0.63, count_lang_range=0.62, count_nth_function=0.49, count_relative_combinator=0.49, count_complex_selector_list_in_has=0.45, count_id_attr=0.57, count_name=0.60, count_type_attr=0.54, doc_bytes=0.59, count_data_attr=0.59, count_input=0.59, count_class_list=0.58, count_more_value_word=0.58, doc_depth=0.58, count_href_attr=0.56, count_attr_value_words=0.58, count_class_attr=0.57, count_lang_tag=0.55, count_lang_attr=0.54, count_node=0.49, count_flow_item=0.33, count_sign=0.28, count_more_node=0.41, count_an_b_sign=0.28, count_namechar=0.41, count_digits=0.26, count_p=0.40, count_an_a=0.25, count_div=0.36, count_em=0.36, count_phrasing_element=0.34, count_phrasing_content=0.34, count_flow_content=0.32, count_b=0.34, count_phrasing_item=0.33, count_span=0.32, count_section=0.32, count_more_complex_selector_in_has=0.15, count_signed_integer=0.14
+[select] comparative relevance (max |rho| vs a between-system ratio): count_subclass_selectors=0.73, count_pseudo_class_selector=0.75, count_class_selector=0.72, count_lparen=0.75, count_combinator=0.73, count_rparen=0.75, count_complex_selector=0.69, count_pseudo_class_function=0.75, selector_len=0.70, count_id_selector=0.75, count_type_selector=0.71, selector_nesting=0.74, count_pseudo_class_ident=0.73, count_attr_value=0.72, count_attr_matcher_ws=0.72, count_attribute_selector=0.70, count_complex_selector_list=0.66, count_comma=0.66, count_wq_name=0.69, count_attr_ident=0.67, count_more_complex_selector=0.63, count_attr_modifier=0.67, count_complex_selector_in_has=0.63, count_tchar=0.42, count_text_run=0.41, count_relative_selector_list=0.62, count_title_attr=0.41, count_pseudo_class_selector_in_has=0.62, count_a=0.46, count_pseudo_class_function_in_has=0.61, count_subclass_selectors_in_has=0.61, count_more_relative_selector=0.60, count_attrs=0.37, count_lang_range=0.60, count_nth_function=0.48, count_relative_combinator=0.46, count_complex_selector_list_in_has=0.45, count_id_attr=0.44, count_name=0.26, count_type_attr=0.44, doc_bytes=0.39, count_data_attr=0.43, count_input=0.38, count_class_list=0.42, count_more_value_word=0.37, doc_depth=0.42, count_href_attr=0.42, count_attr_value_words=0.34, count_class_attr=0.38, count_lang_tag=0.35, count_lang_attr=0.36, count_node=0.23, count_flow_item=0.35, count_sign=0.33, count_more_node=0.21, count_an_b_sign=0.30, count_namechar=0.22, count_digits=0.29, count_p=0.19, count_an_a=0.28, count_div=0.18, count_em=0.16, count_phrasing_element=0.17, count_phrasing_content=0.17, count_flow_content=0.21, count_b=0.16, count_phrasing_item=0.18, count_span=0.19, count_section=0.16, count_more_complex_selector_in_has=0.14, count_signed_integer=0.14
+[select] scored on the comparison rather than on the metric: count_sign (0.28 -> 0.33)
+[select] dropped count_pseudo_class_selector: |rho|=0.90 with count_subclass_selectors, which is already kept
+[select] dropped count_class_selector: |rho|=0.91 with count_subclass_selectors, which is already kept
+[select] dropped count_lparen: |rho|=0.84 with count_subclass_selectors, which is already kept
+[select] dropped count_combinator: |rho|=0.89 with count_subclass_selectors, which is already kept
+[select] dropped count_rparen: |rho|=0.84 with count_subclass_selectors, which is already kept
+[select] dropped count_complex_selector: |rho|=0.93 with count_subclass_selectors, which is already kept
+[select] dropped count_pseudo_class_function: |rho|=0.85 with count_subclass_selectors, which is already kept
+[select] dropped selector_len: |rho|=0.95 with count_subclass_selectors, which is already kept
+[select] dropped count_id_selector: |rho|=0.93 with count_subclass_selectors, which is already kept
+[select] dropped count_type_selector: |rho|=0.86 with count_subclass_selectors, which is already kept
+[select] dropped selector_nesting: |rho|=0.83 with count_subclass_selectors, which is already kept
+[select] dropped count_pseudo_class_ident: |rho|=0.85 with count_subclass_selectors, which is already kept
+[select] dropped count_attr_value: |rho|=0.89 with count_subclass_selectors, which is already kept
+[select] dropped count_attr_matcher_ws: |rho|=0.89 with count_subclass_selectors, which is already kept
+[select] dropped count_attribute_selector: |rho|=0.90 with count_subclass_selectors, which is already kept
+[select] dropped count_complex_selector_list: |rho|=0.87 with count_subclass_selectors, which is already kept
+[select] dropped count_comma: |rho|=0.84 with count_subclass_selectors, which is already kept
+[select] dropped count_more_complex_selector: |rho|=0.82 with count_subclass_selectors, which is already kept
+[select] dropped count_complex_selector_in_has: over the 4-property cap
+[select] dropped count_tchar: over the 4-property cap
+[select] dropped count_text_run: over the 4-property cap
+[select] dropped count_relative_selector_list: over the 4-property cap
+[select] dropped count_title_attr: over the 4-property cap
+[select] dropped count_pseudo_class_selector_in_has: over the 4-property cap
+[select] dropped count_a: over the 4-property cap
+[select] dropped count_pseudo_class_function_in_has: over the 4-property cap
+[select] dropped count_subclass_selectors_in_has: over the 4-property cap
+[select] dropped count_more_relative_selector: over the 4-property cap
+[select] dropped count_attrs: over the 4-property cap
+[select] dropped count_lang_range: over the 4-property cap
+[select] dropped count_nth_function: over the 4-property cap
+[select] dropped count_relative_combinator: over the 4-property cap
+[select] dropped count_complex_selector_list_in_has: over the 4-property cap
+[select] dropped count_id_attr: over the 4-property cap
+[select] dropped count_name: over the 4-property cap
+[select] dropped count_type_attr: over the 4-property cap
+[select] dropped doc_bytes: over the 4-property cap
+[select] dropped count_data_attr: over the 4-property cap
+[select] dropped count_input: over the 4-property cap
+[select] dropped count_class_list: over the 4-property cap
+[select] dropped count_more_value_word: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_href_attr: over the 4-property cap
+[select] dropped count_attr_value_words: over the 4-property cap
+[select] dropped count_class_attr: over the 4-property cap
+[select] dropped count_lang_tag: over the 4-property cap
+[select] dropped count_lang_attr: over the 4-property cap
+[select] dropped count_node: over the 4-property cap
+[select] dropped count_flow_item: over the 4-property cap
+[select] dropped count_sign: over the 4-property cap
+[select] dropped count_more_node: over the 4-property cap
+[select] dropped count_an_b_sign: over the 4-property cap
+[select] dropped count_namechar: over the 4-property cap
+[select] dropped count_digits: over the 4-property cap
+[select] dropped count_p: over the 4-property cap
+[select] dropped count_an_a: over the 4-property cap
+[select] dropped count_div: over the 4-property cap
+[select] dropped count_em: over the 4-property cap
+[select] dropped count_phrasing_element: over the 4-property cap
+[select] dropped count_phrasing_content: over the 4-property cap
+[select] dropped count_flow_content: over the 4-property cap
+[select] dropped count_b: over the 4-property cap
+[select] dropped count_phrasing_item: over the 4-property cap
+[select] dropped count_span: over the 4-property cap
+[select] dropped count_section: over the 4-property cap
+[select] dropped count_more_complex_selector_in_has: over the 4-property cap
+[select] dropped count_signed_integer: over the 4-property cap
+[select] count_subclass_selectors stands for count_pseudo_class_selector, count_class_selector, count_lparen, count_combinator, count_rparen, count_complex_selector, count_pseudo_class_function, selector_len, count_id_selector, count_type_selector, selector_nesting, count_pseudo_class_ident, count_attr_value, count_attr_matcher_ws, count_attribute_selector, count_complex_selector_list, count_comma, count_more_complex_selector (indistinguishable here)
+[select] joint fit uses 4 of 71 properties: count_subclass_selectors, count_wq_name, count_attr_modifier, count_attr_ident (1,296 model fits)
+[selectors_js] loop targets 4 of 71 properties: count_subclass_selectors, count_wq_name, count_attr_modifier, count_attr_ident
+[selectors_js] targeting 8 regions: runtime_ns_divergence, count_wq_name_dominance, count_subclass_selectors_undecided, count_attr_ident_beyond, runtime_ns_high, count_wq_name_edge, runtime_ns_sparse0, count_attr_ident_sparse8
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[WARNING] Fandango did not generate any valid inputs.
+  [count_attr_ident_beyond] 41s: no new inputs
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[WARNING] Fandango did not generate any valid inputs.
+  [count_attr_ident_sparse8] 14s: no new inputs
+[selectors_js] iter 3: corpus=885 (+80 new)
+[select] relevance (max |rho| vs any metric on any system): count_class_selector=0.84, count_lparen=0.82, count_subclass_selectors=0.84, count_rparen=0.82, count_combinator=0.84, count_pseudo_class_selector=0.83, count_complex_selector=0.84, count_pseudo_class_function=0.82, selector_len=0.83, count_id_selector=0.80, count_type_selector=0.83, selector_nesting=0.81, count_pseudo_class_ident=0.79, count_attr_value=0.82, count_attr_matcher_ws=0.82, count_complex_selector_list=0.80, count_attribute_selector=0.80, count_wq_name=0.74, count_comma=0.80, count_more_complex_selector=0.76, count_attr_modifier=0.73, count_tchar=0.68, count_complex_selector_in_has=0.67, count_text_run=0.67, count_relative_selector_list=0.66, count_pseudo_class_selector_in_has=0.64, count_attr_ident=0.66, count_subclass_selectors_in_has=0.65, count_lang_range=0.63, count_title_attr=0.64, count_pseudo_class_function_in_has=0.59, count_more_relative_selector=0.58, count_a=0.63, count_nth_function=0.51, count_relative_combinator=0.52, count_attrs=0.62, count_complex_selector_list_in_has=0.45, count_name=0.59, count_type_attr=0.53, count_input=0.59, count_id_attr=0.57, count_class_list=0.57, count_data_attr=0.58, count_href_attr=0.55, doc_bytes=0.58, doc_depth=0.58, count_more_value_word=0.57, count_attr_value_words=0.57, count_class_attr=0.56, count_lang_tag=0.54, count_lang_attr=0.54, count_flow_item=0.33, count_node=0.51, count_digits=0.31, count_sign=0.31, count_namechar=0.43, count_more_node=0.42, count_an_b_sign=0.27, count_p=0.38, count_an_a=0.24, count_div=0.37, count_em=0.37, count_signed_integer=0.21, count_phrasing_element=0.35, count_b=0.35, count_phrasing_item=0.33, count_phrasing_content=0.33, count_span=0.32, count_flow_content=0.32, count_section=0.31, count_more_complex_selector_in_has=0.18
+[select] comparative relevance (max |rho| vs a between-system ratio): count_class_selector=0.74, count_lparen=0.77, count_subclass_selectors=0.74, count_rparen=0.77, count_combinator=0.75, count_pseudo_class_selector=0.76, count_complex_selector=0.72, count_pseudo_class_function=0.76, selector_len=0.71, count_id_selector=0.76, count_type_selector=0.73, selector_nesting=0.75, count_pseudo_class_ident=0.75, count_attr_value=0.73, count_attr_matcher_ws=0.73, count_complex_selector_list=0.69, count_attribute_selector=0.72, count_wq_name=0.71, count_comma=0.69, count_more_complex_selector=0.66, count_attr_modifier=0.68, count_tchar=0.43, count_complex_selector_in_has=0.65, count_text_run=0.40, count_relative_selector_list=0.65, count_pseudo_class_selector_in_has=0.64, count_attr_ident=0.62, count_subclass_selectors_in_has=0.63, count_lang_range=0.61, count_title_attr=0.40, count_pseudo_class_function_in_has=0.60, count_more_relative_selector=0.59, count_a=0.46, count_nth_function=0.49, count_relative_combinator=0.49, count_attrs=0.36, count_complex_selector_list_in_has=0.44, count_name=0.25, count_type_attr=0.44, count_input=0.38, count_id_attr=0.44, count_class_list=0.43, count_data_attr=0.42, count_href_attr=0.43, doc_bytes=0.38, doc_depth=0.43, count_more_value_word=0.37, count_attr_value_words=0.33, count_class_attr=0.38, count_lang_tag=0.34, count_lang_attr=0.37, count_flow_item=0.37, count_node=0.19, count_digits=0.34, count_sign=0.33, count_namechar=0.21, count_more_node=0.19, count_an_b_sign=0.29, count_p=0.19, count_an_a=0.26, count_div=0.18, count_em=0.15, count_signed_integer=0.21, count_phrasing_element=0.16, count_b=0.16, count_phrasing_item=0.20, count_phrasing_content=0.17, count_span=0.17, count_flow_content=0.18, count_section=0.14, count_more_complex_selector_in_has=0.17
+[select] dropped count_lparen: |rho|=0.83 with count_class_selector, which is already kept
+[select] dropped count_subclass_selectors: |rho|=0.91 with count_class_selector, which is already kept
+[select] dropped count_rparen: |rho|=0.83 with count_class_selector, which is already kept
+[select] dropped count_combinator: |rho|=0.87 with count_class_selector, which is already kept
+[select] dropped count_pseudo_class_selector: |rho|=0.84 with count_class_selector, which is already kept
+[select] dropped count_complex_selector: |rho|=0.88 with count_class_selector, which is already kept
+[select] dropped count_pseudo_class_function: |rho|=0.82 with count_class_selector, which is already kept
+[select] dropped selector_len: |rho|=0.87 with count_class_selector, which is already kept
+[select] dropped count_id_selector: |rho|=0.84 with count_class_selector, which is already kept
+[select] dropped count_type_selector: |rho|=0.85 with count_class_selector, which is already kept
+[select] dropped selector_nesting: |rho|=0.81 with count_class_selector, which is already kept
+[select] dropped count_pseudo_class_ident: |rho|=0.81 with count_class_selector, which is already kept
+[select] dropped count_attr_value: |rho|=0.83 with count_class_selector, which is already kept
+[select] dropped count_attr_matcher_ws: |rho|=0.83 with count_class_selector, which is already kept
+[select] dropped count_complex_selector_list: |rho|=0.84 with count_class_selector, which is already kept
+[select] dropped count_attribute_selector: |rho|=0.81 with count_class_selector, which is already kept
+[select] dropped count_comma: |rho|=0.84 with count_class_selector, which is already kept
+[select] dropped count_tchar: over the 4-property cap
+[select] dropped count_complex_selector_in_has: over the 4-property cap
+[select] dropped count_text_run: over the 4-property cap
+[select] dropped count_relative_selector_list: over the 4-property cap
+[select] dropped count_pseudo_class_selector_in_has: over the 4-property cap
+[select] dropped count_attr_ident: over the 4-property cap
+[select] dropped count_subclass_selectors_in_has: over the 4-property cap
+[select] dropped count_lang_range: over the 4-property cap
+[select] dropped count_title_attr: over the 4-property cap
+[select] dropped count_pseudo_class_function_in_has: over the 4-property cap
+[select] dropped count_more_relative_selector: over the 4-property cap
+[select] dropped count_a: over the 4-property cap
+[select] dropped count_nth_function: over the 4-property cap
+[select] dropped count_relative_combinator: over the 4-property cap
+[select] dropped count_attrs: over the 4-property cap
+[select] dropped count_complex_selector_list_in_has: over the 4-property cap
+[select] dropped count_name: over the 4-property cap
+[select] dropped count_type_attr: over the 4-property cap
+[select] dropped count_input: over the 4-property cap
+[select] dropped count_id_attr: over the 4-property cap
+[select] dropped count_class_list: over the 4-property cap
+[select] dropped count_data_attr: over the 4-property cap
+[select] dropped count_href_attr: over the 4-property cap
+[select] dropped doc_bytes: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_more_value_word: over the 4-property cap
+[select] dropped count_attr_value_words: over the 4-property cap
+[select] dropped count_class_attr: over the 4-property cap
+[select] dropped count_lang_tag: over the 4-property cap
+[select] dropped count_lang_attr: over the 4-property cap
+[select] dropped count_flow_item: over the 4-property cap
+[select] dropped count_node: over the 4-property cap
+[select] dropped count_digits: over the 4-property cap
+[select] dropped count_sign: over the 4-property cap
+[select] dropped count_namechar: over the 4-property cap
+[select] dropped count_more_node: over the 4-property cap
+[select] dropped count_an_b_sign: over the 4-property cap
+[select] dropped count_p: over the 4-property cap
+[select] dropped count_an_a: over the 4-property cap
+[select] dropped count_div: over the 4-property cap
+[select] dropped count_em: over the 4-property cap
+[select] dropped count_signed_integer: over the 4-property cap
+[select] dropped count_phrasing_element: over the 4-property cap
+[select] dropped count_b: over the 4-property cap
+[select] dropped count_phrasing_item: over the 4-property cap
+[select] dropped count_phrasing_content: over the 4-property cap
+[select] dropped count_span: over the 4-property cap
+[select] dropped count_flow_content: over the 4-property cap
+[select] dropped count_section: over the 4-property cap
+[select] dropped count_more_complex_selector_in_has: over the 4-property cap
+[select] count_class_selector stands for count_lparen, count_subclass_selectors, count_rparen, count_combinator, count_pseudo_class_selector, count_complex_selector, count_pseudo_class_function, selector_len, count_id_selector, count_type_selector, selector_nesting, count_pseudo_class_ident, count_attr_value, count_attr_matcher_ws, count_complex_selector_list, count_attribute_selector, count_comma (indistinguishable here)
+[select] joint fit uses 4 of 71 properties: count_more_complex_selector, count_wq_name, count_class_selector, count_attr_modifier (1,296 model fits)
+[selectors_js] loop targets 4 of 71 properties: count_more_complex_selector, count_wq_name, count_class_selector, count_attr_modifier
+[selectors_js] targeting 8 regions: runtime_ns_divergence, count_wq_name_dominance, count_attr_modifier_undecided, cssselect_runtime_ns_count_class_selector_discriminate, count_more_complex_selector_beyond, runtime_ns_high, count_class_selector_edge, runtime_ns_sparse0
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[WARNING] Fandango did not generate any valid inputs.
+  [cssselect_runtime_ns_count_class_selector_discriminate] 24s: no new inputs
+  [count_more_complex_selector_beyond] rung 1
+[WARNING] Fandango did not generate any valid inputs.
+  [count_more_complex_selector_beyond] 40s: no new inputs
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] nwsapi_prev: no measurement after 3 failed attempts; leaving this input unmeasured
+[WARNING] wall-clock budget reached after 3 of 10 inputs; keeping what is measured.
+  [runtime_ns_sparse0] 35s: +2 new input(s), 1 distinct shape(s), 2 measured
+[selectors_js] iter 4: corpus=975 (+90 new)
+[selectors_js] wall-clock budget (3420s) reached before iteration 5; stopping with the corpus intact.
+[selectors_js] grammar frontier (targeting stopped asking here):
+  count_tchar: pinned at 2007 by the SEARCH; 1 escalating request(s) returned nothing further.
+[compare] runtime_ns: 195 inputs, 5 systems (paired; ratios, 1.10x equivalence band)
+[compare] overall verdicts are weighted by what the corpus contains, which the loop itself shapes; the per-region lines are the portable claim.
+[compare] count_wq_name bins move with count_class_selector (1..49 across bins); count_attr_modifier (1..12 across bins); count_complex_selector_in_has (1..33.5 across bins) -- those regions are joint, not count_wq_name findings
+[compare] count_class_selector bins move with count_wq_name (1..33.5 across bins); count_attr_modifier (1..9 across bins); count_complex_selector_in_has (2..10 across bins) -- those regions are joint, not count_class_selector findings
+[compare] count_attr_modifier bins move with count_wq_name (1..52 across bins); count_class_selector (1..49 across bins); count_complex_selector_in_has (1.5..36.5 across bins) -- those regions are joint, not count_attr_modifier findings
+[compare] count_complex_selector_in_has bins move with count_wq_name (1..29 across bins); count_class_selector (1..34 across bins); count_attr_modifier (2..7 across bins) -- those regions are joint, not count_complex_selector_in_has findings
+  cssselect vs domselector undecided: cssselect ahead by 1.47x but the 95% CI (1.09-1.90, n=195) spans the equivalence band
+      DEPENDS ON SAMPLING: counting each count_wq_name bin once gives 0.77x (95% CI 0.69-0.88, 7 bins, equal weight per bin), verdict 'b_faster' not 'undecided'
+      DEPENDS ON SAMPLING: counting each count_attr_modifier bin once gives 0.72x (95% CI 0.69-0.86, 7 bins, equal weight per bin), verdict 'b_faster' not 'undecided'
+      DEPENDS ON SAMPLING: counting each count_complex_selector_in_has bin once gives 0.61x (95% CI 0.53-0.73, 5 bins, equal weight per bin), verdict 'b_faster' not 'undecided'
+      ... and 2 count_complex_selector_in_has bin(s) have too little data to enter that: [1,1.944), [3.78,7.348)
+      crossover on count_wq_name (confounded): cssselect better below 2.01, domselector better above 8.124
+      undecided on count_wq_name (confounded) in [2.01,4.041), [4.041,8.124) -- needs more inputs
+      crossover on count_class_selector (confounded): cssselect better below 1.989, domselector better above 7.874
+      undecided on count_class_selector (confounded) in [1.989,3.958), [3.958,7.874) -- needs more inputs
+      crossover on count_attr_modifier (confounded): cssselect better below 1.533, domselector better above 2.351
+      undecided on count_attr_modifier (confounded) in [1.533,2.351) -- needs more inputs
+      crossover on count_complex_selector_in_has (confounded): cssselect better at 0, domselector better above 7.348
+      undecided on count_complex_selector_in_has (confounded) in [1.944,3.78) -- needs more inputs
+  cssselect vs nwsapi undecided: cssselect ahead by 1.16x but the 95% CI (0.94-1.33, n=126) spans the equivalence band
+      undecided on count_wq_name (confounded) in [1,2.01), [2.01,4.041) -- needs more inputs
+      undecided on count_class_selector (confounded) in =0, [1.989,3.958), [3.958,7.874) -- needs more inputs
+      undecided on count_attr_modifier (confounded) in =0, [1,1.533), [1.533,2.351) -- needs more inputs
+      undecided on count_complex_selector_in_has (confounded) in =0 -- needs more inputs
+  cssselect vs nwsapi_prev undecided: cssselect ahead by 1.10x but the 95% CI (0.90-1.33, n=126) spans the equivalence band
+      undecided on count_wq_name (confounded) in [1,2.01), [2.01,4.041) -- needs more inputs
+      undecided on count_class_selector (confounded) in =0, [1.989,3.958), [3.958,7.874) -- needs more inputs
+      undecided on count_attr_modifier (confounded) in =0, [1,1.533), [1.533,2.351) -- needs more inputs
+      undecided on count_complex_selector_in_has (confounded) in =0 -- needs more inputs
+  nwsapi better than domselector on runtime_ns: 2.05x (95% CI 1.89-2.25, n=126, p=4.6e-20)
+  nwsapi_prev better than domselector on runtime_ns: 2.08x (95% CI 1.90-2.23, n=126, p=3.06e-20)
+  nwsapi and nwsapi_prev equivalent: ratio 0.99x within the equivalence band (95% CI 0.98-1.00, n=126)
+[compare] rss: 195 inputs, 5 systems (paired; ratios, 1.10x equivalence band)
+[compare] overall verdicts are weighted by what the corpus contains, which the loop itself shapes; the per-region lines are the portable claim.
+[compare] count_wq_name bins move with count_class_selector (1..49 across bins); count_attr_modifier (1..12 across bins); count_complex_selector_in_has (1..33.5 across bins) -- those regions are joint, not count_wq_name findings
+[compare] count_class_selector bins move with count_wq_name (1..33.5 across bins); count_attr_modifier (1..9 across bins); count_complex_selector_in_has (2..10 across bins) -- those regions are joint, not count_class_selector findings
+[compare] count_attr_modifier bins move with count_wq_name (1..52 across bins); count_class_selector (1..49 across bins); count_complex_selector_in_has (1.5..36.5 across bins) -- those regions are joint, not count_attr_modifier findings
+[compare] count_complex_selector_in_has bins move with count_wq_name (1..29 across bins); count_class_selector (1..34 across bins); count_attr_modifier (2..7 across bins) -- those regions are joint, not count_complex_selector_in_has findings
+  cssselect better than domselector on rss: 2.80x (95% CI 2.79-2.81, n=195, p=9.48e-34)
+  cssselect better than nwsapi on rss: 2.81x (95% CI 2.81-2.81, n=126, p=2.03e-22)
+  cssselect better than nwsapi_prev on rss: 2.81x (95% CI 2.81-2.81, n=126, p=2.03e-22)
+  domselector and nwsapi equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=126)
+  domselector and nwsapi_prev equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=126)
+  nwsapi and nwsapi_prev equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=126)
+[compare] dominance across runtime_ns, rss:
+  cssselect ahead on rss 2.80x but runtime_ns undecided -- not a dominance claim until those are settled
+  cssselect ahead on rss 2.81x but runtime_ns undecided -- not a dominance claim until those are settled
+  cssselect ahead on rss 2.81x but runtime_ns undecided -- not a dominance claim until those are settled
+  cssselect ahead on rss 2.81x but runtime_ns undecided -- not a dominance claim until those are settled
+  nwsapi DOMINATES domselector: better on runtime_ns 2.05x; equivalent on rss
+  nwsapi_prev DOMINATES domselector: better on runtime_ns 2.08x; equivalent on rss
+  nwsapi and nwsapi_prev EQUIVALENT on every metric
+[interference] 2 property pair(s) tested over 975 rows; 0 show a dependence
+[selectors_js] past the wall-clock budget; skipping the model fits and plots and writing the report. They are a function of corpus.csv, which is checkpointed, so the next run recomputes them from the same inputs rather than re-measuring.
+[selectors_js] metric cache: 975 entries, 7164 SUT executions this run
+[selectors_js] wall clock: 3438s of 3420s budget
+[selectors_js] report -> ./results/rq1/20261002-2341-selectors_js/run1/selectors_js/report.md
+[selectors_js] done. corpus=780 rows (195 inputs x 4 systems). Artifacts in ./results/rq1/20261002-2341-selectors_js/run1/selectors_js

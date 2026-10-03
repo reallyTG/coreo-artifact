@@ -1,0 +1,32 @@
+$
+@@@
+[	 true	 	,
+		 
+ false,	
+
+["yzzxxxz"	
+
+	
+ 
+,{}
+ ,"xy",null,	
+   null	
+		,false  
+	
+],null	,false, 	 
+ [-0,    
+
+null,{  
+}
+
+	
+
+,-0	,   		"x",		 false,[	 	false,  	
+ 
+false,-0	  
+ , 	  	
+"xyxzyxxyxz"
+
+    ]	 
+	,		0.5,		null,false 	  ,true]] 
+	

@@ -1,0 +1,3 @@
+p ~ a#bcdabddabdaa,[ type|= "a" i] *#ca:required > *+:is(p#b:first-child:enabled+#bc),*.a[ class =ac-bddcc ] ,*#d:has(+ * > em:lang(bdcaaaddbdcc )+*:read-only:not(*+em#ac> a+ a).b.aacb.adaabcaccbdcb >* input.ab#bd):last-child.b:read-write:last-child:enabled +.b
+@@@
+<!DOCTYPE html><html><body><em class="badcabcadbdaba"></em><em>c c bbba</em></body></html>

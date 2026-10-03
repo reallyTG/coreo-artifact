@@ -1,0 +1,135 @@
+$[?(!match(
+	  
+length(
+ "zyyyzzxzx\"\\x'yzz\"z'")		 
+
+
+	,	"z?|y+|x*" )&&
+ 	 	 match(		
+"xyyzyxxz'zyzxy",
+ 
+'(z|.*|a*|b+|x|a+|x+|d)*|x|x|.*|x?|d'		
+		 )&&	
+	match(@["d"][-84]['cabdc'][8][0].c.bacababdccd[0][3][0].cdcccabdc
+
+
+,	"y"  ))][?( 	  	
+	 match(		
+
+$[74].cc	,	  "a?|c|x|b?|z?|y+|z"		)&&match( 
+@,"x|y|(b)+|z|d|y|d|x+|x?|d" 
+)	  )][?(  
+ 
+
+  	match(count(	
+	 	$[?(! 	 
+
+	 match(length(
+ $	 	),'((.?)|z?|x|.|x+|x{1,2}|c*|x|z|c)'				
+)&& 	match( 
+
+	$
+
+
+
+,  
+'a?|x{0}|z{2}|c?|x|(b)|c|d|y*|b?|z?')&&  match(	 
+
+  
+
+	$[-8]	,'.|a{3,}|b?|x')&&match(	$.d[-8] ,					"(y|x{1,2}|c|a|((.|b|((d|a|z+|x{2,4}|b|d)|y|x{1,3}|a+|z+|(a*)?|z?|b{2,4})|[a-da-da-dx-zdczb]|d+|a{9})*))?"	
+
+
+	)&& 
+
+
+ match(true,'(b|b|z|x|x|b{1}|d|c?|[^zx-zba-da-ddx-z]|c)?')
+
+
+ &&
+
+	match(  length("xy"
+	
+) 	 	 
+	
+,		   	'.+|(d)|(y*|z|(y+){2,4}|a|a*|b){1,3}')	 
+	
+
+ 
+&&match(	
+
+ @[0][0].ccccbdadcd['cb'].ba[-20][""]['dac']['db'],"z+|(a{0,1}|c|[ayx-zx-za-da-d]|.|[cb]|y|c*|b?|a*)" 
+
+ 
+)				
+&&
+
+match(
+		40 		 ,"[x-zx-zx-za-dzx-za-d]*|d+|y|(c|d|.|.+|z|[a-d]|z)|d|y*" 
+)&&!	
+ 
+ match(@	 	
+
+ 	,  	"x|c+|a+|z?|y{0,2}|x|y+|."
+ 
+	
+	))][?(match($['cdcddccdb']["c"],'(c|a?|x|y?|x|c+|c{0,}|z|.?|a|y){0,1}|(y)|d|([a-dx-zx-z]|c+|[x-z]|(b?)+)*|(a)|.{2,4}|c|d?|x{1,2}|d*'	 	
+))][?(! 
+
+	 
+match(
+  		
+	 false,
+
+	
+"z" 	 
+)		
+
+ 	 &&    
+
+match("z" 
+ ,"z")	 
+ 	 &&
+
+	
+!match(null,"((d)*|a+)|.*")&&
+ match(
+
+	
+$.acca,
+	 "c")&& 
+
+
+	  
+match( 620010830001850.139180   	 	 ,"(a+)|z")			 
+&&
+
+		  
+	!match(length(value( 	 	
+ @[?(match(	   		@[-3][-7].dd.d,"y?"
+		
+	))][?(
+ 	 
+ match(value($[?( !match(	
+@.cdcdb["accbcac"]['b'][6].cc[-54240484]['ddb'][30].dc[""][970000000030].caccadcddd,'y|d|x'
+
+
+)   	
+	
+ 
+||!match(@[0], 	  "z?|d+")	
+ 
+
+&&match(false,"d{2,4}") 	 	
+
+)][?(match(false,"x"))]
+
+ 	) 		,"c|.|b+")
+
+)]		)	
+ 	 
+ )		 
+
+, 'c|a|a{2,4}|a*|b+'))]),'y')||match(true,"y") )]
+@@@
+[false]

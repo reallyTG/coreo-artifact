@@ -1,0 +1,1 @@
+SELECT c_a__d FROM de1 WHERE ec11e IN(100 , 03,bc__ba11eb,7796 OR 8186877 , 57491 ,a1.dcecadde,ac1eb OR dcd1eaab ,8 , 127470889,8973002 , 749, 7785722462, 34 ,6 AND 5286961023 , 723106181 AND ed1cd , 8 , 5, a_ab.c , 158952 ,35659197 ,_aaeadd);

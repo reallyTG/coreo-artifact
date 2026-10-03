@@ -1,0 +1,81 @@
+$
+
+			
+	[?"zzzyzzy\"x\fzyyz\"'x\f\""
+
+
+
+
+
+>= 
+"xzyxzyy\ty'\tx\""
+  
+ 
+][
+
+ 		 	?"yy\/\"\txxy\""   
+	
+	<"yxxy''\b\\\""||"xyxzzxyyx\/\\'\nxz'\\xy" 
+   
+<="\ryxyz"||"yyz\uD9fc\udffdyy'xzz">
+		 "zzzyx\"'\"x\b\"yzz\ud4DExzzy"  	
+ 
+		&&"yyxzxyy\byyz''">		"\tzyyxx\"\tz\\\""&&"zzzxyzzy\"'\/\"\b\"xy\"\"">"z\"\n\nxx'y\"'x\"\"\"\""&&	"zzyxzxyxyz'zyy'\""<=
+ "xzy'\"xy\"'x\"\\'y"
+||"'y'\\'y\/"> "y\ud7cF\f''xyx\"'\f\"z"&&"zzxxyxzy\"yx\"\/yz\nyy\uD8CB\uDdcb\\y">"zxyzxzzyzy\"'y'\\\"'zxz\t'\t"||"zxzxzxyxyy'zxx\"z'\r\"'y" !="xzyzyxxyyy\\\"yxz\"yzz"||"zzxyzxy'z\"\"y'x"!="xxyyxzzy\"z'xzx\"\"\"" 
+||"yzxz\ud8Af\udedDxzyxyxzy'\/y\uD9Aa\udDA0"
+		
+  !="\/zy\ty'yx"
+			   &&"'x\"\"\"\"x'"<=	
+"\t'\"\"zyxyy\"\""&&	  "yzxxy\f'y'\nx">"\fy\\y\b\"\bzx'" 
+ 
+
+&&	
+
+
+"\b\"\nzz'" 
+>= "x'yyx'zzzz\fxxz\""&&  "xxyyzzzy\"zyx\f"=="xzy'\nyxxz'\b\"'"
+||"xyx\bz'zy'yyx\ty'" 
+ 	
+		<	"xyxyxx\uDaFA\udFfDxxz\"'\"\t\t\ud5cA"&&	"yx'\"'yz'"=="xyyyxzzxzy\"x\b\"\"xx\b'z'"&&	
+	
+"zz\"\\\uECFAyy\"\nyzyyy\t\""<"zzxyxzy'y'zzz" &&"'\b\"zy'\"'''"
+<="yx\"y\"y\f"&&	
+ 	
+"zyxxxyyy\tz\bx''xz\\"=="zxzxz\uF9Cey\"z'\n''\"y\"" &&"zyxyxyy'y'y\/yy\u9eaDxzy"<="yyxyxyzz\\\\zzzzyz"&&"xzy'\/\"'\"xxz"	 
+
+
+
+>="zzyyzyxxx\byz\n\/'x'"||"'x\/\fx''\""
+ 		 <="yxzzy\rzx\b\"yy\uDAf0\udcaD\r\rxz" 
+
+ 
+	&&	
+
+"xxyyzzy\"xx'y\"zy"<"\r\n'\txzz\n'zz"	
+
+	 	&&
+					
+	"yyyz\"\r\byx'z\"yxy\"z\"" 			 >="yyyzzzz\fx\r\tzxyy\"''yz"  	&&"yyzxxzzyz\t\"x\"\"\""==
+ 
+	"y\"xx\\yx\b"&&"xzyzzxx\n'''z\"z"	 	  <="yyxyzxx'\r'\tz\""
+
+
+ 
+
+&&
+
+  
+ "zxxxyxzz\"'\"\/'''"
+	<	 "zzxzzzzyz\bx'\n'\"xz\""&& 	 "xyxyz'zz\"zy\""=="xxxxz\/y\tyzx\n\ud6Be\b'y'"&&"zyzx'x\"'\"y\ty"=="yxxxz'\rzy\nx'zzy'\f\f\""
+||"yzx\"'\f\r\"x'y'z"  	< 
+  "x''z\"xz" 
+ 
+	 	,
+	 	 
+	?
+	 
+   
+"yyxyx'\\\r'x\"x"<=	"\"xzz\""]
+@@@
+[true]

@@ -1,0 +1,64 @@
+$.*
+
+..[
+ 		
+
+
+
+0: 
+]
+  		  		..*..cccccbadbbd..*.*
+	
+ ..*..[
+
+		
+  
+ ""	 		]..ccbaaacabc  .*
+@@@
+{"a"
+ :				 
+	
+[
+{"dc":
+true,"bdcbc\/\f\nad" :true,	 
+ 	
+"ccdc\f\"\rb" 
+	  
+	:[ 
+
+ 
+	true	
+   
+
+,		
+
+
+
+ {}, [false, 	 
+
+
+	true,null, 
+	
+ "zz",false   ,
+
+		 false, 	
+[
+ 	 
+true		
+	
+	, 			
+"yzzxx","xxzxyxzz",
+
+  -1.373010001E-00,
+
+"xx"	
+			 
+ , 	  {
+ }
+		 	 
+ ,
+ 	
+
+	
+
+true]]]}]}

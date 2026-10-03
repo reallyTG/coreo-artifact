@@ -1,0 +1,3 @@
+$..*.a.ba.a
+@@@
+{"ababcadabbd":{"a":0},"cbcdccaab":["x","zz",5],"bbdadbacbdcc":["x",0,50,0,"xz","yyz","zy"],"bcbcdbdddbaa":[0,"xy",6,"zy",8,66,8,"xx","yzx","zx"],"dcbbaaacdc":{"a":0},"dadacadbab":{"a":4},"adbaacbdb":[0,"y","zxy","xzz","zyx",0,"zxy",6],"cadcadaac":[0,"yy","yyz",1,69,50,0,"zz","zz","xz","yx"],"accdbcbabad":["yzz",30]}

@@ -1,0 +1,6 @@
+subject,category,language,blind,a,b,metric,expected,n_regions,n_decided,n_for_a,n_for_b,outcome,explanation,explains_expected,explanation_evidence,best_ratio,best_prop,best_prop_relevance,best_region,shape_checked,n_shared_inputs,n_disagree_dropped,run
+jsonpath_plus_latest,series,JavaScript,True,jsonpath_plus_10_2_0,jsonpath_plus_10_3_0,runtime_ns,,27,0,0,0,no_difference,,,,,,,,hits,796,0,1
+jsonpath_plus_latest,series,JavaScript,True,jsonpath_plus_10_3_0,jsonpath_plus_10_4_0,runtime_ns,,27,0,0,0,no_difference,,,,,,,,hits,796,0,1
+jsonpath_plus_latest,series,JavaScript,True,jsonpath_plus_10_4_0,jsonpath_plus_11_0_0,runtime_ns,,27,13,13,0,reported,,,,1.233,count_logical_function_expr,0.67,1-1.893,hits,796,0,1
+jsonpath_plus_latest,series,JavaScript,True,jsonpath_plus_11_0_0,jsonpath_plus_11_0_1,runtime_ns,,27,0,0,0,no_difference,,,,,,,,hits,796,0,1
+jsonpath_plus_latest,series,JavaScript,True,jsonpath_plus_11_0_1,jsonpath_plus_11_1_0,runtime_ns,,27,0,0,0,no_difference,,,,,,,,hits,796,1,1

@@ -1,0 +1,61 @@
+$[?(
+!match( value(  	
+  
+@[?(
+ 
+ 	
+	 
+!  
+
+
+	
+	 	match(	
+	 
+ value(
+ 
+	 
+
+
+$[?(!match(	
+	 	
+count(
+
+
+
+
+ @),
+
+'((b+(zz*z*|z*c?a+|z{2,4}y+|dy(z{9}z*b?|y?x+|a+za*|c{0,1}z+a+|b+ad*|cb{1,2}|x{1,3}aa+|b[^ax-za-ddba-dx-z])*|xa[^a-dzyyax-zc]*|dca?)*[aza-da-dx-zx-za-dca-d]|a*d?|.{0,}.y)c+(y?az|c{0,}y.+|xyy|x?dy|[^a-dzx-zx-zba-dya-da-dx-z]x{0,1}y+|d?b*|z([xx-za-d].?x|db+x+|.b(ba){2,4}|z{1,3}(ax*)?c?|[^a-da-dx-zyx-z]*ca))*)?a{2,}'	
+
+
+	 )&& match(value( 	@),
+
+'z*y|ab+a'))])
+
+
+,
+	
+	 'x*b')	 
+
+
+
+ 	&&match('x'	 ,  
+
+	"(x*d{1,3}[^cx-za-dx-za-dax-za-dx-z]|z([^a-dx-za-dx-za-dyx-z]?bc?)y?|b{0,2}yc|yb?|a(ca+z)[a-dx-zx-zx-zya-d]{2,4}|bz|zxb|zax|a+[ax-z]x?)ca")  
+	|| 
+
+
+	!match($.ab["'ad\"\"\ud6ef'"][0]["bab"] 
+,'b?c+|z?zb|c{0,1}[^x-za-da-dx-z]+d|y{0,2}(b((b?y{0,1})*x){1,2})+|x+z+|b?yb{1,2}')&&match(
+
+	length(-1)
+
+
+ 	
+,   
+ 
+				'.*cy'
+)||!	match(null,'a*a+b|bx?y|z*x+a|x[^a]b|xd+d?|a*aa|(b?b*x|b?z{1,3}c{0,2}){7,}b|y?c|(b?d|d{1,2}zc{1,3}|a*(x{0}x|d+b+|d*z*a|y?a?d|x(d.?)?|d{2,4}(c*d|(ay|(b?a?|c+x*|c*bx|yda|[^zcx-z]x?c|c?z*|(c*c*)b{1,2}d|zc(zz{0,2}.*))c|.x+|x*a|[x-zx-zza-da-da-dx-za-dx-zb]c?|c?x*|z{2,4}a|xx+b*|b(ca?b?)|.c|a*d(((zx*){0,}a?a?)b|b?yx+|b{1,3}([adxbbyx-zx-zd]x)|xz+|y?d+c))a+|c{1,2}b.?|[^a-dx-zx-za-d]*z*|(b?.?|(a*c)?b*|b{2,4}.|b((d{0,1}d+x{1,2}|.y?){1,2}(b+d+a+)a+){9,}|a?y?|y?a|y(d?c?)*c{0,2}|b?[^x-zx-za-dx-zx-zx-zx-zx-za-d]*|ac+|xa)[yzy]{0,1})x*|da?.{0,}|.+.y|(x?y([^x-zxya-d]?a|cy([x-z](xa(d?a*|ydb|ad))?(y*ba|cdy{1,3}|yx*z{0,1}|xb+|zx+d|cyb?|[^a-dx-zda-dbd]x|x+yz|d?xb))?|c{0,2}ax{1,3}|b{0,1}y{0,1}|b?a|z{0,1}ba?|a(z*a|(z*z)b+.|za{1,3}|z{0,2}[x-zx-za-d]+b|z?xa|b+a+|(zby|(bx)(y+dx)|ay*d?|b(yxb?)(zdd|a+yz|zx|d+(c?z?)*|x{2,4}.?|b+y[a-da-da-dx-z]?|.*x{1,3}.|(d+dx)b{2,4}|.*b|y.*|([^a-da-dza-dx-z]a|z?y(b?a*z|a?x{0,1}|ac|b?a{0,1}y{1,2}|yd*|cd?x*)|.[zya-dx-zbzx-z]*b|b*x{5}|dy{2,4}z+|dz?|y(c?cd)?)c[^a-dxx-zxx-zx-zdx-zx-z]{2,4})+|xd?|c*b?|b{1,2}b{5,})b?c?|x(zd|y.c|xb{0,}z+|x{0}bc|dd{0,2}|bx{0,1}[^x-za-dzx-zc]|d?[^x-zx-zx-zz]|z{1,3}(yb)|x?za+|(.z)?cb{0,}|x+x{0,1}(b{0,2}c*)*)a|y(bx*(zx+z+)|(x*y*d{3,}|.y*a{7,}|ad{1,2}b|[^x-zx-zx-zx-z](x+x+z|c+(ay[^xa-d]?|xy|.x?)))z))?))*c))y')	)]),'za')||match(false,'yz')
+)]
+@@@
+[true]

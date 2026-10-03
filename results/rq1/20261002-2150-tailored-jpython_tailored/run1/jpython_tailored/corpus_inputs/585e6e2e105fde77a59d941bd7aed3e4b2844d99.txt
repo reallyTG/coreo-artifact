@@ -1,0 +1,3 @@
+$..a.a.*
+@@@
+{"daacbaba":[0,8,"zzz","yy",90,0,2],"acadadbdb":[3,"xxy","y","xyy","xyy","xx"],"ccbbbcdb":70}

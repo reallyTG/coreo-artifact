@@ -1,0 +1,55 @@
+{
+  "__grammar__": {
+    "digest": "1e38726bcf36a8868b5a87e5d6f0a651674c14fa"
+  },
+  "count_attribute_selector": {
+    "constant": false,
+    "last_max": 18.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      19.0,
+      36
+    ],
+    "rung": 0
+  },
+  "count_pseudo_class_selector": {
+    "constant": false,
+    "last_max": 20.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      21.0,
+      40
+    ],
+    "rung": 1
+  },
+  "count_tchar": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 2007.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_node>"
+  },
+  "count_text_run": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 86.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_node>"
+  }
+}

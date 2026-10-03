@@ -1,0 +1,35 @@
+bin
+include
+lib
+share
+pyvenv.cfg
+**__pycache__
+output/*
+!output/_ablate_jsonpath_plus/
+.DS_Store
+*.pyc
+.vscode/
+
+# generated artifacts (produced by runs; not source)
+subjects/*/plots/
+subjects/*/pdfs/
+subjects/*/split_summary/
+subjects/*/resources/
+
+# build products of the per-subject language runners
+subjects/*/node_modules/
+subjects/*/package-lock.json
+
+# stray / personal scratch dirs (not part of the artifact)
+examples/
+example_summaries/
+*.pdf
+
+.venv/
+
+# per-engine virtualenvs (subjects/jsonpath_py/build_envs.sh rebuilds them)
+subjects/*/envs/
+# PoC dependency trees; each finding's package.json pins what it needs
+findings/**/node_modules/
+
+# Evaluation runs: fresh corpora per run, far too big to track.

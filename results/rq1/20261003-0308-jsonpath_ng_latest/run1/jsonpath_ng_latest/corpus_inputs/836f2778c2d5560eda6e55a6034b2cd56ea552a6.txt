@@ -1,0 +1,61 @@
+$..c  	
+
+ ..*[::0]
+[?!
+
+
+
+
+match(
+			
+ 
+	count(@.d),true
+ 
+
+)]   ..* 
+..*..bcbca
+@@@
+ 	
+ 
+[		
+[
+  null,false , true,  
+
+{}  
+
+		  ,false	 ,		 
+[],  
+	 		{},{
+	
+"d" 	 	
+ :  
+
+ 	
+
+"y"	 
+,
+"d\\ca\\":"",	
+
+
+ "adcdcb"   
+	
+	: 	
+false,	
+	
+
+  "a"	
+:"zyzxyzyyzxz", 
+"cc"
+  :[	
+
+
+  ],	"ab":
+ 
+ "x","cbacdacc\n\rd\\\b\t":  	   	0.04  ,	"\\\t\/\/"
+
+:{
+
+
+"cdc":
+
+		 		""}}]]

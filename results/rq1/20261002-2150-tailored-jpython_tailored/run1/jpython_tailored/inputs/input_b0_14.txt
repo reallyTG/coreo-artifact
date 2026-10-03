@@ -1,0 +1,3 @@
+$..ad[*]..*
+@@@
+{"bccaccda":{"a":47,"b":["yx",40],"c":"zz"},"daaaacaadb":[5,10,71],"bbbaccbc":{"a":0},"bbbabaabbbac":{"a":0,"b":["zx","yyz"],"c":"y"}}

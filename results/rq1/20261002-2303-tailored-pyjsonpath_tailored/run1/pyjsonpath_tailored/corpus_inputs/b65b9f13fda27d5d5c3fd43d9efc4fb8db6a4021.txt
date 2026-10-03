@@ -1,0 +1,3 @@
+$.*[?match(@,'y*yy.*|y{2,4}zx?')]
+@@@
+["yxyxzx",{"a":"yxxzzyz","b":"x"},{"a":"yzzxxzyyyyy","b":"yyyzzyzxyyz"},{"a":"xzxyyy"},"yx",{"a":"x","b":"xxxxzzyxx"},{"a":"z"},{"a":"zyyxxx","b":"zy"},"xz","y",{"a":"x","b":"zxyzzxxyxyy"},{"a":"xx","b":"x"},{"a":"zxxzyx","b":"yz"},{"a":"xyyyyxy","b":"z"},"xz",{"a":"zxz","b":"yz"},{"a":"z"},{"a":"zxzyzyyxzzx"},{"a":"yxxzzxyz"},{"a":"xy","b":"zyyxxzy"},"yzyyzxzxzxzz",{"a":"xxyzxxzxxx"},{"a":"xx"},{"a":"xz","b":"zx"},{"a":"xy","b":"zx"},{"a":"yy","b":"zyyyyyzx"},{"a":"xzzyzxxzyzxx"}]

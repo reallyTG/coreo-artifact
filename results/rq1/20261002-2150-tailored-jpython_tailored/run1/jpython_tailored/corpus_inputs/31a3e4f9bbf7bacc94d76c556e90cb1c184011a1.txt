@@ -1,0 +1,3 @@
+$..*[*].c
+@@@
+{"bbcddbad":["xx","yy",14,0,90,"yyy","xzy",0],"dcadbabbbbc":"x","dabbddbdacd":"xzy","abdaaabccdc":"yzx","aaaabaabcdc":"yyz","cdadacbcab":{"a":0,"b":["zzx","xy","y",0,"zzy","x",0,"yy"]},"abaccbdcaac":[0,1,78],"bbdbadabdddd":"xz"}

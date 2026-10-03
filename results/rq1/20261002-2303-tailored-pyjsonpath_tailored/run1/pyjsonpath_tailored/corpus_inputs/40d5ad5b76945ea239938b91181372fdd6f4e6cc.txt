@@ -1,0 +1,3 @@
+$[*][?match(@,"zz")]
+@@@
+[{"a":"xzxxxyzz"},"y","zzxyxyx",{"a":"z"}]

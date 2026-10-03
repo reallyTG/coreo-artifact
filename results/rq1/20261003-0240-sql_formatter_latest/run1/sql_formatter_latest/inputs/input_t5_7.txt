@@ -1,0 +1,31 @@
+With dade_bee AS ( With d1ca	 as ( With recursive c1d("""B a"""	,"""a")
+As ( (select
+distinct ON(Null + lower	(* )	^ -	+ B'1' ^ (NOT +  Null + + a_.cbd1d."B.""BB""a"[ Exists(with RECURSIVE
+"""aa"( acabbb1 ,cbd1,ce , "a a ") AS(select Union	Select Distinct
+_c.*) Select all dc_1.* FOR SHARE)::smallint[ ] ->> Exists
+( SELECT all  * FOR Update) not IN(	NOT True::varchar is	NULL) <> NULL
+ or array[ ]::text::integer isnull] % -
+ROW( )	 ILIKE some( +
+0 / row ()) =
+All	(Select Offset 7 Row) ISNULL And " ".e._ IS False or NOT e_d ISNULL)::a[ ] << Any  (Row(  ) Is not false) Or not - _e__1 notnull) e_cec1_b.*)  Union  Select	eec.*) Select all
+ *), _e1eee AS(
+ select *,* for	SHARE) , db1c as(select distinct
+dad.* FOR Share),_ccb1a AS ( SELECT Distinct * for SHARE)," .BB"	As (SELECT DISTINCT ae.* For SHARE) ,_e__dc1b as(select  ALL for
+KEY share),ac_e1b_c as(	select All FOR UPDATE), e1	AS(select distinct cc.*,*), ebbb1dd_eb
+As(Select DISTINCT *),b___adce As(SELECT	distinct * offset 0 ROW FOR update) ,eba11ccec as ( SELECT *),
+ cc_c1deec as (SELECT	All for SHARE) ,b_cc_eb	as ( Select distinct * FOR share),
+aaabedde	AS (Select
+All
+FOR share) ,
+ a1_a_ as (select all) ,"""aBB""." As( Select /* c */ 
+DISTINCT *) ,""" a""""B" as(Select Distinct	 *  ,* FOR share) SELECT distinct *, _cb.*) ,ab11e as ( SELECT
+* For SHARE),db_ as ( SELECT  Distinct *, "B ".*) , "a B""" AS(select ALL For Update),	_	 AS ( select all offset 7695 ROW for SHARE),bc1a_ AS (SELECT __.*) ,dedba As (select DISTINCT *, ac.*)  ,  "B.B""aB"	As(SELECT), ab_1bdabec
+ AS
+(Select) , b As
+(	Select DISTINCT aa_1dbceba.*) ,de1cdabe as (Select Distinct ca.* for share),
+" B" As  (	select	 * FOR UPDATE) ,e1c  as ( select Distinct eb.*) ,_a_ca1c as ( SELECT distinct
+*) , _cbb As(SELECT distinct *, *,*), ade1 AS(SELECT All FETCH
+Next 18 rows ONLY) ,_
+ -- c
+  As (Select	distinct * For
+UPDATE) select offset  12 rows	;

@@ -1,0 +1,3 @@
+#d, a ,[lang ] +[href ] , * + *#cb
+@@@
+<!DOCTYPE html><html><body><p id="aabb" title="" lang="abadcccb"> abbb<b class="a abcccab c cc dadcbdb bc" id="dabbcabdbba" lang="dbcbaaabdb-dabcac"></b><a href="#abdbccb" class="adbcbba" id="d" title="" lang="badbbccdbc-dadda"></a>c<b title="ad" data-a=""></b></p></body></html>

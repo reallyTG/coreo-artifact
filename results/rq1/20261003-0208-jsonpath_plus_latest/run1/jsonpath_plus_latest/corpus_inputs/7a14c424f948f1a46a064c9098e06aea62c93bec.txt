@@ -1,0 +1,172 @@
+$[70].*[0]
+@@@
+      	{	 	
+		
+"cb" 	 			
+:true ,"bcccb"
+
+ 	
+:	 	 
+-0.0912e0	 	
+  ,"acd"
+	 	:	 
+  	 	[[
+
+ 
+false,
+[ 
+	
+ []
+
+		
+	
+
+	,  
+
+	
+"xz" 
+	,""] 	  	
+, 	
+ 
+[ 	false,"zy"   
+		,		
+null 
+ 
+
+	
+ ,true,
+	"y",[], 
+null		
+ 	 	,0.6E0   	
+
+,{"adb" 	:null
+	
+ 
+, "b":0e-60,"bdd\\\r\"b\na\f\t\"":
+	 "zyxzxyyzx\uDBAf\uddebzz\by\n"  
+ 	 		,	
+
+	
+"cbacacab\ba":true
+
+	
+	  } ],	 
+  
+"x" 	
+		 ,		
+ 	 
+null,
+  
+	 
+{	
+ 	
+			} 
+		 ,[ 
+   null,			true,	 
+false, null,null,[
+   null, false
+ 
+,9e00,
+true,{
+"dadbbaabadb":{  		 
+  "adb":		  
+		 [		 ],"\"":
+	 31.410005E+02	
+ 
+ },"babaddbbbbbba"
+	
+ 
+:"zxzzyyzzyy" 		
+ ,
+
+ 
+
+  "abbcbbaccd"		:"zxxxxz"
+	
+	 },true  
+
+	,[
+ 	  
+"yxyxz"		
+	
+, 
+
+	null, 
+ null,null,false,
+	
+
+	true]],		null
+	
+	  ,	null,-80e-45
+			
+
+, [   	
+
+ ],	-0e+04
+]	
+
+
+,-80
+	
+	
+],
+ 
+[true,
+	true,true,{	
+
+ 
+	"d":{},"b" 		 	 	 : 	0.0240,	 "add": 		 true	 	 			,  		"bcc":true,"caccc\\c\t\rbb\t\b\uD7Ec":true
+,
+ "a"  	
+
+ 
+
+:	
+
+   	false}  
+	
+,			   	
+true
+
+ 
+,
+			null 
+	
+
+,
+	[
+
+  	  
+[		
+ 		 ]  
+	
+,
+
+ 	
+	 [
+
+	
+	  	] 	
+  ],true
+ 
+
+		 
+, 
+false],	 		 [{	  
+
+  } , 
+ 		true]],"dbcacdbab"  
+:true,"abacacc\\\b":0, "aa":true, 	
+  	 
+"bccab"	:	 
+
+""
+
+,"bbcbcc":	 0.0060302099E-4, 	
+	 "ca":{
+ }	
+	
+
+	 ,
+	
+"dbdbdbcabcdd":false}

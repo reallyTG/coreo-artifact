@@ -1,0 +1,3 @@
+$[?search(@,'zy*|yxy')&&match(@,"x*")&&!match(@.b,'[^x-zx]y.|y')&&!search(@.a,"y{1,3}")&&match(@,'xx?.?|x+yy?')&&!match(@.a,"[xzx-z]y*z+")&&!search(@,"y|y.{1,3}x+x")&&!search(@,"z*y.")]
+@@@
+[{"a":"yxz"},{"a":"yzyxxxzz"},"yzxxzxxxz"]

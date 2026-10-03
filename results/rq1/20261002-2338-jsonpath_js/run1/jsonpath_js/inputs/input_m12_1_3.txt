@@ -1,0 +1,146 @@
+$[?("yxzzyzy\\'yz"  
+
+  
+	>	
+	
+
+ "xzyxxx\/yz"		&&
+"xyxxy\"\uDbde\uDcBd">   
+ "zyz\fxy'" 
+
+
+
+&&  	
+"\"\rz'"
+		
+	 		<=
+	   	"zxxz'z"&& 	 "xxxyxzzyy\"yz'"== 	
+	  
+ 
+"xxzzy'z\"\""
+
+ &&    "yxyz\"'\f" 
+
+>="zzxx\uDadE\uDDCEy" 
+
+	&& 	
+ "zxzyz\"z\"z"	
+	 
+ 	<=		
+
+		
+ "x\"\"\fx" 	
+&&"z\n'\"'">="x\"'xy"&&"yxxyzyzzyz'xzx"	
+=="xxxyzy\"y"||			"yxxzy\/\t" <="xzzyy'z"&&"xxzzxyy\rx\t"<"xxyyzxxzyx\t\\z\""  &&	
+"yzz\"x">=
+	
+  
+	"\"z"||  
+"yzxyyz\uD9bF\uDDAC\"z"
+ >"zzxyxy'xy"&& 
+ 
+
+"zyzxx''"<"xzyxzzzx\nx"&&"xyzz\"x"<
+	
+ 
+
+"\/'z"&&
+	"yxyyxzy\"'x\""==
+
+ 			"zxyx\"yy"
+	 	||"zyyxyyxzy\"y"=="xyy'z"	
+			
+
+
+||"yy'x\""
+
+		 ==	
+		"zz\"\n\ud5AA"	    
+	
+||
+
+	 "xxzzy\t\"\/\""  
+<="yxzyzyy'\""&&"y\"z"
+	 =="xyxxx'\"x"	&& 
+   "zzyxxxyxy\"'xx">
+			  "''z'"&&		
+
+ 
+"y\"\""	!="yzzzy\tz"&&"zxzyyzzzzx\t'"!="\"\"\fy"&&"'zx"
+ 	  =="x'\n"&&	
+"yxyxzz'\\'" <="yxyzxxy'z"	
+&&
+
+
+ 
+ 
+"xzyxzyzyx\"z"	 	>
+	  
+
+
+ "yyzxyy\"y"&&"xzxzz\"y\"z"==	 "yyy\rzzx"&&		  "z\/\\"  =="zzxxz''z"||	 	"zzyxzx'\t'\""< 				"\/y")][?("x\\z"
+>="''y'" 
+		||"zxzxyxz\"'"
+	 
+<"zy'y'\""	 	)][?("'y"<="zzx\"'\bx"&&"xzz'yy"<	
+
+	"yy'y" 	 && 	"yx\"xz"
+			 
+<"yzz\b\\"&&"xzyzxyyzxz\"\rzz"> 	
+
+ "x'\b"&&"yxzxz\rx"== "yyxyzyyzxx\r\"\t'"&&"yxxxxxyy\f\"xy"
+
+ <
+ 
+		"\\\""
+ 	    &&	 "z\"x"	 <	  	"''''"&&
+	
+
+"yzyyz\"z\""
+				<=
+
+  
+	
+"zyz'\"'"	
+
+  ||
+
+ 
+
+
+
+"z\"y'"<"y''\"\/"&&"\"\"y"   
+>
+	"yz\f\""&& "yxy\"x"
+
+  
+>
+
+		"'xx\""&&"xx\tz\""	>= 	
+    "z\t\b" 		   &&
+
+	"zz\r\"\""
+!="xyxxzyzy'\""	
+
+
+	
+		&&				
+	"zy'\""			
+ 
+
+!="zyxyxxxzyx'xyz"&&"xzzxxyxxy'\bz"<="yxy\"x\r"&&"zyxy\"\"z" 
+>"zzyz\"z\""&& 	  "'x"	 		
+>	 	 "xxxxxzy\f'x'"||"xyzxxyxzx'\f" 
+  !=
+	"yyyxzyxz\uDaaf\udCdf'"		 &&
+
+ 		
+ 		"y\"x'y"	
+  
+<"zyyx\uCDCczzy"  
+ &&"yzxzzyyxy\"z"	
+	!=			
+"zy\t\"z'"&&	"y\tx"=="zyyxyxyyy\"'"
+)]
+@@@
+[false]

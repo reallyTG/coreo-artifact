@@ -1,0 +1,1 @@
+SELECT aabc1b1d FROM e1a_badc ;

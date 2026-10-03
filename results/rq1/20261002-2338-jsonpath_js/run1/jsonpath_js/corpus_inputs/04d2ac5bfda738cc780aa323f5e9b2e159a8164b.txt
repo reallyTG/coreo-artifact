@@ -1,0 +1,50 @@
+$..bc["acdda",-50,-4,-60,"bbaaba''b\"\"a",'bcbaddd']['']..dd
+@@@
+ 	
+[ 
+ 		false	
+
+,  	[	
+
+ 
+
+"x"	
+	,	
+null
+		, 	"xxzyx\n"  
+]
+
+ ,	"zy"
+
+
+
+ ,			
+
+ true	 , 	
+		[
+null	
+
+	
+
+,	
+	 	true	,
+ true	 
+]
+
+
+,
+ true		, false 
+	,		
+ 
+	{ 
+		 
+}
+ 	
+  
+,
+
+
+ 
+
+true 	 	]
+		

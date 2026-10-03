@@ -1,0 +1,3 @@
+$..*.b
+@@@
+{"cddbbcada":50,"aadddbbdbbdb":"y","ababddbac":{"a":"z","b":[28,"yxy",4,0,24,"xyy","yz","zy"],"c":"zz"},"ababcdab":[2,5,"xzy","yy",0,"xxz",90,"z"],"ccdbcbadcabd":[0,"x","x"],"dcaaccdaacab":{"a":"xyy","b":["zy","x",3,3],"c":"x"}}

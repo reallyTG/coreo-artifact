@@ -1,0 +1,3 @@
+.c+ *:read-write:has( [ checked*=dcbcbcdbacdab i]+ *[ lang~="adcdb aaaa-ddadadca ddddcbaaccca"].bd>#db.abbddaccbbccbd#bd[ required *= "c" i]#ba[type ]+ * +:empty+ [disabled|= b-a i]#dbbbc, #acdadcccda> body#bc.c>:root , [ class],p ,[title*="bcdcaaddacdddc" i][title$= "" i ],+*, ~ *)[ title] ,*:lang( dab-abdaaa-ccdcaddcb)#bc.dabcbaac, [ disabled $= "b dbbdacbadbb-ba a aadaa" i ]:has( + :lang( cbc-bddbbdb).d , b[data-ca])[ id ^= "addac" i][lang= "cc caccdada" ]:first-child +:lang( ddad-adbbbc-bdcbaccb )
+@@@
+<!DOCTYPE html><html><body><div class="ddabcc" title="bb-b" lang="accaabcb-dcddbbaad-acbacdccccc-cdcab"></div><section title="" data-daccb=""> ccacb a</section></body></html>

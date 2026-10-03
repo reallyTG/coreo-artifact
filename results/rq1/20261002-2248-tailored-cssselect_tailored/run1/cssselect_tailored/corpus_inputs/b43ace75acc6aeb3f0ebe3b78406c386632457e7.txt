@@ -1,0 +1,3 @@
+*:has( > .ac.babbb#aa.bb.a[ class^= d i] )
+@@@
+<!DOCTYPE html><html><body><section data-bccdbccacdadb=""></section><section title="" lang="ababcbddbcbb-bbcaccdabcc" data-ab="dcbbabdc"></section></body></html>

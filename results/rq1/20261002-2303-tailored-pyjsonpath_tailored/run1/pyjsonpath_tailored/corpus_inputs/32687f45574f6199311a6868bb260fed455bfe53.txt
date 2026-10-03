@@ -1,0 +1,3 @@
+$.*..[?!match(@.a,"y?z|y+")&&!match(@.b,'z+yyy')&&search(@.b,"x?[xx-zy]{0,1}x+")]
+@@@
+["zz",{"a":"y"},{"a":"x"},"yy"]

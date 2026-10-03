@@ -1,0 +1,25 @@
+select Distinct Interval U&'xy\0041\0041' %
+
+U&'''yyxyx' % Date U&'\0041y''x\0041\0041xyyxx''\0041' At  time ZONE INTERVAL	 U&'x\0041y\0041\0041y\0041''x\0041yy' /* c */  ^  U&'''''y\0041x''y'	^ U&'y\0041y\0041''\0041\0041' ^ U&'\0041y\0041\0041y''\0041x' +	 timestamp U&'x\0041\0041''y\0041y' * U&'''''''yyy\0041\0041\0041yx\0041' & Date	U&'y''\0041''x\0041''y\0041' ^ U&'''\0041x''''\0041y''x''\0041' ^ U&'x\0041\0041\0041' ^ TIME U&'\0041\0041''x\0041\0041yyxxx\0041y' * TIME U&'y''''''\0041y''y' ^ Interval U&'''x\0041x''y''y\0041xyy''' ^ U&'''xx''\0041yx\0041yxx\0041''' BETWEEN U&'y''''y'  - time U&'x''yy\0041xx''' / Timestamp U&'x\0041y\0041''y''''''\0041' - U&'''\0041x''''yyx''yy' % U&'xxyxyyxy\0041xy' % /* c */   U&'''x\0041\0041' ^ U&'y\0041x''''x' % U&'yxx\0041yxy' AND U&'xyx''''\0041\0041xx' && U&'''''y''''yxyx' At Time ZONE
+Timestamp U&'y''\0041''' AT	 Time Zone U&'''y\0041\0041'  at TIME ZONE U&'x''x''\0041yy''y\0041\0041\0041\0041' *  DATE U&'yx''yy''''yy''yx' + date
+ U&'''y\0041\0041xx\0041yxy' * U&'\0041yyx\0041xx\0041\0041x''\0041y' %  TIMESTAMP U&'\0041\0041\0041x\0041xxx''x''y'  /  U&'yyyxyx'	- U&'yx''''y''x\0041''\0041' at time ZONE -- c
+	 interval
+U&'''x\0041xxxxx' AT TIME  Zone Timestamp U&'x\0041y''x\0041''\0041\0041''\0041'
+At	Time ZONE  U&'xy''yxy''''''''\0041x''' at Time zone U&'y\0041''''xy' At time Zone U&'\0041\0041y''y' % U&'\0041yxx' % U&'''''y\0041x''\0041''''' At
+TIME ZONE Date U&'''y\0041\0041''y\0041' at time Zone DATE U&'''y\0041yxyxy\0041yyy' - U&'xx\0041x''x''xx' At Time ZONE Timestamp /* c */ 
+U&'yy''\0041\0041\0041\0041\0041yxx''y' ^ U&'''yx''y\0041\0041y' at time Zone U&'y\0041''\0041''\0041y\0041''''x''' / U&'yyyyx''''x'  at	Time zone date U&'yyx''''\0041x' -- c
+ At Time  Zone  U&'x\0041''y\0041x\0041''\0041'  at TIME Zone interval -- c
+ U&'\0041\0041y''y\0041xyyx\0041y' -
+U&'y''y\0041x' - U&'yyxx' At TIME ZONE Interval U&'y''''xx''\0041' <=  Interval U&'\0041\0041xyyy\0041''\0041''xx''' << U&'\0041''xy''y\0041y\0041x'
+/
+U&'''x\0041\0041yyx' + TIMESTAMP U&'y''''\0041yyx\0041''' + Time U&'''y\0041x\0041yx' at Time Zone U&'y''y\0041''y''yy''yx\0041' + DATE U&'\0041yx\0041\0041''''\0041'	^ timestamp  U&'''y\0041y''\0041''yxy\0041\0041' *
+U&'\0041''''x\0041\0041''\0041\0041\0041''\0041' ||  INTERVAL U&'x\0041''\0041''\0041yyx''\0041\0041x' ^	date U&'\0041xyx''''x''' ^ interval U&'x\0041''''y''xy''y'''	^  timestamp U&'''''y\0041''' BETWEEN U&'y\0041xy\0041''x''''' ^  U&'''\0041''\0041x''\0041yy\0041' ^ U&'''xy\0041y''yy''''yxy'  ^ U&'''''''y\0041x\0041yy\0041'
+% time U&'xyx''\0041yyx' ^ Date U&'yy\0041\0041\0041x''xx' * U&'''yyx' ^ U&'xyxyyxxyy\0041\0041\0041' % Interval U&'\0041x\0041y''x''x' ^ time U&'\0041''yy\0041y\0041xyxxxy' AND U&'\0041x''yy' At time Zone Interval U&'\0041\0041x''x\0041\0041x''y' OR U&'\0041xyx''xy\0041' * /* c */ 
+U&'\0041''''y''\0041\0041\0041' + U&'y''yx\0041''xx\0041'  % Interval U&'''\0041y''\0041xx\0041''xy''\0041' AT  TIME
+ZONE U&'''\0041''yx\0041' AT Time Zone U&'\0041y''x''' AT -- c
+
+ /* c */  time ZONE date U&'''yx''\0041' AT Time Zone interval U&'yxx\0041' ^ /* c */  U&'''yx''' Not Between INTERVAL -- c
+ U&'''''x\0041' AND U&'\0041''''x'	
+>= any
+ (U&'\0041xxy''yy' - U&'\0041''xy\0041xxxx'
+Between U&'''\0041yyxx''' And U&'x\0041yx' NOTNULL) Notnull As abbe, "aBB""B".*,* limit U&'xyyxx\0041xy''x''' between U&'''\0041''yxy\0041\0041''' AND U&'\0041x''\0041' ;

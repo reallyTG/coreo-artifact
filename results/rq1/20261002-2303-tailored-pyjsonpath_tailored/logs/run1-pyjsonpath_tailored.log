@@ -1,0 +1,1172 @@
+$ ./.venv/bin/python -u run.py pyjsonpath_tailored --seed=20260922 --output-dir=./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored --max-wall-seconds=3420
+
+[props] max_repetition=20 (bounds * and + during generation)
+[props]   count_and_tail                     0..inf  governed by <and_tail>+ in <logical_and_expr>, capped at 20 by max_repetition
+[props]   count_basic_expr                   1..inf  governed by <and_tail>+ in <logical_and_expr>, capped at 20 by max_repetition
+[props]   count_doc_string                   1..inf  governed by <wide_more_item>* in <wide_array>, capped at 20 by max_repetition
+[props]   count_ire_alt                      0..inf  governed by <and_tail>+ in <logical_and_expr>, capped at 20 by max_repetition
+[props]   count_ire_branch                   0..inf  governed by <and_tail>+ in <logical_and_expr>, capped at 20 by max_repetition
+[props]   count_ire_cce1                     0..inf  governed by <and_tail>+ in <logical_and_expr>, capped at 20 by max_repetition
+[props]   count_ire_char_class               0..inf  governed by <and_tail>+ in <logical_and_expr>, capped at 20 by max_repetition
+[props]   count_ire_char_class_expr          0..inf  governed by <and_tail>+ in <logical_and_expr>, capped at 20 by max_repetition
+[props]   count_ire_piece                    0..inf  governed by <and_tail>+ in <logical_and_expr>, capped at 20 by max_repetition
+[props]   count_ire_quantifier               0..inf  governed by <and_tail>+ in <logical_and_expr>, capped at 20 by max_repetition
+[props]   count_ire_range_quantifier         0..inf  governed by <and_tail>+ in <logical_and_expr>, capped at 20 by max_repetition
+[props]   count_iregexp_literal              0..inf  governed by <and_tail>+ in <logical_and_expr>, capped at 20 by max_repetition
+[props]   count_item                         1..inf  governed by <wide_more_item>* in <wide_array>, capped at 20 by max_repetition
+[props]   count_letter                       1..inf  governed by <wide_more_item>* in <wide_array>, capped at 20 by max_repetition
+[props]   count_match_expr                   0..inf  governed by <and_tail>+ in <logical_and_expr>, capped at 20 by max_repetition
+[props]   count_pre_segment                    0..1  no governing repetition (recursion or alternative)
+[props]   count_search_expr                  0..inf  governed by <and_tail>+ in <logical_and_expr>, capped at 20 by max_repetition
+[props]   count_value_argument               0..inf  governed by <and_tail>+ in <logical_and_expr>, capped at 20 by max_repetition
+[props]   count_wide_more_item               0..inf  governed by <wide_more_item>* in <wide_array>, capped at 20 by max_repetition
+[props] identical to count_basic_expr, not derived: count_logical_function_expr, count_test_expr
+[props] identical to count_doc_string, not derived: count_doc_chars
+[props] identical to count_ire_char_class_expr, not derived: count_ire_caret_opt
+[props] identical to count_ire_piece, not derived: count_ire_atom
+[props] identical to count_iregexp_literal, not derived: count_ire_regexp
+[props] identical to count_pre_segment, not derived: count_wildcard_selector
+[props] fixed count, not derived: <doc>, <filter_segment>, <filter_selector>, <jsonpath_query>, <logical_and_expr>, <logical_expr>, <wide_array>
+[pyjsonpath_tailored] properties: ['count_pre_segment', 'count_basic_expr', 'count_match_expr', 'count_value_argument', 'count_iregexp_literal', 'count_ire_alt', 'count_ire_branch', 'count_ire_piece', 'count_ire_char_class', 'count_ire_char_class_expr', 'count_ire_cce1', 'count_ire_quantifier', 'count_ire_range_quantifier', 'count_search_expr', 'count_and_tail', 'count_item', 'count_doc_string', 'count_letter', 'count_wide_more_item', 'doc_depth', 'doc_bytes', 'query_len', 'n_doc_nodes', 'n_function_calls']
+[pyjsonpath_tailored] range-stratified exploration: <wide_more_item> bands=[(5, 30), (60, 150), (250, 500)]
+  [explore] band wide_more_item5-30: 20 inputs (max_nodes=8000)
+  [explore] band wide_more_item60-150: 20 inputs (max_nodes=8000)
+  [explore] band wide_more_item250-500: 20 inputs (max_nodes=8000)
+[pyjsonpath_tailored] iter 0 (explore): corpus=120 (+120 new this run)
+[select] relevance (max |rho| vs any metric on any system): count_letter=0.79, count_ire_quantifier=0.58, doc_bytes=0.77, count_ire_alt=0.55, count_item=0.76, count_ire_branch=0.57, count_wide_more_item=0.76, count_ire_range_quantifier=0.62, count_doc_string=0.76, count_ire_piece=0.58, n_doc_nodes=0.76, count_ire_char_class=0.62, count_search_expr=0.59, query_len=0.62, count_basic_expr=0.58, count_value_argument=0.58, count_iregexp_literal=0.58, count_and_tail=0.58, n_function_calls=0.58, count_match_expr=0.41, count_ire_char_class_expr=0.55, count_ire_cce1=0.53, count_pre_segment=0.19, doc_depth=0.00
+[select] comparative relevance (max |rho| vs a between-system ratio): count_letter=0.10, count_ire_quantifier=0.39, doc_bytes=0.04, count_ire_alt=0.37, count_item=0.03, count_ire_branch=0.36, count_wide_more_item=0.03, count_ire_range_quantifier=0.35, count_doc_string=0.03, count_ire_piece=0.34, n_doc_nodes=0.02, count_ire_char_class=0.34, count_search_expr=0.33, query_len=0.28, count_basic_expr=0.33, count_value_argument=0.33, count_iregexp_literal=0.33, count_and_tail=0.33, n_function_calls=0.33, count_match_expr=0.29, count_ire_char_class_expr=0.24, count_ire_cce1=0.24, count_pre_segment=0.21, doc_depth=0.00
+[select] kept doc_depth despite |rho|=0.00: its axis is not explored yet, so a low score there is absence of data rather than absence of effect
+[select] dropped doc_bytes: |rho|=0.99 with count_letter, which is already kept
+[select] dropped count_ire_alt: |rho|=0.92 with count_ire_quantifier, which is already kept
+[select] dropped count_item: |rho|=0.97 with count_letter, which is already kept
+[select] dropped count_ire_branch: |rho|=0.93 with count_ire_quantifier, which is already kept
+[select] dropped count_wide_more_item: |rho|=0.97 with count_letter, which is already kept
+[select] dropped count_ire_range_quantifier: |rho|=0.92 with count_ire_quantifier, which is already kept
+[select] dropped count_doc_string: |rho|=0.97 with count_letter, which is already kept
+[select] dropped count_ire_piece: |rho|=0.95 with count_ire_quantifier, which is already kept
+[select] dropped n_doc_nodes: |rho|=0.97 with count_letter, which is already kept
+[select] dropped count_ire_char_class: |rho|=0.90 with count_ire_quantifier, which is already kept
+[select] dropped count_search_expr: |rho|=0.86 with count_ire_quantifier, which is already kept
+[select] dropped query_len: |rho|=0.94 with count_ire_quantifier, which is already kept
+[select] dropped count_basic_expr: |rho|=0.90 with count_ire_quantifier, which is already kept
+[select] dropped count_value_argument: |rho|=0.90 with count_ire_quantifier, which is already kept
+[select] dropped count_iregexp_literal: |rho|=0.90 with count_ire_quantifier, which is already kept
+[select] dropped count_and_tail: |rho|=0.90 with count_ire_quantifier, which is already kept
+[select] dropped n_function_calls: |rho|=0.90 with count_ire_quantifier, which is already kept
+[select] dropped count_ire_char_class_expr: |rho|=0.84 with count_ire_quantifier, which is already kept
+[select] dropped count_ire_cce1: |rho|=0.81 with count_ire_quantifier, which is already kept
+[select] dropped doc_depth: over the 4-property cap
+[select] count_ire_quantifier stands for count_ire_alt, count_ire_branch, count_ire_range_quantifier, count_ire_piece, count_ire_char_class, count_search_expr, query_len, count_basic_expr, count_value_argument, count_iregexp_literal, count_and_tail, n_function_calls, count_ire_char_class_expr, count_ire_cce1 (indistinguishable here)
+[select] count_letter stands for doc_bytes, count_item, count_wide_more_item, count_doc_string, n_doc_nodes (indistinguishable here)
+[select] joint fit uses 4 of 24 properties: count_pre_segment, count_match_expr, count_ire_quantifier, count_letter (1,296 model fits)
+[pyjsonpath_tailored] loop targets 4 of 24 properties: count_pre_segment, count_match_expr, count_ire_quantifier, count_letter
+[pyjsonpath_tailored] targeting 8 regions: runtime_ns_divergence, count_match_expr_undecided0, count_ire_quantifier_beyond, runtime_ns_high, count_ire_quantifier_edge0, runtime_ns_sparse0, count_ire_quantifier_sparse6_0, count_ire_quantifier_undecided0
+  [seeds] skipped 7 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [runtime_ns_divergence] 24s: +8 new input(s), 7 distinct shape(s), 8 measured
+  [count_match_expr_undecided0] 1 comparison(s) undecided in count_match_expr =0: pyjsonpath_1_3_2 vs pyjsonpath_2_0_0 on runtime_ns -> <and_tail>{0,0}
+fandango:WARNING: Symbol <and_tail> defined, but not used
+  [count_match_expr_undecided0] 7s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_ire_quantifier_beyond] <and_tail>{40,48} (rung 1, 25632 nodes)
+  [count_ire_quantifier_beyond] 10s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [seeds] skipped 9 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [runtime_ns_high] 26s: +9 new input(s), 7 distinct shape(s), 9 measured
+  [count_ire_quantifier_edge0] <and_tail>{13,16} for the top 15% of count_ire_quantifier ([26,44])
+  [count_ire_quantifier_edge0] 8s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 3s: no new inputs
+  [count_ire_quantifier_sparse6_0] <and_tail>{13,15} for count_ire_quantifier in [26.4,30.8]
+  [count_ire_quantifier_sparse6_0] 8s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_ire_quantifier_undecided0] 1 comparison(s) undecided in count_ire_quantifier =0: pyjsonpath_1_3_2 vs pyjsonpath_2_0_0 on runtime_ns -> <and_tail>{0,0}
+fandango:WARNING: Symbol <and_tail> defined, but not used
+  [count_ire_quantifier_undecided0] 7s: +10 new input(s), 10 distinct shape(s), 10 measured
+[pyjsonpath_tailored] iter 1: corpus=254 (+134 new)
+[select] relevance (max |rho| vs any metric on any system): count_item=0.81, count_ire_char_class=0.42, count_wide_more_item=0.81, count_match_expr=0.35, count_letter=0.80, count_basic_expr=0.48, n_doc_nodes=0.80, count_value_argument=0.48, doc_bytes=0.80, count_iregexp_literal=0.48, count_doc_string=0.80, count_and_tail=0.48, query_len=0.49, n_function_calls=0.48, count_ire_branch=0.48, count_ire_range_quantifier=0.42, count_ire_piece=0.47, count_ire_quantifier=0.46, count_ire_alt=0.45, count_search_expr=0.44, count_ire_cce1=0.33, count_ire_char_class_expr=0.36, count_pre_segment=0.25, doc_depth=0.26
+[select] comparative relevance (max |rho| vs a between-system ratio): count_item=0.10, count_ire_char_class=0.42, count_wide_more_item=0.10, count_match_expr=0.41, count_letter=0.12, count_basic_expr=0.40, n_doc_nodes=0.09, count_value_argument=0.40, doc_bytes=0.09, count_iregexp_literal=0.40, count_doc_string=0.09, count_and_tail=0.40, query_len=0.36, n_function_calls=0.40, count_ire_branch=0.37, count_ire_range_quantifier=0.38, count_ire_piece=0.38, count_ire_quantifier=0.38, count_ire_alt=0.37, count_search_expr=0.37, count_ire_cce1=0.36, count_ire_char_class_expr=0.35, count_pre_segment=0.31, doc_depth=0.18
+[select] scored on the comparison rather than on the metric: count_match_expr (0.35 -> 0.41), count_pre_segment (0.25 -> 0.31)
+[select] dropped count_wide_more_item: |rho|=1.00 with count_item, which is already kept
+[select] dropped count_match_expr: |rho|=0.90 with count_ire_char_class, which is already kept
+[select] dropped count_letter: |rho|=0.98 with count_item, which is already kept
+[select] dropped count_basic_expr: |rho|=0.92 with count_ire_char_class, which is already kept
+[select] dropped n_doc_nodes: |rho|=0.99 with count_item, which is already kept
+[select] dropped count_value_argument: |rho|=0.92 with count_ire_char_class, which is already kept
+[select] dropped doc_bytes: |rho|=0.99 with count_item, which is already kept
+[select] dropped count_iregexp_literal: |rho|=0.92 with count_ire_char_class, which is already kept
+[select] dropped count_doc_string: |rho|=0.99 with count_item, which is already kept
+[select] dropped count_and_tail: |rho|=0.92 with count_ire_char_class, which is already kept
+[select] dropped query_len: |rho|=0.94 with count_ire_char_class, which is already kept
+[select] dropped n_function_calls: |rho|=0.92 with count_ire_char_class, which is already kept
+[select] dropped count_ire_branch: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_ire_range_quantifier: |rho|=0.90 with count_ire_char_class, which is already kept
+[select] dropped count_ire_piece: |rho|=0.94 with count_ire_char_class, which is already kept
+[select] dropped count_ire_quantifier: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_ire_alt: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_search_expr: |rho|=0.87 with count_ire_char_class, which is already kept
+[select] dropped count_ire_cce1: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_ire_char_class_expr: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] count_ire_char_class stands for count_match_expr, count_basic_expr, count_value_argument, count_iregexp_literal, count_and_tail, query_len, n_function_calls, count_ire_branch, count_ire_range_quantifier, count_ire_piece, count_ire_quantifier, count_ire_alt, count_search_expr, count_ire_cce1, count_ire_char_class_expr (indistinguishable here)
+[select] count_item stands for count_wide_more_item, count_letter, n_doc_nodes, doc_bytes, count_doc_string (indistinguishable here)
+[select] joint fit uses 4 of 24 properties: count_pre_segment, count_ire_char_class, count_item, doc_depth (1,296 model fits)
+[pyjsonpath_tailored] loop targets 4 of 24 properties: count_pre_segment, count_ire_char_class, count_item, doc_depth
+[pyjsonpath_tailored] targeting 8 regions: runtime_ns_divergence, count_item_undecided0, count_item_x_doc_depth_joint, count_pre_segment_beyond, runtime_ns_high, count_item_edge0, runtime_ns_sparse0, doc_depth_sparse1
+  [seeds] skipped 4 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [runtime_ns_divergence] 15s: +4 new input(s), 4 distinct shape(s), 4 measured
+  [count_item_undecided0] 1 comparison(s) undecided in count_item [1,2.656): pyjsonpath_1_3_2 vs pyjsonpath_2_0_0 on runtime_ns -> <wide_more_item>{1,3}
+  [count_item_undecided0] 7s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_item_x_doc_depth_joint] doc_depth spans 1..2 overall, 2..2 at count_item in [266,319.2]; minimizing it at <wide_more_item>{24,26}
+  [seeds] skipped 8 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [count_item_x_doc_depth_joint] 5s: no new inputs
+  [count_pre_segment_beyond] rung 2
+  [count_pre_segment_beyond] 148s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [seeds] skipped 4 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [runtime_ns_high] 19s: +4 new input(s), 3 distinct shape(s), 4 measured
+  [count_item_edge0] <wide_more_item>{24,26} for the top 15% of count_item ([266,351])
+  [count_item_edge0] 8s: +10 new input(s), 9 distinct shape(s), 10 measured
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 4s: no new inputs
+[WARNING] Fandango did not generate any valid inputs.
+  [doc_depth_sparse1] 5s: no new inputs
+[pyjsonpath_tailored] iter 2: corpus=330 (+76 new)
+[select] relevance (max |rho| vs any metric on any system): count_letter=0.81, count_ire_char_class=0.52, doc_bytes=0.81, count_match_expr=0.46, count_item=0.80, count_basic_expr=0.58, count_wide_more_item=0.80, count_value_argument=0.58, n_doc_nodes=0.80, count_iregexp_literal=0.58, count_doc_string=0.80, count_and_tail=0.58, n_function_calls=0.58, count_search_expr=0.56, count_ire_piece=0.57, count_ire_quantifier=0.56, count_ire_alt=0.55, count_ire_branch=0.58, query_len=0.57, count_ire_range_quantifier=0.51, count_ire_char_class_expr=0.45, count_ire_cce1=0.42, count_pre_segment=0.19, doc_depth=0.27
+[select] comparative relevance (max |rho| vs a between-system ratio): count_letter=0.05, count_ire_char_class=0.46, doc_bytes=0.03, count_match_expr=0.44, count_item=0.05, count_basic_expr=0.44, count_wide_more_item=0.05, count_value_argument=0.44, n_doc_nodes=0.04, count_iregexp_literal=0.44, count_doc_string=0.04, count_and_tail=0.44, n_function_calls=0.44, count_search_expr=0.42, count_ire_piece=0.42, count_ire_quantifier=0.41, count_ire_alt=0.41, count_ire_branch=0.41, query_len=0.40, count_ire_range_quantifier=0.41, count_ire_char_class_expr=0.41, count_ire_cce1=0.41, count_pre_segment=0.21, doc_depth=0.17
+[select] dropped doc_bytes: |rho|=0.99 with count_letter, which is already kept
+[select] dropped count_match_expr: |rho|=0.91 with count_ire_char_class, which is already kept
+[select] dropped count_item: |rho|=0.96 with count_letter, which is already kept
+[select] dropped count_basic_expr: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_wide_more_item: |rho|=0.96 with count_letter, which is already kept
+[select] dropped count_value_argument: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped n_doc_nodes: |rho|=0.96 with count_letter, which is already kept
+[select] dropped count_iregexp_literal: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_doc_string: |rho|=0.97 with count_letter, which is already kept
+[select] dropped count_and_tail: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped n_function_calls: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_search_expr: |rho|=0.88 with count_ire_char_class, which is already kept
+[select] dropped count_ire_piece: |rho|=0.94 with count_ire_char_class, which is already kept
+[select] dropped count_ire_quantifier: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_ire_alt: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_ire_branch: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped query_len: |rho|=0.94 with count_ire_char_class, which is already kept
+[select] dropped count_ire_range_quantifier: |rho|=0.90 with count_ire_char_class, which is already kept
+[select] dropped count_ire_char_class_expr: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_ire_cce1: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] count_ire_char_class stands for count_match_expr, count_basic_expr, count_value_argument, count_iregexp_literal, count_and_tail, n_function_calls, count_search_expr, count_ire_piece, count_ire_quantifier, count_ire_alt, count_ire_branch, query_len, count_ire_range_quantifier, count_ire_char_class_expr, count_ire_cce1 (indistinguishable here)
+[select] count_letter stands for doc_bytes, count_item, count_wide_more_item, n_doc_nodes, count_doc_string (indistinguishable here)
+[select] joint fit uses 4 of 24 properties: count_pre_segment, count_ire_char_class, count_letter, doc_depth (1,296 model fits)
+[pyjsonpath_tailored] loop targets 4 of 24 properties: count_pre_segment, count_ire_char_class, count_letter, doc_depth
+[pyjsonpath_tailored] targeting 8 regions: runtime_ns_divergence, count_letter_undecided0, count_ire_char_class_x_count_pre_segment_joint, doc_depth_beyond, runtime_ns_high, count_letter_edge0, runtime_ns_sparse0, doc_depth_sparse1
+  [seeds] skipped 5 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [runtime_ns_divergence] 20s: +5 new input(s), 4 distinct shape(s), 5 measured
+  [count_letter_undecided0] 1 comparison(s) undecided in count_letter [1,4.931): pyjsonpath_1_3_2 vs pyjsonpath_2_0_0 on runtime_ns -> <wide_more_item>{1,3}
+  [count_letter_undecided0] 7s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_ire_char_class_x_count_pre_segment_joint] count_pre_segment spans 0..1 overall, 1..1 at count_ire_char_class in [18,21.6]; minimizing it at <and_tail>{18,21}
+  [count_ire_char_class_x_count_pre_segment_joint] 8 of 8 seeds do not parse; seeding with 0.
+  [soft] minimizing count_pre_segment: 2892 candidates, best=0, keeping 10 spanning 0..0
+  [count_ire_char_class_x_count_pre_segment_joint] 302s: +10 new input(s), 9 distinct shape(s), 10 measured
+  [doc_depth_beyond] rung 2
+  [doc_depth_beyond] 85s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [seeds] skipped 3 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [runtime_ns_high] 17s: +3 new input(s), 2 distinct shape(s), 3 measured
+  [count_letter_edge0] <wide_more_item>{24,26} for the top 15% of count_letter ([2110,14374])
+  [count_letter_edge0] 8s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 4s: no new inputs
+[WARNING] Fandango did not generate any valid inputs.
+  [doc_depth_sparse1] 4s: no new inputs
+[pyjsonpath_tailored] iter 3: corpus=426 (+96 new)
+[select] relevance (max |rho| vs any metric on any system): count_item=0.79, count_ire_char_class=0.58, count_wide_more_item=0.79, count_match_expr=0.52, doc_bytes=0.79, count_basic_expr=0.61, n_doc_nodes=0.79, count_value_argument=0.61, count_doc_string=0.79, count_iregexp_literal=0.61, count_letter=0.78, count_and_tail=0.61, count_ire_branch=0.62, n_function_calls=0.61, count_ire_piece=0.61, count_ire_alt=0.60, count_ire_quantifier=0.60, count_search_expr=0.61, count_ire_range_quantifier=0.56, count_ire_char_class_expr=0.51, query_len=0.61, count_ire_cce1=0.48, count_pre_segment=0.18, doc_depth=0.26
+[select] comparative relevance (max |rho| vs a between-system ratio): count_item=0.01, count_ire_char_class=0.51, count_wide_more_item=0.01, count_match_expr=0.48, doc_bytes=0.01, count_basic_expr=0.47, n_doc_nodes=0.02, count_value_argument=0.47, count_doc_string=0.01, count_iregexp_literal=0.47, count_letter=0.01, count_and_tail=0.47, count_ire_branch=0.45, n_function_calls=0.47, count_ire_piece=0.45, count_ire_alt=0.45, count_ire_quantifier=0.45, count_search_expr=0.45, count_ire_range_quantifier=0.44, count_ire_char_class_expr=0.44, query_len=0.44, count_ire_cce1=0.43, count_pre_segment=0.25, doc_depth=0.18
+[select] scored on the comparison rather than on the metric: count_pre_segment (0.18 -> 0.25)
+[select] dropped count_wide_more_item: |rho|=1.00 with count_item, which is already kept
+[select] dropped count_match_expr: |rho|=0.90 with count_ire_char_class, which is already kept
+[select] dropped doc_bytes: |rho|=0.97 with count_item, which is already kept
+[select] dropped count_basic_expr: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped n_doc_nodes: |rho|=0.99 with count_item, which is already kept
+[select] dropped count_value_argument: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_doc_string: |rho|=1.00 with count_item, which is already kept
+[select] dropped count_iregexp_literal: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_letter: |rho|=0.95 with count_item, which is already kept
+[select] dropped count_and_tail: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_ire_branch: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped n_function_calls: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_ire_piece: |rho|=0.94 with count_ire_char_class, which is already kept
+[select] dropped count_ire_alt: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_ire_quantifier: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_search_expr: |rho|=0.88 with count_ire_char_class, which is already kept
+[select] dropped count_ire_range_quantifier: |rho|=0.91 with count_ire_char_class, which is already kept
+[select] dropped count_ire_char_class_expr: |rho|=0.94 with count_ire_char_class, which is already kept
+[select] dropped query_len: |rho|=0.94 with count_ire_char_class, which is already kept
+[select] dropped count_ire_cce1: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] count_ire_char_class stands for count_match_expr, count_basic_expr, count_value_argument, count_iregexp_literal, count_and_tail, count_ire_branch, n_function_calls, count_ire_piece, count_ire_alt, count_ire_quantifier, count_search_expr, count_ire_range_quantifier, count_ire_char_class_expr, query_len, count_ire_cce1 (indistinguishable here)
+[select] count_item stands for count_wide_more_item, doc_bytes, n_doc_nodes, count_doc_string, count_letter (indistinguishable here)
+[select] joint fit uses 4 of 24 properties: count_pre_segment, count_ire_char_class, count_item, doc_depth (1,296 model fits)
+[pyjsonpath_tailored] loop targets 4 of 24 properties: count_pre_segment, count_ire_char_class, count_item, doc_depth
+[pyjsonpath_tailored] targeting 8 regions: runtime_ns_divergence, count_item_undecided0, count_ire_char_class_x_count_pre_segment_joint, runtime_ns_high, count_ire_char_class_edge0, runtime_ns_sparse0, count_item_sparse1_0, doc_depth_undecided
+  [seeds] skipped 6 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [runtime_ns_divergence] 16s: +6 new input(s), 6 distinct shape(s), 6 measured
+  [count_item_undecided0] 1 comparison(s) undecided in count_item [1,2.656): pyjsonpath_1_3_2 vs pyjsonpath_2_0_0 on runtime_ns -> <wide_more_item>{1,3}
+  [count_item_undecided0] 7s: +10 new input(s), 8 distinct shape(s), 10 measured
+  [count_ire_char_class_x_count_pre_segment_joint] count_pre_segment spans 0..1 overall, 0..1 at count_ire_char_class in [18,21.6]; minimizing it at <and_tail>{18,21} (held, best 0)
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [count_ire_char_class_x_count_pre_segment_joint] 8 of 9 seeds do not parse; seeding with 1.
+  [soft] minimizing count_pre_segment: 2930 candidates, best=0, keeping 10 spanning 0..0
+  [count_ire_char_class_x_count_pre_segment_joint] 287s: +10 new input(s), 8 distinct shape(s), 10 measured
+  [seeds] skipped 4 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [runtime_ns_high] 29s: +4 new input(s), 3 distinct shape(s), 4 measured
+  [count_ire_char_class_edge0] <and_tail>{18,140} for the top 15% of count_ire_char_class ([18,369])
+  [count_ire_char_class_edge0] 13s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 3s: no new inputs
+  [count_item_sparse1_0] <wide_more_item>{24,26} for count_item in [36,71]
+  [count_item_sparse1_0] 8s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [doc_depth_undecided] 1 comparison(s) undecided in doc_depth [1,1.167): pyjsonpath_1_3_2 vs pyjsonpath_2_0_0 on runtime_ns
+  [doc_depth_undecided] 7s: +7 new input(s), 5 distinct shape(s), 7 measured
+[pyjsonpath_tailored] iter 4: corpus=540 (+114 new)
+[pyjsonpath_tailored] targeting 8 regions: runtime_ns_divergence, count_item_undecided0, count_ire_char_class_x_count_pre_segment_joint, runtime_ns_high, count_ire_char_class_edge0, runtime_ns_sparse0, count_item_sparse1_0, doc_depth_undecided
+  [seeds] skipped 5 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [runtime_ns_divergence] 17s: +5 new input(s), 5 distinct shape(s), 5 measured
+  [count_item_undecided0] 1 comparison(s) undecided in count_item [1,2.656): pyjsonpath_1_3_2 vs pyjsonpath_2_0_0 on runtime_ns -> <wide_more_item>{1,3}
+  [count_item_undecided0] 7s: +10 new input(s), 9 distinct shape(s), 10 measured
+  [count_ire_char_class_x_count_pre_segment_joint] count_pre_segment spans 0..1 overall, 0..1 at count_ire_char_class in [18,21.6]; minimizing it at <and_tail>{18,21} (held, best 0)
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [count_ire_char_class_x_count_pre_segment_joint] 7 of 9 seeds do not parse; seeding with 2.
+  [soft] minimizing count_pre_segment: 2899 candidates, best=0, keeping 10 spanning 0..0
+  [count_ire_char_class_x_count_pre_segment_joint] 311s: +10 new input(s), 7 distinct shape(s), 10 measured
+  [seeds] skipped 3 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [runtime_ns_high] 24s: +3 new input(s), 1 distinct shape(s), 3 measured
+  [count_ire_char_class_edge0] <and_tail>{19,145} for the top 15% of count_ire_char_class ([18,369])
+  [count_ire_char_class_edge0] 13s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 2s: no new inputs
+  [count_item_sparse1_0] <wide_more_item>{24,26} for count_item in [36,71]
+  [count_item_sparse1_0] 9s: +10 new input(s), 9 distinct shape(s), 10 measured
+  [doc_depth_undecided] 1 comparison(s) undecided in doc_depth [1,1.167): pyjsonpath_1_3_2 vs pyjsonpath_2_0_0 on runtime_ns
+  [doc_depth_undecided] 7s: +7 new input(s), 6 distinct shape(s), 7 measured
+[pyjsonpath_tailored] iter 5: corpus=650 (+110 new)
+[select] relevance (max |rho| vs any metric on any system): n_doc_nodes=0.78, count_ire_char_class=0.58, count_item=0.78, count_match_expr=0.53, count_wide_more_item=0.78, count_basic_expr=0.60, doc_bytes=0.77, count_value_argument=0.60, count_doc_string=0.77, count_iregexp_literal=0.60, count_letter=0.75, count_and_tail=0.60, count_ire_branch=0.60, n_function_calls=0.60, count_ire_alt=0.60, count_ire_piece=0.59, count_ire_quantifier=0.59, count_search_expr=0.60, query_len=0.59, count_ire_range_quantifier=0.55, count_ire_char_class_expr=0.53, count_ire_cce1=0.51, doc_depth=0.42, count_pre_segment=0.21
+[select] comparative relevance (max |rho| vs a between-system ratio): n_doc_nodes=0.09, count_ire_char_class=0.54, count_item=0.09, count_match_expr=0.53, count_wide_more_item=0.09, count_basic_expr=0.51, doc_bytes=0.09, count_value_argument=0.51, count_doc_string=0.09, count_iregexp_literal=0.51, count_letter=0.07, count_and_tail=0.51, count_ire_branch=0.50, n_function_calls=0.51, count_ire_alt=0.51, count_ire_piece=0.50, count_ire_quantifier=0.49, count_search_expr=0.49, query_len=0.48, count_ire_range_quantifier=0.48, count_ire_char_class_expr=0.48, count_ire_cce1=0.47, doc_depth=0.22, count_pre_segment=0.22
+[select] dropped count_item: |rho|=0.99 with n_doc_nodes, which is already kept
+[select] dropped count_match_expr: |rho|=0.92 with count_ire_char_class, which is already kept
+[select] dropped count_wide_more_item: |rho|=0.99 with n_doc_nodes, which is already kept
+[select] dropped count_basic_expr: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped doc_bytes: |rho|=0.99 with n_doc_nodes, which is already kept
+[select] dropped count_value_argument: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_doc_string: |rho|=1.00 with n_doc_nodes, which is already kept
+[select] dropped count_iregexp_literal: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_letter: |rho|=0.97 with n_doc_nodes, which is already kept
+[select] dropped count_and_tail: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_ire_branch: |rho|=0.94 with count_ire_char_class, which is already kept
+[select] dropped n_function_calls: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_ire_alt: |rho|=0.94 with count_ire_char_class, which is already kept
+[select] dropped count_ire_piece: |rho|=0.95 with count_ire_char_class, which is already kept
+[select] dropped count_ire_quantifier: |rho|=0.94 with count_ire_char_class, which is already kept
+[select] dropped count_search_expr: |rho|=0.89 with count_ire_char_class, which is already kept
+[select] dropped query_len: |rho|=0.95 with count_ire_char_class, which is already kept
+[select] dropped count_ire_range_quantifier: |rho|=0.91 with count_ire_char_class, which is already kept
+[select] dropped count_ire_char_class_expr: |rho|=0.94 with count_ire_char_class, which is already kept
+[select] dropped count_ire_cce1: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] count_ire_char_class stands for count_match_expr, count_basic_expr, count_value_argument, count_iregexp_literal, count_and_tail, count_ire_branch, n_function_calls, count_ire_alt, count_ire_piece, count_ire_quantifier, count_search_expr, query_len, count_ire_range_quantifier, count_ire_char_class_expr, count_ire_cce1 (indistinguishable here)
+[select] n_doc_nodes stands for count_item, count_wide_more_item, doc_bytes, count_doc_string, count_letter (indistinguishable here)
+[select] joint fit uses 4 of 24 properties: count_pre_segment, count_ire_char_class, doc_depth, n_doc_nodes (1,296 model fits)
+[pyjsonpath_tailored] loop targets 4 of 24 properties: count_pre_segment, count_ire_char_class, doc_depth, n_doc_nodes
+[pyjsonpath_tailored] targeting 8 regions: runtime_ns_divergence, doc_depth_undecided, count_ire_char_class_x_n_doc_nodes_joint, n_doc_nodes_beyond, runtime_ns_high, n_doc_nodes_edge, runtime_ns_sparse0, n_doc_nodes_sparse6
+  [seeds] skipped 4 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [runtime_ns_divergence] 17s: +4 new input(s), 3 distinct shape(s), 4 measured
+  [doc_depth_undecided] 1 comparison(s) undecided in doc_depth [1.167,1.333): pyjsonpath_1_3_2 vs pyjsonpath_2_0_0 on runtime_ns
+[WARNING] Fandango did not generate any valid inputs.
+  [doc_depth_undecided] 7s: no new inputs
+  [count_ire_char_class_x_n_doc_nodes_joint] n_doc_nodes spans 2..692 overall, 9..321 at count_ire_char_class in [20,24]; maximizing it at <and_tail>{21,25}
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [count_ire_char_class_x_n_doc_nodes_joint] 6 of 7 seeds do not parse; seeding with 1.
+  [soft] maximizing n_doc_nodes: 2160 candidates, best=34, keeping 10 spanning 34..34
+  [count_ire_char_class_x_n_doc_nodes_joint] 282s: +10 new input(s), 6 distinct shape(s), 10 measured
+  [n_doc_nodes_beyond] rung 1
+  [seeds] skipped 10 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [n_doc_nodes_beyond] 2s: no new inputs
+  [seeds] skipped 3 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [runtime_ns_high] 24s: +3 new input(s), 3 distinct shape(s), 3 measured
+  [seeds] skipped 8 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [n_doc_nodes_edge] 13s: +8 new input(s), 6 distinct shape(s), 8 measured
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 3s: no new inputs
+  [seeds] skipped 3 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [n_doc_nodes_sparse6] 3s: no new inputs
+[pyjsonpath_tailored] iter 6: corpus=700 (+50 new)
+[pyjsonpath_tailored] targeting 8 regions: runtime_ns_divergence, doc_depth_undecided, count_ire_char_class_x_n_doc_nodes_joint, n_doc_nodes_beyond, runtime_ns_high, n_doc_nodes_edge, runtime_ns_sparse0, n_doc_nodes_sparse6
+  [seeds] skipped 3 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [runtime_ns_divergence] 16s: +3 new input(s), 3 distinct shape(s), 3 measured
+  [doc_depth_undecided] 1 comparison(s) undecided in doc_depth [1.167,1.333): pyjsonpath_1_3_2 vs pyjsonpath_2_0_0 on runtime_ns
+[WARNING] Fandango did not generate any valid inputs.
+  [doc_depth_undecided] 5s: no new inputs
+  [count_ire_char_class_x_n_doc_nodes_joint] n_doc_nodes spans 2..692 overall, 9..321 at count_ire_char_class in [20,24]; maximizing it at <and_tail>{21,25} (held, best 321)
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [count_ire_char_class_x_n_doc_nodes_joint] 6 of 9 seeds do not parse; seeding with 3.
+[budget] generation cut at 300s after 140 generations (2506 solutions); this request is not reproducible
+  [soft] maximizing n_doc_nodes: 2506 candidates, best=34, keeping 10 spanning 34..34
+  [count_ire_char_class_x_n_doc_nodes_joint] 318s: +9 new input(s), 4 distinct shape(s), 9 measured [CUT: generation budget, not reproducible]
+  [n_doc_nodes_beyond] rung 2
+  [n_doc_nodes_beyond] 296s: +10 new input(s), 7 distinct shape(s), 10 measured
+  [seeds] skipped 3 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [runtime_ns_high] 22s: +3 new input(s), 2 distinct shape(s), 3 measured
+  [seeds] skipped 7 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [n_doc_nodes_edge] 15s: +7 new input(s), 4 distinct shape(s), 7 measured
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 3s: no new inputs
+  [seeds] skipped 3 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [n_doc_nodes_sparse6] 3s: no new inputs
+[pyjsonpath_tailored] iter 7: corpus=764 (+64 new)
+[pyjsonpath_tailored] targeting 8 regions: runtime_ns_divergence, doc_depth_undecided, runtime_ns_high, n_doc_nodes_edge, runtime_ns_sparse0, count_ire_char_class_sparse4_0, n_doc_nodes_undecided, runtime_ns_low
+  [seeds] skipped 3 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [runtime_ns_divergence] 16s: +3 new input(s), 3 distinct shape(s), 3 measured
+  [doc_depth_undecided] 1 comparison(s) undecided in doc_depth [1.167,1.333): pyjsonpath_1_3_2 vs pyjsonpath_2_0_0 on runtime_ns
+[WARNING] Fandango did not generate any valid inputs.
+  [doc_depth_undecided] 5s: no new inputs
+  [seeds] skipped 3 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [runtime_ns_high] 20s: +3 new input(s), 3 distinct shape(s), 3 measured
+  [seeds] skipped 7 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [n_doc_nodes_edge] 15s: +7 new input(s), 6 distinct shape(s), 7 measured
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 4s: no new inputs
+  [count_ire_char_class_sparse4_0] <and_tail>{155,167} for count_ire_char_class in [147.6,184.5]
+  [count_ire_char_class_sparse4_0] 23s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [n_doc_nodes_undecided] 1 comparison(s) undecided in n_doc_nodes [2,5.299): pyjsonpath_1_3_2 vs pyjsonpath_2_0_0 on runtime_ns
+  [n_doc_nodes_undecided] 8s: +7 new input(s), 7 distinct shape(s), 7 measured
+  [runtime_ns_low] 1s: no new inputs
+[pyjsonpath_tailored] iter 8: corpus=824 (+60 new)
+[pyjsonpath_tailored] grammar frontier (targeting stopped asking here):
+  count_pre_segment: pinned at 1 by the SEARCH; 2 escalating request(s) returned nothing further.
+  count_ire_char_class: pinned at 369 by the NODE BUDGET; <and_tail>{746,895} would need 477,930 nodes against a cap of 30,000.
+  count_item: pinned at 351 by the SEARCH; 1 escalating request(s) returned nothing further.
+  doc_depth: pinned at 2 by the SEARCH; 2 escalating request(s) returned nothing further.
+  n_doc_nodes: pinned at 692 by the SEARCH; 2 escalating request(s) returned nothing further.
+[compare] runtime_ns: 412 inputs, 2 systems (paired; ratios, 1.10x equivalence band)
+[compare] overall verdicts are weighted by what the corpus contains, which the loop itself shapes; the per-region lines are the portable claim.
+[compare] count_ire_char_class bins move with n_doc_nodes (17..219 across bins) -- those regions are joint, not count_ire_char_class findings
+[compare] doc_depth bins move with count_ire_char_class (1..11 across bins); n_doc_nodes (2..50 across bins) -- those regions are joint, not doc_depth findings
+[compare] n_doc_nodes bins move with count_ire_char_class (2..17 across bins) -- those regions are joint, not n_doc_nodes findings
+  pyjsonpath_2_0_0 better than pyjsonpath_1_3_2 on runtime_ns: 1.16x (95% CI 1.15-1.16, n=412, p=9.01e-18)
+      DEPENDS ON SAMPLING: counting each doc_depth bin once gives 0.94x (95% CI 0.91-0.97, 2 bins, equal weight per bin), verdict 'equivalent' not 'b_faster'
+      ... and 4 doc_depth bin(s) have too little data to enter that: [1.167,1.333), [1.333,1.5), [1.5,1.667), [1.667,1.833)
+      DEPENDS ON SAMPLING: counting each n_doc_nodes bin once gives 0.89x (95% CI 0.87-0.91, 6 bins, equal weight per bin), verdict 'undecided' not 'b_faster'
+      undecided on count_ire_char_class (confounded) in =0, [2.678,7.173) -- needs more inputs
+      undecided on doc_depth (confounded) in [1,1.167) -- needs more inputs
+      undecided on n_doc_nodes (confounded) in [2,5.299), [37.2,98.57), [261.2,692] -- needs more inputs
+[interference] 5 property pair(s) tested over 824 rows; 4 show a dependence
+  count_pre_segment vs runtime_ns changes with count_ire_char_class: rho by count_ire_char_class stratum = [+0.09, -0.18, -0.46, -0.25], spread 0.56, p=0.003
+  count_pre_segment vs runtime_ns changes with n_doc_nodes: rho by n_doc_nodes stratum = [-0.17, -0.10, -0.52, -0.35], spread 0.43, p=0.003
+  doc_depth vs runtime_ns changes with count_ire_char_class: rho by count_ire_char_class stratum = [+0.53, +0.45, +0.17, +0.33], spread 0.36, p=0.003
+  n_doc_nodes vs runtime_ns changes with count_ire_char_class: rho by count_ire_char_class stratum = [+0.96, +0.84, +0.71, +0.70], spread 0.26, p=0.003
+  -> a one-dimensional region on these properties states less than it appears to; they are candidates for a joint request.
+self.storage <analyzer_library.InfoStorage object at 0x135afeab0>
+function name in read csvs func:  {'./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2': {'pyjsonpath_1_3_2'}, './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0': {'pyjsonpath_2_0_0'}}
+[select] relevance (max |rho| vs any metric on any system): n_doc_nodes=0.72, count_ire_char_class=0.56, count_doc_string=0.72, count_match_expr=0.51, count_item=0.72, count_ire_alt=0.59, count_wide_more_item=0.72, count_basic_expr=0.57, doc_bytes=0.72, count_value_argument=0.57, count_letter=0.71, count_iregexp_literal=0.57, count_search_expr=0.60, count_and_tail=0.57, n_function_calls=0.57, count_ire_branch=0.58, count_ire_quantifier=0.58, count_ire_piece=0.57, query_len=0.56, count_ire_range_quantifier=0.55, count_ire_cce1=0.51, count_ire_char_class_expr=0.53, count_pre_segment=0.21, doc_depth=0.40
+[select] comparative relevance (max |rho| vs a between-system ratio): n_doc_nodes=0.06, count_ire_char_class=0.55, count_doc_string=0.07, count_match_expr=0.53, count_item=0.06, count_ire_alt=0.51, count_wide_more_item=0.06, count_basic_expr=0.51, doc_bytes=0.06, count_value_argument=0.51, count_letter=0.04, count_iregexp_literal=0.51, count_search_expr=0.47, count_and_tail=0.51, n_function_calls=0.51, count_ire_branch=0.51, count_ire_quantifier=0.49, count_ire_piece=0.51, query_len=0.49, count_ire_range_quantifier=0.48, count_ire_cce1=0.47, count_ire_char_class_expr=0.46, count_pre_segment=0.31, doc_depth=0.20
+[select] scored on the comparison rather than on the metric: count_pre_segment (0.21 -> 0.31)
+[select] dropped count_doc_string: |rho|=1.00 with n_doc_nodes, which is already kept
+[select] dropped count_match_expr: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_item: |rho|=0.99 with n_doc_nodes, which is already kept
+[select] dropped count_ire_alt: |rho|=0.94 with count_ire_char_class, which is already kept
+[select] dropped count_wide_more_item: |rho|=0.99 with n_doc_nodes, which is already kept
+[select] dropped count_basic_expr: |rho|=0.94 with count_ire_char_class, which is already kept
+[select] dropped doc_bytes: |rho|=0.98 with n_doc_nodes, which is already kept
+[select] dropped count_value_argument: |rho|=0.94 with count_ire_char_class, which is already kept
+[select] dropped count_letter: |rho|=0.97 with n_doc_nodes, which is already kept
+[select] dropped count_iregexp_literal: |rho|=0.94 with count_ire_char_class, which is already kept
+[select] dropped count_search_expr: |rho|=0.88 with count_ire_char_class, which is already kept
+[select] dropped count_and_tail: |rho|=0.94 with count_ire_char_class, which is already kept
+[select] dropped n_function_calls: |rho|=0.94 with count_ire_char_class, which is already kept
+[select] dropped count_ire_branch: |rho|=0.95 with count_ire_char_class, which is already kept
+[select] dropped count_ire_quantifier: |rho|=0.94 with count_ire_char_class, which is already kept
+[select] dropped count_ire_piece: |rho|=0.95 with count_ire_char_class, which is already kept
+[select] dropped query_len: |rho|=0.95 with count_ire_char_class, which is already kept
+[select] dropped count_ire_range_quantifier: |rho|=0.91 with count_ire_char_class, which is already kept
+[select] dropped count_ire_cce1: |rho|=0.93 with count_ire_char_class, which is already kept
+[select] dropped count_ire_char_class_expr: |rho|=0.94 with count_ire_char_class, which is already kept
+[select] count_ire_char_class stands for count_match_expr, count_ire_alt, count_basic_expr, count_value_argument, count_iregexp_literal, count_search_expr, count_and_tail, n_function_calls, count_ire_branch, count_ire_quantifier, count_ire_piece, query_len, count_ire_range_quantifier, count_ire_cce1, count_ire_char_class_expr (indistinguishable here)
+[select] n_doc_nodes stands for count_doc_string, count_item, count_wide_more_item, doc_bytes, count_letter (indistinguishable here)
+[select] joint fit uses 4 of 24 properties: count_pre_segment, count_ire_char_class, doc_depth, n_doc_nodes (1,296 model fits)
+Plotting 'runtime_ns' vs 'count_pre_segment' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_pre_segment_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'count_pre_segment' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_pre_segment_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_pre_segment' and metric 'runtime_ns': dropped 204 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_pre_segment' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.1E+03 (sec)                               
+Constant: time = 5.1E+03 (sec)                                  (res: 1.8E+02)
+Linear: time = 2.6E+03 + 2.6E+03*n (sec)                        (res: 1.8E+02)
+Quadratic: time = 2.6E+03 + 2.6E+03*n^2 (sec)                   (res: 1.8E+02)
+Cubic: time = 2.6E+03 + 2.6E+03*n^3 (sec)                       (res: 1.8E+02)
+Logarithmic: time = 5.1E+03 + 0*log(n) (sec)                    (res: 1.8E+02)
+Linearithmic: time = 5.1E+03 + 0*n*log(n) (sec)                 (res: 1.8E+02)
+Exponential: time = 6E+02 * 6E+02^n (sec)                       (res: 1.3E+05)
+
+   [near-tie] within 10%: Constant, Linear, Quadratic, Cubic, Logarithmic, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_pre_segment ** 0.00
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_pre_segment_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_pre_segment' and metric 'runtime_ns': dropped 204 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_pre_segment' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.1E+03 (sec)                               
+Constant: time = 5.1E+03 (sec)                                  (res: 1.8E+02)
+Linear: time = 2.6E+03 + 2.6E+03*n (sec)                        (res: 1.8E+02)
+Quadratic: time = 2.6E+03 + 2.6E+03*n^2 (sec)                   (res: 1.8E+02)
+Cubic: time = 2.6E+03 + 2.6E+03*n^3 (sec)                       (res: 1.8E+02)
+Logarithmic: time = 5.1E+03 + 0*log(n) (sec)                    (res: 1.8E+02)
+Linearithmic: time = 5.1E+03 + 0*n*log(n) (sec)                 (res: 1.8E+02)
+Exponential: time = 5.6E+02 * 5.6E+02^n (sec)                   (res: 9.9E+04)
+
+   [near-tie] within 10%: Constant, Linear, Quadratic, Cubic, Logarithmic, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_pre_segment ** 0.00
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_pre_segment_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'count_basic_expr' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_basic_expr_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'count_basic_expr' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_basic_expr_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_basic_expr' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.9E+03 (sec)                               
+Constant: time = 5.9E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = 7.1E+03 + -94*n (sec)                            (res: 3.6E+02)
+Quadratic: time = 6.6E+03 + -1.6*n^2 (sec)                      (res: 3.6E+02)
+Cubic: time = 6.2E+03 + -0.017*n^3 (sec)                        (res: 3.6E+02)
+Logarithmic: time = 7.8E+03 + -1.3E+03*log(n) (sec)             (res: 3.6E+02)
+Linearithmic: time = 6.8E+03 + -23*n*log(n) (sec)               (res: 3.6E+02)
+Exponential: time = 3.3E+05 * 1^n (sec)                         (res: 3.4E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_basic_expr ** 0.84
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_basic_expr_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_basic_expr' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 6.1E+03 (sec)                               
+Constant: time = 6.1E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = 7.6E+03 + -1E+02*n (sec)                         (res: 3.6E+02)
+Quadratic: time = 6.9E+03 + -1.7*n^2 (sec)                      (res: 3.6E+02)
+Cubic: time = 6.4E+03 + -0.015*n^3 (sec)                        (res: 3.6E+02)
+Logarithmic: time = 8.5E+03 + -1.5E+03*log(n) (sec)             (res: 3.6E+02)
+Linearithmic: time = 7.3E+03 + -25*n*log(n) (sec)               (res: 3.6E+02)
+Exponential: time = 3.1E+05 * 1^n (sec)                         (res: 2.8E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_basic_expr ** 0.75
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_basic_expr_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'count_match_expr' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_match_expr_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'count_match_expr' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_match_expr_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_match_expr' and metric 'runtime_ns': dropped 63 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_match_expr' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.2E+03 (sec)                               
+Constant: time = 5.2E+03 (sec)                                  (res: 3.2E+02)
+Linear: time = 6.5E+03 + -1.4E+02*n (sec)                       (res: 3.1E+02)
+Quadratic: time = 5.9E+03 + -4.4*n^2 (sec)                      (res: 3.1E+02)
+Cubic: time = 5.6E+03 + -0.091*n^3 (sec)                        (res: 3.2E+02)
+Logarithmic: time = 6.8E+03 + -1.1E+03*log(n) (sec)             (res: 3.1E+02)
+Linearithmic: time = 6.2E+03 + -40*n*log(n) (sec)               (res: 3.1E+02)
+Exponential: time = 4.3E+05 * 1^n (sec)                         (res: 5.1E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_match_expr ** 0.87
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_match_expr_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_match_expr' and metric 'runtime_ns': dropped 63 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_match_expr' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.5E+03 (sec)                               
+Constant: time = 5.5E+03 (sec)                                  (res: 3.2E+02)
+Linear: time = 7.1E+03 + -1.7E+02*n (sec)                       (res: 3.1E+02)
+Quadratic: time = 6.4E+03 + -5.2*n^2 (sec)                      (res: 3.1E+02)
+Cubic: time = 5.9E+03 + -0.093*n^3 (sec)                        (res: 3.2E+02)
+Logarithmic: time = 7.6E+03 + -1.4E+03*log(n) (sec)             (res: 3.1E+02)
+Linearithmic: time = 6.8E+03 + -48*n*log(n) (sec)               (res: 3.1E+02)
+Exponential: time = 3.9E+05 * 1^n (sec)                         (res: 3.9E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_match_expr ** 0.78
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_match_expr_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'count_value_argument' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_value_argument_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'count_value_argument' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_value_argument_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_value_argument' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.9E+03 (sec)                               
+Constant: time = 5.9E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = 7.1E+03 + -94*n (sec)                            (res: 3.6E+02)
+Quadratic: time = 6.6E+03 + -1.6*n^2 (sec)                      (res: 3.6E+02)
+Cubic: time = 6.2E+03 + -0.017*n^3 (sec)                        (res: 3.6E+02)
+Logarithmic: time = 7.8E+03 + -1.3E+03*log(n) (sec)             (res: 3.6E+02)
+Linearithmic: time = 6.8E+03 + -23*n*log(n) (sec)               (res: 3.6E+02)
+Exponential: time = 3.3E+05 * 1^n (sec)                         (res: 3.4E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_value_argument ** 0.84
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_value_argument_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_value_argument' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 6.1E+03 (sec)                               
+Constant: time = 6.1E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = 7.6E+03 + -1E+02*n (sec)                         (res: 3.6E+02)
+Quadratic: time = 6.9E+03 + -1.7*n^2 (sec)                      (res: 3.6E+02)
+Cubic: time = 6.4E+03 + -0.015*n^3 (sec)                        (res: 3.6E+02)
+Logarithmic: time = 8.5E+03 + -1.5E+03*log(n) (sec)             (res: 3.6E+02)
+Linearithmic: time = 7.3E+03 + -25*n*log(n) (sec)               (res: 3.6E+02)
+Exponential: time = 3.1E+05 * 1^n (sec)                         (res: 2.8E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_value_argument ** 0.75
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_value_argument_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'count_iregexp_literal' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_iregexp_literal_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'count_iregexp_literal' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_iregexp_literal_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_iregexp_literal' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.9E+03 (sec)                               
+Constant: time = 5.9E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = 7.1E+03 + -94*n (sec)                            (res: 3.6E+02)
+Quadratic: time = 6.6E+03 + -1.6*n^2 (sec)                      (res: 3.6E+02)
+Cubic: time = 6.2E+03 + -0.017*n^3 (sec)                        (res: 3.6E+02)
+Logarithmic: time = 7.8E+03 + -1.3E+03*log(n) (sec)             (res: 3.6E+02)
+Linearithmic: time = 6.8E+03 + -23*n*log(n) (sec)               (res: 3.6E+02)
+Exponential: time = 3.3E+05 * 1^n (sec)                         (res: 3.4E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_iregexp_literal ** 0.84
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_iregexp_literal_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_iregexp_literal' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 6.1E+03 (sec)                               
+Constant: time = 6.1E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = 7.6E+03 + -1E+02*n (sec)                         (res: 3.6E+02)
+Quadratic: time = 6.9E+03 + -1.7*n^2 (sec)                      (res: 3.6E+02)
+Cubic: time = 6.4E+03 + -0.015*n^3 (sec)                        (res: 3.6E+02)
+Logarithmic: time = 8.5E+03 + -1.5E+03*log(n) (sec)             (res: 3.6E+02)
+Linearithmic: time = 7.3E+03 + -25*n*log(n) (sec)               (res: 3.6E+02)
+Exponential: time = 3.1E+05 * 1^n (sec)                         (res: 2.8E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_iregexp_literal ** 0.75
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_iregexp_literal_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'count_ire_alt' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_ire_alt_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'count_ire_alt' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_ire_alt_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_ire_alt' and metric 'runtime_ns': dropped 76 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_ire_alt' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5E+03 (sec)                                 
+Constant: time = 5E+03 (sec)                                    (res: 3.1E+02)
+Linear: time = 5.9E+03 + -1.1E+02*n (sec)                       (res: 3.1E+02)
+Quadratic: time = 5.5E+03 + -3.2*n^2 (sec)                      (res: 3.1E+02)
+Cubic: time = 5.2E+03 + -0.06*n^3 (sec)                         (res: 3.1E+02)
+Logarithmic: time = 6.2E+03 + -9.1E+02*log(n) (sec)             (res: 3E+02)
+Linearithmic: time = 5.7E+03 + -31*n*log(n) (sec)               (res: 3.1E+02)
+Exponential: time = 4.5E+05 * 1^n (sec)                         (res: 6.1E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_ire_alt ** 0.95
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_ire_alt_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_ire_alt' and metric 'runtime_ns': dropped 76 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_ire_alt' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.1E+03 (sec)                               
+Constant: time = 5.1E+03 (sec)                                  (res: 3.1E+02)
+Linear: time = 6.4E+03 + -1.3E+02*n (sec)                       (res: 3E+02)
+Quadratic: time = 5.9E+03 + -3.6*n^2 (sec)                      (res: 3.1E+02)
+Cubic: time = 5.4E+03 + -0.056*n^3 (sec)                        (res: 3.1E+02)
+Logarithmic: time = 6.6E+03 + -1E+03*log(n) (sec)               (res: 3E+02)
+Linearithmic: time = 6.1E+03 + -35*n*log(n) (sec)               (res: 3E+02)
+Exponential: time = 4.1E+05 * 1^n (sec)                         (res: 4.6E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_ire_alt ** 0.86
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_ire_alt_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'count_ire_branch' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_ire_branch_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'count_ire_branch' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_ire_branch_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_ire_branch' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.9E+03 (sec)                               
+Constant: time = 5.9E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = 7.1E+03 + -61*n (sec)                            (res: 3.6E+02)
+Quadratic: time = 6.6E+03 + -0.66*n^2 (sec)                     (res: 3.6E+02)
+Cubic: time = 6.2E+03 + -0.0052*n^3 (sec)                       (res: 3.6E+02)
+Logarithmic: time = 8.5E+03 + -1.3E+03*log(n) (sec)             (res: 3.6E+02)
+Linearithmic: time = 6.9E+03 + -13*n*log(n) (sec)               (res: 3.6E+02)
+Exponential: time = 3.2E+05 * 1^n (sec)                         (res: 3.6E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_ire_branch ** 0.81
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_ire_branch_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_ire_branch' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 6.1E+03 (sec)                               
+Constant: time = 6.1E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = 7.6E+03 + -66*n (sec)                            (res: 3.6E+02)
+Quadratic: time = 7E+03 + -0.71*n^2 (sec)                       (res: 3.6E+02)
+Cubic: time = 6.4E+03 + -0.0048*n^3 (sec)                       (res: 3.6E+02)
+Logarithmic: time = 9.1E+03 + -1.5E+03*log(n) (sec)             (res: 3.6E+02)
+Linearithmic: time = 7.3E+03 + -14*n*log(n) (sec)               (res: 3.6E+02)
+Exponential: time = 3.1E+05 * 1^n (sec)                         (res: 2.9E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_ire_branch ** 0.72
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_ire_branch_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'count_ire_piece' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_ire_piece_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'count_ire_piece' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_ire_piece_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_ire_piece' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.9E+03 (sec)                               
+Constant: time = 5.9E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = 7.1E+03 + -24*n (sec)                            (res: 3.6E+02)
+Quadratic: time = 6.6E+03 + -0.1*n^2 (sec)                      (res: 3.6E+02)
+Cubic: time = 6.2E+03 + -0.00033*n^3 (sec)                      (res: 3.6E+02)
+Logarithmic: time = 9.6E+03 + -1.3E+03*log(n) (sec)             (res: 3.6E+02)
+Linearithmic: time = 6.9E+03 + -4.3*n*log(n) (sec)              (res: 3.6E+02)
+Exponential: time = 3.3E+05 * 1^n (sec)                         (res: 3.6E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_ire_piece ** 0.74
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_ire_piece_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_ire_piece' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 6.1E+03 (sec)                               
+Constant: time = 6.1E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = 7.6E+03 + -26*n (sec)                            (res: 3.6E+02)
+Quadratic: time = 7E+03 + -0.11*n^2 (sec)                       (res: 3.6E+02)
+Cubic: time = 6.5E+03 + -0.00031*n^3 (sec)                      (res: 3.6E+02)
+Logarithmic: time = 1E+04 + -1.5E+03*log(n) (sec)               (res: 3.6E+02)
+Linearithmic: time = 7.3E+03 + -4.7*n*log(n) (sec)              (res: 3.6E+02)
+Exponential: time = 3.1E+05 * 1^n (sec)                         (res: 3E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_ire_piece ** 0.66
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_ire_piece_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'count_ire_char_class' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_ire_char_class_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'count_ire_char_class' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_ire_char_class_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_ire_char_class' and metric 'runtime_ns': dropped 52 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_ire_char_class' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.3E+03 (sec)                               
+Constant: time = 5.3E+03 (sec)                                  (res: 3.2E+02)
+Linear: time = 6.5E+03 + -76*n (sec)                            (res: 3.2E+02)
+Quadratic: time = 6E+03 + -1.2*n^2 (sec)                        (res: 3.2E+02)
+Cubic: time = 5.7E+03 + -0.014*n^3 (sec)                        (res: 3.2E+02)
+Logarithmic: time = 6.8E+03 + -9E+02*log(n) (sec)               (res: 3.2E+02)
+Linearithmic: time = 6.3E+03 + -18*n*log(n) (sec)               (res: 3.2E+02)
+Exponential: time = 4.2E+05 * 1^n (sec)                         (res: 5.2E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_ire_char_class ** 0.89
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_ire_char_class_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_ire_char_class' and metric 'runtime_ns': dropped 52 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_ire_char_class' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.5E+03 (sec)                               
+Constant: time = 5.5E+03 (sec)                                  (res: 3.2E+02)
+Linear: time = 6.9E+03 + -83*n (sec)                            (res: 3.2E+02)
+Quadratic: time = 6.3E+03 + -1.3*n^2 (sec)                      (res: 3.2E+02)
+Cubic: time = 5.8E+03 + -0.013*n^3 (sec)                        (res: 3.2E+02)
+Logarithmic: time = 7.2E+03 + -9.8E+02*log(n) (sec)             (res: 3.2E+02)
+Linearithmic: time = 6.6E+03 + -20*n*log(n) (sec)               (res: 3.2E+02)
+Exponential: time = 3.9E+05 * 1^n (sec)                         (res: 4E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_ire_char_class ** 0.81
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_ire_char_class_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'count_ire_char_class_expr' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_ire_char_class_expr_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'count_ire_char_class_expr' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_ire_char_class_expr_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_ire_char_class_expr' and metric 'runtime_ns': dropped 85 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_ire_char_class_expr' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.2E+03 (sec)                               
+Constant: time = 5.2E+03 (sec)                                  (res: 3E+02)
+Linear: time = 7.4E+03 + -1.9E+02*n (sec)                       (res: 3E+02)
+Quadratic: time = 6.5E+03 + -5.8*n^2 (sec)                      (res: 3E+02)
+Cubic: time = 5.8E+03 + -0.13*n^3 (sec)                         (res: 3E+02)
+Logarithmic: time = 7.8E+03 + -1.5E+03*log(n) (sec)             (res: 3E+02)
+Linearithmic: time = 6.9E+03 + -54*n*log(n) (sec)               (res: 3E+02)
+Exponential: time = 5.2E+05 * 1^n (sec)                         (res: 6.4E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_ire_char_class_expr ** 0.88
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_ire_char_class_expr_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_ire_char_class_expr' and metric 'runtime_ns': dropped 85 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_ire_char_class_expr' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.4E+03 (sec)                               
+Constant: time = 5.4E+03 (sec)                                  (res: 3E+02)
+Linear: time = 8.1E+03 + -2.2E+02*n (sec)                       (res: 3E+02)
+Quadratic: time = 7E+03 + -6.6*n^2 (sec)                        (res: 3E+02)
+Cubic: time = 6.1E+03 + -0.13*n^3 (sec)                         (res: 3E+02)
+Logarithmic: time = 8.7E+03 + -1.8E+03*log(n) (sec)             (res: 2.9E+02)
+Linearithmic: time = 7.5E+03 + -62*n*log(n) (sec)               (res: 3E+02)
+Exponential: time = 4.7E+05 * 1^n (sec)                         (res: 4.8E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_ire_char_class_expr ** 0.80
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_ire_char_class_expr_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'count_ire_cce1' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_ire_cce1_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'count_ire_cce1' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_ire_cce1_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_ire_cce1' and metric 'runtime_ns': dropped 85 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_ire_cce1' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.2E+03 (sec)                               
+Constant: time = 5.2E+03 (sec)                                  (res: 3E+02)
+Linear: time = 7.1E+03 + -89*n (sec)                            (res: 3E+02)
+Quadratic: time = 6.3E+03 + -1.3*n^2 (sec)                      (res: 3E+02)
+Cubic: time = 5.7E+03 + -0.015*n^3 (sec)                        (res: 3E+02)
+Logarithmic: time = 8.6E+03 + -1.4E+03*log(n) (sec)             (res: 3E+02)
+Linearithmic: time = 6.8E+03 + -21*n*log(n) (sec)               (res: 3E+02)
+Exponential: time = 5.3E+05 * 1^n (sec)                         (res: 6.2E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_ire_cce1 ** 0.80
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_ire_cce1_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_ire_cce1' and metric 'runtime_ns': dropped 85 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_ire_cce1' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.4E+03 (sec)                               
+Constant: time = 5.4E+03 (sec)                                  (res: 3E+02)
+Linear: time = 7.8E+03 + -1E+02*n (sec)                         (res: 3E+02)
+Quadratic: time = 6.8E+03 + -1.5*n^2 (sec)                      (res: 3E+02)
+Cubic: time = 6E+03 + -0.015*n^3 (sec)                          (res: 3E+02)
+Logarithmic: time = 9.3E+03 + -1.6E+03*log(n) (sec)             (res: 3E+02)
+Linearithmic: time = 7.3E+03 + -24*n*log(n) (sec)               (res: 3E+02)
+Exponential: time = 4.8E+05 * 1^n (sec)                         (res: 4.7E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_ire_cce1 ** 0.72
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_ire_cce1_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'count_ire_quantifier' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_ire_quantifier_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'count_ire_quantifier' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_ire_quantifier_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_ire_quantifier' and metric 'runtime_ns': dropped 20 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_ire_quantifier' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.6E+03 (sec)                               
+Constant: time = 5.6E+03 (sec)                                  (res: 3.5E+02)
+Linear: time = 6.7E+03 + -41*n (sec)                            (res: 3.5E+02)
+Quadratic: time = 6.2E+03 + -0.36*n^2 (sec)                     (res: 3.5E+02)
+Cubic: time = 5.9E+03 + -0.002*n^3 (sec)                        (res: 3.5E+02)
+Logarithmic: time = 7.8E+03 + -1E+03*log(n) (sec)               (res: 3.5E+02)
+Linearithmic: time = 6.5E+03 + -8.6*n*log(n) (sec)              (res: 3.5E+02)
+Exponential: time = 3.6E+05 * 1^n (sec)                         (res: 4.1E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_ire_quantifier ** 0.76
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_ire_quantifier_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_ire_quantifier' and metric 'runtime_ns': dropped 20 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_ire_quantifier' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.8E+03 (sec)                               
+Constant: time = 5.8E+03 (sec)                                  (res: 3.5E+02)
+Linear: time = 7.1E+03 + -46*n (sec)                            (res: 3.5E+02)
+Quadratic: time = 6.6E+03 + -0.39*n^2 (sec)                     (res: 3.5E+02)
+Cubic: time = 6.1E+03 + -0.0018*n^3 (sec)                       (res: 3.5E+02)
+Logarithmic: time = 8.3E+03 + -1.1E+03*log(n) (sec)             (res: 3.4E+02)
+Linearithmic: time = 6.9E+03 + -9.5*n*log(n) (sec)              (res: 3.5E+02)
+Exponential: time = 3.4E+05 * 1^n (sec)                         (res: 3.3E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_ire_quantifier ** 0.68
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_ire_quantifier_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'count_ire_range_quantifier' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_ire_range_quantifier_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'count_ire_range_quantifier' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_ire_range_quantifier_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_ire_range_quantifier' and metric 'runtime_ns': dropped 92 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_ire_range_quantifier' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 4.9E+03 (sec)                               
+Constant: time = 4.9E+03 (sec)                                  (res: 2.9E+02)
+Linear: time = 6.1E+03 + -1.3E+02*n (sec)                       (res: 2.9E+02)
+Quadratic: time = 5.5E+03 + -4*n^2 (sec)                        (res: 2.9E+02)
+Cubic: time = 5.1E+03 + -0.059*n^3 (sec)                        (res: 2.9E+02)
+Logarithmic: time = 6.6E+03 + -1.1E+03*log(n) (sec)             (res: 2.9E+02)
+Linearithmic: time = 5.7E+03 + -37*n*log(n) (sec)               (res: 2.9E+02)
+Exponential: time = 4.9E+05 * 1^n (sec)                         (res: 6.3E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_ire_range_quantifier ** 0.87
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_ire_range_quantifier_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_ire_range_quantifier' and metric 'runtime_ns': dropped 92 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_ire_range_quantifier' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.1E+03 (sec)                               
+Constant: time = 5.1E+03 (sec)                                  (res: 2.9E+02)
+Linear: time = 6.7E+03 + -1.6E+02*n (sec)                       (res: 2.9E+02)
+Quadratic: time = 5.9E+03 + -4.6*n^2 (sec)                      (res: 2.9E+02)
+Cubic: time = 5.3E+03 + -0.051*n^3 (sec)                        (res: 2.9E+02)
+Logarithmic: time = 7.7E+03 + -1.5E+03*log(n) (sec)             (res: 2.9E+02)
+Linearithmic: time = 6.2E+03 + -44*n*log(n) (sec)               (res: 2.9E+02)
+Exponential: time = 4.4E+05 * 1^n (sec)                         (res: 4.7E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_ire_range_quantifier ** 0.78
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_ire_range_quantifier_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'count_search_expr' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_search_expr_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'count_search_expr' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_search_expr_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_search_expr' and metric 'runtime_ns': dropped 75 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_search_expr' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.2E+03 (sec)                               
+Constant: time = 5.2E+03 (sec)                                  (res: 3.1E+02)
+Linear: time = 6.5E+03 + -1.6E+02*n (sec)                       (res: 3.1E+02)
+Quadratic: time = 5.8E+03 + -4.8*n^2 (sec)                      (res: 3.1E+02)
+Cubic: time = 5.1E+03 + 0.041*n^3 (sec)                         (res: 3.1E+02)
+Logarithmic: time = 6.9E+03 + -1.3E+03*log(n) (sec)             (res: 3.1E+02)
+Linearithmic: time = 6.1E+03 + -46*n*log(n) (sec)               (res: 3.1E+02)
+Exponential: time = 4.7E+05 * 1^n (sec)                         (res: 4.8E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_search_expr ** 0.93
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_search_expr_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_search_expr' and metric 'runtime_ns': dropped 75 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_search_expr' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.2E+03 (sec)                               
+Constant: time = 5.2E+03 (sec)                                  (res: 3.1E+02)
+Linear: time = 6.4E+03 + -1.5E+02*n (sec)                       (res: 3.1E+02)
+Quadratic: time = 5.7E+03 + -4.2*n^2 (sec)                      (res: 3.1E+02)
+Cubic: time = 4.9E+03 + 0.12*n^3 (sec)                          (res: 3.1E+02)
+Logarithmic: time = 6.7E+03 + -1.1E+03*log(n) (sec)             (res: 3.1E+02)
+Linearithmic: time = 6.1E+03 + -43*n*log(n) (sec)               (res: 3.1E+02)
+Exponential: time = 4.2E+05 * 1^n (sec)                         (res: 3.8E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_search_expr ** 0.85
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_search_expr_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'count_and_tail' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_and_tail_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'count_and_tail' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_and_tail_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_and_tail' and metric 'runtime_ns': dropped 129 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_and_tail' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 4.3E+03 (sec)                               
+Constant: time = 4.3E+03 (sec)                                  (res: 2.7E+02)
+Linear: time = 5.1E+03 + -41*n (sec)                            (res: 2.7E+02)
+Quadratic: time = 4.6E+03 + -0.49*n^2 (sec)                     (res: 2.7E+02)
+Cubic: time = 4E+03 + 0.011*n^3 (sec)                           (res: 2.7E+02)
+Logarithmic: time = 5.9E+03 + -6.6E+02*log(n) (sec)             (res: 2.7E+02)
+Linearithmic: time = 5E+03 + -9.6*n*log(n) (sec)                (res: 2.7E+02)
+Exponential: time = 7.2E+05 * 1^n (sec)                         (res: 8.7E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Cubic, Quadratic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_and_tail ** 0.74
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_and_tail_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_and_tail' and metric 'runtime_ns': dropped 129 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_and_tail' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 4.4E+03 (sec)                               
+Constant: time = 4.4E+03 (sec)                                  (res: 2.7E+02)
+Linear: time = 5.2E+03 + -41*n (sec)                            (res: 2.7E+02)
+Quadratic: time = 4.7E+03 + -0.47*n^2 (sec)                     (res: 2.7E+02)
+Cubic: time = 3.9E+03 + 0.017*n^3 (sec)                         (res: 2.7E+02)
+Logarithmic: time = 5.7E+03 + -5.6E+02*log(n) (sec)             (res: 2.7E+02)
+Linearithmic: time = 5.1E+03 + -9.8*n*log(n) (sec)              (res: 2.7E+02)
+Exponential: time = 6.1E+05 * 1^n (sec)                         (res: 6.4E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Cubic, Quadratic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_and_tail ** 0.69
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_and_tail_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'count_item' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_item_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'count_item' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_item_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_item' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = -1.4E+03 + 5E+03*n (sec)                      
+Constant: time = 5.9E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = -1.4E+03 + 5E+03*n (sec)                         (res: 2.3E+02)
+Quadratic: time = 5.7E+03 + 27*n^2 (sec)                        (res: 3E+02)
+Cubic: time = 5.8E+03 + 0.071*n^3 (sec)                         (res: 3.3E+02)
+Logarithmic: time = 2.8E+03 + 1.4E+04*log(n) (sec)              (res: 3.1E+02)
+Linearithmic: time = 4.8E+03 + 1.2E+03*n*log(n) (sec)           (res: 2.4E+02)
+Exponential: time = 1.9E+05 * 1^n (sec)                         (res: 5.8E+04)
+
+   [near-tie] within 10%: Linear, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_item ** 1.00
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_item_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_item' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = -9.9E+02 + 4.7E+03*n (sec)                    
+Constant: time = 6.1E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = -9.9E+02 + 4.7E+03*n (sec)                       (res: 2.3E+02)
+Quadratic: time = 5.9E+03 + 23*n^2 (sec)                        (res: 3E+02)
+Cubic: time = 6E+03 + 0.057*n^3 (sec)                           (res: 3.4E+02)
+Logarithmic: time = 2.9E+03 + 1.3E+04*log(n) (sec)              (res: 3.1E+02)
+Linearithmic: time = 5E+03 + 1.1E+03*n*log(n) (sec)             (res: 2.4E+02)
+Exponential: time = 1.7E+05 * 1^n (sec)                         (res: 4.8E+04)
+
+   [near-tie] within 10%: Linear, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_item ** 0.99
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_item_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'count_doc_string' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_doc_string_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'count_doc_string' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_doc_string_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_doc_string' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = -84 + 3.8E+03*n (sec)                         
+Constant: time = 5.9E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = -84 + 3.8E+03*n (sec)                            (res: 2.2E+02)
+Quadratic: time = 5.7E+03 + 15*n^2 (sec)                        (res: 3E+02)
+Cubic: time = 5.8E+03 + 0.031*n^3 (sec)                         (res: 3.3E+02)
+Logarithmic: time = 2.6E+03 + 1.3E+04*log(n) (sec)              (res: 3E+02)
+Linearithmic: time = 4.9E+03 + 8.4E+02*n*log(n) (sec)           (res: 2.3E+02)
+Exponential: time = 1.9E+05 * 1^n (sec)                         (res: 5.7E+04)
+
+   [near-tie] within 10%: Linear, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_doc_string ** 1.00
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_doc_string_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_doc_string' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 2.5E+02 + 3.6E+03*n (sec)                     
+Constant: time = 6.1E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = 2.5E+02 + 3.6E+03*n (sec)                        (res: 2.3E+02)
+Quadratic: time = 5.9E+03 + 13*n^2 (sec)                        (res: 3E+02)
+Cubic: time = 6E+03 + 0.025*n^3 (sec)                           (res: 3.3E+02)
+Logarithmic: time = 2.7E+03 + 1.3E+04*log(n) (sec)              (res: 3.1E+02)
+Linearithmic: time = 5E+03 + 7.8E+02*n*log(n) (sec)             (res: 2.4E+02)
+Exponential: time = 1.7E+05 * 1^n (sec)                         (res: 4.7E+04)
+
+   [near-tie] within 10%: Linear, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_doc_string ** 0.99
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_doc_string_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'count_letter' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_letter_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'count_letter' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_letter_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_letter' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.9E+03 (sec)                               
+Constant: time = 5.9E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = 5.5E+03 + 61*n (sec)                             (res: 3.3E+02)
+Quadratic: time = 5.8E+03 + 0.0035*n^2 (sec)                    (res: 3.5E+02)
+Cubic: time = 5.8E+03 + 2.4E-07*n^3 (sec)                       (res: 3.5E+02)
+Logarithmic: time = 1.2E+03 + 4.2E+03*log(n) (sec)              (res: 3.4E+02)
+Linearithmic: time = 5.8E+03 + 5.9*n*log(n) (sec)               (res: 3.4E+02)
+Exponential: time = 4.1E+05 * 1^n (sec)                         (res: 2.4E+05)
+
+   [near-tie] within 10%: Linear, Linearithmic, Logarithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_letter ** 0.71
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_letter_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_letter' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 6.1E+03 (sec)                               
+Constant: time = 6.1E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = 5.7E+03 + 60*n (sec)                             (res: 3.3E+02)
+Quadratic: time = 6E+03 + 0.0034*n^2 (sec)                      (res: 3.5E+02)
+Cubic: time = 6E+03 + 2.3E-07*n^3 (sec)                         (res: 3.5E+02)
+Logarithmic: time = 1.4E+03 + 3.9E+03*log(n) (sec)              (res: 3.4E+02)
+Linearithmic: time = 5.9E+03 + 5.8*n*log(n) (sec)               (res: 3.4E+02)
+Exponential: time = 3.7E+05 * 1^n (sec)                         (res: 1.8E+05)
+
+   [near-tie] within 10%: Linear, Linearithmic, Logarithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_letter ** 0.71
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_letter_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'count_wide_more_item' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_wide_more_item_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'count_wide_more_item' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_count_wide_more_item_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_wide_more_item' and metric 'runtime_ns': dropped 24 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'count_wide_more_item' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 2.5E+03 + 5.2E+03*n (sec)                     
+Constant: time = 1.2E+04 (sec)                                  (res: 3.4E+02)
+Linear: time = 2.5E+03 + 5.2E+03*n (sec)                        (res: 2.2E+02)
+Quadratic: time = 1.2E+04 + 26*n^2 (sec)                        (res: 2.8E+02)
+Cubic: time = 1.2E+04 + 0.071*n^3 (sec)                         (res: 3.1E+02)
+Logarithmic: time = 4.6E+03 + 2.2E+04*log(n) (sec)              (res: 2.8E+02)
+Linearithmic: time = 9.8E+03 + 1.1E+03*n*log(n) (sec)           (res: 2.3E+02)
+Exponential: time = 2.7E+05 * 1^n (sec)                         (res: 2.7E+04)
+
+   [near-tie] within 10%: Linear, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_wide_more_item ** 0.84
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_wide_more_item_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_wide_more_item' and metric 'runtime_ns': dropped 24 of 412 rows (censored, non-positive metric, or zero feature).
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'count_wide_more_item' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = 2.4E+03 + 4.9E+03*n (sec)                     
+Constant: time = 1.2E+04 (sec)                                  (res: 3.4E+02)
+Linear: time = 2.4E+03 + 4.9E+03*n (sec)                        (res: 2.3E+02)
+Quadratic: time = 1.1E+04 + 23*n^2 (sec)                        (res: 2.8E+02)
+Cubic: time = 1.2E+04 + 0.057*n^3 (sec)                         (res: 3.1E+02)
+Logarithmic: time = 4.5E+03 + 2.1E+04*log(n) (sec)              (res: 2.9E+02)
+Linearithmic: time = 9.4E+03 + 1.1E+03*n*log(n) (sec)           (res: 2.3E+02)
+Exponential: time = 2.4E+05 * 1^n (sec)                         (res: 2.4E+04)
+
+   [near-tie] within 10%: Linear, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ count_wide_more_item ** 0.83
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_count_wide_more_item_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'doc_depth' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_doc_depth_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'doc_depth' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_doc_depth_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'doc_depth' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.9E+03 (sec)                               
+Constant: time = 5.9E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = -9.5E+03 + 1.4E+04*n (sec)                       (res: 3.3E+02)
+Quadratic: time = -4.7E+02 + 4.5E+03*n^2 (sec)                  (res: 3.3E+02)
+Cubic: time = 2.1E+03 + 1.9E+03*n^3 (sec)                       (res: 3.3E+02)
+Logarithmic: time = 4E+03 + 1.9E+04*log(n) (sec)                (res: 3.3E+02)
+Linearithmic: time = 4E+03 + 9.7E+03*n*log(n) (sec)             (res: 3.3E+02)
+Exponential: time = 43 * 1.3E+02^n (sec)                        (res: 9E+04)
+
+   [near-tie] within 10%: Linear, Quadratic, Cubic, Logarithmic, Linearithmic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ doc_depth ** 7.00
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_doc_depth_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'doc_depth' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 6.1E+03 (sec)                               
+Constant: time = 6.1E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = -8.2E+03 + 1.2E+04*n (sec)                       (res: 3.4E+02)
+Quadratic: time = 20 + 4.1E+03*n^2 (sec)                        (res: 3.4E+02)
+Cubic: time = 2.4E+03 + 1.8E+03*n^3 (sec)                       (res: 3.4E+02)
+Logarithmic: time = 4.1E+03 + 1.8E+04*log(n) (sec)              (res: 3.4E+02)
+Linearithmic: time = 4.1E+03 + 8.9E+03*n*log(n) (sec)           (res: 3.4E+02)
+Exponential: time = 54 * 1.1E+02^n (sec)                        (res: 7.9E+04)
+
+   [near-tie] within 10%: Linear, Quadratic, Cubic, Logarithmic, Linearithmic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ doc_depth ** 6.76
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_doc_depth_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'doc_bytes' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_doc_bytes_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'doc_bytes' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_doc_bytes_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'doc_bytes' and metric 'runtime_ns' the best fit is:
+Best : Logarithmic: time = -1.3E+04 + 8.4E+03*log(n) (sec)          
+Constant: time = 5.9E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = 4.9E+03 + 71*n (sec)                             (res: 3.1E+02)
+Quadratic: time = 5.8E+03 + 0.0031*n^2 (sec)                    (res: 3.4E+02)
+Cubic: time = 5.8E+03 + 1.8E-07*n^3 (sec)                       (res: 3.5E+02)
+Logarithmic: time = -1.3E+04 + 8.4E+03*log(n) (sec)             (res: 3.1E+02)
+Linearithmic: time = 5.6E+03 + 6.7*n*log(n) (sec)               (res: 3.2E+02)
+Exponential: time = 3.4E+05 * 1^n (sec)                         (res: 1.7E+05)
+
+   [near-tie] within 10%: Linear, Logarithmic, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ doc_bytes ** 0.84
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_doc_bytes_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'doc_bytes' and metric 'runtime_ns' the best fit is:
+Best : Logarithmic: time = -1.2E+04 + 8.1E+03*log(n) (sec)          
+Constant: time = 6.1E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = 5E+03 + 71*n (sec)                               (res: 3.1E+02)
+Quadratic: time = 6E+03 + 0.003*n^2 (sec)                       (res: 3.5E+02)
+Cubic: time = 6E+03 + 1.8E-07*n^3 (sec)                         (res: 3.5E+02)
+Logarithmic: time = -1.2E+04 + 8.1E+03*log(n) (sec)             (res: 3.2E+02)
+Linearithmic: time = 5.7E+03 + 6.7*n*log(n) (sec)               (res: 3.2E+02)
+Exponential: time = 3.1E+05 * 1^n (sec)                         (res: 1.3E+05)
+
+   [near-tie] within 10%: Linear, Logarithmic, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ doc_bytes ** 0.84
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_doc_bytes_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'query_len' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_query_len_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'query_len' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_query_len_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'query_len' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.9E+03 (sec)                               
+Constant: time = 5.9E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = 7.1E+03 + -3.7*n (sec)                           (res: 3.6E+02)
+Quadratic: time = 6.6E+03 + -0.0024*n^2 (sec)                   (res: 3.6E+02)
+Cubic: time = 6.2E+03 + -1.1E-06*n^3 (sec)                      (res: 3.6E+02)
+Logarithmic: time = 1.2E+04 + -1.4E+03*log(n) (sec)             (res: 3.6E+02)
+Linearithmic: time = 7E+03 + -0.49*n*log(n) (sec)               (res: 3.6E+02)
+Exponential: time = 3.3E+05 * 1^n (sec)                         (res: 3.5E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ query_len ** 0.84
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_query_len_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'query_len' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 6.1E+03 (sec)                               
+Constant: time = 6.1E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = 7.6E+03 + -4*n (sec)                             (res: 3.6E+02)
+Quadratic: time = 7E+03 + -0.0025*n^2 (sec)                     (res: 3.6E+02)
+Cubic: time = 6.4E+03 + -9.6E-07*n^3 (sec)                      (res: 3.6E+02)
+Logarithmic: time = 1.4E+04 + -1.5E+03*log(n) (sec)             (res: 3.6E+02)
+Linearithmic: time = 7.4E+03 + -0.54*n*log(n) (sec)             (res: 3.6E+02)
+Exponential: time = 3.1E+05 * 1^n (sec)                         (res: 2.9E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ query_len ** 0.75
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_query_len_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'n_doc_nodes' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_n_doc_nodes_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'n_doc_nodes' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_n_doc_nodes_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'n_doc_nodes' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = -1.3E+03 + 2.6E+03*n (sec)                    
+Constant: time = 5.9E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = -1.3E+03 + 2.6E+03*n (sec)                       (res: 2.2E+02)
+Quadratic: time = 5.7E+03 + 6.7*n^2 (sec)                       (res: 3E+02)
+Cubic: time = 5.8E+03 + 0.0089*n^3 (sec)                        (res: 3.3E+02)
+Logarithmic: time = -9E+03 + 1.7E+04*log(n) (sec)               (res: 2.9E+02)
+Linearithmic: time = 4E+03 + 5.2E+02*n*log(n) (sec)             (res: 2.3E+02)
+Exponential: time = 1.9E+05 * 1^n (sec)                         (res: 5.8E+04)
+
+   [near-tie] within 10%: Linear, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ n_doc_nodes ** 1.05
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_n_doc_nodes_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'n_doc_nodes' and metric 'runtime_ns' the best fit is:
+Best : Linear: time = -9.1E+02 + 2.4E+03*n (sec)                    
+Constant: time = 6.1E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = -9.1E+02 + 2.4E+03*n (sec)                       (res: 2.3E+02)
+Quadratic: time = 5.9E+03 + 5.7*n^2 (sec)                       (res: 3E+02)
+Cubic: time = 6E+03 + 0.007*n^3 (sec)                           (res: 3.4E+02)
+Logarithmic: time = -8.5E+03 + 1.6E+04*log(n) (sec)             (res: 3E+02)
+Linearithmic: time = 4.2E+03 + 4.8E+02*n*log(n) (sec)           (res: 2.4E+02)
+Exponential: time = 1.7E+05 * 1^n (sec)                         (res: 4.8E+04)
+
+   [near-tie] within 10%: Linear, Linearithmic -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ n_doc_nodes ** 1.04
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_n_doc_nodes_pyjsonpath_2_0_0.png
+Plotting 'runtime_ns' vs 'n_function_calls' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_n_function_calls_pyjsonpath_1_3_2.png
+Plotting 'runtime_ns' vs 'n_function_calls' for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Saved plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/runtime_ns_vs_n_function_calls_pyjsonpath_2_0_0.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2', feature 'n_function_calls' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 5.9E+03 (sec)                               
+Constant: time = 5.9E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = 7.1E+03 + -94*n (sec)                            (res: 3.6E+02)
+Quadratic: time = 6.6E+03 + -1.6*n^2 (sec)                      (res: 3.6E+02)
+Cubic: time = 6.2E+03 + -0.017*n^3 (sec)                        (res: 3.6E+02)
+Logarithmic: time = 7.8E+03 + -1.3E+03*log(n) (sec)             (res: 3.6E+02)
+Linearithmic: time = 6.8E+03 + -23*n*log(n) (sec)               (res: 3.6E+02)
+Exponential: time = 3.3E+05 * 1^n (sec)                         (res: 3.4E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ n_function_calls ** 0.84
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_n_function_calls_pyjsonpath_1_3_2.png
+For './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0', feature 'n_function_calls' and metric 'runtime_ns' the best fit is:
+Best : Constant: time = 6.1E+03 (sec)                               
+Constant: time = 6.1E+03 (sec)                                  (res: 3.6E+02)
+Linear: time = 7.6E+03 + -1E+02*n (sec)                         (res: 3.6E+02)
+Quadratic: time = 6.9E+03 + -1.7*n^2 (sec)                      (res: 3.6E+02)
+Cubic: time = 6.4E+03 + -0.015*n^3 (sec)                        (res: 3.6E+02)
+Logarithmic: time = 8.5E+03 + -1.5E+03*log(n) (sec)             (res: 3.6E+02)
+Linearithmic: time = 7.3E+03 + -25*n*log(n) (sec)               (res: 3.6E+02)
+Exponential: time = 3.1E+05 * 1^n (sec)                         (res: 2.8E+05)
+
+   [near-tie] within 10%: Logarithmic, Linear, Linearithmic, Quadratic, Cubic, Constant -- chosen by the simplicity bias, not the data.
+   [exponent] free-exponent fit: runtime_ns ~ n_function_calls ** 0.75
+Saved fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/fitmodel_runtime_ns_vs_n_function_calls_pyjsonpath_2_0_0.png
+Model fit results for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+Best fit for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2':
+R^2: 0.44037218857081606
+Intercept: -1376.4413847010576
+Feature 'count_pre_segment' has complexity class 'Linear'.
+The coefficient for this feature is -1376.4413847056321.
+Feature 'count_ire_char_class' has complexity class 'Cubic'.
+The coefficient for this feature is 0.017851832647936865.
+Feature 'doc_depth' has complexity class 'Logarithmic'.
+The coefficient for this feature is 3440.7582708367963.
+Feature 'n_doc_nodes' has complexity class 'Linear'.
+The coefficient for this feature is 2561.879559479747.
+Saved 3d fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/3dmodel_runtime_ns_vs_count_pre_segment_and_count_ire_char_class_and_doc_depth_and_n_doc_nodes_pyjsonpath_1_3_2.png
+Model fit results for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+Best fit for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0':
+R^2: 0.4445555380657813
+Intercept: -2912.9795488320983
+Feature 'count_pre_segment' has complexity class 'Logarithmic'.
+The coefficient for this feature is -9.683923520201148e-09.
+Feature 'count_ire_char_class' has complexity class 'Cubic'.
+The coefficient for this feature is 0.02071486750207079.
+Feature 'doc_depth' has complexity class 'Cubic'.
+The coefficient for this feature is 285.2710619666127.
+Feature 'n_doc_nodes' has complexity class 'Linear'.
+The coefficient for this feature is 2441.9133161544614.
+Saved 3d fit model plot to ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/plots/3dmodel_runtime_ns_vs_count_pre_segment_and_count_ire_char_class_and_doc_depth_and_n_doc_nodes_pyjsonpath_2_0_0.png
+Best complexity classes for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_1_3_2': ('Linear', 'Cubic', 'Logarithmic', 'Linear')
+Best complexity classes for './results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/summary.csv-function_name/pyjsonpath_2_0_0': ('Logarithmic', 'Cubic', 'Cubic', 'Linear')
+======================================================================
+[pyjsonpath_tailored] metric cache: 824 entries, 3407 SUT executions this run
+[pyjsonpath_tailored] wall clock: 2757s of 3420s budget
+[pyjsonpath_tailored] report -> ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored/report.md
+[pyjsonpath_tailored] done. corpus=824 rows (412 inputs x 2 systems). Artifacts in ./results/rq1/20261002-2303-tailored-pyjsonpath_tailored/run1/pyjsonpath_tailored

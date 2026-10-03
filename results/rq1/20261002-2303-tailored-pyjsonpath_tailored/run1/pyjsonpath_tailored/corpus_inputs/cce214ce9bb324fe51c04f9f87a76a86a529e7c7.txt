@@ -1,0 +1,3 @@
+$[*]..[?!search(@.a,'xxz?|y{1,3}x?.')]
+@@@
+["zyzyzxzzz","xx"]

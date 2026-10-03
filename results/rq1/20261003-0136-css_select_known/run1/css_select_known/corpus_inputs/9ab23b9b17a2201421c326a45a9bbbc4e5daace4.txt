@@ -1,0 +1,3 @@
+:visited ,#ad.c +* , *[required $= "d b" i ]#d:not(p >[checked~=a][id^= "a-d" ]+.d ~b ,a ), #bc>input+*:where( div~ *.dcdaba,:checked:where(.ac:not(body, [required *=ac-bbbcdaaddd][ href $= d ] +b:nth-last-child(-0223n)#bb ~*[ type~= ""] ,em:is( *>*#d ~*[ class] )>html#a.b)> span.adc#d+ body#a >span#adcaaddbbc[checked *="" ] +*.c.aaaaddbccd.c>* ) ~ *:disabled+ .b,em )
+@@@
+<!DOCTYPE html><html><body><p lang="dbcdcbbccd">ca</p></body></html>

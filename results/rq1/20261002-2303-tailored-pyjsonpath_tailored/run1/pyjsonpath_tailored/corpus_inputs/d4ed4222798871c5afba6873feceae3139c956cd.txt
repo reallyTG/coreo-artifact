@@ -1,0 +1,3 @@
+$[?search(@.a,'z')]
+@@@
+[{"a":"xy","b":"yxyxzz"},{"a":"x"},{"a":"z","b":"yzzyyzxx"},{"a":"zxxyzyzzx","b":"y"},{"a":"xz","b":"yz"},{"a":"y"},{"a":"zxxxxzyzyx","b":"yx"},"x",{"a":"y","b":"xx"},"z","zzxy","xxyxzy",{"a":"yx"},{"a":"zzyzyyyz"},{"a":"zy","b":"xy"},{"a":"z","b":"zz"},{"a":"yxzzzxyzz"},"z",{"a":"zzyyz"},"yy",{"a":"zyxyxx","b":"xxyyxz"},{"a":"zxzxx"},"z",{"a":"xxxyzyzx"},{"a":"z"},"zx","y"]

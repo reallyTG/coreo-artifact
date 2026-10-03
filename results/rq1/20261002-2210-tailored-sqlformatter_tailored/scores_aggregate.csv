@@ -1,0 +1,2 @@
+subject,rqs,category,language,blind,expected,outcome,explanation,k,n,outcomes
+sqlformatter_tailored,RQ1-tailored,series,JavaScript,False,b_faster,detected,,1,1,"{""detected"": 1}"

@@ -1,0 +1,92 @@
+{
+  "count_id_attr|count_attr_modifier": {
+    "band": [
+      7,
+      9
+    ],
+    "best": 1.0,
+    "direction": "maximizing",
+    "extensive": "count_id_attr",
+    "intensive": "count_attr_modifier",
+    "stalls": 0,
+    "window": [
+      26.0,
+      31.2
+    ]
+  },
+  "count_id_attr|count_combinator": {
+    "band": [
+      7,
+      9
+    ],
+    "best": 5.0,
+    "direction": "maximizing",
+    "extensive": "count_id_attr",
+    "intensive": "count_combinator",
+    "stalls": 0,
+    "window": [
+      26.0,
+      31.2
+    ]
+  },
+  "count_id_attr|count_pseudo_class_selector_in_has": {
+    "band": [
+      7,
+      9
+    ],
+    "best": 0.0,
+    "direction": "maximizing",
+    "extensive": "count_id_attr",
+    "intensive": "count_pseudo_class_selector_in_has",
+    "stalls": 0,
+    "window": [
+      26.0,
+      31.2
+    ]
+  },
+  "count_tchar|count_combinator": {
+    "band": [
+      10,
+      12
+    ],
+    "best": 2.0,
+    "direction": "maximizing",
+    "extensive": "count_tchar",
+    "intensive": "count_combinator",
+    "stalls": 0,
+    "window": [
+      345.0,
+      414.0
+    ]
+  },
+  "count_tchar|count_complex_selector_in_has": {
+    "band": [
+      10,
+      12
+    ],
+    "best": 0.0,
+    "direction": "maximizing",
+    "extensive": "count_tchar",
+    "intensive": "count_complex_selector_in_has",
+    "stalls": 0,
+    "window": [
+      345.0,
+      414.0
+    ]
+  },
+  "count_tchar|count_lparen": {
+    "band": [
+      10,
+      12
+    ],
+    "best": 0.0,
+    "direction": "maximizing",
+    "extensive": "count_tchar",
+    "intensive": "count_lparen",
+    "stalls": 0,
+    "window": [
+      345.0,
+      414.0
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+$[
+
+	
+
+
+
+		 'caaddaccca\fd"bb\/a\ud0EE""\tcdda\r"','bcccdcbdda""ab\\adc""\'d\'bdac\f\ueaCc"\\""acd"c\t\'aba\'ac\''	
+,		
+ 	  	'ddd\'\'c\'\'"ba\nd\fcbcbbc"\'badaa"c\'cbcad\r"ab'	
+ 
+	  ,'acdacbbc\b\'a\nada\t\r""\n\fdb\'\'c\''			,'dab\'"\'"\bda\n\'\n"a\'b"da\'b"\rda"bccba"\'c\t\\bdcad\'','ddcbcd\'a\\"\\\'\fdd\'b"cbb\'ab\'d\bb\uDABA\udEdD\\\'b\'\\c"\'ad','aa\'"ab\fd\n\r\'\/"""dccb\'"ca"c"\'\/"bacca"b"\fa\r"d\b"dc\tb\'d"c"\b','adcdcbacdc"bdd\ud4fdabbabaa\'\'\'b"\'"\f"""b\uD7c8"\'aa\'\t"\fb\'\'dcd\rb\'\'da' 
+	 	 
+ ] 	['adcbadadaa\\ad\udBDa\udca0\'cccccabca\b\'cc"c\'\uDAca\udFDe\'c\f"c']
+@@@
+	
+[false,
+
+
+    []	
+,false	
+    ,
+false,false,[	
+"xx",		 	
+  	"xy"
+				,"zx" ,[{	  } 	,    	
+
+"xz",false 	
+ 	
+,{},null
+   
+
+,true,
+  	2E90 ] 		 	,"yyxx" 
+
+ 	,  null,	false,	
+
+  "xxx\f\f\""	
+  	
+ ,""  	
+		,true,  
+ 	   	false ]
+		,{
+ 		"c": 
+ 
+ [true, 
+		"zyx"
+ ,false, 	
+		 
+true 	
+ 
+
+
+]	
+    ,   "bad"   	
+		:false,
+	
+"ca"
+
+	:{
+
+},
+
+  
+"cd"
+
+  :   	  
+false
+
+
+ ,"dcaabcc\bc\rc"		
+ 	: 	 false	 	 ,"bbbc":  
+		  ""}	
+ 
+,   
+"yxzxzyzyy\t\nxz\\y\/",
+			
+
+"xyzxxyyy\fyxxzx\tx",true
+
+
+,	-40  	  
+]   
+	
+

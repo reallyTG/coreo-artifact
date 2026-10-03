@@ -1,0 +1,3 @@
+$..a..*..a.bc.ca
+@@@
+{"addadccadcd":["xz","yz",5,50,"z"]}

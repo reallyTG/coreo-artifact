@@ -1,0 +1,95 @@
+{
+  "count_bracketed_selection|query_len": {
+    "band": [
+      8,
+      10
+    ],
+    "best": 2013.0,
+    "direction": "maximizing",
+    "extensive": "count_bracketed_selection",
+    "intensive": "query_len",
+    "stalls": 0,
+    "window": [
+      8.0,
+      9.6
+    ]
+  },
+  "count_int|query_len": {
+    "band": [
+      21,
+      23
+    ],
+    "best": 2055.0,
+    "direction": "maximizing",
+    "extensive": "count_int",
+    "intensive": "query_len",
+    "retired": true,
+    "stalls": 2,
+    "window": [
+      19.0,
+      22.8
+    ]
+  },
+  "count_logical_function_expr|query_len": {
+    "band": [
+      24,
+      26
+    ],
+    "best": 2593.0,
+    "direction": "maximizing",
+    "extensive": "count_logical_function_expr",
+    "intensive": "query_len",
+    "stalls": 0,
+    "window": [
+      5.0,
+      6.0
+    ]
+  },
+  "count_name_selector|query_len": {
+    "band": [
+      11,
+      13
+    ],
+    "best": 2178.0,
+    "direction": "maximizing",
+    "extensive": "count_name_selector",
+    "intensive": "query_len",
+    "stalls": 0,
+    "window": [
+      11.0,
+      13.2
+    ]
+  },
+  "count_segment|query_len": {
+    "band": [
+      10,
+      12
+    ],
+    "best": 2130.0,
+    "direction": "maximizing",
+    "extensive": "count_segment",
+    "intensive": "query_len",
+    "retired": true,
+    "stalls": 2,
+    "window": [
+      10.0,
+      12.0
+    ]
+  },
+  "count_value_argument|query_len": {
+    "band": [
+      8,
+      10
+    ],
+    "best": 3218.0,
+    "direction": "maximizing",
+    "extensive": "count_value_argument",
+    "intensive": "query_len",
+    "retired": true,
+    "stalls": 2,
+    "window": [
+      7.0,
+      8.4
+    ]
+  }
+}

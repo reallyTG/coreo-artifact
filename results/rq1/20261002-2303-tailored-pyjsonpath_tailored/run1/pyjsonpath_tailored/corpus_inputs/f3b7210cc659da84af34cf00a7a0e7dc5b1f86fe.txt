@@ -1,0 +1,3 @@
+$..[?!search(@.b,'x?y*xy?')]
+@@@
+[{"a":"yy","b":"xzyxzxxy"},{"a":"zz"}]

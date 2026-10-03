@@ -1,0 +1,67 @@
+$..c..ba..[-22,"",-70,'a','',2,"d"]
+@@@
+[null
+
+	
+
+, 	[true,false,"yx"		,			
+ true, 
+	  
+true,
+ "z",""		,true
+	
+ ,	
+	
+	 	 	-8,	7e+00	
+	]	
+	,
+
+	 	
+
+ 
+null   	,false
+  ,	[], 
+		
+	{	 
+"aa"
+	   :
+
+
+  
+		 	true,"cbd":
+		
+	null,
+
+"b\nc\rc\rccd":	
+	
+ 	true
+		   , 
+				"ab":"yyxzy",	
+
+"bcc" 
+	:	    -4e+0,
+"b"
+:
+
+		 
+
+80 			  ,"bab":-9.03125080		,
+	  
+	
+
+"a"	
+:		
+
+	 -107003000703E-0,	
+"bababaccc": 		[
+		]
+  
+ ,"abbdddbc\/d\bac\\\uD7ff\n"		
+ 
+	
+:
+
+	  	 
+6022000400e-00},3	  	  
+
+]

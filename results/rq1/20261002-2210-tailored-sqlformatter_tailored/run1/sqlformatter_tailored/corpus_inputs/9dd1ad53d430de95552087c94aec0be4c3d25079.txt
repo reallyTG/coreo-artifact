@@ -1,0 +1,1 @@
+SELECT de_cdb_1b FROM a1bb WHERE bc IN (824948 AND c , 77,_1cbb_e_ab.c_ad AND eed_ccd_ ,0801, 03,27081 ,debd1ca1aab, 599374 AND dc_ , ddaaedebd,_bb.dc_ded11d AND 3579,311 ,b_1aa_a_e.eee_aaabde OR 2079,e_ea._bded_1,2087346805,2653021 AND d11_d , ae_1ed1eeb.beeb_, c11bdbb AND 774 AND _c1a.edeeea1a , 01640 );

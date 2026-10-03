@@ -1,0 +1,3 @@
+$.*..*.a.a
+@@@
+{"abbabcac":{"a":0},"acabadaabb":["zy","z",0,"xyz"],"dbccddaa":["zy"],"abbccaaaab":{"a":"x"}}

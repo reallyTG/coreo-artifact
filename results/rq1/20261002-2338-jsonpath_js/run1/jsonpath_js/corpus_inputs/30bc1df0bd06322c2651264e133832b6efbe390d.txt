@@ -1,0 +1,75 @@
+$..*..*..['dd']..*..b..['ab\r\f\'ad\bb"cc"','']..["dc"]
+@@@
+
+
+
+  {	
+ "abc": 	"z","bdaab":
+	
+"zx" 	
+   ,	"bad":[],
+
+ 
+"da"
+
+  
+
+:			 
+
+
+true   ,
+
+ 
+"bb\t\b\ufb6Cc\b\r\fada":
+[	null ,	 	
+	   [[null]	
+
+	 ,
+  
+
+
+""		,true	 	
+		  
+],{}
+ 
+ 	 
+, 
+ 	
+ 
+{ },	 	false,false		 	,
+
+ 
+	
+[ 		 	-4		,-6E-0, 
+
+ 	true,{
+
+
+},	"xzzyyx"] 			 	]
+	
+		 ,"daa":
+
+
+
+"zx"  
+ , 
+  "bdaadcdaab" 	
+	
+	
+	
+:-0.200053,"abdaacdacdcd"	
+  :null
+	 	,"aaaabcccbca": 
+ 0.7411	 ,"cbbdaab" 
+	
+		:-7446760.0002	 	
+ 	, 	"aadcbcaaddc"	
+		
+
+:null, 
+"a"
+ :
+	 "xy","bcdcdbbbdbcb":true
+	,"ab":true 
+
+}

@@ -1,0 +1,3 @@
+span ~ b.bd#ac.c:is(input~ .bd[checked ~="" i]#a~ *#adbcacdaaaabb[ required ][checked ] > p).ac.adbdaaaaaabcba~*.bdcdcbbcbbd, span.c.ab ,[title =cc i]>*~ html,*
+@@@
+<!DOCTYPE html><html><body><div class="abcabacaadcac aa" title="" lang="dab-bdbbbdadbadcd-cdaccad-baac" data-b="b"></div><p id="a" lang="baabbcbcabc" data-cdabb="d"></p><section class="dc"><a lang="dcdccac-cacbcd" data-d="bdbba da-bb"></a> a bc cac<em class="ab c" title="" lang="ababbbcbdc-dcabcddddd"></em>accccaa b<input title="" data-b=""><input type="checkbox" lang="adccdb-bacaacbdaaca-cc" data-cd=""><section id="bc" data-ba="a-cbaa">ab cc</section> <a title="" lang="cb"></a><div data-dadcdbdddd=""></div>aaaaa babaaa<a class="bbacabbdbb">bc </a></section></body></html>

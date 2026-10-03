@@ -1,0 +1,11 @@
+$.*..*.bb
+@@@
+	
+	 
+ [ 	 
+  	
+	false,false,		
+  false, 
+
+ 	false
+	]

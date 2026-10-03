@@ -1,0 +1,34 @@
+( select distinct * ,B'00' At time	ZONE b'001' at time /* c */  Zone B'1' - B'100'  BETWEEN B'0' %  b'011' /  B'011'  ^ b'111' % B'010' ^ b'11' *
+B'10' ^ b'1'  / b'100' ^ B'1' ^ B'00' / b'100'	 ^ /* c */  b'00' ^  b'01' ^ b'10' ^ b'01' * b'01' % B'0' % b'011' ^	b'111' /	b'0' ^ B'1' / b'00' ^
+B'110'
+^ B'11' %	b'00' % b'0' ^ b'1' / B'010' /	B'10' / B'0' /
+b'00'	And  B'111'	 * B'000'  - B'11'	 * B'011' / b'011' AT time Zone b'11' at TIME Zone B'0' AT TIME zone
+B'110' ^ b'00' at TIME zone b'00' At TIME
+Zone
+b'000'	> b'01' / B'110' + b'0' ^ B'10' AT	TIME ZONE B'11' at Time	Zone b'11' AT TIME ZONE b'010' ^ /* c */  B'111' ^ b'10' ^ B'100'
+/ B'00' At Time zone	b'0' AT Time ZONE -- c
+ B'010' AT time Zone B'0' AT	Time ZONE b'010' -- c
+ / b'001' % b'1' ^ b'000'  % b'10' % B'11' * b'0' %
+B'11'  % B'00' AT Time
+zone B'11' + /* c */  B'11' at TIME zone b'01' * B'110' / B'00'  AT time Zone
+B'001' AT /* c */   Time zone b'010' + B'0' BETWEEN B'0'  / B'1' + b'111'  ^ b'1' ^ B'11'	 * B'101' + B'110' ^	b'0' * b'000' %  B'11' ^ b'00' ^ b'0' ^  B'01' / b'110' ^ b'111' * b'10' * b'00' ^ B'11' ^ b'010' ^ b'01' % b'011' ^ b'1' ^ -- c
+ B'0' -- c
+ ^ b'1'
+% B'1' - b'011'  * B'000' * -- c
+
+B'101' % B'11' ^
+B'0' ^ b'010'
+^ b'101' / b'101'
+^
+B'001' ^ -- c
+ B'11' ^ b'0' ^ b'10' -> b'00' % b'10' % b'0'
+* b'00' ^ B'111' ^ B'01' - B'100'	 / b'001'
++ B'101' * b'11' / b'100' ^ b'111' /* c */  ^ b'1' * b'1' ^ B'0' ^ b'001'	AND B'0' At time zone b'11' !~* All( b'100'
+* B'101' /	b'110' * B'10' / B'101' / b'1'  * b'000' ^ b'01' / b'11' +	B'0' At -- c
+  TIME ZONE B'1'
+ ^ B'1'  At time ZONE -- c
+ B'01' ^ b'100' not Between B'1' AND b'0' <= B'0' BETWEEN B'0' And B'0' and B'10' % b'1' !~*
+b'1' BETWEEN b'000' +	B'111' and B'1' IS False) , B'100' +
+B'110' ->> B'10' BETWEEN B'11' @> B'010' and B'0' IS	TRUE eb_1ca_
+LIMIT B'1' BETWEEN b'011' and b'0') Union All Select Distinct  *  , * ,* , "  ".* LIMIT  B'1' between b'010' % b'001' AND b'0'
+for	key share ;

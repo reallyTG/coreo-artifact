@@ -1,0 +1,15 @@
+$["dda\/'\\'"]["b\"\fb"]["aadac\"\"b\\"]["\"c\"\r"]["\"dc"]
+@@@
+[	   {			
+"adcadd":   true,"dddcda\ud2ae\n\td"	 :[
+  	
+],
+		
+"bb\"\t": 	null}	
+,	 
+
+false,
+20.0700029770E78,false	
+	   ,true,{}		
+
+,false ]

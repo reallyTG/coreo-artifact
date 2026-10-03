@@ -1,0 +1,3 @@
+:has(+a ,> div~:last-child ),*+section#dddaadc[ data-cabccbddbbac|= a i][lang^=cdbccddab] ~ b.c#b:not( #dd ,.bbabb#ad ~[ data-cddbd^="bacbcbabc"][ lang^="b-bb" ].cc + span ,*+ * ) , em~#ad#daacaa
+@@@
+<!DOCTYPE html><html><body><section class="d" lang="baadbaaaccc-ddca-bcdaacda" data-acbdcabdcaa="bc ac-abdbcd"></section><b class="cb" id="aacdcadaaa" title="c-ac" lang="bddc-ccbaacdcdbb-addcabaacd-aaadbabccc-aadcbabdadaba-aadcddbaadc"></b><div id="bcbccabcdaaba" lang="bcbccdccac" data-ccaabacbbdba=""></div></body></html>

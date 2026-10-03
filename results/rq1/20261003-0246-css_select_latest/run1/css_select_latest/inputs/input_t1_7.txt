@@ -1,0 +1,3 @@
+:nth-of-type( -n).a, *#bb
+@@@
+<!DOCTYPE html><html><body><span id="ddbbacdadbbdcd" title="b" lang="acd">c  c<a href="#d" lang="bdbdcbddaa" data-d="">  a  cb</a>cc bbcaccb</span><p id="abdaddd" title="da-b" data-ba="abbb"></p></body></html>

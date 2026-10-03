@@ -1,0 +1,24 @@
+$
+
+   ..cd..*	
+
+	..d		
+
+
+	.*..ac		
+
+  [  		'a']
+	..[  
+				"dabbbccdaab"] 
+		 
+		..[''][ 
+
+
+   'caacdad\'cd\nd\'b"\tbd' 
+,27		] .*
+@@@
+	  
+["yyzzz"
+
+,	 
+false,null]

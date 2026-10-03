@@ -1,0 +1,3 @@
+$[*][?!match(@.a,'.z*[^z]y*|y[xxz]{1,2}.{1,3}')]
+@@@
+[{"a":"x","b":"xzyyy"},{"a":"yy","b":"yz"},{"a":"x"},"xx","z",{"a":"zzyzzyxyxx"},{"a":"y","b":"zy"},{"a":"zy"},{"a":"xzxzzxxxxy","b":"x"},{"a":"z","b":"zz"},"xzyzyzyzxzzx",{"a":"yxxxz"},{"a":"z"},"xyzzxz","x","zz","y","zy",{"a":"yx"},"zzzyx",{"a":"xz"},{"a":"xy"},{"a":"y","b":"xz"},{"a":"z","b":"yy"},{"a":"x"}]

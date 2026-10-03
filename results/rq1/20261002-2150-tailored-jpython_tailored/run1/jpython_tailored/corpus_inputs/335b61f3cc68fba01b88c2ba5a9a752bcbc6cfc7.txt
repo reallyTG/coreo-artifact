@@ -1,0 +1,3 @@
+$..aa..a.*
+@@@
+{"addabcccdabc":0,"ccddadddad":5}

@@ -1,0 +1,18 @@
+$[?   
+	
+match(		 @[""]
+
+	
+ 
+
+	
+['ad']['']
+	
+			
+
+	.bb    
+
+ .ba[2010],   '[zya-dxx-zx-za-dx-za-daa-dcx-za-da-da-dxx-za-dx-za-dx-zx-zx-za-dx-zx-za-dxa-da-dx-zx-zca-dxa-dbax-zx-zx-zzyya-da-da-da-d][^a-da-dza-dx-zx-zccxa-da-da-da-dyca-dba-dx-zx-za-daa-dbazx-za-dcxa-dxyx-zyx-zda-da-dxa-dx-zx-za-dx-zx-zx-za-dx-zx-zyx-za-da-da-da-d][^cyx-zx-zx-zya-da-dx-za-dx-zya-dxcx-zyx-za-dx-zx-zdcxx-zyya-da-dx-zx-zz]{4,}[^cx-zx-zx-za-dx-zx-zxx-za-da-dbx-zx-zx-zx-zx-za-dx-zyba-dx-zdx-zxxx-z][^a-dx-zzya-dx-zx-za-dx-za-da-dx-za-dza-dx-za-dya-dzx-zyx-zx-zx-za-da-da-dyx-zza-da-dx-za-dx-zx-zx-zx-zda-db][x-zdzx-za-dba-dca-da-dycya-da-da-da-dx-za-dyczx-zdcyx-zax-zx-zyd][x-zaa-dxx-za-da-dx-zx-za-dcbyxa-dx-za-dx-zx-zx-zx-zx-zyx-zcx-za-da-da-dx-zx-zxx-zccx-zda-dca-da-dx-za-dza-da-dbczyx-z]{1,3}|[^x-zzzx-zyx-za-dx-zzzx-za-ddza-da-dxa-dx-za-da-dx-za-dx-za-dca-da-da-dzax-zx-zx-zdybyx-za-dx-zdz][^x-zyca-dx-zx-zya-dcx-zx-za-dx-zda-dx-zx-zxx-zadx-zx-zx-za-daa-dx-zx-zxa-dx-zbx-zx]|[^x-zx-zx-zada-dza-dbx-zcx-zdx-zxaa-dca-dzxyaxa-dx-zx-zx]*[x-za-dx-za-dbx-zx-zdx-zza-da-da-dzzza-da-da-da-da-da-dba-da-dza-dcx-zaxa-dx-za-da-da-da-dbx-zx-zda-dcx-zaa-da-d][^a-dbx-zxxa-da-dx-za-da-dx-za-ddya-dcda-dcyax-zx-zya-dzxa-da-dx-zx-z][^x-zyca-dxa-dx-zxa-da-da-dda-dbx-zdya-da-ddx-za-dbzza-dx-zx-zx-za-da-da-dx-za-daa-dx-za-da-da-da-dx-zba-dda-da-da-dx-zx-z]|[^x-za-da-dda-dx-zya-dx-zza-da-da-da-da-dca-dx-za-dx-zxx-za-dx-zx-za-dba-dydx-za-dzx-zx-zx-za-dba-dx-zx-zzda-d][a-dx-za-da-dx-zx-za-dx-za-dx-zbx-za-dxxa-dx-zbax-zza-dxx-zdx-zxx-zyx-zx-za-da-dcx-zx-zyda-ddx-zx-zaxx-za-da-dx-zza-dyxxa-dx-z]?[x-zx-zcx-zaba-dba-da-da-dx-zx-zx-zxda-daa-dx-zxx-zx-zx-zyaa-da-dx-zx-za-dza-dba-da-dx-za-da-dxa-dx-zx-za-da-dx-zdbdzx-zx-za-dx-zx-zx-zxx-za-ddx-zx-zx-za-d][^a-da-da-dx-zx-zax-za-dx-zx-zx-zza-dxa-dx-zx-zx-zda-dzx-za-dbx-za-dx-za-dx-zya-dba-dcx-zaa-da-dx-zx-zx-za-da-dca-dba-da-da-ddx-zx-zx-zdcyx-zx-zax-zya-d][^x-za-da-da-da-da-da-dzyyx-zzx-za-dx-zx-za-da-dx-zca-dx-zx-zya-dx-za-da-da-da-da-dada-da-d]{0,}[^a-dx-zx-za-dx-za-da-da-dax-za-dx-za-da-ddx-zbxa-dxx-za-dxx-zx-za-da-dx-zx-zbyya-dxdx-za-dx-za-dx-za-ddx-zcda-dx-zx-zx-zx-za-dx-za-dzdx-zbda]+[^x-zx-zx-zx-za-dx-za-da-dbx-za-dx-za-dx-zx-zdca-dx-zx-zzx-za-dx-za-da-da-da-da-da-dzx-za-dya-daa-da-dx-za-dx-zx-zzx-zx-za-dx-zx-za-da-dx-zca-da-dx-zx-za-dya-d][^a-dx-za-dza-dyx-zxzx-zx-zxx-za-dx-zx-za-da-dx-zzx-zx-zx-zx-zx-za-dx-zza-da-da-dx-zx-zya-dx-zzxa-dx-zx-zx-za-dx-zca-dxaa-da-dx-zbx-zx-zca-dx-za-dx-zbax-zx-za-da-d][aa-da-dza-da-dx-zx-zxxa-dx-za-da-dx-zx-zx-zx-za-da-dxx-za-dax-zdya-dba-daa-da-da-da-da-dx-zyca-dx-za-da-dyx-zbxx-za-dx-za-da-da-dx-za-d]{2,}[a-ddx-za-daa-da-dya-dyx-zza-dx-za-dx-zax-zx-zx-zx-zdx-zza-dyx-za-dx-zzya-dx-zyx-za-dx-za-dba-da-dx-za-dxx-za-da-dydzx-zx-zx-zza-dx-zx-z]{0,1}|[ba-da-dcx-zx-zx-zzx-zxx-za-ddx-za-dx-zza-dda-dya-da-dazxza-da-dzx-za-dxx-za-da-dzx-zzx-zza-dzxa-dx-za-dx-zx-zx-za-dx-za-dya-d]+[^a-da-dxx-za-dx-zyzx-zxx-za-dx-zbx-zcx-zzx-zx-za-dx-zzyx-zxza-da-dx-za-da-dx-zyx-za-dx-zx-zaba-dx-zczba-da-dx-zx-zda-dzx-za-da-dx-za-dx-zx-zxx-zx-zaa-dyx-zd][^cax-za-da-dxbx-zx-zzx-zx-za-dca-dx-za-da-dza-da-dda-dx-za-dx-zyacx-zx-za-da-dx-zcdx-zx-zabx-za-da-dyx-zzyx]*[^x-zaa-da-dx-zx-za-da-dya-da-da-dx-zx-za-da-ddx-zx-za-dx-za-dba-da-dx-zx-za-dbxa-da-da-dax-zaa-da-dx-zaa-dx-zx-zca-daaa-da-da-d]')||match(true,'[a-da-dx-zx-za-dx-za-da-dx-zx-zx-za-da-da-da-dx-za-da-dx-za-dx-za-da-da-d]'),?match(true,'[x-za-dx-za-da-dx-za-dx-za-dx-za-da-dx-zx-za-da-da-dx-zx-zx-zx-za-dx-zx-z]')
+]
+@@@
+[null]

@@ -1,0 +1,81 @@
+{
+  "count_ire_char_class|count_pre_segment": {
+    "band": [
+      18,
+      21
+    ],
+    "best": 0.0,
+    "direction": "minimizing",
+    "extensive": "count_ire_char_class",
+    "intensive": "count_pre_segment",
+    "retired": true,
+    "stalls": 2,
+    "window": [
+      18.0,
+      21.599999999999998
+    ]
+  },
+  "count_ire_char_class|doc_depth": {
+    "band": [
+      18,
+      21
+    ],
+    "best": 2.0,
+    "direction": "minimizing",
+    "extensive": "count_ire_char_class",
+    "intensive": "doc_depth",
+    "retired": true,
+    "stalls": 2,
+    "window": [
+      18.0,
+      21.599999999999998
+    ]
+  },
+  "count_ire_char_class|n_doc_nodes": {
+    "band": [
+      21,
+      25
+    ],
+    "best": 321.0,
+    "direction": "maximizing",
+    "extensive": "count_ire_char_class",
+    "intensive": "n_doc_nodes",
+    "retired": true,
+    "stalls": 2,
+    "window": [
+      20.0,
+      24.0
+    ]
+  },
+  "count_item|doc_depth": {
+    "band": [
+      24,
+      26
+    ],
+    "best": 2.0,
+    "direction": "minimizing",
+    "extensive": "count_item",
+    "intensive": "doc_depth",
+    "retired": true,
+    "stalls": 2,
+    "window": [
+      266.0,
+      319.2
+    ]
+  },
+  "count_letter|doc_depth": {
+    "band": [
+      24,
+      26
+    ],
+    "best": 2.0,
+    "direction": "minimizing",
+    "extensive": "count_letter",
+    "intensive": "doc_depth",
+    "stalls": 0,
+    "window": [
+      2110.0,
+      2532.0
+    ]
+  }
+}

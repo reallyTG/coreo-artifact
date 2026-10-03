@@ -1,0 +1,3 @@
+$[*]..[?match(@.a,'y{2,4}')]
+@@@
+["zxyyzyzzxxyz","zz"]

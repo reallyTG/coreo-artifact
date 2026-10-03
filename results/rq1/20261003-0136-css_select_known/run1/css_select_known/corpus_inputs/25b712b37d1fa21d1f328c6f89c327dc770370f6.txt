@@ -1,0 +1,3 @@
+em[ readonly ]#a:empty+ *:where(*#c.b+ * > .ad ~* *#d ~ *#dd+ *+* +.c ~ :has(* > [lang*="" i]+ p ,~ b >*~span[id $= "d-bc-abddbdbdbc"]:not(em:checked ,:optional#dbdacbdbbbbd )[ class$= "" ] ~ [ lang ] ,~*~ a#dbaca.d +span#bc.ac, ~.bbaadad.bbcbad:first-of-type , section ) ),*
+@@@
+<!DOCTYPE html><html><body><div lang="acbdabcaccbbd">abcabbab<a href="#dddddbc" title="ca-c cd" data-d=""></a><input type="radio" disabled class="cacbcbbbadbb daddaacadbbbccabacddb" id="dbadddbaaaccadca" lang="bdddcddbcbdadddaadcdbb"><input type="text" checked disabled required id="acaabdcbdcab" data-baccbccda=""></div></body></html>

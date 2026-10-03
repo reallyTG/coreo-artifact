@@ -1,0 +1,20 @@
+$..[-7,9302484,0,0,"b",30].*.a..*..cbabbada["dd\n"]..*
+@@@
+ 
+{"cbadabdbabaa":{}	
+ 	,	"c":true,"ac" 
+ 
+ 	:
+		 {}
+
+	
+
+ 
+	, "b"		
+	   	:null
+,"dac" 
+:
+		
+	false	
+
+  ,"acc":true}

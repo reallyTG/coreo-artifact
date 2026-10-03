@@ -1,0 +1,129 @@
+$[?(
+
+    ! match(  		
+-0	
+ 
+	 
+,"x{1,2}"	)||match(true,"x*|d+|z|x|y|d|a|a{1,2}|d*|a|((x|b?|d*)|.?|c|z?|(b)*|x+|z*|(b))")&&!
+match(	
+  true		 
+
+,'b{1,3}')
+
+&&match(		 
+		   true	,"([x-zbda-da-da-da-dz]{1,3})?"
+)||		
+ !		
+	match($["ababdddab''\"c\"b\"b"],"a?|."
+
+		 	)||match("","b|b|z")		||!match(	 false  
+	,"y|d|c?|z{1,2}|y|b*|b{2,4}|.|b|d?|a")
+ 
+||!	
+  
+match(@["c"],'z')|| 	  match(length( 	-50),	 	
+
+	'y' 				 )
+
+
+  
+&&match(	
+	
+	 	 	value($[?(match(
+@[1][30]["dda\na\"\"'\"\"b"].dd["aaadacbcc'aabd\t"]	 ,"b{0,1}") 	)]),"(z)|(z*)|d*|[a-da-da-d]")&&match(
+
+ 
+ 	count(@[?(match('z',			 	'c*'
+
+))][?(!		 	
+match(
+		count($[?(match(@.d
+		 
+,	 		 
+	
+'y+'	
+	)&&match(
+
+$						,'z'		
+)
+	
+	&&!
+ 
+
+
+match(value(
+
+  	
+		$[?(match( 	
+   value($[?(match(	 		"yxxzzzyzxxy"				 	, 
+ 	 "z{1,3}|a{0,1}|z?|x")&&!
+ match(
+ $[50][0],		"z{0,}")&&match(null 
+
+	
+, 			'z*|x|(x)|.{8}|c|x*|c|b*|c|(z){0,}|[a-da-dxx-zx-zx-za-d]') 
+ 		
+&&match(
+  
+		
+
+true,"z" )&&	match('zxyyxxzxyy' 
+	,'.?'	
+)&& 	 
+
+
+ match(	
+ 	
+ length( 	
+	
+
+value( 
+ 
+ 
+	 @[?( match(@['d'],		
+	'd*')||	match(length($['bd'].cc['b'][-5][7][75501770].dd.c.b[0])  
+ 
+ 
+,     
+
+"a"		)||
+
+ 
+		match(@["daabcdcd"],"c+|x?|a|y|x|b|x{0,1}|x" 
+ 
+)
+&&
+
+ 
+ !match($    ,'z')
+	 	 ||match(@.bcaddda[-6]['dbb\'\faac'].bbcaacc[0]['dcadbd'],'b|[a-da-dx-zx-zcx-za-dx-za-d]{1,3}|c*|[x-zx-za-dyx-za-d]+|y+|[a-dx-zx-zbbx-za-dyx]|y+|a+|y'  	
+) 
+  &&!match(true,'(x|y|c|z{0,}|.|.|c|z?|b|x)*|.|((z){0}|[x-za-dzxx-zbx-za-db]|c)*|x+|d*|y'
+   
+		 )&&
+  		
+	match(null,
+ 	
+ 
+
+ 'y{1,2}'	 	
+ 	
+ 
+)
+  		&&		 	 
+match(@.ad.ddbbad.cacaad[-3][0].cbddaaa[10][0].bd.aa.acd['addad'],"d|y|a|b|c|[x-za-dx-zx-zx-zba-dcz]*|(x*)+|z+|a+")&&match(@,		"x|z|a|z?|c*")&&	 	
+match(  count(@[?( 	!  match(   	count( 	@),'y')&&	 	!
+	match(count( 	
+	
+
+
+@[?(
+ match(0,	'd|b'))])	,"z|x{0,1}|a|x+|z")||
+ 	
+match(
+		null,"z") 	 	  )][?(match(true,"x"))] 
+
+)
+,"y|b"))][?(match(null,'x'))])),"y")||match(null,"a"))][?(match(null,'z'))][?(match(true,'c'))]),"a")&&match(null,'b'))][?(match(null,'a'))]),"b") )]),"z")	)][?(match(false,'b'))]),'d'))]
+@@@
+[false]

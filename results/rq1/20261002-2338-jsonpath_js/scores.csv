@@ -1,0 +1,11 @@
+subject,category,language,blind,a,b,metric,expected,n_regions,n_decided,n_for_a,n_for_b,outcome,explanation,explains_expected,explanation_evidence,best_ratio,best_prop,best_prop_relevance,best_region,shape_checked,n_shared_inputs,n_disagree_dropped,run
+jsonpath_js,implementations,JavaScript,True,dchester,jsonpathly,runtime_ns,,27,13,3,10,reported,,,,1.877,query_len,0.94,1-4.823,hits,430,2,1
+jsonpath_js,implementations,JavaScript,True,dchester,p3,runtime_ns,,27,15,0,15,reported,,,,0.378,query_len,0.94,4.823-23.26,hits,430,1,1
+jsonpath_js,implementations,JavaScript,True,dchester,plus,runtime_ns,,27,17,0,17,reported,,,,0.084,count_name_selector,0.81,44.86-96,hits,430,2,1
+jsonpath_js,implementations,JavaScript,True,dchester,rfc9535,runtime_ns,,27,14,2,12,reported,,,,0.422,count_bracketed_selection,0.8,1-1.849,hits,430,1,1
+jsonpath_js,implementations,JavaScript,True,jsonpathly,p3,runtime_ns,,27,21,0,21,reported,,,,0.039,count_logical_expr,0.87,18.89-34,hits,430,5,1
+jsonpath_js,implementations,JavaScript,True,jsonpathly,plus,runtime_ns,,27,23,0,23,reported,,,,0.072,count_bracketed_selection,0.8,21.63-40,hits,430,3,1
+jsonpath_js,implementations,JavaScript,True,jsonpathly,rfc9535,runtime_ns,,27,22,0,22,reported,,,,0.131,count_bracketed_selection,0.8,11.7-21.63,hits,430,12,1
+jsonpath_js,implementations,JavaScript,True,p3,plus,runtime_ns,,27,19,2,17,reported,,,,0.171,count_logical_expr,0.87,5.831-10.5,hits,430,1,1
+jsonpath_js,implementations,JavaScript,True,p3,rfc9535,runtime_ns,,27,13,13,0,reported,,,,3.094,query_len,0.94,1-4.823,hits,430,6,1
+jsonpath_js,implementations,JavaScript,True,plus,rfc9535,runtime_ns,,27,23,23,0,reported,,,,7.807,count_logical_expr,0.87,5.831-10.5,hits,430,1,1

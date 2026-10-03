@@ -1,0 +1,3 @@
+em ,div[ type]:is(.db.ab > *#c.a) >*[ title =a-a-da ]#a~ body:where(#cdcaabdac~ a section#a#abdadabbacaccb#dc )
+@@@
+<!DOCTYPE html><html><body><p class="cbabddcbdaaa ac" lang="accaabcdabcac-bdccad-ababbcadaba"></p><p lang="bcddaaadbc-dbcdbcadcbad-cd" data-bdbbcdac="">ccac ca<a id="acaacdacbbad" title="cbcabacbbdcbcd"></a>c<span></span>b     <a href="#cc" title="" lang="ddddaaacc-dcbbb"> abaab</a>cb  acabb<input checked disabled>  <input type="text" disabled><input type="text" checked id="a" title="a-db a" lang="bcacbccda">b</p><b class="c" id="bc"></b></body></html>

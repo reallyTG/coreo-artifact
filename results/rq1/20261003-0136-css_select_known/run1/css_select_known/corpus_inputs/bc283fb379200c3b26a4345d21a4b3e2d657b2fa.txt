@@ -1,0 +1,3 @@
+[readonly*= a i ]
+@@@
+<!DOCTYPE html><html><body><div class="d" id="b" data-adccdcdc=""></div></body></html>

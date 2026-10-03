@@ -1,0 +1,44 @@
+$[?( 	
+
+
+
+match( 	 
+
+	
+	 count( 		
+	
+
+ @[?(match(@.b[0]
+	
+, 
+
+ 
+'y?y?z{1,2}b?[^x-zx-zcx-z]+y{3,}(zac*bdz{1,2}z{0,1}c.{0,2}ax[^a-dx-zx-zx-zcx-zbba-dx-z]{2,4})+bdd{2,4}x|ax+.[x-z]dzc{0}[^x-zya-da-da-dx-z]zz{2,4}[^ya-d]*'	)||	 
+ match(
+count($[?(!match(@[-57],
+  
+ 
+'db?az?a+x{0,2}z{7,}'))])	  
+	 	
+	
+,"d+.y*c?z?xz+dd*c?a+|yzybd?z*x(cc.?((a{1,3}.bz?xcc(bzd*y(da*y?ayz*z)bc?z{1,2}y?zd)+(x?dxyy?(a(zz?.*c?c*dd.)xdza[a-d]?cd*[^a-da-da-d]d*|(ac{1,3}a(c+xd?cb{2,4}c+b[a-dxa-da-da-d]{0,2}z+z*.?a{1,3})?da*a.c[^a-dza-da-ddx-zx-zbx-za-d]b|da{2,4}y?[^x-zx-za-dxbx-zd]*ba+xxz(cy*c+bz+zb[zx-zxza-ddx-za-dx-z]*z[^x-za-da-da-d]b|y+zaxb*cz?b?b(axdyb+z{0,1}x){0,2}a{1,}|c{0,1}yd+x*ab*(b*daa{1,3}z+xc{2,4}bca|xyx?yz?[^xx-za-dx-za-dd]ca[cx-zx-za-dzya-dx-zx-z]?a|yy+[x-zx-zza-dx-zx-zx-z]?dz+[a-dx-zx-za-da-da-dx-z][^a-dx-zx-za-da-da-d]{0})[^ya-dx-z](xa(.yca+z?zx{1,3}cy*z){0,1}db*c*b.{2,4}c{0,})xdx|xazbz*z?d?y{0,2}cz(c*((by*.?zb+zx*yb?[^yx-za-d]x{0,1}|dcx*xz(c+b{1,2}z{1,2}xx?z{0,1}bb|bc{2,4}(c(x?xa((zd{2,4}(.{1,2}y{1,2}cy{2,4}yx+xx)c{0,2}dz(z{0,2}yz{0,2}c(dza?c*b+ycy+x?d(dd.*zy?ayx{0,2}b)+c*)b{0,2}dy?[x-z]?.?)+.c+z+b?(db+aa{0,2}d(zc*yb?ycdd(yb+bx[^x-za-d].z{0,1}c+|[a-d]{1,2}b{2,4}(z?b+((a(yd+b{2,4}(b*zx?y{0,1}d*x*cbx(d+[^a-da-dbx-zabzx-z].a{2,4}c[^a-dx-za-dx-zx-zdx-z]bc*(.b+a?xd+a?b{7,}xx*cz*(d[^ycx-zaa-da-da-da-dx-z]bc?by*caz|x{1,3}(x{0}ba(xd{1,2}da*by+a{2,4}x?(zd?y*b+x{0,1}cz{1,2}y?|[^x-zzx-zxa-daa-d]a{5}by([^a-d]d+[a-dx-za-dc]?c*(xx(zz[dx-za-dbx-z]x+c?c[c]da*a{2,4}x{0,2}|c?c*x*xd?a*byb)?yy?ycax*cy+b){8}y[x-zx-zx-zx-z]|x.{2,4}x{0,2}dcca*y*)+x*z?.{6})|dzdcabx)+dx+c){0,1}z?a{1,3}zd*d{1,3}){1,3})))cac)bczzac?)*d{0,2}bz*.b*b*|.{0,2}db?d*.{0,1}y.c+)?yy+cx?c[^x-zax-z])yyaa)?|az*zb{1,3}c{0,2}b?y.{1,3})*b.){0,1}|dadbcda)add+a*b*z|a*z*c*xb?y.+)x?yc*b)?x{0,2}z.*y?b+z{0}d+a|ca*y?yx+d*y*b?)ddx.?y*[yx-z])+d).+d+.b{0}d.?z)a+d{1,2}zax+y)*))cxbyad)b|cbayyxd)+)dbbddd|aazczcd)cza|dxyxzax)+")&&match(null,'xxaybxc')
+ 
+ )][?(match(true,'abdzbcb'))]
+	
+
+ 
+
+)  
+ 
+
+		
+,	
+
+	
+"bcaaa*c[a-da-da-dx-zx-za-da-d]{0,2}y*y")&&match(
+	
+
+-0,"x?axa{1,3}dx*x")
+  )]
+@@@
+[false]

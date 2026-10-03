@@ -1,0 +1,1 @@
+SELECT dedc1_c FROM dc_1__bd_ WHERE _ca.c IN ( 82496) ;

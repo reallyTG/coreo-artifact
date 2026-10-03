@@ -1,0 +1,27 @@
+$[?
+	
+		!	
+ 	 	match(value(@.*	  
+	..*..*..dc		 				..db	 ..*..d.bbcbbc.*..*.c	)  
+ 		,
+	  	
+true
+	
+	) ||	  search(value(		
+
+		@..*..[* 	 ]..*	
+..*  ..ac
+ 
+   	
+	[	0	,		 	?
+	 		
+@.cac["ca\"abdcacc"]	[-7][-71]["ccddabbabcc"]<	 
+	 	false||!(	
+!		 
+ 
+ match(true,
+	
+ 			count(@.d))&&
+ $	||  @	 )]),false)&&$,'c']
+@@@
+[null]

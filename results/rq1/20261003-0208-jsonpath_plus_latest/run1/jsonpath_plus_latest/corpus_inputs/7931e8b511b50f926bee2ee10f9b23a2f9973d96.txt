@@ -1,0 +1,20 @@
+$.*..*["aaa",'',0,'',"ccbc\ncb'ddc'\n\"\"",'d']..*..d
+@@@
+
+ 
+ {
+"db"	:	 		  
+ {
+
+  
+"bc\naddac"	
+ :false,"cabcaaacaa\fd"
+
+
+  :true   
+	   	,"adbdac":67e5,"ddadaacbbaa":[]	
+  
+ 	,
+ 	  		 "cba"
+ 	 :{
+}}}

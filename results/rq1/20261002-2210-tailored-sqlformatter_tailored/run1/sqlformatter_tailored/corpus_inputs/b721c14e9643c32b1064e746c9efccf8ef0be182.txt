@@ -1,0 +1,1 @@
+SELECT cbbcea_dae FROM b_ ;

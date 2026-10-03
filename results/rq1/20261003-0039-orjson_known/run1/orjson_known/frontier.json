@@ -1,0 +1,187 @@
+{
+  "__grammar__": {
+    "digest": "441838884a3bb8404df9ee49d681ba8d4a97b734"
+  },
+  "count_char_3": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 237.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "rung": 0,
+    "site": "<more_member>"
+  },
+  "count_escaped": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 126.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_exp_opt": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 6.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_false": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 20.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_hex_bmp": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 11.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_hex_low_surrogate": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 5.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "rung": 0,
+    "site": "<more_member>"
+  },
+  "count_null": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 21.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_string": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 84.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_true": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 22.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_unescaped_ascii_other": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 237.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "rung": 0,
+    "site": "<more_member>"
+  },
+  "count_unescaped_utf8_4": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 48.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_value": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 100.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "num_arrays": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 11.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "num_pairs": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 50.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "rung": 0,
+    "site": "<more_member>"
+  }
+}

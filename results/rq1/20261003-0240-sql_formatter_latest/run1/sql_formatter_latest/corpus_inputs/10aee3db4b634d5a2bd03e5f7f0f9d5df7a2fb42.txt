@@ -1,0 +1,7 @@
+Select *,- B'0100101001'::TEXT[  ]::timestamp With time zone[ ][][][ ]::Numeric::double precision::Timestamp  With
+ time ZONE[][3	]::DATE::_c_1_.a::VARCHAR(1 ) - x'0F70F0F'::REAL[ 3]::adc at
+Time ZONE ". .""  ".cdbdecad_dc.caceeb_[not "B"[
+- Time E'\101'  & ANY( E'\t'::text[
+]::bigint::Real % + Array[] Not Between 547. AND True or null
++ -  b'1') not IN  ( Select DISTINCT *)
+<>  NULL And True	And NOT ARRAY[] notnull OR '' is NOT False]::BOOLEAN[ ]::date  at time zone E''::boolean + ARRAY[] IN(ROW( )::Text IS not null) <= false IS  False  And False / b'1011' Notnull]::timestamp with TIME zone Not Like ALL( E'\x41y   \t''\'\\\n') isnull,*  For SHARE;

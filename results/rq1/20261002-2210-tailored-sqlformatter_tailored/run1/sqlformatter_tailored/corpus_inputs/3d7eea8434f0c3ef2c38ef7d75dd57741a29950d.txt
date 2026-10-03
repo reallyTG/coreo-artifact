@@ -1,0 +1,1 @@
+SELECT 92 FROM baedace1 ;

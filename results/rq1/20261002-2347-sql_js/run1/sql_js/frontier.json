@@ -1,0 +1,57 @@
+{
+  "__grammar__": {
+    "digest": "3a5cd57aa2ba8321e486282abfa23120f4d1108d"
+  },
+  "count_at_expr_rare": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 45.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_with_query>"
+  },
+  "count_cast_expr": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 171.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_with_query>"
+  },
+  "count_ws": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 455.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_with_query>"
+  },
+  "count_ws_unit": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 30.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_with_query>"
+  }
+}

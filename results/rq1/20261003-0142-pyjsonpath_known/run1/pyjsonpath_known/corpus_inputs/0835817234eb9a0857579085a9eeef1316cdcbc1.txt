@@ -1,0 +1,234 @@
+$[?match(value(
+
+
+
+   
+$
+
+
+
+
+
+
+), 	 	
+ 
+ 		"[^zza-da-da-dx-zbx-za-da-d]{4}a+x{1,2}[^a-da-dx-z]?(|){0,1}[x-zya-da-dx-z]|b[x-zba-da-da-dcz]?c")&&match(true
+, 
+ 		
+ '(|)+c?|'	 )
+    
+&&match(
+			
+ 
+
+
+true,	
+
+
+ 		
+'z+ay+y*(|z?y.+b)*x+yxa(|)|(|y*dcb{1,2}[^a-da-da-dx-zycx-za-d]*.+)'	
+
+ 		 
+) 	 	&&match(
+
+$.aaccddaa['bccddcbcdcd']
+	
+			 ['ba']['dbacacbd']["c"]	.bdd		
+  ['dbb'][0][-5][0][1605304005].d,"|d*b{1,3}za{1,2}")
+ 
+
+	
+&&match(
+ 
+
+count($)	 
+
+	 ,"|"
+)&&match(
+  -0.0000000e-730800,"|") 	
+ &&
+
+ 
+ match(length(
+ 
+	
+length(@[0]  
+
+
+.a		
+
+ 	))
+  
+,'|' 		) &&	
+
+			  	!match(
+		value(@),"b*.?d?(a{9}zx{2,4}cba?bb|.d?xb(c*c(|)ca{2,4}xd{1,2}|)ydz?[^bbx-za-dx-zca-da-dx-zx-z]+)?ca+z|"
+)	
+ 
+  
+
+ &&match(
+	$
+
+		['abbbcad']
+	,	
+
+'zay[^a-da-dxzc]a|([zx-zx-z]b{0}[z]x+(c*a{8,}|)?dd[^a-dx-zza-dx-za-d]c|a{2,4}b{2,4}y+b+b..z)*ad{0,1}b')&&match(@.ad
+	
+  	
+[''].aacbdcadcbbb
+			 	[-4].ddbc[-70035060],"|c+dbz*"
+
+	
+	
+
+ )&&!	
+ 
+match(count(@)	
+ 
+
+
+ ,"|"	
+
+
+ )
+
+ 
+	
+
+ ||			
+	 match(null
+	
+,"|"
+	)|| 	
+ 
+
+!
+
+match(
+
+-0
+
+
+ 
+,
+	 	
+
+'|(dxc(xx+b?yc*ax|[x-zxd]{0,1}d?(|c+[^a-da-dx-zya-da-dx-z]zzb+d{2,4}d?[x-za-dx-zx-zx-zd]{0,1}z+x)?)y{2,4}|)ay?'
+  
+
+  )||
+match( 
+$
+
+ 
+
+  	  ,
+
+	
+ 
+
+
+'yxb(|za.?)bydx.(|)+|b?dx{1,2}c+[x-zxya-da-da-d]d' 
+
+)	
+
+
+
+
+  &&!match(  	
+ 
+ 	
+$[0][-9]  	
+
+
+ 
+,"|" 
+ ) 
+
+	
+	 &&
+	 
+
+
+
+ match(false,		
+	
+
+ 
+	'z[a-dbaax-zx-za-da-da-da-d]z*((|yb+)zz+cy{0,1}c?z(a|)?x|(|))*(d(|)?(|).(|b+c*bxb*)d{0,2}(|z*x+zy*b.zd(|))|ya{0,1}a{2,4}b)y?z{1,3}d{3}yd{0,2}|x+y*(|(|)(|)y?xbxx*za{0,1}d*)*ax.*yd(|)*'
+		 )&&
+	
+	 	!match(
+			$,"|")&&
+
+
+  			!match(
+  
+count(	
+
+
+	
+@), 
+
+	
+ 	'(zx+z|xb.?cyxy?d{2,4}z{0,1}c*).{0,2}xyc(|)[x-za-dx-zx-zx-zdx-za-d]?[x-za-da-da-d]*[^x-za-dxbxx-za-d]*c?|cz*(|a(|)+x+z?[^x-za-d][^x-zax-za-dx-zxxx-z]z?y)+a*y?cx?(c|.+b{2,4}bz)a')&&match(
+
+$	
+ 
+
+.bbda,"|yd[^bbx-zzx-za-da-d]*"	
+
+
+		 )
+	  
+&&!	 
+
+match(@	
+	
+	 
+ 
+[50]			 
+	,'|y+b?d(db[^x-z]*z+(|)|)y*z'
+
+	  
+
+  	) 
+&&match( 
+ 
+ false 				
+
+	,
+
+
+	
+"|" 
+ )  		
+
+
+&&!match(
+
+ @.dcabbbdacaa		
+
+ 
+.c	
+
+		  	[77600]	
+  
+
+
+['c']["adbc"]		[0]	   
+
+   
+['bc'][0][0][5000010440]
+	
+.da,
+
+'a{0,1}zx|'	
+	
+
+	
+ 
+),?match(null,'|') ]
+@@@
+[false]

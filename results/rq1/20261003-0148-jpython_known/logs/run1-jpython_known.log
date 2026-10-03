@@ -1,0 +1,1392 @@
+$ ./.venv/bin/python -u run.py jpython_known --seed=20260922 --output-dir=./results/rq1/20261003-0148-jpython_known/run1/jpython_known --max-wall-seconds=3420
+
+[props] max_repetition=20 (bounds * and + during generation)
+[props]   count_B                            0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_D                            0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_DIGIT1                       0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_DIGIT                        0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_HEXDIG                       0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_S                            0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_abs_query                    0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_abs_singular_query           0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_and_tail                     0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_array                        0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_basic_expr                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_bracketed_selection          0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_child_segment                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_comparable                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_comparison_expr              0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_count_expr                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_descendant_segment           0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_doc_char                     0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_escape                   0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_exp                      0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_mixed                    0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_name_char                0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_name_mixed               0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_name_special             0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_number                   0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_special                  0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_string                   0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_dq_char                      0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_dq_chars                     0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_dq_mixed                     0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_dq_special                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_escapable                    0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_exp                          0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_filter_query                 0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_filter_selector              0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_frac                         0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_hexchar                      0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_high_surrogate               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_index_segment                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_index_selector               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_int                          0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_alt                      0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_branch                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_cce1                     0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_char_class               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_char_class_expr          0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_normal_char              0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_piece                    0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_quantifier               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_range_quantifier         0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_regexp                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_iregexp_literal              0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_length_expr                  0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_letter                       0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_literal                      0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_logical_and_expr             0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_logical_expr                 0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_logical_function_expr        0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_logical_not_op               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_low_surrogate                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_match_expr                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_member                       0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_member_name_shorthand        0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_more_member                  0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_more_selector                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_more_value                   0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_name_char                    0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_dq_char                 0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_dq_chars                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_dq_mixed                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_dq_special              0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_first                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_segment                 0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_selector                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_sq_char                 0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_sq_chars                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_sq_mixed                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_sq_special              0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_non_d_hex                    0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_non_surrogate                0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_nonempty_array               0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_nonempty_object              0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_number                       0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_object                       0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_oct_digit                    0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_or_tail                      0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_paren_expr                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_pos_int                      0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_regex_argument               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_rel_query                    0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_rel_singular_query           0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_s_segment                    0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_s_singular_segment           0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_search_expr                  0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_selector                     0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sign_opt                     0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_singular_query               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_slice_selector               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sq_char                      0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sq_chars                     0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sq_mixed                     0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sq_special                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_string_literal               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_test_expr                    0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_value                        0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_value_argument               0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_value_expr                   0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_value_function_expr          0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_wildcard_selector            0..inf  governed by <s_segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ws                           2..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props] identical to count_and_tail, not derived: count_and_op
+[props] identical to count_bracketed_selection, not derived: count_selection_list
+[props] identical to count_comparison_expr, not derived: count_comparison_op, count_comparison_op_s
+[props] identical to count_doc_exp, not derived: count_doc_e
+[props] identical to count_doc_number, not derived: count_doc_int, count_doc_num_int
+[props] identical to count_doc_string, not derived: count_doc_chars
+[props] identical to count_exp, not derived: count_exp_e
+[props] identical to count_high_surrogate, not derived: count_high_second
+[props] identical to count_ire_char_class_expr, not derived: count_ire_caret_opt
+[props] identical to count_ire_piece, not derived: count_ire_atom
+[props] identical to count_logical_expr, not derived: count_logical_or_expr
+[props] identical to count_low_surrogate, not derived: count_low_second
+[props] identical to count_member, not derived: count_doc_name_chars, count_member_name
+[props] identical to count_more_selector, not derived: count_comma_s
+[props] identical to count_name_selector, not derived: count_name_string_literal
+[props] identical to count_number, not derived: count_num_int
+[props] identical to count_or_tail, not derived: count_or_op
+[props] identical to count_paren_expr, not derived: count_paren_body
+[props] identical to count_s_segment, not derived: count_segment
+[props] identical to count_s_singular_segment, not derived: count_singular_segment
+[props] identical to count_slice_selector, not derived: count_end_opt, count_start_opt, count_step_opt
+[props] fixed count, not derived: <doc>, <doc_root>, <jsonpath_query>
+[jpython_known] properties: ['count_s_segment', 'count_B', 'count_child_segment', 'count_wildcard_selector', 'count_member_name_shorthand', 'count_name_first', 'count_name_char', 'count_bracketed_selection', 'count_selector', 'count_index_selector', 'count_int', 'count_pos_int', 'count_DIGIT1', 'count_DIGIT', 'count_name_selector', 'count_name_sq_chars', 'count_name_sq_mixed', 'count_name_sq_special', 'count_escapable', 'count_hexchar', 'count_high_surrogate', 'count_D', 'count_HEXDIG', 'count_non_surrogate', 'count_oct_digit', 'count_non_d_hex', 'count_low_surrogate', 'count_name_sq_char', 'count_name_dq_chars', 'count_name_dq_mixed', 'count_name_dq_special', 'count_name_dq_char', 'count_filter_selector', 'count_logical_expr', 'count_or_tail', 'count_logical_and_expr', 'count_and_tail', 'count_basic_expr', 'count_test_expr', 'count_filter_query', 'count_abs_query', 'count_slice_selector', 'count_more_selector', 'count_descendant_segment', 'count_rel_query', 'count_S', 'count_logical_function_expr', 'count_search_expr', 'count_value_argument', 'count_literal', 'count_number', 'count_exp', 'count_sign_opt', 'count_frac', 'count_string_literal', 'count_dq_chars', 'count_letter', 'count_dq_mixed', 'count_dq_special', 'count_dq_char', 'count_sq_chars', 'count_sq_mixed', 'count_sq_special', 'count_sq_char', 'count_singular_query', 'count_abs_singular_query', 'count_s_singular_segment', 'count_index_segment', 'count_name_segment', 'count_rel_singular_query', 'count_value_function_expr', 'count_length_expr', 'count_count_expr', 'count_value_expr', 'count_regex_argument', 'count_iregexp_literal', 'count_ire_regexp', 'count_ire_branch', 'count_ire_piece', 'count_ire_alt', 'count_ire_char_class', 'count_ire_quantifier', 'count_ire_range_quantifier', 'count_match_expr', 'count_logical_not_op', 'count_comparison_expr', 'count_comparable', 'count_paren_expr', 'count_ire_char_class_expr', 'count_ire_cce1', 'count_ire_normal_char', 'count_ws', 'count_nonempty_array', 'count_value', 'count_array', 'count_doc_string', 'count_object', 'count_nonempty_object', 'count_doc_number', 'count_doc_exp', 'count_more_value', 'count_doc_mixed', 'count_doc_special', 'count_doc_char', 'count_member', 'count_more_member', 'count_doc_escape', 'count_doc_name_mixed', 'count_doc_name_special', 'count_doc_name_char', 'doc_depth', 'doc_bytes', 'query_len']
+[jpython_known] auto-stratified exploration: <s_segment>[(0, 0), (1, 1), (2, 4), (5, 10), (11, 24)] x <or_tail>[(1, 1), (2, 3), (4, 6), (7, 12), (13, 24)] x <and_tail>[(1, 1), (2, 3), (4, 6), (7, 12), (13, 24)] ...
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+[WARNING] recursion limit hit generating from ./results/rq1/20261003-0148-jpython_known/run1/jpython_known/grammars/jsonpath_py_m1_0_or_tail1-1.fan; lower max_repetition or max_nodes for this grammar.
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+[WARNING] recursion limit hit generating from ./results/rq1/20261003-0148-jpython_known/run1/jpython_known/grammars/jsonpath_py_m2_0_and_tail1-1.fan; lower max_repetition or max_nodes for this grammar.
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_member> defined, but not used
+[WARNING] Fandango did not generate any valid inputs.
+fandango:WARNING: Symbol <more_value> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <name_dq_char> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <name_sq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <name_sq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <name_sq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <name_sq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <name_sq_char> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <name_dq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <name_dq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <name_dq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <name_dq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <doc_name_char> defined, but not used
+fandango:WARNING: Symbol <dq_char> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <sq_chars> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <sq_chars> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <sq_chars> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <sq_chars> defined, but not used
+fandango:WARNING: Symbol <sq_char> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <dq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <dq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <dq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <dq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <doc_char> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+[WARNING] recursion limit hit generating from ./results/rq1/20261003-0148-jpython_known/run1/jpython_known/grammars/jsonpath_py_m14_3_doc_char14-52.fan; lower max_repetition or max_nodes for this grammar.
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+[WARNING] recursion limit hit generating from ./results/rq1/20261003-0148-jpython_known/run1/jpython_known/grammars/jsonpath_py_m14_4_doc_char53-200.fan; lower max_repetition or max_nodes for this grammar.
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+  [explore] 20 axes, 100 strata, 3/stratum -> 285 inputs
+  [explore] 5 stratum/strata produced nothing: or_tail1-1, and_tail1-1, more_member11-24, doc_char14-52, doc_char53-200
+[jpython_known] iter 0 (explore): corpus=1140 (+1140 new this run)
+[select] relevance (max |rho| vs any metric on any system): query_len=0.29, count_nonempty_object=0.24, count_s_segment=0.28, count_member=0.24, count_ws=0.25, count_filter_selector=0.21, count_descendant_segment=0.23, count_bracketed_selection=0.23, count_logical_expr=0.19, count_child_segment=0.22, count_logical_and_expr=0.19, count_member_name_shorthand=0.22, count_more_member=0.21, doc_depth=0.22, count_basic_expr=0.19, count_literal=0.21, count_string_literal=0.21, count_value_argument=0.15, count_value=0.21, count_singular_query=0.15, count_array=0.20, count_logical_function_expr=0.16, count_wildcard_selector=0.20, count_regex_argument=0.16, count_selector=0.20, count_S=0.15, count_name_selector=0.20, count_and_tail=0.19, count_rel_singular_query=0.15, count_name_segment=0.15, doc_bytes=0.18, count_s_singular_segment=0.17, count_name_sq_char=0.18, count_test_expr=0.14, count_dq_chars=0.18, count_int=0.16, count_or_tail=0.18, count_logical_not_op=0.14, count_object=0.17, count_letter=0.17, count_doc_name_mixed=0.16, count_index_selector=0.17, count_doc_name_special=0.16, count_name_first=0.17, count_name_sq_chars=0.17, count_index_segment=0.17, count_abs_singular_query=0.13, count_name_char=0.17, count_dq_char=0.17, count_match_expr=0.16, count_name_sq_special=0.17, count_iregexp_literal=0.17, count_dq_mixed=0.17, count_value_function_expr=0.13, count_dq_special=0.17, count_doc_name_char=0.14, count_name_sq_mixed=0.16, count_rel_query=0.14, count_name_dq_chars=0.16, count_ire_quantifier=0.16, count_filter_query=0.13, count_ire_branch=0.16, count_ire_regexp=0.16, count_DIGIT1=0.15, count_pos_int=0.14, count_count_expr=0.13, count_doc_escape=0.16, count_ire_range_quantifier=0.16, count_ire_char_class=0.16, count_number=0.14, count_abs_query=0.13, count_ire_piece=0.16, count_DIGIT=0.14, count_ire_char_class_expr=0.16, count_length_expr=0.15, count_more_selector=0.16, count_comparison_expr=0.15, count_comparable=0.15, count_value_expr=0.12, count_name_dq_special=0.15, count_slice_selector=0.15, count_ire_cce1=0.15, count_doc_number=0.15, count_ire_normal_char=0.15, count_ire_alt=0.15, count_name_dq_mixed=0.15, count_search_expr=0.12, count_paren_expr=0.12, count_name_dq_char=0.14, count_exp=0.11, count_B=0.12, count_doc_exp=0.13, count_escapable=0.13, count_doc_string=0.12, count_more_value=0.13, count_sq_chars=0.10, count_nonempty_array=0.09, count_doc_char=0.10, count_frac=0.04, count_doc_special=0.09, count_sign_opt=0.05, count_doc_mixed=0.08, count_D=0.07, count_high_surrogate=0.05, count_sq_char=0.06, count_low_surrogate=0.05, count_HEXDIG=0.05, count_hexchar=0.05, count_sq_special=0.05, count_non_d_hex=0.04, count_sq_mixed=0.05, count_oct_digit=0.03, count_non_surrogate=0.02
+[select] comparative relevance (max |rho| vs a between-system ratio): query_len=0.40, count_nonempty_object=0.42, count_s_segment=0.38, count_member=0.42, count_ws=0.39, count_filter_selector=0.39, count_descendant_segment=0.35, count_bracketed_selection=0.34, count_logical_expr=0.38, count_child_segment=0.32, count_logical_and_expr=0.36, count_member_name_shorthand=0.35, count_more_member=0.36, doc_depth=0.32, count_basic_expr=0.35, count_literal=0.32, count_string_literal=0.28, count_value_argument=0.34, count_value=0.32, count_singular_query=0.34, count_array=0.25, count_logical_function_expr=0.34, count_wildcard_selector=0.30, count_regex_argument=0.34, count_selector=0.31, count_S=0.33, count_name_selector=0.23, count_and_tail=0.31, count_rel_singular_query=0.32, count_name_segment=0.32, doc_bytes=0.31, count_s_singular_segment=0.32, count_name_sq_char=0.16, count_test_expr=0.32, count_dq_chars=0.26, count_int=0.32, count_or_tail=0.32, count_logical_not_op=0.32, count_object=0.27, count_letter=0.23, count_doc_name_mixed=0.32, count_index_selector=0.31, count_doc_name_special=0.32, count_name_first=0.20, count_name_sq_chars=0.24, count_index_segment=0.31, count_abs_singular_query=0.31, count_name_char=0.19, count_dq_char=0.17, count_match_expr=0.31, count_name_sq_special=0.16, count_iregexp_literal=0.29, count_dq_mixed=0.18, count_value_function_expr=0.30, count_dq_special=0.18, count_doc_name_char=0.30, count_name_sq_mixed=0.16, count_rel_query=0.30, count_name_dq_chars=0.23, count_ire_quantifier=0.28, count_filter_query=0.29, count_ire_branch=0.28, count_ire_regexp=0.29, count_DIGIT1=0.28, count_pos_int=0.28, count_count_expr=0.28, count_doc_escape=0.28, count_ire_range_quantifier=0.26, count_ire_char_class=0.28, count_number=0.28, count_abs_query=0.28, count_ire_piece=0.28, count_DIGIT=0.28, count_ire_char_class_expr=0.25, count_length_expr=0.28, count_more_selector=0.24, count_comparison_expr=0.25, count_comparable=0.25, count_value_expr=0.27, count_name_dq_special=0.18, count_slice_selector=0.26, count_ire_cce1=0.25, count_doc_number=0.25, count_ire_normal_char=0.25, count_ire_alt=0.25, count_name_dq_mixed=0.18, count_search_expr=0.24, count_paren_expr=0.24, count_name_dq_char=0.17, count_exp=0.23, count_B=0.21, count_doc_exp=0.20, count_escapable=0.16, count_doc_string=0.17, count_more_value=0.14, count_sq_chars=0.17, count_nonempty_array=0.15, count_doc_char=0.08, count_frac=0.14, count_doc_special=0.07, count_sign_opt=0.14, count_doc_mixed=0.07, count_D=0.07, count_high_surrogate=0.08, count_sq_char=0.05, count_low_surrogate=0.08, count_HEXDIG=0.07, count_hexchar=0.06, count_sq_special=0.05, count_non_d_hex=0.06, count_sq_mixed=0.05, count_oct_digit=0.04, count_non_surrogate=0.04
+[select] scored on the comparison rather than on the metric: query_len (0.29 -> 0.40), count_nonempty_object (0.24 -> 0.42), count_s_segment (0.28 -> 0.38), count_member (0.24 -> 0.42), count_ws (0.25 -> 0.39), count_filter_selector (0.21 -> 0.39), count_descendant_segment (0.23 -> 0.35), count_bracketed_selection (0.23 -> 0.34), count_logical_expr (0.19 -> 0.38), count_child_segment (0.22 -> 0.32), count_logical_and_expr (0.19 -> 0.36), count_member_name_shorthand (0.22 -> 0.35), count_more_member (0.21 -> 0.36), doc_depth (0.22 -> 0.32), count_basic_expr (0.19 -> 0.35), count_literal (0.21 -> 0.32), count_string_literal (0.21 -> 0.28), count_value_argument (0.15 -> 0.34), count_value (0.21 -> 0.32), count_singular_query (0.15 -> 0.34), count_logical_function_expr (0.16 -> 0.34), count_wildcard_selector (0.20 -> 0.30), count_regex_argument (0.16 -> 0.34), count_selector (0.20 -> 0.31), count_S (0.15 -> 0.33), count_and_tail (0.19 -> 0.31), count_rel_singular_query (0.15 -> 0.32), count_name_segment (0.15 -> 0.32), doc_bytes (0.18 -> 0.31), count_s_singular_segment (0.17 -> 0.32), count_test_expr (0.14 -> 0.32), count_dq_chars (0.18 -> 0.26), count_int (0.16 -> 0.32), count_or_tail (0.18 -> 0.32), count_logical_not_op (0.14 -> 0.32), count_object (0.17 -> 0.27), count_letter (0.17 -> 0.23), count_doc_name_mixed (0.16 -> 0.32), count_index_selector (0.17 -> 0.31), count_doc_name_special (0.16 -> 0.32), count_name_sq_chars (0.17 -> 0.24), count_index_segment (0.17 -> 0.31), count_abs_singular_query (0.13 -> 0.31), count_match_expr (0.16 -> 0.31), count_iregexp_literal (0.17 -> 0.29), count_value_function_expr (0.13 -> 0.30), count_doc_name_char (0.14 -> 0.30), count_rel_query (0.14 -> 0.30), count_name_dq_chars (0.16 -> 0.23), count_ire_quantifier (0.16 -> 0.28), count_filter_query (0.13 -> 0.29), count_ire_branch (0.16 -> 0.28), count_ire_regexp (0.16 -> 0.29), count_DIGIT1 (0.15 -> 0.28), count_pos_int (0.14 -> 0.28), count_count_expr (0.13 -> 0.28), count_doc_escape (0.16 -> 0.28), count_ire_range_quantifier (0.16 -> 0.26), count_ire_char_class (0.16 -> 0.28), count_number (0.14 -> 0.28), count_abs_query (0.13 -> 0.28), count_ire_piece (0.16 -> 0.28), count_DIGIT (0.14 -> 0.28), count_ire_char_class_expr (0.16 -> 0.25), count_length_expr (0.15 -> 0.28), count_more_selector (0.16 -> 0.24), count_comparison_expr (0.15 -> 0.25), count_comparable (0.15 -> 0.25), count_value_expr (0.12 -> 0.27), count_slice_selector (0.15 -> 0.26), count_ire_cce1 (0.15 -> 0.25), count_doc_number (0.15 -> 0.25), count_ire_normal_char (0.15 -> 0.25), count_ire_alt (0.15 -> 0.25), count_search_expr (0.12 -> 0.24), count_paren_expr (0.12 -> 0.24), count_exp (0.11 -> 0.23), count_B (0.12 -> 0.21), count_doc_exp (0.13 -> 0.20), count_doc_string (0.12 -> 0.17), count_sq_chars (0.10 -> 0.17), count_nonempty_array (0.09 -> 0.15), count_frac (0.04 -> 0.14), count_sign_opt (0.05 -> 0.14)
+[select] kept count_oct_digit despite |rho|=0.04: its axis is not explored yet, so a low score there is absence of data rather than absence of effect
+[select] kept count_non_surrogate despite |rho|=0.04: its axis is not explored yet, so a low score there is absence of data rather than absence of effect
+[select] dropped count_member: |rho|=0.99 with count_nonempty_object, which is already kept
+[select] dropped count_filter_selector: over the 4-property cap
+[select] dropped count_descendant_segment: over the 4-property cap
+[select] dropped count_bracketed_selection: over the 4-property cap
+[select] dropped count_logical_expr: over the 4-property cap
+[select] dropped count_child_segment: over the 4-property cap
+[select] dropped count_logical_and_expr: over the 4-property cap
+[select] dropped count_member_name_shorthand: over the 4-property cap
+[select] dropped count_more_member: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_basic_expr: over the 4-property cap
+[select] dropped count_literal: over the 4-property cap
+[select] dropped count_string_literal: over the 4-property cap
+[select] dropped count_value_argument: over the 4-property cap
+[select] dropped count_value: over the 4-property cap
+[select] dropped count_singular_query: over the 4-property cap
+[select] dropped count_array: over the 4-property cap
+[select] dropped count_logical_function_expr: over the 4-property cap
+[select] dropped count_wildcard_selector: over the 4-property cap
+[select] dropped count_regex_argument: over the 4-property cap
+[select] dropped count_selector: over the 4-property cap
+[select] dropped count_S: over the 4-property cap
+[select] dropped count_name_selector: over the 4-property cap
+[select] dropped count_and_tail: over the 4-property cap
+[select] dropped count_rel_singular_query: over the 4-property cap
+[select] dropped count_name_segment: over the 4-property cap
+[select] dropped doc_bytes: over the 4-property cap
+[select] dropped count_s_singular_segment: over the 4-property cap
+[select] dropped count_name_sq_char: over the 4-property cap
+[select] dropped count_test_expr: over the 4-property cap
+[select] dropped count_dq_chars: over the 4-property cap
+[select] dropped count_int: over the 4-property cap
+[select] dropped count_or_tail: over the 4-property cap
+[select] dropped count_logical_not_op: over the 4-property cap
+[select] dropped count_object: over the 4-property cap
+[select] dropped count_letter: over the 4-property cap
+[select] dropped count_doc_name_mixed: over the 4-property cap
+[select] dropped count_index_selector: over the 4-property cap
+[select] dropped count_doc_name_special: over the 4-property cap
+[select] dropped count_name_first: over the 4-property cap
+[select] dropped count_name_sq_chars: over the 4-property cap
+[select] dropped count_index_segment: over the 4-property cap
+[select] dropped count_abs_singular_query: over the 4-property cap
+[select] dropped count_name_char: over the 4-property cap
+[select] dropped count_dq_char: over the 4-property cap
+[select] dropped count_match_expr: over the 4-property cap
+[select] dropped count_name_sq_special: over the 4-property cap
+[select] dropped count_iregexp_literal: over the 4-property cap
+[select] dropped count_dq_mixed: over the 4-property cap
+[select] dropped count_value_function_expr: over the 4-property cap
+[select] dropped count_dq_special: over the 4-property cap
+[select] dropped count_doc_name_char: over the 4-property cap
+[select] dropped count_name_sq_mixed: over the 4-property cap
+[select] dropped count_rel_query: over the 4-property cap
+[select] dropped count_name_dq_chars: over the 4-property cap
+[select] dropped count_ire_quantifier: over the 4-property cap
+[select] dropped count_filter_query: over the 4-property cap
+[select] dropped count_ire_branch: over the 4-property cap
+[select] dropped count_ire_regexp: over the 4-property cap
+[select] dropped count_DIGIT1: over the 4-property cap
+[select] dropped count_pos_int: over the 4-property cap
+[select] dropped count_count_expr: over the 4-property cap
+[select] dropped count_doc_escape: over the 4-property cap
+[select] dropped count_ire_range_quantifier: over the 4-property cap
+[select] dropped count_ire_char_class: over the 4-property cap
+[select] dropped count_number: over the 4-property cap
+[select] dropped count_abs_query: over the 4-property cap
+[select] dropped count_ire_piece: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_ire_char_class_expr: over the 4-property cap
+[select] dropped count_length_expr: over the 4-property cap
+[select] dropped count_more_selector: over the 4-property cap
+[select] dropped count_comparison_expr: over the 4-property cap
+[select] dropped count_comparable: over the 4-property cap
+[select] dropped count_value_expr: over the 4-property cap
+[select] dropped count_name_dq_special: over the 4-property cap
+[select] dropped count_slice_selector: over the 4-property cap
+[select] dropped count_ire_cce1: over the 4-property cap
+[select] dropped count_doc_number: over the 4-property cap
+[select] dropped count_ire_normal_char: over the 4-property cap
+[select] dropped count_ire_alt: over the 4-property cap
+[select] dropped count_name_dq_mixed: over the 4-property cap
+[select] dropped count_search_expr: over the 4-property cap
+[select] dropped count_paren_expr: over the 4-property cap
+[select] dropped count_name_dq_char: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_B: over the 4-property cap
+[select] dropped count_doc_exp: over the 4-property cap
+[select] dropped count_escapable: over the 4-property cap
+[select] dropped count_doc_string: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] dropped count_sq_chars: over the 4-property cap
+[select] dropped count_nonempty_array: over the 4-property cap
+[select] dropped count_doc_char: over the 4-property cap
+[select] dropped count_frac: over the 4-property cap
+[select] dropped count_doc_special: over the 4-property cap
+[select] dropped count_sign_opt: over the 4-property cap
+[select] dropped count_doc_mixed: over the 4-property cap
+[select] dropped count_D: over the 4-property cap
+[select] dropped count_high_surrogate: over the 4-property cap
+[select] dropped count_sq_char: over the 4-property cap
+[select] dropped count_low_surrogate: over the 4-property cap
+[select] dropped count_HEXDIG: over the 4-property cap
+[select] dropped count_hexchar: over the 4-property cap
+[select] dropped count_sq_special: over the 4-property cap
+[select] dropped count_non_d_hex: over the 4-property cap
+[select] dropped count_sq_mixed: over the 4-property cap
+[select] dropped count_oct_digit: over the 4-property cap
+[select] dropped count_non_surrogate: over the 4-property cap
+[select] count_nonempty_object stands for count_member (indistinguishable here)
+[select] joint fit uses 4 of 113 properties: count_s_segment, count_ws, count_nonempty_object, query_len (1,296 model fits)
+[jpython_known] loop targets 4 of 113 properties: count_s_segment, count_ws, count_nonempty_object, query_len
+[jpython_known] targeting 8 regions: runtime_ns_divergence, count_nonempty_object_undecided0, count_nonempty_object_x_query_len_joint, query_len_beyond, runtime_ns_high, count_ws_edge0, runtime_ns_sparse0, query_len_sparse5
+  [runtime_ns_divergence] 17s: +10 new input(s), 9 distinct shape(s), 10 measured
+  [count_nonempty_object_undecided0] 3 comparison(s) undecided in count_nonempty_object [1.491,2.224): jpython_1_1_0 vs jpython_1_1_1 on runtime_ns and 2 more -> <more_member>{5,7}
+  [count_nonempty_object_undecided0] 22s: +10 new input(s), 6 distinct shape(s), 10 measured
+  [count_nonempty_object_x_query_len_joint] query_len spans 1..10647 overall, 1..1925 at count_nonempty_object in [1,2]; maximizing it at <more_member>{3,6}
+  [count_nonempty_object_x_query_len_joint] 9 of 10 seeds do not parse; seeding with 1.
+[budget] generation cut at 300s after 35 generations (31 solutions); this request is not reproducible
+  [soft] maximizing query_len: 31 candidates, best=1744, keeping 10 spanning 1744..1733
+  [count_nonempty_object_x_query_len_joint] 371s: +10 new input(s), 3 distinct shape(s), 10 measured [CUT: generation budget, not reproducible]
+  [query_len_beyond] rung 1
+  [seeds] skipped 5 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] recursion limit hit generating from ./results/rq1/20261003-0148-jpython_known/run1/jpython_known/grammars/jpython_known_target_3_query_len_beyond.fan; lower max_repetition or max_nodes for this grammar.
+  [query_len_beyond] 13s: no new inputs
+  [runtime_ns_high] 25s: +4 new input(s), 4 distinct shape(s), 4 measured
+  [count_ws_edge0] <more_member>{4,10} for the top 15% of count_ws ([32,367])
+  [count_ws_edge0] 29s: +10 new input(s), 4 distinct shape(s), 10 measured
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 14s: no new inputs
+  [seeds] skipped 2 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [query_len_sparse5] 8s: no new inputs
+[jpython_known] iter 1: corpus=1316 (+176 new)
+[select] relevance (max |rho| vs any metric on any system): count_s_segment=0.38, query_len=0.32, count_descendant_segment=0.33, count_member=0.09, count_nonempty_object=0.10, count_bracketed_selection=0.31, count_ws=0.16, count_child_segment=0.30, count_selector=0.30, count_more_member=0.08, count_member_name_shorthand=0.29, count_wildcard_selector=0.27, count_literal=0.26, count_logical_expr=0.26, count_string_literal=0.25, count_logical_and_expr=0.25, count_filter_selector=0.24, count_and_tail=0.25, count_value=0.14, count_basic_expr=0.25, count_name_segment=0.18, count_or_tail=0.24, count_singular_query=0.18, count_int=0.24, count_slice_selector=0.22, count_s_singular_segment=0.16, count_iregexp_literal=0.22, doc_bytes=0.13, count_array=0.22, count_more_selector=0.22, count_rel_singular_query=0.18, doc_depth=0.22, count_index_segment=0.15, count_dq_chars=0.22, count_index_selector=0.20, count_match_expr=0.22, count_ire_regexp=0.21, count_S=0.21, count_DIGIT1=0.21, count_logical_not_op=0.21, count_value_argument=0.21, count_logical_function_expr=0.21, count_abs_singular_query=0.19, count_regex_argument=0.21, count_test_expr=0.21, count_ire_branch=0.21, count_comparison_expr=0.21, count_comparable=0.21, count_ire_quantifier=0.21, count_count_expr=0.21, count_pos_int=0.21, count_value_function_expr=0.19, count_abs_query=0.19, count_DIGIT=0.21, count_filter_query=0.19, count_number=0.19, count_ire_piece=0.21, count_ire_alt=0.20, count_rel_query=0.19, count_name_dq_char=0.20, count_B=0.20, count_escapable=0.20, count_ire_char_class=0.13, count_name_dq_chars=0.20, count_name_dq_mixed=0.19, count_paren_expr=0.19, count_doc_name_special=0.08, count_name_dq_special=0.19, count_doc_name_mixed=0.09, count_value_expr=0.16, count_name_selector=0.19, count_ire_range_quantifier=0.13, count_length_expr=0.17, count_sq_chars=0.19, count_nonempty_array=0.05, count_search_expr=0.16, count_name_sq_chars=0.18, count_ire_cce1=0.12, count_ire_normal_char=0.12, count_more_value=0.18, count_ire_char_class_expr=0.13, count_name_first=0.18, count_object=0.17, count_exp=0.17, count_doc_name_char=0.03, count_name_char=0.17, count_doc_escape=0.08, count_doc_string=0.15, count_frac=0.14, count_doc_exp=0.14, count_letter=0.13, count_doc_number=0.13, count_name_sq_special=0.13, count_doc_char=0.13, count_name_sq_mixed=0.13, count_name_sq_char=0.13, count_dq_char=0.12, count_dq_mixed=0.12, count_dq_special=0.12, count_doc_mixed=0.12, count_doc_special=0.12, count_oct_digit=0.08, count_sign_opt=0.05, count_non_surrogate=0.07, count_D=0.07, count_hexchar=0.06, count_sq_mixed=0.06, count_sq_special=0.06, count_non_d_hex=0.06, count_sq_char=0.06, count_HEXDIG=0.06, count_high_surrogate=0.05, count_low_surrogate=0.05
+[select] comparative relevance (max |rho| vs a between-system ratio): count_s_segment=0.45, query_len=0.50, count_descendant_segment=0.43, count_member=0.48, count_nonempty_object=0.48, count_bracketed_selection=0.39, count_ws=0.48, count_child_segment=0.43, count_selector=0.37, count_more_member=0.43, count_member_name_shorthand=0.42, count_wildcard_selector=0.35, count_literal=0.34, count_logical_expr=0.43, count_string_literal=0.33, count_logical_and_expr=0.42, count_filter_selector=0.42, count_and_tail=0.37, count_value=0.41, count_basic_expr=0.40, count_name_segment=0.40, count_or_tail=0.38, count_singular_query=0.40, count_int=0.40, count_slice_selector=0.31, count_s_singular_segment=0.40, count_iregexp_literal=0.30, doc_bytes=0.40, count_array=0.27, count_more_selector=0.29, count_rel_singular_query=0.39, doc_depth=0.32, count_index_segment=0.38, count_dq_chars=0.30, count_index_selector=0.38, count_match_expr=0.35, count_ire_regexp=0.30, count_S=0.37, count_DIGIT1=0.35, count_logical_not_op=0.37, count_value_argument=0.37, count_logical_function_expr=0.37, count_abs_singular_query=0.37, count_regex_argument=0.37, count_test_expr=0.37, count_ire_branch=0.30, count_comparison_expr=0.32, count_comparable=0.32, count_ire_quantifier=0.29, count_count_expr=0.37, count_pos_int=0.35, count_value_function_expr=0.36, count_abs_query=0.36, count_DIGIT=0.35, count_filter_query=0.35, count_number=0.35, count_ire_piece=0.29, count_ire_alt=0.26, count_rel_query=0.35, count_name_dq_char=0.25, count_B=0.31, count_escapable=0.21, count_ire_char_class=0.34, count_name_dq_chars=0.33, count_name_dq_mixed=0.26, count_paren_expr=0.34, count_doc_name_special=0.34, count_name_dq_special=0.26, count_doc_name_mixed=0.34, count_value_expr=0.33, count_name_selector=0.31, count_ire_range_quantifier=0.33, count_length_expr=0.33, count_sq_chars=0.28, count_nonempty_array=0.32, count_search_expr=0.32, count_name_sq_chars=0.30, count_ire_cce1=0.32, count_ire_normal_char=0.32, count_more_value=0.16, count_ire_char_class_expr=0.31, count_name_first=0.27, count_object=0.22, count_exp=0.31, count_doc_name_char=0.31, count_name_char=0.25, count_doc_escape=0.30, count_doc_string=0.22, count_frac=0.22, count_doc_exp=0.22, count_letter=0.29, count_doc_number=0.28, count_name_sq_special=0.22, count_doc_char=0.10, count_name_sq_mixed=0.21, count_name_sq_char=0.22, count_dq_char=0.19, count_dq_mixed=0.20, count_dq_special=0.20, count_doc_mixed=0.09, count_doc_special=0.09, count_oct_digit=0.04, count_sign_opt=0.14, count_non_surrogate=0.03, count_D=0.06, count_hexchar=0.07, count_sq_mixed=0.09, count_sq_special=0.09, count_non_d_hex=0.04, count_sq_char=0.08, count_HEXDIG=0.07, count_high_surrogate=0.05, count_low_surrogate=0.05
+[select] scored on the comparison rather than on the metric: count_s_segment (0.38 -> 0.45), query_len (0.32 -> 0.50), count_descendant_segment (0.33 -> 0.43), count_member (0.09 -> 0.48), count_nonempty_object (0.10 -> 0.48), count_bracketed_selection (0.31 -> 0.39), count_ws (0.16 -> 0.48), count_child_segment (0.30 -> 0.43), count_selector (0.30 -> 0.37), count_more_member (0.08 -> 0.43), count_member_name_shorthand (0.29 -> 0.42), count_wildcard_selector (0.27 -> 0.35), count_literal (0.26 -> 0.34), count_logical_expr (0.26 -> 0.43), count_string_literal (0.25 -> 0.33), count_logical_and_expr (0.25 -> 0.42), count_filter_selector (0.24 -> 0.42), count_and_tail (0.25 -> 0.37), count_value (0.14 -> 0.41), count_basic_expr (0.25 -> 0.40), count_name_segment (0.18 -> 0.40), count_or_tail (0.24 -> 0.38), count_singular_query (0.18 -> 0.40), count_int (0.24 -> 0.40), count_slice_selector (0.22 -> 0.31), count_s_singular_segment (0.16 -> 0.40), count_iregexp_literal (0.22 -> 0.30), doc_bytes (0.13 -> 0.40), count_more_selector (0.22 -> 0.29), count_rel_singular_query (0.18 -> 0.39), doc_depth (0.22 -> 0.32), count_index_segment (0.15 -> 0.38), count_dq_chars (0.22 -> 0.30), count_index_selector (0.20 -> 0.38), count_match_expr (0.22 -> 0.35), count_ire_regexp (0.21 -> 0.30), count_S (0.21 -> 0.37), count_DIGIT1 (0.21 -> 0.35), count_logical_not_op (0.21 -> 0.37), count_value_argument (0.21 -> 0.37), count_logical_function_expr (0.21 -> 0.37), count_abs_singular_query (0.19 -> 0.37), count_regex_argument (0.21 -> 0.37), count_test_expr (0.21 -> 0.37), count_ire_branch (0.21 -> 0.30), count_comparison_expr (0.21 -> 0.32), count_comparable (0.21 -> 0.32), count_ire_quantifier (0.21 -> 0.29), count_count_expr (0.21 -> 0.37), count_pos_int (0.21 -> 0.35), count_value_function_expr (0.19 -> 0.36), count_abs_query (0.19 -> 0.36), count_DIGIT (0.21 -> 0.35), count_filter_query (0.19 -> 0.35), count_number (0.19 -> 0.35), count_ire_piece (0.21 -> 0.29), count_ire_alt (0.20 -> 0.26), count_rel_query (0.19 -> 0.35), count_B (0.20 -> 0.31), count_ire_char_class (0.13 -> 0.34), count_name_dq_chars (0.20 -> 0.33), count_name_dq_mixed (0.19 -> 0.26), count_paren_expr (0.19 -> 0.34), count_doc_name_special (0.08 -> 0.34), count_name_dq_special (0.19 -> 0.26), count_doc_name_mixed (0.09 -> 0.34), count_value_expr (0.16 -> 0.33), count_name_selector (0.19 -> 0.31), count_ire_range_quantifier (0.13 -> 0.33), count_length_expr (0.17 -> 0.33), count_sq_chars (0.19 -> 0.28), count_nonempty_array (0.05 -> 0.32), count_search_expr (0.16 -> 0.32), count_name_sq_chars (0.18 -> 0.30), count_ire_cce1 (0.12 -> 0.32), count_ire_normal_char (0.12 -> 0.32), count_ire_char_class_expr (0.13 -> 0.31), count_name_first (0.18 -> 0.27), count_exp (0.17 -> 0.31), count_doc_name_char (0.03 -> 0.31), count_name_char (0.17 -> 0.25), count_doc_escape (0.08 -> 0.30), count_doc_string (0.15 -> 0.22), count_frac (0.14 -> 0.22), count_doc_exp (0.14 -> 0.22), count_letter (0.13 -> 0.29), count_doc_number (0.13 -> 0.28), count_name_sq_special (0.13 -> 0.22), count_name_sq_mixed (0.13 -> 0.21), count_name_sq_char (0.13 -> 0.22), count_dq_char (0.12 -> 0.19), count_dq_mixed (0.12 -> 0.20), count_dq_special (0.12 -> 0.20), count_sign_opt (0.05 -> 0.14)
+[select] dropped count_nonempty_object: over the 4-property cap
+[select] dropped count_bracketed_selection: over the 4-property cap
+[select] dropped count_ws: over the 4-property cap
+[select] dropped count_child_segment: over the 4-property cap
+[select] dropped count_selector: over the 4-property cap
+[select] dropped count_more_member: over the 4-property cap
+[select] dropped count_member_name_shorthand: over the 4-property cap
+[select] dropped count_wildcard_selector: over the 4-property cap
+[select] dropped count_literal: over the 4-property cap
+[select] dropped count_logical_expr: over the 4-property cap
+[select] dropped count_string_literal: over the 4-property cap
+[select] dropped count_logical_and_expr: over the 4-property cap
+[select] dropped count_filter_selector: over the 4-property cap
+[select] dropped count_and_tail: over the 4-property cap
+[select] dropped count_value: over the 4-property cap
+[select] dropped count_basic_expr: over the 4-property cap
+[select] dropped count_name_segment: over the 4-property cap
+[select] dropped count_or_tail: over the 4-property cap
+[select] dropped count_singular_query: over the 4-property cap
+[select] dropped count_int: over the 4-property cap
+[select] dropped count_slice_selector: over the 4-property cap
+[select] dropped count_s_singular_segment: over the 4-property cap
+[select] dropped count_iregexp_literal: over the 4-property cap
+[select] dropped doc_bytes: over the 4-property cap
+[select] dropped count_array: over the 4-property cap
+[select] dropped count_more_selector: over the 4-property cap
+[select] dropped count_rel_singular_query: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_index_segment: over the 4-property cap
+[select] dropped count_dq_chars: over the 4-property cap
+[select] dropped count_index_selector: over the 4-property cap
+[select] dropped count_match_expr: over the 4-property cap
+[select] dropped count_ire_regexp: over the 4-property cap
+[select] dropped count_S: over the 4-property cap
+[select] dropped count_DIGIT1: over the 4-property cap
+[select] dropped count_logical_not_op: over the 4-property cap
+[select] dropped count_value_argument: over the 4-property cap
+[select] dropped count_logical_function_expr: over the 4-property cap
+[select] dropped count_abs_singular_query: over the 4-property cap
+[select] dropped count_regex_argument: over the 4-property cap
+[select] dropped count_test_expr: over the 4-property cap
+[select] dropped count_ire_branch: over the 4-property cap
+[select] dropped count_comparison_expr: over the 4-property cap
+[select] dropped count_comparable: over the 4-property cap
+[select] dropped count_ire_quantifier: over the 4-property cap
+[select] dropped count_count_expr: over the 4-property cap
+[select] dropped count_pos_int: over the 4-property cap
+[select] dropped count_value_function_expr: over the 4-property cap
+[select] dropped count_abs_query: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_filter_query: over the 4-property cap
+[select] dropped count_number: over the 4-property cap
+[select] dropped count_ire_piece: over the 4-property cap
+[select] dropped count_ire_alt: over the 4-property cap
+[select] dropped count_rel_query: over the 4-property cap
+[select] dropped count_name_dq_char: over the 4-property cap
+[select] dropped count_B: over the 4-property cap
+[select] dropped count_escapable: over the 4-property cap
+[select] dropped count_ire_char_class: over the 4-property cap
+[select] dropped count_name_dq_chars: over the 4-property cap
+[select] dropped count_name_dq_mixed: over the 4-property cap
+[select] dropped count_paren_expr: over the 4-property cap
+[select] dropped count_doc_name_special: over the 4-property cap
+[select] dropped count_name_dq_special: over the 4-property cap
+[select] dropped count_doc_name_mixed: over the 4-property cap
+[select] dropped count_value_expr: over the 4-property cap
+[select] dropped count_name_selector: over the 4-property cap
+[select] dropped count_ire_range_quantifier: over the 4-property cap
+[select] dropped count_length_expr: over the 4-property cap
+[select] dropped count_sq_chars: over the 4-property cap
+[select] dropped count_nonempty_array: over the 4-property cap
+[select] dropped count_search_expr: over the 4-property cap
+[select] dropped count_name_sq_chars: over the 4-property cap
+[select] dropped count_ire_cce1: over the 4-property cap
+[select] dropped count_ire_normal_char: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] dropped count_ire_char_class_expr: over the 4-property cap
+[select] dropped count_name_first: over the 4-property cap
+[select] dropped count_object: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_doc_name_char: over the 4-property cap
+[select] dropped count_name_char: over the 4-property cap
+[select] dropped count_doc_escape: over the 4-property cap
+[select] dropped count_doc_string: over the 4-property cap
+[select] dropped count_frac: over the 4-property cap
+[select] dropped count_doc_exp: over the 4-property cap
+[select] dropped count_letter: over the 4-property cap
+[select] dropped count_doc_number: over the 4-property cap
+[select] dropped count_name_sq_special: over the 4-property cap
+[select] dropped count_doc_char: over the 4-property cap
+[select] dropped count_name_sq_mixed: over the 4-property cap
+[select] dropped count_name_sq_char: over the 4-property cap
+[select] dropped count_dq_char: over the 4-property cap
+[select] dropped count_dq_mixed: over the 4-property cap
+[select] dropped count_dq_special: over the 4-property cap
+[select] dropped count_doc_mixed: over the 4-property cap
+[select] dropped count_doc_special: over the 4-property cap
+[select] dropped count_oct_digit: over the 4-property cap
+[select] dropped count_sign_opt: over the 4-property cap
+[select] dropped count_non_surrogate: over the 4-property cap
+[select] dropped count_D: over the 4-property cap
+[select] dropped count_hexchar: over the 4-property cap
+[select] dropped count_sq_mixed: over the 4-property cap
+[select] dropped count_sq_special: over the 4-property cap
+[select] dropped count_non_d_hex: over the 4-property cap
+[select] dropped count_sq_char: over the 4-property cap
+[select] dropped count_HEXDIG: over the 4-property cap
+[select] dropped count_high_surrogate: over the 4-property cap
+[select] dropped count_low_surrogate: over the 4-property cap
+[select] joint fit uses 4 of 113 properties: count_s_segment, count_descendant_segment, count_member, query_len (1,296 model fits)
+[jpython_known] loop targets 4 of 113 properties: count_s_segment, count_descendant_segment, count_member, query_len
+[jpython_known] targeting 8 regions: runtime_ns_divergence, count_member_undecided0, count_member_x_query_len_joint, count_descendant_segment_beyond, runtime_ns_high, count_descendant_segment_edge0, runtime_ns_sparse0, query_len_sparse5
+  [runtime_ns_divergence] 29s: +6 new input(s), 5 distinct shape(s), 6 measured
+  [count_member_undecided0] 3 comparison(s) undecided in count_member [7.416,14.46): jpython_1_1_0 vs jpython_1_1_1 on runtime_ns and 2 more -> <more_member>{5,7}
+[WARNING] recursion limit hit generating from ./results/rq1/20261003-0148-jpython_known/run1/jpython_known/grammars/jpython_known_target_1_count_member_undecided0.fan; lower max_repetition or max_nodes for this grammar.
+  [count_member_undecided0] 5s: no new inputs
+  [count_member_x_query_len_joint] query_len spans 1..10647 overall, 1..1359 at count_member in [6,7.2]; maximizing it at <more_member>{4,6}
+  [count_member_x_query_len_joint] 4 of 10 seeds do not parse; seeding with 6.
+[budget] generation cut at 300s after 55 generations (37 solutions); this request is not reproducible
+  [soft] maximizing query_len: 37 candidates, best=1826, keeping 10 spanning 1826..1818
+  [count_member_x_query_len_joint] 391s: +10 new input(s), 7 distinct shape(s), 10 measured [CUT: generation budget, not reproducible]
+  [count_descendant_segment_beyond] <s_segment>{24,28} (rung 1, 4000 nodes)
+  [count_descendant_segment_beyond] 22s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_high] 28s: +1 new input(s), 1 distinct shape(s), 1 measured
+  [count_descendant_segment_edge0] <s_segment>{24,26} for the top 15% of count_descendant_segment ([12,56])
+  [count_descendant_segment_edge0] 21s: +10 new input(s), 10 distinct shape(s), 10 measured
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_sparse0] 16s: no new inputs
+  [seeds] skipped 2 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [query_len_sparse5] 6s: no new inputs
+[jpython_known] iter 2: corpus=1464 (+148 new)
+[select] relevance (max |rho| vs any metric on any system): count_s_segment=0.35, count_member=0.13, count_descendant_segment=0.33, count_nonempty_object=0.11, count_selector=0.30, count_ws=0.18, count_logical_expr=0.29, count_more_member=0.16, count_bracketed_selection=0.29, query_len=0.28, count_logical_and_expr=0.29, count_value=0.19, count_child_segment=0.28, count_member_name_shorthand=0.28, doc_bytes=0.18, count_basic_expr=0.28, count_nonempty_array=0.16, count_string_literal=0.28, count_or_tail=0.27, count_name_segment=0.18, count_literal=0.27, count_and_tail=0.27, count_wildcard_selector=0.26, count_s_singular_segment=0.17, count_S=0.26, count_int=0.22, count_filter_selector=0.25, count_dq_chars=0.25, count_index_selector=0.20, count_test_expr=0.25, count_logical_not_op=0.25, count_rel_singular_query=0.20, count_value_argument=0.25, count_logical_function_expr=0.25, count_index_segment=0.17, count_regex_argument=0.25, count_match_expr=0.25, count_sq_chars=0.24, count_singular_query=0.21, count_iregexp_literal=0.24, count_DIGIT1=0.21, count_abs_singular_query=0.24, count_DIGIT=0.21, count_count_expr=0.24, count_paren_expr=0.24, count_filter_query=0.24, count_ire_char_class=0.08, count_value_function_expr=0.24, count_abs_query=0.24, count_comparison_expr=0.23, count_pos_int=0.21, count_comparable=0.23, count_B=0.23, count_name_dq_chars=0.19, count_rel_query=0.23, count_more_selector=0.23, count_ire_regexp=0.23, count_number=0.22, count_doc_name_special=0.08, count_ire_branch=0.22, count_doc_name_mixed=0.09, count_length_expr=0.22, count_slice_selector=0.22, count_ire_range_quantifier=0.07, count_ire_cce1=0.08, count_ire_normal_char=0.08, count_search_expr=0.21, count_ire_char_class_expr=0.08, count_value_expr=0.21, count_name_selector=0.19, doc_depth=0.20, count_exp=0.20, count_ire_quantifier=0.17, count_escapable=0.20, count_array=0.20, count_more_value=0.19, count_name_dq_special=0.16, count_name_sq_chars=0.19, count_name_dq_mixed=0.16, count_name_sq_special=0.19, count_ire_piece=0.16, count_name_sq_mixed=0.18, count_name_dq_char=0.17, count_name_first=0.18, count_doc_name_char=0.03, count_object=0.18, count_frac=0.18, count_doc_escape=0.08, count_name_sq_char=0.17, count_name_char=0.17, count_ire_alt=0.17, count_doc_string=0.16, count_doc_number=0.14, count_letter=0.14, count_doc_exp=0.14, count_doc_char=0.11, count_doc_mixed=0.10, count_doc_special=0.10, count_dq_char=0.08, count_dq_mixed=0.07, count_dq_special=0.07, count_high_surrogate=0.08, count_low_surrogate=0.08, count_sign_opt=0.07, count_sq_special=0.07, count_sq_mixed=0.07, count_sq_char=0.07, count_non_d_hex=0.02, count_HEXDIG=0.06, count_hexchar=0.06, count_D=0.06, count_non_surrogate=0.03, count_oct_digit=0.04
+[select] comparative relevance (max |rho| vs a between-system ratio): count_s_segment=0.43, count_member=0.51, count_descendant_segment=0.43, count_nonempty_object=0.51, count_selector=0.32, count_ws=0.50, count_logical_expr=0.36, count_more_member=0.47, count_bracketed_selection=0.35, query_len=0.44, count_logical_and_expr=0.35, count_value=0.43, count_child_segment=0.36, count_member_name_shorthand=0.38, doc_bytes=0.42, count_basic_expr=0.34, count_nonempty_array=0.38, count_string_literal=0.27, count_or_tail=0.31, count_name_segment=0.36, count_literal=0.30, count_and_tail=0.31, count_wildcard_selector=0.34, count_s_singular_segment=0.36, count_S=0.29, count_int=0.35, count_filter_selector=0.34, count_dq_chars=0.24, count_index_selector=0.35, count_test_expr=0.30, count_logical_not_op=0.32, count_rel_singular_query=0.35, count_value_argument=0.29, count_logical_function_expr=0.29, count_index_segment=0.34, count_regex_argument=0.29, count_match_expr=0.27, count_sq_chars=0.25, count_singular_query=0.34, count_iregexp_literal=0.25, count_DIGIT1=0.33, count_abs_singular_query=0.29, count_DIGIT=0.33, count_count_expr=0.32, count_paren_expr=0.32, count_filter_query=0.28, count_ire_char_class=0.32, count_value_function_expr=0.28, count_abs_query=0.29, count_comparison_expr=0.28, count_pos_int=0.32, count_comparable=0.28, count_B=0.29, count_name_dq_chars=0.31, count_rel_query=0.28, count_more_selector=0.26, count_ire_regexp=0.25, count_number=0.30, count_doc_name_special=0.30, count_ire_branch=0.25, count_doc_name_mixed=0.30, count_length_expr=0.27, count_slice_selector=0.30, count_ire_range_quantifier=0.30, count_ire_cce1=0.30, count_ire_normal_char=0.30, count_search_expr=0.27, count_ire_char_class_expr=0.30, count_value_expr=0.25, count_name_selector=0.29, doc_depth=0.28, count_exp=0.25, count_ire_quantifier=0.29, count_escapable=0.20, count_array=0.23, count_more_value=0.18, count_name_dq_special=0.29, count_name_sq_chars=0.26, count_name_dq_mixed=0.29, count_name_sq_special=0.24, count_ire_piece=0.28, count_name_sq_mixed=0.23, count_name_dq_char=0.28, count_name_first=0.26, count_doc_name_char=0.28, count_object=0.20, count_frac=0.23, count_doc_escape=0.27, count_name_sq_char=0.24, count_name_char=0.25, count_ire_alt=0.25, count_doc_string=0.18, count_doc_number=0.25, count_letter=0.23, count_doc_exp=0.20, count_doc_char=0.07, count_doc_mixed=0.06, count_doc_special=0.06, count_dq_char=0.17, count_dq_mixed=0.19, count_dq_special=0.19, count_high_surrogate=0.03, count_low_surrogate=0.03, count_sign_opt=0.13, count_sq_special=0.09, count_sq_mixed=0.09, count_sq_char=0.07, count_non_d_hex=0.07, count_HEXDIG=0.04, count_hexchar=0.03, count_D=0.02, count_non_surrogate=0.03, count_oct_digit=0.03
+[select] scored on the comparison rather than on the metric: count_s_segment (0.35 -> 0.43), count_member (0.13 -> 0.51), count_descendant_segment (0.33 -> 0.43), count_nonempty_object (0.11 -> 0.51), count_ws (0.18 -> 0.50), count_logical_expr (0.29 -> 0.36), count_more_member (0.16 -> 0.47), count_bracketed_selection (0.29 -> 0.35), query_len (0.28 -> 0.44), count_logical_and_expr (0.29 -> 0.35), count_value (0.19 -> 0.43), count_child_segment (0.28 -> 0.36), count_member_name_shorthand (0.28 -> 0.38), doc_bytes (0.18 -> 0.42), count_basic_expr (0.28 -> 0.34), count_nonempty_array (0.16 -> 0.38), count_name_segment (0.18 -> 0.36), count_wildcard_selector (0.26 -> 0.34), count_s_singular_segment (0.17 -> 0.36), count_int (0.22 -> 0.35), count_filter_selector (0.25 -> 0.34), count_index_selector (0.20 -> 0.35), count_logical_not_op (0.25 -> 0.32), count_rel_singular_query (0.20 -> 0.35), count_index_segment (0.17 -> 0.34), count_singular_query (0.21 -> 0.34), count_DIGIT1 (0.21 -> 0.33), count_abs_singular_query (0.24 -> 0.29), count_DIGIT (0.21 -> 0.33), count_count_expr (0.24 -> 0.32), count_paren_expr (0.24 -> 0.32), count_ire_char_class (0.08 -> 0.32), count_abs_query (0.24 -> 0.29), count_pos_int (0.21 -> 0.32), count_B (0.23 -> 0.29), count_name_dq_chars (0.19 -> 0.31), count_rel_query (0.23 -> 0.28), count_number (0.22 -> 0.30), count_doc_name_special (0.08 -> 0.30), count_doc_name_mixed (0.09 -> 0.30), count_length_expr (0.22 -> 0.27), count_slice_selector (0.22 -> 0.30), count_ire_range_quantifier (0.07 -> 0.30), count_ire_cce1 (0.08 -> 0.30), count_ire_normal_char (0.08 -> 0.30), count_search_expr (0.21 -> 0.27), count_ire_char_class_expr (0.08 -> 0.30), count_name_selector (0.19 -> 0.29), doc_depth (0.20 -> 0.28), count_exp (0.20 -> 0.25), count_ire_quantifier (0.17 -> 0.29), count_name_dq_special (0.16 -> 0.29), count_name_sq_chars (0.19 -> 0.26), count_name_dq_mixed (0.16 -> 0.29), count_name_sq_special (0.19 -> 0.24), count_ire_piece (0.16 -> 0.28), count_name_sq_mixed (0.18 -> 0.23), count_name_dq_char (0.17 -> 0.28), count_name_first (0.18 -> 0.26), count_doc_name_char (0.03 -> 0.28), count_frac (0.18 -> 0.23), count_doc_escape (0.08 -> 0.27), count_name_sq_char (0.17 -> 0.24), count_name_char (0.17 -> 0.25), count_ire_alt (0.17 -> 0.25), count_doc_number (0.14 -> 0.25), count_letter (0.14 -> 0.23), count_doc_exp (0.14 -> 0.20), count_dq_char (0.08 -> 0.17), count_dq_mixed (0.07 -> 0.19), count_dq_special (0.07 -> 0.19), count_sign_opt (0.07 -> 0.13), count_non_d_hex (0.02 -> 0.07)
+[select] kept count_non_surrogate despite |rho|=0.03: its axis is not explored yet, so a low score there is absence of data rather than absence of effect
+[select] kept count_oct_digit despite |rho|=0.04: its axis is not explored yet, so a low score there is absence of data rather than absence of effect
+[select] dropped count_nonempty_object: |rho|=0.99 with count_member, which is already kept
+[select] dropped count_selector: |rho|=0.81 with count_s_segment, which is already kept
+[select] dropped count_ws: |rho|=0.85 with count_member, which is already kept
+[select] dropped count_more_member: over the 4-property cap
+[select] dropped count_bracketed_selection: over the 4-property cap
+[select] dropped query_len: over the 4-property cap
+[select] dropped count_logical_and_expr: over the 4-property cap
+[select] dropped count_value: over the 4-property cap
+[select] dropped count_child_segment: over the 4-property cap
+[select] dropped count_member_name_shorthand: over the 4-property cap
+[select] dropped doc_bytes: over the 4-property cap
+[select] dropped count_basic_expr: over the 4-property cap
+[select] dropped count_nonempty_array: over the 4-property cap
+[select] dropped count_string_literal: over the 4-property cap
+[select] dropped count_or_tail: over the 4-property cap
+[select] dropped count_name_segment: over the 4-property cap
+[select] dropped count_literal: over the 4-property cap
+[select] dropped count_and_tail: over the 4-property cap
+[select] dropped count_wildcard_selector: over the 4-property cap
+[select] dropped count_s_singular_segment: over the 4-property cap
+[select] dropped count_S: over the 4-property cap
+[select] dropped count_int: over the 4-property cap
+[select] dropped count_filter_selector: over the 4-property cap
+[select] dropped count_dq_chars: over the 4-property cap
+[select] dropped count_index_selector: over the 4-property cap
+[select] dropped count_test_expr: over the 4-property cap
+[select] dropped count_logical_not_op: over the 4-property cap
+[select] dropped count_rel_singular_query: over the 4-property cap
+[select] dropped count_value_argument: over the 4-property cap
+[select] dropped count_logical_function_expr: over the 4-property cap
+[select] dropped count_index_segment: over the 4-property cap
+[select] dropped count_regex_argument: over the 4-property cap
+[select] dropped count_match_expr: over the 4-property cap
+[select] dropped count_sq_chars: over the 4-property cap
+[select] dropped count_singular_query: over the 4-property cap
+[select] dropped count_iregexp_literal: over the 4-property cap
+[select] dropped count_DIGIT1: over the 4-property cap
+[select] dropped count_abs_singular_query: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_count_expr: over the 4-property cap
+[select] dropped count_paren_expr: over the 4-property cap
+[select] dropped count_filter_query: over the 4-property cap
+[select] dropped count_ire_char_class: over the 4-property cap
+[select] dropped count_value_function_expr: over the 4-property cap
+[select] dropped count_abs_query: over the 4-property cap
+[select] dropped count_comparison_expr: over the 4-property cap
+[select] dropped count_pos_int: over the 4-property cap
+[select] dropped count_comparable: over the 4-property cap
+[select] dropped count_B: over the 4-property cap
+[select] dropped count_name_dq_chars: over the 4-property cap
+[select] dropped count_rel_query: over the 4-property cap
+[select] dropped count_more_selector: over the 4-property cap
+[select] dropped count_ire_regexp: over the 4-property cap
+[select] dropped count_number: over the 4-property cap
+[select] dropped count_doc_name_special: over the 4-property cap
+[select] dropped count_ire_branch: over the 4-property cap
+[select] dropped count_doc_name_mixed: over the 4-property cap
+[select] dropped count_length_expr: over the 4-property cap
+[select] dropped count_slice_selector: over the 4-property cap
+[select] dropped count_ire_range_quantifier: over the 4-property cap
+[select] dropped count_ire_cce1: over the 4-property cap
+[select] dropped count_ire_normal_char: over the 4-property cap
+[select] dropped count_search_expr: over the 4-property cap
+[select] dropped count_ire_char_class_expr: over the 4-property cap
+[select] dropped count_value_expr: over the 4-property cap
+[select] dropped count_name_selector: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_ire_quantifier: over the 4-property cap
+[select] dropped count_escapable: over the 4-property cap
+[select] dropped count_array: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] dropped count_name_dq_special: over the 4-property cap
+[select] dropped count_name_sq_chars: over the 4-property cap
+[select] dropped count_name_dq_mixed: over the 4-property cap
+[select] dropped count_name_sq_special: over the 4-property cap
+[select] dropped count_ire_piece: over the 4-property cap
+[select] dropped count_name_sq_mixed: over the 4-property cap
+[select] dropped count_name_dq_char: over the 4-property cap
+[select] dropped count_name_first: over the 4-property cap
+[select] dropped count_doc_name_char: over the 4-property cap
+[select] dropped count_object: over the 4-property cap
+[select] dropped count_frac: over the 4-property cap
+[select] dropped count_doc_escape: over the 4-property cap
+[select] dropped count_name_sq_char: over the 4-property cap
+[select] dropped count_name_char: over the 4-property cap
+[select] dropped count_ire_alt: over the 4-property cap
+[select] dropped count_doc_string: over the 4-property cap
+[select] dropped count_doc_number: over the 4-property cap
+[select] dropped count_letter: over the 4-property cap
+[select] dropped count_doc_exp: over the 4-property cap
+[select] dropped count_doc_char: over the 4-property cap
+[select] dropped count_doc_mixed: over the 4-property cap
+[select] dropped count_doc_special: over the 4-property cap
+[select] dropped count_dq_char: over the 4-property cap
+[select] dropped count_dq_mixed: over the 4-property cap
+[select] dropped count_dq_special: over the 4-property cap
+[select] dropped count_high_surrogate: over the 4-property cap
+[select] dropped count_low_surrogate: over the 4-property cap
+[select] dropped count_sign_opt: over the 4-property cap
+[select] dropped count_sq_special: over the 4-property cap
+[select] dropped count_sq_mixed: over the 4-property cap
+[select] dropped count_sq_char: over the 4-property cap
+[select] dropped count_non_d_hex: over the 4-property cap
+[select] dropped count_HEXDIG: over the 4-property cap
+[select] dropped count_hexchar: over the 4-property cap
+[select] dropped count_D: over the 4-property cap
+[select] dropped count_non_surrogate: over the 4-property cap
+[select] dropped count_oct_digit: over the 4-property cap
+[select] count_s_segment stands for count_selector (indistinguishable here)
+[select] count_member stands for count_nonempty_object, count_ws (indistinguishable here)
+[select] joint fit uses 4 of 113 properties: count_s_segment, count_logical_expr, count_descendant_segment, count_member (1,296 model fits)
+[jpython_known] loop targets 4 of 113 properties: count_s_segment, count_logical_expr, count_descendant_segment, count_member
+[jpython_known] targeting 8 regions: runtime_ns_divergence, count_member_undecided0, count_descendant_segment_beyond, runtime_ns_high, count_s_segment_edge0, runtime_ns_sparse0, count_descendant_segment_sparse5_0, count_logical_expr_undecided0
+  [runtime_ns_divergence] 24s: +1 new input(s), 1 distinct shape(s), 1 measured
+  [count_member_undecided0] 2 comparison(s) undecided in count_member [3.803,7.416): jpython_1_1_0 vs jpython_1_1_1 on runtime_ns and 1 more -> <more_member>{3,5}
+  [count_member_undecided0] 19s: +10 new input(s), 9 distinct shape(s), 10 measured
+  [count_descendant_segment_beyond] <s_segment>{24,28} (rung 1, 4000 nodes)
+  [count_descendant_segment_beyond] 19s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_high] 25s: +3 new input(s), 3 distinct shape(s), 3 measured
+  [count_s_segment_edge0] <s_segment>{24,26} for the top 15% of count_s_segment ([31,163])
+  [count_s_segment_edge0] 20s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_sparse0] 44s: +1 new input(s), 1 distinct shape(s), 1 measured
+  [count_descendant_segment_sparse5_0] <s_segment>{24,26} for count_descendant_segment in [45.5,54.6]
+  [count_descendant_segment_sparse5_0] 19s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_logical_expr_undecided0] 1 comparison(s) undecided in count_logical_expr [20.72,38): jpython_1_1_2 vs jpython_1_1_3 on runtime_ns -> <s_segment>{20,22}
+  [count_logical_expr_undecided0] 19s: +10 new input(s), 10 distinct shape(s), 10 measured
+[jpython_known] iter 3: corpus=1684 (+220 new)
+[select] relevance (max |rho| vs any metric on any system): count_s_segment=0.33, count_nonempty_object=0.09, count_descendant_segment=0.32, count_member=0.10, count_logical_expr=0.28, count_ws=0.14, count_logical_and_expr=0.28, count_more_member=0.13, count_member_name_shorthand=0.28, count_value=0.16, count_basic_expr=0.27, doc_bytes=0.13, count_selector=0.26, count_or_tail=0.26, count_child_segment=0.26, query_len=0.26, count_bracketed_selection=0.26, count_literal=0.26, count_nonempty_array=0.11, count_string_literal=0.26, count_and_tail=0.26, count_int=0.22, count_wildcard_selector=0.26, count_s_singular_segment=0.18, count_S=0.25, count_name_segment=0.19, count_test_expr=0.25, count_index_selector=0.19, count_logical_not_op=0.25, count_paren_expr=0.24, count_filter_selector=0.24, count_index_segment=0.18, count_count_expr=0.24, count_filter_query=0.24, count_logical_function_expr=0.24, count_regex_argument=0.24, count_rel_singular_query=0.20, count_abs_query=0.24, count_DIGIT1=0.21, count_value_argument=0.24, count_singular_query=0.22, count_dq_chars=0.24, count_pos_int=0.21, count_match_expr=0.24, count_comparison_expr=0.24, count_DIGIT=0.20, count_comparable=0.24, count_rel_query=0.23, count_doc_name_special=0.09, count_abs_singular_query=0.23, count_name_dq_chars=0.19, count_value_function_expr=0.23, count_doc_name_mixed=0.09, count_B=0.22, count_sq_chars=0.22, count_slice_selector=0.22, count_number=0.22, count_name_selector=0.19, count_more_selector=0.21, count_length_expr=0.21, count_doc_escape=0.09, count_doc_name_char=0.05, count_search_expr=0.20, count_value_expr=0.20, count_iregexp_literal=0.20, count_escapable=0.20, doc_depth=0.20, count_name_dq_char=0.18, count_name_sq_special=0.20, count_name_dq_special=0.16, count_exp=0.19, count_name_dq_mixed=0.16, count_ire_regexp=0.19, count_name_sq_chars=0.18, count_ire_branch=0.18, count_ire_char_class=0.07, count_name_sq_mixed=0.18, count_name_first=0.18, count_object=0.17, count_name_sq_char=0.17, count_doc_number=0.13, count_doc_string=0.17, count_frac=0.17, count_ire_range_quantifier=0.06, count_array=0.17, count_ire_normal_char=0.07, count_ire_cce1=0.07, count_ire_char_class_expr=0.07, count_name_char=0.16, count_more_value=0.16, count_ire_quantifier=0.15, count_ire_alt=0.14, count_ire_piece=0.14, count_letter=0.11, count_doc_exp=0.11, count_doc_char=0.10, count_sign_opt=0.09, count_doc_mixed=0.09, count_dq_mixed=0.06, count_doc_special=0.08, count_dq_special=0.06, count_sq_special=0.07, count_sq_mixed=0.07, count_sq_char=0.07, count_dq_char=0.05, count_high_surrogate=0.06, count_low_surrogate=0.06, count_oct_digit=0.03, count_D=0.05, count_non_d_hex=0.04, count_HEXDIG=0.05, count_non_surrogate=0.04, count_hexchar=0.05
+[select] comparative relevance (max |rho| vs a between-system ratio): count_s_segment=0.42, count_nonempty_object=0.52, count_descendant_segment=0.43, count_member=0.52, count_logical_expr=0.36, count_ws=0.50, count_logical_and_expr=0.35, count_more_member=0.48, count_member_name_shorthand=0.40, count_value=0.45, count_basic_expr=0.33, doc_bytes=0.45, count_selector=0.35, count_or_tail=0.31, count_child_segment=0.39, query_len=0.41, count_bracketed_selection=0.39, count_literal=0.30, count_nonempty_array=0.39, count_string_literal=0.27, count_and_tail=0.31, count_int=0.37, count_wildcard_selector=0.36, count_s_singular_segment=0.37, count_S=0.30, count_name_segment=0.37, count_test_expr=0.31, count_index_selector=0.36, count_logical_not_op=0.33, count_paren_expr=0.32, count_filter_selector=0.35, count_index_segment=0.36, count_count_expr=0.32, count_filter_query=0.30, count_logical_function_expr=0.29, count_regex_argument=0.29, count_rel_singular_query=0.34, count_abs_query=0.30, count_DIGIT1=0.34, count_value_argument=0.29, count_singular_query=0.34, count_dq_chars=0.24, count_pos_int=0.34, count_match_expr=0.26, count_comparison_expr=0.29, count_DIGIT=0.33, count_comparable=0.29, count_rel_query=0.30, count_doc_name_special=0.33, count_abs_singular_query=0.31, count_name_dq_chars=0.33, count_value_function_expr=0.29, count_doc_name_mixed=0.33, count_B=0.27, count_sq_chars=0.22, count_slice_selector=0.31, count_number=0.31, count_name_selector=0.31, count_more_selector=0.28, count_length_expr=0.27, count_doc_escape=0.31, count_doc_name_char=0.31, count_search_expr=0.27, count_value_expr=0.26, count_iregexp_literal=0.19, count_escapable=0.21, doc_depth=0.27, count_name_dq_char=0.29, count_name_sq_special=0.23, count_name_dq_special=0.29, count_exp=0.23, count_name_dq_mixed=0.29, count_ire_regexp=0.20, count_name_sq_chars=0.28, count_ire_branch=0.19, count_ire_char_class=0.28, count_name_sq_mixed=0.22, count_name_first=0.25, count_object=0.21, count_name_sq_char=0.22, count_doc_number=0.27, count_doc_string=0.20, count_frac=0.21, count_ire_range_quantifier=0.27, count_array=0.22, count_ire_normal_char=0.26, count_ire_cce1=0.26, count_ire_char_class_expr=0.26, count_name_char=0.23, count_more_value=0.16, count_ire_quantifier=0.24, count_ire_alt=0.20, count_ire_piece=0.23, count_letter=0.18, count_doc_exp=0.22, count_doc_char=0.08, count_sign_opt=0.14, count_doc_mixed=0.09, count_dq_mixed=0.20, count_doc_special=0.09, count_dq_special=0.19, count_sq_special=0.09, count_sq_mixed=0.09, count_sq_char=0.07, count_dq_char=0.15, count_high_surrogate=0.04, count_low_surrogate=0.04, count_oct_digit=0.06, count_D=0.04, count_non_d_hex=0.05, count_HEXDIG=0.03, count_non_surrogate=0.04, count_hexchar=0.03
+[select] scored on the comparison rather than on the metric: count_s_segment (0.33 -> 0.42), count_nonempty_object (0.09 -> 0.52), count_descendant_segment (0.32 -> 0.43), count_member (0.10 -> 0.52), count_logical_expr (0.28 -> 0.36), count_ws (0.14 -> 0.50), count_logical_and_expr (0.28 -> 0.35), count_more_member (0.13 -> 0.48), count_member_name_shorthand (0.28 -> 0.40), count_value (0.16 -> 0.45), count_basic_expr (0.27 -> 0.33), doc_bytes (0.13 -> 0.45), count_selector (0.26 -> 0.35), count_child_segment (0.26 -> 0.39), query_len (0.26 -> 0.41), count_bracketed_selection (0.26 -> 0.39), count_nonempty_array (0.11 -> 0.39), count_and_tail (0.26 -> 0.31), count_int (0.22 -> 0.37), count_wildcard_selector (0.26 -> 0.36), count_s_singular_segment (0.18 -> 0.37), count_name_segment (0.19 -> 0.37), count_test_expr (0.25 -> 0.31), count_index_selector (0.19 -> 0.36), count_logical_not_op (0.25 -> 0.33), count_paren_expr (0.24 -> 0.32), count_filter_selector (0.24 -> 0.35), count_index_segment (0.18 -> 0.36), count_count_expr (0.24 -> 0.32), count_filter_query (0.24 -> 0.30), count_rel_singular_query (0.20 -> 0.34), count_abs_query (0.24 -> 0.30), count_DIGIT1 (0.21 -> 0.34), count_value_argument (0.24 -> 0.29), count_singular_query (0.22 -> 0.34), count_pos_int (0.21 -> 0.34), count_comparison_expr (0.24 -> 0.29), count_DIGIT (0.20 -> 0.33), count_comparable (0.24 -> 0.29), count_rel_query (0.23 -> 0.30), count_doc_name_special (0.09 -> 0.33), count_abs_singular_query (0.23 -> 0.31), count_name_dq_chars (0.19 -> 0.33), count_value_function_expr (0.23 -> 0.29), count_doc_name_mixed (0.09 -> 0.33), count_slice_selector (0.22 -> 0.31), count_number (0.22 -> 0.31), count_name_selector (0.19 -> 0.31), count_more_selector (0.21 -> 0.28), count_length_expr (0.21 -> 0.27), count_doc_escape (0.09 -> 0.31), count_doc_name_char (0.05 -> 0.31), count_search_expr (0.20 -> 0.27), count_value_expr (0.20 -> 0.26), doc_depth (0.20 -> 0.27), count_name_dq_char (0.18 -> 0.29), count_name_dq_special (0.16 -> 0.29), count_name_dq_mixed (0.16 -> 0.29), count_name_sq_chars (0.18 -> 0.28), count_ire_char_class (0.07 -> 0.28), count_name_first (0.18 -> 0.25), count_name_sq_char (0.17 -> 0.22), count_doc_number (0.13 -> 0.27), count_ire_range_quantifier (0.06 -> 0.27), count_array (0.17 -> 0.22), count_ire_normal_char (0.07 -> 0.26), count_ire_cce1 (0.07 -> 0.26), count_ire_char_class_expr (0.07 -> 0.26), count_name_char (0.16 -> 0.23), count_ire_quantifier (0.15 -> 0.24), count_ire_alt (0.14 -> 0.20), count_ire_piece (0.14 -> 0.23), count_letter (0.11 -> 0.18), count_doc_exp (0.11 -> 0.22), count_sign_opt (0.09 -> 0.14), count_dq_mixed (0.06 -> 0.20), count_dq_special (0.06 -> 0.19), count_dq_char (0.05 -> 0.15)
+[select] kept count_non_surrogate despite |rho|=0.04: its axis is not explored yet, so a low score there is absence of data rather than absence of effect
+[select] kept count_hexchar despite |rho|=0.05: its axis is not explored yet, so a low score there is absence of data rather than absence of effect
+[select] dropped count_descendant_segment: |rho|=0.80 with count_s_segment, which is already kept
+[select] dropped count_member: |rho|=0.99 with count_nonempty_object, which is already kept
+[select] dropped count_ws: |rho|=0.84 with count_nonempty_object, which is already kept
+[select] dropped count_logical_and_expr: |rho|=0.99 with count_logical_expr, which is already kept
+[select] dropped count_more_member: |rho|=0.95 with count_nonempty_object, which is already kept
+[select] dropped count_value: over the 4-property cap
+[select] dropped count_basic_expr: over the 4-property cap
+[select] dropped doc_bytes: over the 4-property cap
+[select] dropped count_selector: over the 4-property cap
+[select] dropped count_or_tail: over the 4-property cap
+[select] dropped count_child_segment: over the 4-property cap
+[select] dropped query_len: over the 4-property cap
+[select] dropped count_bracketed_selection: over the 4-property cap
+[select] dropped count_literal: over the 4-property cap
+[select] dropped count_nonempty_array: over the 4-property cap
+[select] dropped count_string_literal: over the 4-property cap
+[select] dropped count_and_tail: over the 4-property cap
+[select] dropped count_int: over the 4-property cap
+[select] dropped count_wildcard_selector: over the 4-property cap
+[select] dropped count_s_singular_segment: over the 4-property cap
+[select] dropped count_S: over the 4-property cap
+[select] dropped count_name_segment: over the 4-property cap
+[select] dropped count_test_expr: over the 4-property cap
+[select] dropped count_index_selector: over the 4-property cap
+[select] dropped count_logical_not_op: over the 4-property cap
+[select] dropped count_paren_expr: over the 4-property cap
+[select] dropped count_filter_selector: over the 4-property cap
+[select] dropped count_index_segment: over the 4-property cap
+[select] dropped count_count_expr: over the 4-property cap
+[select] dropped count_filter_query: over the 4-property cap
+[select] dropped count_logical_function_expr: over the 4-property cap
+[select] dropped count_regex_argument: over the 4-property cap
+[select] dropped count_rel_singular_query: over the 4-property cap
+[select] dropped count_abs_query: over the 4-property cap
+[select] dropped count_DIGIT1: over the 4-property cap
+[select] dropped count_value_argument: over the 4-property cap
+[select] dropped count_singular_query: over the 4-property cap
+[select] dropped count_dq_chars: over the 4-property cap
+[select] dropped count_pos_int: over the 4-property cap
+[select] dropped count_match_expr: over the 4-property cap
+[select] dropped count_comparison_expr: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_comparable: over the 4-property cap
+[select] dropped count_rel_query: over the 4-property cap
+[select] dropped count_doc_name_special: over the 4-property cap
+[select] dropped count_abs_singular_query: over the 4-property cap
+[select] dropped count_name_dq_chars: over the 4-property cap
+[select] dropped count_value_function_expr: over the 4-property cap
+[select] dropped count_doc_name_mixed: over the 4-property cap
+[select] dropped count_B: over the 4-property cap
+[select] dropped count_sq_chars: over the 4-property cap
+[select] dropped count_slice_selector: over the 4-property cap
+[select] dropped count_number: over the 4-property cap
+[select] dropped count_name_selector: over the 4-property cap
+[select] dropped count_more_selector: over the 4-property cap
+[select] dropped count_length_expr: over the 4-property cap
+[select] dropped count_doc_escape: over the 4-property cap
+[select] dropped count_doc_name_char: over the 4-property cap
+[select] dropped count_search_expr: over the 4-property cap
+[select] dropped count_value_expr: over the 4-property cap
+[select] dropped count_iregexp_literal: over the 4-property cap
+[select] dropped count_escapable: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_name_dq_char: over the 4-property cap
+[select] dropped count_name_sq_special: over the 4-property cap
+[select] dropped count_name_dq_special: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_name_dq_mixed: over the 4-property cap
+[select] dropped count_ire_regexp: over the 4-property cap
+[select] dropped count_name_sq_chars: over the 4-property cap
+[select] dropped count_ire_branch: over the 4-property cap
+[select] dropped count_ire_char_class: over the 4-property cap
+[select] dropped count_name_sq_mixed: over the 4-property cap
+[select] dropped count_name_first: over the 4-property cap
+[select] dropped count_object: over the 4-property cap
+[select] dropped count_name_sq_char: over the 4-property cap
+[select] dropped count_doc_number: over the 4-property cap
+[select] dropped count_doc_string: over the 4-property cap
+[select] dropped count_frac: over the 4-property cap
+[select] dropped count_ire_range_quantifier: over the 4-property cap
+[select] dropped count_array: over the 4-property cap
+[select] dropped count_ire_normal_char: over the 4-property cap
+[select] dropped count_ire_cce1: over the 4-property cap
+[select] dropped count_ire_char_class_expr: over the 4-property cap
+[select] dropped count_name_char: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] dropped count_ire_quantifier: over the 4-property cap
+[select] dropped count_ire_alt: over the 4-property cap
+[select] dropped count_ire_piece: over the 4-property cap
+[select] dropped count_letter: over the 4-property cap
+[select] dropped count_doc_exp: over the 4-property cap
+[select] dropped count_doc_char: over the 4-property cap
+[select] dropped count_sign_opt: over the 4-property cap
+[select] dropped count_doc_mixed: over the 4-property cap
+[select] dropped count_dq_mixed: over the 4-property cap
+[select] dropped count_doc_special: over the 4-property cap
+[select] dropped count_dq_special: over the 4-property cap
+[select] dropped count_sq_special: over the 4-property cap
+[select] dropped count_sq_mixed: over the 4-property cap
+[select] dropped count_sq_char: over the 4-property cap
+[select] dropped count_dq_char: over the 4-property cap
+[select] dropped count_high_surrogate: over the 4-property cap
+[select] dropped count_low_surrogate: over the 4-property cap
+[select] dropped count_oct_digit: over the 4-property cap
+[select] dropped count_D: over the 4-property cap
+[select] dropped count_non_d_hex: over the 4-property cap
+[select] dropped count_HEXDIG: over the 4-property cap
+[select] dropped count_non_surrogate: over the 4-property cap
+[select] dropped count_hexchar: over the 4-property cap
+[select] count_s_segment stands for count_descendant_segment (indistinguishable here)
+[select] count_logical_expr stands for count_logical_and_expr (indistinguishable here)
+[select] count_nonempty_object stands for count_member, count_ws, count_more_member (indistinguishable here)
+[select] joint fit uses 4 of 113 properties: count_s_segment, count_member_name_shorthand, count_logical_expr, count_nonempty_object (1,296 model fits)
+[jpython_known] loop targets 4 of 113 properties: count_s_segment, count_member_name_shorthand, count_logical_expr, count_nonempty_object
+[jpython_known] targeting 8 regions: runtime_ns_divergence, count_nonempty_object_undecided0, count_s_segment_beyond, runtime_ns_high, count_s_segment_edge0, runtime_ns_sparse0, count_logical_expr_sparse9_0, count_nonempty_object_undecided1
+  [runtime_ns_divergence] 21s: +2 new input(s), 2 distinct shape(s), 2 measured
+  [count_nonempty_object_undecided0] 3 comparison(s) undecided in count_nonempty_object [2.224,3.317): jpython_1_1_0 vs jpython_1_1_1 on runtime_ns and 2 more -> <more_member>{8,10}
+  [count_nonempty_object_undecided0] 32s: +10 new input(s), 4 distinct shape(s), 10 measured
+  [count_s_segment_beyond] <s_segment>{24,28} (rung 1, 4000 nodes)
+  [count_s_segment_beyond] 20s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_high] 22s: +3 new input(s), 3 distinct shape(s), 3 measured
+  [count_s_segment_edge0] <s_segment>{24,26} for the top 15% of count_s_segment ([51,185])
+  [count_s_segment_edge0] 20s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_sparse0] 41s: +3 new input(s), 3 distinct shape(s), 3 measured
+  [count_logical_expr_sparse9_0] <s_segment>{24,26} for count_logical_expr in [34.2,38]
+  [count_logical_expr_sparse9_0] 19s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_nonempty_object_undecided1] 3 comparison(s) undecided in count_nonempty_object [2.224,3.317): jpython_1_1_0 vs jpython_1_1_1 on runtime_ns and 2 more -> <more_member>{10,12}
+  [count_nonempty_object_undecided1] 47s: +10 new input(s), 2 distinct shape(s), 10 measured
+[jpython_known] iter 4: corpus=1916 (+232 new)
+[select] relevance (max |rho| vs any metric on any system): count_descendant_segment=0.30, count_member=0.18, count_s_segment=0.25, count_nonempty_object=0.15, count_value=0.22, count_ws=0.21, count_wildcard_selector=0.22, count_more_member=0.21, doc_bytes=0.19, count_member_name_shorthand=0.21, count_bracketed_selection=0.19, count_selector=0.19, query_len=0.16, count_child_segment=0.16, count_logical_expr=0.18, count_string_literal=0.18, count_nonempty_array=0.14, count_B=0.18, count_filter_selector=0.14, count_paren_expr=0.17, count_doc_name_special=0.11, count_logical_and_expr=0.17, count_doc_name_mixed=0.10, count_slice_selector=0.17, count_index_selector=0.12, count_dq_chars=0.17, count_basic_expr=0.17, count_s_singular_segment=0.10, count_or_tail=0.16, count_int=0.16, count_literal=0.16, count_name_segment=0.11, count_logical_not_op=0.16, count_sq_chars=0.16, count_doc_name_char=0.13, count_more_selector=0.16, count_doc_escape=0.14, count_and_tail=0.16, count_index_segment=0.10, count_count_expr=0.16, count_DIGIT1=0.13, count_abs_query=0.16, count_pos_int=0.14, count_DIGIT=0.13, count_test_expr=0.16, count_rel_singular_query=0.12, count_S=0.16, count_singular_query=0.13, count_filter_query=0.16, count_abs_singular_query=0.16, count_name_dq_chars=0.14, count_name_first=0.15, count_frac=0.15, count_rel_query=0.15, count_comparison_expr=0.15, count_comparable=0.15, count_number=0.15, count_name_char=0.15, count_value_function_expr=0.15, count_match_expr=0.15, count_logical_function_expr=0.14, count_regex_argument=0.14, count_value_argument=0.14, count_name_selector=0.14, count_iregexp_literal=0.14, doc_depth=0.09, count_name_dq_special=0.12, count_name_sq_mixed=0.14, count_name_dq_mixed=0.12, count_name_sq_special=0.14, count_name_dq_char=0.13, count_name_sq_chars=0.13, count_length_expr=0.13, count_doc_number=0.11, count_ire_regexp=0.13, count_value_expr=0.12, count_exp=0.13, count_search_expr=0.13, count_array=0.08, count_ire_branch=0.12, count_more_value=0.12, count_object=0.06, count_ire_char_class=0.10, count_doc_exp=0.10, count_ire_range_quantifier=0.08, count_doc_string=0.11, count_ire_cce1=0.08, count_ire_normal_char=0.08, count_ire_char_class_expr=0.08, count_escapable=0.11, count_ire_quantifier=0.09, count_ire_piece=0.08, count_name_sq_char=0.10, count_ire_alt=0.09, count_sign_opt=0.08, count_letter=0.08, count_dq_mixed=0.05, count_sq_special=0.08, count_dq_special=0.05, count_D=0.08, count_sq_mixed=0.08, count_dq_char=0.04, count_non_d_hex=0.08, count_high_surrogate=0.08, count_low_surrogate=0.08, count_doc_char=0.08, count_sq_char=0.07, count_HEXDIG=0.07, count_hexchar=0.07, count_doc_mixed=0.07, count_non_surrogate=0.07, count_doc_special=0.07, count_oct_digit=0.02
+[select] comparative relevance (max |rho| vs a between-system ratio): count_descendant_segment=0.41, count_member=0.55, count_s_segment=0.40, count_nonempty_object=0.55, count_value=0.48, count_ws=0.53, count_wildcard_selector=0.32, count_more_member=0.52, doc_bytes=0.49, count_member_name_shorthand=0.41, count_bracketed_selection=0.42, count_selector=0.38, query_len=0.42, count_child_segment=0.41, count_logical_expr=0.38, count_string_literal=0.29, count_nonempty_array=0.40, count_B=0.28, count_filter_selector=0.39, count_paren_expr=0.33, count_doc_name_special=0.39, count_logical_and_expr=0.37, count_doc_name_mixed=0.39, count_slice_selector=0.31, count_index_selector=0.38, count_dq_chars=0.25, count_basic_expr=0.36, count_s_singular_segment=0.38, count_or_tail=0.34, count_int=0.38, count_literal=0.32, count_name_segment=0.38, count_logical_not_op=0.35, count_sq_chars=0.24, count_doc_name_char=0.37, count_more_selector=0.30, count_doc_escape=0.37, count_and_tail=0.33, count_index_segment=0.37, count_count_expr=0.33, count_DIGIT1=0.36, count_abs_query=0.33, count_pos_int=0.36, count_DIGIT=0.36, count_test_expr=0.33, count_rel_singular_query=0.36, count_S=0.32, count_singular_query=0.36, count_filter_query=0.33, count_abs_singular_query=0.33, count_name_dq_chars=0.34, count_name_first=0.25, count_frac=0.20, count_rel_query=0.33, count_comparison_expr=0.31, count_comparable=0.31, count_number=0.33, count_name_char=0.21, count_value_function_expr=0.31, count_match_expr=0.29, count_logical_function_expr=0.30, count_regex_argument=0.30, count_value_argument=0.31, count_name_selector=0.32, count_iregexp_literal=0.20, doc_depth=0.32, count_name_dq_special=0.32, count_name_sq_mixed=0.19, count_name_dq_mixed=0.31, count_name_sq_special=0.20, count_name_dq_char=0.31, count_name_sq_chars=0.28, count_length_expr=0.28, count_doc_number=0.29, count_ire_regexp=0.20, count_value_expr=0.29, count_exp=0.24, count_search_expr=0.28, count_array=0.28, count_ire_branch=0.20, count_more_value=0.14, count_object=0.27, count_ire_char_class=0.27, count_doc_exp=0.26, count_ire_range_quantifier=0.26, count_doc_string=0.26, count_ire_cce1=0.25, count_ire_normal_char=0.25, count_ire_char_class_expr=0.25, count_escapable=0.23, count_ire_quantifier=0.24, count_ire_piece=0.23, count_name_sq_char=0.21, count_ire_alt=0.20, count_sign_opt=0.14, count_letter=0.14, count_dq_mixed=0.19, count_sq_special=0.11, count_dq_special=0.18, count_D=0.10, count_sq_mixed=0.11, count_dq_char=0.14, count_non_d_hex=0.05, count_high_surrogate=0.11, count_low_surrogate=0.11, count_doc_char=0.08, count_sq_char=0.09, count_HEXDIG=0.09, count_hexchar=0.08, count_doc_mixed=0.09, count_non_surrogate=0.04, count_doc_special=0.09, count_oct_digit=0.07
+[select] scored on the comparison rather than on the metric: count_descendant_segment (0.30 -> 0.41), count_member (0.18 -> 0.55), count_s_segment (0.25 -> 0.40), count_nonempty_object (0.15 -> 0.55), count_value (0.22 -> 0.48), count_ws (0.21 -> 0.53), count_wildcard_selector (0.22 -> 0.32), count_more_member (0.21 -> 0.52), doc_bytes (0.19 -> 0.49), count_member_name_shorthand (0.21 -> 0.41), count_bracketed_selection (0.19 -> 0.42), count_selector (0.19 -> 0.38), query_len (0.16 -> 0.42), count_child_segment (0.16 -> 0.41), count_logical_expr (0.18 -> 0.38), count_string_literal (0.18 -> 0.29), count_nonempty_array (0.14 -> 0.40), count_B (0.18 -> 0.28), count_filter_selector (0.14 -> 0.39), count_paren_expr (0.17 -> 0.33), count_doc_name_special (0.11 -> 0.39), count_logical_and_expr (0.17 -> 0.37), count_doc_name_mixed (0.10 -> 0.39), count_slice_selector (0.17 -> 0.31), count_index_selector (0.12 -> 0.38), count_dq_chars (0.17 -> 0.25), count_basic_expr (0.17 -> 0.36), count_s_singular_segment (0.10 -> 0.38), count_or_tail (0.16 -> 0.34), count_int (0.16 -> 0.38), count_literal (0.16 -> 0.32), count_name_segment (0.11 -> 0.38), count_logical_not_op (0.16 -> 0.35), count_sq_chars (0.16 -> 0.24), count_doc_name_char (0.13 -> 0.37), count_more_selector (0.16 -> 0.30), count_doc_escape (0.14 -> 0.37), count_and_tail (0.16 -> 0.33), count_index_segment (0.10 -> 0.37), count_count_expr (0.16 -> 0.33), count_DIGIT1 (0.13 -> 0.36), count_abs_query (0.16 -> 0.33), count_pos_int (0.14 -> 0.36), count_DIGIT (0.13 -> 0.36), count_test_expr (0.16 -> 0.33), count_rel_singular_query (0.12 -> 0.36), count_S (0.16 -> 0.32), count_singular_query (0.13 -> 0.36), count_filter_query (0.16 -> 0.33), count_abs_singular_query (0.16 -> 0.33), count_name_dq_chars (0.14 -> 0.34), count_name_first (0.15 -> 0.25), count_rel_query (0.15 -> 0.33), count_comparison_expr (0.15 -> 0.31), count_comparable (0.15 -> 0.31), count_number (0.15 -> 0.33), count_name_char (0.15 -> 0.21), count_value_function_expr (0.15 -> 0.31), count_match_expr (0.15 -> 0.29), count_logical_function_expr (0.14 -> 0.30), count_regex_argument (0.14 -> 0.30), count_value_argument (0.14 -> 0.31), count_name_selector (0.14 -> 0.32), count_iregexp_literal (0.14 -> 0.20), doc_depth (0.09 -> 0.32), count_name_dq_special (0.12 -> 0.32), count_name_dq_mixed (0.12 -> 0.31), count_name_sq_special (0.14 -> 0.20), count_name_dq_char (0.13 -> 0.31), count_name_sq_chars (0.13 -> 0.28), count_length_expr (0.13 -> 0.28), count_doc_number (0.11 -> 0.29), count_ire_regexp (0.13 -> 0.20), count_value_expr (0.12 -> 0.29), count_exp (0.13 -> 0.24), count_search_expr (0.13 -> 0.28), count_array (0.08 -> 0.28), count_ire_branch (0.12 -> 0.20), count_object (0.06 -> 0.27), count_ire_char_class (0.10 -> 0.27), count_doc_exp (0.10 -> 0.26), count_ire_range_quantifier (0.08 -> 0.26), count_doc_string (0.11 -> 0.26), count_ire_cce1 (0.08 -> 0.25), count_ire_normal_char (0.08 -> 0.25), count_ire_char_class_expr (0.08 -> 0.25), count_escapable (0.11 -> 0.23), count_ire_quantifier (0.09 -> 0.24), count_ire_piece (0.08 -> 0.23), count_name_sq_char (0.10 -> 0.21), count_ire_alt (0.09 -> 0.20), count_sign_opt (0.08 -> 0.14), count_letter (0.08 -> 0.14), count_dq_mixed (0.05 -> 0.19), count_dq_special (0.05 -> 0.18), count_dq_char (0.04 -> 0.14), count_oct_digit (0.02 -> 0.07)
+[select] dropped count_s_segment: |rho|=0.82 with count_descendant_segment, which is already kept
+[select] dropped count_nonempty_object: |rho|=0.98 with count_member, which is already kept
+[select] dropped count_value: |rho|=0.81 with count_member, which is already kept
+[select] dropped count_ws: |rho|=0.87 with count_member, which is already kept
+[select] dropped count_wildcard_selector: |rho|=0.90 with count_descendant_segment, which is already kept
+[select] dropped count_more_member: |rho|=0.98 with count_member, which is already kept
+[select] dropped count_bracketed_selection: over the 4-property cap
+[select] dropped count_selector: over the 4-property cap
+[select] dropped query_len: over the 4-property cap
+[select] dropped count_child_segment: over the 4-property cap
+[select] dropped count_logical_expr: over the 4-property cap
+[select] dropped count_string_literal: over the 4-property cap
+[select] dropped count_nonempty_array: over the 4-property cap
+[select] dropped count_B: over the 4-property cap
+[select] dropped count_filter_selector: over the 4-property cap
+[select] dropped count_paren_expr: over the 4-property cap
+[select] dropped count_doc_name_special: over the 4-property cap
+[select] dropped count_logical_and_expr: over the 4-property cap
+[select] dropped count_doc_name_mixed: over the 4-property cap
+[select] dropped count_slice_selector: over the 4-property cap
+[select] dropped count_index_selector: over the 4-property cap
+[select] dropped count_dq_chars: over the 4-property cap
+[select] dropped count_basic_expr: over the 4-property cap
+[select] dropped count_s_singular_segment: over the 4-property cap
+[select] dropped count_or_tail: over the 4-property cap
+[select] dropped count_int: over the 4-property cap
+[select] dropped count_literal: over the 4-property cap
+[select] dropped count_name_segment: over the 4-property cap
+[select] dropped count_logical_not_op: over the 4-property cap
+[select] dropped count_sq_chars: over the 4-property cap
+[select] dropped count_doc_name_char: over the 4-property cap
+[select] dropped count_more_selector: over the 4-property cap
+[select] dropped count_doc_escape: over the 4-property cap
+[select] dropped count_and_tail: over the 4-property cap
+[select] dropped count_index_segment: over the 4-property cap
+[select] dropped count_count_expr: over the 4-property cap
+[select] dropped count_DIGIT1: over the 4-property cap
+[select] dropped count_abs_query: over the 4-property cap
+[select] dropped count_pos_int: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_test_expr: over the 4-property cap
+[select] dropped count_rel_singular_query: over the 4-property cap
+[select] dropped count_S: over the 4-property cap
+[select] dropped count_singular_query: over the 4-property cap
+[select] dropped count_filter_query: over the 4-property cap
+[select] dropped count_abs_singular_query: over the 4-property cap
+[select] dropped count_name_dq_chars: over the 4-property cap
+[select] dropped count_name_first: over the 4-property cap
+[select] dropped count_frac: over the 4-property cap
+[select] dropped count_rel_query: over the 4-property cap
+[select] dropped count_comparison_expr: over the 4-property cap
+[select] dropped count_comparable: over the 4-property cap
+[select] dropped count_number: over the 4-property cap
+[select] dropped count_name_char: over the 4-property cap
+[select] dropped count_value_function_expr: over the 4-property cap
+[select] dropped count_match_expr: over the 4-property cap
+[select] dropped count_logical_function_expr: over the 4-property cap
+[select] dropped count_regex_argument: over the 4-property cap
+[select] dropped count_value_argument: over the 4-property cap
+[select] dropped count_name_selector: over the 4-property cap
+[select] dropped count_iregexp_literal: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_name_dq_special: over the 4-property cap
+[select] dropped count_name_sq_mixed: over the 4-property cap
+[select] dropped count_name_dq_mixed: over the 4-property cap
+[select] dropped count_name_sq_special: over the 4-property cap
+[select] dropped count_name_dq_char: over the 4-property cap
+[select] dropped count_name_sq_chars: over the 4-property cap
+[select] dropped count_length_expr: over the 4-property cap
+[select] dropped count_doc_number: over the 4-property cap
+[select] dropped count_ire_regexp: over the 4-property cap
+[select] dropped count_value_expr: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_search_expr: over the 4-property cap
+[select] dropped count_array: over the 4-property cap
+[select] dropped count_ire_branch: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] dropped count_object: over the 4-property cap
+[select] dropped count_ire_char_class: over the 4-property cap
+[select] dropped count_doc_exp: over the 4-property cap
+[select] dropped count_ire_range_quantifier: over the 4-property cap
+[select] dropped count_doc_string: over the 4-property cap
+[select] dropped count_ire_cce1: over the 4-property cap
+[select] dropped count_ire_normal_char: over the 4-property cap
+[select] dropped count_ire_char_class_expr: over the 4-property cap
+[select] dropped count_escapable: over the 4-property cap
+[select] dropped count_ire_quantifier: over the 4-property cap
+[select] dropped count_ire_piece: over the 4-property cap
+[select] dropped count_name_sq_char: over the 4-property cap
+[select] dropped count_ire_alt: over the 4-property cap
+[select] dropped count_sign_opt: over the 4-property cap
+[select] dropped count_letter: over the 4-property cap
+[select] dropped count_dq_mixed: over the 4-property cap
+[select] dropped count_sq_special: over the 4-property cap
+[select] dropped count_dq_special: over the 4-property cap
+[select] dropped count_D: over the 4-property cap
+[select] dropped count_sq_mixed: over the 4-property cap
+[select] dropped count_dq_char: over the 4-property cap
+[select] dropped count_non_d_hex: over the 4-property cap
+[select] dropped count_high_surrogate: over the 4-property cap
+[select] dropped count_low_surrogate: over the 4-property cap
+[select] dropped count_doc_char: over the 4-property cap
+[select] dropped count_sq_char: over the 4-property cap
+[select] dropped count_HEXDIG: over the 4-property cap
+[select] dropped count_hexchar: over the 4-property cap
+[select] dropped count_doc_mixed: over the 4-property cap
+[select] dropped count_non_surrogate: over the 4-property cap
+[select] dropped count_doc_special: over the 4-property cap
+[select] dropped count_oct_digit: over the 4-property cap
+[select] count_descendant_segment stands for count_s_segment, count_wildcard_selector (indistinguishable here)
+[select] count_member stands for count_nonempty_object, count_value, count_ws, count_more_member (indistinguishable here)
+[select] joint fit uses 4 of 113 properties: count_member_name_shorthand, count_descendant_segment, count_member, doc_bytes (1,296 model fits)
+[jpython_known] loop targets 4 of 113 properties: count_member_name_shorthand, count_descendant_segment, count_member, doc_bytes
+[jpython_known] targeting 8 regions: runtime_ns_divergence, count_member_undecided0, count_member_x_doc_bytes_joint, doc_bytes_beyond, runtime_ns_high, count_descendant_segment_edge0, runtime_ns_sparse0, doc_bytes_sparse2
+  [runtime_ns_divergence] 19s: +3 new input(s), 3 distinct shape(s), 3 measured
+  [count_member_undecided0] 2 comparison(s) undecided in count_member [3.803,7.416): jpython_1_1_0 vs jpython_1_1_1 on runtime_ns and 1 more -> <more_member>{3,5}
+  [count_member_undecided0] 17s: +10 new input(s), 9 distinct shape(s), 10 measured
+  [count_member_x_doc_bytes_joint] doc_bytes spans 3..8004 overall, 71..142 at count_member in [7,8.4]; maximizing it at <more_member>{5,7}
+  [count_member_x_doc_bytes_joint] 2 of 10 seeds do not parse; seeding with 8.
+[budget] generation cut at 300s after 55 generations (111 solutions); this request is not reproducible
+  [soft] maximizing doc_bytes: 111 candidates, best=969, keeping 10 spanning 969..854
+  [count_member_x_doc_bytes_joint] 331s: +10 new input(s), 9 distinct shape(s), 10 measured [CUT: generation budget, not reproducible]
+  [doc_bytes_beyond] rung 1
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] recursion limit hit generating from ./results/rq1/20261003-0148-jpython_known/run1/jpython_known/grammars/jpython_known_target_3_doc_bytes_beyond.fan; lower max_repetition or max_nodes for this grammar.
+  [doc_bytes_beyond] 5s: no new inputs
+  [runtime_ns_high] 26s: +4 new input(s), 4 distinct shape(s), 4 measured
+  [count_descendant_segment_edge0] <s_segment>{24,26} for the top 15% of count_descendant_segment ([36,94])
+  [count_descendant_segment_edge0] 18s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_sparse0] 45s: no new inputs
+[WARNING] Fandango did not generate any valid inputs.
+  [doc_bytes_sparse2] 12s: no new inputs
+[jpython_known] iter 5: corpus=2064 (+148 new)
+[select] relevance (max |rho| vs any metric on any system): count_descendant_segment=0.29, count_member=0.13, count_s_segment=0.25, count_nonempty_object=0.09, count_wildcard_selector=0.23, count_ws=0.16, count_selector=0.22, count_more_member=0.15, count_bracketed_selection=0.21, doc_bytes=0.15, count_member_name_shorthand=0.20, count_value=0.17, count_logical_expr=0.19, count_more_selector=0.19, count_child_segment=0.17, count_int=0.19, query_len=0.18, count_slice_selector=0.19, count_logical_and_expr=0.19, count_string_literal=0.18, count_filter_selector=0.16, count_paren_expr=0.18, count_basic_expr=0.18, count_index_selector=0.14, count_literal=0.18, count_doc_name_special=0.07, count_or_tail=0.18, count_and_tail=0.18, count_doc_name_mixed=0.06, count_logical_not_op=0.18, count_s_singular_segment=0.12, count_dq_chars=0.17, count_doc_escape=0.10, count_S=0.17, count_name_segment=0.13, count_test_expr=0.17, count_doc_name_char=0.08, count_B=0.17, count_index_segment=0.12, count_count_expr=0.17, count_nonempty_array=0.16, count_abs_singular_query=0.17, count_rel_singular_query=0.14, count_abs_query=0.17, count_singular_query=0.15, count_comparison_expr=0.17, count_pos_int=0.14, count_comparable=0.17, count_filter_query=0.17, count_sq_chars=0.17, count_DIGIT1=0.11, count_rel_query=0.17, count_DIGIT=0.10, count_value_function_expr=0.16, count_name_dq_chars=0.16, count_value_argument=0.16, count_number=0.16, count_logical_function_expr=0.16, count_regex_argument=0.16, count_match_expr=0.16, count_more_value=0.15, count_name_sq_special=0.15, count_name_selector=0.15, count_iregexp_literal=0.15, count_name_sq_mixed=0.15, count_length_expr=0.15, count_search_expr=0.14, count_name_sq_chars=0.14, doc_depth=0.12, count_value_expr=0.14, count_name_dq_mixed=0.12, count_ire_regexp=0.14, count_name_dq_special=0.12, count_exp=0.14, count_name_dq_char=0.13, count_ire_branch=0.14, count_doc_number=0.10, count_escapable=0.12, count_object=0.09, count_array=0.07, count_name_first=0.11, count_ire_char_class=0.09, count_doc_exp=0.09, count_name_char=0.11, count_doc_string=0.09, count_name_sq_char=0.11, count_ire_range_quantifier=0.06, count_ire_cce1=0.07, count_ire_quantifier=0.10, count_ire_normal_char=0.07, count_ire_alt=0.10, count_ire_char_class_expr=0.07, count_frac=0.10, count_ire_piece=0.09, count_oct_digit=0.07, count_doc_special=0.07, count_dq_mixed=0.04, count_dq_special=0.04, count_sq_special=0.07, count_doc_mixed=0.07, count_dq_char=0.03, count_sq_mixed=0.07, count_letter=0.06, count_sq_char=0.06, count_high_surrogate=0.03, count_doc_char=0.05, count_low_surrogate=0.03, count_sign_opt=0.04, count_D=0.04, count_HEXDIG=0.04, count_hexchar=0.03, count_non_d_hex=0.02, count_non_surrogate=0.02
+[select] comparative relevance (max |rho| vs a between-system ratio): count_descendant_segment=0.40, count_member=0.56, count_s_segment=0.42, count_nonempty_object=0.55, count_wildcard_selector=0.33, count_ws=0.53, count_selector=0.40, count_more_member=0.53, count_bracketed_selection=0.44, doc_bytes=0.49, count_member_name_shorthand=0.41, count_value=0.49, count_logical_expr=0.38, count_more_selector=0.32, count_child_segment=0.44, count_int=0.39, query_len=0.44, count_slice_selector=0.32, count_logical_and_expr=0.38, count_string_literal=0.30, count_filter_selector=0.41, count_paren_expr=0.33, count_basic_expr=0.37, count_index_selector=0.40, count_literal=0.33, count_doc_name_special=0.40, count_or_tail=0.34, count_and_tail=0.34, count_doc_name_mixed=0.40, count_logical_not_op=0.36, count_s_singular_segment=0.39, count_dq_chars=0.26, count_doc_escape=0.39, count_S=0.33, count_name_segment=0.39, count_test_expr=0.34, count_doc_name_char=0.38, count_B=0.29, count_index_segment=0.38, count_count_expr=0.34, count_nonempty_array=0.37, count_abs_singular_query=0.34, count_rel_singular_query=0.37, count_abs_query=0.33, count_singular_query=0.37, count_comparison_expr=0.32, count_pos_int=0.37, count_comparable=0.32, count_filter_query=0.34, count_sq_chars=0.25, count_DIGIT1=0.36, count_rel_query=0.34, count_DIGIT=0.35, count_value_function_expr=0.33, count_name_dq_chars=0.35, count_value_argument=0.33, count_number=0.34, count_logical_function_expr=0.33, count_regex_argument=0.33, count_match_expr=0.30, count_more_value=0.17, count_name_sq_special=0.20, count_name_selector=0.32, count_iregexp_literal=0.22, count_name_sq_mixed=0.20, count_length_expr=0.30, count_search_expr=0.30, count_name_sq_chars=0.30, doc_depth=0.32, count_value_expr=0.31, count_name_dq_mixed=0.32, count_ire_regexp=0.22, count_name_dq_special=0.32, count_exp=0.24, count_name_dq_char=0.31, count_ire_branch=0.22, count_doc_number=0.31, count_escapable=0.24, count_object=0.29, count_array=0.29, count_name_first=0.23, count_ire_char_class=0.28, count_doc_exp=0.28, count_name_char=0.19, count_doc_string=0.28, count_name_sq_char=0.22, count_ire_range_quantifier=0.27, count_ire_cce1=0.25, count_ire_quantifier=0.25, count_ire_normal_char=0.25, count_ire_alt=0.21, count_ire_char_class_expr=0.25, count_frac=0.14, count_ire_piece=0.24, count_oct_digit=0.10, count_doc_special=0.11, count_dq_mixed=0.19, count_dq_special=0.19, count_sq_special=0.13, count_doc_mixed=0.11, count_dq_char=0.15, count_sq_mixed=0.13, count_letter=0.13, count_sq_char=0.11, count_high_surrogate=0.12, count_doc_char=0.11, count_low_surrogate=0.12, count_sign_opt=0.12, count_D=0.10, count_HEXDIG=0.09, count_hexchar=0.08, count_non_d_hex=0.07, count_non_surrogate=0.05
+[select] scored on the comparison rather than on the metric: count_descendant_segment (0.29 -> 0.40), count_member (0.13 -> 0.56), count_s_segment (0.25 -> 0.42), count_nonempty_object (0.09 -> 0.55), count_wildcard_selector (0.23 -> 0.33), count_ws (0.16 -> 0.53), count_selector (0.22 -> 0.40), count_more_member (0.15 -> 0.53), count_bracketed_selection (0.21 -> 0.44), doc_bytes (0.15 -> 0.49), count_member_name_shorthand (0.20 -> 0.41), count_value (0.17 -> 0.49), count_logical_expr (0.19 -> 0.38), count_more_selector (0.19 -> 0.32), count_child_segment (0.17 -> 0.44), count_int (0.19 -> 0.39), query_len (0.18 -> 0.44), count_slice_selector (0.19 -> 0.32), count_logical_and_expr (0.19 -> 0.38), count_string_literal (0.18 -> 0.30), count_filter_selector (0.16 -> 0.41), count_paren_expr (0.18 -> 0.33), count_basic_expr (0.18 -> 0.37), count_index_selector (0.14 -> 0.40), count_literal (0.18 -> 0.33), count_doc_name_special (0.07 -> 0.40), count_or_tail (0.18 -> 0.34), count_and_tail (0.18 -> 0.34), count_doc_name_mixed (0.06 -> 0.40), count_logical_not_op (0.18 -> 0.36), count_s_singular_segment (0.12 -> 0.39), count_dq_chars (0.17 -> 0.26), count_doc_escape (0.10 -> 0.39), count_S (0.17 -> 0.33), count_name_segment (0.13 -> 0.39), count_test_expr (0.17 -> 0.34), count_doc_name_char (0.08 -> 0.38), count_B (0.17 -> 0.29), count_index_segment (0.12 -> 0.38), count_count_expr (0.17 -> 0.34), count_nonempty_array (0.16 -> 0.37), count_abs_singular_query (0.17 -> 0.34), count_rel_singular_query (0.14 -> 0.37), count_abs_query (0.17 -> 0.33), count_singular_query (0.15 -> 0.37), count_comparison_expr (0.17 -> 0.32), count_pos_int (0.14 -> 0.37), count_comparable (0.17 -> 0.32), count_filter_query (0.17 -> 0.34), count_sq_chars (0.17 -> 0.25), count_DIGIT1 (0.11 -> 0.36), count_rel_query (0.17 -> 0.34), count_DIGIT (0.10 -> 0.35), count_value_function_expr (0.16 -> 0.33), count_name_dq_chars (0.16 -> 0.35), count_value_argument (0.16 -> 0.33), count_number (0.16 -> 0.34), count_logical_function_expr (0.16 -> 0.33), count_regex_argument (0.16 -> 0.33), count_match_expr (0.16 -> 0.30), count_name_sq_special (0.15 -> 0.20), count_name_selector (0.15 -> 0.32), count_iregexp_literal (0.15 -> 0.22), count_length_expr (0.15 -> 0.30), count_search_expr (0.14 -> 0.30), count_name_sq_chars (0.14 -> 0.30), doc_depth (0.12 -> 0.32), count_value_expr (0.14 -> 0.31), count_name_dq_mixed (0.12 -> 0.32), count_ire_regexp (0.14 -> 0.22), count_name_dq_special (0.12 -> 0.32), count_exp (0.14 -> 0.24), count_name_dq_char (0.13 -> 0.31), count_ire_branch (0.14 -> 0.22), count_doc_number (0.10 -> 0.31), count_escapable (0.12 -> 0.24), count_object (0.09 -> 0.29), count_array (0.07 -> 0.29), count_name_first (0.11 -> 0.23), count_ire_char_class (0.09 -> 0.28), count_doc_exp (0.09 -> 0.28), count_name_char (0.11 -> 0.19), count_doc_string (0.09 -> 0.28), count_name_sq_char (0.11 -> 0.22), count_ire_range_quantifier (0.06 -> 0.27), count_ire_cce1 (0.07 -> 0.25), count_ire_quantifier (0.10 -> 0.25), count_ire_normal_char (0.07 -> 0.25), count_ire_alt (0.10 -> 0.21), count_ire_char_class_expr (0.07 -> 0.25), count_ire_piece (0.09 -> 0.24), count_dq_mixed (0.04 -> 0.19), count_dq_special (0.04 -> 0.19), count_sq_special (0.07 -> 0.13), count_dq_char (0.03 -> 0.15), count_sq_mixed (0.07 -> 0.13), count_letter (0.06 -> 0.13), count_high_surrogate (0.03 -> 0.12), count_doc_char (0.05 -> 0.11), count_low_surrogate (0.03 -> 0.12), count_sign_opt (0.04 -> 0.12), count_D (0.04 -> 0.10)
+[select] dropped count_s_segment: |rho|=0.82 with count_descendant_segment, which is already kept
+[select] dropped count_nonempty_object: |rho|=0.98 with count_member, which is already kept
+[select] dropped count_wildcard_selector: |rho|=0.90 with count_descendant_segment, which is already kept
+[select] dropped count_ws: |rho|=0.89 with count_member, which is already kept
+[select] dropped count_more_member: |rho|=0.98 with count_member, which is already kept
+[select] dropped count_bracketed_selection: |rho|=0.95 with count_selector, which is already kept
+[select] dropped doc_bytes: |rho|=0.82 with count_member, which is already kept
+[select] dropped count_value: over the 4-property cap
+[select] dropped count_logical_expr: over the 4-property cap
+[select] dropped count_more_selector: over the 4-property cap
+[select] dropped count_child_segment: over the 4-property cap
+[select] dropped count_int: over the 4-property cap
+[select] dropped query_len: over the 4-property cap
+[select] dropped count_slice_selector: over the 4-property cap
+[select] dropped count_logical_and_expr: over the 4-property cap
+[select] dropped count_string_literal: over the 4-property cap
+[select] dropped count_filter_selector: over the 4-property cap
+[select] dropped count_paren_expr: over the 4-property cap
+[select] dropped count_basic_expr: over the 4-property cap
+[select] dropped count_index_selector: over the 4-property cap
+[select] dropped count_literal: over the 4-property cap
+[select] dropped count_doc_name_special: over the 4-property cap
+[select] dropped count_or_tail: over the 4-property cap
+[select] dropped count_and_tail: over the 4-property cap
+[select] dropped count_doc_name_mixed: over the 4-property cap
+[select] dropped count_logical_not_op: over the 4-property cap
+[select] dropped count_s_singular_segment: over the 4-property cap
+[select] dropped count_dq_chars: over the 4-property cap
+[select] dropped count_doc_escape: over the 4-property cap
+[select] dropped count_S: over the 4-property cap
+[select] dropped count_name_segment: over the 4-property cap
+[select] dropped count_test_expr: over the 4-property cap
+[select] dropped count_doc_name_char: over the 4-property cap
+[select] dropped count_B: over the 4-property cap
+[select] dropped count_index_segment: over the 4-property cap
+[select] dropped count_count_expr: over the 4-property cap
+[select] dropped count_nonempty_array: over the 4-property cap
+[select] dropped count_abs_singular_query: over the 4-property cap
+[select] dropped count_rel_singular_query: over the 4-property cap
+[select] dropped count_abs_query: over the 4-property cap
+[select] dropped count_singular_query: over the 4-property cap
+[select] dropped count_comparison_expr: over the 4-property cap
+[select] dropped count_pos_int: over the 4-property cap
+[select] dropped count_comparable: over the 4-property cap
+[select] dropped count_filter_query: over the 4-property cap
+[select] dropped count_sq_chars: over the 4-property cap
+[select] dropped count_DIGIT1: over the 4-property cap
+[select] dropped count_rel_query: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_value_function_expr: over the 4-property cap
+[select] dropped count_name_dq_chars: over the 4-property cap
+[select] dropped count_value_argument: over the 4-property cap
+[select] dropped count_number: over the 4-property cap
+[select] dropped count_logical_function_expr: over the 4-property cap
+[select] dropped count_regex_argument: over the 4-property cap
+[select] dropped count_match_expr: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] dropped count_name_sq_special: over the 4-property cap
+[select] dropped count_name_selector: over the 4-property cap
+[select] dropped count_iregexp_literal: over the 4-property cap
+[select] dropped count_name_sq_mixed: over the 4-property cap
+[select] dropped count_length_expr: over the 4-property cap
+[select] dropped count_search_expr: over the 4-property cap
+[select] dropped count_name_sq_chars: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_value_expr: over the 4-property cap
+[select] dropped count_name_dq_mixed: over the 4-property cap
+[select] dropped count_ire_regexp: over the 4-property cap
+[select] dropped count_name_dq_special: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_name_dq_char: over the 4-property cap
+[select] dropped count_ire_branch: over the 4-property cap
+[select] dropped count_doc_number: over the 4-property cap
+[select] dropped count_escapable: over the 4-property cap
+[select] dropped count_object: over the 4-property cap
+[select] dropped count_array: over the 4-property cap
+[select] dropped count_name_first: over the 4-property cap
+[select] dropped count_ire_char_class: over the 4-property cap
+[select] dropped count_doc_exp: over the 4-property cap
+[select] dropped count_name_char: over the 4-property cap
+[select] dropped count_doc_string: over the 4-property cap
+[select] dropped count_name_sq_char: over the 4-property cap
+[select] dropped count_ire_range_quantifier: over the 4-property cap
+[select] dropped count_ire_cce1: over the 4-property cap
+[select] dropped count_ire_quantifier: over the 4-property cap
+[select] dropped count_ire_normal_char: over the 4-property cap
+[select] dropped count_ire_alt: over the 4-property cap
+[select] dropped count_ire_char_class_expr: over the 4-property cap
+[select] dropped count_frac: over the 4-property cap
+[select] dropped count_ire_piece: over the 4-property cap
+[select] dropped count_oct_digit: over the 4-property cap
+[select] dropped count_doc_special: over the 4-property cap
+[select] dropped count_dq_mixed: over the 4-property cap
+[select] dropped count_dq_special: over the 4-property cap
+[select] dropped count_sq_special: over the 4-property cap
+[select] dropped count_doc_mixed: over the 4-property cap
+[select] dropped count_dq_char: over the 4-property cap
+[select] dropped count_sq_mixed: over the 4-property cap
+[select] dropped count_letter: over the 4-property cap
+[select] dropped count_sq_char: over the 4-property cap
+[select] dropped count_high_surrogate: over the 4-property cap
+[select] dropped count_doc_char: over the 4-property cap
+[select] dropped count_low_surrogate: over the 4-property cap
+[select] dropped count_sign_opt: over the 4-property cap
+[select] dropped count_D: over the 4-property cap
+[select] dropped count_HEXDIG: over the 4-property cap
+[select] dropped count_hexchar: over the 4-property cap
+[select] dropped count_non_d_hex: over the 4-property cap
+[select] dropped count_non_surrogate: over the 4-property cap
+[select] count_selector stands for count_bracketed_selection (indistinguishable here)
+[select] count_descendant_segment stands for count_s_segment, count_wildcard_selector (indistinguishable here)
+[select] count_member stands for count_nonempty_object, count_ws, count_more_member, doc_bytes (indistinguishable here)
+[select] joint fit uses 4 of 113 properties: count_member_name_shorthand, count_selector, count_descendant_segment, count_member (1,296 model fits)
+[jpython_known] loop targets 4 of 113 properties: count_member_name_shorthand, count_selector, count_descendant_segment, count_member
+[jpython_known] targeting 8 regions: runtime_ns_divergence, count_descendant_segment_undecided0, count_selector_beyond, runtime_ns_high, count_member_name_shorthand_edge0, runtime_ns_sparse0, count_descendant_segment_sparse9_0, count_member_undecided0
+  [runtime_ns_divergence] 14s: no new inputs
+  [count_descendant_segment_undecided0] 1 comparison(s) undecided in count_descendant_segment [1,2.132): jpython_1_1_0 vs jpython_1_1_1 on runtime_ns -> <s_segment>{2,4}
+  [count_descendant_segment_undecided0] 16s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_selector_beyond] <s_segment>{24,28} (rung 1, 4000 nodes)
+  [count_selector_beyond] 18s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_high] 13s: no new inputs
+  [count_member_name_shorthand_edge0] <s_segment>{24,26} for the top 15% of count_member_name_shorthand ([34,77])
+  [count_member_name_shorthand_edge0] 18s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_sparse0] 56s: +1 new input(s), 1 distinct shape(s), 1 measured
+  [count_descendant_segment_sparse9_0] <s_segment>{24,26} for count_descendant_segment in [84.6,94]
+  [count_descendant_segment_sparse9_0] 20s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_member_undecided0] 2 comparison(s) undecided in count_member [3.803,7.416): jpython_1_1_0 vs jpython_1_1_1 on runtime_ns and 1 more -> <more_member>{3,5}
+  [count_member_undecided0] 28s: +10 new input(s), 5 distinct shape(s), 10 measured
+[jpython_known] iter 6: corpus=2268 (+204 new)
+[jpython_known] targeting 8 regions: runtime_ns_divergence, count_descendant_segment_undecided0, runtime_ns_high, count_member_edge0, runtime_ns_sparse0, count_selector_sparse6_0, count_member_undecided0, runtime_ns_low
+  [runtime_ns_divergence] 15s: no new inputs
+  [count_descendant_segment_undecided0] 2 comparison(s) undecided in count_descendant_segment [9.695,20.67): jpython_1_1_0 vs jpython_1_1_1 on runtime_ns and 1 more -> <s_segment>{19,21}
+  [count_descendant_segment_undecided0] 20s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_high] 15s: no new inputs
+  [count_member_edge0] <more_member>{6,11} for the top 15% of count_member ([8,55])
+  [count_member_edge0] 43s: +10 new input(s), 3 distinct shape(s), 10 measured
+  [runtime_ns_sparse0] 39s: no new inputs
+  [count_selector_sparse6_0] <s_segment>{24,26} for count_selector in [126,147]
+  [count_selector_sparse6_0] 20s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_member_undecided0] 2 comparison(s) undecided in count_member [3.803,7.416): jpython_1_1_0 vs jpython_1_1_1 on runtime_ns and 1 more -> <more_member>{3,5}
+  [count_member_undecided0] 22s: +10 new input(s), 9 distinct shape(s), 10 measured
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [runtime_ns_low] 27s: +9 new input(s), 9 distinct shape(s), 9 measured
+[jpython_known] iter 7: corpus=2464 (+196 new)
+[select] relevance (max |rho| vs any metric on any system): count_s_segment=0.30, count_member=0.09, count_descendant_segment=0.29, count_nonempty_object=0.11, count_selector=0.28, count_more_member=0.11, count_bracketed_selection=0.27, count_ws=0.11, count_wildcard_selector=0.26, doc_bytes=0.13, count_member_name_shorthand=0.26, count_value=0.13, query_len=0.25, count_child_segment=0.25, count_logical_expr=0.25, count_logical_and_expr=0.25, count_more_selector=0.25, count_basic_expr=0.24, count_or_tail=0.24, count_doc_name_special=0.10, count_literal=0.24, count_doc_name_mixed=0.11, count_int=0.23, count_and_tail=0.23, count_filter_selector=0.23, count_logical_not_op=0.23, count_index_selector=0.20, count_paren_expr=0.23, count_doc_escape=0.11, count_abs_singular_query=0.23, count_doc_name_char=0.07, count_test_expr=0.23, count_S=0.23, count_s_singular_segment=0.19, count_B=0.23, count_name_segment=0.19, count_comparison_expr=0.23, count_comparable=0.23, count_index_segment=0.19, count_filter_query=0.22, count_DIGIT1=0.18, count_count_expr=0.22, count_pos_int=0.19, count_abs_query=0.22, count_value_function_expr=0.22, count_singular_query=0.22, count_rel_query=0.22, count_nonempty_array=0.11, count_rel_singular_query=0.21, count_value_argument=0.22, count_DIGIT=0.18, count_logical_function_expr=0.22, count_regex_argument=0.22, count_string_literal=0.22, count_name_dq_chars=0.21, count_number=0.21, count_search_expr=0.21, count_name_selector=0.21, count_match_expr=0.21, count_value_expr=0.21, count_slice_selector=0.21, count_length_expr=0.20, count_name_sq_chars=0.20, count_sq_chars=0.20, count_dq_chars=0.19, count_name_sq_mixed=0.19, count_name_sq_special=0.19, count_iregexp_literal=0.18, count_exp=0.18, count_doc_number=0.17, count_ire_regexp=0.17, count_ire_branch=0.17, doc_depth=0.16, count_escapable=0.16, count_name_dq_char=0.16, count_name_dq_special=0.15, count_name_dq_mixed=0.16, count_doc_string=0.13, count_name_sq_char=0.15, count_name_first=0.14, count_ire_quantifier=0.13, count_array=0.12, count_name_char=0.13, count_ire_char_class=0.06, count_doc_exp=0.12, count_more_value=0.13, count_object=0.10, count_ire_piece=0.13, count_ire_alt=0.13, count_ire_range_quantifier=0.06, count_ire_cce1=0.06, count_ire_normal_char=0.06, count_ire_char_class_expr=0.06, count_frac=0.11, count_oct_digit=0.10, count_sq_special=0.07, count_sq_mixed=0.06, count_dq_mixed=0.06, count_sq_char=0.06, count_dq_special=0.06, count_dq_char=0.06, count_high_surrogate=0.02, count_doc_special=0.06, count_low_surrogate=0.02, count_doc_mixed=0.06, count_letter=0.05, count_HEXDIG=0.02, count_doc_char=0.04, count_sign_opt=0.04, count_non_surrogate=0.03, count_D=0.03, count_hexchar=0.02, count_non_d_hex=0.02
+[select] comparative relevance (max |rho| vs a between-system ratio): count_s_segment=0.46, count_member=0.58, count_descendant_segment=0.40, count_nonempty_object=0.56, count_selector=0.45, count_more_member=0.55, count_bracketed_selection=0.48, count_ws=0.54, count_wildcard_selector=0.37, doc_bytes=0.50, count_member_name_shorthand=0.44, count_value=0.50, query_len=0.46, count_child_segment=0.49, count_logical_expr=0.41, count_logical_and_expr=0.40, count_more_selector=0.38, count_basic_expr=0.39, count_or_tail=0.37, count_doc_name_special=0.44, count_literal=0.36, count_doc_name_mixed=0.44, count_int=0.44, count_and_tail=0.37, count_filter_selector=0.44, count_logical_not_op=0.38, count_index_selector=0.43, count_paren_expr=0.36, count_doc_escape=0.43, count_abs_singular_query=0.37, count_doc_name_char=0.43, count_test_expr=0.37, count_S=0.36, count_s_singular_segment=0.41, count_B=0.33, count_name_segment=0.40, count_comparison_expr=0.35, count_comparable=0.35, count_index_segment=0.40, count_filter_query=0.36, count_DIGIT1=0.39, count_count_expr=0.37, count_pos_int=0.39, count_abs_query=0.36, count_value_function_expr=0.36, count_singular_query=0.39, count_rel_query=0.37, count_nonempty_array=0.39, count_rel_singular_query=0.38, count_value_argument=0.36, count_DIGIT=0.38, count_logical_function_expr=0.36, count_regex_argument=0.36, count_string_literal=0.31, count_name_dq_chars=0.37, count_number=0.37, count_search_expr=0.35, count_name_selector=0.36, count_match_expr=0.31, count_value_expr=0.35, count_slice_selector=0.35, count_length_expr=0.33, count_name_sq_chars=0.34, count_sq_chars=0.25, count_dq_chars=0.27, count_name_sq_mixed=0.22, count_name_sq_special=0.22, count_iregexp_literal=0.23, count_exp=0.26, count_doc_number=0.34, count_ire_regexp=0.23, count_ire_branch=0.24, doc_depth=0.33, count_escapable=0.26, count_name_dq_char=0.31, count_name_dq_special=0.32, count_name_dq_mixed=0.31, count_doc_string=0.31, count_name_sq_char=0.23, count_name_first=0.24, count_ire_quantifier=0.26, count_array=0.31, count_name_char=0.19, count_ire_char_class=0.28, count_doc_exp=0.27, count_more_value=0.15, count_object=0.27, count_ire_piece=0.25, count_ire_alt=0.22, count_ire_range_quantifier=0.27, count_ire_cce1=0.25, count_ire_normal_char=0.25, count_ire_char_class_expr=0.25, count_frac=0.15, count_oct_digit=0.09, count_sq_special=0.12, count_sq_mixed=0.12, count_dq_mixed=0.18, count_sq_char=0.11, count_dq_special=0.18, count_dq_char=0.15, count_high_surrogate=0.13, count_doc_special=0.11, count_low_surrogate=0.13, count_doc_mixed=0.11, count_letter=0.10, count_HEXDIG=0.11, count_doc_char=0.11, count_sign_opt=0.09, count_non_surrogate=0.08, count_D=0.11, count_hexchar=0.10, count_non_d_hex=0.09
+[select] scored on the comparison rather than on the metric: count_s_segment (0.30 -> 0.46), count_member (0.09 -> 0.58), count_descendant_segment (0.29 -> 0.40), count_nonempty_object (0.11 -> 0.56), count_selector (0.28 -> 0.45), count_more_member (0.11 -> 0.55), count_bracketed_selection (0.27 -> 0.48), count_ws (0.11 -> 0.54), count_wildcard_selector (0.26 -> 0.37), doc_bytes (0.13 -> 0.50), count_member_name_shorthand (0.26 -> 0.44), count_value (0.13 -> 0.50), query_len (0.25 -> 0.46), count_child_segment (0.25 -> 0.49), count_logical_expr (0.25 -> 0.41), count_logical_and_expr (0.25 -> 0.40), count_more_selector (0.25 -> 0.38), count_basic_expr (0.24 -> 0.39), count_or_tail (0.24 -> 0.37), count_doc_name_special (0.10 -> 0.44), count_literal (0.24 -> 0.36), count_doc_name_mixed (0.11 -> 0.44), count_int (0.23 -> 0.44), count_and_tail (0.23 -> 0.37), count_filter_selector (0.23 -> 0.44), count_logical_not_op (0.23 -> 0.38), count_index_selector (0.20 -> 0.43), count_paren_expr (0.23 -> 0.36), count_doc_escape (0.11 -> 0.43), count_abs_singular_query (0.23 -> 0.37), count_doc_name_char (0.07 -> 0.43), count_test_expr (0.23 -> 0.37), count_S (0.23 -> 0.36), count_s_singular_segment (0.19 -> 0.41), count_B (0.23 -> 0.33), count_name_segment (0.19 -> 0.40), count_comparison_expr (0.23 -> 0.35), count_comparable (0.23 -> 0.35), count_index_segment (0.19 -> 0.40), count_filter_query (0.22 -> 0.36), count_DIGIT1 (0.18 -> 0.39), count_count_expr (0.22 -> 0.37), count_pos_int (0.19 -> 0.39), count_abs_query (0.22 -> 0.36), count_value_function_expr (0.22 -> 0.36), count_singular_query (0.22 -> 0.39), count_rel_query (0.22 -> 0.37), count_nonempty_array (0.11 -> 0.39), count_rel_singular_query (0.21 -> 0.38), count_value_argument (0.22 -> 0.36), count_DIGIT (0.18 -> 0.38), count_logical_function_expr (0.22 -> 0.36), count_regex_argument (0.22 -> 0.36), count_string_literal (0.22 -> 0.31), count_name_dq_chars (0.21 -> 0.37), count_number (0.21 -> 0.37), count_search_expr (0.21 -> 0.35), count_name_selector (0.21 -> 0.36), count_match_expr (0.21 -> 0.31), count_value_expr (0.21 -> 0.35), count_slice_selector (0.21 -> 0.35), count_length_expr (0.20 -> 0.33), count_name_sq_chars (0.20 -> 0.34), count_dq_chars (0.19 -> 0.27), count_iregexp_literal (0.18 -> 0.23), count_exp (0.18 -> 0.26), count_doc_number (0.17 -> 0.34), count_ire_regexp (0.17 -> 0.23), count_ire_branch (0.17 -> 0.24), doc_depth (0.16 -> 0.33), count_escapable (0.16 -> 0.26), count_name_dq_char (0.16 -> 0.31), count_name_dq_special (0.15 -> 0.32), count_name_dq_mixed (0.16 -> 0.31), count_doc_string (0.13 -> 0.31), count_name_sq_char (0.15 -> 0.23), count_name_first (0.14 -> 0.24), count_ire_quantifier (0.13 -> 0.26), count_array (0.12 -> 0.31), count_name_char (0.13 -> 0.19), count_ire_char_class (0.06 -> 0.28), count_doc_exp (0.12 -> 0.27), count_object (0.10 -> 0.27), count_ire_piece (0.13 -> 0.25), count_ire_alt (0.13 -> 0.22), count_ire_range_quantifier (0.06 -> 0.27), count_ire_cce1 (0.06 -> 0.25), count_ire_normal_char (0.06 -> 0.25), count_ire_char_class_expr (0.06 -> 0.25), count_sq_special (0.07 -> 0.12), count_sq_mixed (0.06 -> 0.12), count_dq_mixed (0.06 -> 0.18), count_dq_special (0.06 -> 0.18), count_dq_char (0.06 -> 0.15), count_high_surrogate (0.02 -> 0.13), count_doc_special (0.06 -> 0.11), count_low_surrogate (0.02 -> 0.13), count_doc_mixed (0.06 -> 0.11), count_HEXDIG (0.02 -> 0.11), count_doc_char (0.04 -> 0.11), count_D (0.03 -> 0.11), count_hexchar (0.02 -> 0.10), count_non_d_hex (0.02 -> 0.09)
+[select] dropped count_descendant_segment: |rho|=0.86 with count_s_segment, which is already kept
+[select] dropped count_nonempty_object: |rho|=0.98 with count_member, which is already kept
+[select] dropped count_selector: |rho|=0.87 with count_s_segment, which is already kept
+[select] dropped count_more_member: |rho|=0.98 with count_member, which is already kept
+[select] dropped count_bracketed_selection: |rho|=0.90 with count_s_segment, which is already kept
+[select] dropped count_ws: |rho|=0.89 with count_member, which is already kept
+[select] dropped count_wildcard_selector: |rho|=0.88 with count_s_segment, which is already kept
+[select] dropped doc_bytes: |rho|=0.83 with count_member, which is already kept
+[select] dropped count_member_name_shorthand: |rho|=0.85 with count_s_segment, which is already kept
+[select] dropped count_value: |rho|=0.84 with count_member, which is already kept
+[select] dropped count_child_segment: |rho|=0.97 with count_s_segment, which is already kept
+[select] dropped count_logical_and_expr: over the 4-property cap
+[select] dropped count_more_selector: over the 4-property cap
+[select] dropped count_basic_expr: over the 4-property cap
+[select] dropped count_or_tail: over the 4-property cap
+[select] dropped count_doc_name_special: over the 4-property cap
+[select] dropped count_literal: over the 4-property cap
+[select] dropped count_doc_name_mixed: over the 4-property cap
+[select] dropped count_int: over the 4-property cap
+[select] dropped count_and_tail: over the 4-property cap
+[select] dropped count_filter_selector: over the 4-property cap
+[select] dropped count_logical_not_op: over the 4-property cap
+[select] dropped count_index_selector: over the 4-property cap
+[select] dropped count_paren_expr: over the 4-property cap
+[select] dropped count_doc_escape: over the 4-property cap
+[select] dropped count_abs_singular_query: over the 4-property cap
+[select] dropped count_doc_name_char: over the 4-property cap
+[select] dropped count_test_expr: over the 4-property cap
+[select] dropped count_S: over the 4-property cap
+[select] dropped count_s_singular_segment: over the 4-property cap
+[select] dropped count_B: over the 4-property cap
+[select] dropped count_name_segment: over the 4-property cap
+[select] dropped count_comparison_expr: over the 4-property cap
+[select] dropped count_comparable: over the 4-property cap
+[select] dropped count_index_segment: over the 4-property cap
+[select] dropped count_filter_query: over the 4-property cap
+[select] dropped count_DIGIT1: over the 4-property cap
+[select] dropped count_count_expr: over the 4-property cap
+[select] dropped count_pos_int: over the 4-property cap
+[select] dropped count_abs_query: over the 4-property cap
+[select] dropped count_value_function_expr: over the 4-property cap
+[select] dropped count_singular_query: over the 4-property cap
+[select] dropped count_rel_query: over the 4-property cap
+[select] dropped count_nonempty_array: over the 4-property cap
+[select] dropped count_rel_singular_query: over the 4-property cap
+[select] dropped count_value_argument: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_logical_function_expr: over the 4-property cap
+[select] dropped count_regex_argument: over the 4-property cap
+[select] dropped count_string_literal: over the 4-property cap
+[select] dropped count_name_dq_chars: over the 4-property cap
+[select] dropped count_number: over the 4-property cap
+[select] dropped count_search_expr: over the 4-property cap
+[select] dropped count_name_selector: over the 4-property cap
+[select] dropped count_match_expr: over the 4-property cap
+[select] dropped count_value_expr: over the 4-property cap
+[select] dropped count_slice_selector: over the 4-property cap
+[select] dropped count_length_expr: over the 4-property cap
+[select] dropped count_name_sq_chars: over the 4-property cap
+[select] dropped count_sq_chars: over the 4-property cap
+[select] dropped count_dq_chars: over the 4-property cap
+[select] dropped count_name_sq_mixed: over the 4-property cap
+[select] dropped count_name_sq_special: over the 4-property cap
+[select] dropped count_iregexp_literal: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_doc_number: over the 4-property cap
+[select] dropped count_ire_regexp: over the 4-property cap
+[select] dropped count_ire_branch: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_escapable: over the 4-property cap
+[select] dropped count_name_dq_char: over the 4-property cap
+[select] dropped count_name_dq_special: over the 4-property cap
+[select] dropped count_name_dq_mixed: over the 4-property cap
+[select] dropped count_doc_string: over the 4-property cap
+[select] dropped count_name_sq_char: over the 4-property cap
+[select] dropped count_name_first: over the 4-property cap
+[select] dropped count_ire_quantifier: over the 4-property cap
+[select] dropped count_array: over the 4-property cap
+[select] dropped count_name_char: over the 4-property cap
+[select] dropped count_ire_char_class: over the 4-property cap
+[select] dropped count_doc_exp: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] dropped count_object: over the 4-property cap
+[select] dropped count_ire_piece: over the 4-property cap
+[select] dropped count_ire_alt: over the 4-property cap
+[select] dropped count_ire_range_quantifier: over the 4-property cap
+[select] dropped count_ire_cce1: over the 4-property cap
+[select] dropped count_ire_normal_char: over the 4-property cap
+[select] dropped count_ire_char_class_expr: over the 4-property cap
+[select] dropped count_frac: over the 4-property cap
+[select] dropped count_oct_digit: over the 4-property cap
+[select] dropped count_sq_special: over the 4-property cap
+[select] dropped count_sq_mixed: over the 4-property cap
+[select] dropped count_dq_mixed: over the 4-property cap
+[select] dropped count_sq_char: over the 4-property cap
+[select] dropped count_dq_special: over the 4-property cap
+[select] dropped count_dq_char: over the 4-property cap
+[select] dropped count_high_surrogate: over the 4-property cap
+[select] dropped count_doc_special: over the 4-property cap
+[select] dropped count_low_surrogate: over the 4-property cap
+[select] dropped count_doc_mixed: over the 4-property cap
+[select] dropped count_letter: over the 4-property cap
+[select] dropped count_HEXDIG: over the 4-property cap
+[select] dropped count_doc_char: over the 4-property cap
+[select] dropped count_sign_opt: over the 4-property cap
+[select] dropped count_non_surrogate: over the 4-property cap
+[select] dropped count_D: over the 4-property cap
+[select] dropped count_hexchar: over the 4-property cap
+[select] dropped count_non_d_hex: over the 4-property cap
+[select] count_s_segment stands for count_descendant_segment, count_selector, count_bracketed_selection, count_wildcard_selector, count_member_name_shorthand, count_child_segment (indistinguishable here)
+[select] count_member stands for count_nonempty_object, count_more_member, count_ws, doc_bytes, count_value (indistinguishable here)
+[select] joint fit uses 4 of 113 properties: count_s_segment, count_logical_expr, count_member, query_len (1,296 model fits)
+[jpython_known] loop targets 4 of 113 properties: count_s_segment, count_logical_expr, count_member, query_len
+[jpython_known] targeting 8 regions: runtime_ns_divergence, count_member_undecided0, count_member_x_query_len_joint, count_s_segment_beyond, runtime_ns_high, count_logical_expr_edge0, runtime_ns_sparse0, query_len_sparse5
+  [runtime_ns_divergence] 15s: no new inputs
+  [count_member_undecided0] 2 comparison(s) undecided in count_member [7.416,14.46): jpython_1_1_0 vs jpython_1_1_1 on runtime_ns and 1 more -> <more_member>{6,8}
+  [count_member_undecided0] 27s: +10 new input(s), 5 distinct shape(s), 10 measured
+  [count_member_x_query_len_joint] query_len spans 1..10647 overall, 1..1359 at count_member in [6,7.2]; maximizing it at <more_member>{4,6} (held, best 1359)
+  [count_member_x_query_len_joint] 5 of 10 seeds do not parse; seeding with 5.
+[budget] generation cut at 300s after 40 generations (46 solutions); this request is not reproducible
+  [soft] maximizing query_len: 46 candidates, best=1660, keeping 10 spanning 1660..1546
+  [count_member_x_query_len_joint] 356s: +10 new input(s), 9 distinct shape(s), 10 measured [CUT: generation budget, not reproducible]
+  [count_s_segment_beyond] <s_segment>{24,28} (rung 1, 4000 nodes)
+  [count_s_segment_beyond] 20s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_high] 19s: no new inputs
+  [count_logical_expr_edge0] <s_segment>{24,26} for the top 15% of count_logical_expr ([19,38])
+  [count_logical_expr_edge0] 19s: +10 new input(s), 10 distinct shape(s), 10 measured
+[WARNING] wall-clock budget reached after 1 of 2 inputs; keeping what is measured.
+  [runtime_ns_sparse0] 41s: no new inputs
+  [budget] wall-clock reached; skipping the remaining 1 request(s) this iteration.
+[jpython_known] iter 8: corpus=2624 (+160 new)
+[jpython_known] grammar frontier (targeting stopped asking here):
+  count_member_name_shorthand: pinned at 77 by the SEARCH; 1 escalating request(s) returned nothing further.
+  count_selector: pinned at 210 by the SEARCH; 1 escalating request(s) returned nothing further.
+  count_logical_expr: pinned at 38 by the SEARCH; 1 escalating request(s) returned nothing further.
+  count_descendant_segment: pinned at 94 by the SEARCH; 1 escalating request(s) returned nothing further.
+  count_nonempty_object: pinned at 11 by the SEARCH; 1 escalating request(s) returned nothing further.
+  count_member: pinned at 55 by the SEARCH; 1 escalating request(s) returned nothing further.
+  query_len: pinned at 10647 by the SEARCH; 2 escalating request(s) returned nothing further.
+[compare] runtime_ns: 656 inputs, 4 systems (paired; ratios, 1.10x equivalence band)
+[compare] overall verdicts are weighted by what the corpus contains, which the loop itself shapes; the per-region lines are the portable claim.
+[compare] count_s_segment bins move with count_more_selector (2..20.5 across bins); query_len (1..1762 across bins) -- those regions are joint, not count_s_segment findings
+[compare] count_more_selector bins move with count_s_segment (2..81.5 across bins); query_len (29..1777 across bins) -- those regions are joint, not count_more_selector findings
+[compare] count_member bins move with count_s_segment (1..28 across bins); count_more_selector (1..10 across bins); query_len (43..1746 across bins) -- those regions are joint, not count_member findings
+[compare] query_len bins move with count_s_segment (1..40 across bins); count_more_selector (1..13 across bins) -- those regions are joint, not query_len findings
+  jpython_1_1_0 and jpython_1_1_1 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=656)
+      undecided on count_member (confounded) in [7.416,14.46) -- needs more inputs
+  jpython_1_1_2 better than jpython_1_1_0 on runtime_ns: 1.27x (95% CI 1.27-1.27, n=656, p=5.16e-109)
+  jpython_1_1_3 better than jpython_1_1_0 on runtime_ns: 1.27x (95% CI 1.27-1.27, n=656, p=5.63e-109)
+  jpython_1_1_2 better than jpython_1_1_1 on runtime_ns: 1.27x (95% CI 1.26-1.27, n=656, p=9.86e-109)
+  jpython_1_1_3 better than jpython_1_1_1 on runtime_ns: 1.27x (95% CI 1.27-1.27, n=656, p=5.59e-109)
+  jpython_1_1_2 and jpython_1_1_3 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=656)
+[interference] 6 property pair(s) tested over 2624 rows; 4 show a dependence
+  count_s_segment vs runtime_ns changes with query_len: rho by query_len stratum = [+0.27, -0.04, -0.03, +0.17], spread 0.31, p=0.003
+  count_more_selector vs runtime_ns changes with query_len: rho by query_len stratum = [+0.12, -0.02, -0.09, +0.19], spread 0.29, p=0.003
+  count_member vs runtime_ns changes with count_s_segment: rho by count_s_segment stratum = [+0.12, +0.06, +0.19, -0.09], spread 0.27, p=0.003
+  count_member vs runtime_ns changes with query_len: rho by query_len stratum = [+0.12, +0.12, +0.39, +0.30], spread 0.27, p=0.003
+  -> a one-dimensional region on these properties states less than it appears to; they are candidates for a joint request.
+[jpython_known] past the wall-clock budget; skipping the model fits and plots and writing the report. They are a function of corpus.csv, which is checkpointed, so the next run recomputes them from the same inputs rather than re-measuring.
+[jpython_known] metric cache: 2624 entries, 11425 SUT executions this run
+[jpython_known] wall clock: 3470s of 3420s budget
+[jpython_known] report -> ./results/rq1/20261003-0148-jpython_known/run1/jpython_known/report.md
+[jpython_known] done. corpus=2624 rows (656 inputs x 4 systems). Artifacts in ./results/rq1/20261003-0148-jpython_known/run1/jpython_known

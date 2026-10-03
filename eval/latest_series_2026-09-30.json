@@ -1,0 +1,582 @@
+{
+  "title": "Latest-release-series subjects: preregistration",
+  "preregistered_at_utc": "2026-09-30T21:06:47Z",
+  "preregistered_by": "recorded mechanically by the rule below, before any measurement of these versions",
+  "rule_D6": "For each domain subject, among its implementations, choose the most-downloaded package (npm: api.npmjs.org downloads/point/last-month; PyPI: pypistats.org /recent last_month) that has at least 6 non-prerelease releases. The Python stdlib is excluded. Take its last six non-prerelease versions by publish date, giving five adjacent pairs. Fallback: if the most-downloaded package has fewer than 6 releases, take the next most-downloaded qualifying candidate.",
+  "scheduling_rule": "Among the five chosen libraries, the three with the most non-prerelease releases published since 2025-09-30 run tonight; the other two are deferred to the next night. Tie-break: more monthly downloads.",
+  "definitions": {
+    "prerelease_npm": "any version string containing '-' (semver prerelease tag)",
+    "prerelease_pypi": "packaging.version is_prerelease or is_devrelease, or an unparseable version; versions with no files or all files yanked are also excluded",
+    "publish_date_npm": "npm view <pkg> time",
+    "publish_date_pypi": "earliest upload_time_iso_8601 among the release's files (pypi.org/pypi/<pkg>/json)",
+    "releases_since_2025_09_30": "non-prerelease releases with publish date >= 2025-09-30"
+  },
+  "schedule_ranking": [
+    {
+      "domain": "sql_js",
+      "package": "sql-formatter",
+      "releases_since_2025_09_30": 12,
+      "downloads_last_month": 17711320
+    },
+    {
+      "domain": "json",
+      "package": "orjson",
+      "releases_since_2025_09_30": 7,
+      "downloads_last_month": 173707901
+    },
+    {
+      "domain": "jsonpath_js",
+      "package": "jsonpath-plus",
+      "releases_since_2025_09_30": 4,
+      "downloads_last_month": 49124666
+    },
+    {
+      "domain": "selectors_js",
+      "package": "css-select",
+      "releases_since_2025_09_30": 1,
+      "downloads_last_month": 323601738
+    },
+    {
+      "domain": "jsonpath_py",
+      "package": "jsonpath-ng",
+      "releases_since_2025_09_30": 1,
+      "downloads_last_month": 54841371
+    }
+  ],
+  "blindness": "No version in this file had been measured against another when it was written. Only a one-input functional smoke test (no timing) was run after install.",
+  "domains": {
+    "jsonpath_js": {
+      "registry": "npm",
+      "candidates": [
+        {
+          "package": "jsonpath-plus",
+          "downloads_last_month": 49124666,
+          "download_period": "2026-08-30..2026-09-28",
+          "n_releases": 49,
+          "n_prereleases_excluded": 0,
+          "n_releases_since_2025_09_30": 4,
+          "qualifies": true
+        },
+        {
+          "package": "jsonpath",
+          "downloads_last_month": 13597488,
+          "download_period": "2026-08-30..2026-09-28",
+          "n_releases": 28,
+          "n_prereleases_excluded": 0,
+          "n_releases_since_2025_09_30": 3,
+          "qualifies": true
+        },
+        {
+          "package": "jsonpath-rfc9535",
+          "downloads_last_month": 2401959,
+          "download_period": "2026-08-30..2026-09-28",
+          "n_releases": 4,
+          "n_prereleases_excluded": 0,
+          "n_releases_since_2025_09_30": 0,
+          "qualifies": false
+        },
+        {
+          "package": "jsonpathly",
+          "downloads_last_month": 2322813,
+          "download_period": "2026-08-30..2026-09-28",
+          "n_releases": 32,
+          "n_prereleases_excluded": 1,
+          "n_releases_since_2025_09_30": 2,
+          "qualifies": true
+        },
+        {
+          "package": "json-p3",
+          "downloads_last_month": 291990,
+          "download_period": "2026-08-30..2026-09-28",
+          "n_releases": 26,
+          "n_prereleases_excluded": 0,
+          "n_releases_since_2025_09_30": 3,
+          "qualifies": true
+        }
+      ],
+      "excluded_from_rule": [],
+      "chosen": "jsonpath-plus",
+      "fallback_applied": false,
+      "subject_dir": "subjects/jsonpath_plus_latest",
+      "versions_oldest_to_newest": [
+        {
+          "version": "10.2.0",
+          "published": "2024-11-17T04:56:45.043Z"
+        },
+        {
+          "version": "10.3.0",
+          "published": "2025-02-14T08:44:57.286Z"
+        },
+        {
+          "version": "10.4.0",
+          "published": "2026-02-16T03:04:22.106Z"
+        },
+        {
+          "version": "11.0.0",
+          "published": "2026-09-24T19:57:04.783Z"
+        },
+        {
+          "version": "11.0.1",
+          "published": "2026-09-25T19:24:03.767Z"
+        },
+        {
+          "version": "11.1.0",
+          "published": "2026-09-25T21:36:04.769Z"
+        }
+      ],
+      "pairs": [
+        [
+          "10.2.0",
+          "10.3.0"
+        ],
+        [
+          "10.3.0",
+          "10.4.0"
+        ],
+        [
+          "10.4.0",
+          "11.0.0"
+        ],
+        [
+          "11.0.0",
+          "11.0.1"
+        ],
+        [
+          "11.0.1",
+          "11.1.0"
+        ]
+      ],
+      "releases_since_2025_09_30": 4,
+      "schedule": "tonight (2026-09-30/10-01)"
+    },
+    "jsonpath_py": {
+      "registry": "pypi",
+      "candidates": [
+        {
+          "package": "jsonpath-ng",
+          "downloads_last_month": 54841371,
+          "download_period": "pypistats last_month",
+          "n_releases": 11,
+          "n_prereleases_excluded": 0,
+          "n_releases_since_2025_09_30": 1,
+          "qualifies": true
+        },
+        {
+          "package": "jsonpath-python",
+          "downloads_last_month": 15499655,
+          "download_period": "pypistats last_month",
+          "n_releases": 13,
+          "n_prereleases_excluded": 0,
+          "n_releases_since_2025_09_30": 7,
+          "qualifies": true
+        },
+        {
+          "package": "python-jsonpath",
+          "downloads_last_month": 1292001,
+          "download_period": "pypistats last_month",
+          "n_releases": 31,
+          "n_prereleases_excluded": 0,
+          "n_releases_since_2025_09_30": 4,
+          "qualifies": true
+        },
+        {
+          "package": "jsonpath-rfc9535",
+          "downloads_last_month": 603788,
+          "download_period": "pypistats last_month",
+          "n_releases": 9,
+          "n_prereleases_excluded": 0,
+          "n_releases_since_2025_09_30": 2,
+          "qualifies": true
+        }
+      ],
+      "excluded_from_rule": [],
+      "chosen": "jsonpath-ng",
+      "fallback_applied": false,
+      "subject_dir": "subjects/jsonpath_ng_latest",
+      "versions_oldest_to_newest": [
+        {
+          "version": "1.5.2",
+          "published": "2020-09-07T13:44:09.189742Z"
+        },
+        {
+          "version": "1.5.3",
+          "published": "2021-07-05T18:01:15.309993Z"
+        },
+        {
+          "version": "1.6.0",
+          "published": "2023-09-13T19:46:43.570621Z"
+        },
+        {
+          "version": "1.6.1",
+          "published": "2024-01-11T19:23:54.401801Z"
+        },
+        {
+          "version": "1.7.0",
+          "published": "2024-10-11T15:41:42.404992Z"
+        },
+        {
+          "version": "1.8.0",
+          "published": "2026-02-24T14:42:06.182493Z"
+        }
+      ],
+      "pairs": [
+        [
+          "1.5.2",
+          "1.5.3"
+        ],
+        [
+          "1.5.3",
+          "1.6.0"
+        ],
+        [
+          "1.6.0",
+          "1.6.1"
+        ],
+        [
+          "1.6.1",
+          "1.7.0"
+        ],
+        [
+          "1.7.0",
+          "1.8.0"
+        ]
+      ],
+      "releases_since_2025_09_30": 1,
+      "schedule": "deferred (2026-10-01/02)"
+    },
+    "selectors_js": {
+      "registry": "npm",
+      "candidates": [
+        {
+          "package": "css-select",
+          "downloads_last_month": 323601738,
+          "download_period": "2026-08-30..2026-09-28",
+          "n_releases": 30,
+          "n_prereleases_excluded": 1,
+          "n_releases_since_2025_09_30": 1,
+          "qualifies": true
+        },
+        {
+          "package": "nwsapi",
+          "downloads_last_month": 196786482,
+          "download_period": "2026-08-30..2026-09-28",
+          "n_releases": 42,
+          "n_prereleases_excluded": 5,
+          "n_releases_since_2025_09_30": 6,
+          "qualifies": true
+        },
+        {
+          "package": "@asamuzakjp/dom-selector",
+          "downloads_last_month": 167476144,
+          "download_period": "2026-08-30..2026-09-28",
+          "n_releases": 239,
+          "n_prereleases_excluded": 41,
+          "n_releases_since_2025_09_30": 56,
+          "qualifies": true
+        }
+      ],
+      "excluded_from_rule": [],
+      "chosen": "css-select",
+      "fallback_applied": false,
+      "subject_dir": "subjects/css_select_latest",
+      "versions_oldest_to_newest": [
+        {
+          "version": "5.1.0",
+          "published": "2022-04-27T18:29:37.203Z"
+        },
+        {
+          "version": "5.2.0",
+          "published": "2025-06-28T10:11:28.343Z"
+        },
+        {
+          "version": "5.2.1",
+          "published": "2025-06-28T11:03:13.607Z"
+        },
+        {
+          "version": "5.2.2",
+          "published": "2025-06-28T15:49:53.402Z"
+        },
+        {
+          "version": "6.0.0",
+          "published": "2025-06-29T17:21:03.629Z"
+        },
+        {
+          "version": "7.0.0",
+          "published": "2026-03-22T22:44:26.452Z"
+        }
+      ],
+      "pairs": [
+        [
+          "5.1.0",
+          "5.2.0"
+        ],
+        [
+          "5.2.0",
+          "5.2.1"
+        ],
+        [
+          "5.2.1",
+          "5.2.2"
+        ],
+        [
+          "5.2.2",
+          "6.0.0"
+        ],
+        [
+          "6.0.0",
+          "7.0.0"
+        ]
+      ],
+      "releases_since_2025_09_30": 1,
+      "schedule": "deferred (2026-10-01/02)"
+    },
+    "json": {
+      "registry": "pypi",
+      "candidates": [
+        {
+          "package": "orjson",
+          "downloads_last_month": 173707901,
+          "download_period": "pypistats last_month",
+          "n_releases": 150,
+          "n_prereleases_excluded": 0,
+          "n_releases_since_2025_09_30": 7,
+          "qualifies": true
+        },
+        {
+          "package": "simplejson",
+          "downloads_last_month": 40451761,
+          "download_period": "pypistats last_month",
+          "n_releases": 112,
+          "n_prereleases_excluded": 0,
+          "n_releases_since_2025_09_30": 5,
+          "qualifies": true
+        },
+        {
+          "package": "ujson",
+          "downloads_last_month": 27534466,
+          "download_period": "pypistats last_month",
+          "n_releases": 43,
+          "n_prereleases_excluded": 0,
+          "n_releases_since_2025_09_30": 4,
+          "qualifies": true
+        }
+      ],
+      "excluded_from_rule": [
+        "json (CPython stdlib): versions ship with CPython"
+      ],
+      "chosen": "orjson",
+      "fallback_applied": false,
+      "subject_dir": "subjects/orjson_latest",
+      "versions_oldest_to_newest": [
+        {
+          "version": "3.11.5",
+          "published": "2025-12-06T15:53:43.877665Z"
+        },
+        {
+          "version": "3.11.6",
+          "published": "2026-01-29T15:11:17.941921Z"
+        },
+        {
+          "version": "3.11.7",
+          "published": "2026-02-02T15:37:06.082315Z"
+        },
+        {
+          "version": "3.11.8",
+          "published": "2026-03-31T16:14:30.708332Z"
+        },
+        {
+          "version": "3.11.9",
+          "published": "2026-05-06T15:09:14.765338Z"
+        },
+        {
+          "version": "3.12.0",
+          "published": "2026-08-14T16:12:00.607529Z"
+        }
+      ],
+      "pairs": [
+        [
+          "3.11.5",
+          "3.11.6"
+        ],
+        [
+          "3.11.6",
+          "3.11.7"
+        ],
+        [
+          "3.11.7",
+          "3.11.8"
+        ],
+        [
+          "3.11.8",
+          "3.11.9"
+        ],
+        [
+          "3.11.9",
+          "3.12.0"
+        ]
+      ],
+      "releases_since_2025_09_30": 7,
+      "schedule": "tonight (2026-09-30/10-01)"
+    },
+    "sql_js": {
+      "registry": "npm",
+      "candidates": [
+        {
+          "package": "sql-formatter",
+          "downloads_last_month": 17711320,
+          "download_period": "2026-08-30..2026-09-28",
+          "n_releases": 135,
+          "n_prereleases_excluded": 43,
+          "n_releases_since_2025_09_30": 12,
+          "qualifies": true
+        },
+        {
+          "package": "pgsql-ast-parser",
+          "downloads_last_month": 4291942,
+          "download_period": "2026-08-30..2026-09-28",
+          "n_releases": 109,
+          "n_prereleases_excluded": 0,
+          "n_releases_since_2025_09_30": 1,
+          "qualifies": true
+        },
+        {
+          "package": "sql-parser-cst",
+          "downloads_last_month": 323996,
+          "download_period": "2026-08-30..2026-09-28",
+          "n_releases": 78,
+          "n_prereleases_excluded": 0,
+          "n_releases_since_2025_09_30": 19,
+          "qualifies": true
+        }
+      ],
+      "excluded_from_rule": [],
+      "chosen": "sql-formatter",
+      "fallback_applied": false,
+      "subject_dir": "subjects/sql_formatter_latest",
+      "versions_oldest_to_newest": [
+        {
+          "version": "15.7.3",
+          "published": "2026-03-28T08:15:42.528Z"
+        },
+        {
+          "version": "15.7.4",
+          "published": "2026-05-12T10:38:26.605Z"
+        },
+        {
+          "version": "15.8.0",
+          "published": "2026-05-17T18:01:56.966Z"
+        },
+        {
+          "version": "15.8.1",
+          "published": "2026-06-04T19:16:55.254Z"
+        },
+        {
+          "version": "15.8.2",
+          "published": "2026-06-21T10:50:16.756Z"
+        },
+        {
+          "version": "15.9.0",
+          "published": "2026-09-23T07:21:45.660Z"
+        }
+      ],
+      "pairs": [
+        [
+          "15.7.3",
+          "15.7.4"
+        ],
+        [
+          "15.7.4",
+          "15.8.0"
+        ],
+        [
+          "15.8.0",
+          "15.8.1"
+        ],
+        [
+          "15.8.1",
+          "15.8.2"
+        ],
+        [
+          "15.8.2",
+          "15.9.0"
+        ]
+      ],
+      "releases_since_2025_09_30": 12,
+      "schedule": "tonight (2026-09-30/10-01)"
+    }
+  },
+  "addenda": [
+    {
+      "written_at_utc": "2026-09-30T21:15:01Z",
+      "note": "Written after install and smoke test. The preregistered fields above are unchanged. Smoke tests are functional only (one hand-written input, result checked, nothing timed).",
+      "installs": {
+        "sql_formatter_latest": "npm aliases sql_formatter_<v> in subjects/sql_formatter_latest/package.json + package-lock.json; transitive deps (nearley 2.20.1, moo 0.5.3, argparse 2.0.1, commander 2.20.3) equal subjects/sql_js",
+        "orjson_latest": "one venv per version, subjects/orjson_latest/envs/<v>/, CPython 3.12.1 (base of repo .venv), wheels only; pip freeze in subjects/orjson_latest/freeze/<v>.txt",
+        "jsonpath_plus_latest": "npm aliases jsonpath_plus_<v> in subjects/jsonpath_plus_latest/package.json + package-lock.json; jsep 1.4.0, @jsep-plugin/assignment 1.3.0, @jsep-plugin/regex 1.0.4 equal subjects/jsonpath_js",
+        "css_select_latest": "npm aliases css_select_<v>; parse5 8.0.1 and parse5-htmlparser2-tree-adapter 7.1.0 pinned as in subjects/selectors_js; 7.0.0's deps equal the domain's",
+        "jsonpath_ng_latest": "one venv per version, subjects/jsonpath_ng_latest/envs/<v>/, CPython 3.12.1, wheels only; pip freeze in subjects/jsonpath_ng_latest/freeze/<v>.txt"
+      },
+      "smoke_tests": {
+        "sql_formatter_latest": {
+          "input": "SELECT a FROM t; (language postgresql)",
+          "result": {
+            "15.7.3": "pass: formatted to 'SELECT\\n  a\\nFROM\\n  t;'",
+            "15.7.4": "pass: formatted to 'SELECT\\n  a\\nFROM\\n  t;'",
+            "15.8.0": "pass: formatted to 'SELECT\\n  a\\nFROM\\n  t;'",
+            "15.8.1": "pass: formatted to 'SELECT\\n  a\\nFROM\\n  t;'",
+            "15.8.2": "pass: formatted to 'SELECT\\n  a\\nFROM\\n  t;'",
+            "15.9.0": "pass: formatted to 'SELECT\\n  a\\nFROM\\n  t;'"
+          }
+        },
+        "orjson_latest": {
+          "input": "{\"a\":1}",
+          "result": {
+            "3.11.5": "pass: {'a': 1}; runner accepted=1.0",
+            "3.11.6": "pass: {'a': 1}; runner accepted=1.0",
+            "3.11.7": "pass: {'a': 1}; runner accepted=1.0",
+            "3.11.8": "pass: {'a': 1}; runner accepted=1.0",
+            "3.11.9": "pass: {'a': 1}; runner accepted=1.0",
+            "3.12.0": "pass: {'a': 1}; runner accepted=1.0"
+          }
+        },
+        "jsonpath_plus_latest": {
+          "input": "$.a over {\"a\":1}",
+          "result": {
+            "10.2.0": "pass: [1]",
+            "10.3.0": "pass: [1]",
+            "10.4.0": "pass: [1]",
+            "11.0.0": "pass: [1]",
+            "11.0.1": "pass: [1]",
+            "11.1.0": "pass: [1]"
+          }
+        },
+        "css_select_latest": {
+          "input": "div over <html><body><div></div></body></html>",
+          "result": {
+            "5.1.0": "pass: 1 match",
+            "5.2.0": "pass: 1 match",
+            "5.2.1": "FAIL: require throws MODULE_NOT_FOUND './compile.js' (registry tarball has 19 files vs 108 in 5.2.0, 116 in 5.2.2)",
+            "5.2.2": "pass: 1 match",
+            "6.0.0": "pass: 1 match",
+            "7.0.0": "pass: 1 match"
+          }
+        },
+        "jsonpath_ng_latest": {
+          "input": "$.a over {\"a\":1} via jsonpath_ng.ext.parse",
+          "result": {
+            "1.5.2": "pass: [1]",
+            "1.5.3": "pass: [1]",
+            "1.6.0": "pass: [1]",
+            "1.6.1": "pass: [1]",
+            "1.7.0": "pass: [1]",
+            "1.8.0": "pass: [1]"
+          }
+        }
+      },
+      "open_issues": [
+        "css-select 5.2.1 is a broken publish and cannot run on any input. subjects/css_select_latest/example.py keeps it in VERSIONS but excludes it from SYSTEMS via BROKEN, so the subject has five systems. Decide whether to keep that, or substitute (the rule as written has no clause for an uninstallable-in-effect release). css-select is deferred, so this does not affect tonight.",
+        "jsonpath-plus 11.0.0 replaced the public JSONPath.cache object with module-level Maps and JSONPath.clearCache(). The domain runner's `JSONPath.cache = {}` reset is a no-op on 11.x, which would time evaluation only. subjects/jsonpath_plus_latest/node_runner.js calls clearCache() when it exists and falls back to the cache assignment for 10.x, so all six time parse + evaluate. subjects/jsonpath_js pins 10.4.0, so it is not affected today, but would be on upgrade."
+      ]
+    }
+  ]
+}

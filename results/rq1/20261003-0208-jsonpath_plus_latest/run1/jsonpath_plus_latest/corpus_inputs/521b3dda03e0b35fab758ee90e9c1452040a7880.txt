@@ -1,0 +1,5 @@
+$.*..ba.bbadcbbcbc..[0,'b',6,7,"acbccdbdbd'aaababcb",0,"","ca","ac",'']
+@@@
+   [true,  0
+]
+		

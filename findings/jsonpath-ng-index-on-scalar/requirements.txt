@@ -1,0 +1,2 @@
+jsonpath-ng==1.8.0
+jsonpath-rfc9535==1.0.0

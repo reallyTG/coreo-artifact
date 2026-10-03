@@ -1,0 +1,31 @@
+WITH c1d_d_bec1	as( with	 RECURSIVE
+eadc_eb1_c( edd_ed__b,	dac11bb_dca , bd_d_1daa1d1	,eddc1cb1ad_ac, bc___bbbaba_ , -- c
+ cb1dccaea, e_1b_a  ,babbbe )	AS( (select From LATERAL (
+WITH bdc_c_ AS(with __a11 AS	(With recursive ad_ad (cec1b, ac1eea, _11abe1 ,
+acaaaaa_ad,daeed_1, eebee1,e__dba_bd1ade, c__dccc,ae1_ae_1_)  as ( (
+ ( With Recursive b1bd_ea (c_dadec,aace_11, ceea1c , cadedc_cc1 ,b_d1c ,dbe11ba,dd1eed1 ,deadd1eee1b, bbaeeea1ca1_
+) /* c */  As((with recursive _dcddb(eeeeea, a_1ee , abbdd1_c, -- c
+ /* c */  ce_ceb
+, adbecc1ce ,deded1dec
+ ,a_1ab_baab ,b_bb___ccbe1ad,
+ c1ab_bae,___ac_e_dbe_) AS (Select distinct
+ Not
+ (+ + x'7aF0F' % c_bbd._c_dba_bdda1dd.bbbe1[NOT nullif( Not  TRUE - _ab11e -	_ca__bdd  + CAST
+(  exists ( /* c */  With RECURSIVE bcceae ( aab1_d1aadecd,a1cc_eadddcb1, acadaada_e1ed,ea_e11)
+As -- c
+ ((( WITH	 Recursive e_ac_ (cdddd , ceac1e_cbb,edaa11ae_cba_b	 , a_cabbe_a1a1c ) as ( select distinct on( Not FALSE)
+* ,_c1aacb.* UNION Select) select	all Fetch FIRST ROWS ONLY FOR share)
+ Union Select distinct *) UNION ALL	SELECT distinct  *,*) Select *)  ^  string_agg	()::Smallint::Boolean - true not
+ Ilike True != null ISNULL /* c */ 
+And not Array[] <> True  as TIMESTAMP)::Date[ 98691429]::Numeric ^ TRUE | + true  At Time Zone NULL  - + false  In(SELECT distinct * ,bbdbce1bead.*) < ANY(Array[] /	ARRAY[ ]) notnull,null) ^  de1dbb << Some(x'0' OR FALSE Notnull)  = ANY ( select distinct  e11becb_ac.*) Isnull	 AND - +	'''x'''	NOTNULL OR b'00011' NOTNULL] + true  IS null AND X'F' + false or + - ARRAY[ ]
+notnull) -- c
+ Not Like SOME ( select
+ALL For Share) Isnull and False - ROW(),*
+Union All select distinct * , *) select
+Distinct * FOR key
+ SHARE) union SELECT All
+*) select *, cbbebde.*)	Union select DISTINCT *) -- c
+ Union All  SELECT distinct *,*) Select distinct * ,*) select
+Distinct  * , * FOR key share) Select	OFFSET 3 ROWS)  as
+_1bcbeaedd) union (select
+* For UPDATE)) SELECT Offset 7 Rows) select c_bdcd.*  for SHARE ;

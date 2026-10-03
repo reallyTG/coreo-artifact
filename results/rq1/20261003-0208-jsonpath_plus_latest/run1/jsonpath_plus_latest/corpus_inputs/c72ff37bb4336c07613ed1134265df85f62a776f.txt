@@ -1,0 +1,6 @@
+$.b[::]..["ca","abcdddbaa",'cabd\raa\'"\'','dca""bd\'\'',5500308,-3,0].ca
+@@@
+[
+		true,null,   	 -109.94000008E-00
+	   	,false]
+	

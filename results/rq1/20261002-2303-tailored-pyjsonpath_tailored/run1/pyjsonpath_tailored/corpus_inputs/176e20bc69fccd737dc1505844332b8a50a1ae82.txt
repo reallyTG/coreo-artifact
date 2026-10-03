@@ -1,0 +1,3 @@
+$.*[?!match(@.a,'y[x-zx-zy]*|y{1,3}')]
+@@@
+[{"a":"x"},{"a":"xz","b":"y"},{"a":"y","b":"xz"},"xyyyxyyxyx","yx",{"a":"yx","b":"x"},{"a":"zx","b":"xx"},"zzyyxz",{"a":"yy","b":"zxxx"},{"a":"yzyxxzzz","b":"yzyyyxxzzzx"},{"a":"yzzzyyzxz"},{"a":"zyyxyyyyyzx","b":"x"},{"a":"yy"},{"a":"xy","b":"xy"},{"a":"y"},{"a":"yy","b":"yxxxzyxyzz"},"xy",{"a":"z","b":"yxyyz"},{"a":"xz"},{"a":"x","b":"x"},{"a":"x","b":"y"},{"a":"zzzxzyxz","b":"y"},{"a":"zx","b":"zx"},"yy","zz",{"a":"xyzzyz","b":"y"}]

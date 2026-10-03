@@ -1,0 +1,32 @@
+$..*
+@@@
+{"acdd"	 	
+
+ :	  null, 
+	  	"db":		
+ 	 true 
+ ,"bddbadcacd"
+ :	  
+null	 	,"bbd":[
+
+	 	
+
+ {}
+    
+,
+
+
+
+
+	null	
+
+,	  
+
+
+null,false,[] , 
+	 	null, 		
+"y"  	 	 ,0,  false		,{
+
+ 	}
+		
+		 ],		"caa":	true}

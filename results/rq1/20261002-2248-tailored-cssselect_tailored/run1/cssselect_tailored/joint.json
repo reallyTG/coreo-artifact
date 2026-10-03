@@ -1,0 +1,47 @@
+{
+  "count_name|count_an_a": {
+    "band": [
+      3,
+      5
+    ],
+    "best": 1.0,
+    "direction": "maximizing",
+    "extensive": "count_name",
+    "intensive": "count_an_a",
+    "stalls": 0,
+    "window": [
+      176.0,
+      211.2
+    ]
+  },
+  "count_name|count_complex_selector_in_has": {
+    "band": [
+      3,
+      5
+    ],
+    "best": 16.0,
+    "direction": "maximizing",
+    "extensive": "count_name",
+    "intensive": "count_complex_selector_in_has",
+    "stalls": 0,
+    "window": [
+      176.0,
+      211.2
+    ]
+  },
+  "count_name|count_pseudo_class_function": {
+    "band": [
+      3,
+      5
+    ],
+    "best": 1.0,
+    "direction": "maximizing",
+    "extensive": "count_name",
+    "intensive": "count_pseudo_class_function",
+    "stalls": 0,
+    "window": [
+      176.0,
+      211.2
+    ]
+  }
+}

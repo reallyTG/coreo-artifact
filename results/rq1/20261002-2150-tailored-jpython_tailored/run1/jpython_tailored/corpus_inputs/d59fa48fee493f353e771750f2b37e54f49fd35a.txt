@@ -1,0 +1,3 @@
+$..*.*.a
+@@@
+{"dbdaacaccd":["zyy",8,"zyy","xz",0,2,0,"yyz","z",0],"dcbcaabaabd":[0,"y"]}

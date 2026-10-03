@@ -1,0 +1,29 @@
+WITH ba As(select group
+ by  NOT	 x'707FF'::real[][ ][ ][ 855 ] /
+cast( ARRAY[]  AT /* c */  TIME ZONE	(with	   Recursive aa_bd___ad(cb,"B BB  .", cd1,a ,
+aebc_cde ,
+"a aBB""BBa "
+ )	As  (( with RECURSIVE edeedb_ae(""" B""""  "," "".a",bd_bae1bb, eeaea1_ab, ddedbe1ebcc) as ((SELECT distinct On	(NOT - (false ^ + array[]::NUMERIC ( 6 )[ ] ^ +	 .9073511 ^ ".a."._.".a.aa""a." At time zone
+" B"[+ c.array_agg( *) At
+Time Zone .780274e56 NOT
+ like	Nullif(Array[not b'' !~*	+ + Case Not FALSE::numeric  (4 )::Int[][][56337 ]::BIGINT[][ ][ ]::int	<@ All	(x'0a0FaaFaFa' - + .9 ^	245266_2_3180394_95952_3_5 ^ + ''::bcaddc_1.d__  ^ - +	true	 % _cc1bcb11_."..a"""[ - d_11ae.cd1db1::Integer[ ] ^ ARRAY[ ]::Smallint::Smallint ^ + +
++ CASE bc NOTNULL	WHEN	 - true Then true END::Numeric
+( 4)[] At TIME	Zone FALSE::Int::Text[ ] between x'0F' * array[ ] and null] At time zone e_ea::TEXT Not between ''	- U&'' and null Is Not
+ NULL) like FALSE !=  be_b /* c */  isnull Or FALSE < False
+when Not not true + Array[] Then null end * GROUPING (+
+Null) Not ILIKE
+any
+(true < null) >=  false
+Is null or
+ True	%	+ B'000' NOTNULL]	ILIKE
+some( E'' - NULL) <  ALL
+( select All * , * FOR Update)	And not  +	U&'\0041\0041' or NOT ROW (),NULL) At time zone /* c */ 	False <= All(Select All HAVING + True
+NOTNULL Or c_e isnull) ISNULL And _cdeae_ /* c */  is  true Or	cc.a] !~ array[] / Array[  ]	- True::Bigint NOT between  - null AND False) ^ INTERVAL -- c
+ U&'' % - - + NULL / + '' ~ some
+ (not d1_.a)	Not
+ Like Any ( select
+DISTINCT _d1.*)	<= Any( select	Distinct dba1e1.*) -- c
+  is
+false And _d1c	notnull) e1.*) Union  ALL select
+DISTINCT  a.*) Select Fetch First 45 Rows ONLY) UNION SELECT all *  , *) SELECT	distinct bb.*) not ilike  Some(TRUE - TRUE::Integer is False)  >= NULL  as Integer[38 ]) NOT Ilike TRUE = any(- -  FALSE  AND b'1000001101')  notnull
+AND Array[ ]	 OR not b'')	Select Distinct be1d.* , * for KEY share;

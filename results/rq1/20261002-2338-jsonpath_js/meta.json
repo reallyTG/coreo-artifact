@@ -1,0 +1,13 @@
+{
+  "experiment": "rq1",
+  "command": "experiment.py rq1 --runs 1 --first-run 1 --uniform-budget --timeout 60 --tag jsonpath_js --subjects jsonpath_js",
+  "base_seed": 20260921,
+  "runs": 1,
+  "first_run": 1,
+  "uniform_budget": true,
+  "quick": false,
+  "subjects": [
+    "jsonpath_js"
+  ],
+  "started": "2026-10-02T23:38:08"
+}

@@ -1,0 +1,117 @@
+$[?(!
+	
+ 	
+ 
+	
+match(	value(
+
+@[?(
+
+
+
+	match(value(@[?(		
+ 
+match(null,'[x-zx-z]?[^aa-d][a-da-d]+[^a-dy][^x-z][a-dc]?'
+
+	
+	 
+
+)
+
+	 ||!match('x'
+,	
+
+ "[a-dx-z][yx]{0,2}[^x-zd]+[x-zx-z]{2,4}[^yx-z][x-zz]*[^b][^x]+[z]*[^z]")&&! 	
+
+match(count($	 )
+   , 
+"[^a-d][yx-z][x-z][xd]|[^xx-z][^x-za-d][^c][x-zd][^a-d]+[^x-z]{0,1}[ca-d]"
+	
+
+	)&& 
+
+	
+
+match(@[-2].acadabbbadba[580][-6].ad[0][0][-3][205]
+,'[x]*'  
+	
+
+
+)&&match($['aa'][-4]['a'].badacbbbcdbb[-6]['db'][-3][0],'[^a-d]?[bx-z]')  ||match(	
+ 
+null,'[z][a-da-d]{6}')&&
+ 
+	  
+		!match(length(@[7][0]	
+
+
+)
+,
+	
+		
+"[^a-d]{1,3}[^x-za-d]?[x-zy]|[^x-z]*|[^x]?[a-da][^x-z][^ax-z][^x-z][^x-z]?[^xd]*|[^z][^a-db][x-zx-z][^z]?")&&
+ 
+
+
+		!  match('y',	
+
+ 	
+ "[^a-d]{0,2}[x-zd][a-d]*[^a-d]*[x-z]?")&&
+	 			 	match(80e-350000
+
+ , 
+
+
+	 
+'[^bx-z][^x-zx-z][a]+|[x-z]+[x-zx-z]?[x-zz]+|[x-z]*[d]?[a]{0,}[ya-d]{8}[^x-zx-z]')&&match(
+  count( 
+
+
+
+
+$[?(	match(
+		 
+
+count(	
+ 
+@[?(
+
+!	  
+ 
+
+	
+	match($[""]["b"][-20][606].ab.c.ad[-54]['bda'][-4060],'[d][^x-zx-z]{8}'
+ 
+
+)&&
+
+
+	
+
+	match(
+	value($[?(match(
+
+   null,	'[a-dx]{0,2}[^b]?[^yc][d]?[a]{0,2}[cx-z][za-d]{0,2}|[^x-za-d]?[^x][^a-d][z]|[y]+[x-zx-z]?[^a-d]*[^x-z][x-z]{1,2}[^x-z][y][^z]?|[^bx-z]?|[za-d]*[^xa]?[^ca-d][zx-z][x-z]*[^b][x-z]+[^x-zx-z]{0,2}|[x-za-d]*[^x-z][a-dx-z]{1,2}[bx-z]?[^x-za-d]?[x-za-d][z]+|[bd]{0,1}[a-d]+[x-z]{1,2}[^a-d][^x-z][^x-z]|[^ya-d][x-z]+[^x-zx-z]{1,2}[^x-z]+[^x-zb]{0}'
+	
+
+ 
+ 
+		)  
+
+
+	
+
+	)] 
+	
+
+),'[b]{0,2}[da-d][x-zx-z][^a-da]?[a-da-d][ba-d]+[^a-d][x-z]|[y]{0,1}[a-dx-z][a-d]+[^x-z]*|[a-d]{0,2}[x-zc][xx-z][^x-z][a-d]{0,1}[^a-da-d]{1,2}[^d]*|[a-dx-z][a-d]{1,}')&&
+match($[23][0],"[^b]*[x-z]?[^a-dx-z]{0,}[^x-z]?[z]{0,2}[a-d]{0}[^a-d][^za-d]|[a-dd]+[x-z][^x-zx-z]?[a-d]+[x-zx]*|[^x-z][^a-db][^a-d][^b][y]*[^c]{0}[^dx-z][^x-zc]|[^a][^a][x-zb]*[^d][x-z]{0,}")
+)][?(match(true,'[^a-d]'))]),'[a-d]')&&match(true,'[x-z]')||match(false,'[a-d]') 
+ )][?(match(null,'[^x-z]'))][?(
+ !
+		
+	
+match(			
+@,"[x-zx-z]"))]) 				 ,'[^xa-d][^x-z]'))][?(match(false,"[a-d]"))][?(match(true,"[^a-d]"))]),'[^a-d]'))]),'[^a-d]')||match(false,"[^a-d]") )]
+@@@
+[null]

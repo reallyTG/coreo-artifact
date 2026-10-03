@@ -1,0 +1,3 @@
+* ~section[readonly|= cdaabac i ].dc#dccbbbdcaada +* + [type |="" i]~ html:has(p.a , em.db#da>span> em#b.c~#c >[ type ] )
+@@@
+<!DOCTYPE html><html><body><section id="bb" title=""></section><em lang="abcdbaada-aabbddacbcb"> bbca c bcc</em></body></html>

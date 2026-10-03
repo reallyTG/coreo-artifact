@@ -1,0 +1,3 @@
+$[*][?!search(@.a,"zyz")&&!match(@.b,'z+z+y*x|z[xx]')&&!match(@,"y?yx|y{0,2}z{0,1}[^x-z]*z")]
+@@@
+[{"a":"z"},{"a":"xxxyzz","b":"x"},"xzxzzxyxxyxyyyzyz",{"a":"zxxzyzyyzyxzyx"},"z","zz","yx",{"a":"zx","b":"zx"},{"a":"y"},{"a":"xz","b":"z"},{"a":"zxyxzyx","b":"y"},"x","xx",{"a":"yx","b":"z"},{"a":"yzyxxyy","b":"yzzxyzyzxxxzz"},{"a":"xzxyxxzzzxzzzyyzx"},{"a":"yxxyxyzzyzy","b":"y"},{"a":"zxxyxyyzzxxyzxz","b":"xx"},{"a":"xzxxyzzzyzxzxzxyz"},{"a":"yyxzxxxxyy"},{"a":"zx"},{"a":"zy"},"x",{"a":"z","b":"z"},{"a":"yxzxzzyzyyyyzz"},{"a":"zx"},"zyxzzyxyyzzxzyyzxzzy",{"a":"xxzyzxyyy","b":"xzyzxxzyyxx"},{"a":"x","b":"xy"},{"a":"yz","b":"yz"}]

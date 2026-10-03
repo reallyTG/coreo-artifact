@@ -1,0 +1,3 @@
+a, body:has( section#c, .d~#a> [required|= ""].bd#ccbdcbab:scope + em , body[data-c ]:where(*[data-acaccaaab = "" ]+* ) ,[ title $="ab-a" i ].ca body :last-of-type )~ * ~b + *:is(* *:hover.cd#bd:lang( adcd )[href$= "ccdaabaadcdcb" i].d#ddbcadddcbad#da+ em , *.bbad.da.b:has(#dccacccccbdba[ title~=ba i ] + .ba:where(*[ id$= db ]:where( *.dabacdbcbdad#bcc[ disabled ]> [data-d ] ~em.c,*[ class*= bc-cbdbdadbb-cc-a-ddcbababcdaba-ca i][href ^=cc i ], a[href ~="a-d"].db:is( .b ).d:lang( bbbcddc )#ca ),em.c), [ id] ,.bd#dcadaaaac+[ data-da *="bacaaccadc" i ]>[lang *= "" i ] +#a#c + #cd[ lang ] + * ) )[type *= ca]#c.cc
+@@@
+<!DOCTYPE html><html><body><div data-d="">bab cc</div></body></html>

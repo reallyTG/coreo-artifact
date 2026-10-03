@@ -1,0 +1,2 @@
+subject,category,language,blind,a,b,metric,expected,n_regions,n_decided,n_for_a,n_for_b,outcome,explanation,explains_expected,explanation_evidence,best_ratio,best_prop,best_prop_relevance,best_region,shape_checked,n_shared_inputs,n_disagree_dropped,run
+cssselect_tailored,known,JavaScript,False,css_select_5_1_0,css_select_5_2_0,runtime_ns,b_faster,27,14,14,0,wrong_direction,,,,1.373,count_an_a,0.72,3.333-4.5,hits,279,0,1

@@ -1,0 +1,6 @@
+subject,category,language,blind,a,b,metric,expected,n_regions,n_decided,n_for_a,n_for_b,outcome,explanation,explains_expected,explanation_evidence,best_ratio,best_prop,best_prop_relevance,best_region,shape_checked,n_shared_inputs,n_disagree_dropped,run
+jsonpath_ng_latest,series,Python,True,jsonpath_ng_1_5_2,jsonpath_ng_1_5_3,runtime_ns,,26,0,0,0,no_difference,,,,,,,,hits,594,0,1
+jsonpath_ng_latest,series,Python,True,jsonpath_ng_1_5_3,jsonpath_ng_1_6_0,runtime_ns,,26,0,0,0,no_difference,,,,,,,,hits,594,0,1
+jsonpath_ng_latest,series,Python,True,jsonpath_ng_1_6_0,jsonpath_ng_1_6_1,runtime_ns,,26,0,0,0,no_difference,,,,,,,,hits,594,0,1
+jsonpath_ng_latest,series,Python,True,jsonpath_ng_1_6_1,jsonpath_ng_1_7_0,runtime_ns,,26,0,0,0,no_difference,,,,,,,,hits,594,0,1
+jsonpath_ng_latest,series,Python,True,jsonpath_ng_1_7_0,jsonpath_ng_1_8_0,runtime_ns,,26,0,0,0,no_difference,,,,,,,,hits,594,0,1

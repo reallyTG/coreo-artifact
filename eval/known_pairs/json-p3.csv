@@ -1,0 +1,2 @@
+package,commit,date,subject_line,pr,s1_perf_change,s1_reason,s2_input_dependent,s2_reason,s3_class,s3_reason,release_before,release_after,confounds,notes
+json-p3,3858099,2026-09-21,Fix RangeError on queries with very large result sets,,no,crash fix: rv.push(...results) threw RangeError past ~130k results; now pushes one at a time. Message states the CTS benchmark shows no slowdown; matched on 'performance/index.js' in body,,,n/a,,,,,"Correctness fix (2.3.1 throws, 2.3.2 returns), released 2.3.2 (2026-09-22); breaks equivalence on >130k-node results."

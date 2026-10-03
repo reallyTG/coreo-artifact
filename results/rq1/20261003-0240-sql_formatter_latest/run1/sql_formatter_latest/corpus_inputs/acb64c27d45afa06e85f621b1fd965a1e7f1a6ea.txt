@@ -1,0 +1,22 @@
+(WITH recursive c1d ( a_bced , ba_cddde1be /* c */  , "B", /* c */  ebadae1cb__ ,_ ,"""B. ""B  "".") AS(SELECT abad_1aacad.* ,( + NULLIF (+	+	- -  ebb / cast(+ X'0F0aaa7aF0'
+*
+"."""" a"."""   .a.a."._1a11aca + + -- c
+  case When TIME  E'x\'' at
+TIME ZONE
+_1acbc1c.c1eda.aabd_ab1eca / ".. .a  ".dcb.dbee1ae11e % + Array[]	* abea.aabd.". a.  B ""a"::real * + 805719184_03 not Between + Null *
+e1b11ac__ed.eca.b1_ca % U&'' ^ - 4e913 ^ (Select distinct on (null::Bigint[ 9]	^ 915826677_28126_03_379941872_88_02558169_0_3438 ^ + - Date U&'\0041x''x\0041x' ^ -  grouping ( adc1.ccdba1_1e::smallint::Boolean[	5738]	* TRUE / Null::REAL - .3e52865 >> ALL (SELECT
+ALL) Ilike false = array[]::REAL , - x'' Or not + x'7a7') + Null ILIKE ANY(TRUE) And NULL - ROW ()) _ddab1.*) ^  _a /
+B'011011'
+- Row() || + - B'0011' and false IS
+Not false and NOT
+ c then NULL When  - true And + b'000' then TRUE when FALSE	<> NULL THEN null When .291501e29  And - + false Then TRUE When
+ 'z ''x''zz''\' isnull Then True when	
+X'a7a' < FALSE THEN Null When .08802	Or True::TIMESTAMP THEN null WHEN
+baa
+^ b'011' Isnull then Null when Array[] % + X'0'	isnull THEN Null when b'1' + - x'a' Isnull THEN true WHEN Not True + + ROW () THEN FALSE When Array[ ] NOT Like false THEN false WHEN .892 or not - False THEN TRUE END::boolean[	]::Numeric[38861] -- c
+ * a as Double PRECISION) !~*	  "aB   a" At Time Zone false	not LIKE ALL(	- True Or c1b)  < false	Is  TRUE And NOT
+ E'\'\x41\n\\\\x\\' ISNULL Or Null::boolean,TRUE) + + +  Row ()::numeric::int ~ - DATE '\z'::varchar At Time ZONE "aa a" NOT BETWEEN 'xz'::Bigint AND null >=  Some(eccd >= false) IS  NOT
+ False
+AND TIMESTAMP E'y\'''''\'\x41')::c1b # ALL (SELECT  ALL *) !=  TRUE
+is NOT	 False as	b_bbbcd Union All select All
+ed.*) Select distinct " """"""".*) Union all select OFFSET 0 row ;

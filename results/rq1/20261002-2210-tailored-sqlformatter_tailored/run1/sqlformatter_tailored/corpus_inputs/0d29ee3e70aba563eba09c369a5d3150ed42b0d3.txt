@@ -1,0 +1,1 @@
+SELECT eede_b_e1bd.dd FROM ccc_e1cea__ WHERE bdb_db_accd IN ( 89 , 53416736 OR 428894) ;

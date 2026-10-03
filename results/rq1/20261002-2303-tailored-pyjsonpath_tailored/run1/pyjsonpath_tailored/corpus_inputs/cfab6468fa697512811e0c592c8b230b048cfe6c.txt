@@ -1,0 +1,3 @@
+$[?!match(@.a,'.+')&&!search(@,'[x-z]{1,2}y*y?z{2,4}')&&!search(@.b,"xy?")]
+@@@
+[{"a":"zz"},{"a":"yx"},"yzyyyyzyyxy",{"a":"zyxyzxx"},{"a":"xz","b":"x"},{"a":"xy","b":"yy"},{"a":"xyxxzyxyy"},{"a":"x"},"yzxz","y",{"a":"yy"},{"a":"yy"},{"a":"y"},"zz","x",{"a":"x"},"yzx","yzy","zy","y","xy",{"a":"x"},"y",{"a":"x","b":"yxyyxzxzyxz"},{"a":"yy","b":"yz"},"yzxyy",{"a":"yx"}]

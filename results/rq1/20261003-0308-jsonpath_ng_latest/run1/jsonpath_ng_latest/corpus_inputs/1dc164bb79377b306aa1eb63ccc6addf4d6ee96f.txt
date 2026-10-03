@@ -1,0 +1,71 @@
+$ 		
+
+[ 	 		?match( 		$,'[^x-zx-z]+[^x-z][a-d][^c][c]?[x-zx-z]*[a-d][^a-da-d]{0,2}|[x-z]{2,4}[^x-z][a-da-d]+[^dx-z]?[x-zx]?[^x-za]+[a-d]*[x-z]{0,2}[^x-za-d][^x-zx-z]?|[^x-z]*[^da-d]|[a-dx-z]?|[z]{0,1}[^a]+[x]*[^a-d][^z]+[y]?[^x-z][^a-da-d]|[x-z]+[a-d][a-d]|[x-z][^a-dx-z]|[^a-d]*[x-zc][a-d]*|[x-z][^x-z]{1,3}' 
+
+   )][ 
+ 	 	 	?!match(@[0].aababadcb,'[^a-d]' 	
+	
+)&&
+
+ 
+ 
+
+match(	$[0][0]
+ 
+ 
+[7] 
+.dbcbbd["adb\rba'\uD1DF\r\"\"'\ra"]	["dc"] 
+[1]
+ .d[22],"[^a-d][^dx-z][^zx][^a-da-d][a-d][a]*[x-z]{0,}[^x-z]"	
+)][	  	 	 	?	
+
+ 		 		match( 
+
+	 
+true,	"[^x-zx-z][a]+[cd][^a-da-d][^za-d]?[x-z]*|[x-z][x-z]+[^a-dx][^x-zx][a-d]*[x-z]*[a-dd]{2,4}[x-z][^xa-d]+[a-d]{7}|[^a-d][^a-dx-z][x-z]*[^a-d]|[^a-db]*[x-z]{1,3}|[x-zx-z]{0,2}[^c]|[x]?[x-za-d]+" 
+)&&!		match(
+	
+ count($[	?!			 match( 0e0630804		 
+
+	,"[xa-d][^x-z][z][y]?[a-d]|[x-z]?[^a-d]{0,1}[cz][^c]?[y][a]{0,2}[cx-z]|[^x-z][x-za-d]{0,2}[^x-za-d]?[^x][^a-d]|[x-z]+[^d]*[x-zx-z]?[^a-d]*|[x-z]{0,1}[x-za-d]+[a-db][^x-zd]?[yx-z][^a-da-d]*[a-d][^a-dx][x-zx-z][^x-z]+")][
+ 
+ ?match(	 	
+  false
+ ,
+"[x-zx-z]*[y][^x-za-d][za-d]{0,}[b]{0}[x-z][^x-z][^z][x-z]*[a-d]")  ][?
+	 	
+
+!match( 	
+
+ $ .d[0].bc.dc	[0]
+ 
+	
+
+
+	[84]['a'][80]	
+ 	.d	[-6][92]["abacd\t\"\b\"dd''"] 
+
+,	  '[x-z][^a-dy]{0,1}[^a-da-d]{1,2}[^d]*')||!match(@	['']  [840360000]
+
+ 	[0]
+
+
+
+	 .ba
+	
+ 	 
+ .ba	
+
+[0]  					.db	
+	 [-8],'[^a-dd]?[^x-z][^c][^za-d][y]?[a-d][^da-d][^a-dx-z][x-z]*[x-zb]')&&    
+match(null,"[^a-d][^a-da-d]{2,4}[x-z]|[^c]?[^y][x-z][^b]*[x-za-d]?|[a-da-d][a-d]+[^x-z][^x-zx-z][a-d][^z][x-zc][^ax-z][^a-da-d]|[^a-d]|[^a-da-d][xa-d]?[c]?|[^za-d]{8,}[a-da-d]*[a-d][^a-d][a-db]+[x-z]*[^za-d]|[^x-za][^x-za-d][c][z][x-zx-z]*[^a-d]*[x-zx-z]+[^a-da-d][b][^x-zx-z]+|[^z][a-d]?[z]+[^a-d][a-dx-z]{2,4}|[a-d][x-za]|[^cx-z]*[aa-d][a-d][^bz][a-dz][^x-z]?[^x-zb]+[z]*")	 	&&!
+match(false	
+,'[y][^y]*[^a-da-d]+[^ax-z]?[a-dy][^b][x][^x-zx-z]+[^a-d][a-d]?'),?match(false,"[a-d]")]),"[^bd]")||!match(@,"[x-z]+[^a-da-d]")
+ 
+,
+
+?match('y',"[^c]")	
+
+ 	]
+@@@
+[false]

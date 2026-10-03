@@ -1,0 +1,32 @@
+(WITH
+	 "a .B ""a""" As ( select All	from bdacdb1__1_ cross  join (  LATERAL
+_c_1_c_b.array_agg( ) Cross JOIN LATERAL (  WITH _1	 as	( With 
+ _cdcdbe AS(WITH Recursive
+ _ed__b1(deae,"a.""aB  B.a" ) AS  (( WITH _d_ As
+( With __c AS(WITH c1 AS(with Recursive /* c */  d__ddcdbe (a) As( ( WITH Recursive bde (eedbd_dad1) AS ( ( with recursive  ab( cae1db	,"B"".""aa.",  ".  " , -- c
+ ba_c  , e1cc1 ,"aBB..B""   " ,"""a") as ( (WITH RECURSIVE a("  BBa"". Ba" ) as (SELECT ALL FALSE At
+Time ZONE Array[not		 Exists (With	 RECURSIVE bed ( _1_ab ,d,e,  bb1c	,b, ". .B.a"""" """, dbdcbb_e1 ,ee ,_cb_b) as(( With	 recursive deeccbee( acc1 ) as( Select -- c
+  - case when Not - - _1[  NOT - _a_b1_ee.ab1_c_d	+ Grouping(	 not		 TIME ' \''x\'''::numeric( 9 )[ ][]
+at
+Time ZONE
+eb.ebddbade_1d[.78 BETWEEN - false And null =
+NULL AND eb_ Not LIKE true Or + acb_b1ccb] like null is NOT	 true) + - True & any(select
+  DISTINCT bd.*) ILIKE NULL <>
+ all  (
+select *,*,	bcee_a1_b_.*) and db_ccd  or array[ ] notnull] + Row( )  Like All(".a.a "._.c Is
+Not false) = Null or  _bde::int is false then true end *  E'\n\t\ny\101'	- U&'''x' at time Zone x'0700' not BETWEEN null::Text AND NULL > Any(Select *
+,* ,*) ISNULL aac,*,* , NULL::DOUBLE PRECISION Union Select) Select) Union
+all select *,bbe.*) Select distinct  * ,*) + dac1	< All (_acbaba1 is NOT  True) OR -- c
+ + - - x'F'] ^ True::TEXT + +
+TRUE		!~~ ANY( SELECT	Distinct *,cc.*) Not between -- c
+ + 9945 And true	<> Any ( Select
+fetch Next 2 rows only) and ROW () is NOT True -- c
+	as ed1e1e union ALL	select *) SELECT
+offset 4 Row	 For Key SHARE) UNION SELECT Distinct	a.*) Select * ,c.*) -- c
+ union All SELECT Distinct bd.*) Select ae1.* for key SHARE) Union select DISTINCT c1c.*) select distinct db1a.*) SELECT distinct " .B".* for Share) SELECT
+	FOR  Update) Select offset 288037 rows) -- c
+ union	All Select *) select distinct *,e_a.*)
+SELECT Distinct * ,c__.*) SELECT DISTINCT *
+For Share)
+
+""""" B")) SELECT) Union Select all for share;

@@ -1,0 +1,1 @@
+SELECT a.bddba1 FROM dac1c WHERE deec1ccd.a_ca IN( eae1aaa1._d1dcdacd);

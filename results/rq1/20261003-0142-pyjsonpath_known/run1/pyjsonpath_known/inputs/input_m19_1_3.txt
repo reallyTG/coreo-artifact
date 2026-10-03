@@ -1,0 +1,12 @@
+$
+
+
+
+.cb..*  
+ 				..*
+@@@
+ 
+["xzxxyyyx", 
+ 		
+	"yyxzyyx","xzyzyyx","zyxzxxzz","yxxzyyyzy",			
+	 	"yzzxy"]

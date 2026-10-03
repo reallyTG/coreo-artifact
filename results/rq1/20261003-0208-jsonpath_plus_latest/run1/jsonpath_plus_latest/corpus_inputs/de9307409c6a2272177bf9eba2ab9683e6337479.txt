@@ -1,0 +1,65 @@
+$..[0,600,-80,0]
+@@@
+[
+	{ 
+			 "dadbdadd"   
+:{		 
+
+  },
+
+		  
+ "cbb"
+:	
+ 
+"",
+	 "ccd": 
+  
+null 	
+
+	 ,"cbbaca"		 
+:				 
+false,  	 
+		 
+"bc"
+ : 
+
+	
+	 4.000e-0,"dacbdbd\r"	:false,		
+	"c"			
+ :
+
+	
+
+null,"adbadd\/\uDaaA\uDfe0\b\/d\\"	
+
+
+: 	true
+
+
+ ,"d":
+ 
+-7E00
+  	 		,"dad":
+	
+{ "acb":	
+	
+ null,  
+		"bcc":
+  	
+ 
+null}   
+ 
+}
+, 
+
+-60075,[]  ,	false	  
+
+ 	,0.0009793,false       ,null 
+ 		,{}	
+,"xzxyyzxyzz"
+	
+,
+true,[	]	
+
+
+ ]

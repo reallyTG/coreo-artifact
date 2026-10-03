@@ -1,0 +1,11 @@
+{
+  "name": "coreografa-sql-js-subject",
+  "private": true,
+  "description": "Node dependencies for the SQL parser subject.",
+  "dependencies": {
+    "node-sql-parser": "5.4.0",
+    "pgsql-ast-parser": "12.0.2",
+    "sql-formatter": "15.8.2",
+    "sql-parser-cst": "0.42.1"
+  }
+}

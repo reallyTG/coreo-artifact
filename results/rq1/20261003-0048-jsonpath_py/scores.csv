@@ -1,0 +1,7 @@
+subject,category,language,blind,a,b,metric,expected,n_regions,n_decided,n_for_a,n_for_b,outcome,explanation,explains_expected,explanation_evidence,best_ratio,best_prop,best_prop_relevance,best_region,shape_checked,n_shared_inputs,n_disagree_dropped,run
+jsonpath_py,implementations,Python,True,ng,jpython,runtime_ns,,27,10,0,10,reported,,,,0.156,count_descendant_segment,0.71,2.121-4.498,hits,512,5,1
+jsonpath_py,implementations,Python,True,ng,pyjsonpath,runtime_ns,,27,2,2,0,reported,,,,1.738,query_len,0.58,1-4.69,hits,512,5,1
+jsonpath_py,implementations,Python,True,ng,rfc9535,runtime_ns,,27,3,0,3,reported,,,,0.349,count_descendant_segment,0.71,2.121-4.498,hits,512,5,1
+jsonpath_py,implementations,Python,True,jpython,pyjsonpath,runtime_ns,,27,25,25,0,reported,,,,198.297,count_literal,0.41,44.86-96,hits,512,75,1
+jsonpath_py,implementations,Python,True,jpython,rfc9535,runtime_ns,,27,21,21,0,reported,,,,43.545,count_literal,0.41,2.14-4.579,hits,512,47,1
+jsonpath_py,implementations,Python,True,pyjsonpath,rfc9535,runtime_ns,,27,18,0,18,reported,,,,0.116,count_literal,0.41,44.86-96,hits,512,2,1

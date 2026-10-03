@@ -1,0 +1,9 @@
+{
+  "name": "coreografa-sqlcst-known-subject",
+  "private": true,
+  "description": "sql-parser-cst 0.21.2 and 0.22.0 side by side (known-pair subject).",
+  "dependencies": {
+    "sqlcst_0_21_2": "npm:sql-parser-cst@0.21.2",
+    "sqlcst_0_22_0": "npm:sql-parser-cst@0.22.0"
+  }
+}

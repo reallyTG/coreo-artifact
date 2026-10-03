@@ -1,0 +1,32 @@
+with da__a
+As ( -- c
+ with 	 "a""." as(With  RECURSIVE bb ( db_bdcbe, d_1edd1db, __1c1c,	daae ,"""  Baaa" ,_dc1eb_, ebbeba1,c1b_d_
+	, ebebc ,ae_deed) As ( ( With """ """"" AS( Select distinct ON ("B.B a""BB".ed1d_eb_ade[ Nullif ( cb.a1abb.eeaacccbc[ Not
+
+ - 1::interval - Row ( ) ILIKE null <> TRUE Is TRUE  AND 7322 And - Null isnull]::INTERVAL[][]::INTERVAL + TRUE::interval
+NOT LIKE SOME	( Array[
+]::NUMERIC IS false),FALSE) * -  U&'y''\0041''y' & + -- c
+ bac_bdd_c11	+ 2.e20  like All ( SELECT DISTINCT
+* ,* FOR Share) And  True::REAL ISNULL OR
+NULL]
+not
+ Between null !~ B'01001' AND true < all (SELECT  FOR	 NO KEY update) And
+ 1176223.142 NOTNULL) * , *), /* c */  _1c As (SELECT distinct *, " ""B".*), bdecc as (SELECT For KEY Share)
+
+,"""" AS(select DISTINCT * ,* For UPDATE),a As( Select Distinct
+"a B".*)	,abc as (Select  Distinct a_.* for
+SHARE), eaeb As(Select distinct *,	 dbe.*)
+, a11a	AS(  Select All) ,"""aB" /* c */  as ( select Distinct """ ".*
+for update), ded AS(SELECT distinct *	, c.*),c_cbade_c  AS( SELECT ALL) Select  Distinct bc1cdaa.* FOR Update) Union  select All) select	all c_1c.* , * FOR Update), " "" " AS(Select ee.*) ,	abbb__d1_c AS(SELECT  distinct *
+For SHARE) , ed1_ AS ( select
+ /* c */  for share)  ,". ." -- c
+ AS( Select	distinct *	FOR UPDATE),  b AS ( select  ed11.*),""" a""BBB"" ." As (Select distinct *), """." As(
+select DISTINCT * , *,	a1e1e.*) ,a
+as( SELECT All for	Share),bccd_eec	AS	(select For key SHARE),e_dc1ed1_d as( Select ALL)	SELECT	distinct	 * offset
+3 Rows),ddc /* c */ 	as( select distinct	*), bb1baacb /* c */  AS( Select ALL *)
+,_dd_ad
+AS(  Select *
+, d_a.*),c1a1	AS
+  (	SELECT),"a" As (SELECT -- c
+ * ,* , d1d111bda.*),b  AS (Select  For Share) ,d1b_be As	(SELECT),eb1_  As( SELECT Distinct _1.*,* OFFSET 867 ROWS) ,_bc1_bac as(select * For update)
+,	 "a " AS  ( Select All * For Share) select distinct	* For  Update;

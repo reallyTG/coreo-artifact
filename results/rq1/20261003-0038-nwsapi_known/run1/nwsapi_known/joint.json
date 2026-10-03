@@ -1,0 +1,107 @@
+{
+  "count_a|count_attr_modifier": {
+    "band": [
+      16,
+      19
+    ],
+    "best": 2.0,
+    "direction": "maximizing",
+    "extensive": "count_a",
+    "intensive": "count_attr_modifier",
+    "stalls": 1,
+    "window": [
+      21.0,
+      25.2
+    ]
+  },
+  "count_a|count_attribute_selector": {
+    "band": [
+      16,
+      19
+    ],
+    "best": 4.0,
+    "direction": "maximizing",
+    "extensive": "count_a",
+    "intensive": "count_attribute_selector",
+    "stalls": 0,
+    "window": [
+      21.0,
+      25.2
+    ]
+  },
+  "count_a|count_complex_selector_list": {
+    "band": [
+      16,
+      19
+    ],
+    "best": 4.0,
+    "direction": "maximizing",
+    "extensive": "count_a",
+    "intensive": "count_complex_selector_list",
+    "stalls": 1,
+    "window": [
+      21.0,
+      25.2
+    ]
+  },
+  "count_class_attr|count_type_selector": {
+    "band": [
+      10,
+      12
+    ],
+    "best": 9.0,
+    "direction": "maximizing",
+    "extensive": "count_class_attr",
+    "intensive": "count_type_selector",
+    "stalls": 0,
+    "window": [
+      27.0,
+      32.4
+    ]
+  },
+  "count_span|count_complex_selector_list": {
+    "band": [
+      10,
+      12
+    ],
+    "best": 22.0,
+    "direction": "maximizing",
+    "extensive": "count_span",
+    "intensive": "count_complex_selector_list",
+    "stalls": 0,
+    "window": [
+      4.0,
+      5.0
+    ]
+  },
+  "count_tchar|count_type_selector": {
+    "band": [
+      10,
+      12
+    ],
+    "best": 1.0,
+    "direction": "maximizing",
+    "extensive": "count_tchar",
+    "intensive": "count_type_selector",
+    "stalls": 0,
+    "window": [
+      345.0,
+      414.0
+    ]
+  },
+  "count_text_run|count_type_selector": {
+    "band": [
+      12,
+      14
+    ],
+    "best": 9.0,
+    "direction": "maximizing",
+    "extensive": "count_text_run",
+    "intensive": "count_type_selector",
+    "stalls": 0,
+    "window": [
+      56.0,
+      67.2
+    ]
+  }
+}

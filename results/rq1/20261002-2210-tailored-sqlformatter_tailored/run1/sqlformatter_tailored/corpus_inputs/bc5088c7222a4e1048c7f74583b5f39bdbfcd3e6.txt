@@ -1,0 +1,1 @@
+SELECT d1bedeed1_ , 22 FROM ea___;

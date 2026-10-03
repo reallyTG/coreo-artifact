@@ -1,0 +1,3 @@
+$[?search(@.a,'z')&&!search(@.b,"yx*|[xx-z]y{1,2}.")&&!search(@.b,'zz+|x')&&search(@,'z')&&match(@.a,"zxy|zy?")&&search(@,"y*.{0,2}")&&!search(@.b,"[^z]?")&&match(@,'y')&&search(@.a,".+y*|y?z")&&match(@.b,'z{1,2}')&&match(@,"[y]+x?y")&&match(@.b,'z{1,3}.+|[yz]x*y?')&&!match(@.b,'.|z{1,2}..{1,2}y')&&!search(@.b,"z|y?")&&search(@.b,'y')]
+@@@
+[{"a":"z"},{"a":"zxzxyyxzy"},{"a":"xyxzyxxy","b":"yy"},{"a":"yz"},{"a":"xz"},{"a":"xy"},"zzyzxyxzzxxy",{"a":"zxyzxxyzyxz","b":"xzz"},{"a":"yyxzxxxzzyx","b":"y"}]

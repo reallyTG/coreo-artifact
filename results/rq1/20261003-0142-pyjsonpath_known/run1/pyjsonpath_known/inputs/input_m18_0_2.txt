@@ -1,0 +1,9 @@
+$ ..[*,34:-560:20
+
+, *] ..* .ba  .*	.acbcb	
+.c
+@@@
+[
+"x",true 
+,	true 	,false	,
+true, { },false]  

@@ -1,0 +1,3 @@
+$..bd[*].b
+@@@
+{"cbbcdcabbc":"x","bdaaabbbdaab":"xyy","bbbdabcd":["yx","yzz",40,24,"yx",5],"bcabddbbb":"xzy","accbabdcbbc":0,"dddbadadcb":{"a":2},"dacadbcc":{"a":6},"dbcbccaadc":{"a":"xz","b":[2,0,"yyy","xy","x",0,0,4,"x",60,"xx"]},"bdaaddabd":{"a":"z"},"dcdccbdc":{"a":40,"b":[44,99,"yyz"]},"dccbbcbc":"yyx","dbcbaccbcc":[0,40,"z","yz",0,"yyx",0],"caccbabbcabb":"z","bdacdbddabdb":{"a":0},"bcbbbddb":10,"dbcaacab":[8,"zyz"],"dbacbbdbbac":"xx","dacbcabac":65,"bccbcaaca":{"a":5,"b":[44,"yz",0,0,58]},"dbaddcbbc":[0],"adbbbaad":["zzy"],"dccaccbaadcc":{"a":"xx","b":["xx","zx","yx",0,0],"c":0},"cbbdadcd":["x",0,63,0,"yxy"],"adddcdcddcc":{"a":0},"bcbabbaddcd":[0,0,"z"]}

@@ -1,0 +1,513 @@
+$ ./.venv/bin/python -u run.py domselector_known --seed=20260922 --output-dir=./results/rq1/20261002-2349-domselector_known/run1/domselector_known --max-wall-seconds=3420
+
+[props] max_repetition=20 (bounds * and + during generation)
+[props]   count_a                            0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_an_a                         0..inf  no governing repetition (recursion or alternative)
+[props]   count_an_b_sign                    0..inf  no governing repetition (recursion or alternative)
+[props]   count_attr_ident                   0..inf  no governing repetition (recursion or alternative)
+[props]   count_attr_matcher_ws              0..inf  no governing repetition (recursion or alternative)
+[props]   count_attr_modifier                0..inf  no governing repetition (recursion or alternative)
+[props]   count_attr_value                   0..inf  no governing repetition (recursion or alternative)
+[props]   count_attr_value_words             0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_attribute_selector           0..inf  no governing repetition (recursion or alternative)
+[props]   count_attrs                        0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_b                            0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_class_attr                   0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_class_list                   0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_class_selector               0..inf  no governing repetition (recursion or alternative)
+[props]   count_combinator                   0..inf  no governing repetition (recursion or alternative)
+[props]   count_comma                        0..inf  no governing repetition (recursion or alternative)
+[props]   count_complex_selector             1..inf  no governing repetition (recursion or alternative)
+[props]   count_complex_selector_in_has       0..inf  no governing repetition (recursion or alternative)
+[props]   count_complex_selector_list        1..inf  no governing repetition (recursion or alternative)
+[props]   count_complex_selector_list_in_has       0..inf  no governing repetition (recursion or alternative)
+[props]   count_data_attr                    0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_digits                       0..inf  no governing repetition (recursion or alternative)
+[props]   count_div                          0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_em                           0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_flow_content                 0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_flow_item                    0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_href_attr                    0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_id_attr                      0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_id_selector                  0..inf  no governing repetition (recursion or alternative)
+[props]   count_input                        0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_lang_attr                    0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_lang_range                   0..inf  no governing repetition (recursion or alternative)
+[props]   count_lang_tag                     0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_lparen                       0..inf  no governing repetition (recursion or alternative)
+[props]   count_more_complex_selector        0..inf  no governing repetition (recursion or alternative)
+[props]   count_more_complex_selector_in_has       0..inf  no governing repetition (recursion or alternative)
+[props]   count_more_node                    0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_more_relative_selector       0..inf  no governing repetition (recursion or alternative)
+[props]   count_more_value_word              0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_name                         0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_namechar                     0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_node                         1..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_nth_function                 0..inf  no governing repetition (recursion or alternative)
+[props]   count_p                            0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_phrasing_content             0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_phrasing_element             0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_phrasing_item                0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_pseudo_class_function        0..inf  no governing repetition (recursion or alternative)
+[props]   count_pseudo_class_function_in_has       0..inf  no governing repetition (recursion or alternative)
+[props]   count_pseudo_class_ident           0..inf  no governing repetition (recursion or alternative)
+[props]   count_pseudo_class_selector        0..inf  no governing repetition (recursion or alternative)
+[props]   count_pseudo_class_selector_in_has       0..inf  no governing repetition (recursion or alternative)
+[props]   count_relative_combinator          0..inf  no governing repetition (recursion or alternative)
+[props]   count_relative_selector_list       0..inf  no governing repetition (recursion or alternative)
+[props]   count_rparen                       0..inf  no governing repetition (recursion or alternative)
+[props]   count_section                      0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_sign                         0..inf  no governing repetition (recursion or alternative)
+[props]   count_signed_integer               0..inf  no governing repetition (recursion or alternative)
+[props]   count_span                         0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_subclass_selectors           0..inf  no governing repetition (recursion or alternative)
+[props]   count_subclass_selectors_in_has       0..inf  no governing repetition (recursion or alternative)
+[props]   count_tchar                        0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_text_run                     0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_title_attr                   0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_type_attr                    0..inf  governed by <more_node>* in <doc>, capped at 20 by max_repetition
+[props]   count_type_selector                0..inf  no governing repetition (recursion or alternative)
+[props]   count_wq_name                      0..inf  no governing repetition (recursion or alternative)
+[props] identical to count_attr_matcher_ws, not derived: count_attr_matcher
+[props] identical to count_attribute_selector, not derived: count_attr_name, count_lbracket, count_rbracket
+[props] identical to count_attrs, not derived: count_attrs_data, count_attrs_id, count_attrs_lang, count_attrs_title
+[props] identical to count_complex_selector, not derived: count_compound
+[props] identical to count_complex_selector_in_has, not derived: count_compound_in_has
+[props] identical to count_digits, not derived: count_digit
+[props] identical to count_flow_item, not derived: count_flow_element
+[props] identical to count_input, not derived: count_input_attrs, count_input_checked, count_input_disabled, count_input_readonly, count_input_required
+[props] identical to count_lang_tag, not derived: count_lang_subtag
+[props] identical to count_nth_function, not derived: count_an_plus_b
+[props] identical to count_phrasing_item, not derived: count_phrasing_leaf
+[props] identical to count_relative_selector_list, not derived: count_relative_selector
+[props] identical to count_subclass_selectors, not derived: count_subclass_selector
+[props] identical to count_subclass_selectors_in_has, not derived: count_subclass_selector_in_has
+[props] identical to count_wq_name, not derived: count_tag
+[props] WARNING <complex_selector> is a separated list written as recursion; write it as `<complex_selector> ::= <compound> <more_compound>*` with `<more_compound> ::= <separator> <compound>` so the length can be banded
+[props] WARNING <subclass_selectors> is a list written as recursion; write it as `<subclass_selectors> ::= <subclass_selector>+` so the length can be banded
+[props] WARNING <attr_ident> is a separated list written as recursion; write it as `<attr_ident> ::= <name> <more_name>*` with `<more_name> ::= <separator> <name>` so the length can be banded
+[props] WARNING <complex_selector_in_has> is a separated list written as recursion; write it as `<complex_selector_in_has> ::= <compound_in_has> <more_compound_in_has>*` with `<more_compound_in_has> ::= <separator> <compound_in_has>` so the length can be banded
+[props] WARNING <subclass_selectors_in_has> is a list written as recursion; write it as `<subclass_selectors_in_has> ::= <subclass_selector_in_has>+` so the length can be banded
+[props] WARNING <digits> is a list written as recursion; write it as `<digits> ::= <digit>+` so the length can be banded
+[props] WARNING <class_list> is a separated list written as recursion; write it as `<class_list> ::= <name> <more_name>*` with `<more_name> ::= <separator> <name>` so the length can be banded
+[props] WARNING <lang_tag> is a separated list written as recursion; write it as `<lang_tag> ::= <lang_subtag> <more_lang_subtag>*` with `<more_lang_subtag> ::= <separator> <lang_subtag>` so the length can be banded
+[props] fixed count, not derived: <doc>, <selector_list>
+[domselector_known] properties: ['count_complex_selector_list', 'count_more_complex_selector', 'count_comma', 'count_complex_selector', 'count_combinator', 'count_subclass_selectors', 'count_type_selector', 'count_wq_name', 'count_class_selector', 'count_id_selector', 'count_attribute_selector', 'count_pseudo_class_selector', 'count_name', 'count_attr_modifier', 'count_attr_value', 'count_attr_matcher_ws', 'count_pseudo_class_ident', 'count_pseudo_class_function', 'count_namechar', 'count_attr_value_words', 'count_attr_ident', 'count_relative_selector_list', 'count_nth_function', 'count_lparen', 'count_rparen', 'count_lang_range', 'count_more_value_word', 'count_more_relative_selector', 'count_lang_tag', 'count_relative_combinator', 'count_complex_selector_in_has', 'count_an_b_sign', 'count_an_a', 'count_digits', 'count_signed_integer', 'count_sign', 'count_subclass_selectors_in_has', 'count_pseudo_class_selector_in_has', 'count_pseudo_class_function_in_has', 'count_complex_selector_list_in_has', 'count_more_complex_selector_in_has', 'count_node', 'count_p', 'count_attrs', 'count_id_attr', 'count_title_attr', 'count_data_attr', 'count_lang_attr', 'count_class_attr', 'count_class_list', 'count_phrasing_content', 'count_text_run', 'count_tchar', 'count_phrasing_item', 'count_input', 'count_type_attr', 'count_a', 'count_href_attr', 'count_phrasing_element', 'count_em', 'count_b', 'count_span', 'count_section', 'count_flow_content', 'count_flow_item', 'count_div', 'count_more_node', 'doc_depth', 'doc_bytes', 'selector_len', 'selector_nesting']
+[domselector_known] auto-stratified exploration: <more_node>[(0, 0), (1, 1), (2, 4), (5, 10), (11, 24)] x <flow_item>[(1, 1), (2, 3), (4, 6), (7, 12), (13, 24)] x <phrasing_item>[(1, 1), (2, 3), (4, 6), (7, 12), (13, 24)] ...
+fandango:WARNING: Symbol <more_node> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <div> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <div> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <div> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <div> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <div> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+fandango:WARNING: Symbol <p> defined, but not used
+fandango:WARNING: Symbol <section> defined, but not used
+  [explore] 5 axes, 25 strata, 3/stratum -> 75 inputs
+[domselector_known] iter 0 (explore): corpus=675 (+675 new this run)
+[select] relevance (max |rho| vs any metric on any system): count_tchar=0.69, count_attribute_selector=0.23, count_text_run=0.65, count_attr_value=0.16, count_a=0.64, count_attr_matcher_ws=0.16, doc_bytes=0.63, count_pseudo_class_selector=0.24, count_title_attr=0.63, selector_len=0.21, count_attrs=0.63, count_complex_selector_list=0.29, count_input=0.60, count_pseudo_class_ident=0.27, count_data_attr=0.59, count_class_selector=0.16, doc_depth=0.58, count_attr_modifier=0.16, count_name=0.57, count_comma=0.31, count_href_attr=0.55, count_class_list=0.55, count_sign=0.09, count_type_attr=0.55, selector_nesting=0.13, count_class_attr=0.54, count_lparen=0.13, count_more_value_word=0.54, count_rparen=0.13, count_lang_attr=0.53, count_complex_selector=0.26, count_attr_value_words=0.53, count_more_complex_selector=0.29, count_id_attr=0.52, count_pseudo_class_function=0.12, count_lang_tag=0.51, count_flow_item=0.48, count_type_selector=0.16, count_node=0.46, count_flow_content=0.38, count_nth_function=0.11, count_div=0.36, count_combinator=0.25, count_an_b_sign=0.27, count_subclass_selectors=0.26, count_phrasing_item=0.18, count_section=0.25, count_pseudo_class_selector_in_has=0.17, count_span=0.25, count_pseudo_class_function_in_has=0.17, count_em=0.23, count_digits=0.17, count_id_selector=0.20, count_namechar=0.20, count_b=0.19, count_signed_integer=0.19, count_p=0.10, count_more_complex_selector_in_has=0.19, count_complex_selector_list_in_has=0.19, count_complex_selector_in_has=0.12, count_relative_combinator=0.18, count_relative_selector_list=0.13, count_wq_name=0.18, count_phrasing_element=0.17, count_an_a=0.11, count_subclass_selectors_in_has=0.11, count_more_node=0.16, count_lang_range=0.14, count_phrasing_content=0.14, count_attr_ident=0.12, count_more_relative_selector=0.13
+[select] comparative relevance (max |rho| vs a between-system ratio): count_tchar=0.22, count_attribute_selector=0.38, count_text_run=0.26, count_attr_value=0.36, count_a=0.29, count_attr_matcher_ws=0.36, doc_bytes=0.26, count_pseudo_class_selector=0.35, count_title_attr=0.27, selector_len=0.34, count_attrs=0.27, count_complex_selector_list=0.33, count_input=0.24, count_pseudo_class_ident=0.33, count_data_attr=0.27, count_class_selector=0.32, doc_depth=0.25, count_attr_modifier=0.32, count_name=0.32, count_comma=0.32, count_href_attr=0.21, count_class_list=0.27, count_sign=0.31, count_type_attr=0.30, selector_nesting=0.31, count_class_attr=0.23, count_lparen=0.31, count_more_value_word=0.27, count_rparen=0.31, count_lang_attr=0.27, count_complex_selector=0.30, count_attr_value_words=0.28, count_more_complex_selector=0.30, count_id_attr=0.29, count_pseudo_class_function=0.30, count_lang_tag=0.28, count_flow_item=0.23, count_type_selector=0.29, count_node=0.28, count_flow_content=0.24, count_nth_function=0.29, count_div=0.25, count_combinator=0.28, count_an_b_sign=0.28, count_subclass_selectors=0.26, count_phrasing_item=0.27, count_section=0.23, count_pseudo_class_selector_in_has=0.27, count_span=0.22, count_pseudo_class_function_in_has=0.27, count_em=0.22, count_digits=0.27, count_id_selector=0.25, count_namechar=0.21, count_b=0.24, count_signed_integer=0.20, count_p=0.26, count_more_complex_selector_in_has=0.25, count_complex_selector_list_in_has=0.25, count_complex_selector_in_has=0.26, count_relative_combinator=0.21, count_relative_selector_list=0.25, count_wq_name=0.22, count_phrasing_element=0.22, count_an_a=0.25, count_subclass_selectors_in_has=0.24, count_more_node=0.24, count_lang_range=0.22, count_phrasing_content=0.22, count_attr_ident=0.22, count_more_relative_selector=0.22
+[select] scored on the comparison rather than on the metric: count_attribute_selector (0.23 -> 0.38), count_attr_value (0.16 -> 0.36), count_attr_matcher_ws (0.16 -> 0.36), count_pseudo_class_selector (0.24 -> 0.35), selector_len (0.21 -> 0.34), count_pseudo_class_ident (0.27 -> 0.33), count_class_selector (0.16 -> 0.32), count_attr_modifier (0.16 -> 0.32), count_sign (0.09 -> 0.31), selector_nesting (0.13 -> 0.31), count_lparen (0.13 -> 0.31), count_rparen (0.13 -> 0.31), count_pseudo_class_function (0.12 -> 0.30), count_type_selector (0.16 -> 0.29), count_nth_function (0.11 -> 0.29), count_phrasing_item (0.18 -> 0.27), count_pseudo_class_selector_in_has (0.17 -> 0.27), count_pseudo_class_function_in_has (0.17 -> 0.27), count_digits (0.17 -> 0.27), count_id_selector (0.20 -> 0.25), count_p (0.10 -> 0.26), count_more_complex_selector_in_has (0.19 -> 0.25), count_complex_selector_list_in_has (0.19 -> 0.25), count_complex_selector_in_has (0.12 -> 0.26), count_relative_selector_list (0.13 -> 0.25), count_an_a (0.11 -> 0.25), count_subclass_selectors_in_has (0.11 -> 0.24), count_more_node (0.16 -> 0.24), count_lang_range (0.14 -> 0.22), count_phrasing_content (0.14 -> 0.22), count_attr_ident (0.12 -> 0.22), count_more_relative_selector (0.13 -> 0.22)
+[select] dropped count_attr_value: |rho|=0.91 with count_attribute_selector, which is already kept
+[select] dropped count_a: |rho|=0.95 with count_text_run, which is already kept
+[select] dropped count_attr_matcher_ws: |rho|=0.91 with count_attribute_selector, which is already kept
+[select] dropped doc_bytes: |rho|=0.88 with count_text_run, which is already kept
+[select] dropped count_title_attr: over the 4-property cap
+[select] dropped selector_len: over the 4-property cap
+[select] dropped count_attrs: over the 4-property cap
+[select] dropped count_complex_selector_list: over the 4-property cap
+[select] dropped count_input: over the 4-property cap
+[select] dropped count_pseudo_class_ident: over the 4-property cap
+[select] dropped count_data_attr: over the 4-property cap
+[select] dropped count_class_selector: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_attr_modifier: over the 4-property cap
+[select] dropped count_name: over the 4-property cap
+[select] dropped count_comma: over the 4-property cap
+[select] dropped count_href_attr: over the 4-property cap
+[select] dropped count_class_list: over the 4-property cap
+[select] dropped count_sign: over the 4-property cap
+[select] dropped count_type_attr: over the 4-property cap
+[select] dropped selector_nesting: over the 4-property cap
+[select] dropped count_class_attr: over the 4-property cap
+[select] dropped count_lparen: over the 4-property cap
+[select] dropped count_more_value_word: over the 4-property cap
+[select] dropped count_rparen: over the 4-property cap
+[select] dropped count_lang_attr: over the 4-property cap
+[select] dropped count_complex_selector: over the 4-property cap
+[select] dropped count_attr_value_words: over the 4-property cap
+[select] dropped count_more_complex_selector: over the 4-property cap
+[select] dropped count_id_attr: over the 4-property cap
+[select] dropped count_pseudo_class_function: over the 4-property cap
+[select] dropped count_lang_tag: over the 4-property cap
+[select] dropped count_flow_item: over the 4-property cap
+[select] dropped count_type_selector: over the 4-property cap
+[select] dropped count_node: over the 4-property cap
+[select] dropped count_flow_content: over the 4-property cap
+[select] dropped count_nth_function: over the 4-property cap
+[select] dropped count_div: over the 4-property cap
+[select] dropped count_combinator: over the 4-property cap
+[select] dropped count_an_b_sign: over the 4-property cap
+[select] dropped count_subclass_selectors: over the 4-property cap
+[select] dropped count_phrasing_item: over the 4-property cap
+[select] dropped count_section: over the 4-property cap
+[select] dropped count_pseudo_class_selector_in_has: over the 4-property cap
+[select] dropped count_span: over the 4-property cap
+[select] dropped count_pseudo_class_function_in_has: over the 4-property cap
+[select] dropped count_em: over the 4-property cap
+[select] dropped count_digits: over the 4-property cap
+[select] dropped count_id_selector: over the 4-property cap
+[select] dropped count_namechar: over the 4-property cap
+[select] dropped count_b: over the 4-property cap
+[select] dropped count_signed_integer: over the 4-property cap
+[select] dropped count_p: over the 4-property cap
+[select] dropped count_more_complex_selector_in_has: over the 4-property cap
+[select] dropped count_complex_selector_list_in_has: over the 4-property cap
+[select] dropped count_complex_selector_in_has: over the 4-property cap
+[select] dropped count_relative_combinator: over the 4-property cap
+[select] dropped count_relative_selector_list: over the 4-property cap
+[select] dropped count_wq_name: over the 4-property cap
+[select] dropped count_phrasing_element: over the 4-property cap
+[select] dropped count_an_a: over the 4-property cap
+[select] dropped count_subclass_selectors_in_has: over the 4-property cap
+[select] dropped count_more_node: over the 4-property cap
+[select] dropped count_lang_range: over the 4-property cap
+[select] dropped count_phrasing_content: over the 4-property cap
+[select] dropped count_attr_ident: over the 4-property cap
+[select] dropped count_more_relative_selector: over the 4-property cap
+[select] count_attribute_selector stands for count_attr_value, count_attr_matcher_ws (indistinguishable here)
+[select] count_text_run stands for count_a, doc_bytes (indistinguishable here)
+[select] joint fit uses 4 of 71 properties: count_attribute_selector, count_pseudo_class_selector, count_text_run, count_tchar (1,296 model fits)
+[domselector_known] loop targets 4 of 71 properties: count_attribute_selector, count_pseudo_class_selector, count_text_run, count_tchar
+[domselector_known] targeting 8 regions: runtime_ns_divergence, count_pseudo_class_selector_dominance, count_text_run_undecided0, count_tchar_x_count_attribute_selector_joint, count_attribute_selector_beyond, runtime_ns_high, count_text_run_edge0, runtime_ns_sparse0
+  [runtime_ns_divergence] 20s: no new inputs
+  [count_pseudo_class_selector_dominance] settling count_pseudo_class_selector =0 would decide 6 dominance verdict(s): domselector_8_2_4 vs domselector_9_1_1 (runtime_ns undecided) and 5 more
+  [count_pseudo_class_selector_dominance] 216s: +9 new input(s), 6 distinct shape(s), 9 measured
+  [count_text_run_undecided0] 72 comparison(s) undecided in count_text_run =0: domselector_8_2_4 vs domselector_8_2_5 on runtime_ns and 71 more -> <more_node>{0,0}
+fandango:WARNING: Symbol <more_node> defined, but not used
+  [count_text_run_undecided0] 230s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_tchar_x_count_attribute_selector_joint] count_attribute_selector spans 0..18 overall, 0..1 at count_tchar in [345,414]; maximizing it at <more_node>{10,12}
+  [count_tchar_x_count_attribute_selector_joint] 4 of 4 seeds do not parse; seeding with 0.
+[budget] generation cut at 300s after 50 generations (403 solutions); this request is not reproducible
+  [soft] maximizing count_attribute_selector: 403 candidates, best=55, keeping 10 spanning 55..32
+  [count_tchar_x_count_attribute_selector_joint] 547s: +10 new input(s), 7 distinct shape(s), 10 measured [CUT: generation budget, not reproducible]
+  [count_attribute_selector_beyond] rung 1
+  [count_attribute_selector_beyond] 392s: +10 new input(s), 2 distinct shape(s), 10 measured
+  [runtime_ns_high] 25s: no new inputs
+  [count_text_run_edge0] <more_node>{12,14} for the top 15% of count_text_run ([56,86])
+  [count_text_run_edge0] 210s: +10 new input(s), 10 distinct shape(s), 10 measured
+[WARNING] wall-clock budget reached after 1 of 1 inputs; keeping what is measured.
+  [runtime_ns_sparse0] 47s: no new inputs
+[domselector_known] iter 1: corpus=1116 (+441 new)
+[domselector_known] wall-clock budget (3420s) reached before iteration 2; stopping with the corpus intact.
+[compare] runtime_ns: 124 inputs, 9 systems (paired; ratios, 1.10x equivalence band)
+[compare] overall verdicts are weighted by what the corpus contains, which the loop itself shapes; the per-region lines are the portable claim.
+[compare] count_attribute_selector bins move with count_node (3..11 across bins); count_tchar (23..232 across bins) -- those regions are joint, not count_attribute_selector findings
+[compare] count_name bins move with count_attribute_selector (1..3 across bins); count_node (1..12.5 across bins); count_tchar (7..237.5 across bins) -- those regions are joint, not count_name findings
+[compare] count_node bins move with count_attribute_selector (1..17.5 across bins); count_name (12..156 across bins); count_tchar (8..235 across bins) -- those regions are joint, not count_node findings
+[compare] count_tchar bins move with count_attribute_selector (1..20 across bins); count_name (8..152 across bins); count_node (1..13 across bins) -- those regions are joint, not count_tchar findings
+  domselector_8_2_4 and domselector_8_2_5 equivalent: ratio 1.00x within the equivalence band (95% CI 0.98-1.01, n=124)
+      undecided on count_attribute_selector (confounded) in [28.2,55] -- needs more inputs
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02) -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3), [5.196,9) -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02) -- needs more inputs
+  domselector_8_2_4 and domselector_9_0_3 equivalent: ratio 1.00x within the equivalence band (95% CI 0.98-1.02, n=124)
+      undecided on count_attribute_selector (confounded) in [28.2,55] -- needs more inputs
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02) -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3), [5.196,9) -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02) -- needs more inputs
+  domselector_8_2_4 and domselector_9_0_4 equivalent: ratio 1.03x within the equivalence band (95% CI 1.01-1.05, n=124)
+      undecided on count_attribute_selector (confounded) in [28.2,55] -- needs more inputs
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02) -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3), [5.196,9) -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02), [63.36,200.5) -- needs more inputs
+  domselector_8_2_4 and domselector_9_1_0 equivalent: ratio 1.05x within the equivalence band (95% CI 1.03-1.07, n=124)
+      undecided on count_attribute_selector (confounded) in [3.803,7.416), [14.46,28.2), [28.2,55] -- needs more inputs
+      undecided on count_name (confounded) in [9.597,21.02), [21.02,46.05), [46.05,100.9) -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3), [3,5.196), [5.196,9) -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02), [63.36,200.5) -- needs more inputs
+  domselector_8_2_4 and domselector_9_1_1 equivalent: ratio 1.04x within the equivalence band (95% CI 1.02-1.07, n=124)
+      undecided on count_attribute_selector (confounded) in [1,1.95), [3.803,7.416), [14.46,28.2), [28.2,55] -- needs more inputs
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02), [21.02,46.05), [46.05,100.9) -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3), [3,5.196), [5.196,9), [15.59,27] -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02), [20.02,63.36), [63.36,200.5) -- needs more inputs
+  domselector_8_2_4 and domselector_9_1_2 equivalent: ratio 1.03x within the equivalence band (95% CI 1.02-1.06, n=124)
+      undecided on count_attribute_selector (confounded) in [14.46,28.2), [28.2,55] -- needs more inputs
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02), [46.05,100.9) -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3), [3,5.196), [5.196,9), [15.59,27] -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02), [20.02,63.36) -- needs more inputs
+  domselector_8_2_4 and domselector_9_2_1 equivalent: ratio 1.06x within the equivalence band (95% CI 1.04-1.09, n=124)
+      DEPENDS ON SAMPLING: counting each count_name bin once gives 1.06x (95% CI 1.03-1.11, 5 bins, equal weight per bin), verdict 'undecided' not 'equivalent'
+      ... and 1 count_name bin(s) have too little data to enter that: [2,4.381)
+      DEPENDS ON SAMPLING: counting each count_node bin once gives 1.08x (95% CI 1.04-1.11, 6 bins, equal weight per bin), verdict 'undecided' not 'equivalent'
+      undecided on count_attribute_selector (confounded) in [1,1.95), [1.95,3.803), [3.803,7.416), [14.46,28.2), [28.2,55] -- needs more inputs
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02), [21.02,46.05), [46.05,100.9) -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3), [3,5.196), [5.196,9), [15.59,27] -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02), [63.36,200.5) -- needs more inputs
+  domselector_8_2_4 vs domselector_9_2_2 undecided: domselector_8_2_4 ahead by 1.10x but the 95% CI (1.07-1.11, n=124) spans the equivalence band
+      undecided on count_attribute_selector (confounded) in =0, [1,1.95), [1.95,3.803), [3.803,7.416), [14.46,28.2), [28.2,55] -- needs more inputs
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02), [21.02,46.05), [46.05,100.9), [100.9,221] -- needs more inputs
+      undecided on count_node (confounded) in [1,1.732), [1.732,3), [3,5.196), [5.196,9), [9,15.59), [15.59,27] -- needs more inputs
+      undecided on count_tchar (confounded) in =0, [6.328,20.02), [20.02,63.36), [63.36,200.5), [200.5,634.3) -- needs more inputs
+  domselector_8_2_5 and domselector_9_0_3 equivalent: ratio 1.02x within the equivalence band (95% CI 1.01-1.03, n=124)
+      undecided on count_node (confounded) in [5.196,9) -- needs more inputs
+  domselector_8_2_5 and domselector_9_0_4 equivalent: ratio 1.04x within the equivalence band (95% CI 1.02-1.06, n=124)
+      undecided on count_attribute_selector (confounded) in [1,1.95), [3.803,7.416), [28.2,55] -- needs more inputs
+      undecided on count_name (confounded) in [9.597,21.02) -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3), [5.196,9), [15.59,27] -- needs more inputs
+      undecided on count_tchar (confounded) in [63.36,200.5) -- needs more inputs
+  domselector_8_2_5 and domselector_9_1_0 equivalent: ratio 1.06x within the equivalence band (95% CI 1.04-1.08, n=124)
+      undecided on count_attribute_selector (confounded) in [1,1.95), [1.95,3.803), [3.803,7.416), [28.2,55] -- needs more inputs
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02), [100.9,221] -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3), [5.196,9), [15.59,27] -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02), [63.36,200.5) -- needs more inputs
+  domselector_8_2_5 and domselector_9_1_1 equivalent: ratio 1.07x within the equivalence band (95% CI 1.05-1.08, n=124)
+      undecided on count_attribute_selector (confounded) in [1,1.95), [1.95,3.803), [3.803,7.416), [28.2,55] -- needs more inputs
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02), [21.02,46.05), [100.9,221] -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3), [5.196,9), [15.59,27] -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02), [63.36,200.5), [200.5,634.3) -- needs more inputs
+  domselector_8_2_5 and domselector_9_1_2 equivalent: ratio 1.06x within the equivalence band (95% CI 1.04-1.08, n=124)
+      undecided on count_attribute_selector (confounded) in [1,1.95), [1.95,3.803), [3.803,7.416), [28.2,55] -- needs more inputs
+      undecided on count_name (confounded) in [9.597,21.02), [21.02,46.05), [100.9,221] -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3), [3,5.196), [5.196,9), [15.59,27] -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02), [20.02,63.36), [63.36,200.5), [200.5,634.3) -- needs more inputs
+  domselector_8_2_5 and domselector_9_2_1 equivalent: ratio 1.07x within the equivalence band (95% CI 1.05-1.09, n=124)
+      DEPENDS ON SAMPLING: counting each count_attribute_selector bin once gives 1.08x (95% CI 1.06-1.10, 6 bins, equal weight per bin), verdict 'undecided' not 'equivalent'
+      ... and 1 count_attribute_selector bin(s) have too little data to enter that: [7.416,14.46)
+      DEPENDS ON SAMPLING: counting each count_node bin once gives 1.08x (95% CI 1.06-1.11, 6 bins, equal weight per bin), verdict 'undecided' not 'equivalent'
+      undecided on count_attribute_selector (confounded) in [1,1.95), [1.95,3.803), [3.803,7.416), [28.2,55] -- needs more inputs
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02), [21.02,46.05), [100.9,221] -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3), [3,5.196), [5.196,9), [9,15.59), [15.59,27] -- needs more inputs
+      undecided on count_tchar (confounded) in =0, [6.328,20.02), [63.36,200.5), [200.5,634.3) -- needs more inputs
+  domselector_8_2_5 vs domselector_9_2_2 undecided: domselector_8_2_5 ahead by 1.11x but the 95% CI (1.07-1.13, n=124) spans the equivalence band
+      undecided on count_attribute_selector (confounded) in =0, [1,1.95), [3.803,7.416), [28.2,55] -- needs more inputs
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02), [21.02,46.05), [46.05,100.9), [100.9,221] -- needs more inputs
+      undecided on count_node (confounded) in [1,1.732), [1.732,3), [3,5.196), [9,15.59), [15.59,27] -- needs more inputs
+      undecided on count_tchar (confounded) in =0, [6.328,20.02), [20.02,63.36), [63.36,200.5), [200.5,634.3) -- needs more inputs
+  domselector_9_0_3 and domselector_9_0_4 equivalent: ratio 1.03x within the equivalence band (95% CI 1.01-1.04, n=124)
+      undecided on count_node (confounded) in [15.59,27] -- needs more inputs
+  domselector_9_0_3 and domselector_9_1_0 equivalent: ratio 1.05x within the equivalence band (95% CI 1.03-1.07, n=124)
+      undecided on count_attribute_selector (confounded) in [1,1.95), [3.803,7.416) -- needs more inputs
+      undecided on count_name (confounded) in [9.597,21.02) -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3), [15.59,27] -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02) -- needs more inputs
+  domselector_9_0_3 and domselector_9_1_1 equivalent: ratio 1.05x within the equivalence band (95% CI 1.04-1.06, n=124)
+      undecided on count_attribute_selector (confounded) in [1,1.95), [3.803,7.416), [14.46,28.2) -- needs more inputs
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02), [21.02,46.05) -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3), [15.59,27] -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02) -- needs more inputs
+  domselector_9_0_3 and domselector_9_1_2 equivalent: ratio 1.05x within the equivalence band (95% CI 1.03-1.07, n=124)
+      undecided on count_attribute_selector (confounded) in [3.803,7.416) -- needs more inputs
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02), [21.02,46.05) -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3), [15.59,27] -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02) -- needs more inputs
+  domselector_9_0_3 and domselector_9_2_1 equivalent: ratio 1.06x within the equivalence band (95% CI 1.05-1.08, n=124)
+      undecided on count_attribute_selector (confounded) in [3.803,7.416), [28.2,55] -- needs more inputs
+      undecided on count_name (confounded) in [9.597,21.02), [21.02,46.05) -- needs more inputs
+      undecided on count_node (confounded) in [1,1.732), [1.732,3), [5.196,9), [15.59,27] -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02) -- needs more inputs
+  domselector_9_0_3 vs domselector_9_2_2 undecided: domselector_9_0_3 ahead by 1.09x but the 95% CI (1.06-1.10, n=124) spans the equivalence band
+      undecided on count_attribute_selector (confounded) in =0, [1,1.95), [1.95,3.803), [3.803,7.416), [28.2,55] -- needs more inputs
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02), [21.02,46.05), [46.05,100.9), [100.9,221] -- needs more inputs
+      undecided on count_node (confounded) in [1,1.732), [1.732,3), [5.196,9), [9,15.59), [15.59,27] -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02), [63.36,200.5), [200.5,634.3) -- needs more inputs
+  domselector_9_0_4 and domselector_9_1_0 equivalent: ratio 1.03x within the equivalence band (95% CI 1.02-1.03, n=124)
+      undecided on count_attribute_selector (confounded) in [3.803,7.416) -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3) -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02) -- needs more inputs
+  domselector_9_0_4 and domselector_9_1_1 equivalent: ratio 1.03x within the equivalence band (95% CI 1.01-1.04, n=124)
+      undecided on count_attribute_selector (confounded) in [3.803,7.416) -- needs more inputs
+      undecided on count_name (confounded) in [9.597,21.02), [21.02,46.05) -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02) -- needs more inputs
+  domselector_9_0_4 and domselector_9_1_2 equivalent: ratio 1.02x within the equivalence band (95% CI 1.01-1.03, n=124)
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02) -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3) -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02) -- needs more inputs
+  domselector_9_0_4 and domselector_9_2_1 equivalent: ratio 1.03x within the equivalence band (95% CI 1.02-1.05, n=124)
+      undecided on count_attribute_selector (confounded) in [3.803,7.416) -- needs more inputs
+      undecided on count_name (confounded) in [9.597,21.02), [21.02,46.05) -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3), [5.196,9) -- needs more inputs
+  domselector_9_0_4 and domselector_9_2_2 equivalent: ratio 1.05x within the equivalence band (95% CI 1.03-1.08, n=124)
+      DEPENDS ON SAMPLING: counting each count_attribute_selector bin once gives 1.06x (95% CI 1.04-1.11, 6 bins, equal weight per bin), verdict 'undecided' not 'equivalent'
+      ... and 1 count_attribute_selector bin(s) have too little data to enter that: [7.416,14.46)
+      DEPENDS ON SAMPLING: counting each count_name bin once gives 1.07x (95% CI 1.03-1.11, 5 bins, equal weight per bin), verdict 'undecided' not 'equivalent'
+      ... and 1 count_name bin(s) have too little data to enter that: [2,4.381)
+      DEPENDS ON SAMPLING: counting each count_node bin once gives 1.07x (95% CI 1.04-1.11, 6 bins, equal weight per bin), verdict 'undecided' not 'equivalent'
+      undecided on count_attribute_selector (confounded) in =0, [1.95,3.803), [3.803,7.416), [28.2,55] -- needs more inputs
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02), [21.02,46.05), [100.9,221] -- needs more inputs
+      undecided on count_node (confounded) in [1,1.732), [1.732,3), [5.196,9), [15.59,27] -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02), [63.36,200.5), [200.5,634.3) -- needs more inputs
+  domselector_9_1_0 and domselector_9_1_1 equivalent: ratio 1.00x within the equivalence band (95% CI 0.99-1.01, n=124)
+  domselector_9_1_0 and domselector_9_1_2 equivalent: ratio 0.99x within the equivalence band (95% CI 0.98-1.01, n=124)
+  domselector_9_1_0 and domselector_9_2_1 equivalent: ratio 1.01x within the equivalence band (95% CI 0.99-1.02, n=124)
+      undecided on count_node (confounded) in [5.196,9) -- needs more inputs
+  domselector_9_1_0 and domselector_9_2_2 equivalent: ratio 1.03x within the equivalence band (95% CI 1.01-1.04, n=124)
+      undecided on count_attribute_selector (confounded) in [3.803,7.416), [28.2,55] -- needs more inputs
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02) -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3), [5.196,9) -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02) -- needs more inputs
+  domselector_9_1_1 and domselector_9_1_2 equivalent: ratio 1.00x within the equivalence band (95% CI 0.99-1.00, n=124)
+  domselector_9_1_1 and domselector_9_2_1 equivalent: ratio 1.01x within the equivalence band (95% CI 1.00-1.03, n=124)
+      undecided on count_node (confounded) in [5.196,9) -- needs more inputs
+  domselector_9_1_1 and domselector_9_2_2 equivalent: ratio 1.03x within the equivalence band (95% CI 1.01-1.05, n=124)
+      undecided on count_attribute_selector (confounded) in [1.95,3.803), [3.803,7.416), [28.2,55] -- needs more inputs
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02) -- needs more inputs
+      undecided on count_node (confounded) in [1,1.732), [1.732,3), [5.196,9) -- needs more inputs
+      undecided on count_tchar (confounded) in =0 -- needs more inputs
+  domselector_9_1_2 and domselector_9_2_1 equivalent: ratio 1.01x within the equivalence band (95% CI 1.00-1.02, n=124)
+      undecided on count_node (confounded) in [5.196,9) -- needs more inputs
+  domselector_9_1_2 and domselector_9_2_2 equivalent: ratio 1.03x within the equivalence band (95% CI 1.02-1.04, n=124)
+      undecided on count_attribute_selector (confounded) in =0, [1.95,3.803), [3.803,7.416) -- needs more inputs
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02), [21.02,46.05) -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3), [5.196,9) -- needs more inputs
+      undecided on count_tchar (confounded) in [6.328,20.02) -- needs more inputs
+  domselector_9_2_1 and domselector_9_2_2 equivalent: ratio 1.02x within the equivalence band (95% CI 1.01-1.05, n=124)
+      undecided on count_attribute_selector (confounded) in [3.803,7.416) -- needs more inputs
+      undecided on count_name (confounded) in [4.381,9.597), [9.597,21.02), [21.02,46.05) -- needs more inputs
+      undecided on count_node (confounded) in [1.732,3), [5.196,9) -- needs more inputs
+[compare] rss: 124 inputs, 9 systems (paired; ratios, 1.10x equivalence band)
+[compare] overall verdicts are weighted by what the corpus contains, which the loop itself shapes; the per-region lines are the portable claim.
+[compare] count_attribute_selector bins move with count_node (3..11 across bins); count_tchar (23..232 across bins) -- those regions are joint, not count_attribute_selector findings
+[compare] count_name bins move with count_attribute_selector (1..3 across bins); count_node (1..12.5 across bins); count_tchar (7..237.5 across bins) -- those regions are joint, not count_name findings
+[compare] count_node bins move with count_attribute_selector (1..17.5 across bins); count_name (12..156 across bins); count_tchar (8..235 across bins) -- those regions are joint, not count_node findings
+[compare] count_tchar bins move with count_attribute_selector (1..20 across bins); count_name (8..152 across bins); count_node (1..13 across bins) -- those regions are joint, not count_tchar findings
+  domselector_8_2_4 and domselector_8_2_5 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_8_2_4 and domselector_9_0_3 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_8_2_4 and domselector_9_0_4 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_8_2_4 and domselector_9_1_0 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_8_2_4 and domselector_9_1_1 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_8_2_4 and domselector_9_1_2 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_8_2_4 and domselector_9_2_1 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_8_2_4 and domselector_9_2_2 equivalent: ratio 1.01x within the equivalence band (95% CI 1.01-1.01, n=124)
+  domselector_8_2_5 and domselector_9_0_3 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_8_2_5 and domselector_9_0_4 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_8_2_5 and domselector_9_1_0 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_8_2_5 and domselector_9_1_1 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_8_2_5 and domselector_9_1_2 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_8_2_5 and domselector_9_2_1 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_8_2_5 and domselector_9_2_2 equivalent: ratio 1.01x within the equivalence band (95% CI 1.01-1.01, n=124)
+  domselector_9_0_3 and domselector_9_0_4 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_9_0_3 and domselector_9_1_0 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_9_0_3 and domselector_9_1_1 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_9_0_3 and domselector_9_1_2 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_9_0_3 and domselector_9_2_1 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_9_0_3 and domselector_9_2_2 equivalent: ratio 1.01x within the equivalence band (95% CI 1.01-1.01, n=124)
+  domselector_9_0_4 and domselector_9_1_0 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_9_0_4 and domselector_9_1_1 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_9_0_4 and domselector_9_1_2 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_9_0_4 and domselector_9_2_1 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_9_0_4 and domselector_9_2_2 equivalent: ratio 1.01x within the equivalence band (95% CI 1.01-1.01, n=124)
+  domselector_9_1_0 and domselector_9_1_1 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_9_1_0 and domselector_9_1_2 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_9_1_0 and domselector_9_2_1 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_9_1_0 and domselector_9_2_2 equivalent: ratio 1.01x within the equivalence band (95% CI 1.01-1.01, n=124)
+  domselector_9_1_1 and domselector_9_1_2 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_9_1_1 and domselector_9_2_1 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_9_1_1 and domselector_9_2_2 equivalent: ratio 1.01x within the equivalence band (95% CI 1.01-1.01, n=124)
+  domselector_9_1_2 and domselector_9_2_1 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=124)
+  domselector_9_1_2 and domselector_9_2_2 equivalent: ratio 1.01x within the equivalence band (95% CI 1.01-1.01, n=124)
+  domselector_9_2_1 and domselector_9_2_2 equivalent: ratio 1.01x within the equivalence band (95% CI 1.00-1.01, n=124)
+[compare] dominance across runtime_ns, rss:
+  domselector_8_2_4 and domselector_8_2_5 EQUIVALENT on every metric
+  domselector_8_2_4 and domselector_9_0_3 EQUIVALENT on every metric
+  domselector_8_2_4 and domselector_9_0_4 EQUIVALENT on every metric
+  domselector_8_2_4 and domselector_9_1_0 EQUIVALENT on every metric
+  domselector_8_2_4 and domselector_9_1_1 EQUIVALENT on every metric
+  domselector_8_2_4 and domselector_9_1_2 EQUIVALENT on every metric
+  domselector_8_2_4 and domselector_9_2_1 EQUIVALENT on every metric
+  domselector_8_2_4 vs domselector_9_2_2 undecided on every metric
+  domselector_8_2_5 and domselector_9_0_3 EQUIVALENT on every metric
+  domselector_8_2_5 and domselector_9_0_4 EQUIVALENT on every metric
+  domselector_8_2_5 and domselector_9_1_0 EQUIVALENT on every metric
+  domselector_8_2_5 and domselector_9_1_1 EQUIVALENT on every metric
+  domselector_8_2_5 and domselector_9_1_2 EQUIVALENT on every metric
+  domselector_8_2_5 and domselector_9_2_1 EQUIVALENT on every metric
+  domselector_8_2_5 vs domselector_9_2_2 undecided on every metric
+  domselector_9_0_3 and domselector_9_0_4 EQUIVALENT on every metric
+  domselector_9_0_3 and domselector_9_1_0 EQUIVALENT on every metric
+  domselector_9_0_3 and domselector_9_1_1 EQUIVALENT on every metric
+  domselector_9_0_3 and domselector_9_1_2 EQUIVALENT on every metric
+  domselector_9_0_3 and domselector_9_2_1 EQUIVALENT on every metric
+  domselector_9_0_3 vs domselector_9_2_2 undecided on every metric
+  domselector_9_0_4 and domselector_9_1_0 EQUIVALENT on every metric
+  domselector_9_0_4 and domselector_9_1_1 EQUIVALENT on every metric
+  domselector_9_0_4 and domselector_9_1_2 EQUIVALENT on every metric
+  domselector_9_0_4 and domselector_9_2_1 EQUIVALENT on every metric
+  domselector_9_0_4 and domselector_9_2_2 EQUIVALENT on every metric
+  domselector_9_1_0 and domselector_9_1_1 EQUIVALENT on every metric
+  domselector_9_1_0 and domselector_9_1_2 EQUIVALENT on every metric
+  domselector_9_1_0 and domselector_9_2_1 EQUIVALENT on every metric
+  domselector_9_1_0 and domselector_9_2_2 EQUIVALENT on every metric
+  domselector_9_1_1 and domselector_9_1_2 EQUIVALENT on every metric
+  domselector_9_1_1 and domselector_9_2_1 EQUIVALENT on every metric
+  domselector_9_1_1 and domselector_9_2_2 EQUIVALENT on every metric
+  domselector_9_1_2 and domselector_9_2_1 EQUIVALENT on every metric
+  domselector_9_1_2 and domselector_9_2_2 EQUIVALENT on every metric
+  domselector_9_2_1 and domselector_9_2_2 EQUIVALENT on every metric
+      count_attribute_selector =0 (n=35): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+      count_attribute_selector [1,1.95) (n=23): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+      count_attribute_selector [1.95,3.803) (n=29): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1 not dominated
+      count_attribute_selector [3.803,7.416) (n=10): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+      count_attribute_selector [14.46,28.2) (n=13): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+      count_attribute_selector [28.2,55] (n=11): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+      count_name [4.381,9.597) (n=11): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+      count_name [9.597,21.02) (n=10): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+      count_name [21.02,46.05) (n=11): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+      count_name [46.05,100.9) (n=32): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+      count_name [100.9,221] (n=58): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+      count_node [1,1.732) (n=26): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+      count_node [1.732,3) (n=9): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+      count_node [3,5.196) (n=22): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+      count_node [5.196,9) (n=9): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1 not dominated
+      count_node [9,15.59) (n=37): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+      count_node [15.59,27] (n=21): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+      count_tchar =0 (n=11): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+      count_tchar [6.328,20.02) (n=12): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+      count_tchar [20.02,63.36) (n=28): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+      count_tchar [63.36,200.5) (n=23): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+      count_tchar [200.5,634.3) (n=40): domselector_8_2_4, domselector_8_2_5, domselector_9_0_3, domselector_9_0_4, domselector_9_1_0, domselector_9_1_1, domselector_9_1_2, domselector_9_2_1, domselector_9_2_2 not dominated
+[interference] 9 property pair(s) tested over 1116 rows; 8 show a dependence
+  count_name vs runtime_ns changes with count_tchar: rho by count_tchar stratum = [+0.47, +0.55, +0.24, -0.10], spread 0.65, p=0.003
+  count_node vs runtime_ns changes with count_tchar: rho by count_tchar stratum = [+0.08, +0.60, +0.06, +0.06], spread 0.54, p=0.003
+  count_node vs runtime_ns changes with count_name: rho by count_name stratum = [+0.06, +0.13, -0.32, +0.15], spread 0.47, p=0.003
+  count_attribute_selector vs runtime_ns changes with count_name: rho by count_name stratum = [+0.27, +0.11, +0.57, +0.30], spread 0.46, p=0.003
+  count_tchar vs runtime_ns changes with count_node: rho by count_node stratum = [+0.11, +0.23, -0.12, +0.06], spread 0.35, p=0.003
+  count_attribute_selector vs runtime_ns changes with count_node: rho by count_node stratum = [+0.33, +0.35, +0.61, +0.40], spread 0.28, p=0.003
+  -> a one-dimensional region on these properties states less than it appears to; they are candidates for a joint request.
+[domselector_known] past the wall-clock budget; skipping the model fits and plots and writing the report. They are a function of corpus.csv, which is checkpointed, so the next run recomputes them from the same inputs rather than re-measuring.
+[domselector_known] metric cache: 1116 entries, 8636 SUT executions this run
+[domselector_known] wall clock: 3503s of 3420s budget
+[domselector_known] report -> ./results/rq1/20261002-2349-domselector_known/run1/domselector_known/report.md
+[domselector_known] done. corpus=1116 rows (124 inputs x 9 systems). Artifacts in ./results/rq1/20261002-2349-domselector_known/run1/domselector_known

@@ -1,0 +1,2 @@
+{ "name": "poc-rfc9535-and-chain", "private": true,
+  "dependencies": { "jsonpath-rfc9535": "1.3.0", "json-p3": "2.3.0" } }

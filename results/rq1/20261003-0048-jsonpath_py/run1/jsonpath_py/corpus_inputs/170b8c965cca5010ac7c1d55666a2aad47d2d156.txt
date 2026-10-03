@@ -1,0 +1,37 @@
+$["abb\"ca'aa'\\"]	
+[	
+ 
+
+
+ "a\fc\"a'\"dd\"a"  
+		
+
+,
+	
+
+ 	"acbcb\"bc'\"\"d","aba\"d\"b\"'" 
+
+  	
+	, "cbcca'bdd\bab'","badacccad'ddd\fc'dad"][     
+
+	"dcbcbcdb\"cb'\t'ac"][	 
+ 
+ "bcdbaacaab\"\bacc''dd'\n"		 
+ 
+	][ 
+ 	 	
+
+"aacddcb''''\"a\"''c"
+
+   
+
+	][ 
+"b\"b\"bc'"][ 
+			
+ "cd\"\uD8fB\uDdbD\"dc"]
+@@@
+[0		 	
+,		
+
+	null]		
+  

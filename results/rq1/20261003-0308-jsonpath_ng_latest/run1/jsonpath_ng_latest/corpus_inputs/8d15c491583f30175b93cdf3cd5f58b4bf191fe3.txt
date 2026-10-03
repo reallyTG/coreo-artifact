@@ -1,0 +1,88 @@
+$
+.*..* 	
+..da.*
+		
+..[ 	 'bddddccddc'
+]
+@@@
+
+	
+
+
+
+{ 
+
+	"da":-1.904800009e+80	
+
+ 
+
+,"a":"" 	 ,	 
+  
+	"bd"  :false	 	  	 	,"b": true,"acbdc"
+   	
+	:false,	
+
+		"c":		[false, 				
+0, 	null 
+
+,	
+false 
+
+ ,null
+
+	
+
+  	,0,  
+
+ 	 null		 	, 	 [[{ 	 
+
+
+	
+	 }, true 	
+   		,
+true], 
+null 
+ 
+,
+
+
+
+true
+
+,
+false 		 
+
+,	null,false],false,
+ 	  
+	
+[
+	
+]
+     ],		  	
+"cdb"
+  :0, 	"aaab\udBBB\udcbD"
+ 
+		 	: false,"dcc":[]
+
+
+
+
+		,	  "acddaaa\raab\n\fc\b":   
+	  true,"ba\fd\"ad\f\/\uD51Ca":-0		
+ 	 
+	,"dacba"	
+:
+	null,
+ 
+ 
+"cbbaccddbacbd"
+ 
+
+:
+
+
+
+	
+false,"bcbd"	:
+	
+ 	"z"}  

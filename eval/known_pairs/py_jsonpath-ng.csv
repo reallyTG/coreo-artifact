@@ -1,0 +1,2 @@
+package,commit,date,subject_line,pr,s1_perf_change,s1_reason,s2_input_dependent,s2_reason,s3_class,s3_reason,release_before,release_after,confounds,notes
+jsonpath-ng,5380a3a60c64ed197ec278116dca46d7715ec928,2026-09-30,Add codespell support with configuration and fixes (#226),#226,no,spelling/lint ('cache' matched a config line),n/a,,n/a,,,,,via: keyword; unreleased

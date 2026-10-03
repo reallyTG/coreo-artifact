@@ -1,0 +1,11 @@
+$..[0,0,'adda"\''].ca[?((null
+ 			
+
+ <@.c[-3]||
+
+ 	  !
+
+search(count( 
+ 	@[0]),"xx|z(d+c*x?[^bbx-zx-zya-ddx]y*(c(|a{1,3}b|.+c|b+x{2,4}cz|(d{0}|||b+byc*|z?x?a+d{2,4}(y{0,1}[b]+y+xx?dzc*|xd{0,2}aybz{0,2}|||a{1,2}cbx|b+y{2,4}bxxz+b?|a{1,2}x{1,2}(d{0,2}x?zdya?dd*c?a)()y{0,1}d*y{2,4}[zyx-z])?(ay+a?z(b{0,}x{1,2}[x-zx-zx-za-da-da-dba-dx-z]+ad?)d+[^x-zx-zx-za-dx]{6,}.x*|(|.(cxz+dx+y?y{1,}cc||||bby+a||dz{9}y*yd+c+)a(x+d*c*cay?[^a-dx-zzx-zddx-za-d]*xb*|||aay+c{1,2}(|za+|y+b(||||yxb*()(d?(()+)?a+zbc*c{0,2}bc+c?)dd?c*yb{1,2}|dd?dz{1,2}d+ca+b+ya{8}|b+(a*d?x{1,2}x+c||(y?c(zd{0,}|)?(||zz{0,1}|c|x{2,4}.{0,1}d?(|(y+c{2,4}yb*zy?)||a*x*||b{1,3}.x.{1,3}()?a|b+z*x*.*c{0,2}|)*z+b{3}y?d?|cyy+cdd*x(z?.y+|b*by*bay*zba?||)+(d{1,2}(|||d{1,3}ad*z*zc|()+xaz?y*d?xdb|y||.{2,4}b*a*[^a-dza-dya-d]*yya?)*.+d+azz+cxc{0}||xb?adcz?d|y?(|x{7,}x{1,3}c?yx{0,}(y+((||(da[yx-za-dx-zzx-z]xa{0,1}c{1,3}b?czd?|(b?)?|c?d{2,4}d{2,4}xz|ca|||)x*(zzc*[^xbx-zyxy]d?|b{0,}(||c|[^a-dx-zzd]+(){4}b?z{1,3}.?[aa-da-dy]||yz?y+cz?z?x*x{1,}d|||)?c{1,3}y*x([^x-z]*zzz)(dc(()*c{2,4}d{0,2})+c{1,3}dbzb)+(a)|||a|[^x-za-d]?z?bd[^a-dxx-zx-zx-za-dx-z][a-dx-zxx-za-dda-dx-z]bzb{0,}|c+a.x?|x?|||).?b{2,4}||z*(||c+[a-dx-za-d]b*c(y|){0,}yy?[^a-daa-dx-za-dx-z]a*.|()yy+()[^x-zx-zx-zx-zba-da-dx-za-d](d*zc.)?|||.{0,2}y(|z[^za-dx-zd]|||cy*za*c{1,2}daa?z?||xd{1,2}bxb*d*|b+()*zdy(|dbbcxc?d?|a+y+y{9})[x-zx-zx-zx-za-dx-zx-z]z{1,2})b+yy*c*d{0,}|()a{2,4}d?cy*cy?()*d|x{0,2}b+(){0,2}a+yz)a?b{1,3}b[x-za-dyxa-da-dx-z]|y{1}b(d(|cdzbz?y?[^x-z]?[^a-da-dx-za-dx-za-d]cx||c*zc[^a-dza-dx-zx-z]x.|a(||.+c+c?aa?[x-zxa-da-da-dx-z]xd||z+zx|[x-za-dydya-dx]()*d?a?a{0}(y?a*x()?z*ad{1,2}x{0,2}b+[a-da-dya-dx-zx-zx-zx-zz]{1,3}|(c{2,4}(z?.(.+yy(){0,2}z{0,2}|b*d*a{0,1}||||)[^x-za-dczx-z](|||)){2,4}zy{1,3}zy*.?)*d{1,2}z|||||aa{2,4}z{1,3}d|dbc|)cb*z||c{1,2}d*da*){1,3}a?.+|a{0,}||)c*a{2,4}yd{1,3}a||z||b{0,1}|||z{1,3}|)b*||.z+())+y?z[a-dx-z]?dyb*a||)|||(.+()+b{1,3}()x{0,2}(z+|a{0,1}a|c*cyx+z+z()a{2,4}(y|||ca||a[^x-za-da-da-da-dcc]?||)*)*)+)+)*))+)+)))*)*))))?|)*|)")	)&&@)].*.*.*..*..*.*.*
+@@@
+[false]

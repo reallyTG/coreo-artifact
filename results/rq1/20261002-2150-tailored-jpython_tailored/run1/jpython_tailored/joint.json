@@ -1,0 +1,63 @@
+{
+  "count_inner_object|doc_bytes": {
+    "band": [
+      24,
+      26
+    ],
+    "best": 2038.0,
+    "direction": "maximizing",
+    "extensive": "count_inner_object",
+    "intensive": "doc_bytes",
+    "retired": true,
+    "stalls": 2,
+    "window": [
+      22.0,
+      26.4
+    ]
+  },
+  "count_inner_object|max_value_bytes": {
+    "band": [
+      24,
+      26
+    ],
+    "best": 41.0,
+    "direction": "maximizing",
+    "extensive": "count_inner_object",
+    "intensive": "max_value_bytes",
+    "stalls": 0,
+    "window": [
+      15.0,
+      18.0
+    ]
+  },
+  "count_inner_object|query_len": {
+    "band": [
+      24,
+      26
+    ],
+    "best": 8.0,
+    "direction": "maximizing",
+    "extensive": "count_inner_object",
+    "intensive": "query_len",
+    "stalls": 1,
+    "window": [
+      15.0,
+      18.0
+    ]
+  },
+  "count_trav_segment|doc_bytes": {
+    "band": [
+      2,
+      4
+    ],
+    "best": 13099.0,
+    "direction": "maximizing",
+    "extensive": "count_trav_segment",
+    "intensive": "doc_bytes",
+    "stalls": 0,
+    "window": [
+      2.0,
+      3.0
+    ]
+  }
+}

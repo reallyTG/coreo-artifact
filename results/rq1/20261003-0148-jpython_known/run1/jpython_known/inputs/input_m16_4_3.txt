@@ -1,0 +1,30 @@
+$			
+.cdccdccdccccaaccddaddacaadccacdbabdddcadcacdbbacdadcdcddadbbabbddbcdddbdbddbdbdacadbcaaabbdbcdbdbabddaaccbdaaccbaccabadaaadcaaacacabcaabcccbdcddcbccdbaacccabdcbdcbdacbadacabadbbbaddbbcd.acbadcdadbdbdaddcbdbdbdccadacdbcbdbbaadaddadbbdbabbadabcbabcdcbbabaabcaacbbadadccdaadcdbdbabdddabbacbdabddbaabdabbcacdcdccccadadbcdbdccaadabdcbccdabdadacdbabaa
+  
+	.bdadabaccdcbaabdcdbbcdccbdcaabcbaaaaddbbaddcabbacbcdcdadacbdddcdddabaccbcdcbabbabbbacddcbddbabaad  
+ 
+		.adadbbbcadcabbdcbdcdabaacabdacdbbacaabcbcdbcdbcdadbadbdaabbaccccccbbccdcbdadbcadaddaaccaabaabccbacdbdccdbacaadbaadca.baabbbbccbcabddadcdacdacbbdaacddddacddcdcccacbdbcabaabddcdddbccbacdcbacdbbadbbadbbddaacaaac
+.bcdcccccbbbbcccdcaadddacaddaaaaabaacacdcdbaaccddbbbacddabcababcaacbbbdacbcadbbbababcacddbccccdcdbcdaaacbb.dcbcbcadbaacdcdbabcbdbddaaacbdbbacabbabaaaccacabdccadacababaacadcdbaccbdbcbbbdbbacaacbacbbcbdbbccddbbaababcdbaddabccddcacbacccbcdddcbcaadbcaaacdbbadbdcdabcbbcacbcacbaca 	
+ 
+ 	 .abcdccdddbaaddcdbabddbbdccdbdccbdbdcdbaddcacbabddbaaabaccbbccaccdcdcdbaaacdabbccbaddccdbdddadaabbcccbcdcbacaadabbddbaacdaa
+@@@
+[{
+ 
+  	"cdb"				
+	: 
+	
+ false,"bbd"	: 	 
+
+"z"  	
+
+	
+  ,
+			 				"b":10136000.0000070165 	  	, 
+ 	
+
+
+	
+"badabdbbbddacdabdaaaddcdacdbaacaaddabaddcdabcbaacccbdcacaadcbcdabcdbbdbcbbbbabcacdabdabaddbdccdacbdddcdcdaddabcbb\b\"b\fc":[],"d"		
+	:10070900009040,"bdd":false}  
+
+,"y"]

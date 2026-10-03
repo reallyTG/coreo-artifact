@@ -1,0 +1,27 @@
+$[?(		'yy\fzz\'x"zxy\t'		 
+ 	!='xxxyyyzzyz\ud5DA\bz\ubB3Bx""\'zz\\z')][?('\'zy\'y\'x\'y\by'!='zxy\b\f"""z'		 )][?(	
+	 
+'zyxyxxxzx""\'\ud7EF"\\yyxz\'\uB3cB"y'	
+>='z\'xx\txxx\'""\ud8BC\udDAB'  
+&&'xxzxzy"y\fx\'yxyxz\''>'yzyzyyzxyy\/"\'z\'xy\fy\\\b\\'  
+ &&	
+ 'zyxxz\\"\'xyz\f'    
+ !='yyyxxy"z"z"x'
+&&'xyxy\bz\fxxz\ufDDF' 	
+	 !='\f\/x\'"z'
+
+)][?(
+'yyzy\'\/y\r"\f""x\\y'
+ >  		  'xyyxzxyx\'z\'yy\n\bx\\"\/\'\b\f')]
+@@@
+  [	
+false, 	-0.670000,"y" 
+
+  ,false,null		 	
+,"",false		
+	 	 ,{	}  	 
+
+
+	,{}		 ,
+ 
+		0E05 	]

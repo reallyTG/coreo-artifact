@@ -1,0 +1,134 @@
+{
+  "__grammar__": {
+    "digest": "441838884a3bb8404df9ee49d681ba8d4a97b734"
+  },
+  "count_char_2": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 480.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_end_object": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 8.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_hex_high_surrogate_not3f": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 7.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "rung": 0,
+    "site": "<more_member>"
+  },
+  "count_integer_number": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 6.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "rung": 0,
+    "site": "<more_member>"
+  },
+  "count_minus_opt": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 16.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_null": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 21.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_string": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 63.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_u_escape": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 19.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "rung": 0,
+    "site": "<more_member>"
+  },
+  "count_unescaped_ascii_other": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 240.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "rung": 0,
+    "site": "<more_member>"
+  },
+  "depth": {
+    "constant": false,
+    "last_max": 15.0,
+    "misses": 2,
+    "pinned": true,
+    "reason": "search",
+    "requested": [
+      16.0,
+      30
+    ],
+    "rung": 2
+  }
+}

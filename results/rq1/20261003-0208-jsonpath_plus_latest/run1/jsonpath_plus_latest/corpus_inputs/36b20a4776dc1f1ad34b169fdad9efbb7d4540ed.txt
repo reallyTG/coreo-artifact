@@ -1,0 +1,4 @@
+$.d..*["aaa",'',0,'',"ccbc\nab'ddc'\n\"\"",'d']..*..d
+@@@
+[ 	 
+null,"yyzyzxyxx"]

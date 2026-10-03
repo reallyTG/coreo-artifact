@@ -1,0 +1,3 @@
+$[?match(@.a,"[x-zyy]x*")]
+@@@
+["zyy",{"a":"xxzyxyx","b":"zyzzz"},{"a":"x","b":"zzzz"},{"a":"xz"},{"a":"xz"},{"a":"zyx"},{"a":"yy"},{"a":"z","b":"y"},"xz","x",{"a":"y"},{"a":"zxyy"},{"a":"yz"},{"a":"y"},"zyxzzzyx",{"a":"xy","b":"z"},{"a":"zzzyy","b":"xxyzxzz"},{"a":"x"},{"a":"yyzxxyzxxxx","b":"zx"},{"a":"xzyxxyyyyzyy","b":"z"},{"a":"yzzxyyzyxy"},{"a":"xz","b":"yzyxxzxz"},"xz",{"a":"xy"},{"a":"z"},{"a":"zxxxxy","b":"z"}]

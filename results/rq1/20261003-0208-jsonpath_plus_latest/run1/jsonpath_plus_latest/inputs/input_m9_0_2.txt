@@ -1,0 +1,148 @@
+$[?(match(	
+	 	  	$[0][0].a.cb[0]['bc'].d[0].bd[0]
+
+
+
+  	
+	,'|')||
+ 
+ match(
+			
+
+true, 	'ba?(|ba{3}cx*za?bzd)c*z{3,}x|')&&
+	 
+ !match(  		
+		@[90][5] 	
+	,
+ 
+   "bz+|[^x-zx-zx-zca-dx-z]+" ) 
+		
+ && 
+		
+!match(
+	
+	
+@['cc\'\'\t'][0][0][-6][3]['ac'][0]['adbdda"d\'b\''], 
+ 	
+
+'[^a-dcx-zx-zx-za-da-d]yxa|')
+
+  &&
+!
+match($["ccccdcccab\r"]  		 	,"|a.(c*b+b?y|[^a-da-dda-da-dx-za-d])+cz{2,4}((d*(|.?d{7,}[axda-dx-zx-za-da-da-d])y|(|)x*cx?(|byc?b{2}y[^x-zx-z].yd).{0,2}c)?xa*|x*x{0,2}ad?b{3}z*)a")&&match(count( 	
+ 	
+@[?(match(
+
+  
+
+  0.430000800E+2, 'zyd?b*c.*x+y.+a*|b?bb?a+')		   
+
+&&   !
+
+
+	
+match(
+	
+
+length(true),"x[a-dx-zx-z]{0,1}|b"	
+ 	 
+)
+
+	
+&&match(@[0],"a*dcz+|"
+	
+
+)&&match(
+ 	 
+$.bbdbacaddbad[-34]	,"|"
+
+ )|| 
+match( 
+
+@[0][95]	,".y*(|)x+x(|)bdd?a|"
+					
+) 	
+	||! 	 	
+match(length('yy' 	),	
+
+	
+
+  'c|'))]
+  ),
+"|x(z{0,2}b+|a)[^x-zba]a+z+[^xyx-za-dx-za-dy]cy+d"		  		 )&&	
+	
+
+match(
+	''  		,"cy+|")&&	 		 
+match(-0.053303,
+ 		"c{1,2}y|")
+	 		
+||    
+
+	match(	1,  	
+	 '|x?bdz+d+bz' 	
+) 
+ 
+    )][?( match(
+ 	
+
+
+-0.1080044700E-30020000
+	 	,"|"	
+)
+		 
+
+&&  	match(value(@[?(match(	count(   
+ 	
+@[?(!  match( 	
+  
+
+  false,  
+"y{2,4}xa(d|)ba*z*|"
+)&&match(
+  	
+		$["a"]
+ 	
+ 	,	 "[^x]+d{6}b?(|y{1,2}d?)+z?(d?|)*[a-dx-zx-zx-zx-zx-zx-zxya-d]|")&&	
+  ! 	match(null ,"y(ccc?|)z.{3}ac{1,3}bc|")&& 
+		 match("yxyxyx\""	
+	
+		,'|')	
+			 	&&
+!
+ 		  match(  
+		
+
+ count($[?(match(value(
+
+
+	
+	$[?(!
+
+	
+ 	 match( 		count(
+		$[?(match(@,"|" 
+
+ )
+	 
+	 	
+||
+ 
+match(	
+			$.ad,'cdb?|') 	)]),'.d{0,2}|')&& 	match(@,'|')|| 	
+!	
+ 
+match($,'|a?') 	
+
+	
+)][?(match(false,"|"))]	 		  
+),'|') 	
+ && 		match(false,"zx*|x")
+ ||
+ match(@,".*d|")
+ )][?(match(false,"|"))][?(match(
+false
+ 		
+,'|d{0}xax+(|y[yx-z])+'))]),'|')||match(true,'|'))][?(match(true,'|'))][?(match(false,'|'))]),'|')||match(true,"|"))][?(match(false,"|"))]),"|"))]
+@@@
+[null]

@@ -1,0 +1,15 @@
+$
+@@@
+{ 
+	 
+"bcd"			
+
+:"","ad":"","abcd\na":null 	 
+,	 	"ba":-5.0300e-0,"cbddcaaccbd": 
+
+
+	0 
+,
+     "bc"			 	:false, 		"b" 	
+ :
+	 false}

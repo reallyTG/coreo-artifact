@@ -1,0 +1,86 @@
+$["dbb'\"d"]["abd'\"\""]["cc'\""]
+@@@
+{"bc"
+
+
+:		
+
+{"c"  	
+ 	: 			false,		
+ 	 
+
+"bd":	
+
+
+
+null}, 
+
+ 	"db":  "xxyxzzyxx","bba":true,
+   	
+"a"
+   
+
+	 
+:   
+
+[
+		
+ 
+	true	
+
+	,null 			
+
+ 
+,
+{},false,	
+
+
+ 
+"zyxxyyyzyzz" 
+]	 	
+
+
+
+,"bbb\n\"":
+	  true,	
+  "d":	 	
+	false,"bbdabbccbb\r\n" :	
+	{},
+
+	 
+	"cdbcbbcacc\rdc\b"
+ 		 
+:""	
+	,"acb"
+
+
+ 
+	:
+{
+ 
+ 
+"adbdcabac\t\nc\t":[]	,"bc"
+
+ :0.0
+  	,"c" 	
+  :  
+  	
+	 true,"a"	
+	 
+	  : 
+ 
+		
+ false,
+
+
+"d": 
+	-7.500400E-4		, 		"cbcaabb\rb"
+	:	 	-406600.0010000,"b\/":false} 
+		
+  ,	 	 
+		 "abbc\/b\raa\n\uD56b\"\n": 
+
+false		
+
+ 
+}

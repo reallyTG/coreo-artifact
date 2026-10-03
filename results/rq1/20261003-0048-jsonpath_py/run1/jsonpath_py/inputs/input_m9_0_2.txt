@@ -1,0 +1,104 @@
+$[?!			match(
+ false	,
+"zz*(bxa?|b+y[^x-zbx-za-da-da-dx-zx-zx-z].y(y*y?y{1,3}.(|z){1,2}by+|c+dycd[x-zda-da-dza-d])cz+b+c{0,})*y+d.{3}d|.dd*yzy(|)"
+
+
+)
+
+
+][?
+match(	 
+  	count($[?
+
+
+ 
+	!match(value( 	
+  $) ,'(|){1,2}d{1,2}|')&&			 	
+!match( 	true  
+,
+ 	
+
+"x+dz+|ybz{5}z{3}x*.(b+yd*[^x-zxdax-z]|).")&&	  	match( 
+
+@[0],
+	'(|a*y?z{1}b.a){1,2}(cc*a(|x*(a(b{0,1}c?.{0,2}c?|dy*c(y*cx*a?|)d?c*xc{1,2}c)?d?y+|)yx{0,2}aa?ya+d{0}d)[^a-dx-zzxx].*x*|)+[x-zx-zx-zaa-dx-zzxy]{0,1}.(|ayb+b+)d*|b.?y[^x-zx-zcx-zx-za-dx]+x*y?a?.+'	
+ 				)&&   
+
+match("", "|c?c(|cc*[^a-dx-zyx-zyx-z]?.*a?a+)a*z{0,1}[ba-d]{1,3}[a-dc][a](ya|d.y{0,1}.z{1,}z*y+){2,4}"
+	
+)&&!match(true
+	
+
+
+,	'xd{0,1}x{0}.+(d{1,3}|)xx+b+d*|')&&	
+ !match(
+ 
+
+ $["cc"]		
+
+		
+,"(cc?|)b+c|(|)xc{3}.b{0,2}a")&&	 
+! 	  
+match(0.2150070060 ,
+
+ 
+"b*|dzc*.za{1,2}z")
+
+&&   	
+ 			match(true	  		,
+ 
+"a(|){0,1}by+x{0}|" )		&&match(   
+
+null	 		
+ 
+  ,'d{0,2}ba+yz*a*c(a*d*d?[^a-dx-zx-zy]{0,}a+xb(|dy*a)|)b|x*(|)+x(|)*c{0,}(xb(|)?c+a.b|){0}([^aa-dx-za-d]{0,1}d|x?y?b(z?y?x+y{0}x*z+.{1,2}c*|){1,2}[a-da-d]*z{1})*c+b') 
+
+	&&	
+ 
+ 
+!match(null, "b+[x-zx-zx-z]*d+azdxy.+|bc(z?b(|)*c{0,1}a(yyb{0,2}(|d?cyx{0,2}czz+[x-zccxxx-zy]c{0})?a*b+|)+d+bxc{0,1}|[^a-dyyx-za-dx-z](|))ya{0,2}a")
+	&&	   match(	
+ count( 
+@
+ 
+ [
+?! 
+		 
+match(length(length(
+
+  	true  
+  )
+ 	 
+) ,'|' 		) ,? 		 match($[-7600004030].ad 
+,"b?z{0}y{0,}y+(|d[x-zxx-za-dya-da-d]+a{0,2}ba+(z{2,4}|ad?d+.*a{1,3}bc{1,2})?c*a.)?(c*|xz{0,}d?x(cx.+c+b?d|y?y*(|x*d+zz?(z(|)|y?)bd{0,1}yd?).*zb?)*y+.?)?(c*d?yd?d?|a.{0,1}[^x-zx-zx-z]y+d*x*xx.)b*.|"		)&&!match('x'	
+ ,  	"d+ya*ad{2,4}x+a*|")&& match(
+	
+
+
+ 	
+@["c"]  
+ 
+
+[-50670] 
+,"d*c{0,1}za?b*ccb+|"	 )&&
+
+ 
+			
+!match(  			"yxy"	
+  
+
+,"x?((y*abaa|){5,}b{0,1}(yd|a*[^a-dya-d]+y{2,4}z+a?)?ba|c{0,}cd*c*){1,3}[^x-zca-daza-da-d]?(|c*)+yxx*|" 
+ 	)&&!match(false
+
+, 
+  '|y?a+(|)*c{7}c{3}c?xx(b|)*'
+	 
+		)	
+
+
+
+  && 			 		
+!   		
+ match('',"|bxx*b?y+a*yc" 	)][?match(null,'|')] ),"dc*[a-da-dx-zx-zzyx]ay+|"),?match(false,'|')][?match(null,'|')][?match(null,"|")]),"|")&&match(null,"|")]
+@@@
+[false]

@@ -1,0 +1,3 @@
+$[?!match(@.b,'[y]y?y?|[xx-zz]x+y')]
+@@@
+[{"a":"zz","b":"xx"},{"a":"zy"},{"a":"zy","b":"zzzzy"},{"a":"x","b":"x"},{"a":"y"},{"a":"y","b":"x"},{"a":"xyz","b":"x"},{"a":"yyzy","b":"x"},"xx",{"a":"xxzzyxzyzzxyyzzzxyzy","b":"zxxyyzzzxxzyzyyz"},{"a":"zyzyzyzxzyzzyyxxyzyx"},{"a":"zy"},"yyzyyyzyzyzxzxy",{"a":"yxyzxzxxxzzz"},{"a":"y"}]

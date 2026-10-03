@@ -1,0 +1,16 @@
+$  .*
+
+.cbdbabcd
+@@@
+
+
+{"dac":{	
+"d":
+	true,
+
+"aad"
+
+:  "yyxxyxxyx\\yy\r\f",	"\uDBBa\udfefbb\"a\b\n": false}
+,"cbbbbddad\uDBBA\udcDC\/\bba": {
+},"adb":	 null,"aac":
+ false}

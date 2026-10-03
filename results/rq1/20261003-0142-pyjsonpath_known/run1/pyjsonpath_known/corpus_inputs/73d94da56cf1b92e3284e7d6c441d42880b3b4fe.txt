@@ -1,0 +1,127 @@
+$[
+ 	
+	 ?	
+ 
+"xxxyyyzyy\\\""<=	 	
+	 	
+
+"xzz'zz" &&"xyzzyyxyzy'x"	<"\"y"  	
+
+	||	
+ "yy\b'z\"">"zxzyx\"\"xx"
+	
+	&&"zyxxyx''y"	   >="zyzyy\"z"
+	
+ 	 &&"zyx\ud4B2xzz"<
+ 	 "xzzz'\t"&&
+
+ 	  
+"zyxzzxz\"\/"	
+
+	 
+	<="x'x'z"
+&&	"zx'y\""
+
+ <="zyyzx\"'\""&&"yyxyzxyxzy'\f" 
+	 >="\"\"y"		 &&	 "xyz\"yx"<"xzxyxxyz\/zz"
+	&&	
+	
+"yzzx''">="yxyzyy'xy\\"||  	
+  	"yyxzzzxzx'\"\"" 
+
+ 
+ 
+	 <="zyzxyzxzzz'\n"||"zyxxzyyxz'\r\/z" >="xyzyyyyx\"\f"&&"''"=="\f''y" &&"yzxx\"\\\"'" =="zyyxyxx\t\""			&&
+		 "zyxzyzxxxy\f\r\"y"		
+		<"xyxxy'\""&&"xx\bx\bz"	
+	 
+ 	  	<="yzzx\/y\bx"||
+	"yzxz'yyx"
+<"xzyxzxz\t'yz" 
+	&&"zxxx\\z\f\u0ACB"
+
+
+
+!=
+
+"zzyxxx\\\"\"\"" 
+&& 	 	
+"zyzyzzxz\"\""
+
+	
+<= 
+ 	
+		
+"yxxx'zz" 	   
+&& "'\\yx"
+ 	
+
+
+ 	> 
+ 	 	"yyyxxzyx'y"	
+
+		&&	
+  
+		
+"yzxyxx\"\"">"yxzyx\udbeF\uDcbD'x"&& 
+ 	
+"yzxyxyyx'yz"!="yxzzxzxxy'xy"||"\tyzx"=="\"'\t" 		 
+
+	
+||"zyxxxz\"x'"  	<= 	
+  	"yyyyzzxxx\"y'"||"zxyzyxzxy\uD4dEz\\"	>   
+
+			"xxxy\uDBBD\uDDedxy"&&
+	"zxxzzxyzxx\uD9C1\udcEFyxx" 
+
+	!="zxyxy\txx\""  	 
+ 
+&&"zzzyyxyyy\"xxy">"zyyyyxxy'xx"&&	
+"yxyx\"'"!="yzz'zx"&& 			  
+ 
+"x\\\"\rz">=			"yyxyyzyx\"\""&&"yyyyyxxx\rz'\/"
+	
+	 	   >=
+	"zzxyzyyxx\\xxy" 
+&&
+ 
+"xyzyzzyyxx\"\"xx"
+
+  <"xyx\\\ty"&&"xzzz\\y"!="xxyzxyx'\""|| 
+  "\"y">="\"zy"&&		
+ 
+"zx''y\""<"xyyxzyzx'\"'\\"
+  
+&& "zzxzxy'y"
+>="zyzzzxxy\/yxy"&&	 
+"xyxzyxyxxz'x"<=	   
+"xzzxzz\ud9dc\udDEB\"x" &&"yyz\nz"<="zyyzyz\"\"\"'"&&"yxzxxy\rzz">"\nzz\""
+		 &&	
+   
+	"xxzzyyxyy\bz"	
+	<="zzxzyxxxz\ny"||"xyzzz\"z"  	
+	<	
+
+  
+"yxyzxxy'\n\r"		&&"xxyx\"xx\t"  
+ !=		
+"'z\n"&&  
+ "yyzyyxxyxy\/\"zy">"yzyzz\nz"&&"zzy\/\"" 	
+ !=
+		
+ 
+"zy\uDAFd\udfFa\"\uD8Ed\udCaB"
+   &&"yy\rzxx"<="yyxy'z\b\"",	
+	 		?
+
+	
+ 
+
+ 
+"xxzxy'z"!=	
+	
+	 	"zyxx'\fz" 	
+,   	  
+?"z\r\r">="zx\r\by"]
+@@@
+[null]

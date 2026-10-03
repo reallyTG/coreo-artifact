@@ -1,0 +1,3 @@
+*> p+em.aa > .da + *:scope[ id $="aaadbcddaaaa" ][class^= "" i][ disabled][data-ba ] , [data-cc = a i]+ [ lang]
+@@@
+<!DOCTYPE html><html><body><b id="dadacaaabaabbd" title="" data-ac="a"></b></body></html>

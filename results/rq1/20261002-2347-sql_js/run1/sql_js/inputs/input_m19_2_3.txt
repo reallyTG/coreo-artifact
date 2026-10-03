@@ -1,0 +1,27 @@
+With """a.BBBa.aB.aaaaB.a ." AS ( with			 " "".B.."" ..B . aB a"  as -- c
+  (( /* c */ 
+with
+ """""BB""a..a" as	( ( With RECURSIVE " B"".Baa.B" (
+"B""""a..""B"".""a Ba") As(SELECT DISTINCT On ( - FALSE::NUMERIC(  4,38151)::ec_.c_b::numeric In( with ".a""  BBBa""."""  As (With ".BB"".B  aB aaBB" as -- c
+	(  WITH	
+  "Ba"" B..""Ba"	As ( with recursive "Ba"".Baa.  B.a ""Ba """ ( """.aa""B "".""BB..BB ", ". ""B""B.a a"	, " .""a .Baa  aaaBB""B" ) as( ( (With Recursive "B""a"". .a""B. """"Ba a "( ".B. """" """" .",
+"a..aB. aBBB"" " , "aBBa"".Ba"" .""a",""" B.B "" .a", ". a""B .a""   . " , "B a"".a.B""B  "" B.", " B""""BBBa""B" ,".."" "" """" """".Ba" ,"...""a.a""""" ,	"""a a""aa""B ") As(Select Distinct
+  On (	5353923347_870_7::Double Precision -
+- greatest(true::Timestamp With
+ time zone::Numeric > ALL (	SELECT ALL UNION
+SELECT  distinct
+"""  BBa ""aBaB"".B"".B".*, - (interval E'\101\t''\101\101\101\101y''' AT time Zone Least((
+	
+ B'01' at TIME ZONE .1::character Varying[] At  TIME	
+zone Exists (( (	(SELECT) Union -- c
+  (SELECT DISTINCT  * OFFSET
+6 Row)) Union -- c
+ All /* c */  select  distinct * FOR share)	union
+Select DISTINCT
+* , * FOR Update)  ^	- +  True % U&'y''y''' + FALSE::VARCHAR  isnull,- NULL::integer is
+False) * TRUE -- c
+ + null |	- 1 At Time Zone ARRAY[] -  + time E'\\' Is Not Null AND + null  NOTNULL) +  B'00011111' ~* all (Select	ALL * FOR SHARE)	ilike Any(not False * row () Isnull) >  True And False / E'\x41\n\n' Isnull OR 78310E63) *
+ + False	- ARRAY[	] not Like Some(null - 243) != false and ARRAY[ ] % 9322 or  Not False::smallint As "aa BB"" a a."" a BBa") notnull OR TRUE) ^ B'' % U&'\0041y'
+ Not ilike FALSE <= Null  and
+.12	like True) *, * ,* union select Distinct *) SELECT distinct *,*) UNION ( select all FOR SHARE))  UNION SELECT distinct *,  *) select all) select ALL "a  . B..B""."" ".* FOR share) Select DISTINCT * ,* FOR UPDATE) SELECT	Distinct *) > NULL notnull AND 1525623 And false Notnull) *, * UNION all Select All * , *) select all *) union select Union ( select DISTINCT * , *)) select) union SELECT All OFFSET 641 ROW)	 SELECT
+distinct *) SELECT	distinct *,*;

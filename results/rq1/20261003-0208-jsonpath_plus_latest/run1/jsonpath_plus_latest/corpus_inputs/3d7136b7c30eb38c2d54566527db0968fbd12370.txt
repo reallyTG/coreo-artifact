@@ -1,0 +1,57 @@
+$.*.*..[0,"a","",'accbcbdab',-4]..*[-158160500930020,'','bd','',6,7292808080005,"bdcbaddaab\"",-3]..*
+@@@
+[
+
+false	 	 		
+,0,  
+
+ true,false,	 null
+	
+
+,[ 
+ { 
+
+			
+} 
+
+
+
+ 
+,	
+
+
+"zxxxzxxz"
+ 
+, null	
+
+,	 				
+ [		], 
+
+
+	true,null, 
+[		
+	  ""	
+,				
+	false
+	
+	,true ,{}
+],
+			
+ 
+[{}
+	 ,
+[],
+
+ 
+	[ 	 ],[false
+ ,false,
+null,	 null , 
+ 
+
+		null]] 
+
+
+	, [],		 	
+null	]	
+   
+] 	

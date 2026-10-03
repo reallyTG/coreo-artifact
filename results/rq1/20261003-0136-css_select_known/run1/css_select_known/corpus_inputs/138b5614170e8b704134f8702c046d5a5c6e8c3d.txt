@@ -1,0 +1,3 @@
+.ad[href $=""]+*:disabled:where( *, [href ]>a~a.c):lang(dabac)[ type$= abddcbaacdda-cd-cb-a-b-cd-d ],body, [required *=ac-bbbcdaaddd][ href $= d ] +b:nth-last-child(-0223n)#bb ~*[ type~= ""] ,em:is( *>*#d ~*[ class] )>html#a.b
+@@@
+<!DOCTYPE html><html><body><section class="bdcabcabcadd" id="aa"><input type="radio" checked disabled lang="bdbcdbc-baacaaaaaabbd" data-bb="acabbad-bcddaa"><p id="d">cbbabbbabc <span class="dccbdccdac db" lang="daabcdaab"></span>abacb</p></section></body></html>

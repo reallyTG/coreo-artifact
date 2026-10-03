@@ -1,0 +1,31 @@
+$.*..*["aaa",'',0,'',"ccbc\ncb'ddc'\n\"\"",'d']..*..d
+@@@
+			 	 [ 	true,"yx",
+
+
+
+
+false		
+
+ 
+, 	
+""  	 			 ,true
+	 ,	
+ 	
+true,	 
+
+
+
+
+	{	
+	
+ "aa":   
+		
+ null,	   
+
+	  "cbcbaabcccd"	 :true }
+	
+	
+
+,	 [	],53000600.0880100e0 		 
+	,true]

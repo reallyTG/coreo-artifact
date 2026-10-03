@@ -1,0 +1,3 @@
+$[*].b..*
+@@@
+{"acddcbcbbbb":"xy","aaabbccaaaa":{"a":0},"daacbaab":0}

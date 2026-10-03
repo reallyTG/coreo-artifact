@@ -1,0 +1,3 @@
+$..b.ab.ac
+@@@
+{"cddadaacbc":["z","yy","zz","zyy","zy","yz","zzx",0,0,0,0,60,11,"xzy",86,7,0,"x",0,30,"yy",0,"yx","zy","zyz",66,0],"ccbbdacdbcc":[90,0,0,"xz",0,"yxy","zx",43,27,0,"y",2,"z","xxy","zyx","z","yzy"],"adbbacdbcaa":["yx",0,8,60,"yx",3,0,"xzx","y",86,"y","z","zy","z","xzx","y","yxz","y",0,0,"y","zyx","xzy",0,8,0,80,"yx",8,"yy","yxy"],"ddadcaaabd":["xxx",0,50,"zy","y","y","x","xxz",1,"xzx","yzz",0,6,"xx","yyy",0,"zz","yx",98,"x",7],"dbcccbdaba":[0,"zyy",90,0,20,30,0,"z","z","xz","yxx",0,0,3,6,"zxx","zx",0,"z",0,"zyx","zz",0,0],"cbacddabaabd":[0,20,0,0,"xy","xz",0,10,"xy","z","yz","x","yzx",0,"zyz",3,"zx","yy",50,0,"yxz",84,1,"zx",3,"zyz",31,0,0,0],"bddadbddda":["zyz",60,7,0,"yz","yy",0,30,"xzx","y",8,"x"]}

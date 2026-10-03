@@ -1,0 +1,70 @@
+$[?(match(
+  
+
+@,'[db][^x-za-d]|[^c][^a-dx-z][xa-d]{0,1}[ya-d][x-zx-z]*[x-zb]?[y][ca-d][^xd]+[^a-d]|[x-z]?[xa-d][x-zx][a-da-d]*[^x-zx-z][x-z]+|[a-d][^y][^xz][^d]+[x-z]+[^b]+[xx-z]{1,3}[x-zx]+[x-za-d]'		 )	  
+
+ 
+ 
+)][?(match(null		
+	 
+
+	
+,	'[^a-d][x-z][^a-d]?[^x-za-d]?[a-d]+[a-d]{1,3}')	
+&&match($[0].ca,'[^aa-d]+[^x-z]?[z]{0,1}[^x-za][x-z]?'		
+
+  	  )
+
+
+ &&   
+match(
+
+	
+ 		
+
+null
+, '[x-zx-z][^y]{0,}[^a-d]')
+	|| 
+
+	
+	!match(true				
+ ,'[a-dy][^a-d]*[^a-d]+|[^a-da-d]+[^x-zc][^x-z]{8}[a-d]?[^bx-z][^a-d][^x-z]?[xx-z]|[^a-dx-z][a-d]*[^y]+[z][^db][x-zc]+[a-dx-z]+[x-z][x-z]{2,4}[x-zx-z]?|[z]?[^ax-z][a-d][^a-d][x-z]+[^d][x-z][xx-z]|[dy][^c][^z][ba-d][x-z][za-d]{6}[^a-d]?[a-d]')&&match(count(	 
+
+  	$[?(match(
+  	  false,			
+ "[c]+[^a-dx-z]|[^x-z][x-zx-z][^x-z][^x-za-d][^a-dx-z][^d][a-dx-z][^x-z]|[^a-da-d][a-db]?[^x-z]|[zx-z]?[x-z]*|[x-z]{0,}[zc][x-zc]{2,4}[^a-dx-z][x-z]*|[^a-da-d][^c]?[x-z][xa-d]*[^x-zc][a-dx][^a-d]"
+ )
+)] 
+
+
+),
+  "[^a-da-d][^x-zd][^z]?[x-z][^x-z][ba-d]{6,}[^x-z]*[a-d]{1,2}[^x-zz]?"	
+
+	 	
+)&&match(
+	
+ 
+@,'[^x-z]?[x-zx-z]*[x-zb]{0,2}[^a-dx-z][x-za-d][^x-za-d][c]*[a-dx-z]*[^a-d]')	
+
+	&&match(
+
+true,
+
+ 
+
+"[^x-zy]?[^a-d]+[a-da-d][^b][x]{3}[^dx-z][a-d]?[z][^a-dx-z]?|[x-za-d]?[a-db]?[^xd][^c][^x-zx-z][x-z]{0,1}|[^a-dd]+[x-zx-z]*[a-d]+[ba-d]{0,1}[zx-z]?[y][^dc]*[zx-z]*[x-z]|[x-z]?[^dx-z][x-za-d][^x-za-d]|[^x-z]+[^c]+[^y][da-d]?[^a-dx-z][^a-da-d]?[c]{9}[^yx-z]?[x-z]|[^x-zz][^yx-z]{0}[x-z]*[yx]{0,}[^x-za-d]+[^x-zx]+[^a-dx-z]?[^x-zx]?[x-zx-z]*|[x-zb][^a-da-d]*[^x-z][z]|[^a-d]?[^a-da-d][zd]{0}[^x-z]*[a-d][a-dx-z][^d]*[^d]+[^xx-z]+|[a-d]+[^d]?[x-za-d][c]{1,3}[^x-za]*[^x-za-d]?[^a-d][x-zx-z]{1,3}[^a-dx-z][ax-z]{0,2}|[x-za-d]?[^x-z]+[a-d][^b][^x-z]*[x-z]+[x-z]?[d]{0,2}|[^x-za-d]{0}")&&match($, 
+ 
+
+
+'[d][a-dx-z]|[a-d]|[^a-d]+[^xa-d]?|[aa-d][b][a-d]*[x][^dx-z]?[yx]{2,4}[x-z][^aa-d]|[^x-zx-z][ca-d]*[a-d][^z]+[a-da-d]+[yx-z]*[^a-d]|[^a-dx-z][^x-zx-z][x-z][x-zd]{6}[a-db][x-z]{1,3}[^x-zx-z]{3}[by]?|[x-zy][^x-z][^cz]{3,}[^xx-z]?[a-da-d]{1,3}[d]+[^x-zy]+'
+	 	 
+	)&& 
+
+
+ 
+!match(true,	
+		
+
+'[^x-z]{3,}[^a-d][y]?[x-zx-z]?[a-dx-z][z]*[^x-z]')
+)]
+@@@
+[null]

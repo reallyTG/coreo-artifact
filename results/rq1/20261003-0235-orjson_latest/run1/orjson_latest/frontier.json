@@ -1,0 +1,133 @@
+{
+  "__grammar__": {
+    "digest": "441838884a3bb8404df9ee49d681ba8d4a97b734"
+  },
+  "count_char_2": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 453.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "rung": 0,
+    "site": "<more_member>"
+  },
+  "count_hex_high_surrogate": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 9.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_hex_low_surrogate_fffe": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 9.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_integer_number": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 6.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "rung": 0,
+    "site": "<more_member>"
+  },
+  "count_root_scalar": {
+    "constant": false,
+    "last_max": 1.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      2.0,
+      4.0
+    ],
+    "rung": 1
+  },
+  "count_string": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 64.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_unescaped_nonascii": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 135.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_value": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 100.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "depth": {
+    "constant": false,
+    "last_max": 15.0,
+    "misses": 2,
+    "pinned": true,
+    "reason": "search",
+    "requested": [
+      16.0,
+      30
+    ],
+    "rung": 2
+  },
+  "num_arrays": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 12.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_member>"
+  }
+}

@@ -1,0 +1,1 @@
+SELECT c_1cb_cd.ae1 FROM bdbdd WHERE db.dd IN(59 , 997 , 9013277887 , ca_a_cbac) ;

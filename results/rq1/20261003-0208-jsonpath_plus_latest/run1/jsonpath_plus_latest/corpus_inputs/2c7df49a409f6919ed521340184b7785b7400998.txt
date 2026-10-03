@@ -1,0 +1,14 @@
+$.*
+@@@
+ 		 [true,null,  	
+
+ 0.400000744,	
+	 true,	   "yxxzzyxz",
+-0.56000087	
+		  	,"zxxyyzxzzz",
+	 
+	8E-4]	
+
+
+
+			

@@ -1,0 +1,3 @@
+em>.d:where( div+ b:enabled#ddaddabd , html:is( * > input.d#d,*.d> *, * )+ :not( div + *>[class$=bc-ba-abacdcbbbd-b-b i]#bd + :last-of-type :any-link:read-write:first-of-type:link.ccbbdccaac#a[checked]:not(* > :has(* > div )>:last-of-type~ *)#cdccccabcb[ type *=ab-abadbbdac-ba].cbbddbbcdc,a +#a[ href = "bbcadcda a ad a"] + *#c , p#bca) +#acb+*:optional ~div ) > *:not(b.ba#bb:active >* ~.cd[ disabled] + #ca )~ a+*,.ddccdbd:where(:last-of-type, input):only-child#ddaccbdabcbbab
+@@@
+<!DOCTYPE html><html><body><div data-bd="d">  </div><section class="b" id="ad"></section></body></html>

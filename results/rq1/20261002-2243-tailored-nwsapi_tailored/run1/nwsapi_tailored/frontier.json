@@ -1,0 +1,77 @@
+{
+  "__grammar__": {
+    "digest": "0f2f4fe6be2544c5bbe071284f6a1d68716440cb"
+  },
+  "count_class_selector": {
+    "constant": false,
+    "last_max": 26.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      27.0,
+      52
+    ],
+    "rung": 1
+  },
+  "count_complex_selector_list": {
+    "constant": false,
+    "last_max": 25.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      26.0,
+      50
+    ],
+    "rung": 1
+  },
+  "count_lang_range": {
+    "constant": false,
+    "last_max": 2.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      3.0,
+      5.0
+    ],
+    "rung": 0
+  },
+  "count_more_complex_selector": {
+    "constant": false,
+    "last_max": 14.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      15.0,
+      28
+    ],
+    "rung": 1
+  },
+  "count_pseudo_class_selector": {
+    "constant": false,
+    "last_max": 28.0,
+    "misses": 2,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      29.0,
+      56
+    ],
+    "rung": 2
+  },
+  "count_sel_name": {
+    "constant": false,
+    "last_max": 71.0,
+    "misses": 2,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      72.0,
+      142
+    ],
+    "rung": 2
+  }
+}

@@ -1,0 +1,1 @@
+SELECT 035356447 AND _abdd.edeced_1bea ,_1d.aa_d_ FROM e1dce_aaed;

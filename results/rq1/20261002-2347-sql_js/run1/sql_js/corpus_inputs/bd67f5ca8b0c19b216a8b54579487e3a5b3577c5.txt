@@ -1,0 +1,25 @@
+select  distinct  False::Numeric[9904 ]::TIMESTAMP::Character VARYING::varchar( 42723263)[][  9604083]::Numeric  ->> - +	( (With "  ""aB.B .BB.aB"". B"	As(
+with "a""a aBBB."""""" .." As (WITH recursive " B..""BB """ ( " ..BBB "".Baa"".. " ,"B aa....B aa."
+,	"""""B""""aa""B aa .","BB ""..aa""BBaBB" ,".""B ""a""BBBaa  .""." ,"BB "".""""""" ,"BBB""B""aBa B aaB""",".a  B.a""" ,	".. B."". ""a",
+""""".BBa.B""B""Ba"".B aa.a"""
+,"""""Ba""""""Ba""a . .a" ) AS( SELECT distinct - 973_5572485_061962_76323_333310861_243_429987_54_467839327_40975854_61688::TIMESTAMP
+ With TIME ZONE::Int[2] /* c */  % """aa   ""... . ."::SMALLINT::INT[  72690 ] notnull Or NOT +
+  " a ""a.B """""." ""a..""""."""."BBB aa.""."".""""a"""[-
++ """ . aaB  . a "."a ""B"" a..  " ^ 1590957_159270195_49  / LEAST ( /* c */  not """.""B.a "" B..a.aBa""BBB".abs( *) filter	( -- c
+ where exists ( with "BaaaaB """
+ AS ((
+ SELECT all Where
+x'7Fa'::Int[][][ 5]::b_bbc.eadbc ^ ".a"" """""".B"".a""   ""   ."""."a"""".BaB "".. """"a" ^ + +  E'\t' at -- c
+ time  zone ". ."".B""... Baa"." ""..aBa.""..."[false not In(- Count() is FALSE)
+= False  and E'\\\101y' * - false
+	Isnull] % - null - 4 ^ Array[]  not LIKE True >  Any( 952  + E'x' ISNULL))  union all SELECT
+ALL *,*) select
+Distinct * , *,*) % ARRAY[ ] -  false::TEXT[] In(Select
+Distinct *,*	 , *) < any ( Select distinct *, *) And Not  Row() notnull) over  () AT
+TIME ZONE 45E86 ^ + X'7F' * null -
+-
+Array[] between  8781e910 and FALSE >= ALL( Select Offset	312057 ROWS for key Share) and ARRAY[ ]
+or Not false::Real Is FALSE) - B'0' ->  TRUE ~* - + ROW() * array[ ] Not BETWEEN 'xxxyz' and true	 != TRUE and + FALSE	 and - array[]]::Date[ 9] ^ ROW( ) *	 Time U&'x\0041' || Any (
+SELECT DISTINCT *, * FOR Update)	not  IN ( SELECT distinct *) <> ANY ( Select Distinct *  , *,*)
+or	false * ARRAY[]	""" .""a""BBa B""  "". ." UNION ALL select) Select all For UPDATE) select	* , NOT .91) SELECT distinct * , *) union SELECT DISTINCT * ,*) In (Select Distinct *  ,* OFFSET 977285 row)	NOTNULL ,
+*;

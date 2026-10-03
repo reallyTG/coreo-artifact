@@ -1,0 +1,29 @@
+with " B . .a.aa" as(WITH Recursive -- c
+ ced_cbe_e1e(aabdbcc1b ,	 aabed1eed1 ,e_1 )
+AS ( (  (with "a""B..Ba a" as (	WITH a As
+(  Select	where -- c
+ (WITH Recursive ec (
+ "a.. a""",_b,  bb_dc1bcb )	As (( with recursive b__a(ae1e ," .""a  """,a_ ,".", bb1cbbed , abe1, e1ec,d1cab1  ,bad,b_cae , _ee1dadaace) AS((WITH RECURSIVE b_1d	( e, "."".""a ."
+,eaa,".""B.B"" a ",ec_, "   Ba""""..""", "BBa B ""B.",eccd_1_d , eddae) as (select ALL *
+From
+lateral  cd1.Count ( b''	^	+ b_ / ARRAY[ ]::INT[ ]	 + b111 ~ B'0' ^ FALSE
+ / + FALSE NOT Ilike some /* c */  ( x'0' ^ TRUE) or Not - -
+5) Union all SELECT Distinct bbee1d.*) Select	all _c1.*) Union Select  DISTINCT *, *) Select distinct *, *	FOR No
+KEY Update) union Select distinct * ,*) select)::VARCHAR ^ +
+"aB.  ".e.d	/
+False::Interval NOT like ANY (8945634_10400488 Isnull) != Null And ecd1.ea ISNULL
+OFFSET	57 row), bcbd1abe AS ( select ALL for  UPDATE) , ba__e AS(SELECT Distinct *,d_ab1.*), " BB"
+As( SELECT Distinct *),caa_1e AS(select Distinct * ,"B".* For Update)," .""a" as(select -- c
+ All)  ,c1ba_ccbac
+As( SELECT
+Distinct *  FOR share), """B" As(Select all "B  ".*),deb1dec As( select All *)
+SELECT distinct  aa1_a_b.*), ddd_c	AS (SELECT Distinct	 """a".*  for Update),ede	As(SELECT distinct *,*),c as( Select Distinct *  , * OFFSET 5 Row),aa_b1adcb as (SELECT  All),adbd1eedbce AS (
+select
+*, eae1.*), """aB""""" AS ( Select All For SHARE),edbac_ad As (SELECT ALL),_bccea_ba1e -- c
+ as ( select Distinct * FOR UPDATE) select all Offset 0 ROWS for Share)	union ALL select ALL OFFSET 0 ROWS) UNION
+all Select  DISTINCT  d1.*) Select all * OFFSET 83 ROWS),	 ee As (SELECT All Offset 3 ROW) , bc_ as	(
+ Select ALL offset 78 ROWS), e AS(Select * , ".aaaB ".*)," a"  As(
+Select Offset 1 Row), _dea_
+ AS(
+select All * FOR share) ,daabca1 As (select DISTINCT _1.*) ,ac as /* c */  (select Distinct *	, *  for Update),d11a_ea as( select distinct *)
+SELECT FETCH NEXT 348 rows only for SHARE;

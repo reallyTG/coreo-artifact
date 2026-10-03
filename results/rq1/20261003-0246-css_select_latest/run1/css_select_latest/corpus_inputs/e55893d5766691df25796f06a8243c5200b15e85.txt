@@ -1,0 +1,3 @@
+input, input+section + body+ *.cdbdddb >[href ~= a ]:read-only
+@@@
+<!DOCTYPE html><html><body><section class="bdcdcacb bc" id="dadababddba" lang="cadacbddcbd" data-ad=""></section><div class="bd" data-aa="a a"></div></body></html>

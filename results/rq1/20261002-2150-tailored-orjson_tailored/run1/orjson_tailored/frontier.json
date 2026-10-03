@@ -1,0 +1,41 @@
+{
+  "__grammar__": {
+    "digest": "10c5bf63e1459b549419682df6929e0c4128aa16"
+  },
+  "doc_bytes": {
+    "constant": false,
+    "last_max": 31348.0,
+    "misses": 2,
+    "pinned": true,
+    "reason": "search",
+    "requested": [
+      31349.0,
+      62696
+    ],
+    "rung": 2
+  },
+  "key_density": {
+    "constant": false,
+    "last_max": 0.10526315789473684,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      1.1052631578947367,
+      3.1052631578947367
+    ],
+    "rung": 1
+  },
+  "latin1_char_share": {
+    "constant": false,
+    "last_max": 1.0,
+    "misses": 2,
+    "pinned": true,
+    "reason": "search",
+    "requested": [
+      2.0,
+      4.0
+    ],
+    "rung": 2
+  }
+}

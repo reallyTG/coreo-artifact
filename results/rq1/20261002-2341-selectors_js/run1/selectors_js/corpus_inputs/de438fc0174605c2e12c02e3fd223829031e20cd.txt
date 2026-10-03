@@ -1,0 +1,3 @@
+em ,*[readonly$= "ad-cdbdbbcbcd" ] ,.dd ~#a:has( ~ :any-link#dbc> a ) > :nth-last-child(-3 )+:first-child[readonly="a dcbacbaabc ccbdabdbada" ].dbcdacbcc:where(.a:where( :nth-last-child( odd )#d[class ]:hover ~ *+*[title $= "" i ]#ca+b:lang(dcbbcdbbba-bdbdccdcbbb )#acbcbbcc+ div) ,*#dadbadb, :hover> #a+div),[required]:required#ac:where( #dd#b)#d.ab#bd#cdbac:where([ href*=""]+ *+*#ab~ [required *= bd i], b)#dbaadaabacb, html [ title ^= "ca abaacbbccd"]
+@@@
+<!DOCTYPE html><html><body><p id="d" data-ccbcbaacd=""></p><span>aaa bbc</span><section class="d c" id="acbacbabccb" lang="dbb-aabdccccbbdd-acbdbccba"></section><p class="c" lang="aacda" data-da=""></p><section class="dbcaab bd"></section></body></html>

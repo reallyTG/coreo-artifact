@@ -1,0 +1,33 @@
+with RECURSIVE  aa_caea1a ( aebbb1e_11,e  , eb ,bec ,"Baa",
+"B.B ""aBB"".",
+" """".B.")
+AS ( SELECT
+Distinct + - c11_a11eab.ae_	* 12908_5694	- - array[ -- c
+ ] AT TIME zone ".a"""[timestamp U&'y\0041yy''y\0041\0041' ^ .48681e3404906 at /* c */  Time zone _daab1a.d_bbabb_ad_::Text * 90168 /
+TRUE at /* c */ 
+ Time zone	CASE edabca_[ (
+Select b1c[(X'a'
+%	Array[] At  TIME ZONE  ' xz''z  xz' * + ec.d_cbc_a.d[c1ceded.c__111[-  + null ^ ( not - Null  ilike -- c
+ - True::timestamp[ ][][]	% cacbeedada.".""Ba"" """"a".""".B" % X'F7077aF0' / date
+'    x ' / c1adc11da.cee1::TIMESTAMP[542	]::smallint::timestamp < /* c */  - Date U&'yy' % a1ad.ae_a ^	+  + "B."".".".BBBB"" Ba" ^ - "."""". .a"""""""._1aeb1[	 cbd_ ||	Any ( select	e.*	, *, _b  ISNULL	e) between x''::REAL and null != Any (Select Distinct dced.* ,ca1ae1_.*)
+isnull] + ".BBaBBa """ ilike any(SELECT DISTINCT a___e.* FOR UPDATE)  is Not 
+ FALSE OR 78 - Array[ ]  isnull) at	Time ZONE  b_11ebc *	"a""" - Row () |	All(select all d1b.* FOR share) In (Select  *, _e_a_e.*)  <= FALSE] ^ Array[ ]
+^ true % -
+U&'\0041y' between ARRAY[] and false Isnull  Or '\ y\' + -  B'010']
++ - - - False -- c
+ >= True,not Not not + NULL) ^ ARRAY[ ] Between
+'x' * '  ' AND NULL
+ Or + 38 Is TRUE]::varchar[] At /* c */  TIME ZONE ARRAY[] || e1 * X'aa70'
++ e1 Not like null <	 ALL(	SELECT	All) AND -
+FALSE +
+-  b'0' NOTNULL Or TRUE::BIGINT isnull , *) % - NULL::Text  Not  Ilike SOME( select all OFFSET 6 Row) IS false AND
+ NOT
+ +
+E'' OR cd
+ISNULL] ^ + + false - + - B'10' Not Between "." AND NULL AND	TIME U&'' Is True OR d % B'00001' WHEN  + x'0'  ISNULL then NULL end
++ e1_ / FALSE IN(SELECT Fetch	NEXT 4 rows Only for SHARE)  AND null is Not NULL] % ea::INT  <<
+ _eaadea.a / Array[ ] >	False Is NOT
+ NULL c1ae11adccc
+UNION ALL select	*) SELECT all -- c
+
+ ;

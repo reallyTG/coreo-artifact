@@ -1,0 +1,38 @@
+with
+ e_ -- c
+ As ( WITH  
+ Recursive /* c */  caa( cad_cb , ebdd1_cbbaa) As( Select distinct c_.* -- c
+ , Not - bcbecb.a_bc1abca_c ^ Count ( ) FILTER ( Where "B""".a__a::Real[6]::d.a_
+* Grouping(Grouping(not
+ -  Null ^
+"Ba""" ^ - e_edbee[ + + (a1_ <= ALL
+( not array[ ] is not Null) Isnull And  Not  aebbdb or edcd1be) *
++ Null - Null::VARCHAR not like Null]	 at Time Zone ab1.min( ) - c::_.a < null Is not false And b ^ E' \\''' Or	false)::numeric /* c */  (5) ^ e_1bd / - 347 + Interval  E'' ~* d Ilike -- c
+ ALL(	 false Is FALSE OR	NOT - -
+b'010' ISNULL) >=
+True IS Not FALSE -- c
+
+Or -- c
+ TIMESTAMP  '''zx'' ') ^ True::timestamp + max( ) !~~	SOME (
+not bebb.b) NOT ilike  TRUE != B'11' And not x'a'	- row ()) at time  zone
+x'00F7F770' %	cb_ -	+ FALSE !~~ ad -
+b'0'  ^ FALSE Not LIKE Any(	b'01' ilike NULL) > FALSE IS false And Not not ".".b.e ISNULL	OR	+ d.de
+Union SELECT DISTINCT e_.*) select DISTINCT
+*) , ae__cb1 as -- c
+ (SELECT ALL FOR /* c */  key  Share) , aa as(Select Distinct *,
+ c1d_.*), """BaB." As (	select All FOR update) ,d As (SELECT
+ALL cc1c.*  FOR update) ,"."". """""
+As( select *	for update), dd__e1ce AS(Select DISTINCT * for share) ,b_b_e_bac AS(select DISTINCT *),_c_aeea As(Select For /* c */  No
+ KEY Update)	,	""" "".a.a" as(	Select ALL),ad_d AS( SELECT FOR /* c */   update),ce1cd	AS(SELECT  DISTINCT * For key Share) , e_cbe_ad	as(  select offset	 9996 ROWS),ea_cdebe	as (	SELECT All For Update) , _c1dbbd As (  select *),"""a" As(select DISTINCT ba1.*, *) ,
+ ba1__db_c AS(SELECT)
+,bbeb11eca1c As(Select "a".*) , bd_1cecda1  As (Select DISTINCT *), " a"" " as ( SELECT distinct *,* for
+share),bec As (Select Fetch	FIRST ROW only),cdbdec1_ As (	 SELECT
+distinct * For UPDATE) , _c  AS (select all OFFSET 6
+Rows) ,"  BB.a" -- c
+ As(
+
+Select -- c
+ For Update) , _a1_1 AS( SELECT All
+*	FOR  SHARE)
+SELECT Distinct
+*,e.* ;

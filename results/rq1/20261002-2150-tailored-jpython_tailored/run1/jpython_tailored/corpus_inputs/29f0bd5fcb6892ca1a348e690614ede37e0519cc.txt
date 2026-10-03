@@ -1,0 +1,3 @@
+$[*]..*..*..*.cd
+@@@
+{"adbabdbddd":8,"ccacabbac":{"a":90,"b":[0,"zx",0,1]},"baacbbcabcac":[52,"y","x","zx",0],"dccaccbdbac":50,"bcbbacaddd":["yxz","zy",6,"xzx","x","zx","z","zxx","xxy"],"bccdccdadc":"y","dbcccbcbad":["yx","yzx",0,1],"bcccaaccaac":[8,"zy","y",0,2],"caacaabbda":["yz","yzz",0,"xy","xxy",1,0,0,10]}

@@ -1,0 +1,137 @@
+{
+  "count_descendant_segment|doc_bytes": {
+    "band": [
+      24,
+      26
+    ],
+    "best": 11.0,
+    "direction": "maximizing",
+    "extensive": "count_descendant_segment",
+    "intensive": "doc_bytes",
+    "stalls": 0,
+    "window": [
+      36.0,
+      43.199999999999996
+    ]
+  },
+  "count_descendant_segment|query_len": {
+    "band": [
+      24,
+      26
+    ],
+    "best": 1847.0,
+    "direction": "maximizing",
+    "extensive": "count_descendant_segment",
+    "intensive": "query_len",
+    "stalls": 0,
+    "window": [
+      12.0,
+      14.399999999999999
+    ]
+  },
+  "count_logical_expr|query_len": {
+    "band": [
+      24,
+      26
+    ],
+    "best": 1854.0,
+    "direction": "maximizing",
+    "extensive": "count_logical_expr",
+    "intensive": "query_len",
+    "stalls": 0,
+    "window": [
+      19.0,
+      22.8
+    ]
+  },
+  "count_member_name_shorthand|doc_bytes": {
+    "band": [
+      24,
+      26
+    ],
+    "best": 13.0,
+    "direction": "maximizing",
+    "extensive": "count_member_name_shorthand",
+    "intensive": "doc_bytes",
+    "stalls": 0,
+    "window": [
+      34.0,
+      40.8
+    ]
+  },
+  "count_member|doc_bytes": {
+    "band": [
+      5,
+      7
+    ],
+    "best": 142.0,
+    "direction": "maximizing",
+    "extensive": "count_member",
+    "intensive": "doc_bytes",
+    "stalls": 0,
+    "window": [
+      7.0,
+      8.4
+    ]
+  },
+  "count_member|query_len": {
+    "band": [
+      4,
+      6
+    ],
+    "best": 1359.0,
+    "direction": "maximizing",
+    "extensive": "count_member",
+    "intensive": "query_len",
+    "stalls": 1,
+    "window": [
+      6.0,
+      7.199999999999999
+    ]
+  },
+  "count_nonempty_object|query_len": {
+    "band": [
+      3,
+      6
+    ],
+    "best": 1925.0,
+    "direction": "maximizing",
+    "extensive": "count_nonempty_object",
+    "intensive": "query_len",
+    "stalls": 0,
+    "window": [
+      1.0,
+      2.0
+    ]
+  },
+  "count_s_segment|query_len": {
+    "band": [
+      24,
+      26
+    ],
+    "best": 1960.0,
+    "direction": "maximizing",
+    "extensive": "count_s_segment",
+    "intensive": "query_len",
+    "stalls": 0,
+    "window": [
+      25.0,
+      30.0
+    ]
+  },
+  "count_ws|query_len": {
+    "band": [
+      4,
+      6
+    ],
+    "best": 1254.0,
+    "direction": "maximizing",
+    "extensive": "count_ws",
+    "intensive": "query_len",
+    "stalls": 0,
+    "window": [
+      32.0,
+      38.4
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+:link+*~ input[ lang=ab i] , b#adaddacdccaa#daabcbbbb#bcadcdacbcaca +[readonly= acacd i ] ~ .cd:optional[checked ^=ba-bb-d-c-d i ] > .dc ~section+:any-link
+@@@
+<!DOCTYPE html><html><body><p title="adccacbbadaa"></p></body></html>

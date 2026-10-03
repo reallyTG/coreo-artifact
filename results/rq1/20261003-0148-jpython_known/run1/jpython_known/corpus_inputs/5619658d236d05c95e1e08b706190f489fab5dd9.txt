@@ -1,0 +1,101 @@
+$..[*]
+
+
+	 
+		
+.* 
+	
+
+
+
+[* 		,0  : 	 	
+ 	70:]	 	
+ ..ba..[?@	 
+	["ddccbbdbddb"]  .bdbababdcbbd
+		 
+==''||!
+  
+
+ 		 match(	
+-0	
+
+
+	,
+ 		
+$ 
+
+[29]	[30]
+	
+
+ ["ddbddbabdcb"].d[-8].dadc	
+	
+
+ ['daa\'""cd"bcb\t']["d"])&&value(@)>= 	
+ 
+count(	 $[0:	 	 
+
+ :
+ 		
+
+ -2188,	 	 	 20,?	 
+  	false	
+ 
+
+!=
+
+ length(true 
+
+
+
+	 ) 
+	, 		 	0
+	 
+
+
+::
+	 -20
+	,10 ,
+  
+
+	?match( 	$,			
+	 false	
+
+	) 
+
+ 
+  &&	
+  
+ 
+
+!	
+@	,	   
+
+-8		   ,	 
+ 		'ab',35:: 
+ 	 		]	
+	
+	)
+ 	].c.a
+@@@
+{"b" 
+
+	
+:null,"bcdb\fda\\b\u0fb0\/dc\\" :{
+	
+ }	  	,"a":
+
+	 
+ [],"dc": true,"bac":			null 
+ 		,		 "daacadd":[], 
+		"dadca"
+:
+	true
+
+	
+ 
+
+ ,		
+
+ 	"abdbbdcccaca":false
+
+}

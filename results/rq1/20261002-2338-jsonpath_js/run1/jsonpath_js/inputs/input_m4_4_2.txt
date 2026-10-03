@@ -1,0 +1,44 @@
+$
+@@@
+[	
+ 		"y" 
+	 ,
+
+-28E+4,
+
+	 		  	"yzzyxyxxxy",
+	
+	
+
+false
+
+			
+	
+,"yyxxzyyzz"
+
+ 
+	 	, 
+		
+		
+{"ccd":"x","aaa"	 	  	:	
+ 
+	{}} ,
+ true
+
+	 
+ 
+ ,	 
+ 
+		
+ "y",{},		 ""	  		
+ 
+,
+  			"",		  	
+
+		false 
+
+   
+
+ ,null
+	
+ ]

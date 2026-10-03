@@ -1,0 +1,169 @@
+$
+		 [  
+	  	?match(true 
+
+,
+"z+|b+|y|c|x|x{1,2}") 
+	&&match($ ,		 
+
+	".?"),
+?
+		!
+match( 
+
+@ 	
+ 
+['addadcc\\\bd""\''] 
+['dc'] 	
+		 ,
+			  '[da-dbx-zx-zx-za-dx-z]')&&	
+	
+! 	 match(
+
+  
+
+
+null	
+,		
+	"c?")
+	&&	match(@  			 	[-5]	
+		 ,
+	
+ 
+		"(x*|[a-dx-zz]|x|z?|y|(b+)|c{1,3}|x*|b*|y{8}|a?)"	
+ 				 )||	
+
+	
+
+ !match(
+ 		$		
+
+[""]   
+,"c?"	
+)||match(count(	
+	
+ @	
+),"((c*){1,2})*|z{1,2}|a"
+)
+	
+&& match("\/\n\ny"	 	
+ ,		'y|c'
+)
+ 
+
+    &&match(null,
+
+ 		
+"c+|y{1,3}|b|x|a{1,2}")&&  match(false		,'((x|(z+){0}|(z+|a+|b+|c|(y?)|d|a|[a-dx-zaa-ddx])|.|c|a|x)|z|a?|b?|a*|b|x+|b)|z{5}|[^a-dx-zxbc]|a|c|a?|a?|y{1}|x|[cyxx-zx-zx-z]{1,3}|y*' 
+  
+	
+ )	&&match(
+
+
+    
+null,  	  'b|[x-zx-za-da-dx-zx-zd]{1,2}|c')
+
+	 
+ &&!	
+ 
+	
+match(null		 
+
+
+,"x+")&& 		  
+match(
+	 	@	
+	["d"],"z"	
+)&&	 	 match($[0]	 	,
+
+  
+"(y{2,4})*" 		  
+  	)&&
+
+ 	
+match(			   "xz", 'c|c|z+|d|(y*|c+|x|b+){0,1}|x{0,2}'	 )&&	 	
+! 		match( 
+
+@[0]
+['']['a']
+[0][-30]		 ,	
+
+"y")||!	
+	   match(value(	
+@	
+ 	), 	'[^a-da-da-da-dy]{1,3}')&& match(	
+value($ 		[?  
+match(	
+
+
+ $,"[^za-dzcx-z]{0,2}"	 	 	 	)	
+  
+
+ ]),'d{0}|z|(x+)|z|[ybx-zx-zx-z]|y|c|b')
+	&&! 	 match(count(	 @  		[?	 	 
+
+match( 	  $  	
+    	,"z{1,}|(z+|a|(y{0,2}){0,1}){1,2}|y|[^ca-d]|b|b|c")  	
+|| 	 
+
+ !			 match(		  length(	false)
+,'x|y|x{1,3}|b|c{7}|z*|d|z|a|a{8,}'
+ 
+ )	||match(	
+
+
+ 	 	 count($[?!match(	false,'(b)')||
+	
+match(
+
+"xzzyxzzzxxyy",
+		 	"z*")&&
+ 		!match(	count(
+	
+	@[?match(count(	 
+		@	 )
+	 
+		,'y+'	 	 	)	 
+		 && 
+	
+
+match($['bbdabaa"bb'][0]
+[-400900005961090]	 
+		
+["cddcbcd"] 
+
+,'y+')||
+ ! 
+
+		 	
+match(value($	) ,'z')
+ 
+ ,? 	 
+ 
+  
+match( 	
+ null,'a'	
+
+ )
+	
+
+&&!match($[5]
+	
+		, '[^yx-zdba-dx-za-da-db]'
+
+					 )&&   	 
+ 	match(count(
+	
+
+ 	@	
+[		 
+	?	
+match(
+
+$,'z'
+ 	)][?match(false,"c")]   
+)		,'x|y|c|y|d|z{2,4}|z?|c')
+][?match(true,'c')]),'z?')	]  		),	 'b')	][?match(null,'b')][?!match(false,'x')	 ] 	  		)
+,"y?")]
+@@@
+[false]

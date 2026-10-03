@@ -1,0 +1,1275 @@
+$ ./.venv/bin/python -u run.py sql_js --seed=20260922 --output-dir=./results/rq1/20261002-2347-sql_js/run1/sql_js --max-wall-seconds=3420
+
+[props] max_repetition=20 (bounds * and + during generation)
+[props]   count_a_expr                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_add_expr                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_add_tail                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_add_tail_more                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_aexpr_const                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_agg_order_by_opt             0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_alias_clause                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_alias_clause_opt             0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_all_opt                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_and_expr                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_any_operator                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_array_bounds                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_array_expr                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_at_expr                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_at_expr_rare                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_at_tail                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_at_tail_more                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_b_add_expr                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_b_exp_expr                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_b_mul_expr                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_b_op_expr                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_bconst                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_bit                          0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_c_expr                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_c_expr_compound              0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_case_expr                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_cast_expr                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_cast_expr_rare               0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_cast_function                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_col_id                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_col_id_rare                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_columnref                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_comp_op                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_conditional_function         0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_const_typename               0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_digit                        0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_digit_group                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_digits                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_digits_opt                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_distinct_clause              0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_e_prefix                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_echar                        0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_exp_expr                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_exp_expr_rare                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_exp_tail                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_exp_tail_more                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_exponent                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_exponent_opt                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_expr_list                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_fconst                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_fetch_clause                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_from_item                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_func_application             0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_func_expr                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_grouping_element             0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_hexdigit                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_iconst                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_ident_char                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_identifier                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_in_expr                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_int32_const                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_is_expr                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_is_test                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_join_qual                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_join_type                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_joined_table                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_lateral_opt                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_like_op                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_limit_clause                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_lock_strength                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_more_expr                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_more_from_item               0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_more_grouping_element        0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_more_name                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_more_recursive_with_query       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_more_sortby                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_more_target_el               0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_more_with_query              0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_mul_expr                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_mul_tail                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_mul_tail_more                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_name_list                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_nonzero_digit                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_not_expr                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_not_expr_rare                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_not_opt                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_offset_clause                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_offset_rows_clause           0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_op_expr                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_op_tail                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_op_tail_more                 0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_or_expr                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_order_by_clause              0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_outer_opt                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_output_name                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_ows                          1..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_partition_clause             0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_pred_expr                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_qchar                        0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_qual_op                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_quoted_identifier            0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_recursive_with_query         0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_row_expr                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_row_or_rows                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_schar                        0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_sconst                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_select_list                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_select_list_opt              0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_select_stmt                  1..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_select_with_parens           0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_set_operand                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_set_operation                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_simple_select                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_sortby                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_sub_operand                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_sub_type                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_subscript                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_subscripts_opt               0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_subscripts_rare              0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_table_name                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_table_primary                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_target_el                    0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_typecast                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_typecast_more                0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_typename                     0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_uchar                        0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_unary_expr                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_unary_expr_rare              0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_when_clause                  0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_window_definition            0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_with_ordinality_opt          0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_with_query                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_with_query_name              0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_ws                           0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_ws_1                         0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_ws_2                         0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_ws_nc                        0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_ws_nc_1                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_ws_nc_unit                   0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_ws_unit                      0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props]   count_xconst                       0..inf  governed by <more_with_query>* in <with_clause_opt>, capped at 20 by max_repetition
+[props] identical to count_alias_clause, not derived: count_as_opt, count_column_alias_list_opt
+[props] identical to count_case_expr, not derived: count_case_arg_opt, count_case_default_opt
+[props] identical to count_fetch_clause, not derived: count_fetch_count_opt, count_first_or_next
+[props] identical to count_func_application, not derived: count_builtin_func, count_func_name
+[props] identical to count_func_expr, not derived: count_filter_clause_opt, count_over_clause_opt
+[props] identical to count_identifier, not derived: count_ident_start
+[props] identical to count_is_expr, not derived: count_comparison_expr
+[props] identical to count_select_stmt, not derived: count_limit_offset_opt, count_locking_clause_opt, count_order_by_clause_opt, count_select_clause, count_with_clause_opt
+[props] identical to count_set_operation, not derived: count_set_quantifier_opt
+[props] identical to count_simple_select, not derived: count_from_clause_opt, count_group_by_clause_opt, count_having_clause_opt, count_where_clause_opt
+[props] identical to count_sortby, not derived: count_asc_desc_opt, count_nulls_order_opt
+[props] identical to count_typename, not derived: count_simple_typename
+[props] WARNING <or_expr> is a separated list written as recursion; write it as `<or_expr> ::= <and_expr> <more_and_expr>*` with `<more_and_expr> ::= <separator> <and_expr>` so the length can be banded
+[props] WARNING <and_expr> is a separated list written as recursion; write it as `<and_expr> ::= <not_expr> <more_not_expr>*` with `<more_not_expr> ::= <separator> <not_expr>` so the length can be banded
+[props] WARNING <op_tail_more> is a list written as recursion; write it as `<op_tail_more> ::= <op_tail>+` so the length can be banded
+[props] WARNING <b_op_expr> is a separated list written as recursion; write it as `<b_op_expr> ::= <b_add_expr> <more_b_add_expr>*` with `<more_b_add_expr> ::= <separator> <b_add_expr>` so the length can be banded
+[props] WARNING <b_add_expr> is a separated list written as recursion; write it as `<b_add_expr> ::= <b_mul_expr> <more_b_mul_expr>*` with `<more_b_mul_expr> ::= <separator> <b_mul_expr>` so the length can be banded
+[props] WARNING <b_mul_expr> is a separated list written as recursion; write it as `<b_mul_expr> ::= <b_exp_expr> <more_b_exp_expr>*` with `<more_b_exp_expr> ::= <separator> <b_exp_expr>` so the length can be banded
+[props] WARNING <b_exp_expr> is a separated list written as recursion; write it as `<b_exp_expr> ::= <unary_expr> <more_unary_expr>*` with `<more_unary_expr> ::= <separator> <unary_expr>` so the length can be banded
+[props] WARNING <add_tail_more> is a list written as recursion; write it as `<add_tail_more> ::= <add_tail>+` so the length can be banded
+[props] WARNING <mul_tail_more> is a list written as recursion; write it as `<mul_tail_more> ::= <mul_tail>+` so the length can be banded
+[props] WARNING <exp_tail_more> is a list written as recursion; write it as `<exp_tail_more> ::= <exp_tail>+` so the length can be banded
+[props] WARNING <at_tail_more> is a list written as recursion; write it as `<at_tail_more> ::= <at_tail>+` so the length can be banded
+[props] WARNING <typecast_more> is a list written as recursion; write it as `<typecast_more> ::= <typecast>+` so the length can be banded
+[props] WARNING <array_bounds> is a separated list written as recursion; write it as `<array_bounds> ::= <ows> <more_ows>*` with `<more_ows> ::= <separator> <ows>` so the length can be banded
+[sql_js] properties: ['count_select_stmt', 'count_with_query', 'count_with_query_name', 'count_col_id', 'count_col_id_rare', 'count_quoted_identifier', 'count_qchar', 'count_identifier', 'count_ident_char', 'count_ws', 'count_ws_1', 'count_ws_2', 'count_ws_unit', 'count_ows', 'count_select_with_parens', 'count_ws_nc', 'count_more_recursive_with_query', 'count_more_with_query', 'count_recursive_with_query', 'count_simple_select', 'count_set_operation', 'count_order_by_clause', 'count_offset_rows_clause', 'count_offset_clause', 'count_fetch_clause', 'count_limit_clause', 'count_lock_strength', 'count_ws_nc_1', 'count_ws_nc_unit', 'count_name_list', 'count_more_name', 'count_set_operand', 'count_select_list', 'count_select_list_opt', 'count_all_opt', 'count_distinct_clause', 'count_sortby', 'count_more_sortby', 'count_int32_const', 'count_row_or_rows', 'count_a_expr', 'count_target_el', 'count_output_name', 'count_more_target_el', 'count_grouping_element', 'count_expr_list', 'count_more_grouping_element', 'count_more_from_item', 'count_from_item', 'count_table_primary', 'count_joined_table', 'count_or_expr', 'count_more_expr', 'count_digit', 'count_nonzero_digit', 'count_and_expr', 'count_lateral_opt', 'count_table_name', 'count_func_application', 'count_alias_clause', 'count_alias_clause_opt', 'count_with_ordinality_opt', 'count_join_qual', 'count_join_type', 'count_not_expr', 'count_agg_order_by_opt', 'count_outer_opt', 'count_is_expr', 'count_not_expr_rare', 'count_is_test', 'count_sub_operand', 'count_pred_expr', 'count_comp_op', 'count_sub_type', 'count_not_opt', 'count_op_expr', 'count_in_expr', 'count_like_op', 'count_b_op_expr', 'count_add_expr', 'count_op_tail_more', 'count_op_tail', 'count_qual_op', 'count_b_add_expr', 'count_add_tail', 'count_mul_expr', 'count_add_tail_more', 'count_any_operator', 'count_b_mul_expr', 'count_exp_expr', 'count_mul_tail', 'count_mul_tail_more', 'count_b_exp_expr', 'count_exp_expr_rare', 'count_at_expr', 'count_unary_expr', 'count_exp_tail', 'count_exp_tail_more', 'count_at_expr_rare', 'count_cast_expr', 'count_unary_expr_rare', 'count_at_tail', 'count_at_tail_more', 'count_c_expr', 'count_cast_expr_rare', 'count_aexpr_const', 'count_columnref', 'count_c_expr_compound', 'count_typecast', 'count_typecast_more', 'count_fconst', 'count_xconst', 'count_const_typename', 'count_sconst', 'count_bconst', 'count_iconst', 'count_subscripts_opt', 'count_func_expr', 'count_array_expr', 'count_case_expr', 'count_conditional_function', 'count_row_expr', 'count_cast_function', 'count_typename', 'count_exponent_opt', 'count_exponent', 'count_digits_opt', 'count_digits', 'count_hexdigit', 'count_uchar', 'count_schar', 'count_echar', 'count_e_prefix', 'count_bit', 'count_digit_group', 'count_subscripts_rare', 'count_when_clause', 'count_array_bounds', 'count_subscript', 'count_window_definition', 'count_partition_clause', 'sql_bytes', 'paren_depth']
+[sql_js] auto-stratified exploration: <more_with_query>[(0, 0), (1, 1), (2, 4), (5, 10), (11, 24)] x <more_recursive_with_query>[(0, 0), (1, 1), (2, 4), (5, 10), (11, 24)] x <set_operation>[(1, 1), (2, 3), (4, 6), (7, 12), (13, 24)] ...
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+fandango:WARNING: Symbol <more_recursive_with_query> defined, but not used
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+fandango:WARNING: Symbol <more_target_el> defined, but not used
+fandango:WARNING: Symbol <select_list_opt> defined, but not used
+fandango:WARNING: Symbol <all_opt> defined, but not used
+fandango:WARNING: Symbol <select_list_opt> defined, but not used
+fandango:WARNING: Symbol <all_opt> defined, but not used
+fandango:WARNING: Symbol <select_list_opt> defined, but not used
+fandango:WARNING: Symbol <all_opt> defined, but not used
+fandango:WARNING: Symbol <select_list_opt> defined, but not used
+fandango:WARNING: Symbol <all_opt> defined, but not used
+fandango:WARNING: Symbol <more_from_item> defined, but not used
+fandango:WARNING: Symbol <joined_table> defined, but not used
+fandango:WARNING: Symbol <more_grouping_element> defined, but not used
+fandango:WARNING: Symbol <more_sortby> defined, but not used
+fandango:WARNING: Symbol <more_expr> defined, but not used
+fandango:WARNING: Symbol <select_list_opt> defined, but not used
+fandango:WARNING: Symbol <all_opt> defined, but not used
+fandango:WARNING: Symbol <select_list_opt> defined, but not used
+fandango:WARNING: Symbol <all_opt> defined, but not used
+fandango:WARNING: Symbol <select_list_opt> defined, but not used
+fandango:WARNING: Symbol <all_opt> defined, but not used
+fandango:WARNING: Symbol <select_list_opt> defined, but not used
+fandango:WARNING: Symbol <all_opt> defined, but not used
+[WARNING] recursion limit hit generating from ./results/rq1/20261002-2347-sql_js/run1/sql_js/grammars/sql_js_m9_2_when_clause4-6.fan; lower max_repetition or max_nodes for this grammar.
+fandango:WARNING: Symbol <more_name> defined, but not used
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+fandango:WARNING: Symbol <digit_group> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <offset_clause> defined, but not used
+fandango:WARNING: Symbol <limit_clause> defined, but not used
+fandango:WARNING: Symbol <offset_clause> defined, but not used
+fandango:WARNING: Symbol <limit_clause> defined, but not used
+fandango:WARNING: Symbol <offset_clause> defined, but not used
+fandango:WARNING: Symbol <limit_clause> defined, but not used
+fandango:WARNING: Symbol <offset_clause> defined, but not used
+fandango:WARNING: Symbol <limit_clause> defined, but not used
+fandango:WARNING: Symbol <schar> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <e_prefix> defined, but not used
+fandango:WARNING: Symbol <uchar> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <echar> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <e_prefix> defined, but not used
+fandango:WARNING: Symbol <uchar> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <echar> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <e_prefix> defined, but not used
+fandango:WARNING: Symbol <uchar> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <echar> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <e_prefix> defined, but not used
+fandango:WARNING: Symbol <uchar> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <echar> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <echar> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <uchar> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <schar> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <uchar> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <schar> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <uchar> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <schar> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <uchar> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <schar> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <uchar> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <e_prefix> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <echar> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <schar> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <e_prefix> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <echar> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <schar> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <e_prefix> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <echar> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <schar> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <e_prefix> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <echar> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <schar> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <bit> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <xconst> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <hexdigit> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <fetch_clause> defined, but not used
+fandango:WARNING: Symbol <offset_rows_clause> defined, but not used
+fandango:WARNING: Symbol <fconst> defined, but not used
+fandango:WARNING: Symbol <cast_expr_rare> defined, but not used
+fandango:WARNING: Symbol <not_expr_rare> defined, but not used
+fandango:WARNING: Symbol <like_op> defined, but not used
+fandango:WARNING: Symbol <unary_expr_rare> defined, but not used
+fandango:WARNING: Symbol <c_expr_compound> defined, but not used
+fandango:WARNING: Symbol <in_expr> defined, but not used
+fandango:WARNING: Symbol <iconst> defined, but not used
+fandango:WARNING: Symbol <bconst> defined, but not used
+fandango:WARNING: Symbol <const_typename> defined, but not used
+fandango:WARNING: Symbol <sconst> defined, but not used
+fandango:WARNING: Symbol <ident_char> defined, but not used
+fandango:WARNING: Symbol <col_id_rare> defined, but not used
+fandango:WARNING: Symbol <col_id_rare> defined, but not used
+fandango:WARNING: Symbol <col_id_rare> defined, but not used
+fandango:WARNING: Symbol <col_id_rare> defined, but not used
+  [explore] 20 axes, 100 strata, 3/stratum -> 297 inputs
+  [explore] 1 stratum/strata produced nothing: when_clause4-6
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] formatter: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] formatter: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] formatter: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[sql_js] iter 0 (explore): corpus=891 (+891 new this run)
+[select] relevance (max |rho| vs any metric on any system): count_ws=0.90, count_cast_expr=0.79, count_ws_2=0.88, count_c_expr=0.79, count_ws_1=0.86, count_aexpr_const=0.74, count_ws_unit=0.83, count_at_expr=0.80, count_at_expr_rare=0.82, count_exp_expr=0.78, count_unary_expr=0.75, count_exp_expr_rare=0.79, count_at_tail=0.60, count_at_tail_more=0.60, count_exp_tail=0.69, count_exp_tail_more=0.69, count_pred_expr=0.73, count_mul_expr=0.72, count_subscripts_opt=0.73, count_add_tail=0.54, count_columnref=0.72, count_add_tail_more=0.54, count_b_mul_expr=0.46, count_mul_tail=0.72, count_b_exp_expr=0.45, count_mul_tail_more=0.72, count_more_name=0.33, count_add_expr=0.72, count_unary_expr_rare=0.72, count_and_expr=0.72, count_is_expr=0.72, count_not_opt=0.60, count_subscripts_rare=0.71, count_qual_op=0.55, count_or_expr=0.71, count_hexdigit=0.38, count_op_expr=0.71, count_b_add_expr=0.43, count_c_expr_compound=0.71, count_xconst=0.51, count_not_expr=0.70, count_cast_expr_rare=0.70, count_col_id=0.70, count_name_list=0.47, count_array_bounds=0.69, count_op_tail_more=0.62, count_op_tail=0.62, count_qchar=0.45, count_comp_op=0.69, count_recursive_with_query=0.49, count_a_expr=0.69, count_quoted_identifier=0.51, count_is_test=0.68, count_b_op_expr=0.37, count_typecast=0.68, count_typecast_more=0.68, count_typename=0.68, count_offset_rows_clause=0.39, count_ws_nc=0.68, count_row_or_rows=0.44, count_subscript=0.68, count_table_primary=0.27, count_expr_list=0.68, count_not_expr_rare=0.67, count_ows=0.67, count_col_id_rare=0.58, count_like_op=0.67, count_ws_nc_1=0.67, count_alias_clause_opt=0.27, count_array_expr=0.66, count_identifier=0.63, count_int32_const=0.62, count_simple_select=0.59, paren_depth=0.62, count_set_operand=0.41, count_nonzero_digit=0.62, count_select_list_opt=0.42, count_row_expr=0.61, count_all_opt=0.42, count_select_list=0.61, count_lateral_opt=0.33, count_sub_operand=0.61, count_from_item=0.25, count_sub_type=0.61, count_more_from_item=0.15, count_alias_clause=0.27, count_joined_table=0.22, count_join_qual=0.25, count_limit_clause=0.59, count_join_type=0.25, count_outer_opt=0.25, count_distinct_clause=0.58, count_table_name=0.21, count_select_stmt=0.55, count_func_application=0.54, count_select_with_parens=0.55, count_with_ordinality_opt=0.35, count_agg_order_by_opt=0.44, sql_bytes=0.52, count_target_el=0.52, count_in_expr=0.53, count_set_operation=0.36, count_fconst=0.52, count_with_query_name=0.47, count_ws_nc_unit=0.52, count_sconst=0.36, count_e_prefix=0.51, count_digit=0.41, count_schar=0.43, count_bconst=0.48, count_ident_char=0.48, count_const_typename=0.29, count_func_expr=0.46, count_more_target_el=0.28, count_bit=0.45, count_output_name=0.23, count_echar=0.44, count_lock_strength=0.43, count_more_grouping_element=0.31, count_exponent_opt=0.42, count_exponent=0.40, count_uchar=0.40, count_digits=0.39, count_iconst=0.38, count_digits_opt=0.19, count_cast_function=0.38, count_with_query=0.17, count_more_recursive_with_query=0.20, count_grouping_element=0.22, count_case_expr=0.32, count_when_clause=0.32, count_fetch_clause=0.31, count_conditional_function=0.31, count_more_expr=0.30, count_window_definition=0.29, count_order_by_clause=0.24, count_sortby=0.24, count_more_sortby=0.24, count_digit_group=0.23, count_any_operator=0.14, count_offset_clause=0.12, count_more_with_query=0.14, count_partition_clause=0.12
+[select] comparative relevance (max |rho| vs a between-system ratio): count_ws=0.52, count_cast_expr=0.89, count_ws_2=0.54, count_c_expr=0.89, count_ws_1=0.51, count_aexpr_const=0.89, count_ws_unit=0.53, count_at_expr=0.86, count_at_expr_rare=0.83, count_exp_expr=0.85, count_unary_expr=0.83, count_exp_expr_rare=0.78, count_at_tail=0.83, count_at_tail_more=0.83, count_exp_tail=0.80, count_exp_tail_more=0.80, count_pred_expr=0.49, count_mul_expr=0.76, count_subscripts_opt=0.14, count_add_tail=0.73, count_columnref=0.14, count_add_tail_more=0.73, count_b_mul_expr=0.72, count_mul_tail=0.68, count_b_exp_expr=0.71, count_mul_tail_more=0.68, count_more_name=0.70, count_add_expr=0.64, count_unary_expr_rare=0.23, count_and_expr=0.48, count_is_expr=0.48, count_not_opt=0.64, count_subscripts_rare=0.09, count_qual_op=0.62, count_or_expr=0.50, count_hexdigit=0.62, count_op_expr=0.60, count_b_add_expr=0.62, count_c_expr_compound=0.36, count_xconst=0.61, count_not_expr=0.30, count_cast_expr_rare=0.36, count_col_id=0.60, count_name_list=0.59, count_array_bounds=0.14, count_op_tail_more=0.58, count_op_tail=0.58, count_qchar=0.56, count_comp_op=0.49, count_recursive_with_query=0.55, count_a_expr=0.45, count_quoted_identifier=0.55, count_is_test=0.39, count_b_op_expr=0.55, count_typecast=0.13, count_typecast_more=0.13, count_typename=0.13, count_offset_rows_clause=0.52, count_ws_nc=0.33, count_row_or_rows=0.52, count_subscript=0.21, count_table_primary=0.52, count_expr_list=0.14, count_not_expr_rare=0.31, count_ows=0.45, count_col_id_rare=0.50, count_like_op=0.16, count_ws_nc_1=0.27, count_alias_clause_opt=0.50, count_array_expr=0.32, count_identifier=0.21, count_int32_const=0.31, count_simple_select=0.48, paren_depth=0.40, count_set_operand=0.48, count_nonzero_digit=0.17, count_select_list_opt=0.48, count_row_expr=0.25, count_all_opt=0.48, count_select_list=0.39, count_lateral_opt=0.47, count_sub_operand=0.24, count_from_item=0.46, count_sub_type=0.24, count_more_from_item=0.46, count_alias_clause=0.46, count_joined_table=0.46, count_join_qual=0.45, count_limit_clause=0.36, count_join_type=0.45, count_outer_opt=0.45, count_distinct_clause=0.34, count_table_name=0.45, count_select_stmt=0.37, count_func_application=0.45, count_select_with_parens=0.37, count_with_ordinality_opt=0.45, count_agg_order_by_opt=0.42, sql_bytes=0.42, count_target_el=0.41, count_in_expr=0.12, count_set_operation=0.41, count_fconst=0.24, count_with_query_name=0.41, count_ws_nc_unit=0.22, count_sconst=0.39, count_e_prefix=0.12, count_digit=0.38, count_schar=0.37, count_bconst=0.26, count_ident_char=0.30, count_const_typename=0.34, count_func_expr=0.12, count_more_target_el=0.34, count_bit=0.24, count_output_name=0.33, count_echar=0.09, count_lock_strength=0.28, count_more_grouping_element=0.31, count_exponent_opt=0.24, count_exponent=0.08, count_uchar=0.18, count_digits=0.19, count_iconst=0.20, count_digits_opt=0.23, count_cast_function=0.17, count_with_query=0.23, count_more_recursive_with_query=0.22, count_grouping_element=0.20, count_case_expr=0.05, count_when_clause=0.05, count_fetch_clause=0.09, count_conditional_function=0.12, count_more_expr=0.13, count_window_definition=0.12, count_order_by_clause=0.12, count_sortby=0.12, count_more_sortby=0.12, count_digit_group=0.08, count_any_operator=0.07, count_offset_clause=0.05, count_more_with_query=0.04, count_partition_clause=0.00
+[select] scored on the comparison rather than on the metric: count_cast_expr (0.79 -> 0.89), count_c_expr (0.79 -> 0.89), count_aexpr_const (0.74 -> 0.89), count_at_expr (0.80 -> 0.86), count_exp_expr (0.78 -> 0.85), count_unary_expr (0.75 -> 0.83), count_at_tail (0.60 -> 0.83), count_at_tail_more (0.60 -> 0.83), count_exp_tail (0.69 -> 0.80), count_exp_tail_more (0.69 -> 0.80), count_add_tail (0.54 -> 0.73), count_add_tail_more (0.54 -> 0.73), count_b_mul_expr (0.46 -> 0.72), count_b_exp_expr (0.45 -> 0.71), count_more_name (0.33 -> 0.70), count_qual_op (0.55 -> 0.62), count_hexdigit (0.38 -> 0.62), count_b_add_expr (0.43 -> 0.62), count_xconst (0.51 -> 0.61), count_name_list (0.47 -> 0.59), count_qchar (0.45 -> 0.56), count_recursive_with_query (0.49 -> 0.55), count_b_op_expr (0.37 -> 0.55), count_offset_rows_clause (0.39 -> 0.52), count_row_or_rows (0.44 -> 0.52), count_table_primary (0.27 -> 0.52), count_alias_clause_opt (0.27 -> 0.50), count_set_operand (0.41 -> 0.48), count_select_list_opt (0.42 -> 0.48), count_all_opt (0.42 -> 0.48), count_lateral_opt (0.33 -> 0.47), count_from_item (0.25 -> 0.46), count_more_from_item (0.15 -> 0.46), count_alias_clause (0.27 -> 0.46), count_joined_table (0.22 -> 0.46), count_join_qual (0.25 -> 0.45), count_join_type (0.25 -> 0.45), count_outer_opt (0.25 -> 0.45), count_table_name (0.21 -> 0.45), count_with_ordinality_opt (0.35 -> 0.45), count_const_typename (0.29 -> 0.34), count_more_target_el (0.28 -> 0.34), count_output_name (0.23 -> 0.33), count_with_query (0.17 -> 0.23)
+[select] dropped count_ws_2: |rho|=0.83 with count_ws, which is already kept
+[select] dropped count_c_expr: |rho|=1.00 with count_cast_expr, which is already kept
+[select] dropped count_ws_1: |rho|=0.89 with count_ws, which is already kept
+[select] dropped count_aexpr_const: |rho|=0.88 with count_cast_expr, which is already kept
+[select] dropped count_at_expr: |rho|=0.82 with count_cast_expr, which is already kept
+[select] dropped count_exp_expr: over the 4-property cap
+[select] dropped count_unary_expr: over the 4-property cap
+[select] dropped count_exp_expr_rare: over the 4-property cap
+[select] dropped count_at_tail: over the 4-property cap
+[select] dropped count_at_tail_more: over the 4-property cap
+[select] dropped count_exp_tail: over the 4-property cap
+[select] dropped count_exp_tail_more: over the 4-property cap
+[select] dropped count_pred_expr: over the 4-property cap
+[select] dropped count_mul_expr: over the 4-property cap
+[select] dropped count_subscripts_opt: over the 4-property cap
+[select] dropped count_add_tail: over the 4-property cap
+[select] dropped count_columnref: over the 4-property cap
+[select] dropped count_add_tail_more: over the 4-property cap
+[select] dropped count_b_mul_expr: over the 4-property cap
+[select] dropped count_mul_tail: over the 4-property cap
+[select] dropped count_b_exp_expr: over the 4-property cap
+[select] dropped count_mul_tail_more: over the 4-property cap
+[select] dropped count_more_name: over the 4-property cap
+[select] dropped count_add_expr: over the 4-property cap
+[select] dropped count_unary_expr_rare: over the 4-property cap
+[select] dropped count_and_expr: over the 4-property cap
+[select] dropped count_is_expr: over the 4-property cap
+[select] dropped count_not_opt: over the 4-property cap
+[select] dropped count_subscripts_rare: over the 4-property cap
+[select] dropped count_qual_op: over the 4-property cap
+[select] dropped count_or_expr: over the 4-property cap
+[select] dropped count_hexdigit: over the 4-property cap
+[select] dropped count_op_expr: over the 4-property cap
+[select] dropped count_b_add_expr: over the 4-property cap
+[select] dropped count_c_expr_compound: over the 4-property cap
+[select] dropped count_xconst: over the 4-property cap
+[select] dropped count_not_expr: over the 4-property cap
+[select] dropped count_cast_expr_rare: over the 4-property cap
+[select] dropped count_col_id: over the 4-property cap
+[select] dropped count_name_list: over the 4-property cap
+[select] dropped count_array_bounds: over the 4-property cap
+[select] dropped count_op_tail_more: over the 4-property cap
+[select] dropped count_op_tail: over the 4-property cap
+[select] dropped count_qchar: over the 4-property cap
+[select] dropped count_comp_op: over the 4-property cap
+[select] dropped count_recursive_with_query: over the 4-property cap
+[select] dropped count_a_expr: over the 4-property cap
+[select] dropped count_quoted_identifier: over the 4-property cap
+[select] dropped count_is_test: over the 4-property cap
+[select] dropped count_b_op_expr: over the 4-property cap
+[select] dropped count_typecast: over the 4-property cap
+[select] dropped count_typecast_more: over the 4-property cap
+[select] dropped count_typename: over the 4-property cap
+[select] dropped count_offset_rows_clause: over the 4-property cap
+[select] dropped count_ws_nc: over the 4-property cap
+[select] dropped count_row_or_rows: over the 4-property cap
+[select] dropped count_subscript: over the 4-property cap
+[select] dropped count_table_primary: over the 4-property cap
+[select] dropped count_expr_list: over the 4-property cap
+[select] dropped count_not_expr_rare: over the 4-property cap
+[select] dropped count_ows: over the 4-property cap
+[select] dropped count_col_id_rare: over the 4-property cap
+[select] dropped count_like_op: over the 4-property cap
+[select] dropped count_ws_nc_1: over the 4-property cap
+[select] dropped count_alias_clause_opt: over the 4-property cap
+[select] dropped count_array_expr: over the 4-property cap
+[select] dropped count_identifier: over the 4-property cap
+[select] dropped count_int32_const: over the 4-property cap
+[select] dropped count_simple_select: over the 4-property cap
+[select] dropped paren_depth: over the 4-property cap
+[select] dropped count_set_operand: over the 4-property cap
+[select] dropped count_nonzero_digit: over the 4-property cap
+[select] dropped count_select_list_opt: over the 4-property cap
+[select] dropped count_row_expr: over the 4-property cap
+[select] dropped count_all_opt: over the 4-property cap
+[select] dropped count_select_list: over the 4-property cap
+[select] dropped count_lateral_opt: over the 4-property cap
+[select] dropped count_sub_operand: over the 4-property cap
+[select] dropped count_from_item: over the 4-property cap
+[select] dropped count_sub_type: over the 4-property cap
+[select] dropped count_more_from_item: over the 4-property cap
+[select] dropped count_alias_clause: over the 4-property cap
+[select] dropped count_joined_table: over the 4-property cap
+[select] dropped count_join_qual: over the 4-property cap
+[select] dropped count_limit_clause: over the 4-property cap
+[select] dropped count_join_type: over the 4-property cap
+[select] dropped count_outer_opt: over the 4-property cap
+[select] dropped count_distinct_clause: over the 4-property cap
+[select] dropped count_table_name: over the 4-property cap
+[select] dropped count_select_stmt: over the 4-property cap
+[select] dropped count_func_application: over the 4-property cap
+[select] dropped count_select_with_parens: over the 4-property cap
+[select] dropped count_with_ordinality_opt: over the 4-property cap
+[select] dropped count_agg_order_by_opt: over the 4-property cap
+[select] dropped sql_bytes: over the 4-property cap
+[select] dropped count_target_el: over the 4-property cap
+[select] dropped count_in_expr: over the 4-property cap
+[select] dropped count_set_operation: over the 4-property cap
+[select] dropped count_fconst: over the 4-property cap
+[select] dropped count_with_query_name: over the 4-property cap
+[select] dropped count_ws_nc_unit: over the 4-property cap
+[select] dropped count_sconst: over the 4-property cap
+[select] dropped count_e_prefix: over the 4-property cap
+[select] dropped count_digit: over the 4-property cap
+[select] dropped count_schar: over the 4-property cap
+[select] dropped count_bconst: over the 4-property cap
+[select] dropped count_ident_char: over the 4-property cap
+[select] dropped count_const_typename: over the 4-property cap
+[select] dropped count_func_expr: over the 4-property cap
+[select] dropped count_more_target_el: over the 4-property cap
+[select] dropped count_bit: over the 4-property cap
+[select] dropped count_output_name: over the 4-property cap
+[select] dropped count_echar: over the 4-property cap
+[select] dropped count_lock_strength: over the 4-property cap
+[select] dropped count_more_grouping_element: over the 4-property cap
+[select] dropped count_exponent_opt: over the 4-property cap
+[select] dropped count_exponent: over the 4-property cap
+[select] dropped count_uchar: over the 4-property cap
+[select] dropped count_digits: over the 4-property cap
+[select] dropped count_iconst: over the 4-property cap
+[select] dropped count_digits_opt: over the 4-property cap
+[select] dropped count_cast_function: over the 4-property cap
+[select] dropped count_with_query: over the 4-property cap
+[select] dropped count_more_recursive_with_query: over the 4-property cap
+[select] dropped count_grouping_element: over the 4-property cap
+[select] dropped count_case_expr: over the 4-property cap
+[select] dropped count_when_clause: over the 4-property cap
+[select] dropped count_fetch_clause: over the 4-property cap
+[select] dropped count_conditional_function: over the 4-property cap
+[select] dropped count_more_expr: over the 4-property cap
+[select] dropped count_window_definition: over the 4-property cap
+[select] dropped count_order_by_clause: over the 4-property cap
+[select] dropped count_sortby: over the 4-property cap
+[select] dropped count_more_sortby: over the 4-property cap
+[select] dropped count_digit_group: over the 4-property cap
+[select] dropped count_any_operator: over the 4-property cap
+[select] dropped count_offset_clause: over the 4-property cap
+[select] dropped count_more_with_query: over the 4-property cap
+[select] dropped count_partition_clause: over the 4-property cap
+[select] count_ws stands for count_ws_2, count_ws_1 (indistinguishable here)
+[select] count_cast_expr stands for count_c_expr, count_aexpr_const, count_at_expr (indistinguishable here)
+[select] joint fit uses 4 of 143 properties: count_ws, count_ws_unit, count_at_expr_rare, count_cast_expr (1,296 model fits)
+[sql_js] loop targets 4 of 143 properties: count_ws, count_ws_unit, count_at_expr_rare, count_cast_expr
+[sql_js] targeting 8 regions: runtime_ns_divergence, count_ws_unit_dominance0, count_at_expr_rare_undecided0, pgsql_runtime_ns_count_at_expr_rare_discriminate, count_ws_beyond, runtime_ns_high, count_at_expr_rare_edge0, runtime_ns_sparse0
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_divergence] 30s: no new inputs
+  [count_ws_unit_dominance0] settling count_ws_unit [3.107,5.477) would decide 1 dominance verdict(s): cst vs formatter (runtime_ns undecided) -> <more_with_query>{2,4}
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_ws_unit_dominance0] 42s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [count_at_expr_rare_undecided0] 6 comparison(s) undecided in count_at_expr_rare =0: cst vs formatter on runtime_ns and 5 more -> <more_with_query>{0,0}
+fandango:WARNING: Symbol <more_with_query> defined, but not used
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_at_expr_rare_undecided0] 38s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [pgsql_runtime_ns_count_at_expr_rare_discriminate] Logarithmic vs Linear tied; 5 inputs here decide it (power 1.00)
+  [seeds] skipped 6 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [pgsql_runtime_ns_count_at_expr_rare_discriminate] 28s: no new inputs
+  [count_ws_beyond] <more_with_query>{24,28} (rung 1, 4000 nodes)
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] cst: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] pgsql: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_ws_beyond] 39s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [seeds] skipped 15 seed(s) over 1B; parsing one costs more than the request it would seed
+[WARNING] Fandango did not generate any valid inputs.
+  [runtime_ns_high] 29s: no new inputs
+  [budget] wall-clock reached; skipping the remaining 2 request(s) this iteration.
+[sql_js] iter 1: corpus=1026 (+135 new)
+[sql_js] wall-clock budget (3420s) reached before iteration 2; stopping with the corpus intact.
+[compare] runtime_ns: 339 inputs, 3 systems (paired; ratios, 1.10x equivalence band)
+[compare] overall verdicts are weighted by what the corpus contains, which the loop itself shapes; the per-region lines are the portable claim.
+[compare] count_ws bins move with count_ws_2 (18..71 across bins); count_ws_unit (4..15 across bins); count_cast_expr (18..63 across bins) -- those regions are joint, not count_ws findings
+[compare] count_ws_2 bins move with count_ws (73..310 across bins); count_ws_unit (3..15 across bins); count_cast_expr (17..61 across bins) -- those regions are joint, not count_ws_2 findings
+[compare] count_ws_unit bins move with count_ws (82..315 across bins); count_ws_2 (17.5..75 across bins); count_cast_expr (18..75 across bins) -- those regions are joint, not count_ws_unit findings
+  cst better than formatter on runtime_ns: 1.42x (95% CI 1.34-1.47, n=165, p=3.14e-14)
+      undecided on count_ws (confounded) in [58.54,97.75) -- needs more inputs
+      undecided on count_ws_2 (confounded) in [10.17,18.73) -- needs more inputs
+      undecided on count_ws_unit (confounded) in [3.107,5.477) -- needs more inputs
+      undecided on count_cast_expr in [13.08,30.81) -- needs more inputs
+  cst better than pgsql on runtime_ns: 2.36x (95% CI 1.86-3.05, n=26, p=2.98e-07)
+  formatter better than pgsql on runtime_ns: 2.00x (95% CI 1.64-2.33, n=32, p=2.08e-07)
+[compare] rss: 339 inputs, 3 systems (paired; ratios, 1.10x equivalence band)
+[compare] overall verdicts are weighted by what the corpus contains, which the loop itself shapes; the per-region lines are the portable claim.
+[compare] count_ws bins move with count_ws_2 (18..71 across bins); count_ws_unit (4..15 across bins); count_cast_expr (18..63 across bins) -- those regions are joint, not count_ws findings
+[compare] count_ws_2 bins move with count_ws (73..310 across bins); count_ws_unit (3..15 across bins); count_cast_expr (17..61 across bins) -- those regions are joint, not count_ws_2 findings
+[compare] count_ws_unit bins move with count_ws (82..315 across bins); count_ws_2 (17.5..75 across bins); count_cast_expr (18..75 across bins) -- those regions are joint, not count_ws_unit findings
+  formatter better than cst on rss: 1.39x (95% CI 1.37-1.40, n=165, p=7.91e-29)
+  pgsql better than cst on rss: 1.40x (95% CI 1.36-1.41, n=26, p=2.98e-08)
+  formatter and pgsql equivalent: ratio 1.00x within the equivalence band (95% CI 0.98-1.03, n=32)
+      undecided on count_cast_expr in [13.08,30.81) -- needs more inputs
+[compare] dominance across runtime_ns, rss:
+  cst vs formatter TRADE-OFF: cst better on runtime_ns 1.42x; formatter better on rss 1.39x
+  cst vs pgsql TRADE-OFF: cst better on runtime_ns 2.36x; pgsql better on rss 1.40x
+  formatter DOMINATES pgsql: better on runtime_ns 2.00x; equivalent on rss
+      count_ws [58.54,97.75) (n=13): cst, formatter, pgsql not dominated
+      count_ws [97.75,163.2) (n=24): cst, formatter not dominated
+      count_ws [163.2,272.5) (n=44): cst, formatter, pgsql not dominated
+      count_ws [272.5,455] (n=257): cst, formatter, pgsql not dominated
+      WARNING pgsql is dominated by formatter over the whole corpus but survives in [58.54,97.75), [163.2,272.5), [272.5,455] on count_ws -- the global verdict is a statement about this corpus's mix, not about the systems
+      count_ws_2 [10.17,18.73) (n=10): cst, formatter, pgsql not dominated
+      count_ws_2 [18.73,34.5) (n=25): cst, formatter not dominated
+      count_ws_2 [34.5,63.53) (n=96): cst, formatter, pgsql not dominated
+      count_ws_2 [63.53,117] (n=209): cst, formatter, pgsql not dominated
+      WARNING pgsql is dominated by formatter over the whole corpus but survives in [10.17,18.73), [34.5,63.53), [63.53,117] on count_ws_2 -- the global verdict is a statement about this corpus's mix, not about the systems
+      count_ws_unit [1.763,3.107) (n=8): cst, formatter, pgsql not dominated
+      count_ws_unit [3.107,5.477) (n=15): cst, formatter, pgsql not dominated
+      count_ws_unit [5.477,9.655) (n=44): cst, formatter not dominated
+      count_ws_unit [9.655,17.02) (n=200): cst, formatter not dominated
+      count_ws_unit [17.02,30] (n=70): cst, formatter, pgsql not dominated
+      WARNING pgsql is dominated by formatter over the whole corpus but survives in [1.763,3.107), [3.107,5.477), [17.02,30] on count_ws_unit -- the global verdict is a statement about this corpus's mix, not about the systems
+      count_cast_expr [5.55,13.08) (n=9): cst, formatter, pgsql not dominated
+      count_cast_expr [13.08,30.81) (n=36): cst, formatter, pgsql not dominated
+      count_cast_expr [30.81,72.58) (n=196): cst, formatter not dominated
+      count_cast_expr [72.58,171] (n=95): cst, formatter, pgsql not dominated
+      WARNING pgsql is dominated by formatter over the whole corpus but survives in [5.55,13.08), [13.08,30.81), [72.58,171] on count_cast_expr -- the global verdict is a statement about this corpus's mix, not about the systems
+[interference] 12 property pair(s) tested over 1026 rows; 12 show a dependence
+  count_ws vs runtime_ns changes with count_ws_2: rho by count_ws_2 stratum = [+0.77, +0.21, +0.21, -0.25], spread 1.03, p=0.003
+  count_ws_2 vs runtime_ns changes with count_ws: rho by count_ws stratum = [+0.70, +0.09, +0.19, -0.30], spread 1.01, p=0.003
+  count_ws_unit vs runtime_ns changes with count_ws: rho by count_ws stratum = [+0.60, +0.03, -0.09, -0.32], spread 0.92, p=0.003
+  count_cast_expr vs runtime_ns changes with count_ws_unit: rho by count_ws_unit stratum = [+0.63, +0.08, +0.06, -0.26], spread 0.89, p=0.003
+  count_ws_unit vs runtime_ns changes with count_ws_2: rho by count_ws_2 stratum = [+0.58, -0.03, -0.23, -0.19], spread 0.81, p=0.003
+  count_ws_unit vs runtime_ns changes with count_cast_expr: rho by count_cast_expr stratum = [+0.68, +0.29, +0.24, -0.10], spread 0.78, p=0.003
+  -> a one-dimensional region on these properties states less than it appears to; they are candidates for a joint request.
+[sql_js] past the wall-clock budget; skipping the model fits and plots and writing the report. They are a function of corpus.csv, which is checkpointed, so the next run recomputes them from the same inputs rather than re-measuring.
+[sql_js] metric cache: 1026 entries, 4190 SUT executions this run
+[sql_js] wall clock: 3430s of 3420s budget
+[sql_js] report -> ./results/rq1/20261002-2347-sql_js/run1/sql_js/report.md
+[sql_js] done. corpus=1026 rows (342 inputs x 3 systems). Artifacts in ./results/rq1/20261002-2347-sql_js/run1/sql_js

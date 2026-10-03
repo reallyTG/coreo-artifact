@@ -1,0 +1,32 @@
+$.*
+@@@
+ 		
+{"cba\f\t\n\ndd\b" 
+ 
+:
+   
+false	
+  	,  
+	 "dcbccddcb": 	
+
+		true ,
+ 	
+ "acc"	  :null
+ 
+  ,"bc"	
+ 
+
+:	 
+[	 	 	  -14.00001120,true
+	,true,true,true		, 
+
+	[ 	null,	
+
+	 -2.71e0	
+ 
+	  ], 		 -0.706],"b"  		:	
+
+null
+,
+     "ddd":{}	,		"cb":[],"cabdddbdbdcda":-5.02,"daa":[
+	]	}    

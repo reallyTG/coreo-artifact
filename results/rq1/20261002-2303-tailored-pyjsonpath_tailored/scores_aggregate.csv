@@ -1,0 +1,2 @@
+subject,rqs,category,language,blind,expected,outcome,explanation,k,n,outcomes
+pyjsonpath_tailored,RQ1-tailored,known,Python,False,b_faster,detected,,1,1,"{""detected"": 1}"

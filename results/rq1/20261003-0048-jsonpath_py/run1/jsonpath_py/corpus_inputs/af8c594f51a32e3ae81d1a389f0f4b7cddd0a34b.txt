@@ -1,0 +1,65 @@
+$..[		 	-8]..a[
+	
+	-60]..[*,0	
+
+ 	
+ 
+
+, 
+	  0
+]   
+
+  .*
+	 .*  ..[?! 			  (
+
+ 
+$ 	.* 		
+
+	..*||  
+value($..[1	
+	  
+][	 	
+ 
+0]	 ..["bcbc",?"'\\'z''\uDAAC\uDDdB"<count(
+ 
+$    ..*)&&!(!	 	@..[
+"cc",
+   0	 
+
+ ,-19,*,?  match($.cbbcd  
+,
+		-0E+75000)&&search(
+	
+$	
+
+
+   
+[0] 
+
+
+	
+[-11] 				.cc[0][0].abbb["bcbcdaabbb'\"\ta"][-20]
+
+	
+.db
+	
+ 
+['']				[58]
+   		
+[-6]
+,
+	
+ 	 	
+'|a+yb?cx{1,2}b*|[^x-zx-z]?a?(zz(ba+c||x*b*.?b+da|ac*|.*||d{0,1}cd{2,4}|b?dd{1,2}dx?a{2,4}ab?|(d{0}ab*[zx-z]*[x-zdx-za-da-dcx-zx-z]*y*xb[a-d])*c+.xby{0}([x-zx-z]?xz(|(|.?y?x+|y?y{2,4}ya|(a+bcd?yc*yz[a-d]x+||y?|y+c+x|[z]ayyd+c*z*.|.+bc{0,2}dz?b*(|y(b(c))a+a{2,4}a||(a+bd?a?a*())b?(|b+a{1,2}b{0,1}a+c*cc+cb?|a?a|b.xyxzz+||)cb|||y?bx*a|()[^x-za-dx-zx-zx-zx-z][^a-d]+[da-ddx-zx-za-dx-za-d]{1,3}z+c*y?[^da-dx-z]a?y||a?a?|)||z+by.b+z+a{0,}z|x?b{0,2})?.{9,}b?y(){0}z+|z{4}z?||[^a-dx-za-dx-zx]{1,3}ayycabc{9,}(|c|z.?y+z{1,2}()+|z+acbz{1,3}z+([x-zx-zxx-zx-zx-zx]a||)*|||a[^a-ddx-z]b*ad*)b)+a{0,2}y*cbbz?dx+y||b|ca+yy+x?ayd{0,1}((|){0,2}))b)+|ac*b(a{1,2}[^da-da-dx-zaya-dxa-d]x[^x-z]d+.*y|z+cxy||d|d*|dxb*x{8}||x*yz*d?xzz{0}z+||)?x*x.y[x-z]?d{1,2}|b?bcx+y?z)b?(|y|)?z)x|cz+()(z?c*zd?byb+|aax|y|[xzz]b|[^xxa-da-da-dzx-z]+c+a?(z(y*.+ya{0,2}(|y?by(|zaxx+y{1,3}x+(||(a{2,4}ca{1,2}c||bcc?(c+a*d*d+ddza()c|z+.bd*||b*b+ac[cx-zx-zx-za-da-d]{0}a*||bx{0,1}y?c{0,1}y?|dz(|b?y{0,}z.b|b?x{0,}z{4,}x*a{1,2}a*(()(){2,4}b+b{0}.?)?y+(y[ax-zx-za-dza-dx-za]a{4,}a*b?z)?|||)?(){0}.c+.?|d)(zzdx?a+(()+dy{2,4}){2,4}b*)y*xzb+a){0,2}ay[^a-db]?a+xy|||.d(){1,}[bx-zx-za-dbx-zx-zxz]+|||)()+||(da*b{0,1}z*((|)*d*y)|))?))*|)?)')||$].*.*..*.*..*.*.*..*..*..*.*..*.*..*||$
+)
+]..*.*.*.c.d..[*] .*
+..* 	..d	..c[*]..d )<=   	
+true
+		)&&		$
+	,*]
+..*..ca
+ 
+	..a	 ..*..*.*			 
+.*
+@@@
+[true]

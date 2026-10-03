@@ -1,0 +1,28 @@
+WITH "B"" a"" ." As(With ed  As( WITH " a" As(	( with
+ Recursive _abcbade ("a."  ,
+ " aB.."
+, "aBBa..a"" B"
+, d1dc__," .a B" ,  c__1baaadb_ ,c1abcc1) AS(	select + -	bd_ + Row(  ) ^
+" """"B" ^ -- c
+
+grouping( Array[ ] And 91E13 NOTNULL) * E'\101  y\n' ILIKE false <= False as "B. . "".",
+
+ * , "  """".".* UNION SELECT) select *,d1bad1.* order  by B'000010',NOT 'z''z' desc,_11 DESC NULLS FIRST , - False IS True,
+Not bc NULLS LAST ,+	 x'a7FFa', not eb Asc,da._ Asc, b'0001100' DESC Nulls Last ,026E7331 DESC ,- Null Isnull
+Asc ,  not row() FOR SHARE)  Union	all select * /* c */  , *  ORDER by +	array[ ] Desc, +  aabc Desc,b_c1.c Desc,- ceeeeab ASC , NULL Is
+Not True,  true Is	Null Asc Nulls Last ,Not - TRUE DESC Nulls FIRST,'''zy' is Null
+DESC , _dddb ASC
+,ARRAY[ ] ,"..".a_ ,NOT Array[]  Notnull desc nulls last)
+SELECT distinct *, d1cb.* ORDER  BY ''::NUMERIC ASC ,- - True desc nulls Last,Not b''::_ ASC,array[ ]::integer Nulls last,not E'''\101\\\t', NULL isnull ASC nulls  LAST ,
+array[]	isnull ASC	,ARRAY[ ] Is
+Null, b'' Asc nulls First	 , x'a'  isnull Nulls First,170::Interval asc,- x'7F'::int  Desc For Share)  SELECT all * ORDER By NOT
+ Time
+E'\\' notnull Asc,884.839 nulls Last ,- b'0' isnull ASC ,-  d__ ASC,Not FALSE::interval ASC NULLS First,3286 notnull, not array[] notnull desc, +
++
+x'' DESC nulls Last	,Not cc desc ,  false isnull Desc NULLS	 last , NOT - NULL	asc
+,-	FALSE
+ ISNULL Desc)  SELECT ALL	".".* -- c
+	ORDER BY Not d Desc,
+NOT ARRAY[  ]
+notnull	ASC,  3 NOTNULL DESC,- - E'' Isnull Asc,6196.  Isnull, /* c */  b'00' Notnull , - - -  TRUE asc Nulls FIRST , NULL::double PRECISION ASC,- "."	Isnull,".B""a.." NULLS LAST,Not 7673310, ARRAY[
+] Isnull ASC nulls LAST;

@@ -1,0 +1,106 @@
+$
+@@@
+[
+	true,{	
+
+				"dcccaadb\f\n\"bbbb\\a\f"	:
+  	 -48402884970005.4146000007,"bbddcdab":false
+	   ,"aab"
+  
+
+:	
+	 	
+{	}
+ 	 , 
+
+	
+	 "dcdcbb\\\t\\\n\bc":{"ddcddacda\nba\bcad": 	
+ 
+	"",
+ 			 "c":2,"ba"
+
+	:
+false	
+,"cdc"  	  :
+
+ 	 0,"bbaaacccdd\r\"\ndb\n\"c\\d\/"
+ 	 		
+
+:  false, 
+ "ca":[
+
+
+	 [] 	 
+  ,
+	  
+
+
+ [	],5E+01	 
+  ,2e-06	
+
+  	 ,null
+	
+
+  
+,"zy"	,
+			
+	false]		 	
+	}
+
+
+	  
+
+,"b" 
+ 
+	 
+:false,"\r\/\n\b\ueBda\\a":[ false		]
+,"cdb"
+	 
+ 
+ 	:true  	,	 	  
+ "db":"yyxyxzxyzx"
+	   
+,"ddcd"
+ 
+ 	  :
+null 
+	 	,"cdc":false   }
+	
+	
+	 ,	
+ 
+{}
+
+,
+ 	 {"aba" 	:9.705058208e-1,
+	
+
+	   "adadaacca"
+:
+		0E5,"cdabbcc\\b\/b"
+
+				 :
+
+ 		
+
+
+{
+ } 			,"da":
+	 		
+
+
+ true
+ ,"dbccbdbb\r":""		 
+,"b"	: 		false}
+	
+, 
+ 	 	
+null,false,true
+
+,	
+
+	
+ true
+	
+		 
+]

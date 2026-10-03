@@ -1,0 +1,3 @@
+$[*][?!search(@.a,'xy.{0,1}[y]|x?z+.')]
+@@@
+[{"a":"xx"},{"a":"z","b":"yy"},"zzzzzz","zy",{"a":"xy"},{"a":"zx","b":"zzxzz"},{"a":"x","b":"xy"},{"a":"xy"},{"a":"zz","b":"y"},{"a":"z","b":"xx"},"z",{"a":"y"},"x","x",{"a":"y","b":"z"},{"a":"zx"},{"a":"xzxxxyyyy","b":"x"},{"a":"zy"},{"a":"zyyzzxxzz","b":"xxxxxzyyzzxz"},"y",{"a":"yyzyz"},"xy",{"a":"y","b":"xz"},{"a":"yxzz"},{"a":"xz","b":"xx"},{"a":"x"}]

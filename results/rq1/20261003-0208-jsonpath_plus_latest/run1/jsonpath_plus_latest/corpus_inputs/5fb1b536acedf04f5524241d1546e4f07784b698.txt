@@ -1,0 +1,106 @@
+$..*..[:0:-39222006105].cc
+@@@
+	
+
+[
+  	
+	
+ false	  	
+,
+
+[]   
+,
+false	
+		,null 
+
+
+
+,
+
+	
+ false,null ,null,
+
+
+-0.0507876E+78,[ 
+
+ 	
+
+null,[null	  	,null, 			{}		
+		 ,
+  
+	  true,			 0,
+ 	
+{		
+
+ },
+	 
+
+ 
+false	,true,"zy"	,[ 	 null,{  } 
+	
+
+,{"bcda"
+	:false,"bd":{
+},"aacbadddaaddc" 
+	 
+ :"zx"	
+
+	
+   ,  		"d\\dc"	
+
+ 
+:
+			 
+ "",  	"ddc"	 :
+ 
+	 "yy\\\r\/\uDbaC\uddCC\/y\t\"\tz" 	
+ ,
+
+		
+	
+ "abb" 	  		: true	,
+ 	 	 	"bad":
+ 
+[	
+	
+	],"aabcab" 	 :false},[	 [],false,false,[ 	
+		[
+  "xy" 	
+,[]  	
+ 	,{} 
+	  ,
+{	
+ },	 
+	
+ 
+
+ true	  
+	,false
+	 	]
+	 
+,"yzyzyxx" , "xxzzzyyyz\fy\ny\"\/" 
+  
+	] ,	-0
+ 			,null 		 ],false	 	  
+  ,	
+ {} 
+
+		 		, false,false]	,true
+]	
+,0.0055000,null 	  ,	 true
+
+ 
+  
+ ,"xzyzz\fzzx\ty\nx",[ 
+ 	 		 null	,
+ null,0.02069030,	 	
+
+false,true],"yz"	,true  	, 
+	
+true    	,0.5000000990   	  
+  	],
+
+ 		true
+
+	
+,false]

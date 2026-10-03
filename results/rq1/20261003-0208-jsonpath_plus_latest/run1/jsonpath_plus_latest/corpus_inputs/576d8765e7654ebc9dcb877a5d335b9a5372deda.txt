@@ -1,0 +1,53 @@
+$.*..*["aaa",'',0,'',"ccbc\ncb'ddc'\n\"\"",'d']..*..d
+@@@
+[	  
+
+
+
+ 
+null,[true,"zyyxzxy"	
+
+	 
+	,[true
+ 
+	
+
+ ,
+	
+[		
+
+	[[[] ,false], 
+
+
+true		  	,[]
+	
+,  true,null
+	
+
+	, 
+
+  
+
+  [
+	]	 		
+	
+
+,
+	[true
+ ,{
+},[]
+
+ 
+
+],
+true	
+	,"yxzyyxyzz",true,null]
+  
+	
+ ,
+
+
+
+ 
+
+	5]]]]

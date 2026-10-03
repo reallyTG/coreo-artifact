@@ -1,0 +1,27 @@
+select min (
+DISTINCT  Null @> + a1a_::character varying[ 79 ]::Date::bcedead_eb._e1b1a_dc[	224747 ] % eba1aace[ not  not 0_7036929_033338625_4886114_6343976_74890_5026112_43778_22454_0801285201_3582586885 NOT  in (not   Not + "a.B.B""a.".c.b1eeb1dc
+^
+ +	ARRAY[ ]  AT  Time  zone date E'\\y\n \t''\t\x41\t '::Int::Boolean[ ]::TIMESTAMP::ab1	AT Time zone U&'x\0041\0041'
+^ 'xy z' In( Null - """ . aa.B  "  + 59984_76 IN  (bd_beadaaa_.be1b__._daacabdd1 * 148_494811_6496012747_7_1494224376_64_1 at /* c */  /* c */  TIME Zone TRUE::_aa_d::Smallint  - + Row( deae."B a""""B. ".ee / - 32911866E88 AT time zone c_bee	* U&'''' * True::Double precision[] ^ x'Fa7'	 ^ "BB.B.B."""[- "  ".lower (  )::Bigint::INT::numeric ( 8 ,12 )[ ] + + +  GROUPING (not 0_6625264_5667277_4450_245604537_14_882_1991437 %  a1[e_ace_a.ddadc.dec1addd_ * - - case
+WHEN Not - - - grouping ( _edea1) ^ x'a7aa0a'
+LIKE False And
+.80::Timestamp Isnull Or " ".e.e Then Null end::Interval % +
+
++ ARRAY[] ~ ANY(SELECT /* c */  DISTINCT * -- c
+ For UPDATE)  Ilike null is -- c
+  True OR NULL - + + FALSE] at TIME zone ab1c.c !~ ANY(select * , * , """a""""B""a".*) BETWEEN False AND NULL <= any (  Select all	*) and - True Like False OR	 + .025227)
+^ U&'' @> ANY(- -- c
+ FALSE::date and _cdea.c)	 Not IN( SELECT	Distinct dc.* for Update) >= null isnull] + -- c
+  aa_
+/ array[]
+ not IN (	Null::Numeric notnull) = -- c
+ SOME (Select distinct "a""".* For update) OR - - X'77'::SMALLINT)::SMALLINT[1] at TIME zone cdc_b	^ - b'' * cb || B'1001100'::Interval * _dbba IN(ARRAY[ ])  <=  Some (
+Select DISTINCT * ,b.*
+Offset	8 ROWS for UPDATE)  ISNULL Or
+U&'' IS Not null) -- c
+ < TRUE Is not	  false  and 148::numeric	ISNULL
+OR Not  c1eb) <>	null IS not
+
+ False) <>  ALL (Select ALL ".""a.".* for SHARE)	Is null]  like NULL <=  cd_e Isnull And + False And ROW(  ) Isnull) OVER ()::INT NOT BETWEEN FALSE And FALSE  Is	
+ NOT
+ true or NOT 916::Bigint	".a""aB" FOR Share;

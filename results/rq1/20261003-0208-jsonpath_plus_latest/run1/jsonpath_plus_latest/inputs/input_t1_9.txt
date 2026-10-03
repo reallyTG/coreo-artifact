@@ -1,0 +1,15 @@
+$..[0,"a",24,'bbbcbccc',1,-90,5,0,"cbdcddba\f\"cd"]..*..cbddbc
+@@@
+[true,
+
+   
+
+
+null 	 
+ ,{    }  
+	 		,null]
+
+
+  
+
+

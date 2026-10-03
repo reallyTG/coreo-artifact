@@ -1,0 +1,18 @@
+{
+  "name": "coreografa-domselector-known-subject",
+  "private": true,
+  "description": "Nine @asamuzakjp/dom-selector releases side by side (known-pair subject, 8.2.4 to 9.2.2). jsdom is pinned to subjects/selectors_js/package.json. lru-cache is pinned to the domain lock (11.5.2); 9.2.2 requires ^11.5.3 and gets its own nested copy.",
+  "dependencies": {
+    "jsdom": "30.1.0",
+    "domselector_8_2_4": "npm:@asamuzakjp/dom-selector@8.2.4",
+    "domselector_8_2_5": "npm:@asamuzakjp/dom-selector@8.2.5",
+    "domselector_9_0_3": "npm:@asamuzakjp/dom-selector@9.0.3",
+    "domselector_9_0_4": "npm:@asamuzakjp/dom-selector@9.0.4",
+    "domselector_9_1_0": "npm:@asamuzakjp/dom-selector@9.1.0",
+    "domselector_9_1_1": "npm:@asamuzakjp/dom-selector@9.1.1",
+    "domselector_9_1_2": "npm:@asamuzakjp/dom-selector@9.1.2",
+    "domselector_9_2_1": "npm:@asamuzakjp/dom-selector@9.2.1",
+    "domselector_9_2_2": "npm:@asamuzakjp/dom-selector@9.2.2",
+    "lru-cache": "11.5.2"
+  }
+}

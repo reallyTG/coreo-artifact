@@ -1,0 +1,23 @@
+SELECT aa.* ,- ( Not (NOT Not 63_42479354_168330_6_419139_12385530_7861_646_1829024_547 %
+x'aFa'	/ c_		*
++ TIMESTAMP
+'\\\' /	49608177  + +  + "B "".a"".B"""::NUMERIC( /* c */  150, 9 )::date /  - greatest (ecabcce_dc1._a11c_d_
+- ".a""".cdde1ced[ -- c
+	- -- c
+ -	- -
+E'\t''\'\x41 '::int[9 /* c */  ] at  Time Zone a1a11e.eaaecea1ab_	~~	+ aa1dd.Count  (not + _c."""""Ba..  "."  .B "". a "
+/	(+ 544.3266E0 ^ de._cbabcca.d1dcca11 at
+ /* c */  Time zone  True ^ -  """.".c::TEXT[ ] Operator(d1eabb1a.=) Some  (not b'0' >
+"B"".BB".eba_a_cea +
+cast(- - .89 *
+ - Exists(  With Recursive e1ceca1ddaa( a1c1aebdbe, cd, a
+, e1) As(( with recursive _c11ded  (eaabe1d1  , ".aB.a." ) As ( (
+SELECT All d_1bea.*,db	+ + FALSE in(c1::Integer isnull) < TRUE  And Null = null """""aa B""aB."	for share) union all Select distinct a1.*) select For	Key share) Union All SELECT	"B".*) select distinct * , ".Ba.. ".*)	at Time Zone null::timestamp	^ row ( ) + x'7FF7aa0F' NOT
+ ilike True <> True AS integer[ 8]) AT TIME zone b'1100' Operator(cc11cabe.*) d1cc_a.abecb_1_.e Ilike Any( Select Distinct	da1ee.*,*)	is TRUE And eb::TIMESTAMP !=  false Notnull) /* c */  NOT 	 like false <= Date U&'y' Notnull and True != false Or - U&'x' And true::Interval,array[	]	Isnull)	-	" B""aa.." !~~ ANY (	Select
+DISTINCT * For UPDATE) != -- c
+  all( Select OFFSET	1 Rows
+For Share)) over () ^ -	TRUE % + b'011' ILIKE All ( select distinct  * ,__b.*) and - ca Isnull]::INTERVAL  && ANY (select distinct * , eaa1.*) Not in
+(select distinct a__b.* FOR Share) <> Some( Select	ALL acc_acc.*) notnull OR rank( *) is  Null) ~ SOME( aa And a) not ilike Null Isnull) ^ - length  ( ) ^ ARRAY[] !~~ some ( select DISTINCT  ea_.*)  Not BETWEEN row( )::DOUBLE precision and False <= TRUE	isnull
+) + Row () AT
+Time Zone e_c !~~  ROW ()
++	- + "a""" NOT In (	SELECT DISTINCT *) <  All (X'0a' Ilike FALSE IS TRUE) And Row(),array[];

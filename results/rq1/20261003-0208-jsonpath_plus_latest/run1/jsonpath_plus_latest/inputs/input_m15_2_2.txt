@@ -1,0 +1,146 @@
+$[?(  !
+  	 	match(false,"[a-da-dcyax-zx-zx-za-dx-za-da-d][^ca-dx-zx-zx-zx-za-dxa-d][^x-za-ddyaax-zza-dybx-zx-zx-za-dx-z]*[^a-dx-za-dx-zza-dxx-zax-zya-dyxx-zx-za-da-da-dx-za-dc]?|[^a-dxx-zax-za-dzx-zbx-za-d][^x-zx-za-dx-zx-zbx-zx-zx-za-dxx-zdbx-za-da-dx-za-da-d]+[^xa-da-dx-zx-za-dyx-za-dx-zz][x-zzx-zbzya-dyx-zx-zba-dx-z]+[^a-dxycx-za-dx-za-dx-zzca-dx-zzya-dxx-za-d][^x-za-da-ddx-za-dayx-z][^dza-dx-zx-zcx-zx-zca-d]+|[xa-dxa-dx-zx-za-dx-zyx-za-d][^a-da-da-dx-za-dbx-zx-za-dx-zx-zx-zx-zx-za-dx-zx-za-dx-z][x-zx-za-dca-dbx-zx-za-dbx-zya-dxx-zy]?[x-zaxx-za-dx-za-dx-z][^a-da-dx-za-dzx-zx-za-da-dzza-da-da-dx-zx-za-d][^x-za-dbx-za-dyba-da-dx-zx-zda-dza-da-dx-za-da-dzx-zx-za-d]"))][?(	
+	!	  	match(
+	
+count(@)
+ 
+	
+ 
+,   	 	
+ "[bbyxx-zx-zx-za-dax-zcabya-da-da-dada-da-dx-z][^x-zx-za-dx-zx-zx-za-dyx-zx-za-dybyxa-dx-zza-dya-db]{1,2}[^x-zxdda-dx-zdaxaa-dxx-zx-zbxxx-za-dx-za-dyx]+[^x-zx-za-dx-zyca-da-dx-zx-zx-zca-dx-zyx-za-dx-zx-za]?[dxa-dbccx-za-dx-zx-zca-dax-zx-za-dx-zxa-da-da-d]?[x-zx-za-dza-dya-da-dxxya-dx-zx-za-da-d]?[^a-da-ddcbaa-da-dxx-za-da-dx-zx-zbx-z][a-dx-zxx-za-da-dba-dza-da-dy]+")
+ 
+ 
+    )]
+@@@
+{"cd"	
+		:[   {
+ 	"aba\babb\/d":{
+
+ 
+
+},
+ 
+ 
+
+
+	"bccaba"			 	 
+:false   , 
+
+
+"ddbcadcddd\/"
+ 			 :[],
+	 
+ 
+ 
+"cad"	
+
+	
+:[null 
+		,
+
+ 	 	 {	
+	},null,
+ 		[ 	  	 	
+null	 	
+
+	 , 	 		
+
+{} 
+,		 null,    null,-0e+0,
+ 
+false,
+
+
+
+	 
+null 
+
+,
+	
+null	
+
+	,"yyz","zy"
+		  	],
+	
+		{"dda\uDaCA\udDFa\nbb\\aca" 	
+:[		 {"\"\/c\t\rc\uDaEb\udCdea\t\\":true,
+"dabacba\n\/\n\/":"z","b":null		 
+
+ ,"dc\r\uBDCb\"\/\\a\f\"" 
+
+  :{ 				 
+},	
+ "aabbcaaccd\t\f\/\b\bbc\f\r"
+
+	 	
+:	 
+null	
+ ,"cccccabcdaacd":	
+ 
+-30.4600830E5,"dda"   : 	false,"ccccbc\\c":-50,
+"aba":
+-247.9501250010E+30			, 	
+
+"dc"	
+ 
+		:  	
+
+{ 
+		 
+
+	"acd"	
+
+
+   :{ 			 }	  	} 		
+
+,"dba\/bb\nd": []}
+
+	
+		
+	,0.00260,   "y",false
+
+
+
+	
+
+]	,"cad":null 
+, 
+		
+
+
+
+	"ad" 
+:  
+
+null 	,"a" 
+  
+:		{
+	
+ 
+ 	
+"bdc\"c\td"
+  
+
+ 		:null, 
+	 "aabccddbd\"\r\tb\fc\t\rc":[],	"dcbcabc":  	  true,	
+
+	
+
+ 	"d"	
+:-0.005e-50,
+
+
+	"cabdcd" 
+
+	:[]	  
+		
+
+
+,	"abc":	null  
+
+} 	  	
+    ,	   	 	"dcb":		true	
+ },[ 
+	
+["zxxxxzxzzxx",
+ 		[],    [		]	 		,false,null]]]}]}

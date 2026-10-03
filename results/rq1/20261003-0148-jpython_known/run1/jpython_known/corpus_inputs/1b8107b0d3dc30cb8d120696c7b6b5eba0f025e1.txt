@@ -1,0 +1,37 @@
+$..*[ 	
+  
+ 
+-2 
+ ] ..[
+0 
+	 	
+: 
+
+ 6	
+		
+  :-7]..*..*
+		
+	
+	.*.a.c
+  ..*
+@@@
+
+{	"d":"y\n\r\n\ufBCB" 	,	
+ 		 "dd":
+	"zzyzyz\txz","bbd"
+:true,"cda":null, 	
+ 
+
+"bcbba\bbb\"aa\"":null  	
+		
+
+, 	"ac":"x",		
+"c"
+   	 
+	 :		
+
+
+  	 true,"bdb"
+
+	 	:	
+		   null}

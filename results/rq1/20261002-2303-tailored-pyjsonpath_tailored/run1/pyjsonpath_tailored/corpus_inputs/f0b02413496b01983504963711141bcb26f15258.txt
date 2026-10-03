@@ -1,0 +1,3 @@
+$.*[?search(@.a,'y*[^xxy]z')]
+@@@
+["yxzyyz",{"a":"yx"},{"a":"z"},{"a":"xz","b":"yxyzyyxzz"}]

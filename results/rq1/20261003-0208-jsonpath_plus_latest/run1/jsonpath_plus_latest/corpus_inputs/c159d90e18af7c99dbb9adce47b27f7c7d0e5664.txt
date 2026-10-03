@@ -1,0 +1,34 @@
+$..*..[?(-0>=true
+&& 
+
+ 		$.*&&match(length(null) ,	
+	   
+ null)&&
+	
+ search($[2]["ab"][0]['dadcdddc']['aaacbcaadaa']["a"][-9][0][-30],
+ 	
+false)&&	!$..bb[*]	&&null==	 	$.ad.bd 
+
+&&
+ true  
+
+		
+
+	>'zx'&&
+	 length(true	
+ 
+
+)!=  
+ length(@["a"][-7])
+ 
+			&& 		
+(length($[403010082100]["baadcbdd'b'bbad\n"].a.cbcc[0].bd[0][0].ab["d"][36][81]) 	
+<= 	  	
+	null
+   
+		||length( 
+@ 	
+ )!= 
+@))]
+@@@
+[false]

@@ -1,0 +1,3 @@
+:where( * ~ :lang( cdcccbddcdabd-acabdbacaaaa),*>:only-of-type ~ #dc :read-write#d+* ~[ lang] ) >#bd> section.adaaddaacc
+@@@
+<!DOCTYPE html><html><body><div id="a" title="" lang="cbd">cc aab</div><section title="" data-d="d">  c</section><div class="c dacbddadcc" id="d"></div><span title="" lang="dcccd"></span><p class="cccaad c b addbbdd a ba"></p><div lang="dbdcdaabdbaaa"> a ac  cba  </div></body></html>

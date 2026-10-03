@@ -1,0 +1,19 @@
+SELECT DISTINCT  ON( + c1_ec11_c."."" Ba""".ce1bcd_cdc /	 + a."a""a"	AT  time ZONE null  *  - DATE 'x''zy' + 407_023322_788443433_435059_3338326024_111_48286040_6608475_9005_2729900 not like
+aada111
+^ Exists(  with recursive cec1e1_1ca ( _e_1ed1c_d," BBaB") as (select distinct c.b_abb BETWEEN
+c."B.."[ Not + " ""B.a.B  ".e1ea_a[ (
+(with ad AS( WITH Recursive aeacd1b___d("..a"" " ,  ec_1dbc1cec ) as((	 WITH dddc as	(SELECT FROM c cross JOIN ( With RECURSIVE """aa""" (
+"B."" .B"".B ", dba_e1,d_e_c1cd,  a1e1 ," ..aa",d1bc , """B",ba_cb ,d_b,a1d1dbb_ed1,c1bceb_bc) as (Select  distinct __eb_a1."aaB.BB" LIKE + -- c
+	"a a""."".".d_a1c."BBa  ."[+ " B."::Numeric(2)[][][ ] AT	TIME ZONE -- c
+ true at TIME ZONE d_eb ->>	true at TIME /* c */  Zone ( with RECURSIVE be( ccdcedeec_e -- c
+ ,c
+,d,	"a. ""aa" , b1cdc1beeb ,ed_1b1bdedd," aa.a.. """) As -- c
+ (Select + null IN	(row( ) / - now() # true * ddba
+-	+ U&''  >	Null /* c */  is	Null	And	797323 notnull OR Array[ ]::NUMERIC) >= true notnull As adbc_ec ,*,* Union SELECT Distinct ".B"" a".*) Select /* c */ 	DISTINCT * For share) * ecc::TEXT	notnull AND
+NOT	 Not False
+OR B'1100' Isnull]	% abs  () !~ true % U&'yy''''xxxxy', Timestamp '\  z'
+as c1_e union all SELECT Distinct *) select  Distinct  * ,	ca1.*) as b1be) select) UNION SELECT) SELECT distinct d_b1e.* FOR Share) select ee.* FOR Update) UNION
+select distinct  * For UPDATE)::date::TIMESTAMP::SMALLINT AT time	zone _c.b	/ d  + + Row( ) !~* Some
+( B''	^ B'11' NOTNULL) ilike	some  ( /* c */ 	interval U&'''y\0041y\0041xy' Isnull) <> SOME	( select  Distinct *)	Or ARRAY[] -- c
+ ^ E''] %  true::Real	 Not Like Any(b'1001' / FALSE) OR Not - array[]] ^ False ^ -  Null % 022706  -> aa AND Null = false IS True c ,* , ccaabae.* union	All Select  ALL) select distinct _aacd.*) / row ( ) -
+58_93411_7104219880 -> Null < - ac1 +  _b1.b or FALSE is Not TRUE Or Not +  False) *		 ,*;

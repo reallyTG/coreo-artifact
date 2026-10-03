@@ -1,0 +1,72 @@
+$..*[*,*
+
+ 	 
+
+,'',*, 
+
+	*,"d",
+*,"bbcda",
+ *]
+ 
+ 	
+ 	[*, 		
+ 		5:
+-20000
+]
+@@@
+ 	 {  
+ "caa"	 
+			:false,"c\f\f\r\f"
+:false
+   	,
+	 
+
+
+"dbaacbd": true,"cdbbcdb": 	
+
+
+		[],		
+    "dcd"
+
+	 
+:[true,   		
+
+
+"zy",		  
+
+ 	false, 	
+	
+
+
+	false
+ , 	
+		 null,
+	
+  
+"zy",false,
+	true	,	  			"zz"
+	 
+  
+,{   }]
+	
+
+,
+  	  "aaa": true,"adacd\b\/b\uAfFd\ba\\\n\f\"":
+	 		
+true	,"d"
+:"yzyxxxx\"\\\/\n\"\"\bzxx","cdaaccdda\\\\\"aa": []	
+
+ ,
+ 		 	"bd":	
+	
+
+ 
+false	
+		,	
+ 	 
+"c":null 
+
+	
+
+	}
+		  

@@ -1,0 +1,3 @@
+$..ac.cc[*].ad
+@@@
+{"dacdabdcdcdc":0}

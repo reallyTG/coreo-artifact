@@ -1,0 +1,3 @@
+$[*][?search(@.a,'[yx-z]xy[x-zx-zx-z]+')]
+@@@
+["zx",{"a":"zzxyyyxyy"}]

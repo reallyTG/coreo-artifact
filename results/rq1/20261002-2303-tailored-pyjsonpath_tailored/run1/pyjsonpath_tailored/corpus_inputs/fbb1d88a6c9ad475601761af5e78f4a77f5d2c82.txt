@@ -1,0 +1,3 @@
+$[?!search(@.a,"[^yx]|z{0,2}")]
+@@@
+[{"a":"yyyzzzyyzyxz"},{"a":"yxxz"},{"a":"y","b":"xyyxyyzz"},"yx"]

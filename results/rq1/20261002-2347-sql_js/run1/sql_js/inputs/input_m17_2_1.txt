@@ -1,0 +1,30 @@
+SELECT
+ Distinct
+On		( x'a07Fa0' / X'a7aaFF7707' *	x'07a7F0a7aF00' / x'7aa00a0FFF' AT /* c */  Time ZONE X'Fa07a0FFFa'  At	TIME zone x'a77707a00F0' - x'000FFFF' ~ All(With cbbe1 AS (with _d_1_eaecd_  AS (With
+
+ e1eeca AS
+(
+Select Distinct On ( x'7Fa70aa'  at TIME ZONE X'Fa7a0a77F' at time
+ ZONE x'0Faa0F' %
+X'0F0000F7aF0a' + X'aFaaa777aa'  + x'aaa0FF077aa' ^ x'07707F7a0770' + x'0F7a77Fa70Faa' / X'a700' % x'a7aaaF7'
+AT TIME zone x'7aFFaFF' at time
+ ZONE  x'aaFa07F' at  Time Zone x'FFF7a0FF7a0F0'  - X'Fa7FF70a' ^ x'Fa77000aF' - X'FF0777Fa0a0F7' ^ X'F00aFF0' At time Zone X'7aF0a0' AT time ZONE  X'a7Faa0' ^
+x'777FFFF0F77' & ALL(x'00700' - X'0707aFa07a00' *
+X'a777' +
+X'70F7a' at time ZONE
+
+X'a7Fa' ^ x'F7FaF' /* c */  ^ x'00a0Fa' ^
+X'aFFa0F0aa0a'	AT Time Zone x'000a7a7' AT TIME ZONE X'7F70770' At Time Zone X'00aFaa' ^ X'FFa7aFFaa' At Time zone
+ X'FaaF' At TIME ZONE X'0a7Faa0a' ^ x'707777777' * X'7aa7aaaa0' / X'aF77700F70a' /	  X'aaFa7FF0' AT
+Time Zone X'7F77aaFFaF70'  ^
+x'7FaF70'  * x'0Fa00a7'
+NOT Between x'aFa77077aa070' and X'7F7a' and x'0a70FaFFF70' NOT between x'00F00' AND x'FaFF' or x'00aa0' !~*	x'a7aa7F0' Not Between x'7F007FF00a' and X'a0Fa'  is  False) NOT 
+ between	 X'a77F7FF' ^ X'a0aF' AND x'F077' > ANY ( -- c
+ X'F0770FF0a0007'
+Between  x'aaa007Fa0' and X'aF00') Notnull And x'F00Fa' <<
+ x'a007F7F070' NOT between x'77FFa' and X'a7F0' or x'aaF70FF70aFF' * x'7000F0' Between x'70a770aF0F0' and x'700F') *
+, *, * ,* Limit x'00Fa7000' BETWEEN	X'aFa0777F77a' and X'F007' -- c
+  ISNULL)  Select -- c
+ All limit
+x'F7707aFF7aa00' NOT  between -- c
+ X'F7700aaF' AND x'000F' NOTNULL) Select DISTINCT /* c */  *, /* c */  *,*,a_eb_bb_.* limit X'00a7aa077aF' Between X'F00a770aaaF' and X'a77a' Isnull) Select DISTINCT " ".*,a111b_ad1.* limit x'F070F000F0' NOT BETWEEN X'Fa77' And x'FFa7') NOT Between x'FF70a' * X'7a7F7FFFFFa7' And X'7F00'	>= X'FaFF' Between X'00F7' And X'aF7F' Is Null) *,_eb.* ,edb111bbecd.* ,decc.* limit X'707a77aF7F7' not Between  x'70aFF7aa' AND X'F7a0' isnull /* c */  FOR	SHARE ;

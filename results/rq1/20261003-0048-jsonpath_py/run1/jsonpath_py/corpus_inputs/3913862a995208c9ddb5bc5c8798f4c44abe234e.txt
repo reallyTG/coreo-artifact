@@ -1,0 +1,103 @@
+$
+ 	
+		 [		
+ 	
+? 		 
+	"zxz\\''\n\/"		>=
+
+ 	  "x\r''''\/\\\"\/\"'y"
+  
+	||"zxzyyyxyy\"'y\r'"<=   
+ 
+"xyzxzzyy'\"y\"'"&&"zxxxxx''yz'z">=	"yyzxyxyz\"y\"''''\"\f"	
+
+		&&	"z\"y\t\"'z\r"
+	<
+ 
+  "xzzyzyxy\b'zx\n\"zzx'\/x"&&"zzx''\tz'\f"
+	 
+ != 	
+	 "xzxxzzy'\"z\/zzx\rxyy\r\f\""	|| 
+ 
+"zxzzxyzyyx\b\f\f'\ty\\y'xy"	  >	 
+
+	"yz\"\"xz''x''y\"y\""|| 
+
+		
+ 	"yzzzyyxxy'yz\udaaA\udDBF'\"zx\bzz'yz"!="zzzzzzzyy\f\nz'\b\"'z\uFAbFx\"\"\"'"|| 	
+
+	"yz\\x\"\"zz" 		!=
+	 
+
+"'\r\bz'xxx"		 
+ 			&&   
+ 
+"xyzxx\rzz\"y"
+
+ 
+
+>= "yzzxzyzzz'\"zyxzxy\"'\"\"yx"   
+	&&  		 
+"zxyyxxy\nz\"yx\"y\tyx\f\rzx"!="xyxyxyzyxy\"'\"yy'y\n" &&
+	
+
+	"zzzy'yx\nx\r\rx\r\"z"
+	>"zzzyzzy\"xx\\yyxx\""&& "x\uadEBxz\"x'\\yx\"\/">"xz'yzx'"&&"\"''\"y"
+ 
+ 
+ <
+
+	
+			"zzxxyxzy'x\"'\"\tx\"\"\fzy\/"
+	&&
+	
+"xyy\/y\"zz\"zyzzxz"
+  !="zzyyxyx'\rx\t\"\b\/\byz\tzy'"&&"yzxxzy\"\fy\f'\"''xyx"	  
+
+		<"z\"\"'zxy\ny\fzx\"y"  	 &&
+	
+ 	 "yxxzyzyyzx'\tyz\"\n">"xyyz\"xz\"x"||"xzxzyxyzz\t\n''\"\""<="zzxxzxyxy\f\"\"zz\r\"\"x"&&	 			"yyyz'y''z'\f"=="xyxxxy\"\"yy\"x"&&  
+"yyyxyzy'yz\"xz'x'\\xy'"<"'\"z'xy\"x"&&"yyxzyzz\"\"yy\"" !="yzyz\"z'yzy'\"y\"'\"xy" 
+	
+
+
+
+&&"zyyyzxy\rxz'\"\"\"\"'\fy'z"<"xxzzzzxxzz\"z\"\b\"\"x'xyz"
+				&&	  
+"zzyx'y\"\"\"'xyz\"\b"<="xyzzxxzyz'z\"xzz"&&"xzxzy\\\"\"yx\"\ueEFA\"y"< 
+		"xxzyxyy\"z\b\/zy\f"
+&&
+
+	
+		  "yxyzxzxzxy'\/zyy\"'z\rx\"x"<="xyxxzzzz\"x\"yz\"\"\""
+	
+ 
+&&   "yyyzxz'z\"xz'z"	==
+		"y\fy\/yzz"&&  		
+"zxyyzyx\"x'\"xy\"\""
+ 
+		<		
+ "yzyzyz\"'x\"y'"&&
+
+ "xzxzzyxy\"''x\uedaB\r"==		
+"y\r\"zxy"
+||"\"\bzxxy\"\/\uD0cfx\"">="zyy\"\\xxx\"'\r\"x\"y'y"  	 
+&&"zzyyy\"\/'x'\"yx'"!=	
+	"yxyzx\"\nzx'\"\""
+&&"zzxyyz\/y\\z\udbfe\uDfBD" 		<=
+
+
+ "yyyxy'\fxy\by"&&
+
+"xyyzzxyzxx''\"\"z\"\n\/\"'x"  
+>="yyyxxx\b''\"\uDb0a\udEaf"&&"'xy'\"\"\"yz">= 	
+ 	
+	
+"\"\/x\t'\"\b'y"&&
+"yzzyyxyzzz''zy'\t\"y'\"x\f'\/">="zyyxz\"z\"zzxyzz\t"
+&&"xxxzyzyz\\x'\f\"'z\"z\r\n\"\""
+ 
+<=
+  	"xx\"'y\nxy\"\udaEA\uDFbAx\ud1bf\"\ud8cc\uDcA5\"x",?"'y'''"<="\"yz\"x"]
+@@@
+[true]

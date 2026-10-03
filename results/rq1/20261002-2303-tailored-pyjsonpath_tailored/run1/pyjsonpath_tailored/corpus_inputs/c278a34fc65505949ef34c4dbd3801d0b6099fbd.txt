@@ -1,0 +1,3 @@
+$[*][?!search(@,"z|[y]z{2,4}y{1,3}")&&!search(@,".")]
+@@@
+["xy",{"a":"xx","b":"xyxy"},{"a":"yxzxyz","b":"xyzyyxzzxzyx"},"yz","z","zxzyzx",{"a":"x","b":"y"},{"a":"xzyzxyzyx"},"z","xy",{"a":"y","b":"yy"},{"a":"y","b":"yyyxy"},{"a":"xzyzzzy"},{"a":"x","b":"y"},{"a":"x","b":"yxyxyzz"},"xy",{"a":"yyzzxyy"},"z",{"a":"xzxxzxzxxz","b":"yx"},"y","z",{"a":"zxxzxzzxyyxy"},{"a":"zy","b":"y"},{"a":"xxxyzyxyxzx"},{"a":"yy","b":"z"}]

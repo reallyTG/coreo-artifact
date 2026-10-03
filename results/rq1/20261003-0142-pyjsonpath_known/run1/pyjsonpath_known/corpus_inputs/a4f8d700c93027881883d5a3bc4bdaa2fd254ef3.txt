@@ -1,0 +1,38 @@
+$	.*
+@@@
+{
+ 	   		"cac":-7250		 		   ,		"adcb"	 	:	  true,"a":[
+	 
+"xy"	
+,
+ 		 
+0.00011080e+0,
+
+
+false,
+	
+ null
+	 
+	
+]	 
+
+  ,"acb"
+	:"zz","bcbddcddd\f\tdcd\td\n"
+:
+	
+ "yxxzyzxzyx","cdccbaabb":{},	"adacd":  true,	
+  
+"dab":null,"ad"	 	:false,
+	"bdbadbddcd"	
+
+	
+
+
+ :false  
+
+
+,"dbc"	 :	 
+ 
+	[	 
+
+]} 	  

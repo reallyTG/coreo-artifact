@@ -1,0 +1,44 @@
+$..cd.aa..['d',0,0,0,0].*..cb..d..d[90]
+@@@
+	
+
+ 
+["",[ 
+		
+
+],	null,
+
+
+null  
+
+,398900700504008e+53,{"adaaaacbc\/db":false,"d":[-0,null
+
+					 ,null,	
+ 	 null
+			
+],"bad"
+	
+  	
+ :{"a\ud5CC\\a":
+	
+
+	 
+	""		 	} 
+	
+
+
+,"bbd":
+   	
+ 
+
+"xx"
+ 		,	  "abbaa":null  	 	,"a":[]	
+
+ 
+	
+
+,"baaaddbba\r\/ddd\n\/\"\/"		  
+ 
+
+	: {}
+ 			},null]

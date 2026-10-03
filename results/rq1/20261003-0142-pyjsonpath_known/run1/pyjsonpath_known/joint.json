@@ -1,0 +1,80 @@
+{
+  "count_bracketed_selection|query_len": {
+    "band": [
+      22,
+      24
+    ],
+    "best": 2013.0,
+    "direction": "maximizing",
+    "extensive": "count_bracketed_selection",
+    "intensive": "query_len",
+    "stalls": 1,
+    "window": [
+      11.0,
+      13.2
+    ]
+  },
+  "count_filter_selector|query_len": {
+    "band": [
+      8,
+      10
+    ],
+    "best": 3131.0,
+    "direction": "maximizing",
+    "extensive": "count_filter_selector",
+    "intensive": "query_len",
+    "retired": true,
+    "stalls": 2,
+    "window": [
+      8.0,
+      9.6
+    ]
+  },
+  "count_ire_cce1|query_len": {
+    "band": [
+      3,
+      5
+    ],
+    "best": 2111.0,
+    "direction": "maximizing",
+    "extensive": "count_ire_cce1",
+    "intensive": "query_len",
+    "retired": true,
+    "stalls": 2,
+    "window": [
+      95.0,
+      114.0
+    ]
+  },
+  "count_value|query_len": {
+    "band": [
+      5,
+      7
+    ],
+    "best": 1776.0,
+    "direction": "maximizing",
+    "extensive": "count_value",
+    "intensive": "query_len",
+    "retired": true,
+    "stalls": 2,
+    "window": [
+      11.0,
+      13.2
+    ]
+  },
+  "count_ws|query_len": {
+    "band": [
+      7,
+      9
+    ],
+    "best": 143.0,
+    "direction": "maximizing",
+    "extensive": "count_ws",
+    "intensive": "query_len",
+    "stalls": 0,
+    "window": [
+      47.0,
+      56.4
+    ]
+  }
+}

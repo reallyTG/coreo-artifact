@@ -1,0 +1,3 @@
+.dcdabcacbd.ab ~ :has( >*:last-of-type.cbacdb~ *> :lang(bacdbaaadbaad-adb ),*:is( *[ title^=""]:required[data-bb^=badcac-b] ,*:where(#cc.adad.ddbbadcaabddc +*>p )+.aaabd~ a.dc#a,.abcbddabadddbd ,#c#b[data-ccc][lang |=b] ~#d.cd#a[checked ]~.d[type ~="cc c-bb aa ab cd" i ]~ #bc>.db ) ,~*~span#dcbcaddbdddd> #b#a)#abbcbbacaca[ data-abdbdcabbdda] +*#bc:is(* )#cd[required]#ab:scope
+@@@
+<!DOCTYPE html><html><body><section class="db" id="abbdaadbdbdbd" lang="dd-cbddddaca"><input checked disabled required class="d cbbcabcbab b" title="" data-cdcbddb="">a bac bb<input type="text" disabled readonly id="b">caab  cca ac</section><p class="bbacdbddabacba" lang="dbbbdaddccca"></p><div class="aadada" title="adbabb-a" lang="cadddcbcc-bd"></div></body></html>

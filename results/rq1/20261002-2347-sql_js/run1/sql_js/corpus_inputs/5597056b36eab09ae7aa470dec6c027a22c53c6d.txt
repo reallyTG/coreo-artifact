@@ -1,0 +1,24 @@
+With recursive cbb_ae_1bba( -- c
+ " BBBBa.  """
+,
+_b__ ,	eb_a	  , ad,_caad_ba_,b_d_dede,bae -- c
+  ) As(( with RECURSIVE /* c */  _	(  bcda1b_ ,	 "a.", "B. Baa" , -- c
+ eb1ae1_eb /* c */  , " ""B. " ,edaa1b1_cc ) AS((	WITH RECURSIVE dcda_be1 (ee ,	bca,dd__c -- c
+ -- c
+ )
+as( ( With Recursive bad1dc___b( deea )  as(SELECT FROM lateral c_bbab.now( ) With	 Ordinality ddecd1_b CROSS	JOIN ( ( (	round /* c */  (distinct
++ eeca_c.aaaa1ce."a a"""" B.aa" - + Grouping( FALSE::numeric LIKE True = True  Isnull) Between b'010' / X'aa'	|| - NULL and True or False + - B'') WITH Ordinality Cross JOIN deceeddaa.array_agg ()) cross	join aaeebabdd.aa) cross Join	max (*) with ORDINALITY) UNION Select), "a B"("a"" ") AS(select -- c
+ ALL Union ALL select	Distinct *) ,bb1bb( cec_, " ") as(SELECT distinct *	UNION ALL select),"aB"(e )  AS -- c
+ (Select  ALL _ae_eab_1.* union ALL Select),	"a""" ( e111 ,de_ee_) As(Select * union All select  Distinct *), -- c
+	d("  "
+ , bdee1e__1) as(Select UNION select) select DISTINCT *,cb1c.*) UNION	ALL	Select _e.*) ,"BB ." (a1) /* c */  as(Select /* c */ 
+All * UNION select all)  ,""". a"( ecbd,bcac_) As(SELECT union all select Distinct
+*  ,*), b("BBa. ") AS(Select	all *,*	union ALL Select Distinct *) ,	abb_1_a("a") As(SELECT ea1_.* /* c */  UNION Select Distinct *), _b ("aB BBa""a") As(select *,*
+Union select) select distinct * FOR
+update) Union ALL SELECT  All from SUM(*)), ".""a."(cbadb) AS(Select UNION select ALL  abdcdcccea.*) ,
+ "a" ( a,_1b_11a1eee) AS(SELECT	Union SELECT  ALL)
+,".a" ( " .a .  ") As(select UNION Select * ,"..BB".*),dbaa1ebd (d)	As(select UNION	All
+SELECT All *,*) , "  .a .""a."(bd1) as(select distinct * UNION select All) select " a.".* ,b_ab.*) UNION All	SELECT dc.*), b1_cec_ca1 (baea)	as(Select  ALL Union ALL SELECT	*)	,"a "".""B"("""")
+AS(select distinct "aBa""".*
+Union select  DISTINCT *),a11ecb_bba ( e) As(select Distinct " .".* Union All	Select DISTINCT *) ,abbcb1(
+ _e) As(select distinct * ,* Union SELECT  ALL *),"B """( "aaa.B""") as(SELECT distinct	* ,"B""B".* union Select *) select	distinct *,* For SHARE;

@@ -1,0 +1,14 @@
+$.cd["bdababcdad"].*.*['cd'][*].*.*..[0:0:8]..c..*.adcdabdb..[8,2,"ab",'ad'].ca.cbadbc.d["accddaabbc'db\\\"",-4,"cc","c","a",0,"dcbbbcc",0,-5,"bdccc''bb\\\""]..*.*..["cca",-10,'d',4,'\/"\\b'].abdbca.*.d..*.c..ad
+@@@
+	
+ 	
+
+  {"b":
+	 	  
+
+true,"ad\"dd\rd\r\f"
+   :	
+
+null
+
+ 	}

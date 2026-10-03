@@ -1,0 +1,1 @@
+SELECT bbacc__ee FROM _eae WHERE a1ecec IN( d11_ AND 8482740243) ;

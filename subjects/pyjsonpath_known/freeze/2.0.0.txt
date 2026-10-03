@@ -1,0 +1,2 @@
+pip==26.2.1
+python-jsonpath==2.0.0

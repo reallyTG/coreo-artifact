@@ -1,0 +1,3 @@
+:any-link[required$=""]:disabled
+@@@
+<!DOCTYPE html><html><body><p class="cd" id="bc" title="" data-dd="ad cddc c"></p><p data-bbbadddca=""></p><div id="dd" title="" lang="badbba-acdbbdcdad" data-dcd="">cabb  a</div><section class="b bbcaabadd" id="ddacbadbbaaad" title="" lang="bcdad-adcdcabc" data-dbbaadd=""></section></body></html>

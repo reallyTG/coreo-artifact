@@ -1,0 +1,194 @@
+$
+
+..c ..['ccabbb' 
+ 
+	,
+  	  ? (	 @||!match( 	
+
+			@,true
+ )||!search(length(
+	   
+@  	
+ [0])	 
+
+ ,true 
+	
+
+	 	)	&&
+ value($	 
+..[	'd',-5 		
+:
+
+ 	
+ -700
+:	
+ 	
+
+800
+	
+
+	,*,
+ * 
+	 
+ 	,	
+"dabacbdadcad"	 	 
+
+
+
+,? 
+length(@  .aaaaacb[0]["cdcd\"\fbd'"])>=true	
+ &&!@.*..[	 	
+ 		?(false 	 != 	 
+
+ length(	
+ 29E-00	
+))&& 	
+
+	  
+!	
+  $&&count( 
+ 		
+@) == 	value(@)&&!	  
+@  			
+	..[	* 	 ,*,?$
+	 [-9]>@  	 .b,:
+		,
+	
+
+
+-907	
+		 	 ,  
+	
+     :
+:0]..*&& 	
+@.aa==3.07
+&&!	
+	 
+((!	
+	$ 
+	  ..ad..[?!
+ 	
+	search(
+  length(count($)			
+  )  
+,null	 	
+
+ )||			 !$
+	 &&@&&
+ 	 	
+
+ 
+(		  	!( 
+  
+
+   -0<=	$	
+
+ 
+) 
+	 
+ 	) 
+
+||count(@..[	 		 
+0  
+, 	'a',*	
+  ,	?count($..*	)!=   		-0 	
+
+			||value(
+	 
+ 	
+$.dcaadcadacbd
+	 .*)<=@ [-702]||@	[2].cb
+  >=@ 	
+
+		&&
+(		  		$	
+
+
+[250]>= 
+
+	length(true) &&search(length( false	),count(	$  	.*
+ 
+	 ))&&  value(
+     
+$.da..* .*.*..*	 .*
+
+.bdbabbcaadda..*
+		 		
+	
+..* )  
+<@.ccadddcdbacc[800])	
+	
+		
+	&&	 
+search(count($.caccdaddbcc)	
+
+,$   		.b[0][-8] 			
+	  .a	["b"].cacd[-8] [0][''][-6] 
+		
+ )
+
+  ||		
+	 
+!
+	
+			 search(count(
+ 		$),  0)||
+ 	  
+	!	
+ 
+
+(value(	@		..abcdda
+		
+..*		  [		    
+? 	 	
+	
+	!	 
+(!$ ..*		  || 	 !search(true,count(@.d[		 
+	*,?(
+ 		
+	!
+
+  
+	(count(
+
+
+
+ 		$.*
+..* 	 ..a.b.*.c..* ["",
+			 -500]..cadddabaaca.*)	<=-3.60  && 				
+   false>	null&&
+	 	!    
+(match(null 	 
+	, 	 
+
+  
+ null		 
+ 
+	
+)	 	 	 
+||count(
+@
+[ 
+ ?		  !@..[-800,
+   ?  
+	
+@	
+
+[0][-306]<@.d["d'c"]||	length(null)
+	>
+true  	,* ]..*&&	 @	 	 ||@]..*)
+
+		 
+
+
+!=false  &&$)||!@	
+)&&
+$||true<=false)
+   	,*	]))||@&&true<=true)&&$||
+ 	$	,-2]  ..d)>null	&&  $ 
+||	$)&&		
+@
+]..*..*)>false&&$]&&$)||$)||@ ]..*||$])>false
+)||@]
+@@@
+[0.00]

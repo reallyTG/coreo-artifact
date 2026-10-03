@@ -1,0 +1,88 @@
+$
+@@@
+ 		 [	[
+
+{  
+
+
+ 	 "cacabbcdd"
+	:
+	 	["z",
+ [
+
+{},-0.07000020
+	 ,[null	  	
+
+		
+,true,				-0.6022E-00],-16070E+0,[
+ 	
+	 
+"z", [ null		,"xzxxxyxz" 			,null
+ 	,"xz" 			
+
+
+	,true,
+ 
+	[]     ]	
+ 
+ ,{},
+			  false],{
+	"accbbcca\bcba":  
+ { 
+"bcb" :[]			,"aac": 
+		
+"","bbabdcb":
+ 	 	
+
+	
+true 	 
+}
+ 
+	,"d"
+
+
+ :null, 	
+
+		
+"dbd":"xxzxyyxyxy"  },true  ,null,{},false ,	false
+
+	],30620839.3E0
+	
+	  
+
+,[],
+ 
+
+null	 
+ 
+,
+		{"a"		 :	
+
+
+	
+null
+
+
+		,	 		  "d"	
+
+	
+
+  :{  
+	},	"c":  
+null, 
+ 
+"bbb":
+null		}]
+
+,
+ 
+
+  
+"dccdcd\r\bd\raa\fd\/\r\""   		:[],"dbcbaaacaa": 		false
+	  		 
+
+,"dc":0.079,"bc\r\rbd\f\fc\bdc":-10.009783141e06 
+},		
+			
+0E-00]
+ ]

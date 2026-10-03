@@ -1,0 +1,3 @@
+$[*]
+@@@
+{"abcddacab":[41,70,0,"y","yzz","zyx","xz","yxz",0,"zz","xz","yzz","xy","z",0,0,6,"zxy",0,"x","xyz","xxz",8,9,"zz","yz",0],"dacbbddbcd":[27,"yx","yyx",8,0,"y","yzx",80,"z","yyz",10,6,"yz",60,"z","y",70,"zxx","xyy","y","xy","yz",0,0,0,4,3,0,"x"],"abcbdccbbaab":[3,0,0,0,10,"z",56,"xz",3,"xxy","y","zzz","yyy",0,"xz","xy",3,70,84,0,"yyx",0,"y","yzy","zx",1,0,"yzx"],"baaaacadca":[0,0,0,5,"xyz",5,0,0,"y",0,0,1,"zx",43,0,66,0,77,67,3,"x",0,"zx","yz","yxz",0,0,"x"]}

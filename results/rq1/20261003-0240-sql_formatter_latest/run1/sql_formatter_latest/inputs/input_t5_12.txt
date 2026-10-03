@@ -1,0 +1,22 @@
+With
+ RECURSIVE beccbd_1( "BB B""""B", /* c */  de1d) /* c */   As ( ( with """"
+AS( WITH bb_cb1_	AS((with Recursive	c__( "."""".B "".", ee__1dae1_ ,".aaa  a..B" ,	c , d ,	d , " .BBB""",  dec__dc11a ,dbedebee) As ( (
+select ALL *, *,+ case not +
+ dc._1c_a1_e1_ At time  zone
+e1de1c % b'11100' not LIKE False <> False NOTNULL and E'\\\101'	AND +	U&'''''' OR not _de WHEN not + ' x ' THEN False End /	 U&'x'
+^ false !~~ TRUE	* -	X'a'  - - X'0' NOT
+ ILIKE all ( SELECT Distinct *	FOR key
+share) is true AND not FALSE::real Or False::varchar ".  a")	union All Select DISTINCT *) select *) UNION all select ALL	_ebda11b1b.* FOR Update),c_aa_ AS /* c */ 
+(  SELECT *	FOR KEY Share) ,eeac1e_
+as(	Select)	
+,dcdb As (select
+distinct b1d.* FOR KEY Share),	aeaed as(	Select All), abdcda as( select
+Distinct *	, * FOR share)," "".a""""a"  AS(Select Distinct *),cada AS (Select DISTINCT *,*, /* c */  acebb_c1a.*),e as( select  *),  _cbb  as(Select *, _ad_cb_.*), ac -- c
+ As ( select DISTINCT * For update) , da as (Select All)	, "BaB"".B" as (SELECT UNION ALL ( Select	DISTINCT aa.*)),d As(Select),ea1abe	 AS( select DISTINCT *)
+,
+".""a  ""  ""." As(
+SELECT ALL), d_ as (
+select Fetch NEXT row Only) SELECT All union Select distinct * ,"  ".* ,	*),a as(SELECT),e AS(SELECT),b As(Select),_ as(select),e AS(Select),c as(SELECT),e As(select),a as(SELECT),b As(SELECT),_ AS(Select),b AS(Select),b As(SELECT),e AS(select),e As(SELECT),d as(Select),d as(SELECT)	(  WITH recursive "B."(aabedd_, cee_c , _d_1dd1bca
+,b_d1ce,"B Ba" , "a ") as ( Select from _d11a_b."""aB  ."
+join ( LATERAL " ."""" ""B""".length( *) WITH ordinality CROSS Join round ( )  As
+c1bb) Using ( _cb1aa1b) union Select) Select) UNION  ALL Select ALL) Union all select DISTINCT a1a.*,caad.*) select * FOR SHARE;

@@ -1,0 +1,3 @@
+$.*..[?!search(@,"y[xz]*xx+")&&!match(@.a,".y{1,3}[^zxx-z]{1,3}z|x{2,4}z+")]
+@@@
+[{"a":"y"},"xx","x",{"a":"zxxyzzz","b":"y"},{"a":"zz"},{"a":"yyxzzxyxzzz"},{"a":"x"},"y","yy","y",{"a":"z"},{"a":"x"},"zy","yz",{"a":"x","b":"yzxyxxzzyz"},"zy",{"a":"yy"},{"a":"xx"},{"a":"yx"},"yyzy","xyyzzzyyyxy","x",{"a":"yzyzxyzz","b":"xzyxzx"},"zz","z","yxzxxzxyxz"]

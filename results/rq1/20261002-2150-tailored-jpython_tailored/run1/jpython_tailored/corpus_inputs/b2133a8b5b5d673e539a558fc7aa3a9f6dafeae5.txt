@@ -1,0 +1,3 @@
+$[*].b
+@@@
+{"acdcacda":["z","yzy","zx",93],"ddadbaaabcd":{"a":"zx"},"adabbcdddb":["zy",0,"yzx","y"],"cbabdadcdbd":"x","aaccadbcac":[30],"ddbccdbdadb":[33],"bbabbdadcabb":{"a":90,"b":["zzy",0,60],"c":44}}

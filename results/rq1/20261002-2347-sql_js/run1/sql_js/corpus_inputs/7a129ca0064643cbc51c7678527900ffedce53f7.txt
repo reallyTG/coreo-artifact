@@ -1,0 +1,19 @@
+With Recursive
+" B. ""a"(dbebdc1,""".  ",  _ ,"B""B""   ") AS (select DISTINCT	*, not Not Case + Null / ( row  () AT Time ZONE ac_c.ecb_dc_ *	dccaeddb1a::Timestamp	 With	 time	Zone
+AT Time /* c */  ZONE Grouping(  B'00100'::VARCHAR[1 ]::double	precision At time Zone  ( + d1_c_bb1aba.".B"::Numeric ( 6, /* c */  8 )::d1 Not ilike /* c */  + array[ ]  % c__.e_ab_cdea1.bdd11a_[ + + False::Boolean[] at time zone CAST(TIME U&'xxy'
+^ /* c */ 
+-  ddcbdab::NUMERIC(95027)::character	varying[6529704] ^ b_."B.""" - + "B."".BBB".c_::Timestamp[8] ^ -- c
+ GROUPING( NOT e1c11d["..aB  "" ".dce.a[  .64754e9::e__eb.ba1[ ] ^ CASE When not
+ GROUPING(+ X'FF' OR aec NOTNULL) At	time ZONE _1_c_b	^ TRUE  & "a".a Not	 in(+  - True Notnull) <= NULL Is Not NULL Or array[ ]
+> Null then FALSE END At TIME zone _daa.ccec1_.d  + + -- c
+ TRUE ~~ FALSE ^	B'011' ilike Any (a_ae11be) <> Null OR false	>= null]	^ 79. LIKE Null >= ANY( ROW() AND -- c
+ 7241847.) Is	null
+and + TRUE  Isnull OR	NOT ca]::DATE[
+] at TIME ZONE Array[] ^
+'xyz\\zz ' /	- true - ccdec  Not Ilike True = All ( -- c
+  not ROW ( ))) - TRUE &
++ ROW() NOT LIKE all(dae1111d isnull) >= All (NOT ARRAY[]::character Varying) is NOT true	or x'00a'::date As integer[ ])::Integer::DATE ^ FALSE::Varchar % - ea1 + - Array[ ]  Not Between - 'y''' and null Or .9E2765 is true] - ARRAY[ ]::TEXT  !~* false or not row_number () <= TRUE Notnull,E'\t\x41' ilike FALSE) ^ - - + B'100' *  ROW	()  || e1eb >
+All (c Is FALSE) Isnull or ecdb1.e /* c */  Isnull) is Not True and NOT Array[ ] notnull)::SMALLINT[]
+at  time Zone dab_de <> ALL( +  - X'707' ISNULL) Is Not FALSE AND	True isnull or ab._.a When 42.::Text notnull Then NULL end  at Time zone "a""aB  "::REAL[ 7] * time  ' yx' + U&'y''\0041xy''x'	!~* "a." =	FALSE is not TRUE  Or - + Row() union SELECT Distinct *) SELECT
+order BY	dddaaddac._e_ac asc ,- TIME U&'\0041y''\0041y' ASC, """a""" NOTNULL
+DESC for Update	;

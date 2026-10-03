@@ -1,0 +1,2 @@
+subject,category,language,blind,a,b,metric,expected,n_regions,n_decided,n_for_a,n_for_b,outcome,explanation,explains_expected,explanation_evidence,best_ratio,best_prop,best_prop_relevance,best_region,shape_checked,n_shared_inputs,n_disagree_dropped,run
+pyjsonpath_tailored,known,Python,False,pyjsonpath_1_3_2,pyjsonpath_2_0_0,runtime_ns,b_faster,21,10,0,10,detected,,,,0.71,count_ire_char_class,0.56,51.45-137.8,hits,412,0,1

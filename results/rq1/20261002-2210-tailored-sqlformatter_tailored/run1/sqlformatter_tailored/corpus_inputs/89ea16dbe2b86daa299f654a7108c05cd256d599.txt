@@ -1,0 +1,1 @@
+SELECT ddb FROM eeaebb_1ead WHERE ce_1bb1 IN (__c1 OR 24 OR de_bdc.ed1_1_,a_aa_1aecc_.d1cbdbbadc_ AND _ ,cdbeaabc_) ;

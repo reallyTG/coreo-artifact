@@ -1,0 +1,31 @@
+with eeabc1cec1 as(SELECT DISTINCT	E' ' NOT BETWEEN interval E'\'\101' * E'\101\101\x41' * E'\\''' %
+E'\'\x41'	^ E'\'\''	% E'\\\t' % interval
+E'\101'	 - Time E'\x41' +
+TIME
+E'y' /  E'\\ \x41'
+~* -- c
+	time E'''\x41' ^ E'\x41 '''	 % INTERVAL	E' \101' - -- c
+ E'\\'	^ TIMESTAMP	E' ' -- c
+
+* E'''x' ^ Time E'\101y ' / DATE E'''\n' ^ E'y' ^ Date E'\t\t' ^ E'\t\'\t' ^ E'\n\'\x41' ^  TIMESTAMP E'\\\'' / E'\x41''' % E'y\\' ^	interval
+E'\\\101'	* E'\101'	^ E'yy' ^ E'x\101\'' ^	E'\'y' % interval E'\x41 ''' -
+date E'y\'\'' ^	Timestamp E'''\t' ^ DATE E' ' % E'\x41\t' ^ Date E'\t \101'  ^ E'\x41\'' % E'\n\\\x41' - E'\''	and Timestamp	E' ' -- c
+ *  INTERVAL E'yx\x41' !~*
+some(E'\x41''' ^ E'y\\''' between E'y\t' ^ E'\'' ^ E'\\x' ^ Timestamp E'\tx' AND
+
+date E'\t\x41' % timestamp E'\'\'y' ^  E'x\'' ^	E'\101y\101' ^ E'\x41\x41' -  Date E'\101y' AT Time Zone	E'\x41\x41\n' ~~
+TIMESTAMP  E'\x41 x'  ^	interval E'\\ \x41'
+- E'\101'
+*	E'\\\ny'
+At Time	 Zone E' '	At Time zone TIMESTAMP E'y\101' at
+time ZONE time E'\\\ty' ^ TIME E'x\x41' ^ E'\t\x41''' ^ E'\'\x41y' != E'\n\n\n'  ^
+TIMESTAMP E'\n\'' ^ E'\t' At time Zone E'y\n\x41' AT Time Zone Timestamp E'\\' - E'\tyy'  not Between  Timestamp E'y\'' *
+E'\'\ny' %	E'\x41' ^ interval	 E'\n\x41\101' ^ timestamp E'\t \n' % Time E'x\x41 ' ^ /* c */  date	E'''x' * INTERVAL E'\101\ny' % DATE E'\\y\''  ^ E'y' * E'\t'	and DATE E'\n\n\x41' || Timestamp E'\\' ^	E'\x41' % E'\'x ' AT Time zone TIMESTAMP E'\101\\''' at TIME zone E'\\x' At TIME
+ zone E'y\101' AT TIME zone E'\t'
+^ time	E'\t' ^ TIME	E'\101' ^ Timestamp E'y' @> All((Select /* c */  Distinct on(E'\\' / /* c */ 
+E'\x41\t' !~~ E'''' + time E'\x41y' not  Between Timestamp E'x\\\t'	% Timestamp E'\101' AND E'x' Is NULL and E'\\'' ' between	E'\t ' ^ E'\n ' AND E'\\' Is not False) ". .aa.".* limit
+E'y\101' Not BETWEEN E'\\\'' - E'\t' AND E'\101' FOR /* c */  UPDATE) UNION ALL select DISTINCT "B""".* -- c
+ Limit INTERVAL E'\'  ' between
+date E'\'' AND E'x' IS	not null For	KEY Share)	  and interval
+E'\\' + E'\101\\' >> timestamp E'y\x41 ' not BETWEEN Date  E' ' and E'\\' and INTERVAL  E'\101' !~ timestamp E'\\\\' BETWEEN time E'''\n' And E'\'') <> timestamp E'y \n' BETWEEN Timestamp	E'x\101' AND E'\x41' "aB""B.aB""a""",*, *,*,	aa.* From lateral length () With ordinality As ".BB.."" " limit E'\\' Not Between E'\' x'  + E' ' AND E'\\' FOR  Share)
+Select DISTINCT e_b1_a.* Limit E' \\''' Between E'x'	  - E'\x41 ' AND E'\101' for SHARE;

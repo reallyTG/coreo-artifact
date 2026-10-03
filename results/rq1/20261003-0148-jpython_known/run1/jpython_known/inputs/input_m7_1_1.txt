@@ -1,0 +1,39 @@
+$[	
+	
+	  "dccabc\"cbc"][ 
+"cabbbbdabc\t\"dd"
+	 	,  "dcdbbdd\"'"
+	 
+]   ["bbcdacabbd\\d\\'" 		
+	] 
+
+
+
+ [	"dccaacbbc\nb"
+ 
+	 ,	
+"cdaddcc'c\"\""   
+
+ 	, "d'\f\""
+
+]	
+		
+[	  		
+ "dabacbddc\"bad"]
+@@@
+{
+
+
+
+"dbb" :
+
+		
+	null,  	
+"cbabcd":true
+	   ,"bc" 	:	false	,
+  "cba\ta":-12e0 ,
+ 	 		
+"cd":""
+ 
+ 	
+	} 

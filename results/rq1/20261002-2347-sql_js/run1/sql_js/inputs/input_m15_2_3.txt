@@ -1,0 +1,27 @@
+With	 b1d__da__c /* c */  as (with RECURSIVE ".Baa "( __ec, ba11_ ) AS  ( select all
+ from  (c_a.round(U&'\0041''xy''''\0041\0041\0041' AT Time ZONE interval U&'''y\0041'''''	at time ZONE U&'''x\0041\0041y\0041''x''yy' -> U&'x''\0041xy' not  BETWEEN Date U&'\0041\0041\0041''\0041\0041x' / U&'''xx\0041' % Time U&'x''\0041''\0041y''\0041''yyy' /* c */  + U&'x''\0041x\0041y''x''y\0041\0041''' ^ U&'\0041''''x''x'
+ ^ U&'yx''''''yx\0041''x''' /	DATE U&'yy\0041xyy''xyy'
+And Timestamp	U&'\0041\0041xx\0041''y'''
+At time ZONE /* c */  U&'yx''xx''' /
+INTERVAL U&'''\0041yxx' %	U&'''\0041''''yx\0041xyxy' ^ timestamp U&'x''''\0041''x'''  ^
+timestamp U&'\0041\0041\0041x\0041\0041x''\0041''x' at  Time ZONE INTERVAL U&'yxy''y\0041''''' - Timestamp U&'x\0041x\0041''\0041xyy''' at TIME Zone U&'''y''\0041\0041x''yy' At
+TIME Zone -- c
+ timestamp U&'\0041x''x''''''x\0041y\0041'  At Time zone U&'y\0041\0041yy' ~~ U&'y''xx\0041\0041''''''x'
+ * U&'x\0041\0041y\0041\0041\0041\0041\0041''y''' - U&'x''xx'''  - DATE U&'x''\0041yx''''' / U&'x\0041xx'
+- U&'xy\0041xyyyxy' > -- c
+ U&'xx\0041x''\0041\0041y''''' ^ interval U&'''y''x\0041xxxx''\0041''\0041' -- c
+
+^ U&'x''y\0041xx' + TIME U&'y''\0041yx''\0041' / U&'\0041xx\0041''\0041y' Not
+ between U&'x''xy''x''' % U&'y''''''''' ^ U&'''''yyx\0041''''yxx'	^ U&'xxyyyyx''' % Timestamp U&'\0041xx\0041' ^  U&'''x\0041xx\0041\0041\0041x''\0041' ^ TIMESTAMP  U&'\0041x\0041''yy\0041\0041\0041yx' ^
+Interval U&'\0041xx''' ^ U&'x''y\0041''\0041y''' ^ Time U&'\0041x\0041xy\0041xxxxy' ^ U&'''yxy\0041xx''''' ^ TIME U&'\0041yyx''\0041yx''\0041y' - U&'''yy''yy''''yyy'	 / interval U&'''y\0041x'
+and Date U&'\0041\0041\0041xyyx\0041' % U&'xyxx' * time U&'y''yy\0041yx\0041x' - time U&'yy''yxy\0041\0041\0041''y' /* c */  / U&'''\0041\0041\0041\0041\0041\0041y''y''''\0041' / date U&'\0041yx\0041xxx' / Interval	
+U&'x''''\0041yxyy' | some(With RECURSIVE	d_ ( c_1ca_cb ,eedca_c,cad1_d	)	as
+((WITH Recursive dac1dac (ca,	dbac_b1,
+adeba,d ,dda1_d1_a,  _bedd11eac
+ ,
+b1eaecc1c) As(SELECT -- c
+ Union select ALL UNION select ALL  FROM a1_dd_ced_) SELECT LIMIT U&'''x\0041''' Between U&'xy\0041y' AND U&'\0041y\0041y' For No KEY update) UNION All select ALL abedbec1_bb.*, db1.*) select Distinct * LIMIT	TIMESTAMP U&'''y\0041''''\0041x' between	Date U&'y\0041x\0041x\0041''\0041y\0041''' AND U&'''y''y' Is	NOT NULL for  Key SHARE) and U&'\0041\0041yx\0041''''x'  !~
+U&'''''''\0041y''y' -- c
+ between	INTERVAL U&'yy''x\0041xyxx''''' AND U&'y\0041y''' >= any ( TIMESTAMP U&'xyxy\0041yy''y''' BETWEEN U&'xx''yyxy'
++ U&'xy''x\0041\0041\0041y''' And U&'''xxx' IS not		 NULL) IS FALSE or Date	U&'\0041y''\0041yxyy' Between U&'\0041''\0041\0041y\0041\0041''' AND U&'\0041yxy' is  NOT	 NULL) WITH ordinality cca Cross join count (*)) UNION Select distinct b1.*) select	distinct  *, *,_acaad.* LIMIT INTERVAL U&'xyyx''' NOT BETWEEN U&'yyx\0041''\0041' and U&'\0041''\0041\0041' is not	 Null) select
+ All UNION ALL SELECT	distinct dab.*,* ,* limit U&'x''x''' between U&'xx''x' And U&'xyyy' FOR share ;

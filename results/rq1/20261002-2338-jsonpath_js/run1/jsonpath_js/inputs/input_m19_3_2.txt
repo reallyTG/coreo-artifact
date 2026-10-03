@@ -1,0 +1,17 @@
+$.d["dacbaaddaba",0,0,-54,"",-5,10009300009,40008502,-89050]..c
+@@@
+	
+	
+[
+
+"yyzzxyzyzxxxyxxzzzyzzzxzyzyzxyzzzxxzxxzzy"
+ 		
+	
+ ,"zxzyzzyzzxzyyzyzzxxzzxzyzzzzzxyzxxzzyxxyyxzxxzyyyyzzyyzyzzyzyyyyzyy","yxyxyxxxzxzzxxyyxzzyyxxyyxyzyzxyzyyxxyxxyyxzxzxxzyxyyyyxyzz"	 	, 			
+ "zxzxxxxxzxzyxxzzxxyzxxyzyxzyyyxxyzxyxzzxyxzyyxzxxxyzyyyyxyzzzzyzx" 
+		
+ ,"zzxxxxyxxyzxyxyxyzzyxzzxzxxyzzyzxyzzyxyzxzzzzyzxyxyyzyxyzzx", "yzxxyyyxxzxyxxyyzzyyyxzyxzzyyyzzyxzzy"		
+  ,"xyzzyxyzzxzzzzzxyxxxyzxxyxyyxxyyyxxxxxzxyx" 
+
+			,"zxyxxxyyzzzxyyxyyzxyxxxyzxyxyzzyyzyxxyzxyyxxxzyyyzyyyxxxzxzzzyyx"
+ 	,"xxxyyzyxxyyxyyxxxzyyzzxyyxzzyyyyxxxyxyyxxyzxzzyzzxzxzzzyxy"]

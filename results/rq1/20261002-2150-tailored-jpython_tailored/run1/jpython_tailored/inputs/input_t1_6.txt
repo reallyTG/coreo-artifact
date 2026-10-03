@@ -1,0 +1,3 @@
+$..cc
+@@@
+{"cacbcdcc":0,"abbddaaaad":{"a":0,"b":[0,0,0,26],"c":"zx"}}

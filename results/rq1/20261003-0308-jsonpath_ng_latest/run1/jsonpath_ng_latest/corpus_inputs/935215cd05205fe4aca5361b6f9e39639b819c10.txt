@@ -1,0 +1,126 @@
+$	 
+ ['bbbbbc\t\ncdd',
+
+ 'bdccdc\f"cc\'\\d"b\/d\'ba'
+	
+ 	
+
+	
+
+,		
+'cacdacddda\'\/d\'c"','bbcbdbcbcb"\'cb\'\bc"\/',
+'cdabac\'c"""c',
+
+ 	'b"da\fa"','cbadbab\'"cda"ba"b'
+	,'bdcda\/"""b'	
+	  ,	'babddaaa\n\'aa"ca\ba'	
+
+,	
+'cbcbbca\'\'\'\'\'a"\n""a\uD7EC' 
+	 	 
+
+ ,
+	
+'bcdbaaabbc\'\'\'ca\'baacc'][	
+
+ 'ccbadbad\\a\baca\'cdc"c\''	
+
+
+
+	] ['abcdbab\'"\'\nbcc\'b"\'b'
+	
+   	 
+,
+
+	
+'acc\/d\f\rbdd\t'	
+	
+,'bdcc""cbb\\""ca\'d\'a', 		 'addcbcac\bcbbd\'\'a','bbcbacdb"\'dca\'c' 	   	,	 'aabbb"cad"b'
+
+  
+,
+
+
+	'dcdaabbd\'\bbaa\r\'b'
+	
+
+][ 'caac"\udab0\udCf0abddc', 
+	'dbcdcd\\a"\'cb\'c', 	
+
+
+	'cddd""\'\'\'\b\'\r\'c\'b\'a',
+
+
+
+
+ 
+'bacdddaaad\'"c\'\'c"b\'\\"c\'','ccdbaadbaa\t\'\'da\n\n\'aba"d'
+
+
+  ,'ddcbcbba\b""\n\'\udB4B\uDDDa\'a\b"\'','badccaad\/cddda','\bcd"\'dab\'cbb"\''  ,	'ccbacc"\nc\/\ndbac\'b"d"'  
+,
+'bdcbbbacda"dcd\'ca\rcdd"','dddacbb\'aba\'"db' 	 
+
+ 
+
+
+] 
+	 
+[
+'bc\'\/"ad\'\b\'\tbccd'				 
+	
+, 'acddd\'"cdd"', 
+'acbdcdb\'\bd"b""\'b\\'		,
+			
+		'd"db""c\'c'
+	
+,'dbccad\tdc\n\'ad"dd\'a"'	,'cbdbbb"db\'a\'""\'ab','ddcab""b\'a"ddcc'
+		 ,'ddbacbddcc\ra\'c\b"\'c\'b','\\"\ncd\'\\"c\''][
+
+
+ 	 
+
+
+'baaaadc"cdb"\'b\n"c\fa'
+ 
+
+
+
+,'bac\fbb""\r"','\t\r\n\\\/d\fb\'\'ac'
+ 		,'cca\rcabab\'\fcdd""','cbccabcbca\'aa"cb"a\t"ab', 
+ 		
+'b\'\'"\/"\n"ca'	 	,'\'\/cca\'c']
+
+ 
+ 
+	
+['\ufCdCd\/cd\\b""d'
+
+
+
+	  ,'bccbdcad\ba"\uD9be\uDffbcdac\t' 	
+]['dbbdcabb\'ad\'"d']	
+
+ 
+[
+
+	 'b"db\'d"ab"\'\faaa']
+@@@
+	
+{"aaddcdccbcdcc":[] 
+	
+
+
+,"c":null	
+ ,"ddacdc" 	
+
+
+ 
+
+ 
+: 
+
+"y", 
+
+ 	 	"bbadbcba\ud9CD\udeE0dd\n":{
+	"dc\b":""}}

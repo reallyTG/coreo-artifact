@@ -1,0 +1,82 @@
+{
+  "__grammar__": {
+    "digest": "6817aca137361199e86a60226bbb8bada1453f02"
+  },
+  "count_col_id": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 793.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<more_el>"
+  },
+  "count_columnref": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 655.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_el>"
+  },
+  "count_elem": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 2401.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<more_el>"
+  },
+  "count_iconst": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 2401.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<more_el>"
+  },
+  "count_more_el_bool": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 1250.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<more_el>"
+  },
+  "sql_bytes": {
+    "constant": false,
+    "last_max": 15404.0,
+    "misses": 2,
+    "pinned": true,
+    "reason": "search",
+    "requested": [
+      15405.0,
+      30808
+    ],
+    "rung": 2
+  }
+}

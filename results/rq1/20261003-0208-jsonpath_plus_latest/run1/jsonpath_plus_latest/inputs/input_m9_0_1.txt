@@ -1,0 +1,105 @@
+$[?(	match(count($[?(   
+!
+
+
+
+
+ match("xz" 			,'x.(|)+(xd{2,4}([^x-za-da-dx-zx-zx-zx-zac]a{2,4}aa+x{0,1}zc+|z{0,}zz?xx[x-zaaa-ddx-z]{2}d{0,2}a+)x|yya*.{1,3}c[xa-d]*(zb|)?[x-zx-zx-zba-da-ddzbb]?d)*y+y*|')
+ 
+
+		||match(		
+   		 @	 
+	 			,"y?c*.*.+[x-za-da-dx-z]*|"  
+) 	 	||!
+
+		match(  
+
+value(	  	
+
+ 	$
+	
+) ,
+	
+			 '.ay+a?ab*b*|d[dx-zdda-dx]yzx?z+zz(|.?cd)y'
+		)||match(-6,	
+ 		 	 "|c{1,2}c[x-za-ddx-zxx-zdx-z](y{1,2}(b?(|)?(|)|z(|b)*bx{0}d*)+|)*x{2,4}bd?zd{1,2}b*" 	 ) 
+ &&  	
+		
+
+match(null
+
+  ,
+"|")&&!match(true,'(|c+dxc?(adxdca?.{3,}z|dc)+z{0,2}c)a?d?(a{9}zx{2,4}cba?bb|.d?xb(c*c(|)ca{2,4}xd{1,2}|)ydz?[^bbx-za-dx-zca-da-dx-zx-z]+)?c|'	
+ 
+ 
+)&&  
+
+  
+	 !match(true,'a+(.{0,1}b{3,}b*x(a?|zxy{0,}d?ay?y[zx-zx-z]b{0}[z])?xb{3}.{8,}a?|)*[^a-dx-zza-dx-za-d]cb[^a-dzxa-ddaa-da-d]*zd|y+bda*')	&& 
+
+	!match(length( 	$['a'].cacad.bc[73][600010000776003][7][0][""]			),"zx?|z(|)*")	 
+ 
+		 &&match(	
+ 
+
+ value(	 		$[?(!match(
+
+ 
+	 count(
+ 
+ @[?(
+
+
+!match(	count($[?(match( 
+
+	
+  
+null ,
+ 
+"z*c.xc+[x-za-dccx-zx-z]{2,4}z{2,4}a+c*|")	 		  ||	
+  	!match(false,
+	
+
+
+
+"y*(|c(byz{2,4}y{0,2}dx?|)*y[^x-zaa-dx-zax-z]x+b*ya?)z*c+byb|[^x-za-dx-z]*z(.b.+(|)*.?b(|)?(|.b{2,4}(|)x{1,2})*|)?aybd+[^aa-d]d(|y{0,1}a?c+.*yy*b+d{0,1}xb)")||!
+match(value( 
+	$[?(match(  
+	
+	false
+	,'yb+c(c((|)+[^x-z]*z+caa|z?[z]+(|yb+)*a{1,2}z(z*c?z(a|)?xda{5}a(d(|)?(|).(|b+c*bxb*)d{0,2}(|z*x+zy*b.zd(|))|ya{0,1}a{2,4}b)y?|)*a.c{2,4})?d{0,2}.{0,1}a[x-za-da-da-dx-z]|c{0}(|y?xx*z){2,4}){0,1}d*a*z*ya|') 	|| 	
+		 match(	
+false 	
+ ,'|a*')
+||!match(value(
+	
+	
+  
+@[?(!match(  value(@[?(match(	 count(
+ 
+ 
+		
+$),"|")
+
+
+	 )][?(match(false,"|"))][?(
+ 
+
+
+! 	
+
+ match($,"za|"))]),	
+	"|")	 	 &&
+ 
+match(@,'|')
+	)]),'|x')  
+
+&&match(
+  	1.21,"|ac?") )][?(match(false,"|"))][?(match(false,"|"))]),'.+d+|') )]),"|")||match(false,'|'))]),'d?a|d')	 ||	
+match(@,'|db.?')		
+	)][?(match(null,'|'))][?(!match(null	  
+ 
+ ,"|"))])		,
+		".?a*c|"))][?(match(true,"|"))][?(match(true,'|'))]),'|')||match(true,'|'))]
+@@@
+[true]

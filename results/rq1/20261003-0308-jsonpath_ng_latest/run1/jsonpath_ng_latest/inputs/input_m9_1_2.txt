@@ -1,0 +1,54 @@
+$[?match( $	,'|.|y|cz?b+czz+ydc.?')&&match($	 		 	["c"]
+	 		
+	,"bc+y?bc?|d.b*z{2}||")&& 	
+ !	
+match(	@ 
+[89]	
+	
+ 	,"|d*xy*[^yx-zx-zx-za-d]bx+cbya+|y"	
+  			)	
+&&match( value(@		
+		 )  
+ 					,"z(z+b{1,2}yy{1,2}x*[a-ddx-zzbyx-za-dx-z]+dy*ay+|x?d{2,4}.dx+||){4,}y+d*||x{0,}a(y(||)[^zx-zx-za-dx-zyx-zzx-z]||)z"				)&&!match(@	
+	
+[-36000000] ,"|a+d*dd{1,3}c{0,1}|"
+)	
+ 	
+
+	  &&	match( 	@ 		  		[46] 	 
+  .b 
+	
+['ac']  		  	
+[0]
+
+
+ 					 ["adcbbacab"]	 	
+
+
+
+[-3]['dbcab'].b 
+
+ 
+,".z?((cc*da*da*y*|d*(a{1,2}d|b+a*|[^a-d]?d{1,3}y+.d?|dcd+d*)c?|){1,3}y||)?z?d*x*|.z*|"  
+)&&!match( 		@[0],
+ 
+ 
+ "|aa*bc{6}x?x{2,4}xd*x?y||d*yx")&&match(		value(
+	
+
+ 		$)		 		
+,"||")&&match(value(@[ 	 	?	 match(	   	'',
+	
+"x*y?z+|y|"
+	 	)&&!match(
+length(@.d)
+ 	
+
+,'[dx-zx-z]x?xz?cx?z+y+b?d*||dd?yady+dd') 	 && 
+ 
+ !match(count(@[  ?		
+match(length( 
+
+null),"y?y?|a?c+(cz{0,1}a+yz?c(|(x+x|[x-zx-zaa-dx-zxa-da-da-da-d]{2,4}.+bc||x+bc*x{0,2}zz(a|a+db(x{1,2}z*a+d*c+z+x+||(||x(z*x{0,1}xcc*xb{8,}||z{2,4}d*c{2}zc?((|x?|cax+(||d+d*y(|(x(c?|||)*a[zzd]*x|||y.c+y+.*)z*c*||.+z*)c(bx?bc+.(||(y+z||bc*z?y*(dxx{3}z[^d]b?x|(|||)*a(||)*(ca+(||)*[^x-za-dca-da-dx-zax-za-d]+b|xc+d+(|(.*x*dy||acy{0,})y{0,1}azda?(|||dx+)+b?d||yz+zxa?c*b*){0}yzycda|)|)yx+zz*|)xz*(|z[^a-da-dx-z]x|da|bc*a{0}y[^a-dx-zx-zx-za-da-dx])|)?db|b[^a-da-dx-z]{1,2}c?z*|))aaa)b*x?d((||y?d*)||)b+|xba?b*||z{1,2}d+b*)yb)d{0,1}b{1,2}x*a{0,1}a+)a*zcd|y)+(d{2,4}d[a]b?z{0}((d{1,2}ycd{0,2}dyx{7,}|db*|)b(|.dbxcac((||ax+[x-zyx-zx-z]c{0,1}x|)*(.*|||(y.z?a|(b+(||b?x[x-za-dyxa-d]b{0,1}yd*za*(c?.y{1,2}|||x(zc?a{0}a{1,2}|z?a|a?|)+bb+a{0,1}[x-zx-zx-z]*a{1,}[x-zca-dyx-za-da-dx-za-da](b[x-zx-zx-zya-dd]b+y{0}z(xa?a*c?axz?ccb{0,2}|(x?.+(yd?b|||)b*yc{0}b+x+aa*|b+db{0,2}.{0,2}||ayz{0,2})d*az?b|)?|x+(||a{1,2}dyz?xx+.)+[a-da-da-dx-zba-dx-zx-zx]+b*z*b*d[a-dx-zx-zx-za-dba-d]|)+)?)?||)*|))||)*|)||)?||)|))+|)||)?|")&&match(null,'||'),?match(null,'||') ][?match(true,"||")][?match(false,'||')]),"||")||match(null,'||'),?match(true,"||")]),"||") ]
+@@@
+[false]

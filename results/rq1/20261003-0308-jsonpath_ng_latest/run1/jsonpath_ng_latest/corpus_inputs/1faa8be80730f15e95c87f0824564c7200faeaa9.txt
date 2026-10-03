@@ -1,0 +1,84 @@
+$	
+
+..cabcdcdbddc..*
+@@@
+
+
+ 
+
+ [	
+
+
+
+	
+null,{"ac"
+ 
+
+	
+  
+:-0.0E-93,
+ 		
+"dcd"
+ 	 :null,
+
+ 
+ 
+
+
+"da\"d\fd\/":{
+} 
+
+
+  
+
+ ,"dbdacdc" 
+ :{	
+	  
+ 
+"bbac"	
+
+ 
+:null,
+
+	 "ccd":
+ 
+  
+null
+
+
+ 	
+
+	 ,"cbbaca"		
+
+ 
+:	
+		
+	 
+false,  
+	 
+		 
+"bc"
+ :
+ 
+
+	
+	 4.000e-0,"dacbdbd\r"	:false}
+
+		
+	,"cdc":"x"} 	
+	,false	
+	 
+
+	
+	
+,
+ 	
+ 
+ 
+
+-70.9000000e+05
+ 
+
+ 
+
+]

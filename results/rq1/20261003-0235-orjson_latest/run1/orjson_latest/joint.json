@@ -1,0 +1,94 @@
+{
+  "count_hex_low_surrogate_fffe|depth": {
+    "band": [
+      24,
+      26
+    ],
+    "best": 7.0,
+    "direction": "maximizing",
+    "extensive": "count_hex_low_surrogate_fffe",
+    "intensive": "depth",
+    "stalls": 0,
+    "window": [
+      5.0,
+      6.0
+    ]
+  },
+  "count_string|count_root_scalar": {
+    "band": [
+      21,
+      23
+    ],
+    "best": 0.0,
+    "direction": "maximizing",
+    "extensive": "count_string",
+    "intensive": "count_root_scalar",
+    "stalls": 0,
+    "window": [
+      28.0,
+      33.6
+    ]
+  },
+  "count_string|depth": {
+    "band": [
+      21,
+      23
+    ],
+    "best": 3.0,
+    "direction": "maximizing",
+    "extensive": "count_string",
+    "intensive": "depth",
+    "retired": true,
+    "stalls": 2,
+    "window": [
+      28.0,
+      33.6
+    ]
+  },
+  "count_unescaped_nonascii|count_root_scalar": {
+    "band": [
+      15,
+      18
+    ],
+    "best": 0.0,
+    "direction": "maximizing",
+    "extensive": "count_unescaped_nonascii",
+    "intensive": "count_root_scalar",
+    "stalls": 0,
+    "window": [
+      103.0,
+      123.6
+    ]
+  },
+  "count_unescaped_nonascii|depth": {
+    "band": [
+      15,
+      18
+    ],
+    "best": 7.0,
+    "direction": "maximizing",
+    "extensive": "count_unescaped_nonascii",
+    "intensive": "depth",
+    "retired": true,
+    "stalls": 2,
+    "window": [
+      103.0,
+      123.6
+    ]
+  },
+  "num_arrays|depth": {
+    "band": [
+      24,
+      26
+    ],
+    "best": 7.0,
+    "direction": "maximizing",
+    "extensive": "num_arrays",
+    "intensive": "depth",
+    "stalls": 0,
+    "window": [
+      6.0,
+      7.199999999999999
+    ]
+  }
+}

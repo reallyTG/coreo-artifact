@@ -1,0 +1,118 @@
+{
+  "__grammar__": {
+    "digest": "1e38726bcf36a8868b5a87e5d6f0a651674c14fa"
+  },
+  "count_a": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 97.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<more_node>"
+  },
+  "count_attr_modifier": {
+    "constant": false,
+    "last_max": 9.0,
+    "misses": 2,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      10.0,
+      18
+    ],
+    "rung": 2
+  },
+  "count_attribute_selector": {
+    "constant": false,
+    "last_max": 29.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      30.0,
+      58
+    ],
+    "rung": 1
+  },
+  "count_class_attr": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 33.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_node>"
+  },
+  "count_complex_selector_list": {
+    "constant": false,
+    "last_max": 44.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      45.0,
+      88
+    ],
+    "rung": 1
+  },
+  "count_span": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 22.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_node>"
+  },
+  "count_tchar": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 2007.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_node>"
+  },
+  "count_text_run": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 86.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_node>"
+  },
+  "count_type_selector": {
+    "constant": false,
+    "last_max": 28.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      29.0,
+      56
+    ],
+    "rung": 0
+  }
+}

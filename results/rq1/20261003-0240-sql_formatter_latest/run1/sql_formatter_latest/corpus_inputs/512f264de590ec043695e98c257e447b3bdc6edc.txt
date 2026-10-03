@@ -1,0 +1,24 @@
+WITH	 RECURSIVE bceeda1ec("a  " ) as(  ( SELECT All From array_agg ( *) WITH Ordinality eecc1ce1(be1beacb -- c
+ ,c, a1d_ebdbad  ,a_,_cbeeb_dce  , d1ebd_
+,_cd,d_acaba) cross Join ( a_.dacdbd AS	bd1ce Left	outer Join (ce_aac cb_cc (  be ,"B B ""a.a" ,bccb1dc1__c , b_be_b  ,bcaea ,da_c___eb_ , decbbabc1, """" ,abec1e_adeb )
+Cross
+
+JOIN
+ ( With	 e1bd_ec as( With b1_dada AS ( with Recursive "BB" (bc,bdb, dced_1edc_, ".""aa " , bcb1d1e_ca ,dd, c) -- c
+	As(( With  c1ddd_d
+AS(WITH Recursive
+ c( bca ,"."". ""." /* c */  ,"a   " ,a_ece__ebd,be1ab_baed1) as(  Select ALL  * ,1037_1625270783_548877445_7723123041_007_0758576975
++
+-  + Grouping (bdea1a_bd.cdbbcdaa1 / edce1."""a.B""B a".a_1dbbce1c At Time
+zone ".""BB ".dcbcdc_e::NUMERIC  ( 140402,7)[][9] !~~ '''''yzxy'::Numeric (1  , 7)[2 ] AT TIME zone _cbadaea11_ AT time zone "B BaaB"""" "." aB a"""._bbd::Integer ^ b'1' ^ true  ^ a ^ """""aB."" """"""".b1db.ad1ca1__d1_[	
+Not NOT - + COALESCE  (not not eadc !~~  + array[]  Not Ilike FALSE NOTNULL AND + Null  < TRUE) AT Time Zone cce1eebebdd  ^ ARRAY[ ]] At time
+ZONE lower() / rank()
+BETWEEN 9 + e And true is false AND 8130_496512 NOTNULL OR
+row() Isnull) * + 'z ''' NOT Like
+ANY(not array[]	^ Array[] AND +
+X'aa' Isnull Or - x'07a'
+isnull) <> true	notnull and  NOT + x'F'::boolean is True From d1b1 ,"""BB""B"".".be UNION	 SELECT DISTINCT /* c */  *,	
+* From round( *), db_a_." B") select distinct "aa .BaB".*	 from avg(  ) WITH Ordinality ,now( *) WITH Ordinality)	SELECT all	* , "a".* from Count () ,
+string_agg  (  * ) WITH Ordinality FOR No KEY UPDATE) Union Select FROM "  a""Ba".abs( *), _bec.count( )) Select All ae1ee_e.*  From d_."a" ,Lateral "B.".Count () With ordinality For	SHARE) Select Distinct *, d.*	from LATERAL rank( )  ,b
+ c For No Key UPDATE)	 select distinct * -- c
+ from da,""".""BB"" "._ccb_a) ebdecede) USING( _acd1b_cb ,	"a"" ."".")),c) UNION SELECT FROM d,c) select All  a1bb1dd1_c.* ,Not E'' From round( *),	_aaa1d_e OFFSET 5 Rows For update;

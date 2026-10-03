@@ -1,0 +1,41 @@
+$
+@@@
+ [   		{"a\n\r\nd\rcd"
+ 	 	 
+
+:false
+	,	  
+
+	 "d":	
+
+
+ 	true, 		"cd\r\nb\t\b\f\bdc":
+	
+		"z","ad"
+
+
+: 		 
+-0,
+	
+	  "acdcaac\ufEBB\b\f\r\baa"
+ :		false  , 	
+	"abcdbdbdbbba":
+ 	
+
+true,"dda"	
+	:	
+
+0
+ 
+, 
+ "b":true	 ,"bdc" 
+	:"yyxx","babbaba\u2ACd\r\rcc\/dbd"
+ 	  : 
+
+	-3.00000400E-04  
+	 
+	}
+
+
+
+]  		

@@ -1,0 +1,3 @@
+* ,:only-of-type:lang( dca-ccadddcacdba-abcd-ddababaabaadc-dbabddbbca) *#aa > *[readonly $= aa-cbcddaabdcbb i]
+@@@
+<!DOCTYPE html><html><body><p title="bd" lang="cadddbbc-abcc-adaabc" data-ccbdcbbbcbcdbd=""><b id="d" title="bbddbdd-b bc-badcaa-dd ad" data-a="">c</b>aa a aac <a href="#d" class="d" title="acdacddaddd"></a><input type="radio" checked disabled id="c" lang="daacbdcdbbdc-babccbdabbb" data-d="cd">bcca  c<a href="#b" id="baadaacc" data-c="">b  aa aaa  b</a> a cac<input type="radio" disabled readonly class="adacbb c d" id="cd" lang="cccbd" data-cb="dbc"></p><div class="ddbbccdacaaca" id="ac" title="" lang="dbdbabdaca"></div><p id="b" title="" data-c="bddbac"> abbbbb</p></body></html>

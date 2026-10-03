@@ -1,0 +1,3 @@
+$[*]..*
+@@@
+{"aaccadddccba":[46,90,"y","x","yx","yzx","z","xz",3,"yy","y",11,0,"x","zzy",1,"yz",0,0,1,0,"zx","y"],"abaabcda":["z","xz",0,1,"z","y",0,"zyy",51,"z","zzz","z","zyz","x"],"abdcbdadcbcc":[40,0,"yx",0,0,"zxy",4,0,1,"y","yy",0,"yxx",70,78,"yzz",90,"yz","yxz","yx",0,"xz","y","z",88,0,0,"yy",9],"ddccabcd":[0,"xz",21,"yxz",8,"y",0,5,"zzz",0,"yyy","zz"],"acdcdaacd":["x",6,"xyz","y",0,0,10,"zyx","yy",0,0,"xy","y",0,0,"yyz","yzz",0,0,0,2,"zxy","yx","x",2,"y","xy"],"dbbbdcbcbdb":["yzz","x","yx","zzx",5,"yzz","zyz","x",0,9,0,"yy"],"badbaacaa":[10,"xxz",19,"yzz","y",0,1,23,"xxx","yxy",0,"x"]}

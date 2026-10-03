@@ -1,0 +1,12 @@
+{
+  "name": "css-select-6-regression-poc",
+  "private": true,
+  "description": "css-select 5.2.2 vs 6.0.0 vs 7.0.0: selector compile cost grows with :not() nesting; 6.0.0 pays CommonJS getter re-exports from css-what",
+  "dependencies": {
+    "css_select_5_2_2": "npm:css-select@5.2.2",
+    "css_select_6_0_0": "npm:css-select@6.0.0",
+    "css_select_7_0_0": "npm:css-select@7.0.0",
+    "parse5": "8.0.1",
+    "parse5-htmlparser2-tree-adapter": "7.1.0"
+  }
+}

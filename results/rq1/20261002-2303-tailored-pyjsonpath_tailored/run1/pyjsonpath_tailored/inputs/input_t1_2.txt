@@ -1,0 +1,3 @@
+$..[?match(@,"[^yy]")]
+@@@
+[{"a":"zzzyxzxxyzz"},{"a":"zzzyz","b":"yyzyzyzzy"},{"a":"z"},{"a":"y"}]

@@ -1,0 +1,3 @@
+* > :has( :optional ~.bd:required +p+ em:is( .c +*~ em[readonly ^= "a-bcbdabaa-a baadbadbcdcca-a acba"][ checked ]> span ,* ).ab:is([type~="cadccbdbbccbb" ][ readonly $=ddbb-bbddabacac],*:nth-last-child( n)#d).d >* *, *.d,* , +#bcbdbdbddccadc>p > div.cdbadaccdc + .dd , + span#b ~a)#ad.c
+@@@
+<!DOCTYPE html><html><body><section class="adaacccbbcaaac" id="aaaddbbbcb" lang="dcbdbdbdda-abcdb-acbccc-ddcbba" data-addcbccbdd=""></section><p id="bcddcdcadd" lang="ddcdaaacb" data-a=""></p></body></html>

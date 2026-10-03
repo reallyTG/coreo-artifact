@@ -1,0 +1,15 @@
+$.*..*["aaa",'',0,'',"ccbc\ncb'ddc'\n\"\"",'d']..*..d
+@@@
+
+
+[false		
+ 	,"xyz",false  , 
+ 
+
+	 
+false 	 ,false
+ ,true,0.27200090
+ 
+ ,	 null]	
+
+

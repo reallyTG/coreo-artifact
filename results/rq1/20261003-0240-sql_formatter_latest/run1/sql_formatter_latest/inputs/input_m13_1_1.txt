@@ -1,0 +1,38 @@
+with recursive  """ aa"(_1abad , ebede1_) AS( ( (WITH RECURSIVE
+a_(  e1, cc1d_d ,acc )
+as (	(select distinct ON(' \' ^
+'xx' BETWEEN 'x'''  *
+Time 'z\y' ^ '\y' /* c */  ^ ' ' -
+'x\y' ^ INTERVAL 'xx' ^ date 'z''' ^ 'y x' ^ DATE 'y' ^ Interval  '\zz'	^
+INTERVAL 'y'' ' /* c */  % TIME  ' x' ^ /* c */  ' xz' + 'zyy' / '\yy'
+^ time 'yz\' / Time /* c */ 	'zzx' + '''yz' ^  'y''' *	DATE '\y' ^ TIME	'x \' ^ 'zx' * Timestamp '  ' And interval
+ '''' / DATE 'yz'  != time '''''z' Between  'z\\'  ^ Timestamp '\zy' / timestamp '\x' % 'z' % Time '''''y'
+/ Time 'xx' / 'z'  % 'y\'	^
+' ' ^	'xyz'
+^ 'yx ' / 'z\' /
+date -- c
+  '\' / '\' ^ '''' * time	'z\' ^ Time '\' + '\z' ^ '''' *  DATE '\x' ^  TIMESTAMP  '\' / date	'zy\' / '''' ^ 'z' ^  '\y\' * Date 'y\x'
+and ' ' At Time ZONE Date	
+'\'	 * '''z' ^ 'xzz' at time ZONE time	'xx'  At Time -- c
+ zone ' ' ^  Timestamp '''yy'	^ ' ' AT time ZONE ' z' At
+
+TIME
+ZONE
+'\' At time Zone  TIMESTAMP '''y' At
+TIME zone 'yy' At TIME Zone '\' !~~ ALL /* c */  (Time '\'
+/
+Time 'x' -	TIME '''' % Interval 'xz'''
+	% time 'y'
+ - interval 'yy' * DATE 'y'' ' ^
+'yy ' At Time Zone Timestamp 'x ' + ''' ' %	date 'y ' %	 Date  '\\' ^ ' ' ^ Interval ' x\' % ' ''' AT time	ZONE '\'''  At TIME ZONE  date '\ z' << ALL('y'''  between Time 'zy\' And 'x' > ' ' between 'x' and 'z' OR 'x x'  ^ 'x'	& ' ' not between TIME	'z' and ' ') Not between interval 'x'
+~ '''' and 'x' =  any( Interval  '\'  + ''' y'
+not  between interval ' ' AND ' '
+is null) AND '\'' '	/ 'y \' Between  'x y' AND 'y') IS  FALSE AND -- c
+ 'x\\' || any (INTERVAL 'z z' !~* 'x' / ' ' NOT	 Between INTERVAL ''' ' And ''''
+IS  NOT true) BETWEEN INTERVAL 'y' -
+ '''' AND '''' Or interval 'zx'
+not between Time 'z' >>  interval 'y ' and '\') * ,* ,cc1c_baebc.* Limit '''' Between '\' And ' ' For update) union Select union  ALL SELECT All) select ALL
+	limit
+time ' ' BETWEEN '''z' @> ' ''''' and 'z' Is true) UNION All Select distinct * , _ded11_c11e.* LIMIT interval ' zx' Not Between Timestamp 'zy' AND '''') union ALL Select
+All	"""aa.""  .".*) select limit 'yz'	+ 'xyy' between 'zz' / 'y\x' and 'z' for key SHARE -- c
+  ;

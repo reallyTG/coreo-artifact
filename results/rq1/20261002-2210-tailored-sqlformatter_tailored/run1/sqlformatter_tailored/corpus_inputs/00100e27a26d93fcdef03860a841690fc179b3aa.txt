@@ -1,0 +1,1 @@
+SELECT __dbdeb.e FROM d_1_ WHERE de IN ( 892,a_1_ba1 OR 9343390080 , 657065,78897 , bbb,dc_d__b AND b1abdc1.de_d_da_bd OR 835244889,ac1, 030807 OR 7055 , 2798 , adccd1.caaa1d ,267790 ,d1dec.de_cda_eab,07149160 , __.e_db,_1a_c1ceb.da_e ,1894,1 AND 100723 AND 359046896 , cedce_1ee_, 7);

@@ -1,0 +1,20 @@
+WITH Recursive "a .." (a_d	,c1bec_e1b
+, ddbee_bacd ,
+c1ceeee1c ,be , " a""B."".   " ,add_addec_d, """BB","""""aa" , _1de1bdc	) as(SELECT DISTINCT	On (
+false < + + Date E'\101\x41' ^ "a.BB"".BB"."a."" ."" ".bcaa11bdcae at
+Time	ZONE b'00' At TIME	ZONE x'000FF0'::Timestamp[]::be1_b1.c11badbd1c_::timestamp::INTEGER::Int[  ] * + row ( X'70FFFa' * /* c */  +  926730684_696225181::TIMESTAMP[][ 1 ]
+At Time Zone U&'x'	< Any (SELECT
+ DISTINCT On(ea1dbc_d1_c.cad ^ X'a070' at TIME zone  ec1." .B.""a.B""" / NULLIF(- False & ANY(B'1' % Array[ ] <> true Is Null AND X'F'
+^ '\') Like some( 'x' % True) AND + array[]::Real,TRUE)	^
+array[ ] ^ __b Like Any ( X'0' ^ false) OR - aa)  e.* Group BY NOT - X'aa'::integer , not FALSE::numeric
+ ,NOT array[  ] , + B'' Is False,x'0' Isnull,  Cube(Not Row()) , - b'1'::INTERVAL, Null NOTNULL , Rollup (- x'070')	, + U&'\0041\0041''y', NULL, Rollup( - X'070' Notnull))) / ARRAY[] - + false >> ARRAY[ ] in(Not 2 % 9) is True and -- c
+ cbd and "a"
+NOTNULL or """..""Ba ") * Group BY Cube (_b1d)
+, "BB.."""	,FALSE,	cube (b1db__aa),+
+x'0' isnull ,	NOT FALSE,  ce::REAL[] ,TIME	 E'\101\x41\\' ,+ ARRAY[ ]	NOTNULL, not + ARRAY[ ],+ b''::c,"a.. """ Union  select Distinct bcaa.* Group	By edc,  X'0F77F707' ISNULL,_ba_ ,NOT  false::Text ,  8260_21794078,Row (), NOT aa,+  ARRAY[ ],
+not X'77a7a7',x'a0007FFa' ,X''  Isnull,
+array[
+]::date) select
+ Group BY not NOT	 """ " NOTNULL ,	NOT c1a,- NULL is
+True,+ True is FALSE , x'aaa77F' NOTNULL , "aa" Isnull ,- Array[ ] Notnull , - Null	isnull,  -
+"B""" , Not True , + .779252 ,- false  Is FALSE;

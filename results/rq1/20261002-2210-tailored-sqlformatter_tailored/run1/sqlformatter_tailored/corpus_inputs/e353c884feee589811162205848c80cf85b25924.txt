@@ -1,0 +1,1 @@
+SELECT 7 ,17700808 ,ddbbec.d FROM ddbc1_e_d1 ;

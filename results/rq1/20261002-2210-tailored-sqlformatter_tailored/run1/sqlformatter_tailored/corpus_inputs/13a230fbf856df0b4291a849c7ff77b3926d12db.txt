@@ -1,0 +1,1 @@
+SELECT ceb1ea_dbb FROM d_d_bbbbe_e WHERE ed.bac_beecccc IN(626854,932,ebcb.a) ;

@@ -1,0 +1,157 @@
+$.*.aa
+@@@
+
+
+	[
+	   
+
+false
+
+,	  			null, 
+ {
+  
+ 	  
+"dc":
+  
+
+false,"c"		 	
+ 	:true			
+	
+,"cd"	 	:
+ null  
+,  		
+ 		"add": 
+
+null ,	"dbcdcadcdbbdd"
+	
+
+ 
+ 
+  :null, 	
+
+
+"bcd":
+[],
+ 
+	"a\b":
+
+false	 }, 
+ 		
+
+[	
+	"xx"
+,null		, null		
+
+
+,false,[]	
+	
+	  ]  		
+ 	
+,  
+2050
+	 
+ 		 ,[	
+  false,false,
+ 			null	
+		
+]	,	
+
+ 0.00655,true 
+  
+,
+	null	,[ 
+  null,
+
+ 	true
+
+
+
+	,
+			[	
+	 	  ["zx"					
+,[ 
+	 	  	 	null , 
+
+	
+	 false			 
+,null
+	 
+
+	,"yxxyyz\n",0.00		
+ ,true,true
+	  ,
+
+
+null,-90.11209e-47
+
+
+
+	
+ ]  
+
+,null,		 false,false,true	
+, 	 
+
+[]
+,	
+
+  
+-0.030	 
+
+		 ,
+ false 	]
+, 
+	 	 	false 
+,		
+ false]		  	
+	,0.3600007000e+33	  ,false,[
+	{		
+
+
+  "a"	
+
+  
+	  :
+ 
+
+ 	"" 
+ ,"baaabcc\b"   :"\nz\ud5dB\"\n"
+   
+
+,
+
+"cdd":null
+	
+
+ 
+
+	
+,"d":	
+	true,"dcddcca\t"	  	:true
+
+
+	},
+ "zyy" 	
+
+ ,	
+
+
+
+ null	  
+ 
+
+ ,false, 	 
+	 
+[
+],true,		
+		
+{}
+	
+
+,
+""  		
+	  ,	
+
+		 	0],null,true]	
+ 	,true ]		  
+

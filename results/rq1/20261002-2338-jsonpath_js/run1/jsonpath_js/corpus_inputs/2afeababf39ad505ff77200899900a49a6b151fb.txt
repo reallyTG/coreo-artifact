@@ -1,0 +1,68 @@
+$[?(
+'xzyyzxy\'"\r"\'zz\r"xx\'xzzxz"y\'\tyz\n\'xyz\uDacc\uDFcCx"\'\n\'yyy"yy"x\'\'xxzx\'x\'"' 	>= 	
+
+ 
+'xxy\ud9bD\udDee\'"x\nz\uCFbd"zxy\\"\'zzyx\'"\f\t\'yyzyx\\\''&&
+			
+
+ 'zyyyy\/z""z\'\/\'\f\'"y\b"yxzy\uD93e\uDEDd"\uDbDa\uDfEf\'\'\'\\z"\tz\'x\fx\'\'\\"z"y\\z\b'>=
+
+
+'yyxxyyyyy"\nyzz\'\'zz\bxz\udaba\udfAEz\/z\'zxyzxx\tz'&&'\'xx\'\'zz\'\'zy"yzx\b\/"yx\t\b'==
+	'xxyyzyyxy\'y"\'x"yy"\uDbEE\udCe0zyyx\'y"z""\'z"\'y\'"yzzx"x"zx\''	
+		&&  		'zz""xx\by\'\'\f\'x\ufdaFxz""zy"x"zzx\'zz"x"\'\''>=  	
+  
+'xx\'xy\fxxzxzyxy\b\ny"z\uDAfB\uDfFE\'\'\'\'yz\'\n\r\\zx"x\/xy\'\'z'	
+			 )][?('z\uDade\udfebx\'zzzy\'\'y"zy\bzx\'\t\n"yz\'xz\'z\'\uD1FE\ryz\txy\'\b"\'x'		 <=	
+ 'zxzxyyzz\'z\uD4Cfx\\yx\'\n\'\tzzxz\''	
+&&
+'yxyxyzxzy"x\'xz"x\fy\r"\'\'\/z\'\t\'\'"z'	 
+
+
+
+	 <=
+
+ 
+'xyyzxy"xyyx\/\nxz\'\'\byzy"x""xy"'
+ 
+	 
+&&'xz\'x"y""\fx\ud4AEyxz"y""\\y"x\by\bxz\\\'""zzzx\'"x'>'yyyz\f\'yy\ud8bF\udEEE"y\'"""\f\\x\/zyy"x"\'x\/zy""\'zy\'xxx\'y"\/\'\'xzxxy'	
+
+  	&&
+			
+
+ 'zxxz\nxxy\t\udBFf\uDE0bx\'xx\ubFAExx\f\'\\""\'\'\uDaeB\udDDByy"y"x\n"y\t"yxy"xxx"zyzz\bxyx\r\\xy\\'!=	  
+
+'zyxxyxyy\udbdF\udFdey\fzzy\'"""z\n\'\'x"\'zz""\n"\\y\'y"\'z\'"x\/\nyy\'"yz\uDAEb\uddAex"\nyx'&&'yyzxzzyyxy\n\'y"z"\'x""x\'\fxy"zx""y\'"z\'x\ty"y'>='xx\'"z"\ny\'z\\\f\'zxx"z"\'"\'\\\'"x\nzx\'"\'z\'\'xyxy\b\'""'
+
+&&	 
+ 
+'z\'y"yxx"x\'z""\/xxz\t\f"y\\yyxxy"x""""\'""xyyx"\f\b""y\''<= 
+
+
+  'yyx"xyz"\'x"zz\'\'z"\ryz"\b\/z\ny\r\'z\fz"x\t\uD3Ac"\uDadd\udECe\ubFfCxxx"x\uD5dcz"'	
+ 				&&'zzyyxyx""x"\'"\\xxyxz\n\'z\'zz""yzz""zy\ry"y\\"\'yxzyxzy\'""yx\'\f' 
+ 
+	 	>'zxzyyyx"y""xz"zy\'"y\'xz\ty\'\'\ud7cA"yyzxxxz"x\''
+
+
+ 		  &&'yx\'z\'y\nxy"\'x\'\\\'"z\r\'x\\x"z"'>    		
+ 'x\'\nx\'\'xzz\'x\'x\fx\/\fxx\nx\'y\rzzxy\'"\fzzz\'\'x"x\'"')][?('yxzyz\r"x\'\/zzyxx\\"\'y\b"x"yx""\\x""""x\'\t\txx\\"yzz'<'zyzxyz\t\uD9ec\uddAF"\t"\bx\'"y\'\'y""\'"\n\n"z\'\r\f\f\'yx\\"'	 
+
+
+ 
+&&
+ 
+'\'yyxzx\'z"\f\f"y\ubdcbxx'  >'yxx\t\'\'"y\\x"\fxy"zx\/zxy"z"""y"z\\\/yyzyzx"z"\'\'\\'&&   'zzyxxxyxy\'z\ud6cCy\'z\by\udBaB\udfAd\b"x\\y"\fz\'\udafd\uDdAeyy\udBdA\uDcdDy\fxy\'"\'\'\/"""\\yz\'"y"\\yy\t\rx\'zy'>'xz\'""yxx"y"z\ud1bc"\r\'\'\f""\b\/"zz\uBEfe\r"y"zz'	  
+
+
+ &&'xxzyyzx\b\'yxyz\rz\'""y\\\\\/\'"\\""\''	
+ <	 'zyxzxz"\r\'yxz\b"zy\'xz\tx\\x\f\'y\'xzy\'y\'y' 
+
+&&'yyzzz"y\'y\'yxxy""\b\\yxx\/\'y\'y\\yxyzy\\xx\'"z\'xx\'""yx\fy\'\tx'
+
+
+ 	=='yyyyzy\b\'"\uDbeD\udcA0zy""\'y\b\'\t""\'zxy"x\'\'x"yx"\'\n\'x\'\'\'yxx"xz\'\'z\''&&'yzyxx\'xyx\\"\'y"\'\fxzxzx"\'yz"'<
+'zyyxxzz"xyyx\fyy\n\tx\f\'zyx\t\bz"\'xx"z"\'\tzy\r\'x\'y"yzzz"\/yxx"' &&	 		'yyyyzyxz\f\'\'\uaEFC"zy"y"yy\\xz\'"z\\""yxy\'x\\xxyx"xx"\ryz\nx\bz\rxz""\/y\'"'<'zxzzzzz"xzyyzy"zzzy\'zy"\'xzz"\/\uA0db\b\'"zyyz\'y"yx'	 )]
+@@@
+[null]

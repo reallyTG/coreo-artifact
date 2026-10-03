@@ -1,0 +1,92 @@
+$..b 	  
+.a[0:	
+ 	 90
+ 
+:  0	,
+
+
+  
+
+
+-50	 	
+	
+:
+
+	-30: 		 30040591005,	 "daacddcbaaac" 		  
+,-2050032,
+		    80  			   ,	
+ 30,*,	
+'ccdbbcbcbab',*]..[7 ]
+..*[
+-497200908495830		].ddc  		
+
+	 ..acd..*.*..bacdbbbdda		 		 	.ab
+ 
+	 
+.ad.*  ..cadcc..*..*
+
+ 	
+..cc.c..adbbcbc 	
+ 
+	 	..daddb ..[* 	
+ 
+ , ?(		
+ 	 
+
+ (		
+	
+	
+@&&!(	
+		(
+value(
+@..bc..a[60,		33
+
+	
+
+	::
+
+
+
+ 	
+	0,*
+			
+,
+ 
+	
+
+
+"",?  		
+length(
+
+	
+'xzxzyzy'
+		 	)  
+==	  
+	 value(		
+ 
+
+@[ -9000,0,?		 
+	 match(count(@..cc  
+..*)	,false)
+
+		 &&
+	 	count(
+	@
+		 	
+)==count(@.bc..*)&&@
+	
+   [6]	  
+	 ==value(
+ 	 
+	 @ 
+	 	..d[*
+,?
+  	
+!search(	
+   	'' 		 ,"d+ca{2,4}b{1,2}xx?|d()yyz*x*[a-dx-zx-z]|(()?dbd+yb{2,4}bd*|c{0}d[^x-za-dcxa-dcx-zx-z]x*(|||x|||y|x{2,4}d(|||)yc+|.+z?()|)zz+dz+|||)?ydy(|c*z+|||||a{1,2}xb.b{1,3}x||a.a+x|dcz|)?[a-dx-zz]+x*ba?|c{0,1}c*xdd?x{0,1}b{2,4}c?||(||y{0}d?b|b{2,4}c+.d{0,2}xz||||y+(c?)y?z?(|.{2,4}.x{2,4}ca+x+|c{1,2}cx{1,2}|xaa{2,4}.dd.|.x{9,}b{0,2}z((.)?[^x-z]+.{2,4}c?y[yyx-za-dx-za-da-d]?y+|y+b[a-dx-za-dca-dya-dx-z]+c{1,2}(c{1}dz{2,4}b+|.?[^yx-zzx-zx-zaxa-d](a*x(|xa.by*d+||za{2,}d*a(|||ac{1,2}a?x*()yd|yzz+xa*b+b|c(xcc?|||c*x((b?b+)+)+d|)?.+a{1,3}.*a*dd?xx|dcb||cbc*yc[^a-dx-zyx-za-d]?(||||c?yay.(|y*b*xd+|||x*a{3,}z?czb*zb*||)?|x[^bya-dyyxcx-zz](a+(c*y+xdyd||z{1,3}z+(|dzd*|x.{0,}b+c.{1,2}a((ddbxzc*)y{0,}z(y?bz?([^a-dx-za-da-da-da-da-d])y*a{0,2}ba+c||cy|z{1,3}b?z?z+|d?dz|a+||.)z{0,1}y*x?y{0,2}|(||d*y*y*dy{1,3}a+z+xb.?|()x+()?d{0,1}cxzy*z?d+|ca?z+y{1,3}()[a-d]dy+a{5,}|aczy{5,}cx[x-za-dbzda-d]+)*)*)+))?))))))))+")]..*.*.*..*..*..*..*.*.*.*.*..*.*.*..*..*..*.*..*.*..*..*.*..*)||@
+].*)||@].*.*..*.*.*.*.*.*..*.*.*..*..*.*.*..*..*..*..*..*..*.*..*)>=null&&$ )||$)||@ )&&$
+)||@]..*.*
+@@@
+[
+
+null]

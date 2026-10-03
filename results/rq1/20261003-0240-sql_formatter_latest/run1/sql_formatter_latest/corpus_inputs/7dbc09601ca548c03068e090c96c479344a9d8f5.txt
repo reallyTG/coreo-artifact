@@ -1,0 +1,27 @@
+WITH """B "  AS (With aed11e1b As (SELECT distinct a_ac "aa"""),".a" As
+( select distinct  _ed_b.* FOR Share) , adad_d as  (  Select All FOR update),b_eeaed1 AS(	SELECT all FOR Key Share), "a.Ba""""" As
+(SELECT *)	,_1 AS( Select all Fetch NEXT rows Only For Share) , b_e As( select all offset 39020 rows) ,""""""""	As ( /* c */  Select Distinct *
+for update) , cc_eb_b AS(select
+distinct * For SHARE),_ec
+as( SELECT *  ,adcc.*),b11_1e AS(	SELECT ALL * For UPDATE),a1cca_
+as (select DISTINCT * for key Share)  ,"B""B"
+as (  SELECT), "B""B"" a.B" As (select	
+ALL * FOR update) ,_d as	( Select All Fetch	First Rows ONLY),
+ _1c	As(Select ALL),
+ca11ee1_ed as(SELECT *, cd_da1b.*), d1e_1db As(  Select *), acac as ( select	All "B".* FOR SHARE) ,a1a_dbd1d as(
+SELECT	ALL), e1ccd_e As ( select Distinct _a.*)
+,cbea_1d As(select cad.* for UPDATE), de1ca1e_
+AS(Select All For Key
+Share),_c As (Select fetch First row only for update) , bbdb__1c	as(SELECT all * FOR SHARE) select -- c
+	DISTINCT *), -- c
+ bedbcd AS(select	All)  ,
+_	 as ( select	  Distinct *,eaadacaac.*), ccbd as ( Select Distinct *
+FOR SHARE) ,dedba__ec As (Select ALL * For SHARE) , cbc111_ As(Select distinct *), -- c
+ cb_c1d1c	 as(	Select *)	,	eacb  As( SELECT All FOR UPDATE), ab_d_11dea AS (SELECT	ec.* for KEY share),ce1_dde
+AS(	select All For Share),	"aa" AS (Select all
+for  SHARE),  e1dc as(select all /* c */  ed.* For SHARE) , " "".""B." as( Select) , be AS( select All	 db.*, *	FOR SHARE) , bca AS
+( Select  for SHARE),aec As(SELECT All	*  , * ,* for Update),ae As ( SELECT	DISTINCT
+aedb.*), ced1ce_ec AS(SELECT All * FOR SHARE) ,"""" AS(select
+Distinct * ,  * for Key	SHARE) , ce	AS (	select Distinct  *) , _a AS ( SELECT *,* ,deac_e.*), d_a As(Select  ALL * For SHARE), aaaeaa_c
+as( Select All),
+cccdb1	 as ( Select Distinct * ,bae.*) ,acda1 as ( SELECT All *) SELECT DISTINCT """".*, * ;

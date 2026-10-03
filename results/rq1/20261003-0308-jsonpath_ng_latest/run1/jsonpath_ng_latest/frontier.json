@@ -1,0 +1,147 @@
+{
+  "__grammar__": {
+    "digest": "afbcf12f7986076264a53cfdcb2db69ced4fe68f"
+  },
+  "count_D": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 318.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<s_segment>"
+  },
+  "count_descendant_segment": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 94.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<s_segment>"
+  },
+  "count_doc_escape": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 2428.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_doc_name_mixed": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 50.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_int": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 103.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<s_segment>"
+  },
+  "count_more_value": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 78.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_nonempty_array": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 16.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_s_segment": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 185.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<s_segment>"
+  },
+  "count_value": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 131.0,
+    "misses": 1,
+    "pinned": true,
+    "reason": "search",
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "count_ws": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 367.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_member>"
+  },
+  "query_len": {
+    "constant": false,
+    "last_max": 10647.0,
+    "misses": 2,
+    "pinned": true,
+    "reason": "search",
+    "requested": [
+      10648.0,
+      21294
+    ],
+    "rung": 2
+  }
+}

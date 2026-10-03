@@ -1,0 +1,151 @@
+{
+  "__grammar__": {
+    "digest": "1e38726bcf36a8868b5a87e5d6f0a651674c14fa"
+  },
+  "count_attr_ident": {
+    "constant": false,
+    "last_max": 20.0,
+    "misses": 2,
+    "pinned": true,
+    "reason": "search",
+    "requested": [
+      21.0,
+      40
+    ],
+    "rung": 2
+  },
+  "count_attr_modifier": {
+    "constant": false,
+    "last_max": 15.0,
+    "misses": 2,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      16.0,
+      30
+    ],
+    "rung": 2
+  },
+  "count_combinator": {
+    "constant": false,
+    "last_max": 64.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      65.0,
+      128
+    ],
+    "rung": 0
+  },
+  "count_complex_selector_in_has": {
+    "constant": false,
+    "last_max": 125.0,
+    "misses": 2,
+    "pinned": true,
+    "reason": "search",
+    "requested": [
+      126.0,
+      250
+    ],
+    "rung": 2
+  },
+  "count_id_attr": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 55.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "rung": 1,
+    "site": "<more_node>"
+  },
+  "count_lang_range": {
+    "constant": false,
+    "last_max": 4.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      5.0,
+      8
+    ],
+    "rung": 0
+  },
+  "count_lparen": {
+    "constant": false,
+    "last_max": 17.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      18.0,
+      34
+    ],
+    "rung": 0
+  },
+  "count_pseudo_class_selector_in_has": {
+    "constant": false,
+    "last_max": 16.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      17.0,
+      32
+    ],
+    "rung": 0
+  },
+  "count_subclass_selectors_in_has": {
+    "constant": false,
+    "last_max": 195.0,
+    "misses": 1,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      196.0,
+      390
+    ],
+    "rung": 1
+  },
+  "count_tchar": {
+    "band": [
+      24,
+      28
+    ],
+    "constant": false,
+    "last_max": 2007.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "rung": 0,
+    "site": "<more_node>"
+  },
+  "count_type_selector": {
+    "constant": false,
+    "last_max": 91.0,
+    "misses": 2,
+    "pinned": true,
+    "reason": "search",
+    "requested": [
+      92.0,
+      182
+    ],
+    "rung": 2
+  },
+  "doc_bytes": {
+    "constant": false,
+    "last_max": 3835.0,
+    "misses": 0,
+    "pinned": false,
+    "reason": null,
+    "requested": [
+      3836.0,
+      7670
+    ],
+    "rung": 0
+  }
+}

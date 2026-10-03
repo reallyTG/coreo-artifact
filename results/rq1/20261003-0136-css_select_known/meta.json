@@ -1,0 +1,13 @@
+{
+  "experiment": "rq1",
+  "command": "experiment.py rq1 --runs 1 --first-run 1 --uniform-budget --timeout 60 --tag css_select_known --subjects css_select_known",
+  "base_seed": 20260921,
+  "runs": 1,
+  "first_run": 1,
+  "uniform_budget": true,
+  "quick": false,
+  "subjects": [
+    "css_select_known"
+  ],
+  "started": "2026-10-03T01:36:01"
+}

@@ -1,0 +1,107 @@
+{
+  "count_tchar|count_combinator": {
+    "band": [
+      10,
+      12
+    ],
+    "best": 2.0,
+    "direction": "maximizing",
+    "extensive": "count_tchar",
+    "intensive": "count_combinator",
+    "stalls": 0,
+    "window": [
+      345.0,
+      414.0
+    ]
+  },
+  "count_tchar|count_complex_selector_in_has": {
+    "band": [
+      14,
+      16
+    ],
+    "best": 0.0,
+    "direction": "maximizing",
+    "extensive": "count_tchar",
+    "intensive": "count_complex_selector_in_has",
+    "stalls": 0,
+    "window": [
+      278.0,
+      333.59999999999997
+    ]
+  },
+  "count_tchar|count_lparen": {
+    "band": [
+      10,
+      12
+    ],
+    "best": 0.0,
+    "direction": "maximizing",
+    "extensive": "count_tchar",
+    "intensive": "count_lparen",
+    "stalls": 0,
+    "window": [
+      345.0,
+      414.0
+    ]
+  },
+  "count_tchar|count_subclass_selectors": {
+    "band": [
+      14,
+      16
+    ],
+    "best": 23.0,
+    "direction": "maximizing",
+    "extensive": "count_tchar",
+    "intensive": "count_subclass_selectors",
+    "stalls": 0,
+    "window": [
+      278.0,
+      333.59999999999997
+    ]
+  },
+  "count_tchar|count_wq_name": {
+    "band": [
+      14,
+      16
+    ],
+    "best": 5.0,
+    "direction": "maximizing",
+    "extensive": "count_tchar",
+    "intensive": "count_wq_name",
+    "stalls": 0,
+    "window": [
+      278.0,
+      333.59999999999997
+    ]
+  },
+  "count_text_run|count_combinator": {
+    "band": [
+      12,
+      14
+    ],
+    "best": 4.0,
+    "direction": "maximizing",
+    "extensive": "count_text_run",
+    "intensive": "count_combinator",
+    "stalls": 0,
+    "window": [
+      56.0,
+      67.2
+    ]
+  },
+  "count_text_run|count_lparen": {
+    "band": [
+      12,
+      14
+    ],
+    "best": 3.0,
+    "direction": "maximizing",
+    "extensive": "count_text_run",
+    "intensive": "count_lparen",
+    "stalls": 0,
+    "window": [
+      56.0,
+      67.2
+    ]
+  }
+}

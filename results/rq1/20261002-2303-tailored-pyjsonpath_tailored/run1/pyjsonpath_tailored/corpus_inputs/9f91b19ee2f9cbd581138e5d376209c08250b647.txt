@@ -1,0 +1,3 @@
+$.*[?!match(@,'x|[x]{2,4}')]
+@@@
+["yxxzxzx",{"a":"zyxyyy","b":"z"},"zx","y","zzxxyzzxzy",{"a":"zzxxxzzxxxx","b":"yz"},{"a":"y"},{"a":"z","b":"xy"},{"a":"xx"},{"a":"xzxzzxyzz","b":"zyyzyzyxz"},{"a":"y","b":"y"},"zy",{"a":"yx","b":"y"},{"a":"zz"},{"a":"x","b":"zzxyxx"},{"a":"xy"},{"a":"zyzzyxzx","b":"x"},{"a":"y"},{"a":"z"},{"a":"yyyxxzzzz"},{"a":"zxyxy"},"yy",{"a":"xx","b":"x"},{"a":"z"},{"a":"zz","b":"y"},"x",{"a":"x"}]

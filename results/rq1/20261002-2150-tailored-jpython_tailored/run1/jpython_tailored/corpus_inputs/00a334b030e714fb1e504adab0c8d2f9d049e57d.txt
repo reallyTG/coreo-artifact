@@ -1,0 +1,3 @@
+$..bb.*.ca
+@@@
+{"bccbababc":{"a":"zyy"},"cabdbaacacdc":{"a":0,"b":["yz",20,4],"c":"yzx"},"cadcdadcbcbb":0,"dddcacdacbb":[0,"xy",0,"zxz","zx",6,"xzz"],"bcabdbbabd":{"a":"zxz"},"acbdabba":"x","aacaabadda":[3,34],"cabcaaada":"zz"}

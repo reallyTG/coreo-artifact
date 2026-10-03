@@ -1,0 +1,27 @@
+WITH
+ RECURSIVE ed
+ (bd1caa_e,e	,ba1_,bd,	 "aB",acb_a_d1ab,"""""", aa,_dd , " """ )
+ as( select	all __da_.* From LATERAL rank	(acacb."BB BB""..BB"[not false ^ "B.B."" " - dc1ac_c_ea_.c1._a1_ca_a_ec At TIME zone Nullif (Grouping	( +
+- ( +	ea1_a::timestamp[	]::timestamp[][  ]
+ / ( - TRUE  at time ZONE (Select Case
+when Not """ ""a""BaBB ".a_bc.b111bee_e1c * row  ( ) ^ dabdad_ba_a._eb1dd1e.cece::bdb._c at TIME zone Cast(not """"".""".c AT time Zone d_d
+At TIME ZONE	 U&'\0041\0041yyxyy\0041' AT Time zone array (WITH recursive ebac ("""  a""B.. """ ,	
+a_bd_1de,ed1_b, dcbcbdd ,b1b1a_c_caa)	AS(
+Select	ALL
+* WHERE c / + - -	 X'aF00' /  B''::Varchar	- row () ~~	any ( Select "B""a".*) Not LIKE Any( true >= FALSE Isnull) >	- Array[ ] And TRUE >= True or """" LIKE TRUE Union all (select For Key  share)) SELECT all c1.*) ^ ROW ()::Smallint::int / TIMESTAMP E'y' + + + TRUE # all ( /* c */  select
+distinct *) not IN (Select  Distinct "BBa""""a ".* FOR SHARE)	And NOT null Is not NULL as
+real[])
++  X'77F'::Timestamp ~*  ANY (array[] -
+ARRAY[ ])
+Like false <= ALL /* c */  (_b * ac isnull) is FALSE THEN false END AT TIME ZONE count (* )		 % eae_::real < TRUE IS NOT True AS "   B" ,*, *) ^ true ^ Array[] * Row() - "   " ~ all(deece1ca.b) >=	False is not		 Null and  - -	+ B'001') NOT IN(select All Offset 8234 Rows) < FALSE  Is NOT true
+And True / 802,Row ()) / -- c
+ /* c */ 	".B B." Between B'01101' AND True	<= -- c
+ null	Is	not	 FALSE And not 
+ d11d OR not _bb)
+* """." - row () ->> -
+  ROW( ) +
+-
+E'y'	NOT IN (e::SMALLINT[ ])  >= True notnull and NOT + Array[]::BIGINT Isnull Or  not not  ccdd,false) In ( """aaaB " < FALSE)
+= Null is not true and +	' ' Ilike False or not avg()] NOT BETWEEN true
+% - '''' AND null AND U&'' % d)	WITH ORDINALITY
+union Select distinct *, *) select distinct * , a_.*;

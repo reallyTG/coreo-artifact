@@ -1,0 +1,33 @@
+With Recursive d11cc_cddbb  (_, a111ae,bcad1 ) -- c
+ AS(((WITH "Ba" -- c
+ As ( WITH e__aecbec_ As -- c
+ (  ( Select ALL FROM ("aBB." CROSS JOIN d__deae1._ab__be1 a_be cross	join lateral
+ ( ( with  recursive d_c(ccce1e11) As	( select	All Where -
+	+ - -- c
+ -- c
+ cba1cc.cbda__d::b_a AT time zone X'a7'::BIGINT[1] % /* c */ 
+'yx''' &
+ Any(WITH RECURSIVE
+ "...""a""""""a"""( bbb1c  ," ",  dababa
+ , "aBB  .B" ,_b_c1 ,"a""",aecccde1_d , b__1d_a) AS((with  recursive "aB"" .."	( "B a.a""""", cb1eca1_1ba
+, dcd, "aBa "" .",dadee1 )
+ AS
+(( (With recursive _ee	(a_dccd1_a_e )  As(( WITH Recursive "a  ..aB"(d, e1_ebeedc  ," ""a""."	,__bcaeae,
+a11cd1d_ ,bbabe1_aed) as((WITH
+ "a""""" As(WITH RECURSIVE ec (e1b_eab, "  B.  .""B""" ," B B.a."""" " , de1a1a1bdc,  ece1ebd1ce ) as((with cea AS ( with " ""..""" as( ( With
+ ecea_e_b1	AS((with  daae as( ( (  with
+ Recursive
+""" . ""B"( aa , " ""B..BB", b1daebe11d, cedbc_  , "aB" , _ebcca , "aB""B""a""BaB" /* c */  ,"BBa B.B""." ) as( ( WITH ac1e1dbddac as (with ".a." As(	 with _bc As((SELECT
+not _1dd_abb_.a """BB"".." FOR update) union	 ALL SELECT
+all * For SHARE)	select	for Key Share) SELECT distinct * , """".*) select Distinct * , *) UNION  all select all) select distinct * ,*	,*,bacdb1bd.*) Union SELECT FOR UPDATE) union Select
+*  ,*) Select	Distinct *	,adad1.*) Union Select all *	FOR Share) /* c */  SELECT Distinct * FOR NO KEY UPDATE) UNION
+ ALL SELECT for Update) Select *  , e1dd.*) SELECT distinct *
+ FOR UPDATE)  union select	DISTINCT *) Select distinct	dec1ad.*) SELECT Distinct c11ddc.*) UNION Select
+All) SELECT Distinct /* c */   daa.* ,*)  union
+All select Distinct dcd.*) SELECT All) UNION All (select all) Fetch First ROWS Only For KEY Share) Union all Select distinct *) Select all _b_.*) UNION select DISTINCT baacbcb_.*) Select all)  NOT ilike TRUE >=
+"B".a
+Isnull Having Row(
+) isnull Union Select  DISTINCT eed.*) Select	DISTINCT * for
+UPDATE) UNION All SELECT distinct _e__c.*) AS b1d)) union select FOR Share)  SELECT  *
+for share) SELECT Distinct bae_.*) Union
+select Distinct becd.*) UNION ALL  select _bca.*) select distinct * ,cbc_11.*;

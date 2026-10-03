@@ -1,0 +1,24 @@
+with "B.B"".""B.""." AS(Select Group BY Rollup (FALSE / - cc1e1eddb."B B."".a" LIKE +	False::Numeric (7)[ ][
+][][][ 2]::Integer[]	at -- c
+ Time	Zone '''y' + c_aceaa_."B".aed1_aae ^ + + - COALESCE(+ b'' -
+array_agg( /* c */  bd_.cdccc % - +	 b_d_e_ee1d.ab1dc.". ..a" at  Time zone _bded %
+
++ case	case TIMESTAMP E'\101 \x41x\x41\\y\x41'''	* aa_1.cde1bdb1abe::varchar[ ][4 ]::timestamp WITH time  ZONE at TIME  ZONE NULL  / - - e_e.e < All( Not array[]) NOTNULL OR _edee111_.a::BIGINT  is false WHEN d1::INTERVAL::date Then FALSE END at time Zone "   ".cb.a	- d__dad1aaca ILIKE Any ( Select
+ALL) > X'0F7' WHEN + x'aa' And - .60 THEN false end::bd_1acd.__11 ^ array[] + -- c
+	"B""""a"""" a" && false::int[ ]::smallint ^ DATE 'x\yz' not In	
+(+ 618E15) <>
+all  ( Not U&''::real Is True) Is  Null  OR E' ''x\n\\''\n ')::Interval[] % + e  like all(	b'' * + false is True) >= ANY(SELECT distinct * , *)) % x'' AT TIME ZONE NULL >  some( ARRAY[] <= Null
+And bcddb1e1._))
+FOR Key	SHARE) ,"""BB""" as( Select ALL *),".a"".aaBa."	AS (select OFFSET 7 Row), ea AS(SELECT DISTINCT eeaedcc.*), __e_abe
+
+as(SELECT  Distinct *), _eacc_e
+As(Select all fetch Next 6	Rows ONLY), ae__a As /* c */  (	select All *) , cb1cbd as( SELECT ALL Offset  3 Rows FOR Share)
+,ed1	As(
+Select) ,
+  _adccbced AS( Select ca.* For Key share), e_dd1bd As(SELECT Distinct *) , _dbec As( Select * , cde1.*) ,	"."".a" AS ( select ALL) ,"B""a" as ( Select DISTINCT	*
+Offset	7 ROW For Share),db_bc__a	as(SELECT * for Share)
+, cadabaa
+As ( SELECT) ,cac11cad1e1	As(select DISTINCT * for Key SHARE) ,  cdebda As(
+Select FOR Key SHARE),_1_1cde1d AS( Select DISTINCT *), " aa." as (select  DISTINCT *, " ....".*) ,"a.B" As( Select DISTINCT *) ,	 acd_  AS (SELECT ALL
+* For UPDATE) ,ed1_ceaeb	AS( SELECT distinct * for Key SHARE) , dce AS -- c
+ ( select ALL *),c_c_c11_a as (select ALL  *)	 select Distinct _abc.* For update;

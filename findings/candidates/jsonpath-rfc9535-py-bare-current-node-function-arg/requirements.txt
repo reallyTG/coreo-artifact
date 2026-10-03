@@ -1,0 +1,2 @@
+jsonpath-rfc9535==1.0.0
+python-jsonpath==2.2.1

@@ -1,0 +1,17 @@
+with	 d_ed_ As (With
+
+ "B.""""a"	AS	(With Recursive
+_c( cbeb_, ccc_bb_e,  "."  , "B ""B a  """, a1e, cc , "B. "" a .Ba", c1_ , "a.B aaBaB" ) AS ( (
+With RECURSIVE	_bc_1d1(".."". " ,e , cb_1bdca_ec ,dcdb_c,a1b__cdcae	, cbecaccdc	) As /* c */  (Select Distinct on (INTERVAL U&'\0041yxyyxx\0041yxyyxxyyxxxxxx\0041\0041x\0041''''\0041xxy''' AT time /* c */  Zone	Time U&'xxxx\0041''\0041x''x\0041\0041''y\0041''\0041yx\0041y''\0041yyyx''''xy''yyxxyyx\0041\0041y' - U&'\0041y''\0041x''x\0041''''yyy''y\0041''xxxy''' -- c
+
+At /* c */  -- c
+  Time Zone INTERVAL
+U&'\0041y\0041\0041yy\0041''\0041''x''yxxxx' / TIMESTAMP
+U&'xy\0041''xx''x''''''yxy\0041''xxxy\0041yx''yy\0041y''y\0041\0041\0041x\0041''\0041y\0041\0041''' NOT
+ between Time U&'''xxyx''\0041\0041xxyx\0041x\0041y''''yxy''yyx''y'''	^ /* c */  date U&'''\0041''xx''''y''''\0041''x\0041x''''x\0041''''xx''y\0041x''\0041''y''x' + U&'''y\0041''\0041\0041''\0041\0041yy\0041y''x''\0041'  + Timestamp  U&'y''y''xy\0041y''''y\0041''y\0041\0041xx\0041''\0041yyxxx''\0041xyy''\0041yyyxy\0041y\0041x\0041x'''	^ U&'\0041\0041''\0041\0041\0041x''\0041yx\0041\0041xy\0041x''x' ^ Interval
+  U&'xy\0041''yyyyy''y\0041''x' ~* U&'''xxyx''y''''y''''''x''\0041yy\0041\0041y''xy''yx\0041\0041''x''y''''y\0041' % Date U&'''yxy''xyx\0041xyyy''''\0041xy\0041\0041y''yyxy\0041\0041yy''''yxx\0041''xyy''' *	U&'\0041''y''xyyxxy''xxy''\0041''y''\0041x\0041yyx\0041yyxy\0041'  ^ U&'xx\0041''\0041y''y\0041y''\0041y''y''\0041x''yxx''xx''''yx\0041''''yx''xy''\0041x''yy''''''yx''' ^ U&'yy\0041''''yx''xyy\0041yyxy''''''yxxx\0041\0041''yy''xy' ^ U&'''\0041''y''xyy\0041''\0041''\0041x''x''''xy\0041\0041yx' / U&'xx\0041\0041yy\0041yx\0041xyx''yx\0041yxx''\0041''y''y' and U&'yxx''yy\0041y\0041y''''x''' <= Some ( DATE	U&'xx''x\0041x''\0041\0041yxxy\0041' BETWEEN U&'\0041\0041y''''\0041''\0041yy''\0041y''''\0041\0041x''yx\0041x\0041\0041xxx\0041\0041yyyx\0041''''''x\0041yyy''\0041xx' and U&'y\0041\0041xy''''x''\0041\0041\0041''x')	and /* c */   timestamp U&'y''''\0041\0041y''''\0041yy''''\0041y' BETWEEN U&'\0041''yy\0041xy\0041\0041''''''''y\0041''''y\0041''x' ^ U&'''x\0041''''\0041yx''yyx''\0041\0041\0041yyx''\0041x\0041x' AND U&'\0041\0041y''y''\0041xxxxy\0041\0041' Or date	U&'x''yyxxxxyxyxyyyy\0041yxxxy''yx\0041\0041\0041\0041yy'
+not Between U&'xx''x\0041x''x''''x\0041yx\0041\0041\0041x''''xx''\0041y\0041''yy''''y' AND U&'x''\0041x''''x''''x\0041y\0041y') c11.* ,"B""B".*
+	UNION ALL Select *) SELECT ALL LIMIT TIME
+U&'\0041\0041yx''x''\0041x''x\0041y\0041\0041''''\0041x' not	 BETWEEN U&'''xx\0041\0041\0041y\0041xy\0041y''\0041\0041\0041x''y\0041yx''x\0041''\0041xyx''y''''\0041''' and U&'y''yx''x\0041x''yx\0041\0041x' Is Null FOR Update) Union all SELECT union SELECT All
+a1cb1_c.*) select limit U&'''yyxyyx\0041y''\0041\0041\0041\0041x\0041x\0041\0041y\0041x''yy' Between
+U&'\0041y\0041xxx\0041x\0041\0041\0041''x\0041x\0041yyx\0041''\0041\0041yy''y''xyy' and U&'yyxx''\0041''''''''\0041yx''') SELECT ALL from _e._e Limit	U&'yx''yy''\0041xy''xy''yy''\0041''yx''''\0041\0041\0041yxyy\0041''''''xxxy' BETWEEN date U&'y''''xxx''\0041yxy''\0041xxyxy''''x' AND U&'xyyy''xy''y\0041xx\0041x' for Update) select	 Distinct /* c */  *	, * ,cee111a.* Limit U&'''''x''x''''x''\0041\0041yyy' Between U&'x\0041\0041y\0041''xyy\0041''y\0041x' AND U&'yx''yyxxx''y''''''\0041' ;

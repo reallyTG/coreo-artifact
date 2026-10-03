@@ -1,0 +1,49 @@
+$		
+[ 	 	
+ ?(	 
+!match(value(
+
+@
+	 
+.da
+	
+
+	 	), 
+
+ true   
+
+) &&
+
+ 
+ !match(
+
+$,
+ 
+true 
+ 
+		)&&
+
+
+	@[-7]
+ 		 	 
+
+[0]!=
+ true 
+
+
+&&@	 			 	..bcdddba&&(length(
+
+ 
+$[0] 	)<= 	
+
+	$
+   [-7].bdbab&&	value( 
+		@..*..*) 		 
+	 	==length(@["c"])  
+		 &&(!
+ 	 	$.*..cbacabbddddd
+ 
+    		||     ($ )&& 	 @ 	
+)||@)||$)&&@,*]
+@@@
+[false]

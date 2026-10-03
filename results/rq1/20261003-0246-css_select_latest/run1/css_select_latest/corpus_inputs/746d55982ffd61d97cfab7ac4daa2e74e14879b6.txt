@@ -1,0 +1,3 @@
+div+*:not( #ddddcab +*.bbb:is( :where(*, #aa * html):disabled , *[ href |= ""][class^="dccdbbccdba" i][disabled],*.cbcdbbc.c:not( *,#d , *[ data-d*="" i], section ~ .c)+ *:empty[href|=""]#ac:only-child[ id ~= "c dabadbbbaccdaa" i ].a:not( .bd:empty , *+ body section ~ body.dddcadd ,section , input ) ,span) ~ * ~section.c+*#da#cc~ .ddcbba>.a:scope[id][disabled*= dccabdbabddbc i]#cb.dd,#d,#c,a> .cb.c.a.d > .ddcadc.b.db +[href|="cd" i ]>[data-da|="" i ][ title ].aa , .daabab *#ddaabada#d):optional
+@@@
+<!DOCTYPE html><html><body><em class="cbddcbad d ab" id="bb" title="bacdaa d" data-c=""></em><span id="aa" lang="abacda-acdbdddbac-bacaabcbcbcab-bbaab-bcccac" data-bb="addcbdda-dcbdbb-acdbabbb"></span></body></html>

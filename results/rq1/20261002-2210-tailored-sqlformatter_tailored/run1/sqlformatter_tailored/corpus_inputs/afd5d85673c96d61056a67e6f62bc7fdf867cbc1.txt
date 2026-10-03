@@ -1,0 +1,1 @@
+SELECT b1c1dad._d11aebaa FROM bc_dabba1b WHERE __c1c IN( _d1 ) ;

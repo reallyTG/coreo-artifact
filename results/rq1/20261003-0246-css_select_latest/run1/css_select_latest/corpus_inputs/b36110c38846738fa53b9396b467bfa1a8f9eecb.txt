@@ -1,0 +1,3 @@
+*#a> #a:not(#da#cd ):only-child ~ a.ac *#cadbabccca.adadabdbcdcac.d:has(+*:scope+#ab~[title = "d-cdaaaba"]:active,span[lang^=a-a ]~ *,> *#ab#ddcdddac *:lang(baabcccccb-daabacaadda-acabbdaddccd )[id ^= "b" i ].c ,> #abcaa#a> input , [class].a[ type$="dbbbdcdddacdca"]:enabled *)#bd#a+html#d:optional[title*= a i ]#cc[ type ][lang ][type^= d i ]:disabled
+@@@
+<!DOCTYPE html><html><body><p class="bd a" id="bd" data-dbbbb="bbdcaaab dbaac"></p><div>cc</div><section lang="adcddcbd">cbbb aac</section><section class="caabdadaab" id="b" title="" data-cbabcdabc="a-dadbdaacbccabc da">c caaccaa</section></body></html>

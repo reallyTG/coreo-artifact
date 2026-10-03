@@ -1,0 +1,3 @@
+$.*..[?!search(@.a,"[^xz]")]
+@@@
+[{"a":"zz","b":"z"},{"a":"zx","b":"y"},"yy","xz",{"a":"yxxzx"},{"a":"y","b":"yx"},{"a":"xzxxzyzx","b":"yz"},"xy",{"a":"zx","b":"z"},{"a":"z","b":"zy"},{"a":"yx","b":"xz"},{"a":"z"},{"a":"zzyxyyyzxx"},{"a":"yy","b":"xx"},{"a":"xzz"},{"a":"z","b":"yx"},{"a":"xz","b":"yy"},"y",{"a":"y","b":"z"},{"a":"yyz","b":"y"},"z",{"a":"yyzzxyyyzzyz"},{"a":"x","b":"zyxx"},{"a":"y"},{"a":"zz","b":"x"},"xyz"]

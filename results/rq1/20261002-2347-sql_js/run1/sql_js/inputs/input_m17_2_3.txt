@@ -1,0 +1,29 @@
+select distinct  X'aFaFaFaF00a7' ^  X'7a7a7a7F70' ^ x'007a0F' ^ x'FFF7F'
+At
+Time Zone X'00F0FFFaaF07' % x'0Fa0a' AT Time Zone X'aa00Fa7a77aa' at TIME Zone  X'0a0FaF0FFaF' ^ X'aFaFF07' ^ x'77FFF0a' ^ x'FF0a00Fa0707a' At
+ time zone	x'F0F0aaa0a77a7' ^
+ x'a7a7' ^
+X'a000a0aF0a' ^ X'770F7F7' ^ X'FFaFF7F7' ^  X'aFa0F707' ^
+x'a07FFFFa7' at TIME zone X'aF77F0a' AT
+Time Zone x'a7a77' + x'00a70aa' ^ x'FFa0aF0' At Time ZONE x'F0F7Fa7FaF70' At time Zone X'a70aF700F07a' At
+time ZONE X'a0FF7F7F' + X'Fa0FF0' / x'F0a7FaF0F077' at Time zone X'07a0FaF'  * x'70aa7070aa0' at time ZONE  X'7FFF0aa0a'	AT Time
+Zone X'7a7007aFa0' at	 TIME ZONE X'aFFF' Between X'0F0FaFFFa7aF7' ^
+X'Fa777a0' / x'700a0Fa'
+ / X'aF0a07' *  X'a7Faaa7F77F0a' * X'7007F7F0FFFF0' ^	x'0a70Fa' / x'Fa70aa7F0F70a'	 ^ X'077aFF07a7F70' ^ X'0FaF0700' * x'F7007F7' - /* c */ 	 x'aaa0' *
+x'70Fa' ^ X'F0aaaFa77a7' ^ x'7F7Faa07a7a' ^  X'0F7007Fa7F'
+^ x'7707F' ^ X'77Fa0a0a77' ^ X'7F07F7' -- c
+ *	x'F70aF' * x'0aF0770Faa'  ^ X'FFaaa7FF70F' /  X'F770' ~~	X'a70FaFaa' -- c
+
+^ X'000F0Fa7'	% X'aF70' /
+x'7a0aaa0' ^ X'F7F000Fa777F0' * x'7a7a0FF0'	% X'FFa7777F' ^ x'a0FF0FFa'	^ x'0F07aa77aF' * X'aFFaFF7'	^	X'Faa0a0F' %	 x'7aa00Fa700aF'	% x'F0FF70F0aa' % x'a07aFF77' * X'00a77a77aFaFF'
+ ^ x'aFF7a70aF' % X'aaF7' ^ x'00F7FaaaFFF7a' -
+x'a0F0aF0aa'	 ^	X'a7aaa0aaFF07' + x'a0007FF0a707' %	X'0a7FaaFa'  ^ x'aF7a0F0F7'
+ ^ x'F0aF07a' ^ X'F0a70FFa0a70' ^ X'aFa7FFaFF0FF' * X'F00aaFFFa7' ^ x'0aa07070F7a0a' ^  X'Fa7F'
+% X'00a070' ^	X'F70a0F7a0770' ^ X'0aF7' / x'F7F77077aF' -- c
+ / x'7FFFa0FaF7aa' ^ X'F707FF'  ^ x'0770aF' ^
+ X'0007aa77a0F07' ^ X'aaa77F' ^ x'aaa7Fa70F' ^ x'FF000FFFF7707' % x'a0F07' ^ x'77a70000'
+^ X'Fa00FFa0a'  and	x'Fa0a' != ALL ( x'0F000a77' % -- c
+ x'aa07' !~* x'070Fa7a' ~* x'7a0aF7a7Fa0'
+not BETWEEN X'07007a0F7' and x'F707') And X'7Fa077aaaF070' BETWEEN x'0a77a7F77a0Fa' AND X'077a'	IS False , d.*  , * -- c
+ Limit X'7a7aFF7FFaa' Between X'a0aa' AND X'770a'  Is
+FALSE FOR key /* c */  share ;

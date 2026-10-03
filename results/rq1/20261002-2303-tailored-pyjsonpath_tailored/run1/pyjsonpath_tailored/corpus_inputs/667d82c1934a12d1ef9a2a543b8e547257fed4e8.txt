@@ -1,0 +1,3 @@
+$[*]..[?match(@,"xx{0,1}|yyz?")]
+@@@
+[{"a":"xzyyzxxyy","b":"x"},{"a":"yzyx","b":"xy"},"zzzyyzzyz",{"a":"xzxzzyy","b":"x"},"y",{"a":"x"},{"a":"xy"},"zxxxzyx",{"a":"yx","b":"x"},{"a":"zx"},{"a":"zzxyyz","b":"zz"},"x",{"a":"y"},"yy","zz",{"a":"z","b":"yx"},{"a":"yz"},{"a":"xz","b":"zyyzzxxxyzy"},"y","yy",{"a":"y"},{"a":"yyx","b":"yz"},{"a":"xz","b":"yx"},"z",{"a":"zx"}]

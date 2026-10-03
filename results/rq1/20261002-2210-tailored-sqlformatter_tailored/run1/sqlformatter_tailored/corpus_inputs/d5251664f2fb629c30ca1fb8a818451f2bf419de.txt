@@ -1,0 +1,1 @@
+SELECT bccbcda_1_c FROM _ WHERE c_d.ae1bcc1d IN( 90177 OR ee_d_e.d_a_1ed11,b1_aeedabe1.dbc1_d , 5237) ;

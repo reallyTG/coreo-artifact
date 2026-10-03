@@ -1,0 +1,33 @@
+(With Recursive "aaBa. """ (" aBa","B""aa """"","..B " )
+AS ( Select	ALL Union all (with Recursive ".a a""""" ( """B"".BB " , "  B",	 " B.aaaa","B B." ,".B"" """"a","."".." ,"a a" ) as
+((WITH " "" " as((  WITH recursive """  "("B.B","B .."," "".""aB",""""". . ." ,
+"""B"""".""a", """a"" ." ,	" B."	,"a """," BB""" , " .""","aaa") as ((	WITH "Ba."""" ." as	(with """B.""""" as(	WITH  RECURSIVE "aBBa""" (".B B" ,"..""a","""""""" ) as
+(
+SELECT from ( WITH recursive """aB"("B"".""a","a.B  a ",	".aa","""B ", " ..B", "a.. " ,"aaaa  "	 , " B." ) as ( -- c
+	SELECT Distinct "BB.".* -- c
+ , NOT not CASE when  NOT + "B.a.a" ^ B'110100110'::int[ 0 ]::Integer[ ][ 9] % + least(+ """  a"::Real[][ ]::Character Varying[ ]	 at Time
+Zone " ""B"::SMALLINT::Varchar	
+(	3 ) at TIME Zone DATE ''::numeric( 5
+)[471 /* c */  ]::BOOLEAN[ ] AT	TIME zone true::Smallint At TIME Zone X'00F077F7'::character	varying[	 -- c
+	] AT	Time
+zone (' \y yy\z ' / True % Date	U&'' at TIME ZONE 2153_409_014238306_581_1_97863291_19263683_70909702 ^ -- c
+ Least(
+not -	" BB" At
+TIME zone "aa""""a"." BBa"."""aB""."[ "B""B""" and + + - null  Isnull OR row ()] ^ array_agg	  ( )
+/ b''::TIMESTAMP + ARRAY[ ]  Not In ("aa.  BB" NOTNULL)
+< NULL Isnull) ^
++ B'0'
+- -- c
+ array[ ] !~~ SOME (SELECT	All	fetch Next Rows ONLY	FOR update) Not
+ like NULL /* c */  And TRUE ^ - E'') -> " BBB" Not LIKE
+ - True And FALSE ILIKE TRUE <> NULL  or  True not Like true) && array_agg
+()::timestamp * x'7'::Int  + + NULL
+Not IN (False::boolean[]::DATE notnull) >	any(timestamp '\\z\y\x''' isnull) And X'7a7' + ARRAY[] then null end::TIMESTAMP WITH time ZONE[
+7115]	^ 520  Not
+ Ilike ANY( select
+distinct *) <> any	(select	ALL) and ROW( ) and	 -
+'y' NOTNULL union all Select all) select	 *, *) " B "
+ union All Select *,* ,"a""a  """"".*) SELECT All) select ALL *, *) SELECT all "B""  ".*) UNION
+All select) Select ALL
+"""aB".*  Offset 3935 ROWS) union Select fetch NEXT ROWS only	FOR update)	select DISTINCT *) /* c */  UNION Select /* c */  distinct *,*) SELECT all Offset -- c
+ 9688 Rows)) select Distinct *, *  for Share) Union All SELECT distinct *, * /* c */  ;

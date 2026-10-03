@@ -1,0 +1,76 @@
+$..*
+	..*..d		 
+..*.bc		
+
+	..c 	 
+		 	[ 	'b']..c	  	 [		'bbc\/ab\fd\r']
+@@@
+{
+
+
+
+"abcd\n\udaDd\uddfCdcdbccb"
+	
+	 :0.20 ,
+"bbdcd":"zx"  ,"aaccccb":400003.5185426004e-0,"ca"  
+		 
+:""	 	 	,	
+			"cd"
+			
+
+	
+	:false,
+
+ 
+	
+
+"bd":
+     {"acd":
+ 	
+null,"cb"		: {"dcbcac" 
+:"zyxyyyz"		
+
+
+			
+,"addcaa":null,	
+ 	
+"bdcbacd":
+ 
+	
+
+ null,	
+
+	"b":{	}
+	
+
+ ,
+			 "bba":0.71000000E+1  ,"cabcbbaac\r\\a\f\\\f\ba"
+ 
+	  
+  :  
+		
+			
+-0E+00},"aa" :"xz"
+	 	
+
+
+
+,"dddbbadcbc":
+
+ [
+	
+],"dbbdad\/\""
+
+  :"","adb":
+
+false,		
+  	"ada":true,"d":-0e+05},"cdaabb\nbc\r\\\r\f\fad"
+			
+
+	:null,	"d"
+: 
+	
+ 	true 
+  
+
+	}

@@ -1,0 +1,3 @@
+div[ href$="a-ac-bcd" i ].a+ a, :is( *:has( *:lang(dc-dcdbcbacdc ):where( *.cbc#c , p + body) +:lang( bad-cacccaca )~ b) )
+@@@
+<!DOCTYPE html><html><body><section id="a" lang="bdcbdcbccbddb" data-acaadaabdddaa=""></section><div class="bccd a b d" id="d" title="bacbdcabdb-dd-bb-ca cadbdca-bcdcbbcaabad" data-bcbaab=""></div></body></html>

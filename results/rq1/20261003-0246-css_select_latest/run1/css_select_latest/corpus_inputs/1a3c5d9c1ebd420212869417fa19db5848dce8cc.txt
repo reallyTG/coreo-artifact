@@ -1,0 +1,3 @@
+body >.d,*~ input:optional.c+:where( #ba[ href ]+*#dc#dd.a)[data-d][ id]>.b:lang(da-ad-dabcdacdadb ).adcbcbb:active:only-of-type.ad
+@@@
+<!DOCTYPE html><html><body><div lang="cbcdcbaabc-cdbbcddbcd-aaaddc"></div></body></html>

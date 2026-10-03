@@ -1,0 +1,1 @@
+SELECT b.a1dbdbcad__ FROM ccd1 WHERE ddeae IN( 290369 OR 531567219 OR _b AND 70505);

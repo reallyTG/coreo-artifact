@@ -1,0 +1,12 @@
+$[*].a.*['bb',0,"a",80,-83,"",1,2]..*
+@@@
+["\tx\f\"yxyx\r\udAD5\udEcAx\nx\/\\\b\b\n\\\"\n\ud1Edzyxxx\b\\z\"y\"\ny\uDAFE\udEDcy\\z\uDaCE\uDca6y\"z\\zxx\ueBBBzxx\f\b\udaec\udccDxxy\b\uDaBF\uDDEfzyzy\"\b\bx\t\b\udADc\uDeeFyyyyxyxzy\r\/zzy\ny\tz\/z\tz\/\\\n\b\uFADb\ud8Db\ude0b\r\/x\t\/z\uDBba\udFB5y\/y\/\f\ty\/z\\z\"xz\"\"\"\f\b\"\rx\b\/\uaBbF\nxxzz\\\"\t\r\rzx\n\\\ud2cA\ryzyxzxy\tyyxy\nz\ud8Ea\udCEBx\bzz\/zx\"\ud9be\uDDae\nz\fxx\r\\\/zxxyzz\"\t\nyx"	
+ 		
+,"\f\tx\t\/x\\\uDBCC\uDFfcy\\y\/\"x\"zyy\bx\\\f\udBCD\uddAcxy\udABd\udCDeyy\\x\"z\"zz\b\/\"x\uD4Eexx\n\n\fy\/z\t\udBFD\udeAbz\\yzz\ty\/zzzz\n\b\\\\\"zyx\byz\ud1aC\txy\ny\/xyyyxzx\r\\\f\bzyy\nx\n\\xxy\/zx\f\fyz\uDBAe\uDdbDyx\tyyz"
+,
+"yxy\b\n\n\/xx\\xz\f\bx\"\byxx\tx\ty\\yy\nxz\uDaAE\uDEb4\\\n\tyz\b\/\bz\uD7DBzx\b\\\f\ryyyz\\\uEbFFyy\t\fy\r\f\n\"zxyxzzx\ud8eF\udcB9xy\f\n\fxx\by\fz\f\ry\nyyx\bx\udaAc\uDFEbxz\r\"\/x\t\t\b\f\\\r\f\nx\u0aFf\b\rzyx\uEBEB\bxx\t\\y\fy\tz\rxy\r\/y\/y\\\bz\/yx\r\\\"\txzyy\f\r\fz\\\bzzxyx"	
+,		
+
+ "yxyyzx\ryz\f\n\"z\"\fxz\t\f\n\rxy\bz\uDbBf\udEAaxy\rxx\b\udbAB\uDDEez\uB0FBzyx\\yxzzxyy\nzz\uDBBf\udFDfz\rx\uD90E\udeEf\/\"z\t\b\txyy\uDBCc\udFDa\ny\uDBFe\udeaexz\uD6dfx\r\nz\rz\f\t\tyzyyz\nx\byy\byx\b\bz\rzz\udBEF\uDEcEy\f\f\ud1dc\t\uD5Bcyyyzxx\n\uD0ba\fx\ryz\/xzx\ud2DAxyzx\nxz\"\"x\u0aCA\"x\\\b\uFFBe\rx\"z\r\"\byz\ud9bE\udcdE\uD1dbxz\ud5BA\"\\y\"\"y\b\nx\rxzy\b\tzzz\r\f\"\uBeD0\nzz\/\"\nx"] 
+
+  

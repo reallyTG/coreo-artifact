@@ -1,0 +1,3 @@
+span,:nth-child(-309n )#a+ *[ title][ type].b> *
+@@@
+<!DOCTYPE html><html><body><div title="cc c dc" data-bd="a">aaca</div><p class="b bcadcbb" lang="bacbcdca-aacbbddcba-aacbbddbc-cbdaadadbbc-bbadabbaabc-daddcdadad-ababca-dd" data-cbcacdaadb="bdaabcbbccaadd d-babcdbcba-a-ac"></p></body></html>

@@ -1,0 +1,33 @@
+select FROM dbc1_d_b.b cross	JOIN Lateral cdce1ce.SUM(	b'11110'::TEXT::bdeddeb_dc.bee1[] % - Cast (Not + 8_3802_822614_496198_2766911334_82_335469583::Integer::Varchar  (6722 ) / array ((With
+ recursive "  . ."" " (
+bddacebec_
+, __deeab
+," ", " B""B a a", ".a .",eeceaca_d1_, e1_1 /* c */  ,	"."".""a""B a",ded) AS
+(Select DISTINCT *, *  ,* ,Coalesce( ee_bac.upper(* ) /* c */  filter (Where _1e_be._caceaab.be1dca_eec % -	Null::numeric
+(929201,1)::numeric(8	 ,6 )[][ ] not
+ In(With """aB..  """ As ( WITH RECURSIVE
+ccaced("aBB.."	, "...B  ",	cdcca_ab,ceac1ac,cadbab1a_1e	,dad ,cd11ccbaa__, cc1 ) AS(( (SELECT ALL From lateral ad1baaac1ce.array_agg(	*)	CROSS -- c
+ JOIN	( ((With Recursive ".. """(""" BB"""" B"	,d11e1a_ac) as(( SELECT Distinct on (NULL::SMALLINT Is  FALSE) * ,_ed.*) UNION All select) select ". ".*,*
+FOR SHARE) union Select -- c
+ *) AS
+".Ba """"""aaa" cross
+JOIN _be1aca_d.b)) Union Select)  UNION All SELECT Distinct *) Select Distinct * for KEY	share) ,"aB "" ."	as(Select	Distinct *),_ AS(select all union (Select Distinct bc1_b.*)),a As(Select)  ,""""""	 /* c */   As(SELECT DISTINCT *) , beccbae as(Select DISTINCT * ,* FOR	Share) ,"a.""a.B""""." as (
+Select * For update) ,_ as ( -- c
+ Select All),"""""Ba"" BBB"
+AS (Select ALL OFFSET 3 ROW),__1ddc_1	As (select "a.".*),"B. a.B." -- c
+ AS(
+Select DISTINCT *) SELECT All
+*, *	for Update) and	  Not FALSE::Interval or NOT DATE	U&'\0041' Isnull)	 AT  time ZONE c ^ False::bigint - true !~ some(ARRAY[] and
+ba IS false) In( not "B".da)
+< False is TRUE AND ROW(  )
+IS NOT TRUE) && some (  array[]
+ilike true Notnull) != some(Select distinct -
+58 For Update)	 and 066 NOTNULL Or - + array[	] As deba1ac UNION Select) SELECT)	Union All
+Select
+All)	At TIME	zone ROW
+()  / X'a7' ~  bcc::timestamp  % +
+NULL  >= SOME
+( d_.ee1_bc)
+ And
+ Not U&'''''yy''y' or - '' isnull as	INT)::date - -- c
+ b_c1b1ac Operator(be_d1eaed./) 1 ^ ARRAY[] is  not null Or _ IS	true) with ordinality;

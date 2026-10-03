@@ -1,0 +1,38 @@
+SELECT ALL ' xz' at Time zone date 'y''\' at Time zone 'x'  ^ timestamp  '\' ^ TIME 'x \' /* c */  % time
+'zzy' * Timestamp  '\\z' / /* c */   Date '  y' * 'z'
+AT  TIME ZONE timestamp '''  ' At Time ZONE 'y' % TIMESTAMP 'x ' - Date ' ''' %	INTERVAL ' ' not	 BETWEEN ' \x' ^ Date ''' '	^ TIMESTAMP '\x'  ^ 'zz' %  Time
+'zz' <@	'x'	^ 'y' /  'x'	^	 'y' ^ time 'x' ^ date '  z'
+^
+date ' z' And 'z''y' * ' '  +
+ Date  'z''y' at
+Time ZONE TIME	'\''x' AT Time zone date 'x''x'
+AT Time -- c
+ ZONE
+'x''z' ^ ' x' at Time Zone '\' At	time Zone 'zyx' ^
+ DATE  'xzy' % 'yy\' at time  ZONE INTERVAL 'x''\' AT -- c
+ Time zone Timestamp 'x\''' = interval 'z '	At TIME
+Zone TIME 'y' at TIME  ZONE Timestamp 'x' ^ DATE 'x' % Timestamp 'x' ^ '''z' ^ '\\ '	- Time 'x' * Date ' y'	&& ALL(	'\''\' ^	timestamp /* c */  ' ' NOT between 'y ''' ^ 'zzy' ^
+ -- c
+ 'yz'  / '\' ^  'z'' ' /* c */  ^ 'y' -	'''\' And '\' At	Time Zone TIME	'\' AT TIME  ZONE TIME '\' at time Zone 'y''' -- c
+ * 'z'' ' at time ZONE
+'''x' at time	zone 'yy' + '''' ^ ' ''y' ^ 'z'  + '  ' / 'z'
+* 'y' *  '\xz'  * ''' ' ^	'x' < Timestamp '''y'''  At Time	zone interval '  ' |	TIMESTAMP
+'z''\' %  Time ''''	between date 'z''''' *
+interval 'y''' * 'y' ^ 'x' * Time  ' yy' % Timestamp  '''y\' ^ 'z' ^ '\ ' / 'x' * ' z' / time 'x' ^ '''\' * '\'	
+* Interval 'y '	^ DATE 'z'''	<<  'z''x' % 'x\' *
+  date
+' \'
+ - time 'z''''' ^  ' x' % Interval 'z' AND  'xz' /* c */ 
++ date '''''\'
+ /  ' x ' ^ ' \y' * '\xz' at Time ZONE TIMESTAMP
+' x' at Time ZONE timestamp ' '''
+% Time 'y'	
+Operator(e1b1dde.-) Time 'yy\' ^ timestamp
+' ' ) /* c */ 
+between '''\z'  *	 '''z' ^ interval 'z\z' / 'xx' / Time  '''' - TIME 'zyz'	/ 'z''' ^ 'y\\' / '\\' / Date  'zy' ^  'xz' ^ Interval '\' AND  TIMESTAMP '\\ ' -- c
+ IS null AND 'zz ' ^
+' ''x' % DATE  'x ' AT time zone '\' / interval	 ''''''''  / '''y' / DATE ' \'	At	TIME zone 'z'''''	^ '\y' ^ DATE	 'yyx'	 % INTERVAL 'x' ^ Time ''''''
+^ ''''''
+ At Time zone  'z y' - 'y '	+ ' ' between ' ''\' ^ 'xx' AND 'y' != 'x' Between 'z' and 'x' is Null AND date 'y' @> '''' /* c */  Between 'z' + TIMESTAMP -- c
+ 'y ' and ' ' Isnull  limit 'y' -	'''z''' not  Between 'x''z' And 'y'	isnull for
+UPDATE;

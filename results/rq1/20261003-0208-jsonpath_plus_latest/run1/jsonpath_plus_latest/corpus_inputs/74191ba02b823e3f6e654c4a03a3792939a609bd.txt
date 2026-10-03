@@ -1,0 +1,32 @@
+$[8,-60,-9,'bbbb',0,30,'',-2202000012,87700000042,-7,'dbabacdddd'][-40].abdc[:30:0]..*
+@@@
+
+ {  
+ 
+	
+	"ddddcc":null 
+ ,"bda": 		false		
+,"abcb\\d\b":	 
+		true,"ab":false,"db"
+	:"yz"	
+	
+ 	
+,"dc"
+  
+:
+ 	 
+ false    ,"b"	:	 null,		
+"ca":	
+ 
+-0e-0,"d":	 
+	true	 , 			
+
+ "a"	
+:
+
+-0.0290
+ 	 	
+
+	 	,"ac"  :		  []	 	
+
+}

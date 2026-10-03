@@ -1,0 +1,3 @@
+$[?!search(@,'x{0,2}yy+')]
+@@@
+[{"a":"z"},{"a":"xz","b":"zzx"},"xx","x","yx",{"a":"x","b":"xz"},{"a":"zzzzxxxz"},"xz",{"a":"z"},"xzzzyyzzz"]

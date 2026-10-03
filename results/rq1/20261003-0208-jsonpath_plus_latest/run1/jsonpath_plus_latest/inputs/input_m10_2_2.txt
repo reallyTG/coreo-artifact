@@ -1,0 +1,17 @@
+$[?(
+!
+ 	match(value(	 				$[?(	    
+ 
+!match( 
+
+
+ 		count($[?(!
+match(length(count($[?(!match(-0.030109051E+770406,"c*d{1,3}(bdb{2,4}[x-za-da-dbzx-za-dx-z]*z+d*|yx(czy.)*y|c?yyy|xyz*[a-dyx-za-da-d][^a-d]*x*).")
+	 	||match(  true
+ 		
+  	,	
+"yz+c?x"	  
+	 )
+||	 match(@["adaba"][-9],'c?b{1,}(a+d.+.)cc?z{0,1}|(a*y*xy+)*y{0,2}aa|(y+yd+x*zd+|([^cx-za-d]?(x.{0,1}(x?d?.c)c+|z*xd{2,4}z?[^a-dx-za-dx-za-da-d]+c{1,3}|c*y+z{1,2}b{0}zx|xy{3}c?a(dbbx+|d{2,4}d+b(x?czb)d{1,}b*|[x-za-dza-d]?xx*x|x?[a-da-d]?c{0}c|c{9,}bay*|(dbxx?)y+c?y(zdd?a+|xcc?y{2,4}yc{0,1}|xad{2,4}b*y+|b?y*b{0,1}(dy?x*b{2,4}az){1,3}))b*|z{1,3}c[^a-da-dx-z]d|(b+a+[ax-za-dzax-zx-zx-zx-zx-z]?(a(d*[^x-za-dz][^xa-d]+z?y[^ad]+){5,}d*d)a{0})b+x+(ad*d{1,2}d{4}d{2,4}|d.y?a*(c?bzz{0,1}|y?byy+(zc*[^a-da-dx-za]{2,4}b*)*|(.?a+d+d.a*|x*zc*x?(y{2,4}ad?b{0,2}|cb.d*)|y(.?[^cc]+a+.a{0,2}|zz*a?.{6}x+|x{1,2}d?zc*|cc{1,3}yy|z{0,1}ccd+.{0,1}y{0,}|ac[a-d]cx*c|x?b?.{2,4}xyy|(a+.bd+|a*.zc?([x-zx-za-d]x*b[x-zx-za-da-dya-dzx-zx-z]d+|(ya+cy?)+(acz{1,3}c*c+(x+((y+z?y{0,2}b+|a+(x?c*cc+(bbbx?za)([a-dx-za-dx-zx-za-da-d]*aab)|z[^a-dx-zbxy]y(axyy|c?(yxa*x*y)b(yyy.?xz))|z*z{1,3}yz|a(ab+cb+a?)*yx{2,4}y|x{0,2}b{9,}z+(yz{0}b(.cd{0,1}c*){0,2}(c?d{8,}b{0,2}x|cc*c+b?z?x?|d{2,4}yy(([aa-d]{0,}a{0}c*c*a+)d[a-da-dax-zbx-zx-zy]a)z{1,3}y|z*(c?(d+x+[a-da-dy]?a?c+)[^a-dx-za-daa-dx-zx-za-db]+ba?c{1,3}){0}(b+y?(bb?c?c{0,1})x+ab*)?((c?xz{0,2}axb)byb?|b?xcy|(b*[x-z]xy+y*|c*ya{1,3}y[^x-zx-zaycx-zca-dx-zx]+|aa{1,3}xy*dc|xd{0,1}cd*|bzxx?z|y{1,2}ay*c?zd|[cx-zx-zdbx-za-d]?[x-zaa-dd]d+z+cc*|c[^a-dx-zdx-zdx-zx-zybx-z]?(a{1,3}aa{1}d+y+a+)y)+dbx{0}c{1,3}(z*ba(.a*.b?(db{2,}a*d*(((.b+y*b.c)a[x-zx-z](y?d*c?d[^a-dx-za-dba-da-dax-z]{1,2})|(dx{1,2}([^a-dx-zx-zyd](cx{2}d*d.x|[^x-z]*a{0,1}((a.dba+)+cc?zd*a?)c){0,2}xx*c|a*d{1,3}y?ca{1,2})+[x-zx-zx-za-da-dx-zd]+)a*b?c+)y*a+bxd)*|d?az{0}dc{0,2})))))|zcyx))zc)ybb|bbzc)?zy|yyzc)*|adda)dd))?ybz)ay)*zdz)))zb|zzzb)*cxy)*xdz')&&match(false,"yzbx"))][?(match(true,'dyzy'))])),"cydb")&&match(true,'dbay')	)]),'ddxb')||match(null,'xybc')	)]),'ddxc')&&match(null,'xcdc') )]
+@@@
+[null]

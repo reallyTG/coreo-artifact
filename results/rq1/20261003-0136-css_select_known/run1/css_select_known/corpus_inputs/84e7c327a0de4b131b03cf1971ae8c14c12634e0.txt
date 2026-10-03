@@ -1,0 +1,3 @@
+:active[ title*="dd"]:is( body#aacc+*#b[href=a i ]:required[lang~=bc-ba-abacdcbbbd-b-b ]> div:first-of-type#aabddabdccdd~[ data-ac]#a, *:read-only#ba[data-aa ~=dab i ][readonly ], div:last-of-type~ section#a[ checked].ccbbdaab +*[ href~= "" i ]#c + #ab+ :optional~section.a , [ href |= "" ][ checked ]+.cdcbccd:lang( abcdadaadacaa-cacabbdadc-abacaabadcba-ccdbcaadacbca ):not(*+ b + :not( span[ class*= "bc-bbcd-bdb"].d#a.c.bbdacccd~[id][ lang]:is([ required] ) , div[ lang ^=a i ]#b ~*#dbcdbbb> .d.d:where( .bdddbc + #b:link:where( *:nth-last-child( 8)[ checked ="" i ]:is(div ) )#db ~.a> * , body , span ):scope:first-child ))#b:only-of-type.cb>*+ *.b, *~ *) +#bc~a
+@@@
+<!DOCTYPE html><html><body><div id="ad" title=""></div></body></html>

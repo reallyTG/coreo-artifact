@@ -1,0 +1,1 @@
+SELECT 042082 FROM be1cc ;

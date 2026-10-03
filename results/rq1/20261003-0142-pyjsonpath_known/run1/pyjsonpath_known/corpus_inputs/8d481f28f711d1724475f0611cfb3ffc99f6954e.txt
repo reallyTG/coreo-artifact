@@ -1,0 +1,40 @@
+$
+@@@
+[	  true
+ ,{"a":10.02040},
+	
+
+   {	
+
+ 
+   	"bbcaacadcd\"ad\uD2Af\b\\" 	 
+   
+	:
+	
+	null	
+,"baa"	
+ 
+:[	
+
+
+ 
+ true,"xyzzyxyz",
+-0E73, 
+	
+	
+ 0E-62			,""]		 			
+		
+}	
+	
+,
+1e+8, 	null 
+
+ ,"xz\"z\uDbfE\uDeEEx\\z",[ 
+	 	false	,  
+ null,"yy",6E-7,  
+	
+"yyzzzyyxyy",
+
+false,true, 	
+	[		 	],false		 		 ,null
+],null   ]

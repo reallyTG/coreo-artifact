@@ -1,0 +1,15 @@
+$..*[:1]..[0]..c.*.daada[-1,0,"d",'aabdcabacb']["d",916800000,"",'\'\tc"']..a
+@@@
+[ 
+"xxy\n\f\udBdd\udDAc\t\/\byy\"xyyx\/\b\fxz\f\n\txz\tz\t\f\t\f\\xyx\uD6dB\b\/y\by\t\\",
+	
+	 
+	"zxzzyzyzz\ry\rx\uDbEA\uDeEBz\rxx\n\uBBEDzyzzzz\/\n\tx\r\\zzz\tz\"zyxyxyx\txxyxy" 	,"xxxx\/z\tx\r\fzyyz\tz\nyx\t\\\f\/x"	
+	     ,"zxyzyxyy\nx\\x\t\ry\fxz\tz\/zy\f\b\bz\t\ryxz\"\bxyx\f\"\n\uDbBa\uDFdExy"   
+
+  ,"xyxzzxy\/\n\/x\bx\ny\/\"\rzxx\f\\y\\\f\\\f\"x\\x\t\f\f\"z\\y"	 ,"zxxxy\"zz\fzxxx\"\f\"yxz\ud4eeyxxx\bz\b\b\tzzz\nz","xxxxzzx\ud1CFx\tyxxzxy\b\u8EFD\txyzyz",
+
+  	
+ "zxxzxzxxyz\"xxyy\\\nz\/zzy\\yxx\r\n\udAbF\uDcFa\nzy\/\t\n\r\/y","yzz\/\b\ryzzy\t\"yz\rz\fx\ty","yx\n\fz\\y\n\"x\t\n\r\n\tzxx\/y\uD8fb\udCDCx\\\n\"\ny\uD0CA\ud0cf\"\nxz\b\fzxx\byx\bz\\\uD6fA\uD3DExxy\ucBfD"	,"yxzzzxxz\t\\\r\"\r\nxx\f\n\"zyz\\\n\/zzxyyyz\bz\fzz\b\ud8bf\uDdA3yzx\ubBBe\uD2AB\t\t\/xz\/y"	 
+
+] 	 		

@@ -1,0 +1,3 @@
+* + p.bc#dbaddcac:not(*~body > :only-of-type ,*[data-ccadadca ][ checked ~= cbdbbcccb]:has(>*:link, em:is( body.d+*~.a )#b ~ .ccbdcad.b > [lang$= d] + #aacbbbcdc >*[checked ]))#d:lang( cdcbbbba-cbc-bcdcb) >html[readonly |="" i ][ readonly = a-cb][ data-db^=bb-cc-dcbb-dcdbcbbccdbacd ].cdddcbda:lang( aaccacdd-db)+*~b >:last-child.aa ,section
+@@@
+<!DOCTYPE html><html><body><div>ba</div><em></em><div title="b" lang="ccadaa-cba-cbbcbbcbdcdc-acabdbdbbdc-abccabacacb">cca  c cbaa</div><b id="dc" title="" lang="bdcbbdbcbab-cbab">  cb  a cb</b><section class="a" id="ab">aba</section></body></html>

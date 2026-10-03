@@ -1,0 +1,15 @@
+{
+  "name": "coreografa-css-select-latest-subject",
+  "private": true,
+  "description": "The last six css-select releases side by side (preregistered in eval/latest_series_2026-09-30.json). parse5 and its tree adapter are pinned to subjects/selectors_js/package.json.",
+  "dependencies": {
+    "css_select_5_1_0": "npm:css-select@5.1.0",
+    "css_select_5_2_0": "npm:css-select@5.2.0",
+    "css_select_5_2_1": "npm:css-select@5.2.1",
+    "css_select_5_2_2": "npm:css-select@5.2.2",
+    "css_select_6_0_0": "npm:css-select@6.0.0",
+    "css_select_7_0_0": "npm:css-select@7.0.0",
+    "parse5": "8.0.1",
+    "parse5-htmlparser2-tree-adapter": "7.1.0"
+  }
+}

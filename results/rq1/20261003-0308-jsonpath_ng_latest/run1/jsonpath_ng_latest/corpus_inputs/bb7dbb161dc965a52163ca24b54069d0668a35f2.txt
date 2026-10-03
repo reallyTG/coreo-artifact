@@ -1,0 +1,53 @@
+$
+  
+	 	 	..[
+		*]
+@@@
+[null	
+
+,null 	
+	
+,true,false,
+null	
+	 , 
+	 [  	  	 
+
+null
+	 	  	,
+  	"xyyz" 
+	
+  ,
+null,
+	
+		 "zy\"",
+
+	
+
+{
+			  	"cdddbacbcd"  
+:true		 
+
+,
+	
+	
+			"cdba\r\/\nc"		 	 	:  
+[	
+ "yzxzzxxxyx",7.00E2, true,		
+
+  {	   		"accdbccaacdb":-0E-71	
+	
+,"cdadac"
+
+	 :[]
+		, 	"cac"
+
+
+:
+	
+{}	 	
+ ,	 	"cc":
+  		{  	"dacca\t\"\/d\/\"\bcb\/a":null},
+ 
+ 
+	"dda": 		 
+    "yx"}]}]]

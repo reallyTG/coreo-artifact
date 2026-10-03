@@ -1,0 +1,14 @@
+{
+  "name": "coreografa-selectors-js-subject",
+  "private": true,
+  "description": "Node dependencies for the CSS selector engine subject.",
+  "dependencies": {
+    "@asamuzakjp/dom-selector": "9.1.4",
+    "css-select": "7.0.0",
+    "jsdom": "30.1.0",
+    "nwsapi": "2.2.27",
+    "nwsapi_prev": "npm:nwsapi@2.2.25",
+    "parse5": "8.0.1",
+    "parse5-htmlparser2-tree-adapter": "7.1.0"
+  }
+}

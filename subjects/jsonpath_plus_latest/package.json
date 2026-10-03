@@ -1,0 +1,13 @@
+{
+  "name": "coreografa-jsonpath-plus-latest-subject",
+  "private": true,
+  "description": "The last six jsonpath-plus releases side by side (preregistered in eval/latest_series_2026-09-30.json).",
+  "dependencies": {
+    "jsonpath_plus_10_2_0": "npm:jsonpath-plus@10.2.0",
+    "jsonpath_plus_10_3_0": "npm:jsonpath-plus@10.3.0",
+    "jsonpath_plus_10_4_0": "npm:jsonpath-plus@10.4.0",
+    "jsonpath_plus_11_0_0": "npm:jsonpath-plus@11.0.0",
+    "jsonpath_plus_11_0_1": "npm:jsonpath-plus@11.0.1",
+    "jsonpath_plus_11_1_0": "npm:jsonpath-plus@11.1.0"
+  }
+}

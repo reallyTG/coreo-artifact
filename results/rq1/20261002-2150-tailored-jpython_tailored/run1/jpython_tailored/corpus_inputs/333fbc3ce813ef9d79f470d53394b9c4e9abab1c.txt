@@ -1,0 +1,3 @@
+$..*..*.ac
+@@@
+{"bbbbdcaa":{"a":"zzz"},"ddcdddddabac":{"a":"z"},"bbbcbbcbdada":{"a":7,"b":["y","y",6,10]}}

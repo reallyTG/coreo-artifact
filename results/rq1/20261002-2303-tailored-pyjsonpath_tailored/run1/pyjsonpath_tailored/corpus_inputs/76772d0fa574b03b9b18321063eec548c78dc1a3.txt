@@ -1,0 +1,3 @@
+$..[?search(@,'[x]?x+y')]
+@@@
+["yy",{"a":"yxz","b":"zx"},"xz","zyzzyyyxzzy",{"a":"x","b":"zzx"},{"a":"yz","b":"yy"},"xyzxxy",{"a":"y"},{"a":"xy","b":"zy"},"xzzzyzxyxzz",{"a":"zz"},"y","yyx","yzzyyyz","xx",{"a":"xx"},{"a":"xyyzx","b":"yzzzxzzyy"},"yxzyy",{"a":"y","b":"y"},"xyx",{"a":"zxz","b":"z"},"y",{"a":"y","b":"yzzzyyyy"},"zz",{"a":"yzzzyzzz"},"y",{"a":"yxy","b":"yx"}]

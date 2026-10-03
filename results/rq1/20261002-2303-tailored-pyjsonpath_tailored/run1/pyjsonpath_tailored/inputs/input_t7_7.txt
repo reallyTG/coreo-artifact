@@ -1,0 +1,3 @@
+$.*[?!search(@.a,"x?x[^x-zx-z]+")]
+@@@
+[{"a":"xzyyyz"},{"a":"yyzyyzzzyyzz"},"zzxzzyzyzxyx",{"a":"zxxyyy","b":"y"},{"a":"z","b":"yxxzyxxzzx"},"xy"]

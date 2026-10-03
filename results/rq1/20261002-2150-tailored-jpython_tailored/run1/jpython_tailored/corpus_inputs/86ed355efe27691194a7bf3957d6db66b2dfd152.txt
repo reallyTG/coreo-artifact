@@ -1,0 +1,3 @@
+$..*.ac
+@@@
+{"baacabddccc":20,"caabccbb":"yx","bacddcbca":{"a":"yx"}}

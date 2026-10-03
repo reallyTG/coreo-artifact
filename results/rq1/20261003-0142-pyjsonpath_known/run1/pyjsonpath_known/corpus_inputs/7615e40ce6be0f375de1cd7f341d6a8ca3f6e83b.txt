@@ -1,0 +1,229 @@
+$
+	 	.b..[ ?		  $	
+
+		
+..d..*		 &&	  
+
+
+search(
+
+
+ 	@[-59032100081506] 	.db 
+		 
+.bacbaacbc
+
+ 	
+.abcac 	 
+	[0]["a"] 	 , 
+""	 )
+
+&&
+		
+	null  	<length(
+
+ 
+
+ 	@
+
+ )&&
+length(  true)>=	$		
+
+				["ca\"'\ba'"]		
+ 
+
+ &&false   >=$	 				 	[-60206046000705]	
+ 
+&&!$
+  
+.*			..[  -4:0 
+:]	 	 &&
+!
+match(
+
+ length( 	
+-0.017069),false)&&				
+!match(
+
+$.d
+
+	
+	 [-804000810],count(    	
+		@..[		 	
+? search(	
+ 	 	null
+ 
+			 
+	,
+
+			null
+		 )
+&&		
+search($	
+
+[0]		 	
+ 
+	[69] ["b"],false)&&!search(count(  	 	@.*..[	
+	
+
+ ?! 	
+(  	
+	   !				($||(
+	
+
+	
+@		  		 
+||
+
+""<=@||   	 
+	!(!@		
+ 
+
+
+  ..[: 	0:-68,
+	 	 
+		
+"cb"
+
+ 		 		 ,0,
+
+  -4 :0:, 
+ 	
+	64:
+	0 
+ 
+	
+,'d'
+,""] 			
+ 
+ 
+|| 
+
+	!match( 	
+
+  	 $,"a{0,1}z?d{0,}da") 	&&	
+ 	
+(match( null,false)||!(!(@
+	
+ 
+
+	&&value(	 
+
+@
+.b.*	
+	.*.bddcdacc	
+		
+ [
+
+ 
+  0,""		
+	,?
+ 
+    	search($,null  			)||length(value(	  
+
+ @
+
+	
+
+		..*[3,'b'					
+	  ,0,0	
+ 	 
+:
+ 	
+ :	 
+	
+  -9, 	  
+	?  
+!
+
+  
+search(
+count(				  
+	$),length(
+
+null))
+
+&&
+ !search(@ 	,value(	
+  
+	
+$
+..acbcaaacddcc..[ 
+ 
+  -80:0
+
+  :
+ 
+
+-70,'ccbbbabcdada','aa'  	,	
+*,	
+ 'acdaa\rd\r\rb\/"b"""'
+	
+,   'baadbbd',* ,	 "",'a\nac\'dccd"']
+	 	  ))&&
+		
+!match( 
+
+ 	
+count( 
+
+$
+
+..dccadddd[	
+	
+
+ 
+ 
+""  ,	*	  	
+	
+][
+	 ?length($	)<=  "yy"&&
+
+(length(
+
+length( 
+ 
+	value(@..d)))>=value( $				.bc..*)||length(
+
+ 
+ $[-820092468072160]
+	
+	['b'][-76150] 	   		
+[-2010804] 
+.a [-6] 
+	[0][-5]
+ 	   
+.abcac
+
+ 	[91]			
+	
+	
+['adaddcac\b\rabbcd'][-29008080500710]
+
+ 
+	 
+
+) 
+		 ==	
+
+length(true)&& @>=
+
+"y"
+  &&			! @)||@
+	]..[*]..cc
+	..a),false)||$ ]..b 
+.*..b..[*]))>=@&&!	
+$ 
+
+&&	
+$	].*)<true))	
+ 			&&$			 
+
+ ))  &&
+
+@
+)&&$)&&	  	!@) ||true>false]  	
+ .*..db	 	..*.ab..[
+*]),null)||@,*]
+))||@,*].*..*
+@@@
+[null]

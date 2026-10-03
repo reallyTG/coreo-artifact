@@ -1,0 +1,3 @@
+$..[?!match(@,'xx*|...')&&search(@.a,'x*|y?')&&search(@.b,'yxy')&&!match(@.b,'y')]
+@@@
+["xyyxzzzyyxzz",{"a":"x","b":"x"},{"a":"zzyxzxxx"},{"a":"z"},{"a":"xyxxy"},{"a":"zx"},"y",{"a":"xz"},{"a":"x","b":"x"},{"a":"x"},{"a":"xyxyxxyz","b":"xy"},{"a":"xy","b":"xx"},{"a":"yyxzxxxyxyyz","b":"z"},"yz","yyxzxzxzzx",{"a":"z","b":"xy"},"zx",{"a":"xzyyzxzzxy"},{"a":"yxyxzyzzyxxz"},{"a":"zzyxxyx"},"yzxyz","yy",{"a":"z"},{"a":"zxyyxxy","b":"zx"},{"a":"yxzxyxzxxxyy","b":"yyzyz"}]

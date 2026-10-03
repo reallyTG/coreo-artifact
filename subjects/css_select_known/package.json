@@ -1,0 +1,11 @@
+{
+  "name": "coreografa-css-select-known-subject",
+  "private": true,
+  "description": "css-select 5.1.0 and 5.2.0 side by side (known-pair subject). parse5 and its tree adapter are pinned to subjects/selectors_js/package.json.",
+  "dependencies": {
+    "css_select_5_1_0": "npm:css-select@5.1.0",
+    "css_select_5_2_0": "npm:css-select@5.2.0",
+    "parse5": "8.0.1",
+    "parse5-htmlparser2-tree-adapter": "7.1.0"
+  }
+}

@@ -1,0 +1,3 @@
+:where([lang = "bad-ca" i ]> section ).ba:has( html.dc~ [ readonly = "ca dd" i ]#adadbdbcb>a,* .bbddaabbdbddcc,html + [type ] ~*)~ *
+@@@
+<!DOCTYPE html><html><body><section id="a"></section></body></html>

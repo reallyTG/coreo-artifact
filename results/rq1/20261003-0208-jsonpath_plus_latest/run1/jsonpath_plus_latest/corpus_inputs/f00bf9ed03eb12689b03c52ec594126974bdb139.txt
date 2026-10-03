@@ -1,0 +1,35 @@
+$[?(		
+!match(@[0],     	"[a-dx-za-dca-d]{1,2}[^yx-za-d]+[dxa-d][a-dax-za-da-da-d][^dcx-zyx-zx-z]*[da-daa-da-da-da-d][^a-da-dca-da-d]|[^zca-dx-za-d][^xcx-z]?[^a-dx-zx-za-dd]*[x-zx-zza-da-dx][^a-dax-zyx-zx-za-d][ax-za-daxya-d][^a-dbba-d]+|[a-dx-zx-zy]+[za-dx-z]?[^a-dx-za-dx-z]?[a-da-da-dc]?[x-za-dx-za-dx-za-da-d]*[yxx-za-d]|[^a-dbyxx-z][a-dx-zx-za-dx-zx-z][^yya][^x-za-da-d][^cca-dzx-z][^da-dx-zx-zx-za-da-d]{0,2}[x-zx-za-dx-zx-zx-z]?[a-dx-za-da-dx-zz]|[^a-da-dx-zba-dx-z][bx-zba-d][^dxa-dyx-zx-za-d][^x-zx-zx-z][x-za-dcx-za-d][^x-zca-da-dx-z]+[^za-da-d]+[^a-da-da-d][^bx-za-dx-zx-zx-za-d][^x-zx-za-da-d]|[ax-zx-z]+[^x-zxd]+[x-zda-dx-za-d]+[^yx-zx-zx-zx-zx-z][x-zx-zdaa-da-da-d]+[^a-dx-zxx-za-dd][^x-za-dby][^x-zax-za-dx-z]?[^x-za-da-d]|[a-dcda-da][a-da-dx-z]*[a-daa-dxx]+|[^x-zazz][^bzx-za-da-da-d]*[x-za-ddzx-z]*[^ya-dx-zbx-zba-d]*[^a-da-dx-zda-dx-z]*[a-da-db][a-dx-zy][^x-zx-zz][^a-dx-zx-zx-z][za-dx]{0,1}|[aadxx-zy]*[^ydya-dx-z]{0}[^zxx-za-dx-z][^a-dx-zyx-z]*[^a-dx-zzx-zx-zx-za-d]|[^cx-zda-dx-z][^da-dyx-zx-zx-za-d][^a-dx-zx-za-d][^a-da-da-d]?[zx-za-dx-zca-d]?[x-za-dx-za-dy][^x-za-da-da-dx-zx-za-d][^x-za-da][x-za-dx-zx-zx-za-d]{2,4}[^x-zx-za-da-dx-za-dx-z]?|[^dx-zx-zzda-da-d]*[x-za-dx-z]?[a-da-da-dx-z][xa-da-d][^cx-zx-zxx-zaa-d][^x-za-dx-zx-za-da-da][^aaa-da]")   ||  	
+		 
+	!
+	 
+	 match(		$,
+		'[a-dcz][^a-da-dddx-z]{0,1}[^x-zx-zx-za-da-dx-z][^a-dccy][ca-da-dx-za-dx-z]|[x-zx-zx-z]*[^dzx-z][^x-zx-zaxa-d]{0}[^x-za-dcza-dx-z]+[^a-dx-zx-za-d][^ca-dya-dzx-za-d]?[^x-za-dxa-da-da-d]{1,3}|[a-dx-zx-zx-za-dxy]+[a-da-dx-zx-zx-zx-za-d][^a-dxa-dx-zx-z][x-zx-zx-z]+[^x-zxa-dy][^cx-zx-za-dx-zx-z]?[ba-da-da-d]*|[ya-dzx-z]{0}[^x-za-dx-zxc]?[x-za-dx-za-dz][^a-da-dxyz][x-za-dbba-dx-z][a-dx-zx-z]|[^a-da-dx-zx-za-d]{3,}[x-zxa-dxx-za-da-d]?[ca-dzx-z]{1,2}[^a-da-da-dx-zdx-z]?[x-za-dx-zx-z]+[x-za-da-d][x-za-dzz]+[x-za-dzzax-za-d]*[^a-dax-za-da-da][^x-za-dxda-dx-zx]+')||	 	
+
+!match(length(
+
+	@[4])	
+,  
+
+
+ 		 
+"[a-dx-zybx][^ya-da-dx-za][x-za-dda-d]{4}[^a-da-dza-d][x-zxa-dx-za-dx-za-d][cx-zdxx-zyz]+[^ax-zaa-dx]{1,3}[yx-zx-za-da][^x-zx-zx-za-dza-d]?[zcx-zcx-zd]?"	
+	 
+)&&
+
+!
+
+	  		match(			
+count( 	
+@[?(
+			  
+ 	!		
+ 
+match(	
+
+
+@.ba[0]['dcbb\'dbd\''],'[xyyzxx-zc]{0}[a-dxa-d]|[^a-da-dx-z]{1,3}[a-dx-zxa-d][a-da-dzx-zca-dx-z][^x-zx-zx-zx-zx-z][^da-da-dcyx-z][^a-dba-da-da-d]{0,1}|[^x-zdx-zx-z]*[a-dxa-da-da-d][^xa-dx-za-da-da-d]?[a-dbx-zx-zcx-zx-z]|[^x-zbx-zx-zx-zx-zz]+[a-daa][^ba-dcda-dd]?[^a-dx-zx-z]+[a-dx-zabzyx-z][^a-da-dx-zxx-z]{1,3}[^a-dza-dza-dcx]?[^a-dzxx-z][x-zza-dx-z]')
+)][?(match(false,"[a-dx-za-d]"))][?(match(false,'[^x-zx-za-d]'))])
+    ,"[^xzx-zx-zxa-dx-z]") )]
+@@@
+[null]

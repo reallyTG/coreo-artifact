@@ -1,0 +1,1 @@
+SELECT _dd1_.eecb__a1 FROM dbdbca1 WHERE cb.ee1__b IN( 836303) ;

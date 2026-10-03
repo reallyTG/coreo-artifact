@@ -1,0 +1,28 @@
+with _a as (SELECT ALL From cd__.min(Distinct Time '''''  z\xy\\\' * 'y \yz z' !~~ ANY ('''z ''' AT TIME ZONE ' '''''' \' at
+Time zone '\yy''z'
+^ -- c
+ 'yzzxyy\xx''\' / Timestamp	''' x''x \x' at Time Zone TIMESTAMP 'xyxyyz  x' at time zone '\x   ' at time ZONE '\ xz \zx z\' * '\ \''x\   ''' /
+' yx\ '' ''' | Timestamp
+'''y''''yzx' * Time 'z  xz' -- c
+ + TIME '''\ \''\zxxzyz\' Not BETWEEN	Timestamp ' zx''''\ ' - 'xx ''y '
+* '\xy  yxxz' % Date
+'yzyx x\ y\\\' * ' x''y\'
+ ^ Time -- c
+ 'zxy''''x\x ' *  'xz  ''\' % '\  yxx'' '  ^ '''y''y\ x \y' ^ -- c
+ TIMESTAMP '\''\z''''\''' ^ '\   y''''z\' *	time
+'\zx\' ^ TIMESTAMP  ' ''\yxx' ^ TIMESTAMP ' ''xy\y' / DATE '''\xzx xz''x''' ^ 'x''''yyxzzz' * Timestamp 'y''\x\xxzx ''' OPERATOR(_dcade./)
+'yx\zx''\ \' ^ 'yzy ''y\ \' %
+TIMESTAMP ''' \\''  xzyx' ^ 'yyzyz'' ''' ^
+'\z x zx'
+% Time 'x''x\yyyz zy' And -- c
+ TIME 'x''''y\ z\zzz\z' at time  zone ' z''\zyx'' \''' Is FALSE	And 'xx''xxy ''x  z' BETWEEN 'xxy\' % TIME '  ''xyxxx''y ' /* c */ 	^ '\y''\' * '\yx''yyy\\' * Timestamp  '\xzyx\ \ ''' % Time /* c */  ' x xyz' / ' yyzxyx z' % '''x \z' / INTERVAL /* c */ 	'zxz\'	^ 'yy\''x' / '\\xx''''\\ ' / interval 'zxz''y''' ^  'x''yyxz''xzxz ' / DATE
+'z y\'' ''z\ xyx' - '\y\z'	^	'\\zy  '	 ^ Date '\zxz'  * TIMESTAMP 'z''x''xx' ^ '\x\xyyyz'
+^ 'y''x\y''yz''y\\''' %  Timestamp ' ''xyz\''z ' ^ 'yxyz\y y ' + '\ ''''  \' / time  '\ ''x ' ^ -- c
+ '''y\\ \xy'' z\' ^ INTERVAL '''\y\y\ ''xyzzz' * '''\ \ zx '	+ Time 'y''y\''z\z\x''z' % 'x\\\'	* -- c
+ time ' \zxx ' /* c */  ^	'z x ' / '\ \ z\\\ zzx\'
+/ ' \\''y''zz\''\'' ' / 'y'' \ zx''zz''' % '''yx \x''z''x ' ^  Time '\x''zzyyzx z\' /* c */  ^ Date '\\ ''xz' ^ 'y xx' ^ INTERVAL 'yy''x\'''' yy' % DATE '\\z yy''y x ''' / date 'yx '' \'	^ '''\xxz\z' *	'\\z \yx'''' x ' - 'xz'' \y ' / ' yy ''x  \'
+->> 'x''xy  z ' AND '\x\x' and	DATE ''' ''  x' NOT between  'y  zyzyyy' And '   x' ISNULL) | 'x''z ''x x ''''z'
+Not between 'x z''z'' xxz ' And 'z\\'''  < 'xzy''' Between 'y y''' AND 'x''''\' Is  FALSE) with ORDINALITY as aedeeecd__a (be11e) LIMIT 'xzz\yx''\'' ''x' not Between Date
+ 'xx z \z''' AND '''\  ' Is Not FALSE For KEY share)
+select all * Limit timestamp '''y ''\''   ''z' /* c */ 
+not between INTERVAL '''xzx' AND 'zx ''' isnull;

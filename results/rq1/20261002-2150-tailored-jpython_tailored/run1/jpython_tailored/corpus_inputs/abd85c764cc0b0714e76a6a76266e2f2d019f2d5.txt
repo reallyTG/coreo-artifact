@@ -1,0 +1,3 @@
+$.*[*]
+@@@
+{"baabacabac":["yyx","xz","y","zy"],"babbcabbb":{"a":"yxx","b":["zy","z",0,72,"zz","x",0,1,5,0]}}

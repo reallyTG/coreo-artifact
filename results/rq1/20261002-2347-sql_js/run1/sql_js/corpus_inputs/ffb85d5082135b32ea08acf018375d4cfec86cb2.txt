@@ -1,0 +1,36 @@
+(select  Distinct - +  - " B".".BB.BBaa"::TEXT[]::date::TIMESTAMP / X'a7a7' - - """"."."::Integer[ 2258 ]::INT %
+b''::Varchar ( 56)::a1_c::Text[  ]::Varchar ^ -
+	bee[Not	 not
+ True::timestamp with Time ZONE::numeric ( 9, 8  )  At Time ZONE dbebb_cdab1[true / + (Array[
+] % - "a a "". .""a"::DATE / _1ea.cc_aaed_d.d_c_bacb_ ^  dc +
+ +	- timestamp E'\101''\x41\x41\n' Not BETWEEN -  - case - B'111000' % False + - + _d1bd_bcdda.". a. aBB"
+at time Zone e1_ba_b[ -- c
+ +
+"a""...""a."._."""BaBa. """""[-
+ -
+ Cast
+( ( - ". B""B    ".abebccdeeb.d_ebad ^	ROW (+
+(
+- B'' - null >=
+true	is False
+ OR	+ - null)::character varying  %
++ Array[] /* c */   - row ()::BOOLEAN isnull	OR array[]::interval Is NULL) - timestamp
+ /* c */ 	E'xy' && + +	- + min( ) In(Select
+ all *, ebace1a.*) < false and
+ B'1010001'
+Isnull,"aB ".d) @> Some( select Offset 6902975 rows) not Between '''yx'::Boolean AND NULL <= false
+And - U&'''' and B'110' ISNULL Or TRUE
+as Bigint)
+* true::Bigint[][ ][]::d_ - d1e_ae !~ true::SMALLINT <> 'x' * b'11' OR
+Array[ ]	% 7442_7042094] /* c */  ^ 16  - TRUE @> + ddcbbbc_a_e.ca1b_e Not
+	 between ".""" AND FALSE >= some(+ Row (  )) isnull]		AT Time zone _cbe_.d ^ B'00' * + +
+false ~ ANY  (Select *,*) /* c */  -- c
+ ilike NULL Is Not FALSE Or	NULL <> True
+When + x'F7' + e THEN Null End ^ True / + - + + false ^ +
+X'0a' + - '''' And false -- c
+ = Any (" a a""""".b isnull),"aa "" .a" ISNULL)
+ - False >> SOME ( select ba_.*,* for No KEY update) Not IN ( select -- c
+ ALL for No  key Update)  !=  any	( + NULL
+ is /* c */  false) And 4_7050228 isnull OR ARRAY[] Notnull]	/ row_number()  -  + - True	~
+SOME ( SELECT Distinct * ,a11.*) !=
+FALSE And Null ^ U&'\0041x\0041''' NOTNULL or ARRAY[ ]::TEXT[]] Not	 ilike ALL( SELECT Distinct /* c */   bc1b1b.*  for update) <= NULL and Not NULL / False or - edecd Notnull as baaeaa) union all  select Distinct ".aaB".*;

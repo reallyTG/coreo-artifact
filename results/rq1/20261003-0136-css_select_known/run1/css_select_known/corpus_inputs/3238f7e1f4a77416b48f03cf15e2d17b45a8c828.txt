@@ -1,0 +1,3 @@
+b :first-child
+@@@
+<!DOCTYPE html><html><body><span class="dbadbacdb" id="dc" lang="dddcdacababa-cdadadbbaab-bbaa-ba" data-ac=""></span><p id="da" title="" lang="bdcbd-bdddcbdbababc-cba"> bca <b title="" data-c="">aabbcaacac<input checked disabled required readonly class="dd c bc c c aa dbbddbbdcbc db ad d" title="" lang="aabdccbdd" data-d=""></b>babbcc<a href="#ad" class="b" lang="cadacac" data-ac=""></a>bba a acb  <input type="text" readonly data-c="cb a bb"><input type="checkbox" checked required readonly class="dd" id="ddbbd" lang="aadbbccc-bdcdcabbdc-baccccdadbbc"> c ba cb <a href="#dbb">aca acac cc</a>bc<input type="text" checked disabled readonly data-c="ac-cbbbbbadcbaabb-bd">bbbc<span class="dcd" id="cbdd" data-badb="">aa b</span>cc</p></body></html>

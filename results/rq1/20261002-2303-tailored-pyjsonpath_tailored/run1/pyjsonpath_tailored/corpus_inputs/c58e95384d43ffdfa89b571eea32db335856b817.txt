@@ -1,0 +1,3 @@
+$[*]..[?!match(@,"xzy?")]
+@@@
+[{"a":"yxxyxzxxzy"},{"a":"yxyxyxxzx"}]

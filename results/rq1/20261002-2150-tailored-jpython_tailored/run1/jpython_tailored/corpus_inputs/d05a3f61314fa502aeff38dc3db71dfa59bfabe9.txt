@@ -1,0 +1,3 @@
+$[*].*
+@@@
+{"bdbdbddbcabb":{"a":1,"b":[0,"y",0],"c":0},"dcbbcbbca":{"a":0},"dcacbadbbd":9}

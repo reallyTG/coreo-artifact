@@ -1,0 +1,24 @@
+SELECT distinct  U&'\0041' /* c */  % count(+ .93227e112 ^  dc_b1.e1bb_dc1.b1abc['zx ' %	X'0'::NUMERIC * e.dea."..  ..""." % GROUPING(
+X'07F000FFF' ^	+ + x'0F70Fa0aa0' +
+	Grouping( Not Not 	  NOT - 670 -- c
+  ^	"a ."" ""  " + + dadd_1ee." ." /	
+- - -- c
+ - + - + d1ac_ec_._becae_de.ab_11eddb
+% .905524E2 at Time zone ec.c__1d_[ not CAST (+	"."" a.aB"."B"".""a"::edb1bd.dc_c11_aa_d::NUMERIC
+(  1,4)::varchar (5874570)[] NOT  ilike "BaBB".e1a___bb1_[ + b''::TIMESTAMP with TIME zone
+  ^ + 2_060500107_17601015_9273245821_139_823467_8_5215::TIMESTAMP	WITH  Time Zone[ 4 ] + /* c */  Case WHEN NOT ac1ad."""a.BB ".c::VARCHAR (2) % + - 2
+- da1 -> + acacab_1
+/ Null like	null  <= Some (select distinct
+*	, + False) AND
+NOT - X'7'	isnull  Or 5. notnull then True END ^ "B .B a.BB".a *	+ b1 ~ b'10' ^ B'' - Array[ ] Not	 between 850. AND NULL < true OR NOT + TRUE -
+ed1b] AT TIME ZONE Row() >> all  ( not FALSE
+  - Null) != -- c
+ All(NOT not array[] ISNULL Or NOT "Ba" ISNULL) and NOT X''::Varchar As Real) % _ce_ || all (SELECT union Select All FOR Key Share) NOT between - cca And NULL = all ( """.." + - True) ISNULL and 6316_987 Or Not B''::Bigint is true] -> - false at TIME ZONE Interval '' / b -- c
+
+  LIKE any (TRUE + false::Integer) AND -  x'700F' Is True Or	- false Notnull) # ANY ( 511	> true) between B'110' ^ False And NULL <> SOME (	Null
+!= NULL IS TRUE) IS true	 or /* c */ 	ebc1c1bc)::interval[ ] at  time zone eac_e | (Select DISTINCT
+* FOR Key  Share)	NOT BETWEEN - + x'F77' And true  <= true] ^ Interval U&'''x\0041''' * true::NUMERIC
+ ~~ some( select Distinct *	,_ca.*) Not ILIKE False !=  Null IS true AND not - Row () Or + E'' != Null) OVER() ^ x''::Int - -- c
+ B'10'::varchar
+ NOT LIKE any (b'1'
+% B'10') <= SOME(	 select Distinct *) IS NOT false AND X'' Isnull	 Or x'Fa' * B'10'	bdeb;

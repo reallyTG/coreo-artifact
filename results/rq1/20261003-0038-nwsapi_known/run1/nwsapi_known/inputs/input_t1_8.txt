@@ -1,0 +1,3 @@
+*+ input+*:only-of-type ~ section
+@@@
+<!DOCTYPE html><html><body><section class="dda ba" title="b-a c-d cd" lang="cddc">bcb   a</section></body></html>

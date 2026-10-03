@@ -1,0 +1,1362 @@
+$ ./.venv/bin/python -u run.py jsonpath_js --seed=20260922 --output-dir=./results/rq1/20261002-2338-jsonpath_js/run1/jsonpath_js --max-wall-seconds=3420
+
+[props] max_repetition=20 (bounds * and + during generation)
+[props]   count_B                            0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_D                            0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_DIGIT1                       0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_DIGIT                        0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_HEXDIG                       0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_S                            0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_abs_query                    0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_abs_singular_query           0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_and_tail                     0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_array                        0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_basic_expr                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_bracketed_selection          0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_child_segment                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_comparable                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_comparison_expr              0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_count_expr                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_descendant_segment           0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_doc_char                     0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_escape                   0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_exp                      0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_mixed                    0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_name_char                0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_name_mixed               0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_name_special             0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_number                   0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_special                  0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_string                   0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_dq_char                      0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_dq_chars                     0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_dq_mixed                     0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_dq_special                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_escapable                    0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_exp                          0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_filter_query                 0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_filter_selector              0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_frac                         0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_hexchar                      0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_high_surrogate               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_index_segment                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_index_selector               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_int                          0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_alt                      0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_branch                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_cce1                     0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_char_class               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_char_class_expr          0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_normal_char              0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_piece                    0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_quantifier               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_range_quantifier         0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_regexp                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_iregexp_literal              0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_length_expr                  0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_letter                       0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_literal                      0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_logical_and_expr             0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_logical_expr                 0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_logical_function_expr        0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_logical_not_op               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_low_surrogate                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_match_expr                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_member                       0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_member_name_shorthand        0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_more_member                  0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_more_selector                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_more_value                   0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_name_char                    0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_dq_char                 0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_dq_chars                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_dq_mixed                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_dq_special              0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_first                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_segment                 0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_selector                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_sq_char                 0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_sq_chars                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_sq_mixed                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_sq_special              0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_non_d_hex                    0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_non_surrogate                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_nonempty_array               0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_nonempty_object              0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_number                       0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_object                       0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_oct_digit                    0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_or_tail                      0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_paren_expr                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_pos_int                      0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_regex_argument               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_rel_query                    0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_rel_singular_query           0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_search_expr                  0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_segment                      0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_selector                     0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sign_opt                     0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_singular_query               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_singular_segment             0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_slice_selector               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sq_char                      0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sq_chars                     0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sq_mixed                     0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sq_special                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_string_literal               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_test_expr                    0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_union_selector               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_value                        0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_value_argument               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_value_expr                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_value_function_expr          0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_wildcard_selector            0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ws                           2..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props] identical to count_and_tail, not derived: count_and_op
+[props] identical to count_comparison_expr, not derived: count_comparison_op, count_comparison_op_s
+[props] identical to count_doc_exp, not derived: count_doc_e
+[props] identical to count_doc_number, not derived: count_doc_int, count_doc_num_int
+[props] identical to count_doc_string, not derived: count_doc_chars
+[props] identical to count_exp, not derived: count_exp_e
+[props] identical to count_high_surrogate, not derived: count_high_second
+[props] identical to count_ire_char_class_expr, not derived: count_ire_caret_opt
+[props] identical to count_ire_piece, not derived: count_ire_atom
+[props] identical to count_logical_expr, not derived: count_logical_or_expr
+[props] identical to count_low_surrogate, not derived: count_low_second
+[props] identical to count_member, not derived: count_doc_name_chars, count_member_name
+[props] identical to count_name_selector, not derived: count_name_string_literal
+[props] identical to count_number, not derived: count_num_int
+[props] identical to count_or_tail, not derived: count_or_op
+[props] identical to count_paren_expr, not derived: count_paren_body
+[props] identical to count_slice_selector, not derived: count_end_opt, count_start_opt, count_step_opt
+[props] fixed count, not derived: <doc>, <doc_root>, <jsonpath_query>
+[jsonpath_js] properties: ['count_segment', 'count_descendant_segment', 'count_member_name_shorthand', 'count_name_char', 'count_name_first', 'count_wildcard_selector', 'count_bracketed_selection', 'count_more_selector', 'count_union_selector', 'count_index_selector', 'count_int', 'count_pos_int', 'count_DIGIT', 'count_DIGIT1', 'count_name_selector', 'count_name_dq_chars', 'count_name_dq_mixed', 'count_name_dq_special', 'count_escapable', 'count_hexchar', 'count_high_surrogate', 'count_D', 'count_HEXDIG', 'count_low_surrogate', 'count_non_surrogate', 'count_non_d_hex', 'count_oct_digit', 'count_name_dq_char', 'count_name_sq_chars', 'count_name_sq_mixed', 'count_name_sq_special', 'count_name_sq_char', 'count_selector', 'count_slice_selector', 'count_filter_selector', 'count_logical_expr', 'count_logical_and_expr', 'count_basic_expr', 'count_paren_expr', 'count_logical_not_op', 'count_S', 'count_B', 'count_test_expr', 'count_logical_function_expr', 'count_match_expr', 'count_search_expr', 'count_filter_query', 'count_abs_query', 'count_rel_query', 'count_comparison_expr', 'count_comparable', 'count_value_function_expr', 'count_singular_query', 'count_literal', 'count_number', 'count_string_literal', 'count_dq_chars', 'count_sq_chars', 'count_and_tail', 'count_or_tail', 'count_value_argument', 'count_length_expr', 'count_count_expr', 'count_value_expr', 'count_abs_singular_query', 'count_singular_segment', 'count_rel_singular_query', 'count_frac', 'count_exp', 'count_dq_mixed', 'count_letter', 'count_sq_mixed', 'count_child_segment', 'count_index_segment', 'count_name_segment', 'count_sign_opt', 'count_dq_special', 'count_dq_char', 'count_sq_special', 'count_sq_char', 'count_regex_argument', 'count_iregexp_literal', 'count_ire_regexp', 'count_ire_alt', 'count_ire_branch', 'count_ire_piece', 'count_ire_quantifier', 'count_ire_range_quantifier', 'count_ire_char_class', 'count_ire_char_class_expr', 'count_ire_cce1', 'count_ire_normal_char', 'count_ws', 'count_nonempty_object', 'count_member', 'count_doc_name_mixed', 'count_doc_name_special', 'count_doc_escape', 'count_doc_name_char', 'count_value', 'count_doc_number', 'count_doc_exp', 'count_doc_string', 'count_doc_mixed', 'count_doc_special', 'count_doc_char', 'count_array', 'count_nonempty_array', 'count_object', 'count_more_value', 'count_more_member', 'doc_depth', 'doc_bytes', 'query_len']
+[jsonpath_js] auto-stratified exploration: <segment>[(0, 0), (1, 1), (2, 4), (5, 10), (11, 24)] x <or_tail>[(1, 1), (2, 3), (4, 6), (7, 12), (13, 24)] x <and_tail>[(1, 1), (2, 3), (4, 6), (7, 12), (13, 24)] ...
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+[WARNING] recursion limit hit generating from ./results/rq1/20261002-2338-jsonpath_js/run1/jsonpath_js/grammars/jsonpath_js_m1_0_or_tail1-1.fan; lower max_repetition or max_nodes for this grammar.
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+[WARNING] recursion limit hit generating from ./results/rq1/20261002-2338-jsonpath_js/run1/jsonpath_js/grammars/jsonpath_js_m2_0_and_tail1-1.fan; lower max_repetition or max_nodes for this grammar.
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <more_member> defined, but not used
+fandango:WARNING: Symbol <more_value> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <name_dq_char> defined, but not used
+fandango:WARNING: Symbol <name_sq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <name_sq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <name_sq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <name_sq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <name_sq_char> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <name_dq_chars> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <name_dq_chars> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <name_dq_chars> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <name_dq_chars> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <doc_name_char> defined, but not used
+fandango:WARNING: Symbol <dq_char> defined, but not used
+fandango:WARNING: Symbol <sq_chars> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <sq_chars> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <sq_chars> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <sq_chars> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <sq_char> defined, but not used
+fandango:WARNING: Symbol <dq_chars> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <dq_chars> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <dq_chars> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <dq_chars> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <doc_char> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+  [explore] 20 axes, 100 strata, 3/stratum -> 294 inputs
+  [explore] 2 stratum/strata produced nothing: or_tail1-1, and_tail1-1
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[jsonpath_js] iter 0 (explore): corpus=1470 (+1470 new this run)
+[select] relevance (max |rho| vs any metric on any system): query_len=0.96, count_segment=0.88, count_bracketed_selection=0.76, count_logical_and_expr=0.85, count_name_selector=0.78, count_basic_expr=0.85, count_child_segment=0.73, count_logical_expr=0.85, count_filter_selector=0.85, count_name_sq_chars=0.68, count_and_tail=0.81, count_escapable=0.57, count_or_tail=0.81, count_name_dq_chars=0.75, count_singular_query=0.75, count_literal=0.77, count_rel_singular_query=0.73, count_more_selector=0.77, count_name_segment=0.71, count_union_selector=0.77, count_singular_segment=0.71, count_index_segment=0.70, count_selector=0.75, count_wildcard_selector=0.53, count_descendant_segment=0.56, count_int=0.72, count_S=0.72, count_index_selector=0.72, count_test_expr=0.72, count_abs_query=0.65, count_value_argument=0.72, count_name_first=0.49, count_logical_function_expr=0.72, count_name_char=0.47, count_regex_argument=0.72, count_match_expr=0.71, count_name_dq_char=0.47, count_name_dq_special=0.50, count_logical_not_op=0.70, count_comparison_expr=0.67, count_comparable=0.67, count_value_function_expr=0.66, count_filter_query=0.66, count_ws=0.65, count_name_dq_mixed=0.51, doc_bytes=0.65, count_string_literal=0.65, count_value_expr=0.62, count_abs_singular_query=0.64, count_count_expr=0.63, count_rel_query=0.62, count_iregexp_literal=0.62, count_member_name_shorthand=0.42, count_length_expr=0.62, count_value=0.62, count_ire_regexp=0.60, count_ire_branch=0.60, count_name_sq_special=0.38, count_number=0.59, count_name_sq_mixed=0.39, count_name_sq_char=0.37, count_ire_piece=0.55, count_paren_expr=0.54, count_sq_chars=0.55, count_ire_quantifier=0.54, count_search_expr=0.52, count_pos_int=0.52, count_dq_chars=0.52, count_exp=0.49, count_ire_char_class=0.52, count_ire_range_quantifier=0.51, count_ire_alt=0.50, count_ire_char_class_expr=0.50, count_ire_cce1=0.50, count_ire_normal_char=0.50, count_more_value=0.49, count_B=0.47, count_D=0.24, count_doc_number=0.47, count_nonempty_object=0.39, count_DIGIT1=0.45, count_doc_string=0.44, count_member=0.39, count_DIGIT=0.43, count_doc_exp=0.42, count_HEXDIG=0.21, count_letter=0.39, count_oct_digit=0.19, count_hexchar=0.21, count_frac=0.22, doc_depth=0.38, count_high_surrogate=0.23, count_low_surrogate=0.23, count_doc_escape=0.36, count_more_member=0.34, count_array=0.27, count_sq_special=0.33, count_sq_mixed=0.33, count_slice_selector=0.32, count_object=0.31, count_doc_name_special=0.29, count_non_surrogate=0.13, count_sq_char=0.29, count_doc_mixed=0.22, count_doc_name_mixed=0.29, count_doc_special=0.22, count_dq_special=0.29, count_dq_mixed=0.28, count_doc_char=0.21, count_dq_char=0.27, count_doc_name_char=0.26, count_sign_opt=0.18, count_non_d_hex=0.12, count_nonempty_array=0.15
+[select] comparative relevance (max |rho| vs a between-system ratio): query_len=0.86, count_segment=0.80, count_bracketed_selection=0.83, count_logical_and_expr=0.57, count_name_selector=0.82, count_basic_expr=0.56, count_child_segment=0.81, count_logical_expr=0.57, count_filter_selector=0.57, count_name_sq_chars=0.72, count_and_tail=0.53, count_escapable=0.68, count_or_tail=0.59, count_name_dq_chars=0.67, count_singular_query=0.67, count_literal=0.40, count_rel_singular_query=0.67, count_more_selector=0.63, count_name_segment=0.64, count_union_selector=0.62, count_singular_segment=0.64, count_index_segment=0.63, count_selector=0.60, count_wildcard_selector=0.63, count_descendant_segment=0.63, count_int=0.62, count_S=0.58, count_index_selector=0.62, count_test_expr=0.58, count_abs_query=0.59, count_value_argument=0.57, count_name_first=0.59, count_logical_function_expr=0.57, count_name_char=0.58, count_regex_argument=0.57, count_match_expr=0.57, count_name_dq_char=0.57, count_name_dq_special=0.57, count_logical_not_op=0.55, count_comparison_expr=0.38, count_comparable=0.38, count_value_function_expr=0.56, count_filter_query=0.56, count_ws=0.44, count_name_dq_mixed=0.57, doc_bytes=0.39, count_string_literal=0.38, count_value_expr=0.56, count_abs_singular_query=0.55, count_count_expr=0.55, count_rel_query=0.54, count_iregexp_literal=0.48, count_member_name_shorthand=0.55, count_length_expr=0.54, count_value=0.40, count_ire_regexp=0.45, count_ire_branch=0.45, count_name_sq_special=0.50, count_number=0.50, count_name_sq_mixed=0.50, count_name_sq_char=0.49, count_ire_piece=0.39, count_paren_expr=0.48, count_sq_chars=0.34, count_ire_quantifier=0.38, count_search_expr=0.44, count_pos_int=0.39, count_dq_chars=0.36, count_exp=0.43, count_ire_char_class=0.35, count_ire_range_quantifier=0.37, count_ire_alt=0.34, count_ire_char_class_expr=0.33, count_ire_cce1=0.32, count_ire_normal_char=0.32, count_more_value=0.31, count_B=0.33, count_D=0.35, count_doc_number=0.34, count_nonempty_object=0.34, count_DIGIT1=0.28, count_doc_string=0.28, count_member=0.33, count_DIGIT=0.24, count_doc_exp=0.27, count_HEXDIG=0.32, count_letter=0.24, count_oct_digit=0.32, count_hexchar=0.32, count_frac=0.32, doc_depth=0.25, count_high_surrogate=0.31, count_low_surrogate=0.31, count_doc_escape=0.24, count_more_member=0.28, count_array=0.29, count_sq_special=0.22, count_sq_mixed=0.22, count_slice_selector=0.23, count_object=0.23, count_doc_name_special=0.19, count_non_surrogate=0.27, count_sq_char=0.18, count_doc_mixed=0.26, count_doc_name_mixed=0.20, count_doc_special=0.26, count_dq_special=0.18, count_dq_mixed=0.18, count_doc_char=0.24, count_dq_char=0.18, count_doc_name_char=0.19, count_sign_opt=0.24, count_non_d_hex=0.22, count_nonempty_array=0.19
+[select] scored on the comparison rather than on the metric: count_bracketed_selection (0.76 -> 0.83), count_child_segment (0.73 -> 0.81), count_escapable (0.57 -> 0.68), count_wildcard_selector (0.53 -> 0.63), count_descendant_segment (0.56 -> 0.63), count_name_first (0.49 -> 0.59), count_name_char (0.47 -> 0.58), count_name_dq_char (0.47 -> 0.57), count_name_dq_special (0.50 -> 0.57), count_name_dq_mixed (0.51 -> 0.57), count_member_name_shorthand (0.42 -> 0.55), count_name_sq_special (0.38 -> 0.50), count_name_sq_mixed (0.39 -> 0.50), count_name_sq_char (0.37 -> 0.49), count_D (0.24 -> 0.35), count_HEXDIG (0.21 -> 0.32), count_oct_digit (0.19 -> 0.32), count_hexchar (0.21 -> 0.32), count_frac (0.22 -> 0.32), count_high_surrogate (0.23 -> 0.31), count_low_surrogate (0.23 -> 0.31), count_non_surrogate (0.13 -> 0.27), count_sign_opt (0.18 -> 0.24), count_non_d_hex (0.12 -> 0.22)
+[select] dropped count_logical_and_expr: |rho|=0.80 with query_len, which is already kept
+[select] dropped count_basic_expr: over the 4-property cap
+[select] dropped count_child_segment: over the 4-property cap
+[select] dropped count_logical_expr: over the 4-property cap
+[select] dropped count_filter_selector: over the 4-property cap
+[select] dropped count_name_sq_chars: over the 4-property cap
+[select] dropped count_and_tail: over the 4-property cap
+[select] dropped count_escapable: over the 4-property cap
+[select] dropped count_or_tail: over the 4-property cap
+[select] dropped count_name_dq_chars: over the 4-property cap
+[select] dropped count_singular_query: over the 4-property cap
+[select] dropped count_literal: over the 4-property cap
+[select] dropped count_rel_singular_query: over the 4-property cap
+[select] dropped count_more_selector: over the 4-property cap
+[select] dropped count_name_segment: over the 4-property cap
+[select] dropped count_union_selector: over the 4-property cap
+[select] dropped count_singular_segment: over the 4-property cap
+[select] dropped count_index_segment: over the 4-property cap
+[select] dropped count_selector: over the 4-property cap
+[select] dropped count_wildcard_selector: over the 4-property cap
+[select] dropped count_descendant_segment: over the 4-property cap
+[select] dropped count_int: over the 4-property cap
+[select] dropped count_S: over the 4-property cap
+[select] dropped count_index_selector: over the 4-property cap
+[select] dropped count_test_expr: over the 4-property cap
+[select] dropped count_abs_query: over the 4-property cap
+[select] dropped count_value_argument: over the 4-property cap
+[select] dropped count_name_first: over the 4-property cap
+[select] dropped count_logical_function_expr: over the 4-property cap
+[select] dropped count_name_char: over the 4-property cap
+[select] dropped count_regex_argument: over the 4-property cap
+[select] dropped count_match_expr: over the 4-property cap
+[select] dropped count_name_dq_char: over the 4-property cap
+[select] dropped count_name_dq_special: over the 4-property cap
+[select] dropped count_logical_not_op: over the 4-property cap
+[select] dropped count_comparison_expr: over the 4-property cap
+[select] dropped count_comparable: over the 4-property cap
+[select] dropped count_value_function_expr: over the 4-property cap
+[select] dropped count_filter_query: over the 4-property cap
+[select] dropped count_ws: over the 4-property cap
+[select] dropped count_name_dq_mixed: over the 4-property cap
+[select] dropped doc_bytes: over the 4-property cap
+[select] dropped count_string_literal: over the 4-property cap
+[select] dropped count_value_expr: over the 4-property cap
+[select] dropped count_abs_singular_query: over the 4-property cap
+[select] dropped count_count_expr: over the 4-property cap
+[select] dropped count_rel_query: over the 4-property cap
+[select] dropped count_iregexp_literal: over the 4-property cap
+[select] dropped count_member_name_shorthand: over the 4-property cap
+[select] dropped count_length_expr: over the 4-property cap
+[select] dropped count_value: over the 4-property cap
+[select] dropped count_ire_regexp: over the 4-property cap
+[select] dropped count_ire_branch: over the 4-property cap
+[select] dropped count_name_sq_special: over the 4-property cap
+[select] dropped count_number: over the 4-property cap
+[select] dropped count_name_sq_mixed: over the 4-property cap
+[select] dropped count_name_sq_char: over the 4-property cap
+[select] dropped count_ire_piece: over the 4-property cap
+[select] dropped count_paren_expr: over the 4-property cap
+[select] dropped count_sq_chars: over the 4-property cap
+[select] dropped count_ire_quantifier: over the 4-property cap
+[select] dropped count_search_expr: over the 4-property cap
+[select] dropped count_pos_int: over the 4-property cap
+[select] dropped count_dq_chars: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_ire_char_class: over the 4-property cap
+[select] dropped count_ire_range_quantifier: over the 4-property cap
+[select] dropped count_ire_alt: over the 4-property cap
+[select] dropped count_ire_char_class_expr: over the 4-property cap
+[select] dropped count_ire_cce1: over the 4-property cap
+[select] dropped count_ire_normal_char: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] dropped count_B: over the 4-property cap
+[select] dropped count_D: over the 4-property cap
+[select] dropped count_doc_number: over the 4-property cap
+[select] dropped count_nonempty_object: over the 4-property cap
+[select] dropped count_DIGIT1: over the 4-property cap
+[select] dropped count_doc_string: over the 4-property cap
+[select] dropped count_member: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_doc_exp: over the 4-property cap
+[select] dropped count_HEXDIG: over the 4-property cap
+[select] dropped count_letter: over the 4-property cap
+[select] dropped count_oct_digit: over the 4-property cap
+[select] dropped count_hexchar: over the 4-property cap
+[select] dropped count_frac: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_high_surrogate: over the 4-property cap
+[select] dropped count_low_surrogate: over the 4-property cap
+[select] dropped count_doc_escape: over the 4-property cap
+[select] dropped count_more_member: over the 4-property cap
+[select] dropped count_array: over the 4-property cap
+[select] dropped count_sq_special: over the 4-property cap
+[select] dropped count_sq_mixed: over the 4-property cap
+[select] dropped count_slice_selector: over the 4-property cap
+[select] dropped count_object: over the 4-property cap
+[select] dropped count_doc_name_special: over the 4-property cap
+[select] dropped count_non_surrogate: over the 4-property cap
+[select] dropped count_sq_char: over the 4-property cap
+[select] dropped count_doc_mixed: over the 4-property cap
+[select] dropped count_doc_name_mixed: over the 4-property cap
+[select] dropped count_doc_special: over the 4-property cap
+[select] dropped count_dq_special: over the 4-property cap
+[select] dropped count_dq_mixed: over the 4-property cap
+[select] dropped count_doc_char: over the 4-property cap
+[select] dropped count_dq_char: over the 4-property cap
+[select] dropped count_doc_name_char: over the 4-property cap
+[select] dropped count_sign_opt: over the 4-property cap
+[select] dropped count_non_d_hex: over the 4-property cap
+[select] dropped count_nonempty_array: over the 4-property cap
+[select] query_len stands for count_logical_and_expr (indistinguishable here)
+[select] joint fit uses 4 of 114 properties: count_segment, count_bracketed_selection, count_name_selector, query_len (1,296 model fits)
+[jsonpath_js] loop targets 4 of 114 properties: count_segment, count_bracketed_selection, count_name_selector, query_len
+[jsonpath_js] targeting 8 regions: runtime_ns_divergence, count_bracketed_selection_dominance0, count_segment_undecided0, count_segment_x_query_len_joint, dchester_runtime_ns_count_segment_discriminate, count_bracketed_selection_beyond, runtime_ns_high, query_len_edge
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+  [runtime_ns_divergence] 83s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_bracketed_selection_dominance0] settling count_bracketed_selection =0 would decide 3 dominance verdict(s): dchester vs jsonpathly (runtime_ns undecided) and 2 more -> <segment>{0,0}
+  [count_bracketed_selection_dominance0] 14s: +10 new input(s), 1 distinct shape(s), 10 measured
+  [count_segment_undecided0] 20 comparison(s) undecided in count_segment [18.41,38.14): dchester vs jsonpathly on runtime_ns and 19 more -> <segment>{18,20}
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_segment_undecided0] 20s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_segment_x_query_len_joint] query_len spans 1..10326 overall, 45..2130 at count_segment in [10,12]; maximizing it at <segment>{10,12}
+  [count_segment_x_query_len_joint] 9 of 10 seeds do not parse; seeding with 1.
+[budget] generation cut at 300s after 45 generations (16 solutions); this request is not reproducible
+  [soft] maximizing query_len: 16 candidates, best=2016, keeping 10 spanning 2016..2013
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_segment_x_query_len_joint] 334s: +10 new input(s), 3 distinct shape(s), 10 measured [CUT: generation budget, not reproducible]
+  [dchester_runtime_ns_count_segment_discriminate] Linear vs Logarithmic tied; 8 inputs here decide it (power 0.96)
+[WARNING] Fandango did not generate any valid inputs.
+  [dchester_runtime_ns_count_segment_discriminate] 14s: no new inputs
+  [count_bracketed_selection_beyond] <segment>{24,28} (rung 1, 4000 nodes)
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_bracketed_selection_beyond] 19s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+  [runtime_ns_high] 45s: +8 new input(s), 8 distinct shape(s), 8 measured
+  [seeds] skipped 2 seed(s) over 4096B; parsing one costs more than the request it would seed
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+  [query_len_edge] 94s: +5 new input(s), 5 distinct shape(s), 5 measured
+[jsonpath_js] iter 1: corpus=1785 (+315 new)
+[select] relevance (max |rho| vs any metric on any system): query_len=0.94, count_logical_and_expr=0.89, count_bracketed_selection=0.79, count_basic_expr=0.88, count_child_segment=0.75, count_segment=0.88, count_logical_expr=0.88, count_name_selector=0.79, count_filter_selector=0.88, count_name_sq_chars=0.70, count_or_tail=0.85, count_singular_query=0.80, count_and_tail=0.84, count_rel_singular_query=0.78, count_literal=0.81, count_singular_segment=0.76, count_index_segment=0.76, count_selector=0.80, count_name_segment=0.75, count_test_expr=0.77, count_more_selector=0.77, count_union_selector=0.77, count_S=0.77, count_abs_query=0.71, count_value_argument=0.77, count_escapable=0.55, count_logical_function_expr=0.76, count_regex_argument=0.76, count_name_dq_chars=0.76, count_descendant_segment=0.67, count_filter_query=0.72, count_logical_not_op=0.75, count_int=0.74, count_name_sq_mixed=0.52, count_match_expr=0.73, count_index_selector=0.73, count_value_function_expr=0.72, count_comparison_expr=0.71, count_name_sq_special=0.51, count_comparable=0.71, count_wildcard_selector=0.67, count_ws=0.71, count_name_first=0.54, count_count_expr=0.70, count_abs_singular_query=0.69, count_rel_query=0.69, doc_bytes=0.69, count_name_char=0.52, count_value=0.67, count_value_expr=0.67, count_name_sq_char=0.50, count_length_expr=0.67, count_string_literal=0.66, count_number=0.64, count_iregexp_literal=0.63, count_paren_expr=0.60, count_ire_regexp=0.59, count_name_dq_special=0.53, count_ire_branch=0.59, count_name_dq_char=0.50, count_sq_chars=0.57, count_name_dq_mixed=0.53, count_search_expr=0.56, count_member_name_shorthand=0.55, count_pos_int=0.55, count_ire_piece=0.54, count_more_value=0.54, count_dq_chars=0.54, count_DIGIT1=0.53, count_ire_quantifier=0.53, count_ire_char_class=0.50, count_exp=0.51, count_B=0.52, count_ire_range_quantifier=0.50, count_DIGIT=0.51, count_ire_alt=0.47, count_ire_normal_char=0.49, count_ire_char_class_expr=0.49, count_doc_string=0.50, count_ire_cce1=0.49, count_doc_number=0.49, count_nonempty_object=0.43, count_member=0.43, doc_depth=0.44, count_doc_exp=0.43, count_slice_selector=0.41, count_oct_digit=0.19, count_doc_escape=0.40, count_more_member=0.38, count_D=0.21, count_letter=0.38, count_object=0.37, count_HEXDIG=0.19, count_array=0.34, count_hexchar=0.18, count_sq_special=0.33, count_sq_mixed=0.33, count_frac=0.21, count_doc_name_special=0.31, count_dq_special=0.30, count_doc_name_mixed=0.31, count_dq_mixed=0.30, count_dq_char=0.29, count_non_surrogate=0.13, count_sq_char=0.29, count_high_surrogate=0.19, count_doc_name_char=0.29, count_low_surrogate=0.19, count_doc_special=0.27, count_doc_mixed=0.27, count_doc_char=0.26, count_sign_opt=0.19, count_non_d_hex=0.09, count_nonempty_array=0.13
+[select] comparative relevance (max |rho| vs a between-system ratio): query_len=0.90, count_logical_and_expr=0.64, count_bracketed_selection=0.85, count_basic_expr=0.63, count_child_segment=0.83, count_segment=0.82, count_logical_expr=0.64, count_name_selector=0.81, count_filter_selector=0.63, count_name_sq_chars=0.74, count_or_tail=0.65, count_singular_query=0.72, count_and_tail=0.59, count_rel_singular_query=0.70, count_literal=0.57, count_singular_segment=0.69, count_index_segment=0.68, count_selector=0.66, count_name_segment=0.68, count_test_expr=0.64, count_more_selector=0.63, count_union_selector=0.63, count_S=0.64, count_abs_query=0.63, count_value_argument=0.63, count_escapable=0.63, count_logical_function_expr=0.62, count_regex_argument=0.62, count_name_dq_chars=0.62, count_descendant_segment=0.63, count_filter_query=0.63, count_logical_not_op=0.62, count_int=0.63, count_name_sq_mixed=0.62, count_match_expr=0.60, count_index_selector=0.62, count_value_function_expr=0.62, count_comparison_expr=0.57, count_name_sq_special=0.62, count_comparable=0.57, count_wildcard_selector=0.62, count_ws=0.50, count_name_first=0.61, count_count_expr=0.61, count_abs_singular_query=0.60, count_rel_query=0.60, doc_bytes=0.46, count_name_char=0.60, count_value=0.47, count_value_expr=0.59, count_name_sq_char=0.60, count_length_expr=0.57, count_string_literal=0.45, count_number=0.53, count_iregexp_literal=0.52, count_paren_expr=0.56, count_ire_regexp=0.48, count_name_dq_special=0.56, count_ire_branch=0.47, count_name_dq_char=0.55, count_sq_chars=0.43, count_name_dq_mixed=0.55, count_search_expr=0.52, count_member_name_shorthand=0.54, count_pos_int=0.43, count_ire_piece=0.45, count_more_value=0.37, count_dq_chars=0.42, count_DIGIT1=0.39, count_ire_quantifier=0.45, count_ire_char_class=0.45, count_exp=0.44, count_B=0.39, count_ire_range_quantifier=0.43, count_DIGIT=0.36, count_ire_alt=0.42, count_ire_normal_char=0.42, count_ire_char_class_expr=0.42, count_doc_string=0.33, count_ire_cce1=0.42, count_doc_number=0.38, count_nonempty_object=0.38, count_member=0.37, doc_depth=0.31, count_doc_exp=0.30, count_slice_selector=0.34, count_oct_digit=0.32, count_doc_escape=0.26, count_more_member=0.31, count_D=0.31, count_letter=0.21, count_object=0.28, count_HEXDIG=0.29, count_array=0.25, count_hexchar=0.29, count_sq_special=0.22, count_sq_mixed=0.22, count_frac=0.28, count_doc_name_special=0.23, count_dq_special=0.27, count_doc_name_mixed=0.23, count_dq_mixed=0.27, count_dq_char=0.27, count_non_surrogate=0.27, count_sq_char=0.19, count_high_surrogate=0.27, count_doc_name_char=0.21, count_low_surrogate=0.27, count_doc_special=0.19, count_doc_mixed=0.19, count_doc_char=0.18, count_sign_opt=0.23, count_non_d_hex=0.21, count_nonempty_array=0.13
+[select] scored on the comparison rather than on the metric: count_bracketed_selection (0.79 -> 0.85), count_child_segment (0.75 -> 0.83), count_escapable (0.55 -> 0.63), count_name_sq_mixed (0.52 -> 0.62), count_name_sq_special (0.51 -> 0.62), count_name_first (0.54 -> 0.61), count_name_char (0.52 -> 0.60), count_name_sq_char (0.50 -> 0.60), count_name_dq_char (0.50 -> 0.55), count_oct_digit (0.19 -> 0.32), count_D (0.21 -> 0.31), count_HEXDIG (0.19 -> 0.29), count_hexchar (0.18 -> 0.29), count_frac (0.21 -> 0.28), count_non_surrogate (0.13 -> 0.27), count_high_surrogate (0.19 -> 0.27), count_low_surrogate (0.19 -> 0.27), count_non_d_hex (0.09 -> 0.21)
+[select] dropped count_basic_expr: |rho|=0.99 with count_logical_and_expr, which is already kept
+[select] dropped count_child_segment: |rho|=0.85 with count_bracketed_selection, which is already kept
+[select] dropped count_segment: |rho|=0.80 with count_bracketed_selection, which is already kept
+[select] dropped count_logical_expr: |rho|=0.99 with count_logical_and_expr, which is already kept
+[select] dropped count_filter_selector: over the 4-property cap
+[select] dropped count_name_sq_chars: over the 4-property cap
+[select] dropped count_or_tail: over the 4-property cap
+[select] dropped count_singular_query: over the 4-property cap
+[select] dropped count_and_tail: over the 4-property cap
+[select] dropped count_rel_singular_query: over the 4-property cap
+[select] dropped count_literal: over the 4-property cap
+[select] dropped count_singular_segment: over the 4-property cap
+[select] dropped count_index_segment: over the 4-property cap
+[select] dropped count_selector: over the 4-property cap
+[select] dropped count_name_segment: over the 4-property cap
+[select] dropped count_test_expr: over the 4-property cap
+[select] dropped count_more_selector: over the 4-property cap
+[select] dropped count_union_selector: over the 4-property cap
+[select] dropped count_S: over the 4-property cap
+[select] dropped count_abs_query: over the 4-property cap
+[select] dropped count_value_argument: over the 4-property cap
+[select] dropped count_escapable: over the 4-property cap
+[select] dropped count_logical_function_expr: over the 4-property cap
+[select] dropped count_regex_argument: over the 4-property cap
+[select] dropped count_name_dq_chars: over the 4-property cap
+[select] dropped count_descendant_segment: over the 4-property cap
+[select] dropped count_filter_query: over the 4-property cap
+[select] dropped count_logical_not_op: over the 4-property cap
+[select] dropped count_int: over the 4-property cap
+[select] dropped count_name_sq_mixed: over the 4-property cap
+[select] dropped count_match_expr: over the 4-property cap
+[select] dropped count_index_selector: over the 4-property cap
+[select] dropped count_value_function_expr: over the 4-property cap
+[select] dropped count_comparison_expr: over the 4-property cap
+[select] dropped count_name_sq_special: over the 4-property cap
+[select] dropped count_comparable: over the 4-property cap
+[select] dropped count_wildcard_selector: over the 4-property cap
+[select] dropped count_ws: over the 4-property cap
+[select] dropped count_name_first: over the 4-property cap
+[select] dropped count_count_expr: over the 4-property cap
+[select] dropped count_abs_singular_query: over the 4-property cap
+[select] dropped count_rel_query: over the 4-property cap
+[select] dropped doc_bytes: over the 4-property cap
+[select] dropped count_name_char: over the 4-property cap
+[select] dropped count_value: over the 4-property cap
+[select] dropped count_value_expr: over the 4-property cap
+[select] dropped count_name_sq_char: over the 4-property cap
+[select] dropped count_length_expr: over the 4-property cap
+[select] dropped count_string_literal: over the 4-property cap
+[select] dropped count_number: over the 4-property cap
+[select] dropped count_iregexp_literal: over the 4-property cap
+[select] dropped count_paren_expr: over the 4-property cap
+[select] dropped count_ire_regexp: over the 4-property cap
+[select] dropped count_name_dq_special: over the 4-property cap
+[select] dropped count_ire_branch: over the 4-property cap
+[select] dropped count_name_dq_char: over the 4-property cap
+[select] dropped count_sq_chars: over the 4-property cap
+[select] dropped count_name_dq_mixed: over the 4-property cap
+[select] dropped count_search_expr: over the 4-property cap
+[select] dropped count_member_name_shorthand: over the 4-property cap
+[select] dropped count_pos_int: over the 4-property cap
+[select] dropped count_ire_piece: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] dropped count_dq_chars: over the 4-property cap
+[select] dropped count_DIGIT1: over the 4-property cap
+[select] dropped count_ire_quantifier: over the 4-property cap
+[select] dropped count_ire_char_class: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_B: over the 4-property cap
+[select] dropped count_ire_range_quantifier: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_ire_alt: over the 4-property cap
+[select] dropped count_ire_normal_char: over the 4-property cap
+[select] dropped count_ire_char_class_expr: over the 4-property cap
+[select] dropped count_doc_string: over the 4-property cap
+[select] dropped count_ire_cce1: over the 4-property cap
+[select] dropped count_doc_number: over the 4-property cap
+[select] dropped count_nonempty_object: over the 4-property cap
+[select] dropped count_member: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_doc_exp: over the 4-property cap
+[select] dropped count_slice_selector: over the 4-property cap
+[select] dropped count_oct_digit: over the 4-property cap
+[select] dropped count_doc_escape: over the 4-property cap
+[select] dropped count_more_member: over the 4-property cap
+[select] dropped count_D: over the 4-property cap
+[select] dropped count_letter: over the 4-property cap
+[select] dropped count_object: over the 4-property cap
+[select] dropped count_HEXDIG: over the 4-property cap
+[select] dropped count_array: over the 4-property cap
+[select] dropped count_hexchar: over the 4-property cap
+[select] dropped count_sq_special: over the 4-property cap
+[select] dropped count_sq_mixed: over the 4-property cap
+[select] dropped count_frac: over the 4-property cap
+[select] dropped count_doc_name_special: over the 4-property cap
+[select] dropped count_dq_special: over the 4-property cap
+[select] dropped count_doc_name_mixed: over the 4-property cap
+[select] dropped count_dq_mixed: over the 4-property cap
+[select] dropped count_dq_char: over the 4-property cap
+[select] dropped count_non_surrogate: over the 4-property cap
+[select] dropped count_sq_char: over the 4-property cap
+[select] dropped count_high_surrogate: over the 4-property cap
+[select] dropped count_doc_name_char: over the 4-property cap
+[select] dropped count_low_surrogate: over the 4-property cap
+[select] dropped count_doc_special: over the 4-property cap
+[select] dropped count_doc_mixed: over the 4-property cap
+[select] dropped count_doc_char: over the 4-property cap
+[select] dropped count_sign_opt: over the 4-property cap
+[select] dropped count_non_d_hex: over the 4-property cap
+[select] dropped count_nonempty_array: over the 4-property cap
+[select] count_bracketed_selection stands for count_child_segment, count_segment (indistinguishable here)
+[select] count_logical_and_expr stands for count_basic_expr, count_logical_expr (indistinguishable here)
+[select] joint fit uses 4 of 114 properties: count_bracketed_selection, count_name_selector, count_logical_and_expr, query_len (1,296 model fits)
+[jsonpath_js] loop targets 4 of 114 properties: count_bracketed_selection, count_name_selector, count_logical_and_expr, query_len
+[jsonpath_js] targeting 8 regions: runtime_ns_divergence, count_name_selector_dominance0, count_bracketed_selection_undecided0, count_bracketed_selection_x_query_len_joint, dchester_runtime_ns_count_name_selector_discriminate, query_len_beyond, runtime_ns_high, query_len_edge
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+  [runtime_ns_divergence] 125s: +1 new input(s), 1 distinct shape(s), 1 measured
+  [count_name_selector_dominance0] settling count_name_selector =0 would decide 3 dominance verdict(s): dchester vs jsonpathly (runtime_ns undecided) and 2 more -> <segment>{0,0}
+  [count_name_selector_dominance0] 17s: +10 new input(s), 1 distinct shape(s), 10 measured
+  [count_bracketed_selection_undecided0] 14 comparison(s) undecided in count_bracketed_selection [11.7,21.63): dchester vs jsonpathly on runtime_ns and 13 more -> <segment>{11,14}
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_bracketed_selection_undecided0] 21s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_bracketed_selection_x_query_len_joint] query_len spans 1..10326 overall, 98..2013 at count_bracketed_selection in [8,9.6]; maximizing it at <segment>{8,10} (held, best 2013)
+  [count_bracketed_selection_x_query_len_joint] 6 of 10 seeds do not parse; seeding with 4.
+[budget] generation cut at 300s after 75 generations (21 solutions); this request is not reproducible
+  [soft] maximizing query_len: 21 candidates, best=1975, keeping 10 spanning 1975..1974
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_bracketed_selection_x_query_len_joint] 354s: +10 new input(s), 2 distinct shape(s), 10 measured [CUT: generation budget, not reproducible]
+  [dchester_runtime_ns_count_name_selector_discriminate] Logarithmic vs Linear tied; 5 inputs here decide it (power 0.99)
+  [dchester_runtime_ns_count_name_selector_discriminate] 43s: +1 new input(s), 1 distinct shape(s), 1 measured
+  [query_len_beyond] rung 2
+[budget] generation cut at 300s after 5 generations (4 solutions); this request is not reproducible
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+  [query_len_beyond] 489s: +4 new input(s), 4 distinct shape(s), 4 measured [CUT: generation budget, not reproducible]
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+  [runtime_ns_high] 44s: +1 new input(s), 1 distinct shape(s), 1 measured
+  [seeds] skipped 2 seed(s) over 4096B; parsing one costs more than the request it would seed
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+  [query_len_edge] 81s: +1 new input(s), 1 distinct shape(s), 1 measured
+[jsonpath_js] iter 2: corpus=1975 (+190 new)
+[jsonpath_js] targeting 8 regions: runtime_ns_divergence, count_name_selector_dominance0, count_bracketed_selection_undecided0, count_logical_and_expr_x_query_len_joint, dchester_runtime_ns_count_name_selector_discriminate, query_len_beyond, runtime_ns_high, query_len_edge
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+  [runtime_ns_divergence] 110s: no new inputs
+  [count_name_selector_dominance0] settling count_name_selector =0 would decide 2 dominance verdict(s): dchester vs rfc9535 (runtime_ns undecided) and 1 more -> <segment>{0,0}
+  [count_name_selector_dominance0] 16s: +10 new input(s), 1 distinct shape(s), 10 measured
+  [count_bracketed_selection_undecided0] 14 comparison(s) undecided in count_bracketed_selection [11.7,21.63): dchester vs jsonpathly on runtime_ns and 13 more -> <segment>{11,14}
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_bracketed_selection_undecided0] 21s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_logical_and_expr_x_query_len_joint] query_len spans 1..12589 overall, 1571..2055 at count_logical_and_expr in [15,18]; maximizing it at <segment>{10,12} (held, best 2055)
+  [count_logical_and_expr_x_query_len_joint] 10 of 10 seeds do not parse; seeding with 0.
+[budget] generation cut at 300s after 65 generations (24 solutions); this request is not reproducible
+  [soft] maximizing query_len: 24 candidates, best=2054, keeping 10 spanning 2054..1908
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_logical_and_expr_x_query_len_joint] 345s: +10 new input(s), 2 distinct shape(s), 10 measured [CUT: generation budget, not reproducible]
+  [dchester_runtime_ns_count_name_selector_discriminate] Linear vs Logarithmic tied; 5 inputs here decide it (power 0.97)
+  [seeds] skipped 2 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [dchester_runtime_ns_count_name_selector_discriminate] 44s: +2 new input(s), 2 distinct shape(s), 2 measured
+  [query_len_beyond] rung 1
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[WARNING] recursion limit hit generating from ./results/rq1/20261002-2338-jsonpath_js/run1/jsonpath_js/grammars/jsonpath_js_target_5_query_len_beyond.fan; lower max_repetition or max_nodes for this grammar.
+  [query_len_beyond] 4s: no new inputs
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+  [runtime_ns_high] 109s: +1 new input(s), 1 distinct shape(s), 1 measured
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+  [query_len_edge] 83s: +2 new input(s), 1 distinct shape(s), 2 measured
+[jsonpath_js] iter 3: corpus=2150 (+175 new)
+[select] relevance (max |rho| vs any metric on any system): query_len=0.94, count_segment=0.89, count_bracketed_selection=0.80, count_basic_expr=0.88, count_name_selector=0.81, count_logical_and_expr=0.88, count_child_segment=0.78, count_logical_expr=0.87, count_filter_selector=0.87, count_name_sq_chars=0.73, count_or_tail=0.85, count_int=0.78, count_and_tail=0.84, count_index_selector=0.77, count_singular_query=0.81, count_rel_singular_query=0.79, count_more_selector=0.80, count_selector=0.80, count_union_selector=0.80, count_name_dq_chars=0.79, count_literal=0.79, count_name_sq_mixed=0.57, count_test_expr=0.79, count_escapable=0.60, count_name_sq_special=0.57, count_S=0.79, count_name_first=0.61, count_name_sq_char=0.57, count_value_argument=0.79, count_singular_segment=0.77, count_index_segment=0.77, count_logical_function_expr=0.78, count_regex_argument=0.78, count_name_segment=0.76, count_descendant_segment=0.71, count_logical_not_op=0.77, count_filter_query=0.75, count_value_function_expr=0.74, count_name_char=0.59, count_match_expr=0.74, count_abs_query=0.73, count_comparison_expr=0.72, count_comparable=0.72, count_wildcard_selector=0.72, count_ws=0.72, count_rel_query=0.71, doc_bytes=0.70, count_count_expr=0.69, count_abs_singular_query=0.68, count_value=0.67, count_paren_expr=0.61, count_value_expr=0.67, count_length_expr=0.65, count_number=0.65, count_search_expr=0.58, count_iregexp_literal=0.64, count_member_name_shorthand=0.63, count_pos_int=0.64, count_string_literal=0.62, count_DIGIT1=0.62, count_ire_regexp=0.59, count_name_dq_mixed=0.55, count_DIGIT=0.59, count_name_dq_special=0.54, count_ire_branch=0.59, count_ire_piece=0.55, count_more_value=0.55, count_ire_quantifier=0.54, count_ire_char_class=0.52, count_name_dq_char=0.52, count_ire_range_quantifier=0.52, count_sq_chars=0.54, count_ire_normal_char=0.53, count_ire_cce1=0.53, count_ire_alt=0.51, count_exp=0.53, count_ire_char_class_expr=0.52, count_doc_string=0.52, doc_depth=0.48, count_doc_number=0.50, count_dq_chars=0.52, count_B=0.51, count_D=0.29, count_nonempty_object=0.45, count_member=0.45, count_HEXDIG=0.28, count_doc_exp=0.44, count_hexchar=0.27, count_object=0.41, count_doc_escape=0.40, count_more_member=0.38, count_high_surrogate=0.27, count_letter=0.37, count_low_surrogate=0.27, count_slice_selector=0.36, count_array=0.35, count_sq_special=0.32, count_sq_mixed=0.32, count_doc_name_special=0.31, count_oct_digit=0.19, count_doc_name_mixed=0.31, count_doc_name_char=0.28, count_non_surrogate=0.23, count_frac=0.18, count_dq_special=0.28, count_dq_mixed=0.28, count_doc_special=0.27, count_dq_char=0.27, count_doc_mixed=0.27, count_doc_char=0.27, count_sq_char=0.27, count_sign_opt=0.13, count_non_d_hex=0.18, count_nonempty_array=0.17
+[select] comparative relevance (max |rho| vs a between-system ratio): query_len=0.93, count_segment=0.82, count_bracketed_selection=0.85, count_basic_expr=0.65, count_name_selector=0.84, count_logical_and_expr=0.65, count_child_segment=0.82, count_logical_expr=0.65, count_filter_selector=0.64, count_name_sq_chars=0.79, count_or_tail=0.65, count_int=0.71, count_and_tail=0.65, count_index_selector=0.70, count_singular_query=0.70, count_rel_singular_query=0.68, count_more_selector=0.68, count_selector=0.68, count_union_selector=0.68, count_name_dq_chars=0.68, count_literal=0.63, count_name_sq_mixed=0.67, count_test_expr=0.64, count_escapable=0.67, count_name_sq_special=0.67, count_S=0.64, count_name_first=0.66, count_name_sq_char=0.66, count_value_argument=0.65, count_singular_segment=0.66, count_index_segment=0.65, count_logical_function_expr=0.64, count_regex_argument=0.64, count_name_segment=0.65, count_descendant_segment=0.65, count_logical_not_op=0.62, count_filter_query=0.64, count_value_function_expr=0.63, count_name_char=0.64, count_match_expr=0.60, count_abs_query=0.61, count_comparison_expr=0.64, count_comparable=0.64, count_wildcard_selector=0.63, count_ws=0.52, count_rel_query=0.64, doc_bytes=0.49, count_count_expr=0.57, count_abs_singular_query=0.57, count_value=0.51, count_paren_expr=0.62, count_value_expr=0.58, count_length_expr=0.55, count_number=0.57, count_search_expr=0.60, count_iregexp_literal=0.53, count_member_name_shorthand=0.59, count_pos_int=0.54, count_string_literal=0.41, count_DIGIT1=0.51, count_ire_regexp=0.52, count_name_dq_mixed=0.53, count_DIGIT=0.48, count_name_dq_special=0.52, count_ire_branch=0.52, count_ire_piece=0.51, count_more_value=0.45, count_ire_quantifier=0.51, count_ire_char_class=0.51, count_name_dq_char=0.51, count_ire_range_quantifier=0.50, count_sq_chars=0.40, count_ire_normal_char=0.49, count_ire_cce1=0.49, count_ire_alt=0.49, count_exp=0.48, count_ire_char_class_expr=0.49, count_doc_string=0.38, doc_depth=0.41, count_doc_number=0.41, count_dq_chars=0.38, count_B=0.39, count_D=0.39, count_nonempty_object=0.37, count_member=0.36, count_HEXDIG=0.38, count_doc_exp=0.35, count_hexchar=0.37, count_object=0.35, count_doc_escape=0.26, count_more_member=0.31, count_high_surrogate=0.36, count_letter=0.20, count_low_surrogate=0.36, count_slice_selector=0.29, count_array=0.31, count_sq_special=0.22, count_sq_mixed=0.22, count_doc_name_special=0.21, count_oct_digit=0.30, count_doc_name_mixed=0.22, count_doc_name_char=0.20, count_non_surrogate=0.25, count_frac=0.25, count_dq_special=0.24, count_dq_mixed=0.24, count_doc_special=0.24, count_dq_char=0.24, count_doc_mixed=0.23, count_doc_char=0.24, count_sq_char=0.19, count_sign_opt=0.21, count_non_d_hex=0.21, count_nonempty_array=0.12
+[select] scored on the comparison rather than on the metric: count_bracketed_selection (0.80 -> 0.85), count_name_sq_chars (0.73 -> 0.79), count_name_sq_mixed (0.57 -> 0.67), count_escapable (0.60 -> 0.67), count_name_sq_special (0.57 -> 0.67), count_name_first (0.61 -> 0.66), count_name_sq_char (0.57 -> 0.66), count_name_char (0.59 -> 0.64), count_D (0.29 -> 0.39), count_HEXDIG (0.28 -> 0.38), count_hexchar (0.27 -> 0.37), count_high_surrogate (0.27 -> 0.36), count_low_surrogate (0.27 -> 0.36), count_oct_digit (0.19 -> 0.30), count_frac (0.18 -> 0.25), count_sign_opt (0.13 -> 0.21)
+[select] dropped count_bracketed_selection: |rho|=0.82 with count_segment, which is already kept
+[select] dropped count_logical_and_expr: over the 4-property cap
+[select] dropped count_child_segment: over the 4-property cap
+[select] dropped count_logical_expr: over the 4-property cap
+[select] dropped count_filter_selector: over the 4-property cap
+[select] dropped count_name_sq_chars: over the 4-property cap
+[select] dropped count_or_tail: over the 4-property cap
+[select] dropped count_int: over the 4-property cap
+[select] dropped count_and_tail: over the 4-property cap
+[select] dropped count_index_selector: over the 4-property cap
+[select] dropped count_singular_query: over the 4-property cap
+[select] dropped count_rel_singular_query: over the 4-property cap
+[select] dropped count_more_selector: over the 4-property cap
+[select] dropped count_selector: over the 4-property cap
+[select] dropped count_union_selector: over the 4-property cap
+[select] dropped count_name_dq_chars: over the 4-property cap
+[select] dropped count_literal: over the 4-property cap
+[select] dropped count_name_sq_mixed: over the 4-property cap
+[select] dropped count_test_expr: over the 4-property cap
+[select] dropped count_escapable: over the 4-property cap
+[select] dropped count_name_sq_special: over the 4-property cap
+[select] dropped count_S: over the 4-property cap
+[select] dropped count_name_first: over the 4-property cap
+[select] dropped count_name_sq_char: over the 4-property cap
+[select] dropped count_value_argument: over the 4-property cap
+[select] dropped count_singular_segment: over the 4-property cap
+[select] dropped count_index_segment: over the 4-property cap
+[select] dropped count_logical_function_expr: over the 4-property cap
+[select] dropped count_regex_argument: over the 4-property cap
+[select] dropped count_name_segment: over the 4-property cap
+[select] dropped count_descendant_segment: over the 4-property cap
+[select] dropped count_logical_not_op: over the 4-property cap
+[select] dropped count_filter_query: over the 4-property cap
+[select] dropped count_value_function_expr: over the 4-property cap
+[select] dropped count_name_char: over the 4-property cap
+[select] dropped count_match_expr: over the 4-property cap
+[select] dropped count_abs_query: over the 4-property cap
+[select] dropped count_comparison_expr: over the 4-property cap
+[select] dropped count_comparable: over the 4-property cap
+[select] dropped count_wildcard_selector: over the 4-property cap
+[select] dropped count_ws: over the 4-property cap
+[select] dropped count_rel_query: over the 4-property cap
+[select] dropped doc_bytes: over the 4-property cap
+[select] dropped count_count_expr: over the 4-property cap
+[select] dropped count_abs_singular_query: over the 4-property cap
+[select] dropped count_value: over the 4-property cap
+[select] dropped count_paren_expr: over the 4-property cap
+[select] dropped count_value_expr: over the 4-property cap
+[select] dropped count_length_expr: over the 4-property cap
+[select] dropped count_number: over the 4-property cap
+[select] dropped count_search_expr: over the 4-property cap
+[select] dropped count_iregexp_literal: over the 4-property cap
+[select] dropped count_member_name_shorthand: over the 4-property cap
+[select] dropped count_pos_int: over the 4-property cap
+[select] dropped count_string_literal: over the 4-property cap
+[select] dropped count_DIGIT1: over the 4-property cap
+[select] dropped count_ire_regexp: over the 4-property cap
+[select] dropped count_name_dq_mixed: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_name_dq_special: over the 4-property cap
+[select] dropped count_ire_branch: over the 4-property cap
+[select] dropped count_ire_piece: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] dropped count_ire_quantifier: over the 4-property cap
+[select] dropped count_ire_char_class: over the 4-property cap
+[select] dropped count_name_dq_char: over the 4-property cap
+[select] dropped count_ire_range_quantifier: over the 4-property cap
+[select] dropped count_sq_chars: over the 4-property cap
+[select] dropped count_ire_normal_char: over the 4-property cap
+[select] dropped count_ire_cce1: over the 4-property cap
+[select] dropped count_ire_alt: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_ire_char_class_expr: over the 4-property cap
+[select] dropped count_doc_string: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_doc_number: over the 4-property cap
+[select] dropped count_dq_chars: over the 4-property cap
+[select] dropped count_B: over the 4-property cap
+[select] dropped count_D: over the 4-property cap
+[select] dropped count_nonempty_object: over the 4-property cap
+[select] dropped count_member: over the 4-property cap
+[select] dropped count_HEXDIG: over the 4-property cap
+[select] dropped count_doc_exp: over the 4-property cap
+[select] dropped count_hexchar: over the 4-property cap
+[select] dropped count_object: over the 4-property cap
+[select] dropped count_doc_escape: over the 4-property cap
+[select] dropped count_more_member: over the 4-property cap
+[select] dropped count_high_surrogate: over the 4-property cap
+[select] dropped count_letter: over the 4-property cap
+[select] dropped count_low_surrogate: over the 4-property cap
+[select] dropped count_slice_selector: over the 4-property cap
+[select] dropped count_array: over the 4-property cap
+[select] dropped count_sq_special: over the 4-property cap
+[select] dropped count_sq_mixed: over the 4-property cap
+[select] dropped count_doc_name_special: over the 4-property cap
+[select] dropped count_oct_digit: over the 4-property cap
+[select] dropped count_doc_name_mixed: over the 4-property cap
+[select] dropped count_doc_name_char: over the 4-property cap
+[select] dropped count_non_surrogate: over the 4-property cap
+[select] dropped count_frac: over the 4-property cap
+[select] dropped count_dq_special: over the 4-property cap
+[select] dropped count_dq_mixed: over the 4-property cap
+[select] dropped count_doc_special: over the 4-property cap
+[select] dropped count_dq_char: over the 4-property cap
+[select] dropped count_doc_mixed: over the 4-property cap
+[select] dropped count_doc_char: over the 4-property cap
+[select] dropped count_sq_char: over the 4-property cap
+[select] dropped count_sign_opt: over the 4-property cap
+[select] dropped count_non_d_hex: over the 4-property cap
+[select] dropped count_nonempty_array: over the 4-property cap
+[select] count_segment stands for count_bracketed_selection (indistinguishable here)
+[select] joint fit uses 4 of 114 properties: count_segment, count_name_selector, count_basic_expr, query_len (1,296 model fits)
+[jsonpath_js] loop targets 4 of 114 properties: count_segment, count_name_selector, count_basic_expr, query_len
+[jsonpath_js] targeting 8 regions: runtime_ns_divergence, count_name_selector_dominance0, count_basic_expr_undecided0, count_segment_x_query_len_joint, jsonpathly_rss_count_basic_expr_discriminate, query_len_beyond, runtime_ns_high, query_len_edge
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] plus: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+  [runtime_ns_divergence] 41s: +2 new input(s), 2 distinct shape(s), 2 measured
+  [count_name_selector_dominance0] settling count_name_selector =0 would decide 2 dominance verdict(s): dchester vs rfc9535 (runtime_ns undecided) and 1 more -> <segment>{0,0}
+  [count_name_selector_dominance0] 17s: +10 new input(s), 1 distinct shape(s), 10 measured
+  [count_basic_expr_undecided0] 14 comparison(s) undecided in count_basic_expr [6.325,15.91): dchester vs jsonpathly on runtime_ns and 13 more -> <segment>{3,5}
+[metrics] dchester: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] p3: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_basic_expr_undecided0] 21s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_segment_x_query_len_joint] query_len spans 1..12589 overall, 45..12589 at count_segment in [10,12]; maximizing it at <segment>{10,12} (held, best 1.259e+04)
+  [seeds] skipped 1 seed(s) over 4096B; parsing one costs more than the request it would seed
+  [count_segment_x_query_len_joint] 3 of 9 seeds do not parse; seeding with 6.

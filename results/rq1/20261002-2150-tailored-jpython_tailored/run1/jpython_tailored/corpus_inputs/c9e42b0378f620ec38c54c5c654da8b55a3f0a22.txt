@@ -1,0 +1,3 @@
+$..c
+@@@
+{"bdacadaab":[54,"zzy","x",0,"x",1,0,0,"x",0,0,"zyx",8,"y"],"bbdbccba":[22,0,"zyx",8,4,"zxz","yyx",9,29,0,0,"zx",4,"yz",4,0,"y","x",7,"z",3,0,41,"yx","yx","zyy"],"dbbcdbad":["x",0,"yx",0,0,"yx",0,"y","zx","yy",20,0,"yy","xz","yz"],"aacaddaada":[68,9,4,"xzx","yzy",0,9,0,80,0,"y","y",5,60,8,4,"z","x",5,"z","yzx","yzy","z"],"acdbdcdabbc":[9,0,"yzy","z","xxy",0,"z",60,0,4,"zz",9,"yzz",8,8,2,0,"z",0,"zyx",2,"yyy",3,3,"y","zzx"],"cdabcbdbad":["zyz",0,0,"zxz","x","y","xxz","xy","xzy","zzx",5,"yy",0,0,"zxy","yy",0,"y","zzx","x",0],"dcdcccdb":[0,0,"xx",40,0,0,0,3,"y",38,0,"xy","y",0,70,"zy",7,78,"x",7,"xzy",8,5,57,71,0,0,"yxx","xyz"],"abbbbadbb":["zxy","yzx",10,"zzz",71,0,7,96,"yx","y","zy",56,"yyx","xyz","y",60,0,"xy","zyx",74,"xzz",6,0,"zxz","xzy",0]}

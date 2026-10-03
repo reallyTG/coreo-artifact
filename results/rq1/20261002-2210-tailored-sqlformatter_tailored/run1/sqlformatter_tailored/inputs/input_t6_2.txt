@@ -1,0 +1,1 @@
+SELECT c_cdaab FROM a_ WHERE e11ee._d1dbda IN(5806,a1c OR 60 OR 016 OR _adeb1be.b AND 23 , 941,_acadd._1cbcad_,acb.c11ccdcc_c ,823 OR ebab.ab_c AND 5639,337914464 ,e__ecbddaa1 ,d1b OR d_.cee , dac1ebc1e.ebd1 ,c1a.c_eb_a_dc_, 60 , _deee1dae1_ OR b AND 5 ,cebeed, ad_da1_1__1.c1aa, 480128 AND 3,b1d );

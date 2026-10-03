@@ -1,0 +1,73 @@
+$[?(	 
+		
+
+
+
+
+match(length(@[0][140300007304]['']['cc'][-8030]['db']	
+
+),"[yyx-zx-z]"  
+ 
+
+)||match(
+ 	length($[86])	,"[x-zzx-z][^x-za-dbx-z][^a-dxa-dxa-dx-z][zx-za-da-d]{1,3}"
+			
+	)||!match("",	
+
+
+
+	
+"[^a-da-dzx-zc][x-zxx]*[aa-da-da-dx-za-d]?[^a-da-da-da-da-dx-za-d][^bx-zxxaca-d]?[^xx-za-dc]+[^x-zza-dyx-z]+")&&!match(
+
+  	 
+-0.080612220,"[x-za-dx-zzx-z]?|[^dx-zca-dz]?[^a-da-da-dx-zx-zx-z][^a-da-dzy]|[x-za-ddx-za-d]+[a-da-dx-za-da-dx-z][a-dax-zx-za-d]+[xa-da-da-da-dx-z][^a-dxzb]{6,}[a-da-dbbxa-d]{0}[^a-da-da-da-da-dya-d][^x-zx-za-d][^bx-za-dyy]|[yx-za-d][x-za-da-dy]+[^x-zx-zxa-dxc]|[^bx-zx-za-da-d]") 
+	
+&&
+  match(
+ 
+	$[-6520],
+
+
+	 "[^x-zxa-d]*[yx-zx-za-da-d]+[^a-dcz][^x-zaa-da-da-d]{1,2}[^x-zxa-dx-za-d]*[^xyx-za-dx-z]?[dx-za-dax-zx-za-d]?[a-dx-zzda-d][a-dx-zx-za-dx-zb][dx-zd]+"
+) 		 &&!   	match(@.bda.b,
+ 	'[^x-zx-za-da-d]+[^xa-da-dcxaa-d][^x-zcx-zx-z][x-zx-za-da-dx-z]+[zxca-dx-zx][a-dzx-za-dd][cba-d]'
+ 
+
+	)&&		   !	 
+
+match(	
+
+
+length(false),	 	"[x-zx-zx-zx-za-d]?[^a-dbd][^x-za-dx-zzxd]+[x-zxa-dcx][^x-za-dx-za-d]?[^x-za-da-d]|[^x-za-dba-da-dy][a-da-dcx-za-da-d]*|[^x-zya-d][^a-dax-zx-za-d]*[^yx-zxza-d]+[a-dx-za-d]+[zx-za-da-dbx-z][x-za-dx-zx-za-da-d][^x-za-dccd][x-zaxx-zx-zax]*[^x-zx-zx-zd]*"
+
+
+ )&&
+
+
+
+ !
+
+		match(	 
+value(  		 	
+
+	@[?(!match($[-1]
+
+	 
+  ,"[^zyx-z][a-da-dxx-z]|[^x-zza-dya-dx-za-d]?|[^a-dyx-zx-z]+|[bza-da-da-da-d][^dx-za-dx-zbx-za-d]?|[zx-za-dyx-z]+[^a-dx-zx-zza-d][^x-za-dba-d][dx-zcd]+[^xa-dc]*[^x-zyya][^x-zdcx-za-da-dz]+[^x-za-dx-za-dx-zb][a-dcx-zx-zx-zx-z]|[^x-zza-dx-za-d]?[x-zx-zx-za-d]+|[^x-zx-zx-za-dx]*[dx-za-da-d][x-za-dzba-db]{0,}[^a-dx-zzx-za-d][x-za-da-da-dx-z]*[xx-zb]{2,4}[^aa-dxya-da][a-ddx-z]{0,2}[^a-dx-zx-za-da-da-d]+|[^a-da-dx-zda-da-d]{2,4}[^dda-dx-zx-za-d]*[dax-zxx-zy]{1}[yx-zx-za-d][^a-dxaa-dx-z][^dx-za-d]?[^a-da-da-dya-d][x-zx-zx-zx-zaz]?|[x-za-dx-zx-za-d]+[^a-dya-d]{1,3}|[x-zxcx]?[a-dda-da-dx-za-da-d]{0}[cxa-d]{0,}[^xdx-z]*[^a-dxbzxa-d][^xx-zya-dx-zax-z]" 
+
+	)
+ 
+&&
+
+
+	 	 ! 
+match( 			
+ 		$.cb
+ ,'[^x-zx-zyb][^a-dx-zx-za-dza-d][a-dax-za-dzx-z]?[^cxa-d]*[^a-da-dz]{0,}[zx-zz]{2,4}[^x-zx-zyx-zcx-zz]*[^x-za-da-dx-zx-z]?')
+	
+
+ 	 &&	match(
+
+		 $,"[a-dcxzx-z][x-zx-zz][^aa-dx-za]{0,1}[^ca-dx-z]{1,3}[^x-za-da-dx-z][^x-za-da-dx-za-d]|[x-zx-zx-za-da][a-dxa-da-db]*[^a-dx-zx-zx-z]+|[x-zx-zx-zx-zxa-dd][^a-dyx-zybaa-d]*[x-za-dx-za-d][a-dzd][x-zx-za-d][^x-zbx-zx-za-db][^yzx-zx-zcz]|[ca-dx-za-d][^a-da-daa-da-da-db][^za-dx-zx-zzx-zx-z][aba-dda-d]+[^a-da-da-dzya-d]?|[^a-da-dx-za-dya-d][zx-zyax-zzz][^a-dx-za-da-dzx-z][a-da-da-dx-z]+[^x-zyx-za-dx-zx-z]+[x-za-dx-zx-zx-zx-z]*[^x-zx-za-dx-za][^bbx-zbx-zx-zx]?[^x-za-da-da-da-dx-z][^a-dx-za-da-dy]?") )]),'[^x-zx-za-d]'))]
+@@@
+[null]

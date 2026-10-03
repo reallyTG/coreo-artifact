@@ -1,0 +1,1622 @@
+$ ./.venv/bin/python -u run.py jsonpath_plus_latest --seed=20260922 --output-dir=./results/rq1/20261003-0208-jsonpath_plus_latest/run1/jsonpath_plus_latest --max-wall-seconds=3420
+
+[props] max_repetition=20 (bounds * and + during generation)
+[props]   count_B                            0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_D                            0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_DIGIT1                       0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_DIGIT                        0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_HEXDIG                       0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_S                            0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_abs_query                    0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_abs_singular_query           0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_and_tail                     0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_array                        0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_basic_expr                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_bracketed_selection          0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_child_segment                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_comparable                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_comparison_expr              0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_count_expr                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_descendant_segment           0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_doc_char                     0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_escape                   0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_exp                      0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_mixed                    0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_name_char                0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_name_mixed               0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_name_special             0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_number                   0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_special                  0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_doc_string                   0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_dq_char                      0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_dq_chars                     0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_dq_mixed                     0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_dq_special                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_escapable                    0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_exp                          0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_filter_query                 0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_filter_selector              0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_frac                         0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_hexchar                      0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_high_surrogate               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_index_segment                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_index_selector               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_int                          0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_alt                      0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_branch                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_cce1                     0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_char_class               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_char_class_expr          0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_normal_char              0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_piece                    0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_quantifier               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_range_quantifier         0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ire_regexp                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_iregexp_literal              0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_length_expr                  0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_letter                       0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_literal                      0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_logical_and_expr             0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_logical_expr                 0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_logical_function_expr        0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_logical_not_op               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_low_surrogate                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_match_expr                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_member                       0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_member_name_shorthand        0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_more_member                  0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_more_selector                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_more_value                   0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_name_char                    0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_dq_char                 0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_dq_chars                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_dq_mixed                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_dq_special              0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_first                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_segment                 0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_selector                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_sq_char                 0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_sq_chars                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_sq_mixed                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_name_sq_special              0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_non_d_hex                    0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_non_surrogate                0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_nonempty_array               0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_nonempty_object              0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_number                       0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_object                       0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_oct_digit                    0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_or_tail                      0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_paren_expr                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_pos_int                      0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_regex_argument               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_rel_query                    0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_rel_singular_query           0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_search_expr                  0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_segment                      0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_selector                     0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sign_opt                     0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_singular_query               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_singular_segment             0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_slice_selector               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sq_char                      0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sq_chars                     0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sq_mixed                     0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_sq_special                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_string_literal               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_test_expr                    0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_union_selector               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_value                        0..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props]   count_value_argument               0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_value_expr                   0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_value_function_expr          0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_wildcard_selector            0..inf  governed by <segment>* in <jsonpath_query>, capped at 20 by max_repetition
+[props]   count_ws                           2..inf  governed by <more_member>* in <nonempty_object>, capped at 20 by max_repetition
+[props] identical to count_and_tail, not derived: count_and_op
+[props] identical to count_comparison_expr, not derived: count_comparison_op, count_comparison_op_s
+[props] identical to count_doc_exp, not derived: count_doc_e
+[props] identical to count_doc_number, not derived: count_doc_int, count_doc_num_int
+[props] identical to count_doc_string, not derived: count_doc_chars
+[props] identical to count_exp, not derived: count_exp_e
+[props] identical to count_high_surrogate, not derived: count_high_second
+[props] identical to count_ire_char_class_expr, not derived: count_ire_caret_opt
+[props] identical to count_ire_piece, not derived: count_ire_atom
+[props] identical to count_logical_expr, not derived: count_logical_or_expr
+[props] identical to count_low_surrogate, not derived: count_low_second
+[props] identical to count_member, not derived: count_doc_name_chars, count_member_name
+[props] identical to count_name_selector, not derived: count_name_string_literal
+[props] identical to count_number, not derived: count_num_int
+[props] identical to count_or_tail, not derived: count_or_op
+[props] identical to count_paren_expr, not derived: count_paren_body
+[props] identical to count_slice_selector, not derived: count_end_opt, count_start_opt, count_step_opt
+[props] fixed count, not derived: <doc>, <doc_root>, <jsonpath_query>
+[jsonpath_plus_latest] properties: ['count_segment', 'count_descendant_segment', 'count_member_name_shorthand', 'count_name_first', 'count_name_char', 'count_wildcard_selector', 'count_bracketed_selection', 'count_union_selector', 'count_index_selector', 'count_int', 'count_pos_int', 'count_DIGIT1', 'count_DIGIT', 'count_name_selector', 'count_name_sq_chars', 'count_name_sq_mixed', 'count_name_sq_special', 'count_escapable', 'count_hexchar', 'count_non_surrogate', 'count_non_d_hex', 'count_oct_digit', 'count_D', 'count_HEXDIG', 'count_high_surrogate', 'count_low_surrogate', 'count_name_sq_char', 'count_name_dq_chars', 'count_name_dq_mixed', 'count_name_dq_special', 'count_name_dq_char', 'count_more_selector', 'count_selector', 'count_slice_selector', 'count_filter_selector', 'count_B', 'count_logical_expr', 'count_logical_and_expr', 'count_basic_expr', 'count_test_expr', 'count_S', 'count_logical_function_expr', 'count_search_expr', 'count_value_argument', 'count_literal', 'count_string_literal', 'count_dq_chars', 'count_letter', 'count_dq_mixed', 'count_dq_special', 'count_dq_char', 'count_sq_chars', 'count_sq_mixed', 'count_sq_special', 'count_sq_char', 'count_number', 'count_exp', 'count_sign_opt', 'count_frac', 'count_singular_query', 'count_abs_singular_query', 'count_singular_segment', 'count_index_segment', 'count_name_segment', 'count_rel_singular_query', 'count_value_function_expr', 'count_length_expr', 'count_value_expr', 'count_count_expr', 'count_filter_query', 'count_rel_query', 'count_abs_query', 'count_child_segment', 'count_and_tail', 'count_or_tail', 'count_regex_argument', 'count_iregexp_literal', 'count_ire_regexp', 'count_ire_alt', 'count_ire_branch', 'count_ire_piece', 'count_ire_quantifier', 'count_ire_range_quantifier', 'count_ire_char_class', 'count_ire_char_class_expr', 'count_ire_cce1', 'count_ire_normal_char', 'count_match_expr', 'count_logical_not_op', 'count_comparison_expr', 'count_comparable', 'count_paren_expr', 'count_ws', 'count_nonempty_array', 'count_value', 'count_object', 'count_nonempty_object', 'count_member', 'count_doc_name_mixed', 'count_doc_name_special', 'count_doc_escape', 'count_doc_name_char', 'count_array', 'count_doc_string', 'count_doc_number', 'count_doc_exp', 'count_more_member', 'count_more_value', 'count_doc_mixed', 'count_doc_special', 'count_doc_char', 'doc_depth', 'doc_bytes', 'query_len']
+[jsonpath_plus_latest] auto-stratified exploration: <segment>[(0, 0), (1, 1), (2, 4), (5, 10), (11, 24)] x <or_tail>[(1, 1), (2, 3), (4, 6), (7, 12), (13, 24)] x <and_tail>[(1, 1), (2, 3), (4, 6), (7, 12), (13, 24)] ...
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+[WARNING] recursion limit hit generating from ./results/rq1/20261003-0208-jsonpath_plus_latest/run1/jsonpath_plus_latest/grammars/jsonpath_js_m1_0_or_tail1-1.fan; lower max_repetition or max_nodes for this grammar.
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+[WARNING] recursion limit hit generating from ./results/rq1/20261003-0208-jsonpath_plus_latest/run1/jsonpath_plus_latest/grammars/jsonpath_js_m2_0_and_tail1-1.fan; lower max_repetition or max_nodes for this grammar.
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <more_member> defined, but not used
+fandango:WARNING: Symbol <more_value> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <abs_singular_query> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <selector> defined, but not used
+fandango:WARNING: Symbol <name_dq_char> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <name_sq_chars> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <name_sq_chars> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <name_sq_chars> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <name_sq_chars> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <name_sq_char> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <name_dq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <name_dq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <name_dq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <filter_selector> defined, but not used
+fandango:WARNING: Symbol <name_dq_chars> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <doc_name_char> defined, but not used
+fandango:WARNING: Symbol <dq_char> defined, but not used
+fandango:WARNING: Symbol <sq_chars> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <sq_chars> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <sq_chars> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <sq_chars> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <sq_char> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <dq_chars> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <dq_chars> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <dq_chars> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <dq_chars> defined, but not used
+fandango:WARNING: Symbol <test_expr> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <doc_char> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <more_selector> defined, but not used
+fandango:WARNING: Symbol <paren_expr> defined, but not used
+fandango:WARNING: Symbol <search_expr> defined, but not used
+fandango:WARNING: Symbol <slice_selector> defined, but not used
+fandango:WARNING: Symbol <comparison_expr> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <descendant_segment> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <doc_string> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+fandango:WARNING: Symbol <object> defined, but not used
+fandango:WARNING: Symbol <doc_mixed> defined, but not used
+fandango:WARNING: Symbol <doc_number> defined, but not used
+fandango:WARNING: Symbol <array> defined, but not used
+  [explore] 20 axes, 100 strata, 3/stratum -> 294 inputs
+  [explore] 2 stratum/strata produced nothing: or_tail1-1, and_tail1-1
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[jsonpath_plus_latest] iter 0 (explore): corpus=1764 (+1764 new this run)
+[select] relevance (max |rho| vs any metric on any system): query_len=0.77, count_name_selector=0.69, count_segment=0.74, count_bracketed_selection=0.65, count_name_dq_chars=0.65, count_name_sq_chars=0.60, count_more_selector=0.63, count_escapable=0.48, count_union_selector=0.63, count_name_first=0.55, count_child_segment=0.63, count_name_char=0.53, count_int=0.62, count_name_dq_char=0.47, count_index_selector=0.61, count_name_dq_special=0.49, count_descendant_segment=0.59, count_name_dq_mixed=0.49, count_wildcard_selector=0.56, count_logical_function_expr=0.38, count_pos_int=0.55, count_regex_argument=0.38, count_value_argument=0.38, count_DIGIT1=0.49, count_doc_name_mixed=0.10, count_doc_name_special=0.08, count_member_name_shorthand=0.46, count_doc_name_char=0.10, count_DIGIT=0.45, count_search_expr=0.34, count_S=0.39, count_test_expr=0.38, count_selector=0.38, count_literal=0.35, count_string_literal=0.35, count_match_expr=0.35, count_filter_query=0.38, count_value_function_expr=0.35, count_name_sq_mixed=0.37, count_and_tail=0.35, count_basic_expr=0.37, count_or_tail=0.35, count_logical_and_expr=0.37, count_name_sq_special=0.37, count_logical_expr=0.37, count_dq_chars=0.33, count_filter_selector=0.37, count_singular_query=0.35, count_logical_not_op=0.37, count_name_sq_char=0.36, count_rel_query=0.36, count_ire_branch=0.33, count_ire_regexp=0.33, count_ire_quantifier=0.33, count_ire_piece=0.33, count_ire_char_class=0.33, count_abs_query=0.35, count_ire_alt=0.31, count_ire_range_quantifier=0.31, count_ire_char_class_expr=0.31, count_ire_cce1=0.31, count_rel_singular_query=0.35, count_ire_normal_char=0.31, count_singular_segment=0.35, count_iregexp_literal=0.33, count_index_segment=0.35, count_number=0.35, count_comparison_expr=0.34, count_more_member=0.10, count_comparable=0.34, count_slice_selector=0.34, count_count_expr=0.33, count_paren_expr=0.33, count_sq_chars=0.34, count_member=0.11, count_abs_singular_query=0.33, count_name_segment=0.33, count_value_expr=0.32, count_length_expr=0.31, count_doc_escape=0.10, count_exp=0.30, count_B=0.28, count_D=0.27, count_high_surrogate=0.26, count_oct_digit=0.16, count_low_surrogate=0.26, count_HEXDIG=0.25, count_nonempty_object=0.12, count_hexchar=0.24, count_letter=0.24, count_doc_mixed=0.22, count_doc_special=0.21, count_array=0.20, count_sq_mixed=0.21, count_frac=0.13, count_sq_special=0.21, count_non_surrogate=0.15, count_doc_char=0.21, count_non_d_hex=0.13, doc_bytes=0.08, count_dq_special=0.17, count_dq_char=0.17, count_dq_mixed=0.17, count_doc_exp=0.10, count_sq_char=0.17, count_doc_number=0.05, count_sign_opt=0.11, count_doc_string=0.14, doc_depth=0.13, count_more_value=0.04, count_object=0.12, count_ws=0.10, count_nonempty_array=0.11, count_value=0.08
+[select] comparative relevance (max |rho| vs a between-system ratio): query_len=0.47, count_name_selector=0.47, count_segment=0.28, count_bracketed_selection=0.42, count_name_dq_chars=0.41, count_name_sq_chars=0.40, count_more_selector=0.32, count_escapable=0.40, count_union_selector=0.32, count_name_first=0.39, count_child_segment=0.35, count_name_char=0.39, count_int=0.31, count_name_dq_char=0.35, count_index_selector=0.29, count_name_dq_special=0.35, count_descendant_segment=0.31, count_name_dq_mixed=0.34, count_wildcard_selector=0.30, count_logical_function_expr=0.33, count_pos_int=0.27, count_regex_argument=0.33, count_value_argument=0.33, count_DIGIT1=0.17, count_doc_name_mixed=0.31, count_doc_name_special=0.31, count_member_name_shorthand=0.22, count_doc_name_char=0.30, count_DIGIT=0.16, count_search_expr=0.30, count_S=0.29, count_test_expr=0.28, count_selector=0.28, count_literal=0.29, count_string_literal=0.29, count_match_expr=0.29, count_filter_query=0.26, count_value_function_expr=0.29, count_name_sq_mixed=0.28, count_and_tail=0.29, count_basic_expr=0.25, count_or_tail=0.29, count_logical_and_expr=0.25, count_name_sq_special=0.29, count_logical_expr=0.25, count_dq_chars=0.29, count_filter_selector=0.25, count_singular_query=0.28, count_logical_not_op=0.27, count_name_sq_char=0.27, count_rel_query=0.25, count_ire_branch=0.28, count_ire_regexp=0.28, count_ire_quantifier=0.28, count_ire_piece=0.28, count_ire_char_class=0.28, count_abs_query=0.26, count_ire_alt=0.28, count_ire_range_quantifier=0.28, count_ire_char_class_expr=0.28, count_ire_cce1=0.28, count_rel_singular_query=0.26, count_ire_normal_char=0.28, count_singular_segment=0.26, count_iregexp_literal=0.28, count_index_segment=0.26, count_number=0.27, count_comparison_expr=0.25, count_more_member=0.27, count_comparable=0.25, count_slice_selector=0.13, count_count_expr=0.27, count_paren_expr=0.27, count_sq_chars=0.27, count_member=0.27, count_abs_singular_query=0.26, count_name_segment=0.24, count_value_expr=0.24, count_length_expr=0.24, count_doc_escape=0.25, count_exp=0.24, count_B=0.19, count_D=0.22, count_high_surrogate=0.20, count_oct_digit=0.23, count_low_surrogate=0.20, count_HEXDIG=0.23, count_nonempty_object=0.23, count_hexchar=0.22, count_letter=0.14, count_doc_mixed=0.17, count_doc_special=0.17, count_array=0.21, count_sq_mixed=0.13, count_frac=0.21, count_sq_special=0.13, count_non_surrogate=0.21, count_doc_char=0.15, count_non_d_hex=0.21, doc_bytes=0.20, count_dq_special=0.15, count_dq_char=0.15, count_dq_mixed=0.15, count_doc_exp=0.20, count_sq_char=0.12, count_doc_number=0.19, count_sign_opt=0.18, count_doc_string=0.17, doc_depth=0.15, count_more_value=0.17, count_object=0.13, count_ws=0.16, count_nonempty_array=0.16, count_value=0.16
+[select] scored on the comparison rather than on the metric: count_doc_name_mixed (0.10 -> 0.31), count_doc_name_special (0.08 -> 0.31), count_doc_name_char (0.10 -> 0.30), count_more_member (0.10 -> 0.27), count_member (0.11 -> 0.27), count_doc_escape (0.10 -> 0.25), count_oct_digit (0.16 -> 0.23), count_nonempty_object (0.12 -> 0.23), count_frac (0.13 -> 0.21), count_non_surrogate (0.15 -> 0.21), count_non_d_hex (0.13 -> 0.21), doc_bytes (0.08 -> 0.20), count_doc_exp (0.10 -> 0.20), count_doc_number (0.05 -> 0.19), count_sign_opt (0.11 -> 0.18), count_more_value (0.04 -> 0.17), count_ws (0.10 -> 0.16), count_value (0.08 -> 0.16)
+[select] dropped count_name_dq_chars: over the 4-property cap
+[select] dropped count_name_sq_chars: over the 4-property cap
+[select] dropped count_more_selector: over the 4-property cap
+[select] dropped count_escapable: over the 4-property cap
+[select] dropped count_union_selector: over the 4-property cap
+[select] dropped count_name_first: over the 4-property cap
+[select] dropped count_child_segment: over the 4-property cap
+[select] dropped count_name_char: over the 4-property cap
+[select] dropped count_int: over the 4-property cap
+[select] dropped count_name_dq_char: over the 4-property cap
+[select] dropped count_index_selector: over the 4-property cap
+[select] dropped count_name_dq_special: over the 4-property cap
+[select] dropped count_descendant_segment: over the 4-property cap
+[select] dropped count_name_dq_mixed: over the 4-property cap
+[select] dropped count_wildcard_selector: over the 4-property cap
+[select] dropped count_logical_function_expr: over the 4-property cap
+[select] dropped count_pos_int: over the 4-property cap
+[select] dropped count_regex_argument: over the 4-property cap
+[select] dropped count_value_argument: over the 4-property cap
+[select] dropped count_DIGIT1: over the 4-property cap
+[select] dropped count_doc_name_mixed: over the 4-property cap
+[select] dropped count_doc_name_special: over the 4-property cap
+[select] dropped count_member_name_shorthand: over the 4-property cap
+[select] dropped count_doc_name_char: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_search_expr: over the 4-property cap
+[select] dropped count_S: over the 4-property cap
+[select] dropped count_test_expr: over the 4-property cap
+[select] dropped count_selector: over the 4-property cap
+[select] dropped count_literal: over the 4-property cap
+[select] dropped count_string_literal: over the 4-property cap
+[select] dropped count_match_expr: over the 4-property cap
+[select] dropped count_filter_query: over the 4-property cap
+[select] dropped count_value_function_expr: over the 4-property cap
+[select] dropped count_name_sq_mixed: over the 4-property cap
+[select] dropped count_and_tail: over the 4-property cap
+[select] dropped count_basic_expr: over the 4-property cap
+[select] dropped count_or_tail: over the 4-property cap
+[select] dropped count_logical_and_expr: over the 4-property cap
+[select] dropped count_name_sq_special: over the 4-property cap
+[select] dropped count_logical_expr: over the 4-property cap
+[select] dropped count_dq_chars: over the 4-property cap
+[select] dropped count_filter_selector: over the 4-property cap
+[select] dropped count_singular_query: over the 4-property cap
+[select] dropped count_logical_not_op: over the 4-property cap
+[select] dropped count_name_sq_char: over the 4-property cap
+[select] dropped count_rel_query: over the 4-property cap
+[select] dropped count_ire_branch: over the 4-property cap
+[select] dropped count_ire_regexp: over the 4-property cap
+[select] dropped count_ire_quantifier: over the 4-property cap
+[select] dropped count_ire_piece: over the 4-property cap
+[select] dropped count_ire_char_class: over the 4-property cap
+[select] dropped count_abs_query: over the 4-property cap
+[select] dropped count_ire_alt: over the 4-property cap
+[select] dropped count_ire_range_quantifier: over the 4-property cap
+[select] dropped count_ire_char_class_expr: over the 4-property cap
+[select] dropped count_ire_cce1: over the 4-property cap
+[select] dropped count_rel_singular_query: over the 4-property cap
+[select] dropped count_ire_normal_char: over the 4-property cap
+[select] dropped count_singular_segment: over the 4-property cap
+[select] dropped count_iregexp_literal: over the 4-property cap
+[select] dropped count_index_segment: over the 4-property cap
+[select] dropped count_number: over the 4-property cap
+[select] dropped count_comparison_expr: over the 4-property cap
+[select] dropped count_more_member: over the 4-property cap
+[select] dropped count_comparable: over the 4-property cap
+[select] dropped count_slice_selector: over the 4-property cap
+[select] dropped count_count_expr: over the 4-property cap
+[select] dropped count_paren_expr: over the 4-property cap
+[select] dropped count_sq_chars: over the 4-property cap
+[select] dropped count_member: over the 4-property cap
+[select] dropped count_abs_singular_query: over the 4-property cap
+[select] dropped count_name_segment: over the 4-property cap
+[select] dropped count_value_expr: over the 4-property cap
+[select] dropped count_length_expr: over the 4-property cap
+[select] dropped count_doc_escape: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_B: over the 4-property cap
+[select] dropped count_D: over the 4-property cap
+[select] dropped count_high_surrogate: over the 4-property cap
+[select] dropped count_oct_digit: over the 4-property cap
+[select] dropped count_low_surrogate: over the 4-property cap
+[select] dropped count_HEXDIG: over the 4-property cap
+[select] dropped count_nonempty_object: over the 4-property cap
+[select] dropped count_hexchar: over the 4-property cap
+[select] dropped count_letter: over the 4-property cap
+[select] dropped count_doc_mixed: over the 4-property cap
+[select] dropped count_doc_special: over the 4-property cap
+[select] dropped count_array: over the 4-property cap
+[select] dropped count_sq_mixed: over the 4-property cap
+[select] dropped count_frac: over the 4-property cap
+[select] dropped count_sq_special: over the 4-property cap
+[select] dropped count_non_surrogate: over the 4-property cap
+[select] dropped count_doc_char: over the 4-property cap
+[select] dropped count_non_d_hex: over the 4-property cap
+[select] dropped doc_bytes: over the 4-property cap
+[select] dropped count_dq_special: over the 4-property cap
+[select] dropped count_dq_char: over the 4-property cap
+[select] dropped count_dq_mixed: over the 4-property cap
+[select] dropped count_doc_exp: over the 4-property cap
+[select] dropped count_sq_char: over the 4-property cap
+[select] dropped count_doc_number: over the 4-property cap
+[select] dropped count_sign_opt: over the 4-property cap
+[select] dropped count_doc_string: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] dropped count_object: over the 4-property cap
+[select] dropped count_ws: over the 4-property cap
+[select] dropped count_nonempty_array: over the 4-property cap
+[select] dropped count_value: over the 4-property cap
+[select] joint fit uses 4 of 114 properties: count_segment, count_bracketed_selection, count_name_selector, query_len (1,296 model fits)
+[jsonpath_plus_latest] loop targets 4 of 114 properties: count_segment, count_bracketed_selection, count_name_selector, query_len
+[jsonpath_plus_latest] targeting 8 regions: runtime_ns_divergence, count_bracketed_selection_dominance0, count_name_selector_undecided0, count_segment_x_query_len_joint, count_segment_beyond, runtime_ns_high, count_name_selector_edge0, runtime_ns_sparse0
+  [runtime_ns_divergence] 33s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_bracketed_selection_dominance0] settling count_bracketed_selection =0 would decide 1 dominance verdict(s): jsonpath_plus_10_4_0 vs jsonpath_plus_11_0_1 (runtime_ns undecided) -> <segment>{0,0}
+  [count_bracketed_selection_dominance0] 13s: +10 new input(s), 1 distinct shape(s), 10 measured
+  [count_name_selector_undecided0] 30 comparison(s) undecided in count_name_selector [20.82,44.47): jsonpath_plus_10_2_0 vs jsonpath_plus_10_3_0 on runtime_ns and 29 more -> <segment>{21,23}
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_name_selector_undecided0] 20s: +10 new input(s), 10 distinct shape(s), 9 measured
+  [count_segment_x_query_len_joint] query_len spans 1..10326 overall, 45..2130 at count_segment in [10,12]; maximizing it at <segment>{10,12}
+  [count_segment_x_query_len_joint] 8 of 10 seeds do not parse; seeding with 2.
+[budget] generation cut at 300s after 45 generations (17 solutions); this request is not reproducible
+  [soft] maximizing query_len: 17 candidates, best=2013, keeping 10 spanning 2013..2013
+  [count_segment_x_query_len_joint] 348s: +10 new input(s), 1 distinct shape(s), 10 measured [CUT: generation budget, not reproducible]
+  [count_segment_beyond] <segment>{24,28} (rung 1, 4000 nodes)
+  [count_segment_beyond] 19s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_high] 21s: +2 new input(s), 2 distinct shape(s), 2 measured
+  [count_name_selector_edge0] <segment>{11,15} for the top 15% of count_name_selector ([11,95])
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_name_selector_edge0] 18s: +10 new input(s), 10 distinct shape(s), 9 measured
+  [runtime_ns_sparse0] 26s: +7 new input(s), 1 distinct shape(s), 7 measured
+[jsonpath_plus_latest] iter 1: corpus=2178 (+414 new)
+[select] relevance (max |rho| vs any metric on any system): query_len=0.83, count_value_argument=0.57, count_segment=0.82, count_logical_function_expr=0.56, count_child_segment=0.74, count_regex_argument=0.56, count_int=0.72, count_singular_query=0.55, count_bracketed_selection=0.72, count_S=0.57, count_index_selector=0.71, count_name_selector=0.70, count_value_function_expr=0.55, count_more_selector=0.69, count_and_tail=0.55, count_union_selector=0.69, count_or_tail=0.56, count_name_sq_chars=0.67, count_index_segment=0.54, count_wildcard_selector=0.67, count_singular_segment=0.54, count_descendant_segment=0.67, count_test_expr=0.56, count_name_dq_chars=0.63, count_ire_branch=0.47, count_pos_int=0.59, count_ire_regexp=0.47, count_name_first=0.58, count_ire_quantifier=0.47, count_member_name_shorthand=0.57, count_ire_piece=0.47, count_DIGIT1=0.57, count_search_expr=0.53, count_ire_range_quantifier=0.44, count_ire_alt=0.44, count_filter_query=0.56, count_ire_char_class_expr=0.44, count_ire_cce1=0.44, count_ire_normal_char=0.44, count_name_char=0.56, count_rel_singular_query=0.54, count_iregexp_literal=0.47, count_basic_expr=0.56, count_logical_not_op=0.55, count_name_sq_mixed=0.56, count_literal=0.53, count_logical_and_expr=0.56, count_name_segment=0.54, count_logical_expr=0.56, count_count_expr=0.52, count_filter_selector=0.55, count_comparison_expr=0.54, count_comparable=0.54, count_ire_char_class=0.46, count_name_sq_special=0.55, count_paren_expr=0.54, count_rel_query=0.54, count_escapable=0.50, count_DIGIT=0.54, count_name_dq_special=0.47, count_name_dq_mixed=0.49, count_name_sq_char=0.54, count_name_dq_char=0.47, count_selector=0.52, count_abs_singular_query=0.45, count_match_expr=0.46, count_abs_query=0.45, count_length_expr=0.44, count_ws=0.20, count_string_literal=0.41, count_number=0.42, doc_bytes=0.20, count_value=0.18, count_sq_chars=0.37, count_value_expr=0.41, count_oct_digit=0.13, count_hexchar=0.17, count_slice_selector=0.39, count_non_surrogate=0.10, count_exp=0.38, count_array=0.10, count_dq_chars=0.34, count_HEXDIG=0.17, count_letter=0.27, doc_depth=0.05, count_B=0.24, count_sq_mixed=0.20, count_doc_name_mixed=0.12, count_sq_special=0.20, count_doc_name_special=0.14, count_D=0.19, count_doc_name_char=0.11, count_doc_exp=0.19, count_member=0.10, count_more_member=0.09, count_doc_number=0.15, count_more_value=0.15, count_high_surrogate=0.16, count_low_surrogate=0.16, count_nonempty_object=0.09, count_nonempty_array=0.15, count_doc_string=0.08, count_dq_special=0.14, count_doc_escape=0.08, count_dq_char=0.14, count_dq_mixed=0.14, count_doc_special=0.11, count_sq_char=0.14, count_doc_mixed=0.11, count_non_d_hex=0.06, count_doc_char=0.12, count_object=0.04, count_frac=0.10, count_sign_opt=0.05
+[select] comparative relevance (max |rho| vs a between-system ratio): query_len=0.47, count_value_argument=0.49, count_segment=0.28, count_logical_function_expr=0.48, count_child_segment=0.36, count_regex_argument=0.48, count_int=0.30, count_singular_query=0.48, count_bracketed_selection=0.37, count_S=0.47, count_index_selector=0.30, count_name_selector=0.44, count_value_function_expr=0.46, count_more_selector=0.34, count_and_tail=0.46, count_union_selector=0.34, count_or_tail=0.45, count_name_sq_chars=0.38, count_index_segment=0.45, count_wildcard_selector=0.22, count_singular_segment=0.45, count_descendant_segment=0.19, count_test_expr=0.45, count_name_dq_chars=0.43, count_ire_branch=0.45, count_pos_int=0.30, count_ire_regexp=0.45, count_name_first=0.36, count_ire_quantifier=0.45, count_member_name_shorthand=0.21, count_ire_piece=0.45, count_DIGIT1=0.20, count_search_expr=0.45, count_ire_range_quantifier=0.45, count_ire_alt=0.45, count_filter_query=0.43, count_ire_char_class_expr=0.44, count_ire_cce1=0.44, count_ire_normal_char=0.44, count_name_char=0.37, count_rel_singular_query=0.44, count_iregexp_literal=0.44, count_basic_expr=0.44, count_logical_not_op=0.44, count_name_sq_mixed=0.31, count_literal=0.44, count_logical_and_expr=0.44, count_name_segment=0.44, count_logical_expr=0.43, count_count_expr=0.44, count_filter_selector=0.43, count_comparison_expr=0.44, count_comparable=0.44, count_ire_char_class=0.44, count_name_sq_special=0.30, count_paren_expr=0.43, count_rel_query=0.41, count_escapable=0.42, count_DIGIT=0.19, count_name_dq_special=0.40, count_name_dq_mixed=0.39, count_name_sq_char=0.30, count_name_dq_char=0.38, count_selector=0.29, count_abs_singular_query=0.36, count_match_expr=0.35, count_abs_query=0.33, count_length_expr=0.32, count_ws=0.31, count_string_literal=0.30, count_number=0.30, doc_bytes=0.29, count_value=0.28, count_sq_chars=0.28, count_value_expr=0.28, count_oct_digit=0.28, count_hexchar=0.28, count_slice_selector=0.14, count_non_surrogate=0.28, count_exp=0.26, count_array=0.28, count_dq_chars=0.27, count_HEXDIG=0.27, count_letter=0.19, doc_depth=0.27, count_B=0.17, count_sq_mixed=0.12, count_doc_name_mixed=0.27, count_sq_special=0.12, count_doc_name_special=0.26, count_D=0.26, count_doc_name_char=0.26, count_doc_exp=0.21, count_member=0.24, count_more_member=0.24, count_doc_number=0.23, count_more_value=0.22, count_high_surrogate=0.21, count_low_surrogate=0.21, count_nonempty_object=0.21, count_nonempty_array=0.12, count_doc_string=0.21, count_dq_special=0.13, count_doc_escape=0.21, count_dq_char=0.13, count_dq_mixed=0.13, count_doc_special=0.21, count_sq_char=0.11, count_doc_mixed=0.20, count_non_d_hex=0.20, count_doc_char=0.18, count_object=0.16, count_frac=0.13, count_sign_opt=0.12
+[select] scored on the comparison rather than on the metric: count_ws (0.20 -> 0.31), doc_bytes (0.20 -> 0.29), count_value (0.18 -> 0.28), count_oct_digit (0.13 -> 0.28), count_hexchar (0.17 -> 0.28), count_non_surrogate (0.10 -> 0.28), count_array (0.10 -> 0.28), count_HEXDIG (0.17 -> 0.27), doc_depth (0.05 -> 0.27), count_doc_name_mixed (0.12 -> 0.27), count_doc_name_special (0.14 -> 0.26), count_D (0.19 -> 0.26), count_doc_name_char (0.11 -> 0.26), count_member (0.10 -> 0.24), count_more_member (0.09 -> 0.24), count_doc_number (0.15 -> 0.23), count_more_value (0.15 -> 0.22), count_high_surrogate (0.16 -> 0.21), count_low_surrogate (0.16 -> 0.21), count_nonempty_object (0.09 -> 0.21), count_doc_string (0.08 -> 0.21), count_doc_escape (0.08 -> 0.21), count_doc_special (0.11 -> 0.21), count_doc_mixed (0.11 -> 0.20), count_non_d_hex (0.06 -> 0.20), count_doc_char (0.12 -> 0.18), count_object (0.04 -> 0.16), count_sign_opt (0.05 -> 0.12)
+[select] dropped count_logical_function_expr: |rho|=0.99 with count_value_argument, which is already kept
+[select] dropped count_child_segment: |rho|=0.93 with count_segment, which is already kept
+[select] dropped count_regex_argument: |rho|=0.99 with count_value_argument, which is already kept
+[select] dropped count_singular_query: over the 4-property cap
+[select] dropped count_bracketed_selection: over the 4-property cap
+[select] dropped count_S: over the 4-property cap
+[select] dropped count_index_selector: over the 4-property cap
+[select] dropped count_name_selector: over the 4-property cap
+[select] dropped count_value_function_expr: over the 4-property cap
+[select] dropped count_more_selector: over the 4-property cap
+[select] dropped count_and_tail: over the 4-property cap
+[select] dropped count_union_selector: over the 4-property cap
+[select] dropped count_or_tail: over the 4-property cap
+[select] dropped count_name_sq_chars: over the 4-property cap
+[select] dropped count_index_segment: over the 4-property cap
+[select] dropped count_wildcard_selector: over the 4-property cap
+[select] dropped count_singular_segment: over the 4-property cap
+[select] dropped count_descendant_segment: over the 4-property cap
+[select] dropped count_test_expr: over the 4-property cap
+[select] dropped count_name_dq_chars: over the 4-property cap
+[select] dropped count_ire_branch: over the 4-property cap
+[select] dropped count_pos_int: over the 4-property cap
+[select] dropped count_ire_regexp: over the 4-property cap
+[select] dropped count_name_first: over the 4-property cap
+[select] dropped count_ire_quantifier: over the 4-property cap
+[select] dropped count_member_name_shorthand: over the 4-property cap
+[select] dropped count_ire_piece: over the 4-property cap
+[select] dropped count_DIGIT1: over the 4-property cap
+[select] dropped count_search_expr: over the 4-property cap
+[select] dropped count_ire_range_quantifier: over the 4-property cap
+[select] dropped count_ire_alt: over the 4-property cap
+[select] dropped count_filter_query: over the 4-property cap
+[select] dropped count_ire_char_class_expr: over the 4-property cap
+[select] dropped count_ire_cce1: over the 4-property cap
+[select] dropped count_ire_normal_char: over the 4-property cap
+[select] dropped count_name_char: over the 4-property cap
+[select] dropped count_rel_singular_query: over the 4-property cap
+[select] dropped count_iregexp_literal: over the 4-property cap
+[select] dropped count_basic_expr: over the 4-property cap
+[select] dropped count_logical_not_op: over the 4-property cap
+[select] dropped count_name_sq_mixed: over the 4-property cap
+[select] dropped count_literal: over the 4-property cap
+[select] dropped count_logical_and_expr: over the 4-property cap
+[select] dropped count_name_segment: over the 4-property cap
+[select] dropped count_logical_expr: over the 4-property cap
+[select] dropped count_count_expr: over the 4-property cap
+[select] dropped count_filter_selector: over the 4-property cap
+[select] dropped count_comparison_expr: over the 4-property cap
+[select] dropped count_comparable: over the 4-property cap
+[select] dropped count_ire_char_class: over the 4-property cap
+[select] dropped count_name_sq_special: over the 4-property cap
+[select] dropped count_paren_expr: over the 4-property cap
+[select] dropped count_rel_query: over the 4-property cap
+[select] dropped count_escapable: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_name_dq_special: over the 4-property cap
+[select] dropped count_name_dq_mixed: over the 4-property cap
+[select] dropped count_name_sq_char: over the 4-property cap
+[select] dropped count_name_dq_char: over the 4-property cap
+[select] dropped count_selector: over the 4-property cap
+[select] dropped count_abs_singular_query: over the 4-property cap
+[select] dropped count_match_expr: over the 4-property cap
+[select] dropped count_abs_query: over the 4-property cap
+[select] dropped count_length_expr: over the 4-property cap
+[select] dropped count_ws: over the 4-property cap
+[select] dropped count_string_literal: over the 4-property cap
+[select] dropped count_number: over the 4-property cap
+[select] dropped doc_bytes: over the 4-property cap
+[select] dropped count_value: over the 4-property cap
+[select] dropped count_sq_chars: over the 4-property cap
+[select] dropped count_value_expr: over the 4-property cap
+[select] dropped count_oct_digit: over the 4-property cap
+[select] dropped count_hexchar: over the 4-property cap
+[select] dropped count_slice_selector: over the 4-property cap
+[select] dropped count_non_surrogate: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_array: over the 4-property cap
+[select] dropped count_dq_chars: over the 4-property cap
+[select] dropped count_HEXDIG: over the 4-property cap
+[select] dropped count_letter: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_B: over the 4-property cap
+[select] dropped count_sq_mixed: over the 4-property cap
+[select] dropped count_doc_name_mixed: over the 4-property cap
+[select] dropped count_sq_special: over the 4-property cap
+[select] dropped count_doc_name_special: over the 4-property cap
+[select] dropped count_D: over the 4-property cap
+[select] dropped count_doc_name_char: over the 4-property cap
+[select] dropped count_doc_exp: over the 4-property cap
+[select] dropped count_member: over the 4-property cap
+[select] dropped count_more_member: over the 4-property cap
+[select] dropped count_doc_number: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] dropped count_high_surrogate: over the 4-property cap
+[select] dropped count_low_surrogate: over the 4-property cap
+[select] dropped count_nonempty_object: over the 4-property cap
+[select] dropped count_nonempty_array: over the 4-property cap
+[select] dropped count_doc_string: over the 4-property cap
+[select] dropped count_dq_special: over the 4-property cap
+[select] dropped count_doc_escape: over the 4-property cap
+[select] dropped count_dq_char: over the 4-property cap
+[select] dropped count_dq_mixed: over the 4-property cap
+[select] dropped count_doc_special: over the 4-property cap
+[select] dropped count_sq_char: over the 4-property cap
+[select] dropped count_doc_mixed: over the 4-property cap
+[select] dropped count_non_d_hex: over the 4-property cap
+[select] dropped count_doc_char: over the 4-property cap
+[select] dropped count_object: over the 4-property cap
+[select] dropped count_frac: over the 4-property cap
+[select] dropped count_sign_opt: over the 4-property cap
+[select] count_segment stands for count_child_segment (indistinguishable here)
+[select] count_value_argument stands for count_logical_function_expr, count_regex_argument (indistinguishable here)
+[select] joint fit uses 4 of 114 properties: count_segment, count_int, count_value_argument, query_len (1,296 model fits)
+[jsonpath_plus_latest] loop targets 4 of 114 properties: count_segment, count_int, count_value_argument, query_len
+[jsonpath_plus_latest] targeting 8 regions: runtime_ns_divergence, count_int_dominance0, query_len_undecided, count_segment_x_query_len_joint, count_segment_beyond, runtime_ns_high, count_value_argument_edge0, runtime_ns_sparse0
+  [runtime_ns_divergence] 26s: +3 new input(s), 3 distinct shape(s), 3 measured
+  [count_int_dominance0] settling count_int [1,2.279) would decide 4 dominance verdict(s): jsonpath_plus_10_2_0 vs jsonpath_plus_11_0_1 (runtime_ns undecided) and 3 more -> <segment>{1,3}
+  [count_int_dominance0] 15s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [query_len_undecided] 30 comparison(s) undecided in query_len [2213,1.033e+04): jsonpath_plus_10_2_0 vs jsonpath_plus_10_3_0 on runtime_ns and 29 more
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+  [query_len_undecided] 40s: no new inputs
+  [count_segment_x_query_len_joint] query_len spans 1..10326 overall, 45..2130 at count_segment in [10,12]; maximizing it at <segment>{10,12} (held, best 2130)
+  [count_segment_x_query_len_joint] 2 of 10 seeds do not parse; seeding with 8.
+[budget] generation cut at 300s after 45 generations (27 solutions); this request is not reproducible
+  [soft] maximizing query_len: 27 candidates, best=2016, keeping 10 spanning 2016..2012
+  [count_segment_x_query_len_joint] 333s: +10 new input(s), 3 distinct shape(s), 10 measured [CUT: generation budget, not reproducible]
+  [count_segment_beyond] <segment>{24,28} (rung 1, 4000 nodes)
+  [count_segment_beyond] 19s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_high] 23s: +2 new input(s), 2 distinct shape(s), 2 measured
+  [count_value_argument_edge0] <segment>{8,13} for the top 15% of count_value_argument ([7,49])
+  [count_value_argument_edge0] 19s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_sparse0] 25s: +10 new input(s), 4 distinct shape(s), 10 measured
+[jsonpath_plus_latest] iter 2: corpus=2508 (+330 new)
+[jsonpath_plus_latest] targeting 8 regions: runtime_ns_divergence, count_int_dominance0, count_value_argument_undecided0, count_value_argument_x_query_len_joint, runtime_ns_high, count_int_edge0, runtime_ns_sparse0, query_len_sparse4
+  [runtime_ns_divergence] 18s: +2 new input(s), 2 distinct shape(s), 2 measured
+  [count_int_dominance0] settling count_int [1,2.279) would decide 6 dominance verdict(s): jsonpath_plus_10_2_0 vs jsonpath_plus_11_0_0 (runtime_ns undecided) and 5 more -> <segment>{1,3}
+  [count_int_dominance0] 17s: +10 new input(s), 6 distinct shape(s), 10 measured
+  [count_value_argument_undecided0] 30 comparison(s) undecided in count_value_argument [1.913,3.659): jsonpath_plus_10_2_0 vs jsonpath_plus_10_3_0 on runtime_ns and 29 more -> <segment>{3,5}
+  [count_value_argument_undecided0] 18s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_value_argument_x_query_len_joint] query_len spans 1..10326 overall, 1582..3218 at count_value_argument in [7,8.4]; maximizing it at <segment>{8,10} (held, best 3218)
+  [count_value_argument_x_query_len_joint] 10 of 10 seeds do not parse; seeding with 0.
+[budget] generation cut at 300s after 50 generations (26 solutions); this request is not reproducible
+  [soft] maximizing query_len: 26 candidates, best=1903, keeping 10 spanning 1903..1840
+  [count_value_argument_x_query_len_joint] 341s: +10 new input(s), 2 distinct shape(s), 10 measured [CUT: generation budget, not reproducible]
+  [runtime_ns_high] 25s: +1 new input(s), 1 distinct shape(s), 1 measured
+  [count_int_edge0] <segment>{24,26} for the top 15% of count_int ([20,140])
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_int_edge0] 19s: +10 new input(s), 10 distinct shape(s), 9 measured
+  [runtime_ns_sparse0] 25s: +9 new input(s), 1 distinct shape(s), 9 measured
+[WARNING] Fandango did not generate any valid inputs.
+  [query_len_sparse4] 9s: no new inputs
+[jsonpath_plus_latest] iter 3: corpus=2820 (+312 new)
+[jsonpath_plus_latest] targeting 8 regions: runtime_ns_divergence, count_int_dominance0, count_value_argument_undecided0, count_segment_beyond, runtime_ns_high, count_int_edge0, runtime_ns_sparse0, query_len_sparse4
+  [runtime_ns_divergence] 24s: +4 new input(s), 3 distinct shape(s), 4 measured
+  [count_int_dominance0] settling count_int [1,2.279) would decide 1 dominance verdict(s): jsonpath_plus_10_2_0 vs jsonpath_plus_11_0_1 (runtime_ns undecided) -> <segment>{1,3}
+  [count_int_dominance0] 18s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_value_argument_undecided0] 30 comparison(s) undecided in count_value_argument [1.913,3.659): jsonpath_plus_10_2_0 vs jsonpath_plus_10_3_0 on runtime_ns and 29 more -> <segment>{6,8}
+  [count_value_argument_undecided0] 19s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_segment_beyond] <segment>{24,28} (rung 1, 4000 nodes)
+  [count_segment_beyond] 18s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_high] 33s: +5 new input(s), 5 distinct shape(s), 5 measured
+  [count_int_edge0] <segment>{24,26} for the top 15% of count_int ([21,140])
+  [count_int_edge0] 19s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_sparse0] 28s: +9 new input(s), 1 distinct shape(s), 9 measured
+[WARNING] Fandango did not generate any valid inputs.
+  [query_len_sparse4] 11s: no new inputs
+[jsonpath_plus_latest] iter 4: corpus=3168 (+348 new)
+[jsonpath_plus_latest] targeting 8 regions: runtime_ns_divergence, count_int_dominance0, count_value_argument_undecided0, runtime_ns_high, count_segment_edge0, runtime_ns_sparse0, count_value_argument_sparse4_0, rss_divergence
+  [runtime_ns_divergence] 19s: +1 new input(s), 1 distinct shape(s), 1 measured
+  [count_int_dominance0] settling count_int [1,2.279) would decide 2 dominance verdict(s): jsonpath_plus_11_0_0 vs jsonpath_plus_11_1_0 (runtime_ns undecided) and 1 more -> <segment>{1,3}
+  [count_int_dominance0] 16s: +10 new input(s), 9 distinct shape(s), 10 measured
+  [count_value_argument_undecided0] 30 comparison(s) undecided in count_value_argument [1.913,3.659): jsonpath_plus_10_2_0 vs jsonpath_plus_10_3_0 on runtime_ns and 29 more -> <segment>{6,8}
+  [count_value_argument_undecided0] 18s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_high] 29s: +2 new input(s), 2 distinct shape(s), 2 measured
+  [count_segment_edge0] <segment>{24,26} for the top 15% of count_segment ([25,160])
+  [count_segment_edge0] 20s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_sparse0] 29s: +7 new input(s), 1 distinct shape(s), 7 measured
+  [count_value_argument_sparse4_0] <segment>{24,26} for count_value_argument in [19.6,24.5]
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_value_argument_sparse4_0] 20s: +10 new input(s), 10 distinct shape(s), 9 measured
+  [rss_divergence] 18s: +5 new input(s), 5 distinct shape(s), 5 measured
+[jsonpath_plus_latest] iter 5: corpus=3498 (+330 new)
+[jsonpath_plus_latest] targeting 8 regions: runtime_ns_divergence, count_int_dominance0, count_value_argument_undecided0, count_segment_beyond, runtime_ns_high, count_int_edge0, runtime_ns_sparse0, query_len_sparse4
+  [runtime_ns_divergence] 20s: +2 new input(s), 2 distinct shape(s), 2 measured
+  [count_int_dominance0] settling count_int [2.279,5.192) would decide 7 dominance verdict(s): jsonpath_plus_10_2_0 vs jsonpath_plus_11_0_0 (runtime_ns undecided) and 6 more -> <segment>{3,5}
+  [count_int_dominance0] 16s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_value_argument_undecided0] 30 comparison(s) undecided in count_value_argument [1.913,3.659): jsonpath_plus_10_2_0 vs jsonpath_plus_10_3_0 on runtime_ns and 29 more -> <segment>{8,10}
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_value_argument_undecided0] 17s: +10 new input(s), 10 distinct shape(s), 9 measured
+  [count_segment_beyond] <segment>{24,28} (rung 1, 4000 nodes)
+  [count_segment_beyond] 21s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_high] 28s: +2 new input(s), 2 distinct shape(s), 2 measured
+  [count_int_edge0] <segment>{24,26} for the top 15% of count_int ([28,140])
+  [count_int_edge0] 19s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_sparse0] 22s: +9 new input(s), 1 distinct shape(s), 9 measured
+[WARNING] Fandango did not generate any valid inputs.
+  [query_len_sparse4] 9s: no new inputs
+[jsonpath_plus_latest] iter 6: corpus=3816 (+318 new)
+[jsonpath_plus_latest] targeting 8 regions: runtime_ns_divergence, count_int_dominance0, count_value_argument_undecided0, runtime_ns_high, count_segment_edge0, runtime_ns_sparse0, count_value_argument_sparse4_0, rss_divergence
+  [runtime_ns_divergence] 21s: +2 new input(s), 2 distinct shape(s), 2 measured
+  [count_int_dominance0] settling count_int [2.279,5.192) would decide 6 dominance verdict(s): jsonpath_plus_10_2_0 vs jsonpath_plus_11_0_0 (runtime_ns undecided) and 5 more -> <segment>{3,5}
+  [count_int_dominance0] 17s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_value_argument_undecided0] 30 comparison(s) undecided in count_value_argument [1.913,3.659): jsonpath_plus_10_2_0 vs jsonpath_plus_10_3_0 on runtime_ns and 29 more -> <segment>{10,13}
+  [count_value_argument_undecided0] 21s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_high] 26s: +1 new input(s), 1 distinct shape(s), 1 measured
+  [count_segment_edge0] <segment>{24,26} for the top 15% of count_segment ([28,163])
+  [count_segment_edge0] 20s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_sparse0] 30s: +9 new input(s), 1 distinct shape(s), 9 measured
+  [count_value_argument_sparse4_0] <segment>{24,26} for count_value_argument in [19.6,24.5]
+  [count_value_argument_sparse4_0] 19s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [rss_divergence] 23s: +5 new input(s), 5 distinct shape(s), 5 measured
+[jsonpath_plus_latest] iter 7: corpus=4158 (+342 new)
+[jsonpath_plus_latest] targeting 8 regions: runtime_ns_divergence, count_int_dominance0, count_value_argument_undecided0, runtime_ns_high, count_segment_edge0, runtime_ns_sparse0, count_value_argument_sparse5_0, rss_divergence
+  [runtime_ns_divergence] 23s: +2 new input(s), 2 distinct shape(s), 2 measured
+  [count_int_dominance0] settling count_int [2.279,5.192) would decide 6 dominance verdict(s): jsonpath_plus_10_2_0 vs jsonpath_plus_11_0_0 (runtime_ns undecided) and 5 more -> <segment>{3,5}
+  [count_int_dominance0] 17s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_value_argument_undecided0] 30 comparison(s) undecided in count_value_argument [1.913,3.659): jsonpath_plus_10_2_0 vs jsonpath_plus_10_3_0 on runtime_ns and 29 more -> <segment>{11,14}
+  [count_value_argument_undecided0] 20s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_high] 28s: +1 new input(s), 1 distinct shape(s), 1 measured
+  [count_segment_edge0] <segment>{24,26} for the top 15% of count_segment ([32,163])
+  [count_segment_edge0] 21s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_sparse0] 25s: +9 new input(s), 1 distinct shape(s), 9 measured
+  [count_value_argument_sparse5_0] <segment>{24,26} for count_value_argument in [24.5,29.4]
+  [count_value_argument_sparse5_0] 19s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [rss_divergence] 15s: +2 new input(s), 2 distinct shape(s), 2 measured
+[jsonpath_plus_latest] iter 8: corpus=4482 (+324 new)
+[jsonpath_plus_latest] targeting 8 regions: runtime_ns_divergence, count_int_dominance0, count_value_argument_undecided0, count_segment_beyond, runtime_ns_high, count_int_edge0, runtime_ns_sparse0, query_len_sparse4
+  [runtime_ns_divergence] 27s: +3 new input(s), 3 distinct shape(s), 3 measured
+  [count_int_dominance0] settling count_int [2.279,5.192) would decide 6 dominance verdict(s): jsonpath_plus_10_2_0 vs jsonpath_plus_11_0_0 (runtime_ns undecided) and 5 more -> <segment>{3,5}
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_int_dominance0] 17s: +10 new input(s), 10 distinct shape(s), 9 measured
+  [count_value_argument_undecided0] 30 comparison(s) undecided in count_value_argument [1.913,3.659): jsonpath_plus_10_2_0 vs jsonpath_plus_10_3_0 on runtime_ns and 29 more -> <segment>{12,15}
+  [count_value_argument_undecided0] 18s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_segment_beyond] <segment>{24,28} (rung 1, 4000 nodes)
+  [count_segment_beyond] 20s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_high] 28s: +1 new input(s), 1 distinct shape(s), 1 measured
+  [count_int_edge0] <segment>{24,26} for the top 15% of count_int ([48,140])
+  [count_int_edge0] 20s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [runtime_ns_sparse0] 15s: +5 new input(s), 1 distinct shape(s), 5 measured
+[WARNING] Fandango did not generate any valid inputs.
+  [query_len_sparse4] 8s: no new inputs
+[jsonpath_plus_latest] iter 9: corpus=4776 (+294 new)
+[select] relevance (max |rho| vs any metric on any system): query_len=0.76, count_logical_function_expr=0.67, count_segment=0.76, count_regex_argument=0.67, count_int=0.75, count_value_argument=0.67, count_index_selector=0.74, count_S=0.67, count_wildcard_selector=0.72, count_test_expr=0.67, count_descendant_segment=0.72, count_or_tail=0.67, count_name_selector=0.72, count_search_expr=0.62, count_bracketed_selection=0.71, count_basic_expr=0.67, count_union_selector=0.71, count_logical_and_expr=0.67, count_more_selector=0.71, count_filter_query=0.67, count_child_segment=0.71, count_logical_expr=0.67, count_name_sq_chars=0.70, count_logical_not_op=0.67, count_pos_int=0.69, count_singular_query=0.67, count_name_dq_chars=0.69, count_and_tail=0.67, count_DIGIT1=0.67, count_literal=0.66, count_value_function_expr=0.67, count_paren_expr=0.67, count_rel_query=0.67, count_rel_singular_query=0.66, count_name_segment=0.67, count_count_expr=0.65, count_comparison_expr=0.66, count_comparable=0.66, count_filter_selector=0.67, count_singular_segment=0.67, count_index_segment=0.66, count_ire_branch=0.45, count_ire_regexp=0.45, count_iregexp_literal=0.46, count_ws=0.29, count_abs_singular_query=0.63, count_ire_quantifier=0.40, count_ire_piece=0.40, count_ire_range_quantifier=0.36, count_ire_char_class_expr=0.33, count_ire_cce1=0.33, count_match_expr=0.62, count_DIGIT=0.66, count_ire_char_class=0.36, count_ire_normal_char=0.33, count_ire_alt=0.34, count_member_name_shorthand=0.65, count_number=0.60, count_name_first=0.64, count_abs_query=0.64, count_value=0.24, count_name_char=0.63, count_length_expr=0.61, count_string_literal=0.55, count_value_expr=0.62, doc_bytes=0.33, doc_depth=0.10, count_exp=0.50, count_name_sq_mixed=0.61, count_selector=0.60, count_array=0.13, count_name_sq_special=0.60, count_sq_chars=0.46, count_name_sq_char=0.59, count_escapable=0.58, count_name_dq_mixed=0.57, count_doc_number=0.18, count_name_dq_special=0.54, count_more_value=0.15, count_name_dq_char=0.52, count_dq_chars=0.45, count_B=0.52, count_slice_selector=0.48, count_nonempty_object=0.24, count_member=0.24, count_object=0.10, count_doc_string=0.15, count_doc_exp=0.15, count_doc_escape=0.20, count_more_member=0.19, count_letter=0.30, count_nonempty_array=0.25, count_sign_opt=0.24, count_sq_special=0.23, count_sq_mixed=0.23, count_doc_name_mixed=0.16, count_dq_mixed=0.20, count_doc_name_special=0.17, count_dq_special=0.20, count_doc_name_char=0.15, count_dq_char=0.20, count_doc_special=0.07, count_D=0.19, count_doc_mixed=0.07, count_hexchar=0.19, count_doc_char=0.06, count_HEXDIG=0.19, count_sq_char=0.19, count_oct_digit=0.12, count_high_surrogate=0.14, count_low_surrogate=0.14, count_frac=0.14, count_non_surrogate=0.13, count_non_d_hex=0.07
+[select] comparative relevance (max |rho| vs a between-system ratio): query_len=0.49, count_logical_function_expr=0.55, count_segment=0.32, count_regex_argument=0.55, count_int=0.25, count_value_argument=0.55, count_index_selector=0.27, count_S=0.54, count_wildcard_selector=0.25, count_test_expr=0.54, count_descendant_segment=0.20, count_or_tail=0.53, count_name_selector=0.30, count_search_expr=0.53, count_bracketed_selection=0.28, count_basic_expr=0.53, count_union_selector=0.25, count_logical_and_expr=0.53, count_more_selector=0.26, count_filter_query=0.53, count_child_segment=0.38, count_logical_expr=0.52, count_name_sq_chars=0.30, count_logical_not_op=0.52, count_pos_int=0.22, count_singular_query=0.52, count_name_dq_chars=0.29, count_and_tail=0.52, count_DIGIT1=0.27, count_literal=0.52, count_value_function_expr=0.52, count_paren_expr=0.52, count_rel_query=0.52, count_rel_singular_query=0.51, count_name_segment=0.51, count_count_expr=0.51, count_comparison_expr=0.51, count_comparable=0.51, count_filter_selector=0.51, count_singular_segment=0.50, count_index_segment=0.50, count_ire_branch=0.48, count_ire_regexp=0.48, count_iregexp_literal=0.47, count_ws=0.46, count_abs_singular_query=0.45, count_ire_quantifier=0.45, count_ire_piece=0.45, count_ire_range_quantifier=0.45, count_ire_char_class_expr=0.45, count_ire_cce1=0.45, count_match_expr=0.45, count_DIGIT=0.30, count_ire_char_class=0.45, count_ire_normal_char=0.44, count_ire_alt=0.44, count_member_name_shorthand=0.28, count_number=0.44, count_name_first=0.32, count_abs_query=0.44, count_value=0.43, count_name_char=0.32, count_length_expr=0.43, count_string_literal=0.42, count_value_expr=0.41, doc_bytes=0.41, doc_depth=0.41, count_exp=0.39, count_name_sq_mixed=0.35, count_selector=0.36, count_array=0.37, count_name_sq_special=0.35, count_sq_chars=0.36, count_name_sq_char=0.35, count_escapable=0.31, count_name_dq_mixed=0.30, count_doc_number=0.35, count_name_dq_special=0.29, count_more_value=0.34, count_name_dq_char=0.29, count_dq_chars=0.34, count_B=0.18, count_slice_selector=0.17, count_nonempty_object=0.32, count_member=0.31, count_object=0.31, count_doc_string=0.31, count_doc_exp=0.30, count_doc_escape=0.29, count_more_member=0.29, count_letter=0.20, count_nonempty_array=0.14, count_sign_opt=0.14, count_sq_special=0.20, count_sq_mixed=0.20, count_doc_name_mixed=0.25, count_dq_mixed=0.18, count_doc_name_special=0.25, count_dq_special=0.18, count_doc_name_char=0.24, count_dq_char=0.18, count_doc_special=0.22, count_D=0.18, count_doc_mixed=0.22, count_hexchar=0.17, count_doc_char=0.21, count_HEXDIG=0.16, count_sq_char=0.20, count_oct_digit=0.19, count_high_surrogate=0.14, count_low_surrogate=0.14, count_frac=0.09, count_non_surrogate=0.17, count_non_d_hex=0.12
+[select] scored on the comparison rather than on the metric: count_ws (0.29 -> 0.46), count_ire_quantifier (0.40 -> 0.45), count_ire_range_quantifier (0.36 -> 0.45), count_ire_char_class_expr (0.33 -> 0.45), count_ire_cce1 (0.33 -> 0.45), count_ire_char_class (0.36 -> 0.45), count_ire_normal_char (0.33 -> 0.44), count_ire_alt (0.34 -> 0.44), count_value (0.24 -> 0.43), doc_bytes (0.33 -> 0.41), doc_depth (0.10 -> 0.41), count_array (0.13 -> 0.37), count_doc_number (0.18 -> 0.35), count_more_value (0.15 -> 0.34), count_nonempty_object (0.24 -> 0.32), count_member (0.24 -> 0.31), count_object (0.10 -> 0.31), count_doc_string (0.15 -> 0.31), count_doc_exp (0.15 -> 0.30), count_doc_escape (0.20 -> 0.29), count_more_member (0.19 -> 0.29), count_doc_name_mixed (0.16 -> 0.25), count_doc_name_special (0.17 -> 0.25), count_doc_name_char (0.15 -> 0.24), count_doc_special (0.07 -> 0.22), count_doc_mixed (0.07 -> 0.22), count_doc_char (0.06 -> 0.21), count_oct_digit (0.12 -> 0.19)
+[select] dropped count_regex_argument: |rho|=1.00 with count_logical_function_expr, which is already kept
+[select] dropped count_value_argument: over the 4-property cap
+[select] dropped count_index_selector: over the 4-property cap
+[select] dropped count_S: over the 4-property cap
+[select] dropped count_wildcard_selector: over the 4-property cap
+[select] dropped count_test_expr: over the 4-property cap
+[select] dropped count_descendant_segment: over the 4-property cap
+[select] dropped count_or_tail: over the 4-property cap
+[select] dropped count_name_selector: over the 4-property cap
+[select] dropped count_search_expr: over the 4-property cap
+[select] dropped count_bracketed_selection: over the 4-property cap
+[select] dropped count_basic_expr: over the 4-property cap
+[select] dropped count_union_selector: over the 4-property cap
+[select] dropped count_logical_and_expr: over the 4-property cap
+[select] dropped count_more_selector: over the 4-property cap
+[select] dropped count_filter_query: over the 4-property cap
+[select] dropped count_child_segment: over the 4-property cap
+[select] dropped count_logical_expr: over the 4-property cap
+[select] dropped count_name_sq_chars: over the 4-property cap
+[select] dropped count_logical_not_op: over the 4-property cap
+[select] dropped count_pos_int: over the 4-property cap
+[select] dropped count_singular_query: over the 4-property cap
+[select] dropped count_name_dq_chars: over the 4-property cap
+[select] dropped count_and_tail: over the 4-property cap
+[select] dropped count_DIGIT1: over the 4-property cap
+[select] dropped count_literal: over the 4-property cap
+[select] dropped count_value_function_expr: over the 4-property cap
+[select] dropped count_paren_expr: over the 4-property cap
+[select] dropped count_rel_query: over the 4-property cap
+[select] dropped count_rel_singular_query: over the 4-property cap
+[select] dropped count_name_segment: over the 4-property cap
+[select] dropped count_count_expr: over the 4-property cap
+[select] dropped count_comparison_expr: over the 4-property cap
+[select] dropped count_comparable: over the 4-property cap
+[select] dropped count_filter_selector: over the 4-property cap
+[select] dropped count_singular_segment: over the 4-property cap
+[select] dropped count_index_segment: over the 4-property cap
+[select] dropped count_ire_branch: over the 4-property cap
+[select] dropped count_ire_regexp: over the 4-property cap
+[select] dropped count_iregexp_literal: over the 4-property cap
+[select] dropped count_ws: over the 4-property cap
+[select] dropped count_abs_singular_query: over the 4-property cap
+[select] dropped count_ire_quantifier: over the 4-property cap
+[select] dropped count_ire_piece: over the 4-property cap
+[select] dropped count_ire_range_quantifier: over the 4-property cap
+[select] dropped count_ire_char_class_expr: over the 4-property cap
+[select] dropped count_ire_cce1: over the 4-property cap
+[select] dropped count_match_expr: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_ire_char_class: over the 4-property cap
+[select] dropped count_ire_normal_char: over the 4-property cap
+[select] dropped count_ire_alt: over the 4-property cap
+[select] dropped count_member_name_shorthand: over the 4-property cap
+[select] dropped count_number: over the 4-property cap
+[select] dropped count_name_first: over the 4-property cap
+[select] dropped count_abs_query: over the 4-property cap
+[select] dropped count_value: over the 4-property cap
+[select] dropped count_name_char: over the 4-property cap
+[select] dropped count_length_expr: over the 4-property cap
+[select] dropped count_string_literal: over the 4-property cap
+[select] dropped count_value_expr: over the 4-property cap
+[select] dropped doc_bytes: over the 4-property cap
+[select] dropped doc_depth: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_name_sq_mixed: over the 4-property cap
+[select] dropped count_selector: over the 4-property cap
+[select] dropped count_array: over the 4-property cap
+[select] dropped count_name_sq_special: over the 4-property cap
+[select] dropped count_sq_chars: over the 4-property cap
+[select] dropped count_name_sq_char: over the 4-property cap
+[select] dropped count_escapable: over the 4-property cap
+[select] dropped count_name_dq_mixed: over the 4-property cap
+[select] dropped count_doc_number: over the 4-property cap
+[select] dropped count_name_dq_special: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] dropped count_name_dq_char: over the 4-property cap
+[select] dropped count_dq_chars: over the 4-property cap
+[select] dropped count_B: over the 4-property cap
+[select] dropped count_slice_selector: over the 4-property cap
+[select] dropped count_nonempty_object: over the 4-property cap
+[select] dropped count_member: over the 4-property cap
+[select] dropped count_object: over the 4-property cap
+[select] dropped count_doc_string: over the 4-property cap
+[select] dropped count_doc_exp: over the 4-property cap
+[select] dropped count_doc_escape: over the 4-property cap
+[select] dropped count_more_member: over the 4-property cap
+[select] dropped count_letter: over the 4-property cap
+[select] dropped count_nonempty_array: over the 4-property cap
+[select] dropped count_sign_opt: over the 4-property cap
+[select] dropped count_sq_special: over the 4-property cap
+[select] dropped count_sq_mixed: over the 4-property cap
+[select] dropped count_doc_name_mixed: over the 4-property cap
+[select] dropped count_dq_mixed: over the 4-property cap
+[select] dropped count_doc_name_special: over the 4-property cap
+[select] dropped count_dq_special: over the 4-property cap
+[select] dropped count_doc_name_char: over the 4-property cap
+[select] dropped count_dq_char: over the 4-property cap
+[select] dropped count_doc_special: over the 4-property cap
+[select] dropped count_D: over the 4-property cap
+[select] dropped count_doc_mixed: over the 4-property cap
+[select] dropped count_hexchar: over the 4-property cap
+[select] dropped count_doc_char: over the 4-property cap
+[select] dropped count_HEXDIG: over the 4-property cap
+[select] dropped count_sq_char: over the 4-property cap
+[select] dropped count_oct_digit: over the 4-property cap
+[select] dropped count_high_surrogate: over the 4-property cap
+[select] dropped count_low_surrogate: over the 4-property cap
+[select] dropped count_frac: over the 4-property cap
+[select] dropped count_non_surrogate: over the 4-property cap
+[select] dropped count_non_d_hex: over the 4-property cap
+[select] count_logical_function_expr stands for count_regex_argument (indistinguishable here)
+[select] joint fit uses 4 of 114 properties: count_segment, count_int, count_logical_function_expr, query_len (1,296 model fits)
+[jsonpath_plus_latest] loop targets 4 of 114 properties: count_segment, count_int, count_logical_function_expr, query_len
+[jsonpath_plus_latest] targeting 8 regions: runtime_ns_divergence, count_int_dominance0, count_logical_function_expr_undecided0, count_logical_function_expr_x_query_len_joint, count_logical_function_expr_beyond, runtime_ns_high, count_logical_function_expr_edge0, runtime_ns_sparse0
+  [runtime_ns_divergence] 23s: no new inputs
+  [count_int_dominance0] settling count_int [2.279,5.192) would decide 6 dominance verdict(s): jsonpath_plus_10_2_0 vs jsonpath_plus_11_0_0 (runtime_ns undecided) and 5 more -> <segment>{3,5}
+[metrics] jsonpath_plus_10_2_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_3_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_10_4_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_0: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_0_1: no measurement after 3 failed attempts; leaving this input unmeasured
+[metrics] jsonpath_plus_11_1_0: no measurement after 3 failed attempts; leaving this input unmeasured
+  [count_int_dominance0] 20s: +10 new input(s), 10 distinct shape(s), 9 measured
+  [count_logical_function_expr_undecided0] 30 comparison(s) undecided in count_logical_function_expr [12.84,24.3): jsonpath_plus_10_2_0 vs jsonpath_plus_10_3_0 on runtime_ns and 29 more -> <segment>{24,26}
+  [count_logical_function_expr_undecided0] 21s: +10 new input(s), 10 distinct shape(s), 10 measured
+  [count_logical_function_expr_x_query_len_joint] query_len spans 1..10326 overall, 1606..2593 at count_logical_function_expr in [5,6]; maximizing it at <segment>{24,26}
+  [count_logical_function_expr_x_query_len_joint] 10 of 10 seeds do not parse; seeding with 0.

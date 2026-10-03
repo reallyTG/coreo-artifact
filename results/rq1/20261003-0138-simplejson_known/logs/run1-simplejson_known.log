@@ -1,0 +1,458 @@
+$ ./.venv/bin/python -u run.py simplejson_known --seed=20260922 --output-dir=./results/rq1/20261003-0138-simplejson_known/run1/simplejson_known --max-wall-seconds=3420
+
+[props] max_repetition=20 (bounds * and + during generation)
+[props]   count_DIGIT                        0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_array                        0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_begin_array                  0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_begin_object                 0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_char                         0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_char_2                       0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_char_3                       0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_digit1_9                     0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_end_array                    0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_end_object                   0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_escaped                      0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_exp                          0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_exp_opt                      0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_exp_zeros                    0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_false                        0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_float_number                 0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_hex_bmp                      0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_hex_high_surrogate           0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_hex_high_surrogate_not3f       0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_hex_low_surrogate            0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_hex_low_surrogate_fffe       0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_int_16                       0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_int_frac                     0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_int_sig                      0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_int_upto15                   0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_integer_number               0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_member                       0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_minus                        0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_minus_opt                    0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_more_member                  0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_more_value                   0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_null                         0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_number                       0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_object                       0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_root_scalar                    0..1  no governing repetition (recursion or alternative)
+[props]   count_string                       0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_true                         0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_u_escape                     0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_unescaped_alnum              0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_unescaped_ascii_other        0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_unescaped_nonascii           0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_unescaped_utf8_2             0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_unescaped_utf8_3             0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_unescaped_utf8_4             0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_value                        0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_value_separator              0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_ws                           2..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_wschar                       0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props]   count_zero                         0..inf  governed by <more_member>* in <object>, capped at 20 by max_repetition
+[props] identical to count_exp, not derived: count_e, count_exp_digits, count_exp_sign
+[props] identical to count_integer_number, not derived: count_int
+[props] identical to count_member, not derived: count_name_separator
+[props] identical to count_string, not derived: count_chars
+[props] WARNING <ws> is a list written as recursion; write it as `<ws> ::= <wschar>+` so the length can be banded
+[props] fixed count, not derived: <root_value>
+[simplejson_known] properties: ['count_ws', 'count_wschar', 'count_object', 'count_end_object', 'count_begin_object', 'count_more_member', 'count_value_separator', 'count_string', 'count_char_2', 'count_unescaped_ascii_other', 'count_char_3', 'count_escaped', 'count_unescaped_nonascii', 'count_unescaped_alnum', 'count_value', 'count_false', 'count_null', 'count_true', 'count_float_number', 'count_exp', 'count_exp_opt', 'count_minus_opt', 'count_minus', 'count_int_frac', 'count_int_sig', 'count_integer_number', 'count_more_value', 'count_begin_array', 'count_end_array', 'count_exp_zeros', 'count_DIGIT', 'count_digit1_9', 'count_zero', 'count_int_upto15', 'count_int_16', 'count_u_escape', 'count_unescaped_utf8_3', 'count_unescaped_utf8_2', 'count_unescaped_utf8_4', 'count_hex_high_surrogate_not3f', 'count_hex_high_surrogate', 'count_hex_low_surrogate_fffe', 'count_hex_low_surrogate', 'count_hex_bmp', 'count_root_scalar', 'depth', 'num_pairs', 'num_arrays', 'num_numbers', 'total_string_len']
+[simplejson_known] auto-stratified exploration: <more_member>[(0, 0), (1, 1), (2, 4), (5, 10), (11, 24)] x <more_value>[(0, 0), (1, 1), (2, 4), (5, 10), (11, 24)] x <char>[(0, 0), (1, 1), (2, 2), (3, 4), (5, 8)] ...
+fandango:WARNING: Symbol <more_member> defined, but not used
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+fandango:WARNING: Symbol <more_value> defined, but not used
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+fandango:WARNING: Symbol <char> defined, but not used
+fandango:WARNING: Symbol <DIGIT> defined, but not used
+fandango:WARNING: Symbol <integer_number> defined, but not used
+fandango:WARNING: Symbol <int_frac> defined, but not used
+fandango:WARNING: Symbol <exp_opt> defined, but not used
+fandango:WARNING: Symbol <integer_number> defined, but not used
+fandango:WARNING: Symbol <int_frac> defined, but not used
+fandango:WARNING: Symbol <exp_opt> defined, but not used
+fandango:WARNING: Symbol <integer_number> defined, but not used
+fandango:WARNING: Symbol <int_frac> defined, but not used
+fandango:WARNING: Symbol <exp_opt> defined, but not used
+fandango:WARNING: Symbol <integer_number> defined, but not used
+fandango:WARNING: Symbol <int_frac> defined, but not used
+fandango:WARNING: Symbol <exp_opt> defined, but not used
+  [explore] 4 axes, 20 strata, 3/stratum -> 60 inputs
+[simplejson_known] iter 0 (explore): corpus=118 (+118 new this run)
+[select] relevance (max |rho| vs any metric on any system): count_char_2=0.97, num_pairs=0.82, count_char_3=0.96, count_unescaped_utf8_4=0.85, total_string_len=0.96, count_more_member=0.82, count_unescaped_alnum=0.95, count_end_object=0.81, count_unescaped_nonascii=0.94, count_begin_object=0.81, count_string=0.94, count_escaped=0.93, count_int_16=0.51, count_unescaped_ascii_other=0.92, count_unescaped_utf8_2=0.90, count_object=0.76, count_unescaped_utf8_3=0.87, count_value=0.84, count_value_separator=0.82, count_hex_high_surrogate=0.78, count_hex_low_surrogate=0.78, count_u_escape=0.80, depth=0.79, count_wschar=0.78, num_arrays=0.77, count_ws=0.77, count_hex_bmp=0.76, count_true=0.69, count_hex_high_surrogate_not3f=0.76, count_hex_low_surrogate_fffe=0.76, count_null=0.74, count_root_scalar=0.70, count_minus_opt=0.70, num_numbers=0.70, count_integer_number=0.63, count_false=0.68, count_zero=0.54, count_minus=0.67, count_float_number=0.61, count_exp_opt=0.60, count_int_frac=0.60, count_exp=0.55, count_int_upto15=0.41, count_exp_zeros=0.53, count_more_value=0.53, count_begin_array=0.52, count_end_array=0.52, count_int_sig=0.41, count_DIGIT=0.37, count_digit1_9=0.35
+[select] comparative relevance (max |rho| vs a between-system ratio): count_char_2=0.71, num_pairs=0.80, count_char_3=0.73, count_unescaped_utf8_4=0.79, total_string_len=0.71, count_more_member=0.79, count_unescaped_alnum=0.72, count_end_object=0.79, count_unescaped_nonascii=0.79, count_begin_object=0.79, count_string=0.72, count_escaped=0.70, count_int_16=0.78, count_unescaped_ascii_other=0.73, count_unescaped_utf8_2=0.78, count_object=0.76, count_unescaped_utf8_3=0.74, count_value=0.73, count_value_separator=0.73, count_hex_high_surrogate=0.73, count_hex_low_surrogate=0.73, count_u_escape=0.68, depth=0.71, count_wschar=0.71, num_arrays=0.63, count_ws=0.69, count_hex_bmp=0.69, count_true=0.69, count_hex_high_surrogate_not3f=0.68, count_hex_low_surrogate_fffe=0.68, count_null=0.68, count_root_scalar=0.60, count_minus_opt=0.55, num_numbers=0.55, count_integer_number=0.62, count_false=0.62, count_zero=0.62, count_minus=0.52, count_float_number=0.42, count_exp_opt=0.52, count_int_frac=0.52, count_exp=0.36, count_int_upto15=0.45, count_exp_zeros=0.31, count_more_value=0.41, count_begin_array=0.37, count_end_array=0.37, count_int_sig=0.30, count_DIGIT=0.21, count_digit1_9=0.23
+[select] scored on the comparison rather than on the metric: count_int_16 (0.51 -> 0.78), count_zero (0.54 -> 0.62)
+[select] dropped num_pairs: |rho|=0.82 with count_char_2, which is already kept
+[select] dropped count_char_3: |rho|=0.98 with count_char_2, which is already kept
+[select] dropped count_unescaped_utf8_4: |rho|=0.85 with count_char_2, which is already kept
+[select] dropped total_string_len: |rho|=1.00 with count_char_2, which is already kept
+[select] dropped count_more_member: |rho|=0.82 with count_char_2, which is already kept
+[select] dropped count_unescaped_alnum: |rho|=0.99 with count_char_2, which is already kept
+[select] dropped count_end_object: |rho|=0.82 with count_char_2, which is already kept
+[select] dropped count_unescaped_nonascii: |rho|=0.95 with count_char_2, which is already kept
+[select] dropped count_begin_object: |rho|=0.82 with count_char_2, which is already kept
+[select] dropped count_string: |rho|=0.95 with count_char_2, which is already kept
+[select] dropped count_escaped: |rho|=0.96 with count_char_2, which is already kept
+[select] dropped count_unescaped_ascii_other: |rho|=0.97 with count_char_2, which is already kept
+[select] dropped count_unescaped_utf8_2: |rho|=0.91 with count_char_2, which is already kept
+[select] dropped count_unescaped_utf8_3: |rho|=0.89 with count_char_2, which is already kept
+[select] dropped count_value: |rho|=0.85 with count_object, which is already kept
+[select] dropped count_value_separator: |rho|=0.85 with count_object, which is already kept
+[select] dropped count_hex_high_surrogate: |rho|=0.81 with count_object, which is already kept
+[select] dropped count_hex_low_surrogate: |rho|=0.81 with count_object, which is already kept
+[select] dropped count_u_escape: |rho|=0.80 with count_char_2, which is already kept
+[select] dropped depth: |rho|=0.92 with count_object, which is already kept
+[select] dropped count_wschar: |rho|=0.85 with count_object, which is already kept
+[select] dropped count_ws: over the 4-property cap
+[select] dropped count_hex_bmp: over the 4-property cap
+[select] dropped count_true: over the 4-property cap
+[select] dropped count_hex_high_surrogate_not3f: over the 4-property cap
+[select] dropped count_hex_low_surrogate_fffe: over the 4-property cap
+[select] dropped count_null: over the 4-property cap
+[select] dropped count_root_scalar: over the 4-property cap
+[select] dropped count_minus_opt: over the 4-property cap
+[select] dropped num_numbers: over the 4-property cap
+[select] dropped count_integer_number: over the 4-property cap
+[select] dropped count_false: over the 4-property cap
+[select] dropped count_zero: over the 4-property cap
+[select] dropped count_minus: over the 4-property cap
+[select] dropped count_float_number: over the 4-property cap
+[select] dropped count_exp_opt: over the 4-property cap
+[select] dropped count_int_frac: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_int_upto15: over the 4-property cap
+[select] dropped count_exp_zeros: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] dropped count_begin_array: over the 4-property cap
+[select] dropped count_end_array: over the 4-property cap
+[select] dropped count_int_sig: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_digit1_9: over the 4-property cap
+[select] count_object stands for count_value, count_value_separator, count_hex_high_surrogate, count_hex_low_surrogate, depth, count_wschar (indistinguishable here)
+[select] count_char_2 stands for num_pairs, count_char_3, count_unescaped_utf8_4, total_string_len, count_more_member, count_unescaped_alnum, count_end_object, count_unescaped_nonascii, count_begin_object, count_string, count_escaped, count_unescaped_ascii_other, count_unescaped_utf8_2, count_unescaped_utf8_3, count_u_escape (indistinguishable here)
+[select] joint fit uses 4 of 50 properties: count_object, count_char_2, count_int_16, num_arrays (1,296 model fits)
+[simplejson_known] loop targets 4 of 50 properties: count_object, count_char_2, count_int_16, num_arrays
+./.venv/lib/python3.12/site-packages/scipy/stats/_wilcoxon.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  z = (r_plus - mn) / se
+[simplejson_known] targeting 10 regions: runtime_ns_divergence, count_char_2_undecided0, simplejson_3_20_2_memory_peak_count_object_discriminate, num_arrays_beyond, runtime_ns_high, count_char_2_edge0, runtime_ns_sparse0, num_arrays_sparse8_0, memory_peak_divergence, count_int_16_undecided0
+  [runtime_ns_divergence] 113s: +8 new input(s), 8 distinct shape(s), 8 measured
+  [count_char_2_undecided0] 2 comparison(s) undecided in count_char_2 [2.771,7.68): simplejson_3_20_2 vs simplejson_4_0_0 on runtime_ns and 1 more -> <more_member>{1,3}
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+  [count_char_2_undecided0] 27s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [simplejson_3_20_2_memory_peak_count_object_discriminate] Logarithmic vs Linear tied; 12 inputs here decide it (power 0.96)
+  [simplejson_3_20_2_memory_peak_count_object_discriminate] 20s: +12 new input(s), 12 distinct shape(s), 12 measured
+  [num_arrays_beyond] <more_member>{24,28} (rung 1, 4000 nodes)
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+  [num_arrays_beyond] 64s: +14 new input(s), 7 distinct shape(s), 14 measured
+  [runtime_ns_high] 130s: +2 new input(s), 2 distinct shape(s), 2 measured
+  [count_char_2_edge0] <more_member>{13,15} for the top 15% of count_char_2 ([406,453])
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+  [count_char_2_edge0] 65s: +15 new input(s), 8 distinct shape(s), 15 measured
+  [runtime_ns_sparse0] 22s: no new inputs
+  [num_arrays_sparse8_0] <more_member>{24,26} for num_arrays in [8.8,9.9]
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+  [num_arrays_sparse8_0] 84s: +14 new input(s), 3 distinct shape(s), 14 measured
+  [memory_peak_divergence] 31s: +9 new input(s), 8 distinct shape(s), 9 measured
+  [count_int_16_undecided0] 2 comparison(s) undecided in count_int_16 [1,1.333): simplejson_3_20_2 vs simplejson_4_0_0 on runtime_ns and 1 more -> <more_member>{9,11}
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+  [count_int_16_undecided0] 61s: +15 new input(s), 11 distinct shape(s), 15 measured
+[simplejson_known] iter 1: corpus=326 (+208 new)
+[select] relevance (max |rho| vs any metric on any system): count_string=0.96, num_pairs=0.95, count_more_member=0.95, count_ws=0.92, count_value=0.91, count_value_separator=0.90, num_arrays=0.86, count_null=0.82, count_wschar=0.86, count_true=0.83, count_false=0.83, count_u_escape=0.82, count_end_object=0.77, count_hex_high_surrogate_not3f=0.80, count_begin_object=0.77, count_hex_low_surrogate_fffe=0.80, count_unescaped_utf8_4=0.78, count_escaped=0.80, count_unescaped_ascii_other=0.78, count_unescaped_utf8_2=0.79, count_unescaped_nonascii=0.78, count_char_3=0.78, count_char_2=0.78, count_unescaped_alnum=0.77, count_unescaped_utf8_3=0.77, count_hex_bmp=0.77, depth=0.77, total_string_len=0.77, count_hex_high_surrogate=0.77, count_hex_low_surrogate=0.77, count_object=0.70, count_root_scalar=0.63, count_minus_opt=0.66, num_numbers=0.66, count_integer_number=0.54, count_minus=0.49, count_exp_opt=0.52, count_int_frac=0.52, count_zero=0.30, count_float_number=0.47, count_int_upto15=0.38, count_exp=0.34, count_int_16=0.32, count_exp_zeros=0.32, count_more_value=0.20, count_int_sig=0.11, count_digit1_9=0.20, count_DIGIT=0.16, count_begin_array=0.15, count_end_array=0.15
+[select] comparative relevance (max |rho| vs a between-system ratio): count_string=0.90, num_pairs=0.91, count_more_member=0.90, count_ws=0.82, count_value=0.81, count_value_separator=0.81, num_arrays=0.75, count_null=0.77, count_wschar=0.75, count_true=0.75, count_false=0.73, count_u_escape=0.68, count_end_object=0.71, count_hex_high_surrogate_not3f=0.67, count_begin_object=0.71, count_hex_low_surrogate_fffe=0.67, count_unescaped_utf8_4=0.70, count_escaped=0.68, count_unescaped_ascii_other=0.70, count_unescaped_utf8_2=0.70, count_unescaped_nonascii=0.69, count_char_3=0.67, count_char_2=0.68, count_unescaped_alnum=0.68, count_unescaped_utf8_3=0.68, count_hex_bmp=0.67, depth=0.63, total_string_len=0.67, count_hex_high_surrogate=0.64, count_hex_low_surrogate=0.64, count_object=0.58, count_root_scalar=0.60, count_minus_opt=0.51, num_numbers=0.51, count_integer_number=0.37, count_minus=0.37, count_exp_opt=0.33, count_int_frac=0.33, count_zero=0.36, count_float_number=0.33, count_int_upto15=0.28, count_exp=0.26, count_int_16=0.28, count_exp_zeros=0.22, count_more_value=0.05, count_int_sig=0.22, count_digit1_9=0.10, count_DIGIT=0.04, count_begin_array=0.02, count_end_array=0.02
+[select] scored on the comparison rather than on the metric: count_zero (0.30 -> 0.36), count_int_sig (0.11 -> 0.22)
+[select] dropped num_pairs: |rho|=0.98 with count_string, which is already kept
+[select] dropped count_more_member: |rho|=0.98 with count_string, which is already kept
+[select] dropped count_ws: |rho|=0.91 with count_string, which is already kept
+[select] dropped count_value: |rho|=0.91 with count_string, which is already kept
+[select] dropped count_value_separator: |rho|=0.91 with count_string, which is already kept
+[select] dropped num_arrays: |rho|=0.84 with count_string, which is already kept
+[select] dropped count_null: |rho|=0.83 with count_string, which is already kept
+[select] dropped count_wschar: |rho|=0.84 with count_string, which is already kept
+[select] dropped count_true: |rho|=0.85 with count_string, which is already kept
+[select] dropped count_false: |rho|=0.82 with count_string, which is already kept
+[select] dropped count_hex_high_surrogate_not3f: |rho|=0.93 with count_u_escape, which is already kept
+[select] dropped count_begin_object: |rho|=1.00 with count_end_object, which is already kept
+[select] dropped count_hex_low_surrogate_fffe: |rho|=0.93 with count_u_escape, which is already kept
+[select] dropped count_unescaped_utf8_4: |rho|=0.82 with count_u_escape, which is already kept
+[select] dropped count_escaped: |rho|=0.87 with count_u_escape, which is already kept
+[select] dropped count_unescaped_ascii_other: |rho|=0.81 with count_u_escape, which is already kept
+[select] dropped count_unescaped_utf8_2: |rho|=0.80 with count_u_escape, which is already kept
+[select] dropped count_unescaped_nonascii: |rho|=0.83 with count_u_escape, which is already kept
+[select] dropped count_char_3: |rho|=0.86 with count_u_escape, which is already kept
+[select] dropped count_char_2: |rho|=0.83 with count_u_escape, which is already kept
+[select] dropped count_unescaped_alnum: |rho|=0.84 with count_u_escape, which is already kept
+[select] dropped count_unescaped_utf8_3: |rho|=0.85 with count_u_escape, which is already kept
+[select] dropped count_hex_bmp: |rho|=0.90 with count_u_escape, which is already kept
+[select] dropped depth: |rho|=0.89 with count_end_object, which is already kept
+[select] dropped total_string_len: |rho|=0.83 with count_u_escape, which is already kept
+[select] dropped count_hex_high_surrogate: |rho|=0.91 with count_u_escape, which is already kept
+[select] dropped count_hex_low_surrogate: |rho|=0.91 with count_u_escape, which is already kept
+[select] dropped count_object: |rho|=0.91 with count_end_object, which is already kept
+[select] dropped count_minus_opt: over the 4-property cap
+[select] dropped num_numbers: over the 4-property cap
+[select] dropped count_integer_number: over the 4-property cap
+[select] dropped count_minus: over the 4-property cap
+[select] dropped count_exp_opt: over the 4-property cap
+[select] dropped count_int_frac: over the 4-property cap
+[select] dropped count_zero: over the 4-property cap
+[select] dropped count_float_number: over the 4-property cap
+[select] dropped count_int_upto15: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_int_16: over the 4-property cap
+[select] dropped count_exp_zeros: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] dropped count_int_sig: over the 4-property cap
+[select] dropped count_digit1_9: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_begin_array: over the 4-property cap
+[select] dropped count_end_array: over the 4-property cap
+[select] count_end_object stands for count_begin_object, depth, count_object (indistinguishable here)
+[select] count_string stands for num_pairs, count_more_member, count_ws, count_value, count_value_separator, num_arrays, count_null, count_wschar, count_true, count_false (indistinguishable here)
+[select] count_u_escape stands for count_hex_high_surrogate_not3f, count_hex_low_surrogate_fffe, count_unescaped_utf8_4, count_escaped, count_unescaped_ascii_other, count_unescaped_utf8_2, count_unescaped_nonascii, count_char_3, count_char_2, count_unescaped_alnum, count_unescaped_utf8_3, count_hex_bmp, total_string_len, count_hex_high_surrogate, count_hex_low_surrogate (indistinguishable here)
+[select] joint fit uses 4 of 50 properties: count_end_object, count_string, count_u_escape, count_root_scalar (1,296 model fits)
+[simplejson_known] loop targets 4 of 50 properties: count_end_object, count_string, count_u_escape, count_root_scalar
+[simplejson_known] targeting 10 regions: runtime_ns_divergence, count_u_escape_undecided0, count_u_escape_x_count_root_scalar_joint, simplejson_3_20_2_memory_peak_count_u_escape_discriminate, count_end_object_beyond, runtime_ns_high, count_end_object_edge0, runtime_ns_sparse0, count_end_object_sparse2_0, memory_peak_divergence
+  [runtime_ns_divergence] 77s: +14 new input(s), 7 distinct shape(s), 14 measured
+  [count_u_escape_undecided0] 2 comparison(s) undecided in count_u_escape [1.648,2.714): simplejson_3_20_2 vs simplejson_4_0_0 on runtime_ns and 1 more -> <more_member>{2,4}
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+  [count_u_escape_undecided0] 39s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [count_u_escape_x_count_root_scalar_joint] count_root_scalar spans 0..1 overall, 0..0 at count_u_escape in [14,16.8]; maximizing it at <more_member>{19,22}
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+  [count_u_escape_x_count_root_scalar_joint] 15 of 15 seeds do not parse; seeding with 0.
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+[budget] generation cut at 300s after 35 generations (861 solutions); this request is not reproducible
+  [soft] maximizing count_root_scalar: 861 candidates, best=0, keeping 15 spanning 0..0
+  [count_u_escape_x_count_root_scalar_joint] 371s: +15 new input(s), 3 distinct shape(s), 15 measured [CUT: generation budget, not reproducible]
+  [simplejson_3_20_2_memory_peak_count_u_escape_discriminate] Logarithmic vs Linear tied; 32 inputs here decide it (power 0.97)
+[WARNING] Fandango did not generate any valid inputs.
+  [simplejson_3_20_2_memory_peak_count_u_escape_discriminate] 27s: no new inputs
+  [count_end_object_beyond] <more_member>{24,28} (rung 1, 4000 nodes)
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+  [count_end_object_beyond] 109s: +14 new input(s), 3 distinct shape(s), 14 measured
+  [runtime_ns_high] 47s: +4 new input(s), 4 distinct shape(s), 4 measured
+  [count_end_object_edge0] <more_member>{24,26} for the top 15% of count_end_object ([3,6])
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+  [count_end_object_edge0] 90s: +15 new input(s), 1 distinct shape(s), 15 measured
+  [runtime_ns_sparse0] 36s: +1 new input(s), 1 distinct shape(s), 1 measured
+  [count_end_object_sparse2_0] <more_member>{10,12} for count_end_object in [1.2,1.8]
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+  [count_end_object_sparse2_0] 58s: +15 new input(s), 9 distinct shape(s), 15 measured
+  [memory_peak_divergence] 29s: +4 new input(s), 4 distinct shape(s), 4 measured
+[simplejson_known] iter 2: corpus=520 (+194 new)
+[select] relevance (max |rho| vs any metric on any system): count_ws=0.91, count_string=0.89, num_pairs=0.90, count_more_member=0.90, count_value_separator=0.88, count_value=0.87, count_wschar=0.84, count_false=0.79, count_null=0.83, count_true=0.78, num_arrays=0.81, count_u_escape=0.76, count_end_object=0.68, count_hex_bmp=0.74, count_begin_object=0.68, count_hex_high_surrogate_not3f=0.72, count_root_scalar=0.53, count_hex_low_surrogate_fffe=0.72, depth=0.67, count_unescaped_utf8_3=0.71, count_unescaped_utf8_4=0.70, count_unescaped_nonascii=0.70, count_escaped=0.70, count_unescaped_ascii_other=0.69, count_unescaped_utf8_2=0.69, count_unescaped_alnum=0.68, count_char_2=0.68, count_object=0.59, count_char_3=0.68, total_string_len=0.67, count_hex_high_surrogate=0.67, count_hex_low_surrogate=0.67, count_minus_opt=0.66, num_numbers=0.66, count_integer_number=0.57, count_exp_opt=0.50, count_int_frac=0.50, count_float_number=0.50, count_minus=0.48, count_int_upto15=0.36, count_exp=0.38, count_int_16=0.36, count_int_sig=0.21, count_exp_zeros=0.35, count_digit1_9=0.28, count_DIGIT=0.26, count_zero=0.23, count_begin_array=0.02, count_end_array=0.02, count_more_value=0.07
+[select] comparative relevance (max |rho| vs a between-system ratio): count_ws=0.75, count_string=0.88, num_pairs=0.88, count_more_member=0.87, count_value_separator=0.79, count_value=0.78, count_wschar=0.63, count_false=0.73, count_null=0.71, count_true=0.73, num_arrays=0.71, count_u_escape=0.42, count_end_object=0.55, count_hex_bmp=0.45, count_begin_object=0.55, count_hex_high_surrogate_not3f=0.45, count_root_scalar=0.51, count_hex_low_surrogate_fffe=0.45, depth=0.49, count_unescaped_utf8_3=0.43, count_unescaped_utf8_4=0.45, count_unescaped_nonascii=0.43, count_escaped=0.39, count_unescaped_ascii_other=0.42, count_unescaped_utf8_2=0.44, count_unescaped_alnum=0.40, count_char_2=0.40, count_object=0.42, count_char_3=0.39, total_string_len=0.39, count_hex_high_surrogate=0.39, count_hex_low_surrogate=0.39, count_minus_opt=0.37, num_numbers=0.37, count_integer_number=0.26, count_exp_opt=0.34, count_int_frac=0.34, count_float_number=0.29, count_minus=0.21, count_int_upto15=0.23, count_exp=0.18, count_int_16=0.22, count_int_sig=0.20, count_exp_zeros=0.16, count_digit1_9=0.11, count_DIGIT=0.08, count_zero=0.15, count_begin_array=0.15, count_end_array=0.15, count_more_value=0.14
+[select] scored on the comparison rather than on the metric: count_begin_array (0.02 -> 0.15), count_end_array (0.02 -> 0.15), count_more_value (0.07 -> 0.14)
+[select] dropped count_string: |rho|=0.90 with count_ws, which is already kept
+[select] dropped num_pairs: |rho|=0.90 with count_ws, which is already kept
+[select] dropped count_more_member: |rho|=0.90 with count_ws, which is already kept
+[select] dropped count_value_separator: |rho|=0.97 with count_ws, which is already kept
+[select] dropped count_value: |rho|=0.97 with count_ws, which is already kept
+[select] dropped count_wschar: |rho|=0.93 with count_ws, which is already kept
+[select] dropped count_false: |rho|=0.90 with count_ws, which is already kept
+[select] dropped count_null: |rho|=0.90 with count_ws, which is already kept
+[select] dropped count_true: |rho|=0.89 with count_ws, which is already kept
+[select] dropped num_arrays: |rho|=0.85 with count_ws, which is already kept
+[select] dropped count_hex_bmp: |rho|=0.86 with count_u_escape, which is already kept
+[select] dropped count_begin_object: |rho|=1.00 with count_end_object, which is already kept
+[select] dropped count_hex_high_surrogate_not3f: |rho|=0.88 with count_u_escape, which is already kept
+[select] dropped count_hex_low_surrogate_fffe: over the 4-property cap
+[select] dropped depth: over the 4-property cap
+[select] dropped count_unescaped_utf8_3: over the 4-property cap
+[select] dropped count_unescaped_utf8_4: over the 4-property cap
+[select] dropped count_unescaped_nonascii: over the 4-property cap
+[select] dropped count_escaped: over the 4-property cap
+[select] dropped count_unescaped_ascii_other: over the 4-property cap
+[select] dropped count_unescaped_utf8_2: over the 4-property cap
+[select] dropped count_unescaped_alnum: over the 4-property cap
+[select] dropped count_char_2: over the 4-property cap
+[select] dropped count_object: over the 4-property cap
+[select] dropped count_char_3: over the 4-property cap
+[select] dropped total_string_len: over the 4-property cap
+[select] dropped count_hex_high_surrogate: over the 4-property cap
+[select] dropped count_hex_low_surrogate: over the 4-property cap
+[select] dropped count_minus_opt: over the 4-property cap
+[select] dropped num_numbers: over the 4-property cap
+[select] dropped count_integer_number: over the 4-property cap
+[select] dropped count_exp_opt: over the 4-property cap
+[select] dropped count_int_frac: over the 4-property cap
+[select] dropped count_float_number: over the 4-property cap
+[select] dropped count_minus: over the 4-property cap
+[select] dropped count_int_upto15: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_int_16: over the 4-property cap
+[select] dropped count_int_sig: over the 4-property cap
+[select] dropped count_exp_zeros: over the 4-property cap
+[select] dropped count_digit1_9: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_zero: over the 4-property cap
+[select] dropped count_begin_array: over the 4-property cap
+[select] dropped count_end_array: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] count_ws stands for count_string, num_pairs, count_more_member, count_value_separator, count_value, count_wschar, count_false, count_null, count_true, num_arrays (indistinguishable here)
+[select] count_end_object stands for count_begin_object (indistinguishable here)
+[select] count_u_escape stands for count_hex_bmp, count_hex_high_surrogate_not3f (indistinguishable here)
+[select] joint fit uses 4 of 50 properties: count_ws, count_end_object, count_u_escape, count_root_scalar (1,296 model fits)
+[simplejson_known] loop targets 4 of 50 properties: count_ws, count_end_object, count_u_escape, count_root_scalar
+[simplejson_known] targeting 10 regions: runtime_ns_divergence, count_u_escape_undecided0, count_u_escape_x_count_root_scalar_joint, count_root_scalar_beyond, runtime_ns_high, count_end_object_edge0, runtime_ns_sparse0, count_root_scalar_sparse1, memory_peak_divergence, count_end_object_undecided0
+  [runtime_ns_divergence] 133s: +3 new input(s), 2 distinct shape(s), 3 measured
+  [count_u_escape_undecided0] 2 comparison(s) undecided in count_u_escape [1.648,2.714): simplejson_3_20_2 vs simplejson_4_0_0 on runtime_ns and 1 more -> <more_member>{3,5}
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+  [count_u_escape_undecided0] 44s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [count_u_escape_x_count_root_scalar_joint] count_root_scalar spans 0..1 overall, 0..0 at count_u_escape in [14,16.8]; maximizing it at <more_member>{19,22} (held, best 0)
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+  [count_u_escape_x_count_root_scalar_joint] 15 of 15 seeds do not parse; seeding with 0.
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+[budget] generation cut at 300s after 35 generations (882 solutions); this request is not reproducible
+  [soft] maximizing count_root_scalar: 882 candidates, best=0, keeping 15 spanning 0..0
+  [count_u_escape_x_count_root_scalar_joint] 383s: +15 new input(s), 10 distinct shape(s), 15 measured [CUT: generation budget, not reproducible]
+  [count_root_scalar_beyond] rung 2
+  [count_root_scalar_beyond] 58s: +5 new input(s), 5 distinct shape(s), 5 measured
+  [runtime_ns_high] 120s: +1 new input(s), 1 distinct shape(s), 1 measured
+  [count_end_object_edge0] <more_member>{24,26} for the top 15% of count_end_object ([3,6])
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+  [count_end_object_edge0] 73s: +13 new input(s), 8 distinct shape(s), 13 measured
+  [runtime_ns_sparse0] 59s: +1 new input(s), 1 distinct shape(s), 1 measured
+[WARNING] Fandango did not generate any valid inputs.
+  [count_root_scalar_sparse1] 5s: no new inputs
+  [memory_peak_divergence] 59s: +4 new input(s), 3 distinct shape(s), 4 measured
+  [count_end_object_undecided0] 2 comparison(s) undecided in count_end_object [4.333,5.167): simplejson_3_20_2 vs simplejson_4_0_0 on runtime_ns and 1 more -> <more_member>{24,26}
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+  [count_end_object_undecided0] 67s: +14 new input(s), 6 distinct shape(s), 14 measured
+[simplejson_known] iter 3: corpus=662 (+142 new)
+[select] relevance (max |rho| vs any metric on any system): num_pairs=0.90, count_string=0.88, count_more_member=0.90, count_ws=0.90, count_value_separator=0.88, count_value=0.87, count_wschar=0.82, count_true=0.78, num_arrays=0.79, count_false=0.78, count_null=0.79, count_u_escape=0.70, count_root_scalar=0.51, count_hex_bmp=0.69, count_end_object=0.61, count_unescaped_utf8_4=0.67, count_begin_object=0.61, count_unescaped_utf8_2=0.67, depth=0.64, count_unescaped_nonascii=0.66, count_unescaped_utf8_3=0.65, count_minus_opt=0.64, num_numbers=0.64, count_escaped=0.64, count_object=0.54, count_unescaped_alnum=0.64, count_unescaped_ascii_other=0.63, count_char_3=0.63, count_hex_high_surrogate=0.62, count_hex_low_surrogate=0.62, count_hex_high_surrogate_not3f=0.59, count_char_2=0.62, count_hex_low_surrogate_fffe=0.59, total_string_len=0.62, count_integer_number=0.55, count_exp_opt=0.48, count_float_number=0.51, count_int_frac=0.48, count_minus=0.47, count_exp=0.43, count_exp_zeros=0.40, count_int_upto15=0.34, count_int_sig=0.25, count_int_16=0.34, count_digit1_9=0.29, count_begin_array=0.05, count_end_array=0.05, count_zero=0.24, count_DIGIT=0.23, count_more_value=0.03
+[select] comparative relevance (max |rho| vs a between-system ratio): num_pairs=0.86, count_string=0.86, count_more_member=0.85, count_ws=0.74, count_value_separator=0.77, count_value=0.76, count_wschar=0.60, count_true=0.72, num_arrays=0.69, count_false=0.71, count_null=0.69, count_u_escape=0.38, count_root_scalar=0.50, count_hex_bmp=0.43, count_end_object=0.49, count_unescaped_utf8_4=0.41, count_begin_object=0.49, count_unescaped_utf8_2=0.40, depth=0.48, count_unescaped_nonascii=0.38, count_unescaped_utf8_3=0.39, count_minus_opt=0.35, num_numbers=0.35, count_escaped=0.35, count_object=0.38, count_unescaped_alnum=0.34, count_unescaped_ascii_other=0.37, count_char_3=0.35, count_hex_high_surrogate=0.37, count_hex_low_surrogate=0.37, count_hex_high_surrogate_not3f=0.36, count_char_2=0.35, count_hex_low_surrogate_fffe=0.36, total_string_len=0.34, count_integer_number=0.26, count_exp_opt=0.33, count_float_number=0.28, count_int_frac=0.33, count_minus=0.21, count_exp=0.21, count_exp_zeros=0.18, count_int_upto15=0.20, count_int_sig=0.20, count_int_16=0.17, count_digit1_9=0.11, count_begin_array=0.17, count_end_array=0.17, count_zero=0.14, count_DIGIT=0.05, count_more_value=0.17
+[select] scored on the comparison rather than on the metric: count_begin_array (0.05 -> 0.17), count_end_array (0.05 -> 0.17), count_more_value (0.03 -> 0.17)
+[select] dropped count_string: |rho|=0.98 with num_pairs, which is already kept
+[select] dropped count_more_member: |rho|=1.00 with num_pairs, which is already kept
+[select] dropped count_ws: |rho|=0.90 with num_pairs, which is already kept
+[select] dropped count_value_separator: |rho|=0.91 with num_pairs, which is already kept
+[select] dropped count_value: |rho|=0.91 with num_pairs, which is already kept
+[select] dropped count_true: |rho|=0.84 with num_pairs, which is already kept
+[select] dropped num_arrays: |rho|=0.81 with num_pairs, which is already kept
+[select] dropped count_false: |rho|=0.82 with num_pairs, which is already kept
+[select] dropped count_null: |rho|=0.81 with num_pairs, which is already kept
+[select] dropped count_hex_bmp: over the 4-property cap
+[select] dropped count_end_object: over the 4-property cap
+[select] dropped count_unescaped_utf8_4: over the 4-property cap
+[select] dropped count_begin_object: over the 4-property cap
+[select] dropped count_unescaped_utf8_2: over the 4-property cap
+[select] dropped depth: over the 4-property cap
+[select] dropped count_unescaped_nonascii: over the 4-property cap
+[select] dropped count_unescaped_utf8_3: over the 4-property cap
+[select] dropped count_minus_opt: over the 4-property cap
+[select] dropped num_numbers: over the 4-property cap
+[select] dropped count_escaped: over the 4-property cap
+[select] dropped count_object: over the 4-property cap
+[select] dropped count_unescaped_alnum: over the 4-property cap
+[select] dropped count_unescaped_ascii_other: over the 4-property cap
+[select] dropped count_char_3: over the 4-property cap
+[select] dropped count_hex_high_surrogate: over the 4-property cap
+[select] dropped count_hex_low_surrogate: over the 4-property cap
+[select] dropped count_hex_high_surrogate_not3f: over the 4-property cap
+[select] dropped count_char_2: over the 4-property cap
+[select] dropped count_hex_low_surrogate_fffe: over the 4-property cap
+[select] dropped total_string_len: over the 4-property cap
+[select] dropped count_integer_number: over the 4-property cap
+[select] dropped count_exp_opt: over the 4-property cap
+[select] dropped count_float_number: over the 4-property cap
+[select] dropped count_int_frac: over the 4-property cap
+[select] dropped count_minus: over the 4-property cap
+[select] dropped count_exp: over the 4-property cap
+[select] dropped count_exp_zeros: over the 4-property cap
+[select] dropped count_int_upto15: over the 4-property cap
+[select] dropped count_int_sig: over the 4-property cap
+[select] dropped count_int_16: over the 4-property cap
+[select] dropped count_digit1_9: over the 4-property cap
+[select] dropped count_begin_array: over the 4-property cap
+[select] dropped count_end_array: over the 4-property cap
+[select] dropped count_zero: over the 4-property cap
+[select] dropped count_DIGIT: over the 4-property cap
+[select] dropped count_more_value: over the 4-property cap
+[select] num_pairs stands for count_string, count_more_member, count_ws, count_value_separator, count_value, count_true, num_arrays, count_false, count_null (indistinguishable here)
+[select] joint fit uses 4 of 50 properties: count_wschar, count_u_escape, count_root_scalar, num_pairs (1,296 model fits)
+[simplejson_known] loop targets 4 of 50 properties: count_wschar, count_u_escape, count_root_scalar, num_pairs
+[simplejson_known] targeting 10 regions: runtime_ns_divergence, count_u_escape_undecided0, count_wschar_x_count_root_scalar_joint, simplejson_3_20_2_runtime_ns_num_pairs_discriminate, count_wschar_beyond, runtime_ns_high, count_root_scalar_edge, runtime_ns_sparse0, count_wschar_sparse8_0, memory_peak_divergence
+  [runtime_ns_divergence] 119s: +4 new input(s), 4 distinct shape(s), 4 measured
+  [count_u_escape_undecided0] 2 comparison(s) undecided in count_u_escape [1.648,2.714): simplejson_3_20_2 vs simplejson_4_0_0 on runtime_ns and 1 more -> <more_member>{3,5}
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+  [count_u_escape_undecided0] 35s: +15 new input(s), 15 distinct shape(s), 15 measured
+  [count_wschar_x_count_root_scalar_joint] count_root_scalar spans 0..1 overall, 0..0 at count_wschar in [74,88.8]; maximizing it at <more_member>{24,26}
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+  [count_wschar_x_count_root_scalar_joint] 14 of 15 seeds do not parse; seeding with 1.
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+[budget] generation cut at 300s after 35 generations (889 solutions); this request is not reproducible
+  [soft] maximizing count_root_scalar: 889 candidates, best=0, keeping 15 spanning 0..0
+  [count_wschar_x_count_root_scalar_joint] 403s: +14 new input(s), 9 distinct shape(s), 14 measured [CUT: generation budget, not reproducible]
+  [simplejson_3_20_2_runtime_ns_num_pairs_discriminate] Linear vs Logarithmic tied; 32 inputs here decide it (power 1.00)
+  [simplejson_3_20_2_runtime_ns_num_pairs_discriminate] 98s: +1 new input(s), 1 distinct shape(s), 1 measured
+  [count_wschar_beyond] <more_member>{24,28} (rung 1, 4000 nodes)
+fandango:WARNING: Symbol <root_scalar> defined, but not used
+  [count_wschar_beyond] 62s: +15 new input(s), 4 distinct shape(s), 15 measured
+[WARNING] wall-clock budget reached after 3 of 14 inputs; keeping what is measured.
+  [runtime_ns_high] 120s: +2 new input(s), 2 distinct shape(s), 2 measured
+  [budget] wall-clock reached; skipping the remaining 4 request(s) this iteration.
+[simplejson_known] iter 4: corpus=764 (+102 new)
+[simplejson_known] wall-clock budget (3420s) reached before iteration 5; stopping with the corpus intact.
+[simplejson_known] grammar frontier (targeting stopped asking here):
+  count_end_object: pinned at 6 by the SEARCH; 1 escalating request(s) returned nothing further.
+  count_u_escape: pinned at 20 by the SEARCH; 1 escalating request(s) returned nothing further.
+  count_root_scalar: pinned at 1 by the SEARCH; 2 escalating request(s) returned nothing further.
+[compare] runtime_ns: 382 inputs, 2 systems (paired; ratios, 1.10x equivalence band)
+[compare] overall verdicts are weighted by what the corpus contains, which the loop itself shapes; the per-region lines are the portable claim.
+[compare] count_wschar bins move with count_null (1..7 across bins); count_u_escape (3..10 across bins); num_pairs (1..40 across bins) -- those regions are joint, not count_wschar findings
+[compare] count_null bins move with count_wschar (9..80.5 across bins); count_u_escape (1..13 across bins); num_pairs (1..40 across bins) -- those regions are joint, not count_null findings
+[compare] count_u_escape bins move with count_wschar (4..61.5 across bins); count_null (1..5.5 across bins); num_pairs (3..25 across bins) -- those regions are joint, not count_u_escape findings
+[compare] num_pairs bins move with count_wschar (3..74 across bins); count_null (1..8 across bins); count_u_escape (3..11 across bins) -- those regions are joint, not num_pairs findings
+  simplejson_3_20_2 and simplejson_4_0_0 equivalent: ratio 0.98x within the equivalence band (95% CI 0.98-0.98, n=382)
+[compare] memory_peak: 382 inputs, 2 systems (paired; ratios, 1.10x equivalence band)
+[compare] overall verdicts are weighted by what the corpus contains, which the loop itself shapes; the per-region lines are the portable claim.
+[compare] count_wschar bins move with count_null (1..7 across bins); count_u_escape (3..10 across bins); num_pairs (1..40 across bins) -- those regions are joint, not count_wschar findings
+[compare] count_null bins move with count_wschar (9..80.5 across bins); count_u_escape (1..13 across bins); num_pairs (1..40 across bins) -- those regions are joint, not count_null findings
+[compare] count_u_escape bins move with count_wschar (4..61.5 across bins); count_null (1..5.5 across bins); num_pairs (3..25 across bins) -- those regions are joint, not count_u_escape findings
+[compare] num_pairs bins move with count_wschar (3..74 across bins); count_null (1..8 across bins); count_u_escape (3..11 across bins) -- those regions are joint, not num_pairs findings
+  simplejson_3_20_2 and simplejson_4_0_0 equivalent: ratio 1.00x within the equivalence band (95% CI 1.00-1.00, n=382)
+[compare] dominance across runtime_ns, memory_peak:
+  simplejson_3_20_2 and simplejson_4_0_0 EQUIVALENT on every metric
+      count_wschar [1,2.265) (n=18): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      count_wschar [2.265,5.13) (n=18): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      count_wschar [5.13,11.62) (n=16): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      count_wschar [11.62,26.32) (n=48): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      count_wschar [26.32,59.6) (n=145): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      count_wschar [59.6,135] (n=132): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      count_null =0 (n=93): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      count_null [1,1.661) (n=38): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      count_null [1.661,2.759) (n=23): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      count_null [2.759,4.583) (n=47): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      count_null [4.583,7.612) (n=119): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      count_null [7.612,12.64) (n=52): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      count_null [12.64,21] (n=10): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      count_u_escape =0 (n=54): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      count_u_escape [1,1.648) (n=17): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      count_u_escape [2.714,4.472) (n=26): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      count_u_escape [4.472,7.368) (n=52): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      count_u_escape [7.368,12.14) (n=152): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      count_u_escape [12.14,20] (n=74): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      num_pairs =0 (n=46): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      num_pairs [1.919,3.684) (n=31): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      num_pairs [3.684,7.071) (n=27): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      num_pairs [7.071,13.57) (n=33): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      num_pairs [13.57,26.05) (n=153): simplejson_3_20_2, simplejson_4_0_0 not dominated
+      num_pairs [26.05,50] (n=88): simplejson_3_20_2, simplejson_4_0_0 not dominated
+[interference] 12 property pair(s) tested over 764 rows; 9 show a dependence
+  count_u_escape vs runtime_ns changes with count_wschar: rho by count_wschar stratum = [+0.82, +0.53, +0.21, -0.15], spread 0.97, p=0.003
+  count_u_escape vs runtime_ns changes with count_null: rho by count_null stratum = [+0.89, +0.78, +0.12, +0.18], spread 0.77, p=0.003
+  count_u_escape vs runtime_ns changes with num_pairs: rho by num_pairs stratum = [+0.85, +0.56, +0.67, +0.24], spread 0.61, p=0.003
+  count_null vs runtime_ns changes with count_wschar: rho by count_wschar stratum = [+0.47, +0.29, +0.68, +0.11], spread 0.57, p=0.003
+  count_wschar vs runtime_ns changes with count_null: rho by count_null stratum = [+0.83, +0.71, +0.46, +0.28], spread 0.55, p=0.003
+  count_wschar vs runtime_ns changes with num_pairs: rho by num_pairs stratum = [+0.75, +0.43, +0.46, +0.33], spread 0.41, p=0.003
+  -> a one-dimensional region on these properties states less than it appears to; they are candidates for a joint request.
+[simplejson_known] past the wall-clock budget; skipping the model fits and plots and writing the report. They are a function of corpus.csv, which is checkpointed, so the next run recomputes them from the same inputs rather than re-measuring.
+[simplejson_known] metric cache: 764 entries, 3166 SUT executions this run
+[simplejson_known] wall clock: 3429s of 3420s budget
+[simplejson_known] report -> ./results/rq1/20261003-0138-simplejson_known/run1/simplejson_known/report.md
+[simplejson_known] done. corpus=764 rows (382 inputs x 2 systems). Artifacts in ./results/rq1/20261003-0138-simplejson_known/run1/simplejson_known

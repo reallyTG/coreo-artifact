@@ -1,0 +1,56 @@
+$
+@@@
+
+ 		{"bd":	
+		   null	 , 
+	
+
+	"ac"
+		 
+:	
+
+ null,	
+"bad":false
+
+,"c":   [[	
+
+
+ "zz",-3E-07]
+			 	
+,[]
+	 	
+,false  	
+	,[
+	 
+ 
+
+"" 	
+
+	
+
+]		
+ ]
+  ,"cba":  	 
+[ 	-8e0  	,{"db"
+
+
+:	null,"b"		
+:
+	
+ false
+
+ ,"ac": 		-23
+
+  
+ ,"bddcdabcddcc"		 	  :{} 
+,"cdd"		 	:[
+
+ 	 ],	"abb":		
+true
+ 	   ,"ddd":null},true,   	true,null 	
+
+,
+	  false, "zz"  ,
+ 		
+"xxyxzzyx\rxx\ry\"y\rz"]} 
+ 	  
